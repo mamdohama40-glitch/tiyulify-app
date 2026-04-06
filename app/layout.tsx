@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google"; // וודא שזה מגיע מ-google ולא מ-point
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-// הגדרת הפונט שחסרה לך
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
