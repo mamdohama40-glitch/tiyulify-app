@@ -134,13 +134,38 @@ export default function TiyulifyApp() {
             {filteredData.map((item: any) => (
               <Marker key={item.id} position={item.coords}>
                 <Popup>
-                  <div className="text-right p-1 min-w-[200px]">
-                    {item.image && <img src={item.image} className="w-full h-24 object-cover rounded-lg mb-2" />}
-                    <h3 className="font-bold text-sm text-green-700">{item.name[lang as keyof typeof item.name] || item.name.he}</h3>
-                    <div className="flex flex-col gap-1.5 mt-2">
-                      <a href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} target="_blank" className="bg-blue-600 text-white text-center py-2 rounded-lg text-[10px] font-bold no-underline">Waze</a>
-                      <button onClick={() => shareViaWhatsApp(item)} className="bg-green-500 text-white text-center py-2 rounded-lg text-[10px] font-bold">שתף בוואטסאפ</button>
-                    </div>
+                  <div className="text-right p-1 min-w-[200px] flex flex-col gap-2">
+                    {/* הצגת תמונה אמיתית מה-JSON */}
+                    {item.image && (
+                      <img 
+                        src={item.image} 
+                        alt={item.name[lang as keyof typeof item.name]} 
+                        className="w-full h-32 object-cover rounded-lg shadow-sm"
+                      />
+                    )}
+    
+                   <div>
+                     <h3 className="font-bold text-lg text-green-800">
+                       {item.name[lang as keyof typeof item.name] || item.name.he}
+                     </h3>
+      
+                     {/* הצגת התיאור בשפה הנבחרת */}
+                     {item.description && (
+                       <p className="text-xs text-gray-500 mt-1 line-clamp-2">
+                         {item.description?.[lang as keyof typeof item.description] || item.description?.he}
+                       </p>
+                     )}
+                   </div>
+
+                   <div className="flex flex-col gap-2 mt-1">
+                      <a 
+                        href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} 
+                        target="_blank" 
+                        className="bg-blue-600 text-white text-center py-2 rounded-md text-sm font-bold no-underline hover:bg-blue-700 transition-colors"
+                        >
+                       ניווט ב-Waze
+                      </a>
+                   </div>
                   </div>
                 </Popup>
               </Marker>
