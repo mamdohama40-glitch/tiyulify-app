@@ -71,7 +71,7 @@ export default function TiyulifyApp() {
   return (
     <div className="flex flex-col h-screen bg-white" dir={lang === 'ar' || lang === 'he' ? 'rtl' : 'ltr'}>
       <div className="absolute top-4 left-4 z-[2000] flex gap-1 bg-white/80 p-1 rounded-full shadow-lg backdrop-blur-md border border-gray-100">
-        {['he', 'ar', 'en', 'ru'].map((l) => (
+        {['he', 'ar', 'en', 'ru'].map((l: any) => (
           <button key={l} onClick={() => setLang(l)} 
             className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-[10px] transition-all ${lang === l ? 'bg-green-600 text-white' : 'text-gray-500 hover:bg-gray-100'}`}>
             {l === 'he' ? 'עב' : l === 'ar' ? 'ع' : l.toUpperCase()}
