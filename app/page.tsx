@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import 'leaflet/dist/leaflet.css';
-import data from '../data.json';
+import _data from './data.json'
 
 export default function TiyulifyApp() {
   const [isClient, setIsClient] = useState(false);
