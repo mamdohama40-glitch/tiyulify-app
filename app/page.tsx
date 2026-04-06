@@ -20,7 +20,7 @@ export default function TiyulifyApp() {
     const matchesCategory = category === 'all' || item.category === category;
 
     return matchesName && matchesCategory;
-   });
+  });
   const [LeafletComponents, setLeafletComponents] = useState<any>(null);
   const mapRef = useRef<any>(null);
 
