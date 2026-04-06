@@ -17,7 +17,6 @@ export default function TiyulifyApp() {
     return data.filter(item => {
       const searchLower = (searchQuery || "").toLowerCase();
       
-      // מחפש התאמה בכל אחת מהשפות הקיימות ב-JSON
       const matchesName = item.name ? Object.values(item.name).some(nameStr => 
         String(nameStr).toLowerCase().includes(searchLower)
       ) : false;
@@ -65,7 +64,7 @@ export default function TiyulifyApp() {
 
   const ui: any = {
     he: { search: "חפש מקום...", results: "תוצאות", share: "שתף", nav: "ניווט" },
-    ar: { search: "بحث عن مكان...", results: "نتائج", share: "مشاركة", nav: "ملاحة" },
+    ar: { search: "بحث عن مكان...", results: "نتائج", share: "مشاركة", nav: "ملاחה" },
     en: { search: "Search place...", results: "Results", share: "Share", nav: "Navigate" },
     ru: { search: "Поиск...", results: "Результаты", share: "Поделиться", nav: "Навигация" }
   };
@@ -88,15 +87,29 @@ export default function TiyulifyApp() {
             <img src="/Logo- Mamdoh1.gif" alt="Logo" className="h-10 w-10 rounded-full border border-green-500" />
             <h1 className="text-xl font-black text-green-700 italic tracking-tighter">Tiyulify</h1>
           </div>
-          <div className="flex-1 w-full max-w-xl relative">
+          
+          {/* שורת חיפוש משודרגת */}
+          <div className="flex-1 w-full max-w-xl relative group">
             <input 
               type="text" 
               placeholder={ui[lang].search}
               value={searchQuery}
-              className="w-full bg-gray-50 border-2 border-gray-100 rounded-2xl px-5 py-2.5 outline-none focus:border-green-400 focus:bg-white transition-all text-sm"
+              className={`w-full bg-gray-50 border-2 border-gray-100 rounded-2xl py-2.5 outline-none focus:border-green-400 focus:bg-white transition-all text-sm ${lang === 'he' || lang === 'ar' ? 'pr-12 pl-5' : 'pl-12 pr-5'}`}
               onChange={(e) => setSearchQuery(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  e.currentTarget.blur();
+                }
+              }}
             />
+            {/* אייקון זכוכית מגדלת */}
+            <div className={`absolute top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-green-500 transition-colors ${lang === 'he' || lang === 'ar' ? 'right-4' : 'left-4'}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
           </div>
+
           <div className="flex gap-1">
             {['all', 'water', 'nature'].map(cat => (
               <button key={cat} onClick={() => setActiveCategory(cat)} className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${activeCategory === cat ? 'bg-green-600 text-white shadow-md' : 'bg-gray-50 text-gray-500 hover:bg-gray-100'}`}>
@@ -108,7 +121,6 @@ export default function TiyulifyApp() {
       </header>
 
       <div className="flex flex-1 overflow-hidden">
-        {/* רשימת צד */}
         <aside className="w-80 overflow-y-auto bg-gray-50 border-l p-4 hidden lg:block shadow-inner">
           <h2 className="font-bold text-gray-700 mb-4 px-1">{ui[lang].results} ({filteredData.length})</h2>
           <div className="space-y-4">
@@ -136,7 +148,6 @@ export default function TiyulifyApp() {
           </div>
         </aside>
 
-        {/* מפה */}
         <div className="flex-1 z-0 relative">
           <MapContainer center={[31.5, 34.9]} zoom={8} style={{ height: '100%', width: '100%' }} ref={mapRef}>
             <TileLayer url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png" />
