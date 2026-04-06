@@ -9,7 +9,18 @@ export default function TiyulifyApp() {
   const [lang, setLang] = useState('he');
   const [activeCategory, setActiveCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
-  const [filteredData, setFilteredData] = useState(data);
+  const filteredData = data.filter(item => {
+    const searchLower = searchTerm.toLowerCase();
+  
+    // בדיקה אם המונח קיים באחת מהשפות בתוך האובייקט name
+    const matchesName = Object.values(item.name).some(nameStr => 
+      nameStr.toLowerCase().includes(searchLower)
+    );
+
+    const matchesCategory = category === 'all' || item.category === category;
+
+    return matchesName && matchesCategory;
+   });
   const [LeafletComponents, setLeafletComponents] = useState<any>(null);
   const mapRef = useRef<any>(null);
 
