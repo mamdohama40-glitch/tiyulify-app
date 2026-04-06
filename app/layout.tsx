@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/point";
+import { Inter } from "next/font/google"; // וודא שזה מגיע מ-google ולא מ-point
 import "./globals.css";
-// הוסף את השורה הזו כאן:
-import 'leaflet/dist/leaflet.css';
+
+// הגדרת הפונט שחסרה לך
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Tiyulify",
-  description: "בניית מסלולים חכמה",
+  description: "Explore springs and nature in Israel",
 };
 
 export default function RootLayout({
@@ -16,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="he" dir="rtl">
-      <body>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

@@ -13,9 +13,9 @@ export default function TiyulifyApp() {
     const searchLower = searchTerm.toLowerCase();
   
     // בדיקה אם המונח קיים באחת מהשפות בתוך האובייקט name
-    const matchesName = Object.values(item.name).some(nameStr => 
-      nameStr.toLowerCase().includes(searchLower)
-    );
+    const matchesName = item.name ? Object.values(item.name).some(nameStr => 
+      String(nameStr).toLowerCase().includes(searchLower)
+    ) : false;
 
     const matchesCategory = category === 'all' || item.category === category;
 
@@ -162,8 +162,8 @@ export default function TiyulifyApp() {
       
                      {/* הצגת התיאור בשפה הנבחרת */}
                      {item.description && (
-                       <p className="text-xs text-gray-500 mt-1 line-clamp-2">
-                         {item.description?.[lang as keyof typeof item.description] || item.description?.he}
+                       <p className="text-xs text-gray-500 mt-1 line-clamp-2 text-right">
+                         {item.description?.[lang as keyof typeof item.description] || item.description?.he || ""}
                        </p>
                      )}
                    </div>
