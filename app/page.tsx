@@ -7,6 +7,7 @@ import data from './data.json';
 type ViewState = 'home' | 'quiz' | 'map';
 
 export default function TiyulifyApp() {
+  console.log("Total places loaded:", data.length);
   const [isClient, setIsClient] = useState(false);
   const [view, setView] = useState<ViewState>('home');
   const [lang, setLang] = useState('he');
