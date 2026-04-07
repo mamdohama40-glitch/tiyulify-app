@@ -25,56 +25,29 @@ export default function TiyulifyApp() {
   const [searchQuery, setSearchQuery] = useState('');
   const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
   const [LeafletComponents, setLeafletComponents] = useState<any>(null);
+  const [redIcon, setRedIcon] = useState<any>(null);
   const mapRef = useRef<any>(null);
 
   const ui: any = {
     he: { 
-      search: "חפש מקום...", 
-      results: "תוצאות", 
-      surprise: "תפתיע אותי", 
-      welcome: "לאן נטייל היום?", 
-      start: "בואו נתחיל", 
-      back: "חזרה", 
-      style: "מה הסגנון שלכם?", 
-      nearby: "קמ ממך",
-      home: "בית", 
-      categories: { all: "הכל", water: "מים", nature: "טבע", history: "היסטוריה", sleep: "לינה", food: "אוכל", bike: "אופניים" }
+      search: "חפש מקום...", results: "תוצאות", surprise: "תפתיע אותי", welcome: "לאן נטייל היום?", 
+      start: "בואו נתחיל", back: "חזרה", style: "מה הסגנון שלכם?", nearby: "קמ ממך",
+      home: "בית", youAreHere: "אתם כאן", categories: { all: "הכל", water: "מים", nature: "טבע", history: "היסטוריה", sleep: "לינה", food: "אוכל", bike: "אופניים" }
     },
     en: { 
-      search: "Search...", 
-      results: "Results", 
-      surprise: "Surprise Me", 
-      welcome: "Where to today?", 
-      start: "Let's Go", 
-      back: "Back", 
-      style: "What's your style?", 
-      nearby: "km away",
-      home: "Home", 
-      categories: { all: "All", water: "Water", nature: "Nature", history: "History", sleep: "Sleep", food: "Food", bike: "Bike" }
+      search: "Search...", results: "Results", surprise: "Surprise Me", welcome: "Where to today?", 
+      start: "Let's Go", back: "Back", style: "What's your style?", nearby: "km away",
+      home: "Home", youAreHere: "You are here", categories: { all: "All", water: "Water", nature: "Nature", history: "History", sleep: "Sleep", food: "Food", bike: "Bike" }
     },
     ar: { 
-      search: "بحث...", 
-      results: "نتائج", 
-      surprise: "فاجئني", 
-      welcome: "أين نذهب اليوم؟", 
-      start: "لنبدأ", 
-      back: "رجوع", 
-      style: "ما هو أسلوبك؟", 
-      nearby: "كم منك",
-      home: "الרئيسية", 
-      categories: { all: "الكل", water: "مياه", nature: "طبيعة", history: "تاريخ", sleep: "مبيت", food: "طعام", bike: "دراجات" }
+      search: "بحث...", results: "نتائج", surprise: "فاجئني", welcome: "أين نذهب היום؟", 
+      start: "لنبدأ", back: "رجوع", style: "ما هو أسلوبك؟", nearby: "كم منك",
+      home: "الرئيسية", youAreHere: "أنت هنا", categories: { all: "الكل", water: "مياه", nature: "طبيعة", history: "تاريخ", sleep: "مبيت", food: "طعام", bike: "دراجات" }
     },
     ru: { 
-      search: "Поиск...", 
-      results: "Результаты", 
-      surprise: "Удиви меня", 
-      welcome: "Куда поедем сегодня?", 
-      start: "Поехали", 
-      back: "Назад", 
-      style: "Какой стиль?", 
-      nearby: "км от вас",
-      home: "Домой", 
-      categories: { all: "Все", water: "Вода", nature: "Природа", history: "История", sleep: "Жилье", food: "Еда", bike: "Велосипед" }
+      search: "Поиск...", results: "Результаты", surprise: "Удиви меня", welcome: "Куда поедем сегодня?", 
+      start: "Поехали", back: "Назад", style: "Какой стиль?", nearby: "км от вас",
+      home: "Домой", youAreHere: "Вы здесь", categories: { all: "Все", water: "Вода", nature: "Природа", history: "История", sleep: "Жилье", food: "Еда", bike: "Велосипед" }
     }
   };
 
@@ -86,16 +59,29 @@ export default function TiyulifyApp() {
         (err) => console.log("GPS Location denied")
       );
     }
+
     Promise.all([
       import('react-leaflet'),
       import('leaflet')
     ]).then(([res, L]: any) => {
+      // הגדרת אייקון ברירת מחדל (כחול)
       delete L.Icon.Default.prototype._getIconUrl;
       L.Icon.Default.mergeOptions({
         iconRetinaUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png',
         iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png',
         shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
       });
+
+      // הגדרת אייקון אדום למיקום המשתמש
+      const redMarker = new L.Icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+        shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      });
+      setRedIcon(redMarker);
       setLeafletComponents(res);
     });
   }, []);
@@ -185,7 +171,7 @@ export default function TiyulifyApp() {
                 className="w-full bg-gray-100 border-none rounded-xl py-2 px-10 focus:ring-2 focus:ring-green-400 outline-none text-gray-800" />
               <span className={`absolute top-2.5 opacity-30 ${lang === 'he' || lang === 'ar' ? 'right-3' : 'left-3'}`}>🔍</span>
             </div>
-            <div className="flex gap-2 overflow-x-auto pb-1 w-full lg:w-auto">
+            <div className="flex gap-2 overflow-x-auto pb-1 w-full lg:w-auto no-scrollbar">
               {Object.entries(ui[lang].categories).map(([id, label]: any) => (
                 <button key={id} onClick={() => setActiveCategory(id)} 
                   className={`px-4 py-1.5 rounded-full text-sm font-bold whitespace-nowrap transition-all ${activeCategory === id ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-500'}`}>
@@ -196,27 +182,37 @@ export default function TiyulifyApp() {
           </header>
 
           <div className="flex-1 flex relative">
-            <aside className="w-80 bg-white border-r overflow-y-auto hidden md:block p-4 space-y-4 shadow-inner">
-              <div className="flex justify-between items-center mb-2 text-gray-400 font-bold text-xs">
+            <aside className="w-80 bg-white border-r overflow-y-auto hidden md:block p-4 shadow-inner">
+              <div className="flex justify-between items-center mb-4 text-gray-400 font-bold text-xs uppercase">
                 <span>{ui[lang].results} ({filteredData.length})</span>
-                {userLocation && <span className="text-green-600">📍 ממוין לפי מרחק</span>}
+                {userLocation && <span className="text-green-600">📍 ממוין לפי קרבה</span>}
               </div>
-              {filteredData.map((item: any) => {
-                const dist = userLocation ? getDistance(userLocation[0], userLocation[1], item.coords[0], item.coords[1]).toFixed(1) : null;
-                return (
-                  <div key={item.id} onClick={() => handleFlyTo(item.coords)} 
-                    className="bg-gray-50 rounded-2xl p-2 shadow-sm hover:shadow-md cursor-pointer border-2 border-transparent hover:border-green-300 transition-all group">
-                    <img src={item.image} className="w-full h-28 object-cover rounded-xl mb-2" />
-                    <h3 className="font-bold text-gray-800 text-sm">{item.name[lang] || item.name.he}</h3>
-                    {dist && <p className="text-[10px] text-green-600 font-bold mt-1">🚀 {dist} {ui[lang].nearby}</p>}
-                  </div>
-                );
-              })}
+              <div className="space-y-4">
+                {filteredData.map((item: any) => {
+                  const dist = userLocation ? getDistance(userLocation[0], userLocation[1], item.coords[0], item.coords[1]).toFixed(1) : null;
+                  return (
+                    <div key={item.id} onClick={() => handleFlyTo(item.coords)} 
+                      className="bg-gray-50 rounded-2xl p-2 shadow-sm hover:shadow-md cursor-pointer border-2 border-transparent hover:border-green-300 transition-all group">
+                      <img src={item.image} className="w-full h-28 object-cover rounded-xl mb-2" />
+                      <h3 className="font-bold text-gray-800 text-sm">{item.name[lang] || item.name.he}</h3>
+                      {dist && <p className="text-[10px] text-green-600 font-bold mt-1">🚀 {dist} {ui[lang].nearby}</p>}
+                    </div>
+                  );
+                })}
+              </div>
             </aside>
 
             <div className="flex-1 relative">
               <MapContainer center={[32.0, 34.9]} zoom={8} style={{ height: '100%', width: '100%' }} ref={mapRef}>
                 <TileLayer url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png" />
+                
+                {/* סיכה אדומה למיקום המשתמש */}
+                {userLocation && redIcon && (
+                  <Marker position={userLocation} icon={redIcon}>
+                    <Popup><div className="text-center font-bold">{ui[lang].youAreHere}</div></Popup>
+                  </Marker>
+                )}
+
                 {filteredData.map((item: any) => (
                   <Marker key={item.id} position={item.coords}>
                     <Popup>
@@ -232,10 +228,11 @@ export default function TiyulifyApp() {
                   </Marker>
                 ))}
               </MapContainer>
+
               <button onClick={handleSurprise} className="absolute bottom-24 left-6 z-[2000] bg-green-600 text-white w-16 h-16 rounded-full shadow-2xl flex flex-col items-center justify-center text-xs font-bold border-4 border-white hover:bg-green-700 transition-all">
                 <span className="text-2xl mb-0.5">🎲</span> {ui[lang].surprise}
               </button>
-              <button onClick={() => setView('home')} className="absolute bottom-6 left-6 z-[2000] bg-white text-green-600 w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-2xl border-2 border-green-600">
+              <button onClick={() => setView('home')} className="absolute bottom-6 left-6 z-[2000] bg-white text-green-600 w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-2xl border-2 border-green-600 hover:bg-green-50">
                 🏠
               </button>
             </div>
@@ -244,6 +241,7 @@ export default function TiyulifyApp() {
       )}
       <style jsx global>{`
         .leaflet-marker-icon { margin-top: -34px !important; margin-left: -12px !important; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
       `}</style>
     </div>
   );
