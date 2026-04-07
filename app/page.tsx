@@ -6,8 +6,9 @@ import data from './data.json';
 
 type ViewState = 'home' | 'quiz' | 'map';
 
+// פונקציה לחישוב מרחק אווירי בין המשתמש למקום
 function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
-  const R = 6371;
+  const R = 6371; // רדיוס כדור הארץ בק"מ
   const dLat = (lat2 - lat1) * Math.PI / 180;
   const dLon = (lon2 - lon1) * Math.PI / 180;
   const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
@@ -30,22 +31,22 @@ export default function TiyulifyApp() {
   const ui: any = {
     he: { 
       search: "חפש מקום...", results: "תוצאות", surprise: "תפתיע אותי", welcome: "לאן נטייל היום?", 
-      start: "בואו נתחיל", back: "חזרה", style: "מה הסגנון שלכם?", nearby: "קרוב אלי",
+      start: "בואו נתחיל", back: "חזרה", style: "מה הסגנון שלכם?", nearby: "ק"מ ממך",
       home: "בית", categories: { all: "הכל", water: "מים", nature: "טבע", history: "היסטוריה", sleep: "לינה", food: "אוכל", bike: "אופניים" }
     },
     en: { 
       search: "Search...", results: "Results", surprise: "Surprise Me", welcome: "Where to today?", 
-      start: "Let's Go", back: "Back", style: "What's your style?", nearby: "Near Me",
+      start: "Let's Go", back: "Back", style: "What's your style?", nearby: "km away",
       home: "Home", categories: { all: "All", water: "Water", nature: "Nature", history: "History", sleep: "Sleep", food: "Food", bike: "Bike" }
     },
     ar: { 
-      search: "بحث...", results: "نتائج", surprise: "فاجئني", welcome: "أين نذهب היום؟", 
-      start: "لنبدأ", back: "رجوع", style: "ما هو أسلوبك؟", nearby: "قريب مني",
-      home: "الرئيسية", categories: { all: "الكل", water: "مياه", nature: "طبيعة", history: "تاريخ", sleep: "مبيت", food: "طعام", bike: "دراجات" }
+      search: "بحث...", results: "نتائج", surprise: "فاجئني", welcome: "أين נذهب اليوم؟", 
+      start: "لنبدأ", back: "رجوع", style: "ما هو أسلوبك؟", nearby: "كم منك",
+      home: "الرئيسية", categories: { all: "الكل", water: "مياه", nature: "طبيعة", history: "تاريخ", sleep: "مבית", food: "طعام", bike: "دراجات" }
     },
     ru: { 
       search: "Поиск...", results: "Результаты", surprise: "Удиви меня", welcome: "Куда поедем сегодня?", 
-      start: "Поехали", back: "Назад", style: "Какой стиль?", nearby: "Рядом",
+      start: "Поехали", back: "Назад", style: "Какой стиль?", nearby: "км от вас",
       home: "Домой", categories: { all: "Все", water: "Вода", nature: "Природа", history: "История", sleep: "Жилье", food: "Еда", bike: "Велосипед" }
     }
   };
@@ -54,18 +55,17 @@ export default function TiyulifyApp() {
     water: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800",
     nature: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800",
     history: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800",
-    food: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800",
-    sleep: "https://images.unsplash.com/photo-1523906834658-6e24ef23a6f8?w=800",
-    bike: "https://images.unsplash.com/photo-1444491741275-3747c53c99b4?w=800",
     all: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800"
   };
 
   useEffect(() => {
     setIsClient(true);
+    
+    // זיהוי מיקום GPS
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (pos) => setUserLocation([pos.coords.latitude, pos.coords.longitude]),
-        (err) => console.log("Location denied")
+        (err) => console.log("GPS Location denied")
       );
     }
 
@@ -91,6 +91,7 @@ export default function TiyulifyApp() {
       return matchesName && matchesCategory;
     });
 
+    // מיון לפי מרחק מהמשתמש
     if (userLocation) {
       return [...result].sort((a, b) => {
         const distA = getDistance(userLocation[0], userLocation[1], a.coords[0], a.coords[1]);
@@ -105,6 +106,14 @@ export default function TiyulifyApp() {
     if (mapRef.current) mapRef.current.flyTo(coords, 14);
   };
 
+  const handleSurprise = () => {
+    // הגרלה מתוך המקומות שקרובים אליך (5 הראשונים ברשימה)
+    const pool = filteredData.length > 0 ? filteredData.slice(0, 10) : data;
+    const place = pool[Math.floor(Math.random() * pool.length)];
+    setView('map');
+    setTimeout(() => handleFlyTo(place.coords as [number, number]), 500);
+  };
+
   if (!isClient || !LeafletComponents) return null;
 
   const { MapContainer, TileLayer, Marker, Popup } = LeafletComponents;
@@ -114,87 +123,86 @@ export default function TiyulifyApp() {
       
       {/* מסך בית */}
       {view === 'home' && (
-        <div className="flex-1 flex flex-col items-center justify-center p-6 bg-[url('https://images.unsplash.com/photo-1548777123-e216912df7d8?w=1200')] bg-cover bg-center relative">
-          <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]" />
-          
-          {/* בורר שפות במסך הבית */}
-          <div className="absolute top-6 flex gap-2 z-20">
-            {['he', 'ar', 'en', 'ru'].map((l) => (
-              <button key={l} onClick={() => setLang(l)} className={`w-10 h-10 rounded-full font-bold transition-all border ${lang === l ? 'bg-green-600 text-white border-green-600' : 'bg-white/20 text-white border-white/50'}`}>{l === 'he' ? 'עב' : l === 'ar' ? 'ع' : l.toUpperCase()}</button>
-            ))}
-          </div>
-
-          <div className="relative z-10 text-white text-center mt-20">
-            <h1 className="text-7xl font-black mb-4 tracking-tighter drop-shadow-2xl">Tiyulify</h1>
+        <div className="flex-1 flex flex-col items-center justify-center p-6 bg-[url('https://images.unsplash.com/photo-1548777123-e216912df7d8?w=1200')] bg-cover bg-center relative text-white">
+          <div className="absolute inset-0 bg-black/50 backdrop-blur-[2px]" />
+          <div className="relative z-10 text-center">
+            <h1 className="text-8xl font-black mb-4 tracking-tighter drop-shadow-2xl italic">Tiyulify</h1>
             <p className="text-2xl font-light mb-12 opacity-90">{ui[lang].welcome}</p>
-            <button onClick={() => setView('quiz')} className="bg-green-500 hover:bg-green-600 text-white px-12 py-4 rounded-2xl font-bold text-2xl shadow-2xl transition-all transform hover:scale-105 active:scale-95">
-              {ui[lang].start}
-            </button>
+            <div className="flex flex-col gap-4 w-64 mx-auto">
+              <button onClick={() => setView('quiz')} className="bg-green-500 hover:bg-green-600 py-4 rounded-2xl font-bold text-2xl shadow-2xl transition-transform active:scale-95">
+                {ui[lang].start}
+              </button>
+              <button onClick={handleSurprise} className="bg-white/20 hover:bg-white/30 backdrop-blur-md border-2 border-white/50 py-4 rounded-2xl font-bold text-xl">
+                🎲 {ui[lang].surprise}
+              </button>
+            </div>
+            {/* שפות במסך בית */}
+            <div className="mt-12 flex justify-center gap-3">
+              {['he', 'ar', 'en', 'ru'].map(l => (
+                <button key={l} onClick={() => setLang(l)} className={`px-4 py-2 rounded-lg font-bold border ${lang === l ? 'bg-green-600 border-green-600' : 'bg-white/10 border-white/30'}`}>{l.toUpperCase()}</button>
+              ))}
+            </div>
           </div>
         </div>
       )}
 
-      {/* שאלון קטגוריות */}
+      {/* שאלון (Mood/Style) */}
       {view === 'quiz' && (
-        <div className="flex-1 flex flex-col items-center justify-center p-6 bg-green-50">
+        <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-50">
           <h2 className="text-4xl font-black text-gray-800 mb-10">{ui[lang].style}</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-3xl">
             {Object.entries(ui[lang].categories).filter(([id]) => id !== 'all').map(([id, label]: any) => (
               <button key={id} onClick={() => { setActiveCategory(id); setView('map'); }}
-                className="aspect-square flex flex-col items-center justify-center gap-4 bg-white hover:bg-white rounded-3xl shadow-md hover:shadow-xl border-4 border-transparent hover:border-green-400 transition-all group">
-                <span className="text-5xl group-hover:scale-110 transition-transform">
+                className="aspect-square flex flex-col items-center justify-center gap-4 bg-white hover:bg-green-50 rounded-3xl shadow-md border-4 border-transparent hover:border-green-400 transition-all group">
+                <span className="text-6xl group-hover:scale-125 transition-transform">
                   {id === 'water' ? '💦' : id === 'nature' ? '🏞️' : id === 'history' ? '🏰' : id === 'sleep' ? '🏕️' : id === 'food' ? '🍕' : '🚲'}
                 </span>
                 <span className="font-black text-gray-700 text-lg">{label}</span>
               </button>
             ))}
           </div>
-          <button onClick={() => setView('home')} className="mt-12 text-green-700 font-bold underline text-lg">{ui[lang].back}</button>
+          <button onClick={() => setView('home')} className="mt-12 text-green-700 font-bold underline">{ui[lang].back}</button>
         </div>
       )}
 
       {/* מצב מפה */}
       {view === 'map' && (
-        <div className="flex flex-col h-full">
-          <header className="bg-white border-b p-3 flex flex-col lg:flex-row items-center gap-4 z-[2000] shadow-md">
-            <div className="flex items-center gap-4 w-full lg:w-auto">
-              <h2 className="text-2xl font-black text-green-700 cursor-pointer" onClick={() => setView('home')}>Tiyulify</h2>
-              
-              {/* בורר שפה משולב ב-Header */}
-              <div className="flex gap-1 bg-gray-100 p-1 rounded-lg">
-                {['he', 'ar', 'en', 'ru'].map((l) => (
-                  <button key={l} onClick={() => setLang(l)} className={`px-2 py-1 rounded text-[10px] font-bold ${lang === l ? 'bg-green-600 text-white' : 'text-gray-400'}`}>{l.toUpperCase()}</button>
-                ))}
-              </div>
-            </div>
-
+        <div className="flex flex-col h-full relative">
+          <header className="bg-white/90 backdrop-blur-md border-b p-4 flex flex-col lg:flex-row items-center gap-4 z-[2000] shadow-sm">
+            <h2 className="text-3xl font-black text-green-700 cursor-pointer" onClick={() => setView('home')}>Tiyulify</h2>
             <div className="flex-1 w-full max-w-md relative">
               <input type="text" placeholder={ui[lang].search} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-gray-50 border-2 border-gray-100 rounded-xl py-2 px-10 focus:border-green-400 outline-none transition-all" />
+                className="w-full bg-gray-100 border-none rounded-xl py-2 px-10 focus:ring-2 focus:ring-green-400 outline-none" />
               <span className={`absolute top-2.5 opacity-30 ${lang === 'he' || lang === 'ar' ? 'right-3' : 'left-3'}`}>🔍</span>
             </div>
-
-            <div className="flex gap-2 overflow-x-auto pb-1 w-full lg:w-auto no-scrollbar">
+            <div className="flex gap-2 overflow-x-auto pb-1 w-full lg:w-auto">
               {Object.entries(ui[lang].categories).map(([id, label]: any) => (
                 <button key={id} onClick={() => setActiveCategory(id)} 
-                  className={`px-4 py-2 rounded-xl text-sm font-bold whitespace-nowrap transition-all ${activeCategory === id ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}>
+                  className={`px-4 py-1.5 rounded-full text-sm font-bold whitespace-nowrap transition-all ${activeCategory === id ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-500'}`}>
                   {label}
                 </button>
               ))}
             </div>
           </header>
 
-          <div className="flex-1 flex relative overflow-hidden">
-            {/* רשימה צדדית */}
-            <aside className="w-80 bg-gray-50 border-r overflow-y-auto hidden md:block p-4 space-y-4">
-              <p className="text-xs font-bold text-gray-400 uppercase">{ui[lang].results} ({filteredData.length})</p>
-              {filteredData.map((item: any) => (
-                <div key={item.id} onClick={() => handleFlyTo(item.coords)} 
-                  className="bg-white rounded-2xl p-2 shadow-sm hover:shadow-md cursor-pointer border-2 border-transparent hover:border-green-300 transition-all group">
-                  <img src={item.image} onError={(e:any) => e.target.src = categoryPlaceholders[item.category]} className="w-full h-28 object-cover rounded-xl mb-2" />
-                  <h3 className="font-bold text-gray-800 text-sm">{item.name[lang] || item.name.he}</h3>
-                </div>
-              ))}
+          <div className="flex-1 flex relative">
+            {/* רשימת תוצאות - ממוינת לפי מרחק */}
+            <aside className="w-80 bg-white border-r overflow-y-auto hidden md:block p-4 space-y-4 shadow-inner">
+              <div className="flex justify-between items-center mb-2">
+                <span className="text-xs font-bold text-gray-400 uppercase">{ui[lang].results} ({filteredData.length})</span>
+                {userLocation && <span className="text-[10px] text-green-600 font-bold">📍 ממוין לפי מרחק</span>}
+              </div>
+              {filteredData.map((item: any) => {
+                const dist = userLocation ? getDistance(userLocation[0], userLocation[1], item.coords[0], item.coords[1]).toFixed(1) : null;
+                return (
+                  <div key={item.id} onClick={() => handleFlyTo(item.coords)} 
+                    className="bg-gray-50 rounded-2xl p-2 shadow-sm hover:shadow-md cursor-pointer border-2 border-transparent hover:border-green-300 transition-all group">
+                    <img src={item.image} onError={(e:any) => e.target.src = categoryPlaceholders[item.category] || categoryPlaceholders.all} className="w-full h-28 object-cover rounded-xl mb-2" />
+                    <h3 className="font-bold text-gray-800 text-sm">{item.name[lang] || item.name.he}</h3>
+                    {dist && <p className="text-[10px] text-green-600 font-bold mt-1">🚀 {dist} {ui[lang].nearby}</p>}
+                  </div>
+                );
+              })}
             </aside>
 
             {/* מפה */}
@@ -204,12 +212,12 @@ export default function TiyulifyApp() {
                 {filteredData.map((item: any) => (
                   <Marker key={item.id} position={item.coords}>
                     <Popup>
-                      <div className="text-right font-sans min-w-[180px]">
-                        <img src={item.image} onError={(e:any) => e.target.src = categoryPlaceholders[item.category]} className="w-full h-24 object-cover rounded-lg mb-2" />
+                      <div className="text-right font-sans min-w-[200px]">
+                        <img src={item.image} onError={(e:any) => e.target.src = categoryPlaceholders[item.category] || categoryPlaceholders.all} className="w-full h-24 object-cover rounded-lg mb-2" />
                         <h4 className="font-bold text-green-800 m-0">{item.name[lang] || item.name.he}</h4>
                         <div className="flex gap-2 mt-3">
-                          <a href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-2 rounded-md text-[10px] font-bold no-underline">WAZE</a>
-                          <a href={`https://www.google.com/maps/search/?api=1&query=${item.coords[0]},${item.coords[1]}`} target="_blank" className="flex-1 bg-gray-200 text-gray-700 text-center py-2 rounded-md text-[10px] font-bold no-underline">MAPS</a>
+                          <a href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-2 rounded-lg text-xs font-bold no-underline">Waze</a>
+                          <a href={`https://www.google.com/maps/search/?api=1&query=${item.coords[0]},${item.coords[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-2 rounded-lg text-xs font-bold no-underline">Google</a>
                         </div>
                       </div>
                     </Popup>
@@ -217,8 +225,13 @@ export default function TiyulifyApp() {
                 ))}
               </MapContainer>
 
-              {/* כפתור בית צף */}
-              <button onClick={() => setView('home')} className="absolute bottom-6 right-6 z-[2000] bg-white text-green-600 w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-2xl border-2 border-green-600 hover:bg-green-50 transition-all transform hover:scale-110">
+              {/* כפתור תפתיע אותי חכם - צף מעל המפה */}
+              <button onClick={handleSurprise} className="absolute bottom-24 left-6 z-[2000] bg-green-600 text-white w-16 h-16 rounded-full shadow-2xl flex flex-col items-center justify-center text-xs font-bold border-4 border-white hover:bg-green-700 transition-all">
+                <span className="text-2xl mb-0.5">🎲</span> {ui[lang].surprise}
+              </button>
+
+              {/* כפתור בית */}
+              <button onClick={() => setView('home')} className="absolute bottom-6 left-6 z-[2000] bg-white text-green-600 w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-2xl border-2 border-green-600">
                 🏠
               </button>
             </div>
@@ -226,12 +239,9 @@ export default function TiyulifyApp() {
         </div>
       )}
       
-      {/* תיקון CSS למרקרים של Leaflet */}
+      {/* CSS לתיקון המרקרים */}
       <style jsx global>{`
-        .leaflet-marker-icon, .leaflet-marker-shadow {
-          margin-top: -34px !important;
-          margin-left: -12px !important;
-        }
+        .leaflet-marker-icon { margin-top: -34px !important; margin-left: -12px !important; }
         .no-scrollbar::-webkit-scrollbar { display: none; }
       `}</style>
     </div>
