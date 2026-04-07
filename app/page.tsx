@@ -64,17 +64,31 @@ export default function TiyulifyApp() {
 
   useEffect(() => {
     setIsClient(true);
-    // טעינת מיקום משתמש
+    
+    // בקשת מיקום מהמשתמש
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (pos) => setUserLocation([pos.coords.latitude, pos.coords.longitude]),
-        (err) => console.log("Location denied")
+        (err) => console.log("Location access denied")
       );
     }
 
-    import('react-leaflet').then((res) => setLeafletComponents(res));
+    // ייבוא דינמי של המפה ותיקון האייקונים המשובשים
+    Promise.all([
+      import('react-leaflet'),
+      import('leaflet')
+    ]).then(([res, L]: any) => {
+      // הקוד הקריטי שמתקן את האייקונים:
+      delete L.Icon.Default.prototype._getIconUrl;
+      L.Icon.Default.mergeOptions({
+        iconRetinaUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png',
+        iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png',
+        shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
+      });
+      setLeafletComponents(res);
+    });
   }, []);
-
+  
   const filteredData = useMemo(() => {
     let result = data.filter(item => {
       const searchLower = searchQuery.toLowerCase();
