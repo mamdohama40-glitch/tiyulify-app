@@ -6,9 +6,8 @@ import data from './data.json';
 
 type ViewState = 'home' | 'quiz' | 'map';
 
-// פונקציה לחישוב מרחק אווירי בין המשתמש למקום
 function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
-  const R = 6371; // רדיוס כדור הארץ בק"מ
+  const R = 6371;
   const dLat = (lat2 - lat1) * Math.PI / 180;
   const dLon = (lon2 - lon1) * Math.PI / 180;
   const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
@@ -30,45 +29,63 @@ export default function TiyulifyApp() {
 
   const ui: any = {
     he: { 
-      search: "חפש מקום...", results: "תוצאות", surprise: "תפתיע אותי", welcome: "לאן נטייל היום?", 
-      start: "בואו נתחיל", back: "חזרה", style: "מה הסגנון שלכם?", nearby: "ק"מ ממך",
-      home: "בית", categories: { all: "הכל", water: "מים", nature: "טבע", history: "היסטוריה", sleep: "לינה", food: "אוכל", bike: "אופניים" }
+      search: "חפש מקום...", 
+      results: "תוצאות", 
+      surprise: "תפתיע אותי", 
+      welcome: "לאן נטייל היום?", 
+      start: "בואו נתחיל", 
+      back: "חזרה", 
+      style: "מה הסגנון שלכם?", 
+      nearby: "קמ ממך",
+      home: "בית", 
+      categories: { all: "הכל", water: "מים", nature: "טבע", history: "היסטוריה", sleep: "לינה", food: "אוכל", bike: "אופניים" }
     },
     en: { 
-      search: "Search...", results: "Results", surprise: "Surprise Me", welcome: "Where to today?", 
-      start: "Let's Go", back: "Back", style: "What's your style?", nearby: "km away",
-      home: "Home", categories: { all: "All", water: "Water", nature: "Nature", history: "History", sleep: "Sleep", food: "Food", bike: "Bike" }
+      search: "Search...", 
+      results: "Results", 
+      surprise: "Surprise Me", 
+      welcome: "Where to today?", 
+      start: "Let's Go", 
+      back: "Back", 
+      style: "What's your style?", 
+      nearby: "km away",
+      home: "Home", 
+      categories: { all: "All", water: "Water", nature: "Nature", history: "History", sleep: "Sleep", food: "Food", bike: "Bike" }
     },
     ar: { 
-      search: "بحث...", results: "نتائج", surprise: "فاجئني", welcome: "أين נذهب اليوم؟", 
-      start: "لنبدأ", back: "رجوع", style: "ما هو أسلوبك؟", nearby: "كم منك",
-      home: "الرئيسية", categories: { all: "الكل", water: "مياه", nature: "طبيعة", history: "تاريخ", sleep: "مבית", food: "طعام", bike: "دراجات" }
+      search: "بحث...", 
+      results: "نتائج", 
+      surprise: "فاجئني", 
+      welcome: "أين نذهب اليوم؟", 
+      start: "لنبدأ", 
+      back: "رجوع", 
+      style: "ما هو أسلوبك؟", 
+      nearby: "كم منك",
+      home: "الרئيسية", 
+      categories: { all: "الكل", water: "مياه", nature: "طبيعة", history: "تاريخ", sleep: "مبيت", food: "طعام", bike: "دراجات" }
     },
     ru: { 
-      search: "Поиск...", results: "Результаты", surprise: "Удиви меня", welcome: "Куда поедем сегодня?", 
-      start: "Поехали", back: "Назад", style: "Какой стиль?", nearby: "км от вас",
-      home: "Домой", categories: { all: "Все", water: "Вода", nature: "Природа", history: "История", sleep: "Жилье", food: "Еда", bike: "Велосипед" }
+      search: "Поиск...", 
+      results: "Результаты", 
+      surprise: "Удиви меня", 
+      welcome: "Куда поедем сегодня?", 
+      start: "Поехали", 
+      back: "Назад", 
+      style: "Какой стиль?", 
+      nearby: "км от вас",
+      home: "Домой", 
+      categories: { all: "Все", water: "Вода", nature: "Природа", history: "История", sleep: "Жилье", food: "Еда", bike: "Велосипед" }
     }
-  };
-
-  const categoryPlaceholders: any = {
-    water: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800",
-    nature: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800",
-    history: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800",
-    all: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800"
   };
 
   useEffect(() => {
     setIsClient(true);
-    
-    // זיהוי מיקום GPS
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (pos) => setUserLocation([pos.coords.latitude, pos.coords.longitude]),
         (err) => console.log("GPS Location denied")
       );
     }
-
     Promise.all([
       import('react-leaflet'),
       import('leaflet')
@@ -90,8 +107,6 @@ export default function TiyulifyApp() {
       const matchesCategory = activeCategory === 'all' || item.category === activeCategory;
       return matchesName && matchesCategory;
     });
-
-    // מיון לפי מרחק מהמשתמש
     if (userLocation) {
       return [...result].sort((a, b) => {
         const distA = getDistance(userLocation[0], userLocation[1], a.coords[0], a.coords[1]);
@@ -107,21 +122,19 @@ export default function TiyulifyApp() {
   };
 
   const handleSurprise = () => {
-    // הגרלה מתוך המקומות שקרובים אליך (5 הראשונים ברשימה)
     const pool = filteredData.length > 0 ? filteredData.slice(0, 10) : data;
     const place = pool[Math.floor(Math.random() * pool.length)];
+    setActiveCategory('all');
+    setSearchQuery('');
     setView('map');
     setTimeout(() => handleFlyTo(place.coords as [number, number]), 500);
   };
 
   if (!isClient || !LeafletComponents) return null;
-
   const { MapContainer, TileLayer, Marker, Popup } = LeafletComponents;
 
   return (
     <div className="flex flex-col h-screen bg-white font-sans overflow-hidden" dir={lang === 'ar' || lang === 'he' ? 'rtl' : 'ltr'}>
-      
-      {/* מסך בית */}
       {view === 'home' && (
         <div className="flex-1 flex flex-col items-center justify-center p-6 bg-[url('https://images.unsplash.com/photo-1548777123-e216912df7d8?w=1200')] bg-cover bg-center relative text-white">
           <div className="absolute inset-0 bg-black/50 backdrop-blur-[2px]" />
@@ -136,7 +149,6 @@ export default function TiyulifyApp() {
                 🎲 {ui[lang].surprise}
               </button>
             </div>
-            {/* שפות במסך בית */}
             <div className="mt-12 flex justify-center gap-3">
               {['he', 'ar', 'en', 'ru'].map(l => (
                 <button key={l} onClick={() => setLang(l)} className={`px-4 py-2 rounded-lg font-bold border ${lang === l ? 'bg-green-600 border-green-600' : 'bg-white/10 border-white/30'}`}>{l.toUpperCase()}</button>
@@ -146,7 +158,6 @@ export default function TiyulifyApp() {
         </div>
       )}
 
-      {/* שאלון (Mood/Style) */}
       {view === 'quiz' && (
         <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-50">
           <h2 className="text-4xl font-black text-gray-800 mb-10">{ui[lang].style}</h2>
@@ -165,14 +176,13 @@ export default function TiyulifyApp() {
         </div>
       )}
 
-      {/* מצב מפה */}
       {view === 'map' && (
         <div className="flex flex-col h-full relative">
           <header className="bg-white/90 backdrop-blur-md border-b p-4 flex flex-col lg:flex-row items-center gap-4 z-[2000] shadow-sm">
             <h2 className="text-3xl font-black text-green-700 cursor-pointer" onClick={() => setView('home')}>Tiyulify</h2>
             <div className="flex-1 w-full max-w-md relative">
               <input type="text" placeholder={ui[lang].search} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-gray-100 border-none rounded-xl py-2 px-10 focus:ring-2 focus:ring-green-400 outline-none" />
+                className="w-full bg-gray-100 border-none rounded-xl py-2 px-10 focus:ring-2 focus:ring-green-400 outline-none text-gray-800" />
               <span className={`absolute top-2.5 opacity-30 ${lang === 'he' || lang === 'ar' ? 'right-3' : 'left-3'}`}>🔍</span>
             </div>
             <div className="flex gap-2 overflow-x-auto pb-1 w-full lg:w-auto">
@@ -186,18 +196,17 @@ export default function TiyulifyApp() {
           </header>
 
           <div className="flex-1 flex relative">
-            {/* רשימת תוצאות - ממוינת לפי מרחק */}
             <aside className="w-80 bg-white border-r overflow-y-auto hidden md:block p-4 space-y-4 shadow-inner">
-              <div className="flex justify-between items-center mb-2">
-                <span className="text-xs font-bold text-gray-400 uppercase">{ui[lang].results} ({filteredData.length})</span>
-                {userLocation && <span className="text-[10px] text-green-600 font-bold">📍 ממוין לפי מרחק</span>}
+              <div className="flex justify-between items-center mb-2 text-gray-400 font-bold text-xs">
+                <span>{ui[lang].results} ({filteredData.length})</span>
+                {userLocation && <span className="text-green-600">📍 ממוין לפי מרחק</span>}
               </div>
               {filteredData.map((item: any) => {
                 const dist = userLocation ? getDistance(userLocation[0], userLocation[1], item.coords[0], item.coords[1]).toFixed(1) : null;
                 return (
                   <div key={item.id} onClick={() => handleFlyTo(item.coords)} 
                     className="bg-gray-50 rounded-2xl p-2 shadow-sm hover:shadow-md cursor-pointer border-2 border-transparent hover:border-green-300 transition-all group">
-                    <img src={item.image} onError={(e:any) => e.target.src = categoryPlaceholders[item.category] || categoryPlaceholders.all} className="w-full h-28 object-cover rounded-xl mb-2" />
+                    <img src={item.image} className="w-full h-28 object-cover rounded-xl mb-2" />
                     <h3 className="font-bold text-gray-800 text-sm">{item.name[lang] || item.name.he}</h3>
                     {dist && <p className="text-[10px] text-green-600 font-bold mt-1">🚀 {dist} {ui[lang].nearby}</p>}
                   </div>
@@ -205,7 +214,6 @@ export default function TiyulifyApp() {
               })}
             </aside>
 
-            {/* מפה */}
             <div className="flex-1 relative">
               <MapContainer center={[32.0, 34.9]} zoom={8} style={{ height: '100%', width: '100%' }} ref={mapRef}>
                 <TileLayer url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png" />
@@ -213,7 +221,7 @@ export default function TiyulifyApp() {
                   <Marker key={item.id} position={item.coords}>
                     <Popup>
                       <div className="text-right font-sans min-w-[200px]">
-                        <img src={item.image} onError={(e:any) => e.target.src = categoryPlaceholders[item.category] || categoryPlaceholders.all} className="w-full h-24 object-cover rounded-lg mb-2" />
+                        <img src={item.image} className="w-full h-24 object-cover rounded-lg mb-2" />
                         <h4 className="font-bold text-green-800 m-0">{item.name[lang] || item.name.he}</h4>
                         <div className="flex gap-2 mt-3">
                           <a href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-2 rounded-lg text-xs font-bold no-underline">Waze</a>
@@ -224,13 +232,9 @@ export default function TiyulifyApp() {
                   </Marker>
                 ))}
               </MapContainer>
-
-              {/* כפתור תפתיע אותי חכם - צף מעל המפה */}
               <button onClick={handleSurprise} className="absolute bottom-24 left-6 z-[2000] bg-green-600 text-white w-16 h-16 rounded-full shadow-2xl flex flex-col items-center justify-center text-xs font-bold border-4 border-white hover:bg-green-700 transition-all">
                 <span className="text-2xl mb-0.5">🎲</span> {ui[lang].surprise}
               </button>
-
-              {/* כפתור בית */}
               <button onClick={() => setView('home')} className="absolute bottom-6 left-6 z-[2000] bg-white text-green-600 w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-2xl border-2 border-green-600">
                 🏠
               </button>
@@ -238,11 +242,8 @@ export default function TiyulifyApp() {
           </div>
         </div>
       )}
-      
-      {/* CSS לתיקון המרקרים */}
       <style jsx global>{`
         .leaflet-marker-icon { margin-top: -34px !important; margin-left: -12px !important; }
-        .no-scrollbar::-webkit-scrollbar { display: none; }
       `}</style>
     </div>
   );
