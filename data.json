@@ -1,154 +1,3152 @@
 [
-  { "id": "1", "name": {"he": "חרמון", "ar": "جبل الشيخ", "en": "Mount Hermon", "ru": "Хермон"}, "coords": [33.3150, 35.7830], "category": "nature", "image": "https://images.unsplash.com/photo-1548777123-e216912df7d8?w=500", "description": {"he": "ההר הגבוה בישראל, מציע נוף אלפיני ומסלולי הליכה.", "ar": "أعلى جبل في البلاد، يتميز بمناظره الخلابة ومساراته.", "en": "Israel's highest mountain, offering alpine scenery.", "ru": "Высшая точка Израиля с альпийскими пейзажами."} },
-  { "id": "2", "name": {"he": "שניר (חצבני)", "ar": "الحاصباني", "en": "Snir Stream", "ru": "Снир"}, "coords": [33.2210, 35.6170], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500", "description": {"he": "הארוך מבין מקורות הירדן, זרימה חזקה ומסלול מוצל.", "ar": "أطول روافد نهر الأردن، يتميز بتدفقه القوي ومساراته المظللة.", "en": "The longest Jordan River source with shaded trails.", "ru": "Самый длинный приток Иордана с тенистыми тропами."} },
-  { "id": "3", "name": {"he": "דן (תל אל קאדי)", "ar": "تل القاضي", "en": "Dan Stream", "ru": "Дан"}, "coords": [33.2490, 35.6520], "category": "water", "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500", "description": {"he": "שמורה ירוקה עם פלגי מים שוצפים ועצים עתיקים.", "ar": "محمية طبيعية خلابة مع مياه جارية وأشجار قديمة.", "en": "Green reserve with flowing streams and ancient trees.", "ru": "Зеленый заповедник с бурными ручьями и вековыми деревьями."} },
-  { "id": "4", "name": {"he": "בניאס (חניון האקליפטוס)", "ar": "البانياس", "en": "Banias", "ru": "Баниас"}, "coords": [33.2480, 35.6940], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": {"he": "מפל מרשים, גשרון תלוי ושרידים ארכיאולוגיים.", "ar": "شلال رائع وجسر معلق وبقايا أثرية قديمة.", "en": "Impressive waterfall, suspended bridge, and ancient ruins.", "ru": "Впечатляющий водопад и археологические памятники."} },
-  { "id": "5", "name": {"he": "נחל עיון (דרדרה)", "ar": "عيون - دردرة", "en": "Ayoun", "ru": "Аюн"}, "coords": [33.2670, 35.5800], "category": "water", "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500", "description": {"he": "קניון עמוק עם ארבעה מפלים זורמים כל השנה.", "ar": "وادٍ عميق يضم أربعة شلالات تتدفق طوال العام.", "en": "A deep canyon with four year-round waterfalls.", "ru": "Глубокий каньон с четырьмя водопадами."} },
-  { "id": "6", "name": {"he": "מבצר נמרוד", "ar": "قلعة نمرود", "en": "Nimrod Fortress", "ru": "Крепость Нимрод"}, "coords": [33.2520, 35.7140], "category": "history", "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500", "description": {"he": "מבצר גדול מימי הביניים הצופה על עמק החולה.", "ar": "قلعة تاريخية ضخمة تطل على سهل الحولة.", "en": "A massive medieval fortress overlooking the Hula Valley.", "ru": "Огромная средневековая крепость над долиной Хула."} },
-  { "id": "7", "name": {"he": "נחל חזורי / ואדי דפלה", "ar": "واد حازوري / וاد الدفلى", "en": "Hazuri Stream", "ru": "Хазури"}, "coords": [33.2510, 35.7000], "category": "nature", "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500", "description": {"he": "מסלול אתגרי בתוך חורש ים תיכוני סבוך ומרהיב.", "ar": "مسار تحدي وسط غابات البحر المتوسط الكثيفة.", "en": "Challenging hike through lush Mediterranean forest.", "ru": "Сложный маршрут через густой средиземноморский лес."} },
-  { "id": "8", "name": {"he": "נחל אל על", "ar": "واد الدفلى", "en": "El Al Stream", "ru": "Эль-Аль"}, "coords": [32.8330, 35.7410], "category": "water", "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500", "description": {"he": "מסלול טיול יפהפה בדרום הגולן עם המפל השחור והלבן.", "ar": "مسار جميل في جنوب الجولان يضم الشلالين الأسود والأبيض.", "en": "Beautiful trail in South Golan with Black & White falls.", "ru": "Прекрасный маршрут с Черным и Белым водопадами."} },
-  { "id": "9", "name": {"he": "מצפה בנטל (תל אל עראם)", "ar": "مطل تل الغرام - بنتل", "en": "Mount Bental", "ru": "Бенталь"}, "coords": [33.1270, 35.8130], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": {"he": "תצפית מרהיבה על סוריה והחרמון מלוע הר געש כבוי.", "ar": "إطلالة رائعة على سوريا وجبل الشيخ من فوهة بركان خامد.", "en": "Stunning view of Syria and Hermon from an extinct volcano.", "ru": "Вид на Сирию и Хермон с вершины потухшего вулкана."} },
-  { "id": "10", "name": {"he": "נחל ג'ילבון", "ar": "واد الجيلبون", "en": "Jilabun", "ru": "Джилабун"}, "coords": [33.0450, 35.6420], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": {"he": "קניון עמוק בגולן עם מפלים זורמים ובריכות עמוקות.", "ar": "وادٍ عميق في الجولان يضم شلالات وبرك مياه عميقة.", "en": "Deep canyon in Golan with flowing falls and deep pools.", "ru": "Глубокий каньон на Голанах с водопадами и бассейнами."} },
-  { "id": "11", "name": {"he": "נחל זוויתן / בריכת המשושים", "ar": "واد الزوايا / بركة الزوايا", "en": "Meshushim", "ru": "Мешушим"}, "coords": [32.9350, 35.6700], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": {"he": "תופעת טבע ייחודית של עמודי בזלת משושים סביב בריכה.", "ar": "ظاهرة طبيعية فريدة من نوعها لأعمدة البازلت حول البركة.", "en": "Hexagonal basalt columns surrounding a natural pool.", "ru": "Шестигранные базальтовые колонны вокруг бассейна."} },
-  { "id": "12", "name": {"he": "מצפה לשלום (כפר חרוב)", "ar": "مطل كفر حارب", "en": "Peace Vista", "ru": "Мицпе Ле-Шалом"}, "coords": [32.7660, 35.6600], "category": "nature", "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=500", "description": {"he": "תצפית פנורמית מרהיבה על הכנרת והרי הגליל.", "ar": "إطلالة بانورامية رائعة على بحيرة طبريا وجبال الجليل.", "en": "Spectacular panoramic view of the Sea of Galilee.", "ru": "Панорамный вид на Тивеריадское озеро и горы."} },
-  { "id": "13", "name": {"he": "עין נוטרה / עין תינה", "ar": "عين التينة", "en": "Ein Tina", "ru": "Эйн-Тина"}, "coords": [33.0780, 35.6530], "category": "water", "image": "https://images.unsplash.com/photo-1544198365-f5d60b6d8190?w=500", "description": {"he": "מסלול הליכה בתוך המים הזורמים במורד הגולן.", "ar": "مسار مشي وسط المياه الجارية في منحدرات الجولان.", "en": "Wet hiking trail through water flowing down the Golan.", "ru": "Водный пеший маршрут по склонам Голан."} },
-  { "id": "14", "name": {"he": "נחל עורבים", "ar": "وادي الغراب", "en": "Oravim Stream", "ru": "Оравим"}, "coords": [33.1500, 35.6700], "category": "nature", "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500", "description": {"he": "קניון פראי עם מפלים עונתיים מרשימים ונוף פתוח.", "ar": "وادٍ بري يضم شلالات موسمية رائعة ومناظر مفتوحة.", "en": "Wild canyon with seasonal falls and open landscapes.", "ru": "Дикий каньон с сезонными водопадами."} },
-  { "id": "15", "name": {"he": "נחל יהודיה", "ar": "واد اليهودية", "en": "Yehudiya", "ru": "Иегудия"}, "coords": [32.9100, 35.6900], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": {"he": "אחד המסלולים הפופולריים בגולן עם בריכות עמוקות.", "ar": "أحد أشهر المسارات في الجولان مع برك مياه عميقة.", "en": "One of the most popular Golan trails with deep pools.", "ru": "Один из популярных маршрутов с глубокими бассейнами."} },
-  { "id": "16", "name": {"he": "מצפה לשלום (מבוא חמה)", "ar": "مطل ميفؤ חמה", "en": "Mevo Hama Lookout", "ru": "Мево Хама"}, "coords": [32.7300, 35.6500], "category": "nature", "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=500", "description": {"he": "נוף מרהיב לכנרת מקצה המצוק של דרום הגולן.", "ar": "مناظر خلابة لبحيرة طبريا من حافة منحدرات جنوب الجولان.", "en": "Breathtaking Galilee views from the South Golan cliff.", "ru": "Потрясающий вид на озеро Киנнерет с обрыва."} },
-  { "id": "17", "name": {"he": "תל דן", "ar": "تل القاضي", "en": "Tel Dan", "ru": "Тель Дан"}, "coords": [33.2490, 35.6520], "category": "history", "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500", "description": {"he": "שילוב של עיר מקראית עתיקה ומקורות מים שופעים.", "ar": "مزيج من مدينة توراتية قديمة ومصادر مياه وفيرة.", "en": "Combination of an ancient biblical city and water sources.", "ru": "Древний библейский город у истоков реки Дан."} },
-  { "id": "18", "name": {"he": "עין דבשה", "ar": "عين درباشية", "en": "Ein Divsha", "ru": "Эйн-Дивша"}, "coords": [33.0906, 35.6425], "category": "water", "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500", "description": {"he": "מעיין קטן ופסטורלי עם טחנת קמח עתיקה.", "ar": "نبع صغير هادئ مع طاحونة قمح قديمة.", "en": "Small pastoral spring with an ancient flour mill.", "ru": "Небольшой пасторальный источник со старой мельницей."} },
-  { "id": "19", "name": {"he": "עין כנף", "ar": "عين دير عزيز", "en": "Ein Kanaf", "ru": "Эйн-Канаף"}, "coords": [32.8624, 35.7335], "category": "water", "image": "https://images.unsplash.com/photo-1544198365-f5d60b6d8190?w=500", "description": {"he": "שלוש בריכות יפות המשקיפות על נחל כנף והכנרת.", "ar": "ثلاث برك مياه جميلة تطل على وادي كنف وبحيرة طبريا.", "en": "Three beautiful pools overlooking Kanaf Stream.", "ru": "Три красивых бассейна с видом на ручей Канаф."} },
-  { "id": "20", "name": {"he": "עין פיק", "ar": "عين فيق", "en": "Ein Fik", "ru": "Эйн-Фик"}, "coords": [32.7753, 35.7001], "category": "water", "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500", "description": {"he": "מעיין הנובע בתוך בוסתן עצי פרי מתחת לכפר עתיק.", "ar": "نبع يتدفق داخل بستان من الأشجار المثمرة تحت قرية قديمة.", "en": "Spring flowing in an orchard below an ancient village.", "ru": "Источник в саду под древней деревней."} },
-  { "id": "21", "name": {"he": "כוכב הירדן (קוכב אל הווא)", "ar": "كوكب الهوى", "en": "Belvoir Fortress", "ru": "Кохав Ха-Яרדן"}, "coords": [32.5950, 35.5260], "category": "history", "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500", "description": {"he": "מבצר צלבני שלם המשקיף על בקעת הירדן.", "ar": "قلعة صليبية كاملة تطل على غور الأردن.", "en": "Well-preserved Crusader fortress overlooking the Jordan Valley.", "ru": "Крепость крестоносцев над долиной Иордана."} },
-  { "id": "22", "name": {"he": "כתף שאול / הר ברקן", "ar": "مطل جبل قليلة / جبل بركات", "en": "Mount Gilboa", "ru": "Гильבוא"}, "coords": [32.5030, 35.4050], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": {"he": "תצפית מרהיבה מהגלבוע אל עמק חרוד ועמק המעיינות.", "ar": "إطلالة رائعة من جبال جلبوع على سهل حارود ووادي الينابيع.", "en": "Spectacular views from Gilboa towards the valleys below.", "ru": "Вид с горы Гильбоа на долины Харод и Источников."} },
-  { "id": "23", "name": {"he": "נחל יצפור", "ar": "وادي الخراريب", "en": "Yitzpor", "ru": "Иצפור"}, "coords": [32.4840, 35.4120], "category": "nature", "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500", "description": {"he": "מסלול ירידה תלול בגלבוע בין פריחות עונתיות.", "ar": "مسار منحدر وحاد في جبال جلبوع بين الزهور الموسمية.", "en": "Steep hiking trail down Mt. Gilboa with seasonal blooms.", "ru": "Крутой спуск по горе Гильбоа среди цветов."} },
-  { "id": "24", "name": {"he": "עין שוקק / עין מודע", "ar": "عين الجوسق / الضبعة", "en": "Ein Shokek", "ru": "Эйн-Шוкек"}, "coords": [32.5020, 35.4460], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500", "description": {"he": "מעיינות צלולים וגדולים בעמק המעיינות, מים כל השנה.", "ar": "ينابيع مياه صافية وكبيرة في وادي الينابيع طوال العام.", "en": "Crystal clear year-round springs in the Valley of Springs.", "ru": "Прозрачные источники в долине Источников."} },
-  { "id": "25", "name": {"he": "נחל חרוד (ואדי ג'אלוד)", "ar": "وادي جالوت", "en": "Harod Stream", "ru": "Харод"}, "coords": [32.5280, 35.4950], "category": "water", "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500", "description": {"he": "נחל זורם עם קניון בזלת וגשרים תלויים.", "ar": "نهر جاري يضم وادٍ بازلتي وجسور معلقة.", "en": "Flowing stream with a basalt canyon and hanging bridges.", "ru": "Проточный ручей с базальтовым каньоном."} },
-  { "id": "26", "name": {"he": "נחל קיבוצים (ואדי ג'מאעין)", "ar": "وادي جماعين", "en": "Kibbutzim Stream", "ru": "Нахаль-Кибуצים"}, "coords": [32.5030, 35.4740], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": {"he": "מסלול הליכה רטוב ומהנה בתוך מים עמוקים.", "ar": "مسار مشي رطب وممتع وسط المياه العميقة.", "en": "A fun wet hiking trail inside deep water.", "ru": "Водный пеший маршрут по глубокой воде."} },
-  { "id": "27", "name": {"he": "תל יזרעאל / עין יזרעאל", "ar": "تل زرعين / عين الميتة", "en": "Ein Yizre'el", "ru": "Эйн-Изреэль"}, "coords": [32.5600, 35.3100], "category": "water", "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500", "description": {"he": "נקודת עצירה נעימה עם בריכה גדולה תחת עצי איקליפטוס.", "ar": "نقطة توقف مريحة مع بركة كبيرة تحت أشجار الأوكالبتوس.", "en": "A pleasant stop with a large pool under eucalyptus trees.", "ru": "Бассейн под эвкалиптами у подножия Тель-Изреэль."} },
-  { "id": "28", "name": {"he": "גשר הישנה / נהריים", "ar": "جسر المجامع / ملتقى النهرين", "en": "Naharayim", "ru": "Наараим"}, "coords": [32.6360, 35.5800], "category": "history", "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500", "description": {"he": "סיפורי ראשונים, תחנת כוח עתיקה וגבול נהר הירדן.", "ar": "قصص المستوطنين الأوائل، محطة طاقة قديمة وحدود نهر الأردن.", "en": "Pioneer stories, old power plant, and the Jordan River border.", "ru": "Старая электростанция и история первых поселенцев."} },
-  { "id": "29", "name": {"he": "עתיקות בית שאן", "ar": "مدينة بيسان الاثرية", "en": "Beit She'an", "ru": "Бейт-Шеан"}, "coords": [32.5030, 35.5010], "category": "history", "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500", "description": {"he": "עיר רומית-ביזנטית מרהיבה עם תיאטרון ורחובות עמודים.", "ar": "مدينة رومانية بيزنطية رائعة تضم مسرحاً وشوارع بأعمدة.", "en": "Magnificent Roman-Byzantine city with a theater and colonnaded streets.", "ru": "Римско-византийский город с театром и колоннадами."} },
-  { "id": "30", "name": {"he": "נחל פרת (ואדי קלט)", "ar": "وادي הקלט", "en": "Wadi Qelt", "ru": "Вади Кельт"}, "coords": [31.8340, 35.3520], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": {"he": "נווה מדבר יפהפה עם מנזרים תלויים ובריכות שכשוך.", "ar": "واحة صحراوية جميلة تضم أديرة معلقة وبرك مياه.", "en": "A beautiful desert oasis with hanging monasteries and pools.", "ru": "Пустынный оазис с висячими монастырями и бассейнами."} },
-  { "id": "31", "name": {"he": "נחל אוג (ואדי מוכלכ)", "ar": "وادي المكلك", "en": "Og Stream", "ru": "Ог"}, "coords": [31.7850, 35.4540], "category": "nature", "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500", "description": {"he": "קניון צר עם סולמות וחבלים במדבר יהודה.", "ar": "وادٍ ضيق يضم سلالم وحبال في صحراء يهودا.", "en": "Narrow canyon with ladders and ropes in the Judean Desert.", "ru": "Узкий каньон с лестницами в Иудейской пустыне."} },
-  { "id": "32", "name": {"he": "מצפה דרגות / נחל דרגות", "ar": "مطل وادي درجة", "en": "Dragot Stream", "ru": "Драгот"}, "coords": [31.5850, 35.3920], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": {"he": "תצפית מרהיבה על ים המלח ומסלול קניוני מאתגר.", "ar": "إطلالة رائعة على البحر الميت ومسار وادٍ مليء بالتحديات.", "en": "Spectacular view of the Dead Sea and a challenging canyon trail.", "ru": "Вид на Мертвое море и сложный каньонный маршрут."} },
-  { "id": "33", "name": {"he": "נחל דוד", "ar": "وادي داود", "en": "David Stream", "ru": "Нахаль Давид"}, "coords": [31.4660, 35.3940], "category": "water", "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500", "description": {"he": "נווה מדבר בשמורת עין גדי עם מפלים ויעלים.", "ar": "واحة صحراوية في محمية عين جدي تضم شلالات ووعولاً.", "en": "An oasis in Ein Gedi reserve with waterfalls and ibex.", "ru": "Оазис в Эйн-Геди с водопадами и горными козлами."} },
-  { "id": "34", "name": {"he": "נחל ערוגות", "ar": "وادي عروغات", "en": "Arugot Stream", "ru": "Нахаль Аרוגות"}, "coords": [31.4610, 35.3850], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": {"he": "טיול מים מרענן במדבר עד למפל הנסתר.", "ar": "رحلة مائية منعشة في الصحراء وصولاً إلى الشلال المخفي.", "en": "Refreshing desert water hike to the hidden waterfall.", "ru": "Водный поход по пустыне к Скрытому водопаду."} },
-  { "id": "35", "name": {"he": "נחל צאלים (ואדי סיאל)", "ar": "وادي السيال", "en": "Tze'elim Stream", "ru": "Цеэלים"}, "coords": [31.3450, 35.3260], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": {"he": "קניון עצום עם גבים עמוקים לאחר הגשמים.", "ar": "وادٍ ضخم يضم بركاً عميقة بعد هطول الأمطار.", "en": "Massive canyon with deep pools after rainfalls.", "ru": "Огромный каньон с глубокими ямами после дождей."} },
-  { "id": "36", "name": {"he": "מצדה (אל קלעה)", "ar": "جبل القلعة - مسعدة", "en": "Masada", "ru": "Масада"}, "coords": [31.3150, 35.3530], "category": "history", "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500", "description": {"he": "מבצר עתיק על צוק מבודד, סמל לגבורה היסטורית.", "ar": "قلعة قديمة على منحدر معزول، رمز للبطولة التاريخية.", "en": "Ancient fortress on an isolated cliff, a symbol of historical heroism.", "ru": "Древняя крепость на скале, символ героизма."} },
-  { "id": "37", "name": {"he": "נחל בוקק", "ar": "وادي بوقيق", "en": "Bokek Stream", "ru": "Нахаль Бокеק"}, "coords": [31.1980, 35.3510], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": {"he": "מסלול קצר ורטוב סמוך לבתי המלון של ים המלח.", "ar": "مسار قصير ورطب بالقرب من فنادق البحر الميت.", "en": "Short wet trail near the Dead Sea hotels.", "ru": "Короткий водный маршрут рядом с отелями Мертвого моря."} },
-  { "id": "38", "name": {"he": "נחל משמר", "ar": "واد مشمار", "en": "Mishmar Stream", "ru": "Мишмар"}, "coords": [31.3850, 35.3520], "category": "nature", "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500", "description": {"he": "מסלול קניוני פראי ומאתגר עם גבים יפים.", "ar": "مسار وادٍ بري ومليء بالتحديات مع برك مياه جميلة.", "en": "Wild and challenging canyon trail with beautiful pools.", "ru": "Дикий каньонный маршрут с красивыми заводями."} },
-  { "id": "39", "name": {"he": "מערת הנטיפים", "ar": "مغارة الشموع", "en": "Stalactite Cave", "ru": "Сталактитовая пещера"}, "coords": [31.7530, 35.0230], "category": "nature", "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500", "description": {"he": "עולם קסום של נטיפים וזקיפים בשלל צורות.", "ar": "عالم ساحر من الصواعد والهوابط بأشكال متنوعة.", "en": "A magical world of stalactites and stalagmites.", "ru": "Мир сталактитов и сталагмитов необычных форм."} },
-  { "id": "40", "name": {"he": "פארק בריטניה", "ar": "منتزه بريطانيا", "en": "Britannia Park", "ru": "Парк Британия"}, "coords": [31.7000, 34.9000], "category": "nature", "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500", "description": {"he": "מרחבים ירוקים, חורש טבעי ותצפיות נוף בשפלה.", "ar": "مساحات خضراء وغابات طبيعية وإطلالات خلابة في منطقة السهل.", "en": "Green spaces, natural woodland, and scenic views in the lowlands.", "ru": "Зеленые просторы и смотровые площадки."} },
-  { "id": "41", "name": {"he": "תל לכיש", "ar": "تل لخيش", "en": "Tel Lachish", "ru": "Тель Лахиш"}, "coords": [31.5650, 34.8460], "category": "history", "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500", "description": {"he": "עיר מקראית חשובה עם שרידי שער וארמון.", "ar": "مدينة توراتية هامة تضم بقايا بوابة وقصر.", "en": "An important biblical city with remains of a gate and palace.", "ru": "Важный библейский город с остатками ворот и дворца."} },
-  { "id": "42", "name": {"he": "בית גוברין", "ar": "بيت جبرين", "en": "Beit Guvrin", "ru": "Бейт-Гуврин"}, "coords": [31.6110, 34.8980], "category": "history", "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500", "description": {"he": "מערות פעמון ענקיות ועיר קדומה מרשימה.", "ar": "كهوف جرس ضخمة ومدينة قديمة رائعة.", "en": "Huge bell caves and an impressive ancient city.", "ru": "Огромные пещеры-колоколы и древний город."} },
-  { "id": "43", "name": {"he": "נחל כזיב / עין חרדלית", "ar": "واد القرن / عين الهردويل", "en": "Kziv Stream", "ru": "Нахаль Кзив"}, "coords": [33.0420, 35.1910], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500", "description": {"he": "נחל זורם כל השנה בגליל המערבי עם מים צלולים.", "ar": "نهر يتدفق طوال العام في الجليل الغربي بمياه صافية.", "en": "Year-round flowing stream in Western Galilee with clear water.", "ru": "Проточный ручей в Западной Галилее с чистой водой."} },
-  { "id": "44", "name": {"he": "ראש הנקרה", "ar": "راس الناقورة", "en": "Rosh HaNikra", "ru": "Рош Ха-Никра"}, "coords": [33.0930, 35.1040], "category": "nature", "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=500", "description": {"he": "נקרות ימיות מרהיבות שנוצרו על ידי גלי הים.", "ar": "كهوف بحرية رائعة تشكلت بفعل أمواج البحر.", "en": "Spectacular sea grottoes formed by the waves.", "ru": "Морские гроты, созданные прибоем."} },
-  { "id": "45", "name": {"he": "נחל געתון", "ar": "عين الجعاتون", "en": "Ga'aton", "ru": "Гаатон"}, "coords": [33.0110, 35.1930], "category": "water", "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500", "description": {"he": "נחל החוצה את נהריה עם שבילי הליכה נוחים.", "ar": "نهر يمر عبر نهاريا مع مسارات مشي مريحة.", "en": "A stream passing through Nahariya with easy walking paths.", "ru": "Ручей с удобными пешеходными дорожками."} },
-  { "id": "46", "name": {"he": "נחל בצת", "ar": "وادي البصة", "en": "Betzet Stream", "ru": "Бецет"}, "coords": [33.0740, 35.1550], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": {"he": "מסלול מוצל בגליל המערבי עם עצי דולב ענקיים.", "ar": "مسار مظلل في الجليل الغربي يضم أشجار الدلب الضخمة.", "en": "Shaded trail in Western Galilee with giant plane trees.", "ru": "Тенистый маршрут с гигантскими платанами."} },
-  { "id": "47", "name": {"he": "מבצר יחיעם", "ar": "قلعة جديّن", "en": "Yehiam Fortress", "ru": "Крепость Иחיאם"}, "coords": [32.9930, 35.2210], "category": "history", "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500", "description": {"he": "מבצר צלבני ועות'מאני המספר סיפורי גבורה.", "ar": "قلعة صليبية وعثمانية تروي قصص البطولة.", "en": "Crusader and Ottoman fortress telling stories of heroism.", "ru": "Крестоносная и османская крепость."} },
-  { "id": "48", "name": {"he": "נחל עמוד", "ar": "واد العامود", "en": "Amud Stream", "ru": "Амуד"}, "coords": [32.9230, 35.4910], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500", "description": {"he": "נחל איתן עם בוסתנים, טחנות קמח וסלע העמוד.", "ar": "نهر دائم يضم بساتين وطواحين قمح وصخرة العامود الشهيرة.", "en": "Flowing stream with orchards, flour mills, and the 'Pillar' rock.", "ru": "Ручей с садами, мельницами и знаменитой скалой-столбом."} },
-  { "id": "49", "name": {"he": "נחל צלמון", "ar": "وادي سلامة", "en": "Tzalmon Stream", "ru": "Цאלмон"}, "coords": [32.8940, 35.3930], "category": "water", "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500", "description": {"he": "מסלול קל ונעים בין שרידי טחנות קמח ובריכות.", "ar": "مسار سهل وممتع بين بقايا طواحين القمح وبرك المياه.", "en": "Easy and pleasant trail among flour mill ruins and pools.", "ru": "Легкий маршрут среди руин мельниц и бассейнов."} },
-  { "id": "50", "name": {"he": "הר מירון", "ar": "جبل الجرمق", "en": "Mount Meron", "ru": "Мерон"}, "coords": [32.9960, 35.4120], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": {"he": "שביל הפסגה עם תצפיות מרהיבות על כל הצפון.", "ar": "مسار القمة الذي يضم إطلالات رائعة على كامل منطقة الشمال.", "en": "The summit trail with spectacular views of all Northern Israel.", "ru": "Тропа по вершине с видами на весь север."} },
-  { "id": "51", "name": {"he": "נחל תבור", "ar": "وادي البيرة", "en": "Tabor Stream", "ru": "Табор"}, "coords": [32.6130, 35.5340], "category": "nature", "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500", "description": {"he": "קניון בזלת יפהפה עם פריחת תורמוסים באביב.", "ar": "وادٍ بازلتي جميل مع تفتح أزهار الترمس في الربيع.", "en": "Beautiful basalt canyon with lupine blooms in spring.", "ru": "Базальтовый каньон с цветением люпинов весной."} },
-  { "id": "52", "name": {"he": "נחל השופט", "ar": "واد الطواحين", "en": "Nahal HaShofet", "ru": "Нахаль-ха-Шофет"}, "coords": [32.6150, 35.1000], "category": "nature", "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500", "description": {"he": "מסלול נגיש ונוח בתוך חורש ירוק ומים זורמים.", "ar": "مسار سهل ومتاح للجميع داخل غابة خضراء ومياه جارية.", "en": "Accessible and easy trail within green woodland and flowing water.", "ru": "Доступный маршрут в зеленом лесу у воды."} },
-  { "id": "53", "name": {"he": "עין יורקעם", "ar": "عين يرقة", "en": "Ein Yorkeam", "ru": "Эйн-Йורкеам"}, "coords": [30.9320, 35.0380], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": {"he": "גב מים ענק ומרהיב בלב המדבר.", "ar": "بركة مياه ضخمة ورائعة في قلب الصحراء.", "en": "A huge and spectacular water hole in the heart of the desert.", "ru": "Огромная водная заводь в сердце пустыни."} },
-  { "id": "54", "name": {"he": "עין עבדת", "ar": "عين عبدات", "en": "Ein Avdat", "ru": "Эйн-Авдат"}, "coords": [30.8250, 34.7620], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500", "description": {"he": "קניון לבן ומרהיב עם מפלים ובריכות במדבר.", "ar": "وادٍ أبيض رائع يضم شلالات وبرك مياه في الصحراء.", "en": "Spectacular white canyon with waterfalls and pools in the desert.", "ru": "Белый каньон с водопадами в пустыне."} },
-  { "id": "55", "name": {"he": "נחל גוב", "ar": "وادي جوب", "en": "Gov Stream", "ru": "Гов"}, "coords": [30.9250, 35.1040], "category": "nature", "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500", "description": {"he": "מסלול הרפתקני עם סולמות בתוך קניון צר.", "ar": "مسار مليء بالمغامرات مع سلالم داخل وادٍ ضيق.", "en": "Adventurous trail with ladders inside a narrow canyon.", "ru": "Приключенческий маршрут с лестницами в каньоне."} },
-  { "id": "56", "name": {"he": "נחל פרס", "ar": "وادي الفارس", "en": "Peres Stream", "ru": "Перес"}, "coords": [30.9580, 35.2890], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": {"he": "גבי מים מרשימים ומראה מרהיב של 'חלון' לערבה.", "ar": "برك مياه رائعة وإطلالة خلابة من 'النافذة' على منطقة العربة.", "en": "Impressive water holes and a spectacular 'window' view of the Arava.", "ru": "Заводи и потрясающий вид на Араву."} },
-  { "id": "57", "name": {"he": "המכתש הגדול", "ar": "المكتش الكبير", "en": "Big Crater", "ru": "Большой кратер"}, "coords": [30.9300, 34.9000], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": {"he": "תופעת טבע ייחודית עם חולות צבעוניים ותצפיות נוף.", "ar": "ظاهرة طبيعية فريدة تضم رمالاً ملونة وإطلالات خلابة.", "en": "Unique natural phenomenon with colorful sands and scenic views.", "ru": "Уникальный кратер с цветными песками."} },
-  { "id": "58", "name": {"he": "צבעי הרמון", "ar": "גן לאומי צבעי רמון", "en": "Ramon Colors", "ru": "Рамон"}, "coords": [30.6120, 34.8810], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": {"he": "סלעים צבעוניים ותופעות גאולוגיות במכתש רמון.", "ar": "صخور ملونة وظواهر جيولوجية في فوهة رامون.", "en": "Colorful rocks and geological phenomena in Ramon Crater.", "ru": "Цветные скалы в кратере Рамон."} },
-  { "id": "59", "name": {"he": "קניון עדה", "ar": "كنيون عدا", "en": "Ada Canyon", "ru": "Каньон Ада"}, "coords": [30.3880, 34.9120], "category": "nature", "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500", "description": {"he": "קניון צר ויפהפה בערבה, מסלול הליכה קצר ומקסים.", "ar": "وادٍ ضيق وجميل في منطقة العربة، مسار مشي قصير ورائع.", "en": "A beautiful narrow canyon in the Arava, short and lovely hike.", "ru": "Красивый узкий каньон в Араве."} },
-  { "id": "60", "name": {"he": "פארק תמנע", "ar": "منتزه تيمناع", "en": "Timna Park", "ru": "Тимна"}, "coords": [29.7850, 34.9220], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": {"he": "נופי בראשית, עמודי שלמה ואגם מלאכותי במדבר.", "ar": "مناظر طبيعية بدائية، أعمدة سليمان وبحيرة اصطناعية في الصحراء.", "en": "Primeval landscapes, Solomon's Pillars, and a desert lake.", "ru": "Столбы Соломона и древние медные копи."} },
-  { "id": "61", "name": {"he": "הקניון האדום", "ar": "الوادي الاحمر", "en": "Red Canyon", "ru": "Красный каньон"}, "coords": [29.6700, 34.8600], "category": "nature", "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500", "description": {"he": "מסלול הליכה בתוך קניון מאבן חול אדומה ומרהיבה.", "ar": "مسار مشي داخل وادٍ من الحجر الرملي الأحمر الرائع.", "en": "A hike inside a spectacular red sandstone canyon.", "ru": "Пеший маршрут по красному песчанику."} },
-  { "id": "62", "name": {"he": "הרי אילת", "ar": "جبال ايلات", "en": "Eilat Mountains", "ru": "Эйлатские горы"}, "coords": [29.5800, 34.9000], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": {"he": "תצפיות עוצרות נשימה על מפרץ אילת וארבע מדינות.", "ar": "إطلالات تحبس الأنفاس على خليج إيلات وأربع دول.", "en": "Breathtaking views of Eilat Bay and four neighboring countries.", "ru": "Захватывающие виды на залив Эйлата."} },
-  { "id": "63", "name": {"he": "נחל אלכסנדר", "ar": "وادي الحوارث", "en": "Alexander Stream", "ru": "Александр"}, "coords": [32.3920, 34.8640], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": {"he": "נחל עם צבים רכים וגשרים להולכי רגל.", "ar": "نهر يضم سلاحف لينة وجسور للمشاة.", "en": "Stream with soft-shell turtles and pedestrian bridges.", "ru": "Река с мягкотелыми черепахами."} },
-  { "id": "64", "name": {"he": "אפולוניה", "ar": "أرسوف", "en": "Apollonia", "ru": "Аполлония"}, "coords": [32.1900, 34.8070], "category": "history", "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500", "description": {"he": "מבצר צלבני על מצוק חוף הים בהרצליה.", "ar": "قلعة صليبية على جرف شاطئ البحر في هرتسليا.", "en": "Crusader fortress on a sea cliff in Herzliya.", "ru": "Крепость крестоносцев на берегу моря."} },
-  { "id": "65", "name": {"he": "קיסריה", "ar": "قيسارية", "en": "Caesarea", "ru": "Кесария"}, "coords": [32.5000, 34.8920], "category": "history", "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500", "description": {"he": "עיר נמל עתיקה עם תיאטרון, היפודרום ונמל מרשים.", "ar": "مدينة ميناء قديمة تضم مسرحاً وميداناً لسباق الخيل وميناءً رائعاً.", "en": "Ancient port city with a theater, hippodrome, and port.", "ru": "Древний портовый город с театром."} },
-  { "id": "66", "name": {"he": "נחל תנינים", "ar": "وادي التماسيح", "en": "Taninim Stream", "ru": "Таниним"}, "coords": [32.5410, 34.9150], "category": "water", "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500", "description": {"he": "שמורה עם סכר רומי עתיק וטחנות קמח.", "ar": "محمية طبيعية تضم سداً رومانياً قديماً وطواحين قمح.", "en": "Reserve with an ancient Roman dam and flour mills.", "ru": "Заповедник с римской дамбой."} },
-  { "id": "67", "name": {"he": "עין צור", "ar": "خربة أم العلق", "en": "Ein Tzur", "ru": "Эйн-Цур"}, "coords": [32.5530, 34.9450], "category": "history", "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500", "description": {"he": "מעיין בתוך נקבה ושרידי וילה רומית.", "ar": "نبع داخل نفق وبقايا فيلا رومانية قديمة.", "en": "Spring inside a tunnel and Roman villa ruins.", "ru": "Источник в туннеле и руины виллы."} },
-  { "id": "68", "name": {"he": "עין אביאל", "ar": "عين اسماعيل", "en": "Ein Aviel", "ru": "Эйн-Авиэль"}, "coords": [32.5200, 35.0080], "category": "water", "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500", "description": {"he": "בריכות קסומות ומפלים קטנים בין קני סוף.", "ar": "برك مياه ساحرة وشلالات صغيرة وسط القصب.", "en": "Magical pools and small waterfalls among reeds.", "ru": "Волшебные бассейны среди камышей."} },
-  { "id": "69", "name": {"he": "עין מבוע", "ar": "عين مبروع", "en": "Ein Mabua", "ru": "Эйн-Мабуא"}, "coords": [31.8380, 35.3450], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500", "description": {"he": "מעיין פועם המתמלא ומתרוקן בקצב קבוע.", "ar": "نبع نابض يمتلئ ويفرغ بوتيرة ثابتة.", "en": "A rhythmic spring that fills and empties periodically.", "ru": "Пульсирующий источник в Вади Кельт."} },
-  { "id": "70", "name": {"he": "עין קלט", "ar": "عين القلط", "en": "Ein Qelt", "ru": "Эйн-Кельт"}, "coords": [31.8440, 35.3780], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": {"he": "בריכה עמוקה ומרעננת בלב מדבר יהודה.", "ar": "بركة مياه عميقة ومنعشة في قلب صحراء يهودا.", "en": "A deep and refreshing pool in the Judean Desert.", "ru": "Глубокий бассейн в Иудейской пустыне."} },
-  { "id": "71", "name": {"he": "מנזר סנט ג'ורג'", "ar": "دير سانت جورج", "en": "St. George Monastery", "ru": "Монастырь Сент-Джордж"}, "coords": [31.8440, 35.4010], "category": "history", "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500", "description": {"he": "מנזר עוצר נשימה התלוי על מצוק בנחל פרת.", "ar": "دير مذهل معلق على جرف في وادي القلط.", "en": "Breathtaking monastery hanging on a cliff side.", "ru": "Монастырь, висящий на отвесной скале."} },
-  { "id": "72", "name": {"he": "נחל קומראן", "ar": "وادي قمران", "en": "Qumran", "ru": "Кумран"}, "coords": [31.7410, 35.4590], "category": "history", "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500", "description": {"he": "מקום מציאת המגילות הגנוזות ושרידי יישוב עתיק.", "ar": "مكان العثور على مخطوطات البحر الميت وبقايا مستوطنة قديمة.", "en": "Discovery site of the Dead Sea Scrolls and ancient ruins.", "ru": "Место находки свитков Мертвого моря."} },
-  { "id": "73", "name": {"he": "נחל ראש פינה", "ar": "واد شهيان الجاعونة", "en": "Nahal Rosh Pina", "ru": "Нахаль Рош-Пина"}, "coords": [32.9734, 35.5341], "category": "nature", "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500", "description": {"he": "מסלול הליכה פסטורלי בין עצי פרי ומעיינות.", "ar": "مسار مشي هادئ بين الأشجار المثمرة والينابيع.", "en": "Pastoral hiking trail among fruit trees and springs.", "ru": "Пасторальный маршрут среди фруктовых деревьев."} },
-  { "id": "74", "name": {"he": "עין אמפי", "ar": "عين الدورة", "en": "Ein Amphi", "ru": "Эйн-Амфи"}, "coords": [32.9642, 35.6558], "category": "water", "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500", "description": {"he": "בריכת אבן מעגלית ויפה במורדות הגולן.", "ar": "بركة حجرية دائرية جميلة في منحدرات الجولان.", "en": "Beautiful circular stone pool in the Golan slopes.", "ru": "Круглый каменный бассейн на Голанах."} },
-  { "id": "75", "name": {"he": "עין תאופיק", "ar": "عين توافيق", "en": "Ein Tawfiq", "ru": "Эйн-Тауфик"}, "coords": [32.6908, 35.6542], "category": "water", "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500", "description": {"he": "מעיין ופינת פיקניק ביער בדרום הגולן.", "ar": "نبع ومنطقة تنزه في غابة جنوب الجولان.", "en": "Spring and picnic area in a South Golan forest.", "ru": "Источник и место для пикника в лесу."} },
-  { "id": "76", "name": {"he": "עין סלוקיה", "ar": "عين السلوقية", "en": "Ein Salukia", "ru": "Эйн-Салюкия"}, "coords": [32.9612, 35.7483], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500", "description": {"he": "מעיינות עדן - מסלול מים רדודים ונעים.", "ar": "ينابيع عدن - مسار مياه ضحلة وممتع.", "en": "Eden Springs - a pleasant shallow water trail.", "ru": "Источники Эден - мелкий водный маршрут."} },
-  { "id": "77", "name": {"he": "עין הזהב", "ar": "عين الذهب الخالصة", "en": "Ein HaZahav", "ru": "Эйн Ха-Заהאב"}, "coords": [33.2081, 35.5714], "category": "water", "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500", "description": {"he": "פארק טבע בלב קריית שמונה עם פלגי מים.", "ar": "منتزه طبيعي في قلب كريات شمونة يضم جداول مياه.", "en": "Nature park in Kiryat Shmona with flowing streams.", "ru": "Природный парк с ручьями в Кирьят-Шмоне."} },
-  { "id": "78", "name": {"he": "עין נזם", "ar": "عين الخنيزرة", "en": "Ein Nezem", "ru": "Эйн-Незем"}, "coords": [32.4831, 35.5254], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": {"he": "בריכה גדולה ועמוקה בעמק המעיינות.", "ar": "بركة مياه كبيرة وعميقة في وادي الينابيع.", "en": "A large and deep pool in the Valley of Springs.", "ru": "Большой глубокий бассейн в долине Источников."} },
-  { "id": "79", "name": {"he": "עין עמוד", "ar": "عين وواد العامود", "en": "Ein Amud", "ru": "Эйн-Амуд"}, "coords": [32.9123, 35.5012], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": {"he": "פינה שקטה בנחל עמוד עם בריכה קטנה.", "ar": "زاوية هادئة في وادي العامود تضم بركة صغيرة.", "en": "A quiet spot in Amud Stream with a small pool.", "ru": "Тихий уголок с бассейном в Нахаль Амуд."} },
-  { "id": "80", "name": {"he": "עין ליאור", "ar": "عين الزيتونة", "en": "Ein Lior", "ru": "Эйн-Лиор"}, "coords": [32.9841, 35.5123], "category": "water", "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500", "description": {"he": "מעיין מטופח סמוך לצפת עם תצפית יפה.", "ar": "نبع جميل بالقرب من صفد مع إطلالة رائعة.", "en": "Well-kept spring near Safed with a nice view.", "ru": "Ухоженный источник рядом с Цфатом."} },
-  { "id": "81", "name": {"he": "עין רמיאל", "ar": "عين إرميلة", "en": "Ein Ramiel", "ru": "Эйн-Рамиэль"}, "coords": [32.9321, 35.3412], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500", "description": {"he": "מעיין במושב שפר עם מפלי מים קטנים.", "ar": "نبع في قرية شيفر يضم شلالات صغيرة.", "en": "Spring in Shefer with small waterfalls.", "ru": "Источник в мошаве Шефер с водопадами."} },
-  { "id": "82", "name": {"he": "עין חרדלית", "ar": "عين الهردويل", "en": "Ein Hardalit", "ru": "Эйн-Хардаלית"}, "coords": [33.0423, 35.1912], "category": "water", "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500", "description": {"he": "חלק נגיש ורטוב של נחל כזיב, מעולה למשפחות.", "ar": "جزء سهل الوصول من وادي القرن، ممتاز للعائلات.", "en": "Accessible part of Kziv Stream, great for families.", "ru": "Доступная часть ручья Кзив, отлично для семей."} },
-  { "id": "83", "name": {"he": "עין געתון", "ar": "عين الجعاتون", "en": "Ein Ga'aton", "ru": "Эйн-Гааטון"}, "coords": [33.0112, 35.1934], "category": "water", "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500", "description": {"he": "חורבת געתון ומעיינותיה בגליל המערבי.", "ar": "خربة جعاتون وينابيعها في الجليل الغربي.", "en": "Ga'aton ruins and its springs in Western Galilee.", "ru": "Руины Гаатон и источники."} },
-  { "id": "84", "name": {"he": "בריכת גדעונה", "ar": "بركة بواد جالوت", "en": "Gidona Pool", "ru": "Бассейн Гиדונה"}, "coords": [32.5512, 35.3423], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": {"he": "בריכה משוחזרת ונעימה למרגלות הגלבוע.", "ar": "بركة مرممة ومريحة عند سفح جبال جلبوع.", "en": "Pleasant restored pool at the foot of Mt. Gilboa.", "ru": "Восстановленный бассейн у подножия Гильбоа."} },
-  { "id": "85", "name": {"he": "עין חזין", "ar": "بير بيدר العرب", "en": "Ein Hazin", "ru": "Эйн-Хаזין"}, "coords": [32.7612, 35.1634], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": {"he": "מעיין נסתר בעמק יזרעאל עם מים עמוקים.", "ar": "نبع مخفي في مرج ابن عامر يتميز بمياهه العميقة.", "en": "Hidden spring in Jezreel Valley with deep water.", "ru": "Скрытый источник в Изреэльской долине."} },
-  { "id": "86", "name": {"he": "עין קדם", "ar": "العين القديمة", "en": "Ein Kedem", "ru": "Эйн-Кедем"}, "coords": [32.7681, 34.9712], "category": "water", "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500", "description": {"he": "נקבות מים קרירות במורדות הכרמל.", "ar": "أنفاق مياه باردة في منحدرات جبل الكرمل.", "en": "Cool water tunnels in the Carmel slopes.", "ru": "Водные туннели на склонах Кармеля."} },
-  { "id": "87", "name": {"he": "מעיין אלרואי", "ar": "عين زقرية الرّي", "en": "Alroay Spring", "ru": "Эйн-Альрои"}, "coords": [32.7212, 35.1034], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500", "description": {"he": "מעיין זורם סמוך לתחנת הרכבת הישנה בקרית טבעון.", "ar": "نبع جاري بالقرب من محطة القطار القديمة في كريات طبعون.", "en": "Flowing spring near the old train station in Kiryat Tivon.", "ru": "Источник рядом со старой станцией."} },
-  { "id": "88", "name": {"he": "עין אלון", "ar": "واد فلاح", "en": "Ein Alon", "ru": "Эйн-Алон"}, "coords": [32.7312, 35.0345], "category": "water", "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500", "description": {"he": "מעיין מקסים בלב הכרמל בתוך נחל אורן.", "ar": "نبع رائع في قلب الكرمل داخل وادي أورين.", "en": "Charming spring in the heart of Carmel.", "ru": "Очаровательный источник в сердце Кармеля."} },
-  { "id": "89", "name": {"he": "עין יבקע", "ar": "راس العين", "en": "Ein Yivka", "ru": "Эйн-Ивка"}, "coords": [32.7591, 35.1632], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": {"he": "בריכה רומית גדולה בנחל ציפורי.", "ar": "بركة رومانية كبيرة في وادي صفورية.", "en": "Large Roman pool in Tzipori Stream.", "ru": "Большой римский бассейн в Нахаль Ципори."} },
-  { "id": "90", "name": {"he": "עין לבן", "ar": "العين البيضا", "en": "Ein Lavan", "ru": "Эйн-Лаван"}, "coords": [31.7512, 35.1634], "category": "water", "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500", "description": {"he": "מעיין פופולרי בהרי ירושלים עם בריכות משופצות.", "ar": "نبع مشهور في جبال القدس مع برك مياه مرممة.", "en": "Popular spring in Jerusalem Hills with renovated pools.", "ru": "Популярный источник в горах Иерусалима."} },
-  { "id": "91", "name": {"he": "עין בוקק", "ar": "عين زعيق/بوقيق", "en": "Ein Bokek", "ru": "Эйн-Бокек"}, "coords": [31.2032, 35.3512], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": {"he": "מעיין וצמחייה עשירה בלב המדבר ליד ים המלח.", "ar": "نبع ونباتات كثيفة في قلب الصحراء بالقرب من البحر الميت.", "en": "Spring and lush vegetation in the desert near the Dead Sea.", "ru": "Источник и оазис у Мертвого моря."} },
-  { "id": "92", "name": {"he": "אתר אבן רוח מים", "ar": "يروحام - אבן רוח מים", "en": "Stone Wind Water", "ru": "Йерухам"}, "coords": [31.0021, 34.9123], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": {"he": "חולות צבעוניים ותצורות סלע בירוחם.", "ar": "رمال ملونة وتشكيلات صخرية في يروحام.", "en": "Colorful sands and rock formations in Yeruham.", "ru": "Цветные пески и скалы в Йерухаме."} },
-  { "id": "93", "name": {"he": "נחל פולג", "ar": "نهر الفالق", "en": "Poleg Stream", "ru": "Полег"}, "coords": [32.2600, 34.8400], "category": "nature", "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500", "description": {"he": "שמורה עם פריחת אירוסים וקניון כורכר.", "ar": "محمية طبيعية تضم أزهار السوسن ووادي صخري.", "en": "Reserve with iris blooms and a sandstone canyon.", "ru": "Заповедник с ирисами и каньоном."} },
-  { "id": "94", "name": {"he": "נחל ארוד", "ar": "وادي أرود", "en": "Arud Stream", "ru": "Аруд"}, "coords": [30.5500, 34.7000], "category": "nature", "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500", "description": {"he": "נחל גדול בנגב עם עצי אלה עתיקים.", "ar": "وادي كبير في النقب يضم أشجار البطم القديمة.", "en": "Large Negev stream with ancient pistachio trees.", "ru": "Ручей в Негеве с древними деревьями."} },
-  { "id": "95", "name": {"he": "נחל נקרות", "ar": "وادي نكروت", "en": "Nekarot Stream", "ru": "Некарот"}, "coords": [30.5800, 34.9500], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": {"he": "קניון מרשים במדבר עם מערות ותופעות גאולוגיות.", "ar": "وادٍ مذهل في الصحراء يضم كهوفاً وظواهر جيولوجية.", "en": "Impressive desert canyon with caves and geological phenomena.", "ru": "Каньон Некарот с пещерами."} },
-  { "id": "96", "name": {"he": "נחל צין", "ar": "وادي صين", "en": "Zin Stream", "ru": "Цин"}, "coords": [30.8500, 35.1500], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": {"he": "מגדולי נחלי הנגב עם בריכות ומפלים.", "ar": "من أكبر وديان النقب ويضم بركاً وشلالات.", "en": "One of the largest Negev streams with pools and falls.", "ru": "Один из крупнейших ручьев Негева."} },
-  { "id": "97", "name": {"he": "נחל המערה", "ar": "وادي المغارة", "en": "Me'ara Stream", "ru": "Нахаль-ха-Меара"}, "coords": [31.7300, 35.0200], "category": "nature", "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500", "description": {"he": "מסלול המוביל למערת התאומים המרהיבה.", "ar": "مسار يؤدي إلى مغارة التوائم الرائعة.", "en": "Trail leading to the spectacular Twin Cave.", "ru": "Путь к пещере Близнецов."} },
-  { "id": "98", "name": {"he": "נחל קיני", "ar": "وادي القيني", "en": "Kini Stream", "ru": "Киני"}, "coords": [32.5700, 35.1800], "category": "water", "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500", "description": {"he": "נחל זורם ליד מגידו עם צמחיית נחלים עשירה.", "ar": "نهر جاري بالقرب من مجيدو مع نباتات نهرية كثيفة.", "en": "Flowing stream near Megiddo with rich river vegetation.", "ru": "Проточный ручей рядом с Мегиддо."} },
-  { "id": "99", "name": {"he": "נחל גחר", "ar": "واد جحر", "en": "Gahar Stream", "ru": "Гахар"}, "coords": [32.6100, 35.1200], "category": "nature", "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500", "description": {"he": "יער קסום בהרי מנשה עם מסלולי הליכה מוצלים.", "ar": "غابة ساحرة في جبال منشة مع مسارات مشي مظللة.", "en": "Magical forest in Menashe Heights with shaded trails.", "ru": "Волшебный лес с тенистыми тропами."} },
-  { "id": "100", "name": {"he": "נחל השלושה", "ar": "وادي الثلاثة", "en": "HaShlosha Stream", "ru": "Нахаль-ха-Шлоша"}, "coords": [32.5500, 35.1500], "category": "nature", "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500", "description": {"he": "מסלול הליכה בטבע בין גבעות מנשה.", "ar": "مسار مشي في الطبيعة بين تلال منشة.", "en": "Nature trail among the Menashe Hills.", "ru": "Природный маршрут среди холмов Менаше."} },
-  { "id": "101", "name": {"he": "עין חורשה", "ar": "عين حورشا", "en": "Ein Horsha", "ru": "Эйн-Хורשה"}, "coords": [30.6300, 34.5200], "category": "water", "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500", "description": {"he": "מעיין קטן ומבודד במערב הנגב.", "ar": "نبع صغير ومعزول في غرب النقب.", "en": "Small and isolated spring in the Western Negev.", "ru": "Изолированный источник в Западном Негеве."} },
-  { "id": "102", "name": {"he": "נחל רמון", "ar": "واد رامون", "en": "Ramon Stream", "ru": "Нахаль Рамон"}, "coords": [30.6000, 34.8000], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": {"he": "נחל האכזב החוצה את מכתש רמון.", "ar": "وادٍ جاف يمر عبر فوهة رامون.", "en": "Dry stream crossing the Ramon Crater.", "ru": "Пересыхающий ручей в кратере Рамон."} },
-  { "id": "103", "name": {"he": "מבצר אנטיפטריס", "ar": "قلعة أنتيپاتريس", "en": "Antipatris", "ru": "Антипатрида"}, "coords": [32.1050, 34.9310], "category": "history", "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500", "description": {"he": "מבצר עות'מאני מרשים במקורות הירקון.", "ar": "قلعة عثمانية رائعة عند منابع نهر العوجا.", "en": "Impressive Ottoman fortress at the Yarkon sources.", "ru": "Османская крепость у истоков Яркона."} },
-  { "id": "104", "name": {"he": "נחל הירקון", "ar": "نهر العوجا", "en": "Yarkon River", "ru": "Яркон"}, "coords": [32.1020, 34.8520], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": {"he": "הנחל הגדול במרכז ישראל עם פארק רחב ידיים.", "ar": "أكبر نهر في وسط إسرائيل مع منتزه واسع.", "en": "The largest river in central Israel with a vast park.", "ru": "Самая большая река в центре Израиля."} },
-  { "id": "105", "name": {"he": "נחל עדה", "ar": "واد عدا", "en": "Ada Stream", "ru": "Ада"}, "coords": [32.5200, 34.9500], "category": "nature", "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500", "description": {"he": "נחל נעים להליכה בשולי רמת מנשה.", "ar": "نهر جميل للمشي في أطراف مرتفعات منشة.", "en": "Pleasant stream for hiking on the edge of Menashe Heights.", "ru": "Приятный ручей на краю плато Менаше."} },
-  { "id": "106", "name": {"he": "נחל אביב", "ar": "وادي الربيع", "en": "Aviv Stream", "ru": "Авив"}, "coords": [33.0800, 35.5000], "category": "nature", "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500", "description": {"he": "קניון עם תצורות סלע מיוחדות ומערות.", "ar": "وادٍ يضم تشكيلات صخرية مميزة وكهوفاً.", "en": "Canyon with unique rock formations and caves.", "ru": "Каньон с необычными скалами и пещерами."} },
-  { "id": "107", "name": {"he": "נחל דישון", "ar": "وادي ديشون", "en": "Dishon Stream", "ru": "Диشون"}, "coords": [33.0600, 35.5300], "category": "nature", "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500", "description": {"he": "מהנחלים הגדולים בגליל העליון, נוף הררי.", "ar": "من أكبر وديان الجليل الأعلى، يتميز بمناظره الجبلية.", "en": "One of the largest streams in Upper Galilee.", "ru": "Один из крупнейших ручьев Верхней Галилеи."} },
-  { "id": "108", "name": {"he": "נחל סלוודורה", "ar": "وادي السلفادورا", "en": "Salvadora", "ru": "Сальвадора"}, "coords": [31.5400, 35.3900], "category": "nature", "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500", "description": {"he": "מעיין קטן החבוי בתוך קניון במדבר יהודה.", "ar": "نبع صغير مخفي داخل وادٍ في صحراء يهودا.", "en": "Small spring hidden within a Judean Desert canyon.", "ru": "Маленький источник в каньоне Иудейской пустыни."} },
-  { "id": "109", "name": {"he": "נחל רחף", "ar": "وادي رفيف", "en": "Rahaf Stream", "ru": "Рахаф"}, "coords": [31.2500, 35.3400], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": {"he": "קניון אתגרי הפופולרי לגלישת מצוקים (סנפלינג).", "ar": "وادٍ مليء بالتحديات يشتهر برياضة الهبوط من قمم الجبال.", "en": "Challenging canyon popular for canyoneering.", "ru": "Сложный каньон, популярный для скалолазания."} },
-  { "id": "110", "name": {"he": "נחל צוף", "ar": "واد صوف", "en": "Tzuf Stream", "ru": "Цуф"}, "coords": [31.8500, 35.0500], "category": "nature", "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500", "description": {"he": "מסלול טבע ירוק באזור הרי ירושלים.", "ar": "مسار طبيعي أخضر في منطقة جبال القدس.", "en": "Green nature trail in the Jerusalem Hills area.", "ru": "Зеленый маршрут в районе Иерусалимских гор."} },
-  { "id": "111", "name": {"he": "נחל כפירה", "ar": "وادي كفيرة", "en": "Kefira Stream", "ru": "Кефира"}, "coords": [31.8300, 35.0700], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": {"he": "מעיין ובריכה למרגלות תל כפירה.", "ar": "نبع وبركة مياه عند سفح تل كفيرة.", "en": "Spring and pool at the foot of Tel Kefira.", "ru": "Источник и бассейн у подножия Тель-Кефира."} },
-  { "id": 112, "name": { "he": "חניון האקליפטוס (הבניאס)", "ar": "البانياس", "en": "Banias Eucalyptus Grove", "ru": "Эвкалиптовая роща Баниас" }, "coords": [33.2201, 35.6264], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": { "he": "חניון יום יפהפה על גדות נחל הבניאס.", "ar": "موقف يوم جميل على ضفاف نهر بانياس.", "en": "Beautiful day camp on the banks of the Banias stream.", "ru": "Прекрасная дневная стоянка на берегу ручья Баниас." } },
-  { "id": 113, "name": { "he": "עין כנף (דיר עזיז)", "ar": "عين دير عزيز", "en": "Ein Kanaf", "ru": "Эйн-Канаф" }, "coords": [32.8631, 35.7336], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": { "he": "מעיין מטופח עם שלוש בריכות רדודות בדרום הגולן.", "ar": "نبع مجهز بثلاث برك ضحلة في جنوب الجولان.", "en": "Well-kept spring with three shallow pools in the southern Golan.", "ru": "Ухоженный источник с тремя неглубокими бассейнами на юге Голан." } },
-  { "id": 114, "name": { "he": "עין פיק", "ar": "عين فيق", "en": "Ein Fik", "ru": "Эйн-Фик" }, "coords": [32.7788, 35.7001], "category": "water", "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500", "description": { "he": "מעיין קטן בתוך בוסתן עתיק בדרום רמת הגולן.", "ar": "نبع صغير داخل بستان قديم في جنوب هضبة الجولان.", "en": "Small spring inside an ancient orchard in the southern Golan Heights.", "ru": "Небольшой источник в старом саду на юге Голанских высот." } },
-  { "id": 115, "name": { "he": "עין אמפי (עין א-דורה)", "ar": "عين الدورة", "en": "Ein Amphi", "ru": "Эйн-Амфи" }, "coords": [33.0242, 35.6321], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?w=500", "description": { "he": "בריכה עגולה ומיוחדת המוקפת במדרגות אבן.", "ar": "بركة مستديرة ومميزة محاطة بدرجات حجرية.", "en": "Special round pool surrounded by stone steps.", "ru": "Особенный круглый бассейн, окруженный каменными ступенями." } },
-  { "id": 116, "name": { "he": "עין תאופיק", "ar": "عين توافيق", "en": "Ein Tawfiq", "ru": "Эйн-Тауфик" }, "coords": [32.7011, 35.6664], "category": "water", "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500", "description": { "he": "מעיין זורם בתוך יער מבוא חמה עם תצפית לכנרת.", "ar": "نبع يتدفق داخل غابة ميفو حماة مع إطلالة على طبريا.", "en": "Streaming spring inside Mevo Hama forest with a view of the Sea of Galilee.", "ru": "Источник в лесу Мево-Хама с видом на Тивериадское озеро." } },
-  { "id": 117, "name": { "he": "עין סלוקיה (קצביה)", "ar": "عين السلوقية", "en": "Ein Salukia", "ru": "Эйн-Салукия" }, "coords": [32.9555, 35.7441], "category": "water", "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500", "description": { "he": "מעיינות צלולים הזורמים בין בריכות קטנות וצמחייה.", "ar": "ينابيع صافية تتدفق بين برك صغيرة ونباتات.", "en": "Clear springs flowing between small pools and vegetation.", "ru": "Чистые источники, текущие среди небольших бассейнов и зелени." } },
-  { "id": 118, "name": { "he": "עין הזהב (קרית שמונה)", "ar": "عين الذهب الخالصة", "en": "Ein HaZahav", "ru": "Эйн-ха-Захав" }, "coords": [33.2081, 35.5761], "category": "water", "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500", "description": { "he": "פארק יפהפה בלב קרית שמונה עם פלגי מים.", "ar": "منتزه جميل في قلب كريات شمونة مع جداول مائية.", "en": "Beautiful park in the heart of Kiryat Shmona with water streams.", "ru": "Красивый парк в центре Кирьят-Шмоны с ручьями." } },
-  { "id": 119, "name": { "he": "נחל ראש פינה", "ar": "واد شهيان الجاعونة", "en": "Rosh Pinna Stream", "ru": "Ручей Рош-Пина" }, "coords": [32.9691, 35.5321], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500", "description": { "he": "מסלול הליכה לצד שלושה מעיינות ובוסתנים.", "ar": "مسار مشي بجانب ثلاثة ينابيع وبساتين.", "en": "Walking trail alongside three springs and orchards.", "ru": "Пешеходная тропа вдоль трех источников и садов." } },
-  { "id": 120, "name": { "he": "עין תינה", "ar": "عين التينة", "en": "Ein Tina", "ru": "Эйн-Тина" }, "coords": [33.0561, 35.6421], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": { "he": "מסלול רטוב המוביל למפל ומרפסת תצפית.", "ar": "مسار مائي يؤدي إلى شلال ومنصة مراقبة.", "en": "Wet trail leading to a waterfall and observation deck.", "ru": "Водный маршрут, ведущий к водопаду и смотровой площадке." } },
-  { "id": 121, "name": { "he": "עין דיבשה", "ar": "عين درباشية", "en": "Ein Dibsha", "ru": "Эйн-Дибша" }, "coords": [33.0851, 35.6511], "category": "water", "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500", "description": { "he": "טחנת קמח עתיקה ומים הזורמים על שביל ההליכה.", "ar": "طاحونة قمح قديمة ومياه تتدفق على مسار المشي.", "en": "Ancient flour mill and water flowing on the walking path.", "ru": "Старинная мельница и вода, текущая прямо по тропе." } },
-  { "id": 122, "name": { "he": "ירדנית", "ar": "نهر الاردن الجنوبي طبريا", "en": "Yardenit", "ru": "Ярденит" }, "coords": [32.7111, 35.5711], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?w=500", "description": { "he": "אתר טבילה ונופש על גדות נהר הירדן.", "ar": "موقع تعميد واستجمام على ضفاف نهر الأردن.", "en": "Baptism and recreation site on the banks of the Jordan River.", "ru": "Место для крещения и отдыха на берегу реки Иордан." } },
-  { "id": 123, "name": { "he": "עין נזם", "ar": "عين الخنيזرة", "en": "Ein Nezem", "ru": "Эйн-Незем" }, "coords": [32.4411, 35.5311], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": { "he": "בריכת מעיין גדולה ועמוקה בעמק המעיינות.", "ar": "بركة نبع كبيرة وعميقة في وادي الينابيع.", "en": "Large and deep spring pool in the Valley of Springs.", "ru": "Большой и глубокий источник в Долине источников." } },
-  { "id": 124, "name": { "he": "עין מודע", "ar": "عين الضبعة", "en": "Ein Moda", "ru": "Эйн-Мода" }, "coords": [32.4581, 35.4741], "category": "water", "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500", "description": { "he": "מעיין מרהיב ביופיו עם בריכה גדולה וחורשת צל.", "ar": "نبع رائع الجمال مع بركة كبيرة وبستان مظلل.", "en": "Beautiful spring with a large pool and shaded grove.", "ru": "Красивый источник с большим бассейном и тенистой рощей." } },
-  { "id": 125, "name": { "he": "נחל הקיבוצים", "ar": "واد جماعين", "en": "Kibbutzim Stream", "ru": "Нахаль-ха-Кибуцим" }, "coords": [32.5021, 35.4521], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?w=500", "description": { "he": "נחל עמוק ורחב המאפשר שחייה לאורך המסלול.", "ar": "نهر عميق وواسع يسمح بالسباحة على طول المسار.", "en": "Deep and wide stream allowing swimming along the trail.", "ru": "Глубокий и широкий ручей, по которому можно плыть." } },
-  { "id": 126, "name": { "he": "עין שוקק", "ar": "عين الجوسק", "en": "Ein Shokek", "ru": "Эйн-Шокек" }, "coords": [32.5031, 35.4381], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": { "he": "אחד המעיינות הצלולים והיפים בעמק המעיינות.", "ar": "أحد الينابيع الصافية والجميلة في وادي الينابيع.", "en": "One of the clearest and most beautiful springs in the Valley of Springs.", "ru": "Один из самых чистых и красивых источников в Долине источников." } },
-  { "id": 127, "name": { "he": "עין יזרעאל", "ar": "عين زرعين", "en": "Ein Jezreel", "ru": "Эйн-Изреэль" }, "coords": [32.5591, 35.3341], "category": "water", "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500", "description": { "he": "בריכת מים רדודה למרגלות הגלבוע עם חורשת צל.", "ar": "بركة مياه ضحلة عند سفح الجلبوع مع بستان مظلل.", "en": "Shallow water pool at the foot of Mount Gilboa with a shaded grove.", "ru": "Мелкий бассейн у подножия горы Гильбоа с тенистой рощей." } },
-  { "id": 128, "name": { "he": "בשביל החמישה (עין שערה)", "ar": "عين شعارة", "en": "Five Path Spring", "ru": "Эйн-Шаара" }, "coords": [32.7051, 35.4121], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c33?w=500", "description": { "he": "מצפה ומעיין לזכר חמישה לוחמים, עם נוף מרהיב.", "ar": "مطل ونبع لتخليد ذكرى خمسة مقاتلين، مع إطلالة رائعة.", "en": "Lookout and spring in memory of five soldiers, with a spectacular view.", "ru": "Смотровая площадка и источник в память о пяти бойцах с видом." } },
-  { "id": 129, "name": { "he": "עין עמוד", "ar": "عين وواد العامود", "en": "Ein Amud", "ru": "Эйн-Амуд" }, "coords": [32.9021, 35.4851], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?w=500", "description": { "he": "מעיין בתוך ערוץ נחל עמוד עם צמחייה עשירה.", "ar": "نبع داخل وادي العامود مع نباتات غنية.", "en": "Spring inside the Amud stream channel with rich vegetation.", "ru": "Источник в русле ручья Амуд с богатой растительностью." } },
-  { "id": 130, "name": { "he": "עין ליאור", "ar": "عين الزيتونة", "en": "Ein Lior", "ru": "Эйн-Лиор" }, "coords": [32.9811, 35.5011], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": { "he": "מעיין קטן ומקסים ליד צפת לזכר ליאור דהן.", "ar": "نبع صغير وجميل بالقرب من صفد تخليداً لذكرى ليئور دهان.", "en": "Small and charming spring near Safed in memory of Lior Dahan.", "ru": "Маленький очаровательный источник рядом с Цфатом." } },
-  { "id": 131, "name": { "he": "עין רמיאל", "ar": "عين إرميلة", "en": "Ein Ramiel", "ru": "Эйн-Рамиэль" }, "coords": [32.9411, 35.3911], "category": "water", "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500", "description": { "he": "בריכה קטנה ביישוב שפר המשקיפה על הנוף.", "ar": "بركة صغيرة في بلدة شيفر تطل على المنظر.", "en": "Small pool in Shefer community overlooking the view.", "ru": "Небольшой бассейн в поселении Шефер с видом на окрестности." } },
-  { "id": 132, "name": { "he": "עין חרדלית", "ar": "عين الهردويل", "en": "Ein Hardalit", "ru": "Эйн-Хардалит" }, "coords": [33.0451, 35.1951], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?w=500", "description": { "he": "חלק מנחל כזיב עם מים רדודים ומתאים למשפחות.", "ar": "جزء من نهر كزيف بمياه ضحلة ومناسب للعائلات.", "en": "Part of Kziv stream with shallow water, suitable for families.", "ru": "Часть ручья Кзив с мелкой водой, подходит для семейного отдыха." } },
-  { "id": 133, "name": { "he": "עין געתון", "ar": "عين الجعاتون", "en": "Ein Ga'aton", "ru": "Эйн-Гаатон" }, "coords": [33.0121, 35.2141], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": { "he": "מעיין הנובע ליד חורבת געתון העתיקה.", "ar": "نبع ينبع بالقرب من خربة جعاتون القديمة.", "en": "Spring rising near the ancient Ga'aton ruins.", "ru": "Источник, вытекающий рядом с руинами древнего Гаатона." } },
-  { "id": 134, "name": { "he": "בריכת גדעונה", "ar": "بركة بواد جالوت", "en": "Gidona Pool", "ru": "Бассейн Гидона" }, "coords": [32.5481, 35.3721], "category": "water", "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500", "description": { "he": "בריכה רדודה ונעימה ביישוב גדעונה.", "ar": "بركة ضحلة وممتعة في بلدة جدعونا.", "en": "Shallow and pleasant pool in Gidona community.", "ru": "Мелкий и приятный бассейн в поселении Гидона." } },
-  { "id": 135, "name": { "he": "עין חזין", "ar": "بير بيدר العرب", "en": "Ein Hazin", "ru": "Эйн-Хазин" }, "coords": [32.7741, 35.2511], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?w=500", "description": { "he": "מעיין נסתר ליד היישוב אלון הגליל.", "ar": "نبع مخفي بالقرب من بلدة ألون هجليل.", "en": "Hidden spring near Alon HaGalil community.", "ru": "Скрытый источник рядом с поселением Алон-ха-Галиль." } },
-  { "id": 136, "name": { "he": "עין קדם", "ar": "العين القديمة", "en": "Ein Kedem", "ru": "Эйн-Кедем" }, "coords": [32.7721, 34.9651], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": { "he": "ניקבת מים קרירה בהר הכרמל.", "ar": "نفق مائي بارد في جبل الكرمل.", "en": "Cool water tunnel in Mount Carmel.", "ru": "Прохладный водный туннель на горе Кармель." } },
-  { "id": 137, "name": { "he": "עין צור (אום אל עלק)", "ar": "خربة أم العلق", "en": "Ein Tzur", "ru": "Эйн-Цур" }, "coords": [32.5511, 34.9451], "category": "water", "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500", "description": { "he": "מעיין ונקבה עתיקה ליד רמת הנדיב.", "ar": "نبع ونفق قديم بالقرب من رمات هينديف.", "en": "Spring and ancient tunnel near Ramat HaNadiv.", "ru": "Источник и древний туннель рядом с Рамат-ха-Надив." } },
-  { "id": 138, "name": { "he": "מעיין אלרואי", "ar": "عين زقرية الرّي", "en": "Alroay Spring", "ru": "Источник Альрои" }, "coords": [32.7221, 35.1051], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?w=500", "description": { "he": "מעיין יפהפה הזורם לבריכה לצד מסילת הרכבת הישנה.", "ar": "نبع جميل يتدفق إلى بركة بجانب سكة الحديد القديمة.", "en": "Beautiful spring flowing into a pool alongside the old railway.", "ru": "Красивый источник, впадающий в бассейн рядом со старой железной дорогой." } },
-  { "id": 139, "name": { "he": "נחל השופט", "ar": "واد الطواحين", "en": "HaShofet Stream", "ru": "Ручей Ха-Шофет" }, "coords": [32.6451, 35.1011], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c33?w=500", "description": { "he": "מסלול נגיש ויפהפה עם זרימת מים כל השנה.", "ar": "مسار سهل وجميل مع تدفق المياه طوال العام.", "en": "Accessible and beautiful trail with year-round water flow.", "ru": "Доступный и красивый маршрут с водой круглый год." } },
-  { "id": 140, "name": { "he": "עין אלון", "ar": "واد فلاح", "en": "Ein Alon", "ru": "Эйн-Алон" }, "coords": [32.7211, 35.0311], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": { "he": "מעיין בלב הכרמל בתוך מבנה אבן עתיק.", "ar": "نبع في قلب الكرمل داخل مبنى حجري قديم.", "en": "Spring in the heart of Carmel inside an ancient stone building.", "ru": "Источник в центре Кармеля в старом каменном здании." } },
-  { "id": 141, "name": { "he": "עין יבקע (ראש העין)", "ar": "راس العين", "en": "Ein Yivka", "ru": "Эйн-Ивка" }, "coords": [32.7541, 35.1711], "category": "water", "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500", "description": { "he": "בריכה גדולה בנחל ציפורי עם מבנה אבן מרשים.", "ar": "بركة كبيرة في نهر تسيبوري مع مبنى حجري رائع.", "en": "Large pool in Tzipori stream with an impressive stone structure.", "ru": "Большой бассейн в ручье Ципори с каменным строением." } },
-  { "id": 142, "name": { "he": "עין אביאל", "ar": "عين اسماعيل", "en": "Ein Aviel", "ru": "Эйн-Авиэль" }, "coords": [32.5211, 34.9811], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?w=500", "description": { "he": "סדרת בריכות ומפלים קטנים בנחל תנינים.", "ar": "سلسلة من البرك والشلالات الصغيرة في نهر التماسيح.", "en": "Series of small pools and waterfalls in Taninim stream.", "ru": "Серия небольших бассейнов и водопадов на ручье Таниним." } },
-  { "id": 143, "name": { "he": "עין לבן", "ar": "العين البيضا", "en": "Ein Lavan", "ru": "Эйн-Лаван" }, "coords": [31.7511, 35.1611], "category": "water", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500", "description": { "he": "שתי בריכות מים יפות בהרי ירושלים.", "ar": "بركتان جميلتان في جبال القدس.", "en": "Two beautiful water pools in the Jerusalem hills.", "ru": "Два красивых бассейна в иерусалимских горах." } },
-  { "id": 144, "name": { "he": "עין ירקעם", "ar": "عين يرقة", "en": "Ein Yorkeam", "ru": "Эйн-Йоркеам" }, "coords": [30.9311, 35.0311], "category": "water", "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500", "description": { "he": "גב מים ענק בלב המדבר ליד המכתש הגדול.", "ar": "حوض مائي ضخم في قلب الصحراء بالقرب من فوهة البركان الكبيرة.", "en": "Huge water cistern in the heart of the desert near the Big Crater.", "ru": "Огромный резервуар с водой в сердце пустыни." } },
-  { "id": 145, "name": { "he": "עין בוקק", "ar": "عين زعيق", "en": "Ein Bokek", "ru": "Эйн-Бокек" }, "coords": [31.2011, 35.3511], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?w=500", "description": { "he": "נווה מדבר עם מים זורמים ומפלים קטנים ליד ים המלח.", "ar": "واحة صحراوية بها مياه جارية وشلالات صغيرة بالقرب من البحر الميت.", "en": "Desert oasis with running water and small waterfalls near the Dead Sea.", "ru": "Пустынный оазис с проточной водой у Мертвого моря." } },
-  { "id": 146, "name": { "he": "אתר אבן רוח מים (ירוחם)", "ar": "جرن الرومان", "en": "Stone Wind Water Site", "ru": "Камень, ветер, вода" }, "coords": [30.9851, 34.9211], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c33?w=500", "description": { "he": "חניון לילה ייחודי עם חולות צבעוניים ותצורות סלע.", "ar": "موقف ليلي فريد مع رمال ملونة وتكوينات صخرية.", "en": "Unique night camp with colorful sands and rock formations.", "ru": "Уникальная стоянка с цветными песками и скалами." } },
-  { "id": 147, "name": { "he": "עין בוקק", "ar": "عين بوكيك", "en": "Ein Bokek", "ru": "Эйн-Бокек" }, "coords": [31.2011, 35.3511], "category": "water", "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500", "description": { "he": "נווה מדבר עם מים זורמים ומפלים קטנים ליד ים המלח.", "ar": "واحة صحראوية بها مياه جارية ושلالات صغيرة بالقرب من البحر המית.", "en": "Desert oasis with running water and small waterfalls near the Dead Sea.", "ru": "Пустынный оאזיס с проточной водой у Мертвого моря." } },
-  { "id": 148, "name": { "he": "אתר אבן רוח מים (ירוחם)", "ar": "جرן الرومان", "en": "Stone Wind Water Site", "ru": "Камень, ветер, вода" }, "coords": [30.9851, 34.9211], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c33?w=500", "description": { "he": "חניון לילה ייחודי עם חולות צבעוניים ותצורות סלע.", "ar": "موقف לילי فريد עם רמאל מלונת ותקוينات סכרית.", "en": "Unique campsite with colorful sands and rock formations.", "ru": "Уникальный лагерь с цветными песками и скальными образованиями." } },
-  { "id": 149, "name": { "he": "חאן שיירות", "ar": "خان شيروت", "en": "Khan Shaherut", "ru": "Хан Шаеруט" }, "coords": [30.6300, 34.8500], "category": "sleep", "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=500", "description": { "he": "אירוח מדברי אותנטי, לינה באוהלים או בחדרים למרגלות המכתש.", "ar": "ضيافة صحראوية أصيلة, מבית פי כיאם או ע'ורף ענד קדם אלפוהה.", "en": "Authentic desert hospitality, staying in tents or rooms at the foot of the crater.", "ru": "Аутентичное гостеприимство в пустыне, проживание в палатках или комнатах." } },
-  { "id": 150, "name": { "he": "סינגל ערד-מצדה", "ar": "مسار عراد-مسعدة", "en": "Arad-Masada Singletrack", "ru": "Сингл Арад-Масада" }, "coords": [31.2400, 35.3100], "category": "bike", "image": "https://images.unsplash.com/photo-1444491741275-3747c53c99b4?w=500", "description": { "he": "מסלול אופניים אתגרי עם נוף מדברי עוצר נשימה עד לים המלח.", "ar": "מסאר דראג'את מליא באלתחדייאת עם אטלאלאת סחראווייה ח'לאבה.", "en": "Challenging bike trail with breathtaking desert views down to the Dead Sea.", "ru": "Сложная велосипедная трасса с захватывающими видами на пустыню." } },
-  { "id": 151, "name": { "he": "מג'דל שמס - מסעדות", "ar": "مطاعم مجدل شمس", "en": "Majdal Shams Restaurants", "ru": "Рестораны Мадждаль-Шамс" }, "coords": [33.2650, 35.7720], "category": "food", "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500", "description": { "he": "חוויה קולינרית דרוזית אותנטית עם נוף לחרמון.", "ar": "תג'רבה טהי דרזייה אצילה עם אטלאלה עלא ג'בל אלשיח'.", "en": "Authentic Druze culinary experience with a view of Mount Hermon.", "ru": "Подлинный друзский кулинарный опыт с видом на Хермон." } },
-  { "id": 152, "name": { "he": "עין עבדת", "ar": "عين عبدات", "en": "Ein Avdat", "ru": "Эйн-Авдат" }, "coords": [30.8250, 34.7630], "category": "nature", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c33?w=500", "description": { "he": "קניון מרהיב בנגב עם נביעה וצמחיית מדבר.", "ar": "ואדי ראא'ע פי אלנקב עם ינבוע ונבאתאת סחראווייה.", "en": "A magnificent canyon in the Negev with a spring and desert vegetation.", "ru": "Великолепный каньон в Негеве с источником и пустынной растительностью." } }
+  {
+    "id": "1",
+    "name": {
+      "he": "חרמון",
+      "ar": "جبل الشيخ",
+      "en": "Mount Hermon",
+      "ru": "Хермон"
+    },
+    "coords": [
+      33.315,
+      35.783
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1548777123-e216912df7d8?w=500",
+    "description": {
+      "he": "ההר הגבוה בישראל, מציע נוף אלפיני ומסלולי הליכה.",
+      "ar": "أعلى جبل في البلاد، يتميز بمناظره الخلابة ومساراته.",
+      "en": "Israel's highest mountain, offering alpine scenery.",
+      "ru": "Высшая точка Израиля с альпийскими пейзажами."
+    }
+  },
+  {
+    "id": "2",
+    "name": {
+      "he": "שניר (חצבני)",
+      "ar": "الحاصباني",
+      "en": "Snir Stream",
+      "ru": "Снир"
+    },
+    "coords": [
+      33.221,
+      35.617
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "הארוך מבין מקורות הירדן, זרימה חזקה ומסלול מוצל.",
+      "ar": "أطول روافد نهر الأردن، يتميز بتدفقه القوي ومساراته المظللة.",
+      "en": "The longest Jordan River source with shaded trails.",
+      "ru": "Самый длинный приток Иордана с тенистыми тропами."
+    }
+  },
+  {
+    "id": "3",
+    "name": {
+      "he": "דן (תל אל קאדי)",
+      "ar": "تل القاضي",
+      "en": "Dan Stream",
+      "ru": "Дан"
+    },
+    "coords": [
+      33.249,
+      35.652
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "description": {
+      "he": "שמורה ירוקה עם פלגי מים שוצפים ועצים עתיקים.",
+      "ar": "محمية طبيعية خلابة مع مياه جارية وأشجار قديمة.",
+      "en": "Green reserve with flowing streams and ancient trees.",
+      "ru": "Зеленый заповедник с бурными ручьями и вековыми деревьями."
+    }
+  },
+  {
+    "id": "4",
+    "name": {
+      "he": "בניאס (חניון האקליפטוס)",
+      "ar": "البانياس",
+      "en": "Banias",
+      "ru": "Баниас"
+    },
+    "coords": [
+      33.248,
+      35.694
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "מפל מרשים, גשרון תלוי ושרידים ארכיאולוגיים.",
+      "ar": "شلال رائع وجسر معلق وبقايا أثرية قديمة.",
+      "en": "Impressive waterfall, suspended bridge, and ancient ruins.",
+      "ru": "Впечатляющий водопад и археологические памятники."
+    }
+  },
+  {
+    "id": "5",
+    "name": {
+      "he": "נחל עיון (דרדרה)",
+      "ar": "عيون - دردرة",
+      "en": "Ayoun",
+      "ru": "Аюн"
+    },
+    "coords": [
+      33.267,
+      35.58
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "description": {
+      "he": "קניון עמוק עם ארבעה מפלים זורמים כל השנה.",
+      "ar": "وادٍ عميق يضم أربعة شلالات تتدفق طوال العام.",
+      "en": "A deep canyon with four year-round waterfalls.",
+      "ru": "Глубокий каньон с четырьмя водопадами."
+    }
+  },
+  {
+    "id": "6",
+    "name": {
+      "he": "מבצר נמרוד",
+      "ar": "قلعة نمرود",
+      "en": "Nimrod Fortress",
+      "ru": "Крепость Нимрод"
+    },
+    "coords": [
+      33.252,
+      35.714
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "description": {
+      "he": "מבצר גדול מימי הביניים הצופה על עמק החולה.",
+      "ar": "قلعة تاريخية ضخمة تطل على سهل الحولة.",
+      "en": "A massive medieval fortress overlooking the Hula Valley.",
+      "ru": "Огромная средневековая крепость над долиной Хула."
+    }
+  },
+  {
+    "id": "7",
+    "name": {
+      "he": "נחל חזורי / ואדי דפלה",
+      "ar": "واد حازوري / واد الدفلى",
+      "en": "Hazuri Stream",
+      "ru": "Хазури"
+    },
+    "coords": [
+      33.251,
+      35.7
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500",
+    "description": {
+      "he": "מסלול אתגרי בתוך חורש ים תיכוני סבוך ומרהיב.",
+      "ar": "مسار تحدي وسط غابات البحر المتوسط الكثيفة.",
+      "en": "Challenging hike through lush Mediterranean forest.",
+      "ru": "Сложный маршрут через густой средиземноморский лес."
+    }
+  },
+  {
+    "id": "8",
+    "name": {
+      "he": "נחל אל על",
+      "ar": "واد الدفلى",
+      "en": "El Al Stream",
+      "ru": "Эль-Аль"
+    },
+    "coords": [
+      32.833,
+      35.741
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "description": {
+      "he": "מסלול טיול יפהפה בדרום הגולן עם המפל השחור והלבן.",
+      "ar": "مسار جميل في جنوب الجولان يضم الشلالين الأسود والأبيض.",
+      "en": "Beautiful trail in South Golan with Black & White falls.",
+      "ru": "Прекрасный маршрут с Черным и Белым водопадами."
+    }
+  },
+  {
+    "id": "9",
+    "name": {
+      "he": "מצפה בנטל (תל אל עראם)",
+      "ar": "مطل تل الغرام - بنتل",
+      "en": "Mount Bental",
+      "ru": "Бенталь"
+    },
+    "coords": [
+      33.127,
+      35.813
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "תצפית מרהיבה על סוריה והחרמון מלוע הר געש כבוי.",
+      "ar": "إطلالة رائعة على سوريا وجبل الشيخ من فوهة بركان خامد.",
+      "en": "Stunning view of Syria and Hermon from an extinct volcano.",
+      "ru": "Вид на Сирию и Хермон с вершины потухшего вулкана."
+    }
+  },
+  {
+    "id": "10",
+    "name": {
+      "he": "נחל ג'ילבון",
+      "ar": "واد الجيلبون",
+      "en": "Jilabun",
+      "ru": "Джилабун"
+    },
+    "coords": [
+      33.045,
+      35.642
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "קניון עמוק בגולן עם מפלים זורמים ובריכות עמוקות.",
+      "ar": "وادٍ عميق في الجولان يضم شلالات وبرك مياه عميقة.",
+      "en": "Deep canyon in Golan with flowing falls and deep pools.",
+      "ru": "Глубокий каньон на Голанах с водопадами и бассейнами."
+    }
+  },
+  {
+    "id": "11",
+    "name": {
+      "he": "נחל זוויתן / בריכת המשושים",
+      "ar": "واد الزوايا / بركة الزوايا",
+      "en": "Meshushim",
+      "ru": "Мешушим"
+    },
+    "coords": [
+      32.935,
+      35.67
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "תופעת טבע ייחודית של עמודי בזלת משושים סביב בריכה.",
+      "ar": "ظاهرة طبيعية فريدة من نوعها لأعمدة البازلت حول البركة.",
+      "en": "Hexagonal basalt columns surrounding a natural pool.",
+      "ru": "Шестигранные базальтовые колонны вокруг бассейна."
+    }
+  },
+  {
+    "id": "12",
+    "name": {
+      "he": "מצפה לשלום (כפר חרוב)",
+      "ar": "مطل كفر حارب",
+      "en": "Peace Vista",
+      "ru": "Мицпе Ле-Шалом"
+    },
+    "coords": [
+      32.766,
+      35.66
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=500",
+    "description": {
+      "he": "תצפית פנורמית מרהיבה על הכנרת והרי הגליל.",
+      "ar": "إطلالة بانورامية رائعة على بحيرة طبريا وجبال الجليل.",
+      "en": "Spectacular panoramic view of the Sea of Galilee.",
+      "ru": "Панорамный вид на Тивеריадское озеро и горы."
+    }
+  },
+  {
+    "id": "13",
+    "name": {
+      "he": "עין נוטרה / עין תינה",
+      "ar": "عين التينة",
+      "en": "Ein Tina",
+      "ru": "Эйн-Тина"
+    },
+    "coords": [
+      33.078,
+      35.653
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1544198365-f5d60b6d8190?w=500",
+    "description": {
+      "he": "מסלול הליכה בתוך המים הזורמים במורד הגולן.",
+      "ar": "مسار مشي وسط المياه الجارية في منحدرات الجولان.",
+      "en": "Wet hiking trail through water flowing down the Golan.",
+      "ru": "Водный пеший маршрут по склонам Голан."
+    }
+  },
+  {
+    "id": "14",
+    "name": {
+      "he": "נחל עורבים",
+      "ar": "وادي الغراب",
+      "en": "Oravim Stream",
+      "ru": "Оравим"
+    },
+    "coords": [
+      33.15,
+      35.67
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "description": {
+      "he": "קניון פראי עם מפלים עונתיים מרשימים ונוף פתוח.",
+      "ar": "وادٍ بري يضم شلالات موسمية رائعة ومناظر مفتوحة.",
+      "en": "Wild canyon with seasonal falls and open landscapes.",
+      "ru": "Дикий каньон с сезонными водопадами."
+    }
+  },
+  {
+    "id": "15",
+    "name": {
+      "he": "נחל יהודיה",
+      "ar": "واد اليهودية",
+      "en": "Yehudiya",
+      "ru": "Иегудия"
+    },
+    "coords": [
+      32.91,
+      35.69
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "אחד המסלולים הפופולריים בגולן עם בריכות עמוקות.",
+      "ar": "أحد أشهر المسارات في الجولان مع برك مياه عميقة.",
+      "en": "One of the most popular Golan trails with deep pools.",
+      "ru": "Один из популярных маршрутов с глубокими бассейнами."
+    }
+  },
+  {
+    "id": "16",
+    "name": {
+      "he": "מצפה לשלום (מבוא חמה)",
+      "ar": "مطل ميفو حماة",
+      "en": "Mevo Hama Lookout",
+      "ru": "Мево Хама"
+    },
+    "coords": [
+      32.73,
+      35.65
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=500",
+    "description": {
+      "he": "נוף מרהיב לכנרת מקצה המצוק של דרום הגולן.",
+      "ar": "مناظر خلابة لبحيرة طبريا من حافة منحدرات جنوب الجولان.",
+      "en": "Breathtaking Galilee views from the South Golan cliff.",
+      "ru": "Потрясающий вид на озеро Кинерет с обрыва."
+    }
+  },
+  {
+    "id": "17",
+    "name": {
+      "he": "תל דן",
+      "ar": "تل القاضي",
+      "en": "Tel Dan",
+      "ru": "Тель Дан"
+    },
+    "coords": [
+      33.249,
+      35.652
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500",
+    "description": {
+      "he": "שילוב של עיר מקראית עתיקה ומקורות מים שופעים.",
+      "ar": "مزيج من مدينة توراتية قديمة ومصادر مياه وفيرة.",
+      "en": "Combination of an ancient biblical city and water sources.",
+      "ru": "Древний библейский город у истоков реки Дан."
+    }
+  },
+  {
+    "id": "18",
+    "name": {
+      "he": "עין דבשה",
+      "ar": "عين درباشية",
+      "en": "Ein Divsha",
+      "ru": "Эйн-Дивша"
+    },
+    "coords": [
+      33.0906,
+      35.6425
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "description": {
+      "he": "מעיין קטן ופסטורלי עם טחנת קמח עתיקה.",
+      "ar": "نبع صغير هادئ مع طاحونة قمح قديمة.",
+      "en": "Small pastoral spring with an ancient flour mill.",
+      "ru": "Небольшой пасторальный источник со старой мельницей."
+    }
+  },
+  {
+    "id": "19",
+    "name": {
+      "he": "עין כנף",
+      "ar": "عين دير عزيز",
+      "en": "Ein Kanaf",
+      "ru": "Эйн-Канаф"
+    },
+    "coords": [
+      32.8624,
+      35.7335
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1544198365-f5d60b6d8190?w=500",
+    "description": {
+      "he": "שלוש בריכות יפות המשקיפות על נחל כנף והכנרת.",
+      "ar": "ثلاث برك مياه جميلة تطل على وادي كنف وبحيرة طبريا.",
+      "en": "Three beautiful pools overlooking Kanaf Stream.",
+      "ru": "Три красивых бассейна с видом на ручей Канаф."
+    }
+  },
+  {
+    "id": "20",
+    "name": {
+      "he": "עין פיק",
+      "ar": "عين فيق",
+      "en": "Ein Fik",
+      "ru": "Эйн-Фик"
+    },
+    "coords": [
+      32.7753,
+      35.7001
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "description": {
+      "he": "מעיין הנובע בתוך בוסתן עצי פרי מתחת לכפר עתיק.",
+      "ar": "نبع يتدفق داخل بستان من الأشجار المثمرة تحت قرية قديمة.",
+      "en": "Spring flowing in an orchard below an ancient village.",
+      "ru": "Источник в саду под древней деревней."
+    }
+  },
+  {
+    "id": "21",
+    "name": {
+      "he": "כוכב הירדן (קוכב אל הווא)",
+      "ar": "كوكب الهوى",
+      "en": "Belvoir Fortress",
+      "ru": "Кохав Ха-Ярдан"
+    },
+    "coords": [
+      32.595,
+      35.526
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "description": {
+      "he": "מבצר צלבני שלם המשקיף על בקעת הירדן.",
+      "ar": "قلعة صليبية كاملة تطل على غور الأردن.",
+      "en": "Well-preserved Crusader fortress overlooking the Jordan Valley.",
+      "ru": "Крепость крестоносцев над долиной Иордана."
+    }
+  },
+  {
+    "id": "22",
+    "name": {
+      "he": "כתף שאול / הר ברקן",
+      "ar": "مطل جبل قليلة / جبل بركات",
+      "en": "Mount Gilboa",
+      "ru": "Гильбоа"
+    },
+    "coords": [
+      32.503,
+      35.405
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "תצפית מרהיבה מהגלבוע אל עמק חרוד ועמק המעיינות.",
+      "ar": "إطلالة رائعة من جبال جلبوع على سهل حارود ووادي الينابيع.",
+      "en": "Spectacular views from Gilboa towards the valleys below.",
+      "ru": "Вид с горы Гильбоа на долины Харод и Источников."
+    }
+  },
+  {
+    "id": "23",
+    "name": {
+      "he": "נחל יצפור",
+      "ar": "وادي الخراريب",
+      "en": "Yitzpor",
+      "ru": "Ицпор"
+    },
+    "coords": [
+      32.484,
+      35.412
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500",
+    "description": {
+      "he": "מסלול ירידה תלול בגלבוע בין פריחות עונתיות.",
+      "ar": "مسار منحدر وحاد في جبال جلبوع بين الزهور الموسمية.",
+      "en": "Steep hiking trail down Mt. Gilboa with seasonal blooms.",
+      "ru": "Крутой спуск по горе Гильбоа среди цветов."
+    }
+  },
+  {
+    "id": "24",
+    "name": {
+      "he": "עין שוקק / עין מודע",
+      "ar": "عين الجوسق / الضبعة",
+      "en": "Ein Shokek",
+      "ru": "Эйн-Шокек"
+    },
+    "coords": [
+      32.502,
+      35.446
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "מעיינות צלולים וגדולים בעמק המעיינות, מים כל השנה.",
+      "ar": "ينابيع مياه صافية وكبيرة في وادي الينابيع طوال العام.",
+      "en": "Crystal clear year-round springs in the Valley of Springs.",
+      "ru": "Прозрачные источники в долине Источников."
+    }
+  },
+  {
+    "id": "25",
+    "name": {
+      "he": "נחל חרוד (ואדי ג'אלוד)",
+      "ar": "وادي جالوت",
+      "en": "Harod Stream",
+      "ru": "Харод"
+    },
+    "coords": [
+      32.528,
+      35.495
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "description": {
+      "he": "נחל זורם עם קניון בזלת וגשרים תלויים.",
+      "ar": "نهر جاري يضم وادٍ بازلتي وجسور معلقة.",
+      "en": "Flowing stream with a basalt canyon and hanging bridges.",
+      "ru": "Проточный ручей с базальтовым каньоном."
+    }
+  },
+  {
+    "id": "26",
+    "name": {
+      "he": "נחל קיבוצים (ואדי ג'מאעין)",
+      "ar": "وادي جماعين",
+      "en": "Kibbutzim Stream",
+      "ru": "Нахаль-Кибуцим"
+    },
+    "coords": [
+      32.503,
+      35.474
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "מסלול הליכה רטוב ומהנה בתוך מים עמוקים.",
+      "ar": "مسار مشي رطب وممتع وسط المياه العميقة.",
+      "en": "A fun wet hiking trail inside deep water.",
+      "ru": "Водный пеший маршрут по глубокой воде."
+    }
+  },
+  {
+    "id": "27",
+    "name": {
+      "he": "תל יזרעאל / עין יזרעאל",
+      "ar": "تل زرعين / عين الميتة",
+      "en": "Ein Yizre'el",
+      "ru": "Эйн-Изреэль"
+    },
+    "coords": [
+      32.56,
+      35.31
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "description": {
+      "he": "נקודת עצירה נעימה עם בריכה גדולה תחת עצי איקליפטוס.",
+      "ar": "نقطة توقف مريحة مع بركة كبيرة تحت أشجار الأوكالبتوس.",
+      "en": "A pleasant stop with a large pool under eucalyptus trees.",
+      "ru": "Бассейн под эвкалиптами у подножия Тель-Изреэль."
+    }
+  },
+  {
+    "id": "28",
+    "name": {
+      "he": "גשר הישנה / נהריים",
+      "ar": "جسر المجامع / ملتقى النهرين",
+      "en": "Naharayim",
+      "ru": "Наараим"
+    },
+    "coords": [
+      32.636,
+      35.58
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500",
+    "description": {
+      "he": "סיפורי ראשונים, תחנת כוח עתיקה וגבול נהר הירדן.",
+      "ar": "قصص المستوطنين الأوائل، محطة طاقة قديمة وحدود نهر الأردن.",
+      "en": "Pioneer stories, old power plant, and the Jordan River border.",
+      "ru": "Старая электростанция и история первых поселенцев."
+    }
+  },
+  {
+    "id": "29",
+    "name": {
+      "he": "עתיקות בית שאן",
+      "ar": "مدينة بيسان الاثرية",
+      "en": "Beit She'an",
+      "ru": "Бейт-Шеан"
+    },
+    "coords": [
+      32.503,
+      35.501
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "description": {
+      "he": "עיר רומית-ביזנטית מרהיבה עם תיאטרון ורחובות עמודים.",
+      "ar": "مدينة رومانية بيزنطية رائعة تضم مسرحاً وشوارع بأعمدة.",
+      "en": "Magnificent Roman-Byzantine city with a theater and colonnaded streets.",
+      "ru": "Римско-византийский город с театром и колоннадами."
+    }
+  },
+  {
+    "id": "30",
+    "name": {
+      "he": "נחל פרת (ואדי קלט)",
+      "ar": "وادي القلط",
+      "en": "Wadi Qelt",
+      "ru": "Вади Кельт"
+    },
+    "coords": [
+      31.834,
+      35.352
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "נווה מדבר יפהפה עם מנזרים תלויים ובריכות שכשוך.",
+      "ar": "واحة صحراوية جميلة تضم أديرة معلقة وبرك مياه.",
+      "en": "A beautiful desert oasis with hanging monasteries and pools.",
+      "ru": "Пустынный оазис с висячими монастырями и бассейнами."
+    }
+  },
+  {
+    "id": "31",
+    "name": {
+      "he": "נחל אוג (ואדי מוכלכ)",
+      "ar": "وادي المكلك",
+      "en": "Og Stream",
+      "ru": "Ог"
+    },
+    "coords": [
+      31.785,
+      35.454
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "description": {
+      "he": "קניון צר עם סולמות וחבלים במדבר יהודה.",
+      "ar": "وادٍ ضيق يضم سلالم وحبال في صحراء يهودا.",
+      "en": "Narrow canyon with ladders and ropes in the Judean Desert.",
+      "ru": "Узкий каньон с лестницами в Иудейской пустыне."
+    }
+  },
+  {
+    "id": "32",
+    "name": {
+      "he": "מצפה דרגות / נחל דרגות",
+      "ar": "مطل وادي درجة",
+      "en": "Dragot Stream",
+      "ru": "Драгот"
+    },
+    "coords": [
+      31.585,
+      35.392
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "תצפית מרהיבה על ים המלח ומסלול קניוני מאתגר.",
+      "ar": "إطلالة رائعة على البحر الميت ومسار وادٍ مليء بالتحديات.",
+      "en": "Spectacular view of the Dead Sea and a challenging canyon trail.",
+      "ru": "Вид на Мертвое море и сложный каньонный маршрут."
+    }
+  },
+  {
+    "id": "33",
+    "name": {
+      "he": "נחל דוד",
+      "ar": "وادي داود",
+      "en": "David Stream",
+      "ru": "Нахаль Давид"
+    },
+    "coords": [
+      31.466,
+      35.394
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "description": {
+      "he": "נווה מדבר בשמורת עין גדי עם מפלים ויעלים.",
+      "ar": "واحة صحراوية في محمية عين جدي تضم شلالات ووعولاً.",
+      "en": "An oasis in Ein Gedi reserve with waterfalls and ibex.",
+      "ru": "Оазис в Эйн-Геди с водопадами и горными козлами."
+    }
+  },
+  {
+    "id": "34",
+    "name": {
+      "he": "נחל ערוגות",
+      "ar": "وادي عروغات",
+      "en": "Arugot Stream",
+      "ru": "Нахаль Аругот"
+    },
+    "coords": [
+      31.461,
+      35.385
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "טיול מים מרענן במדבר עד למפל הנסתר.",
+      "ar": "رحلة مائية منعشة في الصحراء وصولاً إلى الشلال المخفي.",
+      "en": "Refreshing desert water hike to the hidden waterfall.",
+      "ru": "Водный поход по пустыне к Скрытому водопаду."
+    }
+  },
+  {
+    "id": "35",
+    "name": {
+      "he": "נחל צאלים (ואדי סיאל)",
+      "ar": "وادي السيال",
+      "en": "Tze'elim Stream",
+      "ru": "Цеэлим"
+    },
+    "coords": [
+      31.345,
+      35.326
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "קניון עצום עם גבים עמוקים לאחר הגשמים.",
+      "ar": "وادٍ ضخم يضم بركاً عميقة بعد هطول الأمطار.",
+      "en": "Massive canyon with deep pools after rainfalls.",
+      "ru": "Огромный каньон с глубокими ямами после дождей."
+    }
+  },
+  {
+    "id": "36",
+    "name": {
+      "he": "מצדה (אל קלעה)",
+      "ar": "جبل القلعة - مسعدة",
+      "en": "Masada",
+      "ru": "Масада"
+    },
+    "coords": [
+      31.315,
+      35.353
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "description": {
+      "he": "מבצר עתיק על צוק מבודד, סמל לגבורה היסטורית.",
+      "ar": "قلعة قديمة على منحدر معزول، رمز للبطولة التاريخية.",
+      "en": "Ancient fortress on an isolated cliff, a symbol of historical heroism.",
+      "ru": "Древняя крепость на скале, символ героизма."
+    }
+  },
+  {
+    "id": "37",
+    "name": {
+      "he": "נחל בוקק",
+      "ar": "وادي بوقيق",
+      "en": "Bokek Stream",
+      "ru": "Нахаль Бокеק"
+    },
+    "coords": [
+      31.198,
+      35.351
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "מסלול קצר ורטוב סמוך לבתי המלון של ים המלח.",
+      "ar": "مسار قصير ورطب بالقرب من فنادق البحر الميت.",
+      "en": "Short wet trail near the Dead Sea hotels.",
+      "ru": "Короткий водный маршрут рядом с отелями Мертвого моря."
+    }
+  },
+  {
+    "id": "38",
+    "name": {
+      "he": "נחל משמר",
+      "ar": "واد مشمار",
+      "en": "Mishmar Stream",
+      "ru": "Мишмар"
+    },
+    "coords": [
+      31.385,
+      35.352
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "description": {
+      "he": "מסלול קניוני פראי ומאתגר עם גבים יפים.",
+      "ar": "مسار وادٍ بري ومليء بالتحديات مع برك مياه جميلة.",
+      "en": "Wild and challenging canyon trail with beautiful pools.",
+      "ru": "Дикий каньонный маршрут с красивыми заводями."
+    }
+  },
+  {
+    "id": "39",
+    "name": {
+      "he": "מערת הנטיפים",
+      "ar": "مغارة الشموع",
+      "en": "Stalactite Cave",
+      "ru": "Сталактитовая пещера"
+    },
+    "coords": [
+      31.753,
+      35.023
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500",
+    "description": {
+      "he": "עולם קסום של נטיפים וזקיפים בשלל צורות.",
+      "ar": "عالم ساحر من الصواعد والهوابط بأشكال متنوعة.",
+      "en": "A magical world of stalactites and stalagmites.",
+      "ru": "Мир сталактитов и сталагмитов необычных форм."
+    }
+  },
+  {
+    "id": "40",
+    "name": {
+      "he": "פארק בריטניה",
+      "ar": "منتزه بريطانيا",
+      "en": "Britannia Park",
+      "ru": "Парк Британия"
+    },
+    "coords": [
+      31.7,
+      34.9
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "description": {
+      "he": "מרחבים ירוקים, חורש טבעי ותצפיות נוף בשפלה.",
+      "ar": "مساحات خضراء وغابات طبيعية وإطلالات خلابة في منطقة السهل.",
+      "en": "Green spaces, natural woodland, and scenic views in the lowlands.",
+      "ru": "Зеленые просторы и смотровые площадки."
+    }
+  },
+  {
+    "id": "41",
+    "name": {
+      "he": "תל לכיש",
+      "ar": "تل لخيش",
+      "en": "Tel Lachish",
+      "ru": "Тель Лахиш"
+    },
+    "coords": [
+      31.565,
+      34.846
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500",
+    "description": {
+      "he": "עיר מקראית חשובה עם שרידי שער וארמון.",
+      "ar": "مدينة توراتية هامة تضم بقايا بوابة وقصر.",
+      "en": "An important biblical city with remains of a gate and palace.",
+      "ru": "Важный библейский город с остатками ворот и дворца."
+    }
+  },
+  {
+    "id": "42",
+    "name": {
+      "he": "בית גוברין",
+      "ar": "بيت جبرين",
+      "en": "Beit Guvrin",
+      "ru": "Бейт-Гуврин"
+    },
+    "coords": [
+      31.611,
+      34.898
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "description": {
+      "he": "מערות פעמון ענקיות ועיר קדומה מרשימה.",
+      "ar": "كهوف جرس ضخمة ومدينة قديمة رائعة.",
+      "en": "Huge bell caves and an impressive ancient city.",
+      "ru": "Огромные пещеры-колоколы и древний город."
+    }
+  },
+  {
+    "id": "43",
+    "name": {
+      "he": "נחל כזיב / עין חרדלית",
+      "ar": "واد القرن / عين الهردويل",
+      "en": "Kziv Stream",
+      "ru": "Нахаль Кзив"
+    },
+    "coords": [
+      33.042,
+      35.191
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "נחל זורם כל השנה בגליל המערבי עם מים צלולים.",
+      "ar": "نهر يتدفق طوال العام في الجليل الغربي بمياه صافية.",
+      "en": "Year-round flowing stream in Western Galilee with clear water.",
+      "ru": "Проточный ручей в Западной Галилее с чистой водой."
+    }
+  },
+  {
+    "id": "44",
+    "name": {
+      "he": "ראש הנקרה",
+      "ar": "راس الناقورة",
+      "en": "Rosh HaNikra",
+      "ru": "Рош Ха-Никра"
+    },
+    "coords": [
+      33.093,
+      35.104
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=500",
+    "description": {
+      "he": "נקרות ימיות מרהיבות שנוצרו על ידי גלי הים.",
+      "ar": "كهوف بحرية رائعة تشكلت بفعل أمواج البحر.",
+      "en": "Spectacular sea grottoes formed by the waves.",
+      "ru": "Морские гроты, созданные прибоем."
+    }
+  },
+  {
+    "id": "45",
+    "name": {
+      "he": "נחל געתון",
+      "ar": "عين الجعاتون",
+      "en": "Ga'aton",
+      "ru": "Гаатон"
+    },
+    "coords": [
+      33.011,
+      35.193
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "description": {
+      "he": "נחל החוצה את נהריה עם שבילי הליכה נוחים.",
+      "ar": "نهر يمر عبر نهاريا مع مسارات مشي مريحة.",
+      "en": "A stream passing through Nahariya with easy walking paths.",
+      "ru": "Ручей с удобными пешеходными дорожками."
+    }
+  },
+  {
+    "id": "46",
+    "name": {
+      "he": "נחל בצת",
+      "ar": "وادي البصة",
+      "en": "Betzet Stream",
+      "ru": "Бецет"
+    },
+    "coords": [
+      33.074,
+      35.155
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "מסלול מוצל בגליל המערבי עם עצי דולב ענקיים.",
+      "ar": "مسار مظلل في الجليل الغربي يضم أشجار الدلب الضخمة.",
+      "en": "Shaded trail in Western Galilee with giant plane trees.",
+      "ru": "Тенистый маршрут с гигантскими платанами."
+    }
+  },
+  {
+    "id": "47",
+    "name": {
+      "he": "מבצר יחיעם",
+      "ar": "قلعة جديّن",
+      "en": "Yehiam Fortress",
+      "ru": "Крепость Иехиам"
+    },
+    "coords": [
+      32.993,
+      35.221
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500",
+    "description": {
+      "he": "מבצר צלבני ועות'מאני המספר סיפורי גבורה.",
+      "ar": "قلعة صليبية وعثمانية تروي قصص البطولة.",
+      "en": "Crusader and Ottoman fortress telling stories of heroism.",
+      "ru": "Крестоносная и османская крепость."
+    }
+  },
+  {
+    "id": "48",
+    "name": {
+      "he": "נחל עמוד",
+      "ar": "واد العامود",
+      "en": "Amud Stream",
+      "ru": "Амуд"
+    },
+    "coords": [
+      32.923,
+      35.491
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "נחל איתן עם בוסתנים, טחנות קמח וסלע העמוד.",
+      "ar": "نهر دائم يضم بساتين وطواحين قمح وصخرة العامود الشهيرة.",
+      "en": "Flowing stream with orchards, flour mills, and the 'Pillar' rock.",
+      "ru": "Ручей с садами, мельницами и знаменитой скалой-столбом."
+    }
+  },
+  {
+    "id": "49",
+    "name": {
+      "he": "נחל צלמון",
+      "ar": "وادي سلامة",
+      "en": "Tzalmon Stream",
+      "ru": "Цалмон"
+    },
+    "coords": [
+      32.894,
+      35.393
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "description": {
+      "he": "מסלול קל ונעים בין שרידי טחנות קמח ובריכות.",
+      "ar": "مسار سهل وممتع بين بقايا طواحين القمح وبرك المياه.",
+      "en": "Easy and pleasant trail among flour mill ruins and pools.",
+      "ru": "Легкий маршрут среди руин мельниц и бассейнов."
+    }
+  },
+  {
+    "id": "50",
+    "name": {
+      "he": "הר מירון",
+      "ar": "جبل الجرمق",
+      "en": "Mount Meron",
+      "ru": "Мерон"
+    },
+    "coords": [
+      32.996,
+      35.412
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "שביל הפסגה עם תצפיות מרהיבות על כל הצפון.",
+      "ar": "مسار القمة الذي يضم إطلالات رائعة على كامل منطقة الشمال.",
+      "en": "The summit trail with spectacular views of all Northern Israel.",
+      "ru": "Тропа по вершине с видами на весь север."
+    }
+  },
+  {
+    "id": "51",
+    "name": {
+      "he": "נחל תבור",
+      "ar": "وادي البيرة",
+      "en": "Tabor Stream",
+      "ru": "Табор"
+    },
+    "coords": [
+      32.613,
+      35.534
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "description": {
+      "he": "קניון בזלת יפהפה עם פריחת תורמוסים באביב.",
+      "ar": "وادٍ بازلتي جميل مع تفتح أزهار الترمس في الربيع.",
+      "en": "Beautiful basalt canyon with lupine blooms in spring.",
+      "ru": "Базальтовый каньон с цветением люпинов весной."
+    }
+  },
+  {
+    "id": "52",
+    "name": {
+      "he": "נחל השופט",
+      "ar": "واد الطواحين",
+      "en": "Nahal HaShofet",
+      "ru": "Нахаль-ха-Шофет"
+    },
+    "coords": [
+      32.615,
+      35.1
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "description": {
+      "he": "מסלול נגיש ונוח בתוך חורש ירוק ומים זורמים.",
+      "ar": "مسار سهل ومتاح للجميع داخل غابة خضراء ومياه جارية.",
+      "en": "Accessible and easy trail within green woodland and flowing water.",
+      "ru": "Доступный маршрут в зеленом лесу у воды."
+    }
+  },
+  {
+    "id": "53",
+    "name": {
+      "he": "עין יורקעם",
+      "ar": "عين يرقة",
+      "en": "Ein Yorkeam",
+      "ru": "Эйн-Йоркеам"
+    },
+    "coords": [
+      30.932,
+      35.038
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "גב מים ענק ומרהיב בלב המדבר.",
+      "ar": "بركة مياه ضخمة ورائعة في قلب الصحراء.",
+      "en": "A huge and spectacular water hole in the heart of the desert.",
+      "ru": "Огромная водная заводь в сердце пустыни."
+    }
+  },
+  {
+    "id": "54",
+    "name": {
+      "he": "עין עבדת",
+      "ar": "عين عبدات",
+      "en": "Ein Avdat",
+      "ru": "Эйн-Авдат"
+    },
+    "coords": [
+      30.825,
+      34.762
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "קניון לבן ומרהיב עם מפלים ובריכות במדבר.",
+      "ar": "وادٍ أبيض رائع يضم شلالات وبرك مياه في الصحراء.",
+      "en": "Spectacular white canyon with waterfalls and pools in the desert.",
+      "ru": "Белый каньон с водопадами в пустыне."
+    }
+  },
+  {
+    "id": "55",
+    "name": {
+      "he": "נחל גוב",
+      "ar": "وادي جوب",
+      "en": "Gov Stream",
+      "ru": "Гов"
+    },
+    "coords": [
+      30.925,
+      35.104
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "description": {
+      "he": "מסלול הרפתקני עם סולמות בתוך קניון צר.",
+      "ar": "مسار مليء بالمغامرات مع سلالم داخل وادٍ ضيق.",
+      "en": "Adventurous trail with ladders inside a narrow canyon.",
+      "ru": "Приключенческий маршрут с лестницами в каньоне."
+    }
+  },
+  {
+    "id": "56",
+    "name": {
+      "he": "נחל פרס",
+      "ar": "وادي الفارس",
+      "en": "Peres Stream",
+      "ru": "Перес"
+    },
+    "coords": [
+      30.958,
+      35.289
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "גבי מים מרשימים ומראה מרהיב של 'חלון' לערבה.",
+      "ar": "برك مياه رائعة وإطلالة خلابة من 'النافذة' على منطقة العربة.",
+      "en": "Impressive water holes and a spectacular 'window' view of the Arava.",
+      "ru": "Заводи и потрясающий вид на Араву."
+    }
+  },
+  {
+    "id": "57",
+    "name": {
+      "he": "המכתש הגדול",
+      "ar": "المكتش الكبير",
+      "en": "Big Crater",
+      "ru": "Большой кратер"
+    },
+    "coords": [
+      30.93,
+      34.9
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "תופעת טבע ייחודית עם חולות צבעוניים ותצפיות נוף.",
+      "ar": "ظاهرة طبيعية فريدة تضم رمالاً ملونة وإطلالات خلابة.",
+      "en": "Unique natural phenomenon with colorful sands and scenic views.",
+      "ru": "Уникальный кратер с цветными песками."
+    }
+  },
+  {
+    "id": "58",
+    "name": {
+      "he": "צבעי הרמון",
+      "ar": "גן לאומי צבעי רמון",
+      "en": "Ramon Colors",
+      "ru": "Рамон"
+    },
+    "coords": [
+      30.612,
+      34.881
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "סלעים צבעוניים ותופעות גאולוגיות במכתש רמון.",
+      "ar": "صخور ملونة وظواهر جيولوجية في فوهة رامون.",
+      "en": "Colorful rocks and geological phenomena in Ramon Crater.",
+      "ru": "Цветные скалы в кратере Рамон."
+    }
+  },
+  {
+    "id": "59",
+    "name": {
+      "he": "קניון עדה",
+      "ar": "كنيون عدا",
+      "en": "Ada Canyon",
+      "ru": "Каньон Ада"
+    },
+    "coords": [
+      30.388,
+      34.912
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "description": {
+      "he": "קניון צר ויפהפה בערבה, מסלול הליכה קצר ומקסים.",
+      "ar": "وادٍ ضيق وجميل في منطقة العربة، مسار مشي قصير ورائع.",
+      "en": "A beautiful narrow canyon in the Arava, short and lovely hike.",
+      "ru": "Красивый узкий каньон в Араве."
+    }
+  },
+  {
+    "id": "60",
+    "name": {
+      "he": "פארק תמנע",
+      "ar": "منتزه تيمناع",
+      "en": "Timna Park",
+      "ru": "Тимна"
+    },
+    "coords": [
+      29.785,
+      34.922
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "נופי בראשית, עמודי שלמה ואגם מלאכותי במדבר.",
+      "ar": "مناظر طبيعية بدائية، أعمدة سليمان وبحيرة اصطناعية في الصحراء.",
+      "en": "Primeval landscapes, Solomon's Pillars, and a desert lake.",
+      "ru": "Столбы Соломона и древние медные копи."
+    }
+  },
+  {
+    "id": "61",
+    "name": {
+      "he": "הקניון האדום",
+      "ar": "الوادي الاحمر",
+      "en": "Red Canyon",
+      "ru": "Красный каньон"
+    },
+    "coords": [
+      29.67,
+      34.86
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "description": {
+      "he": "מסלול הליכה בתוך קניון מאבן חול אדומה ומרהיבה.",
+      "ar": "مسار مشي داخل وادٍ من الحجر الرملي الأحمر الرائع.",
+      "en": "A hike inside a spectacular red sandstone canyon.",
+      "ru": "Пеший маршрут по красному песчанику."
+    }
+  },
+  {
+    "id": "62",
+    "name": {
+      "he": "הרי אילת",
+      "ar": "جبال ايلات",
+      "en": "Eilat Mountains",
+      "ru": "Эйлатские горы"
+    },
+    "coords": [
+      29.58,
+      34.9
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "תצפיות עוצרות נשימה על מפרץ אילת וארבע מדינות.",
+      "ar": "إطلالات تحبس الأنفاس على خليج إيلات وأربع دول.",
+      "en": "Breathtaking views of Eilat Bay and four neighboring countries.",
+      "ru": "Захватывающие виды на залив Эйлата."
+    }
+  },
+  {
+    "id": "63",
+    "name": {
+      "he": "נחל אלכסנדר",
+      "ar": "وادي الحوارث",
+      "en": "Alexander Stream",
+      "ru": "Александр"
+    },
+    "coords": [
+      32.392,
+      34.864
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "נחל עם צבים רכים וגשרים להולכי רגל.",
+      "ar": "نهر يضم سلاحف لينة وجسور للمشاة.",
+      "en": "Stream with soft-shell turtles and pedestrian bridges.",
+      "ru": "Река с мягкотелыми черепахами."
+    }
+  },
+  {
+    "id": "64",
+    "name": {
+      "he": "אפולוניה",
+      "ar": "أرسوف",
+      "en": "Apollonia",
+      "ru": "Аполлония"
+    },
+    "coords": [
+      32.19,
+      34.807
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "description": {
+      "he": "מבצר צלבני על מצוק חוף הים בהרצליה.",
+      "ar": "قلعة صليبية على جرف شاطئ البحر في هرتسليا.",
+      "en": "Crusader fortress on a sea cliff in Herzliya.",
+      "ru": "Крепость крестоносцев на берегу моря."
+    }
+  },
+  {
+    "id": "65",
+    "name": {
+      "he": "קיסריה",
+      "ar": "قيسارية",
+      "en": "Caesarea",
+      "ru": "Кесария"
+    },
+    "coords": [
+      32.5,
+      34.892
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500",
+    "description": {
+      "he": "עיר נמל עתיקה עם תיאטרון, היפודרום ונמל מרשים.",
+      "ar": "مدينة ميناء قديمة تضم مسرحاً وميداناً لسباق الخيل وميناءً رائعاً.",
+      "en": "Ancient port city with a theater, hippodrome, and port.",
+      "ru": "Древний портовый город с театром."
+    }
+  },
+  {
+    "id": "66",
+    "name": {
+      "he": "נחל תנינים",
+      "ar": "وادي التماسيح",
+      "en": "Taninim Stream",
+      "ru": "Таниним"
+    },
+    "coords": [
+      32.541,
+      34.915
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "description": {
+      "he": "שמורה עם סכר רומי עתיק וטחנות קמח.",
+      "ar": "محمية طبيعية تضم سداً رومانياً قديماً وطواحين قمح.",
+      "en": "Reserve with an ancient Roman dam and flour mills.",
+      "ru": "Заповедник с римской дамбой."
+    }
+  },
+  {
+    "id": "67",
+    "name": {
+      "he": "עין צור",
+      "ar": "خربة أم العلق",
+      "en": "Ein Tzur",
+      "ru": "Эйн-Цур"
+    },
+    "coords": [
+      32.553,
+      34.945
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "description": {
+      "he": "מעיין בתוך נקבה ושרידי וילה רומית.",
+      "ar": "نبع داخل نفق وبقايا فيلا رومانية قديمة.",
+      "en": "Spring inside a tunnel and Roman villa ruins.",
+      "ru": "Источник в туннеле и руины виллы."
+    }
+  },
+  {
+    "id": "68",
+    "name": {
+      "he": "עין אביאל",
+      "ar": "عين اسماعيل",
+      "en": "Ein Aviel",
+      "ru": "Эйн-Авиэль"
+    },
+    "coords": [
+      32.52,
+      35.008
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "description": {
+      "he": "בריכות קסומות ומפלים קטנים בין קני סוף.",
+      "ar": "برك مياه ساحرة وشلالات صغيرة وسط القصب.",
+      "en": "Magical pools and small waterfalls among reeds.",
+      "ru": "Волшебные бассейны среди камышей."
+    }
+  },
+  {
+    "id": "69",
+    "name": {
+      "he": "עין מבוע",
+      "ar": "عين مبروع",
+      "en": "Ein Mabua",
+      "ru": "Эйн-Мабуа"
+    },
+    "coords": [
+      31.838,
+      35.345
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "מעיין פועם המתמלא ומתרוקן בקצב קבוע.",
+      "ar": "نبع نابض يمتلئ ويفرغ بوتيرة ثابتة.",
+      "en": "A rhythmic spring that fills and empties periodically.",
+      "ru": "Пульсирующий источник в Вади Кельт."
+    }
+  },
+  {
+    "id": "70",
+    "name": {
+      "he": "עין קלט",
+      "ar": "عين القلط",
+      "en": "Ein Qelt",
+      "ru": "Эйн-Кельт"
+    },
+    "coords": [
+      31.844,
+      35.378
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "בריכה עמוקה ומרעננת בלב מדבר יהודה.",
+      "ar": "بركة مياه عميقة ومنعشة في قلب صحراء يهودا.",
+      "en": "A deep and refreshing pool in the Judean Desert.",
+      "ru": "Глубокий бассейн в Иудейской пустыне."
+    }
+  },
+  {
+    "id": "71",
+    "name": {
+      "he": "מנזר סנט ג'ורג'",
+      "ar": "دير سانت جورج",
+      "en": "St. George Monastery",
+      "ru": "Монастырь Сент-Джордж"
+    },
+    "coords": [
+      31.844,
+      35.401
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500",
+    "description": {
+      "he": "מנזר עוצר נשימה התלוי על מצוק בנחל פרת.",
+      "ar": "دير مذهل معلق على جرف في وادي القلط.",
+      "en": "Breathtaking monastery hanging on a cliff side.",
+      "ru": "Монастырь, висящий на отвесной скале."
+    }
+  },
+  {
+    "id": "72",
+    "name": {
+      "he": "נחל קומראן",
+      "ar": "وادي قمران",
+      "en": "Qumran",
+      "ru": "Кумран"
+    },
+    "coords": [
+      31.741,
+      35.459
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "description": {
+      "he": "מקום מציאת המגילות הגנוזות ושרידי יישוב עתיק.",
+      "ar": "مكان العثور على مخطوطات البحر الميت وبقايا مستوطنة قديمة.",
+      "en": "Discovery site of the Dead Sea Scrolls and ancient ruins.",
+      "ru": "Место находки свитков Мертвого моря."
+    }
+  },
+  {
+    "id": "73",
+    "name": {
+      "he": "נחל ראש פינה",
+      "ar": "واد شهيان الجاعونة",
+      "en": "Nahal Rosh Pina",
+      "ru": "Нахаль Рош-Пина"
+    },
+    "coords": [
+      32.9734,
+      35.5341
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "description": {
+      "he": "מסלול הליכה פסטורלי בין עצי פרי ומעיינות.",
+      "ar": "مسار مشي هادئ بين الأشجار المثمرة والينابيع.",
+      "en": "Pastoral hiking trail among fruit trees and springs.",
+      "ru": "Пасторальный маршрут среди фруктовых деревьев."
+    }
+  },
+  {
+    "id": "74",
+    "name": {
+      "he": "עין אמפי",
+      "ar": "عين الدورة",
+      "en": "Ein Amphi",
+      "ru": "Эйн-Амфи"
+    },
+    "coords": [
+      32.9642,
+      35.6558
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "description": {
+      "he": "בריכת אבן מעגלית ויפה במורדות הגולן.",
+      "ar": "بركة حجرية دائرية جميلة في منحدرات الجولان.",
+      "en": "Beautiful circular stone pool in the Golan slopes.",
+      "ru": "Круглый каменный бассейн на Голанах."
+    }
+  },
+  {
+    "id": "75",
+    "name": {
+      "he": "עין תאופיק",
+      "ar": "عين توافيق",
+      "en": "Ein Tawfiq",
+      "ru": "Эйн-Тауфик"
+    },
+    "coords": [
+      32.6908,
+      35.6542
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "description": {
+      "he": "מעיין ופינת פיקניק ביער בדרום הגולן.",
+      "ar": "نبع ومنطقة تنزه في غابة جنوب الجولان.",
+      "en": "Spring and picnic area in a South Golan forest.",
+      "ru": "Источник и место для пикника в лесу."
+    }
+  },
+  {
+    "id": "76",
+    "name": {
+      "he": "עין סלוקיה",
+      "ar": "عين السلوقية",
+      "en": "Ein Salukia",
+      "ru": "Эйн-Салукия"
+    },
+    "coords": [
+      32.9612,
+      35.7483
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "מעיינות עדן - מסלול מים רדודים ונעים.",
+      "ar": "ينابيع عدن - مسار مياه ضحلة وممتع.",
+      "en": "Eden Springs - a pleasant shallow water trail.",
+      "ru": "Источники Эден - мелкий водный маршрут."
+    }
+  },
+  {
+    "id": "77",
+    "name": {
+      "he": "עין הזהב",
+      "ar": "عين الذهب الخالصة",
+      "en": "Ein HaZahav",
+      "ru": "Эйн Ха-Захав"
+    },
+    "coords": [
+      33.2081,
+      35.5714
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "description": {
+      "he": "פארק טבע בלב קריית שמונה עם פלגי מים.",
+      "ar": "منتزه طبيعي في قلب كريات شمونة يضم جداول مياه.",
+      "en": "Nature park in Kiryat Shmona with flowing streams.",
+      "ru": "Природный парк с ручьями в Кирьят-Шмоне."
+    }
+  },
+  {
+    "id": "78",
+    "name": {
+      "he": "עין נזם",
+      "ar": "عين الخنيزرة",
+      "en": "Ein Nezem",
+      "ru": "Эйн-Незем"
+    },
+    "coords": [
+      32.4831,
+      35.5254
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "בריכה גדולה ועמוקה בעמק המעיינות.",
+      "ar": "بركة مياه كبيرة وعميقة في وادي الينابيع.",
+      "en": "A large and deep pool in the Valley of Springs.",
+      "ru": "Большой глубокий бассейн в долине Источников."
+    }
+  },
+  {
+    "id": "79",
+    "name": {
+      "he": "עין עמוד",
+      "ar": "عين ووادي العامود",
+      "en": "Ein Amud",
+      "ru": "Эйн-Амуд"
+    },
+    "coords": [
+      32.9123,
+      35.5012
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "פינה שקטה בנחל עמוד עם בריכה קטנה.",
+      "ar": "زاوية هادئة في وادي العامود تضم بركة صغيرة.",
+      "en": "A quiet spot in Amud Stream with a small pool.",
+      "ru": "Тихий уголок с бассейном в Нахаль Амуд."
+    }
+  },
+  {
+    "id": "80",
+    "name": {
+      "he": "עין ליאור",
+      "ar": "عين الزيتونة",
+      "en": "Ein Lior",
+      "ru": "Эйн-Лиор"
+    },
+    "coords": [
+      32.9841,
+      35.5123
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "description": {
+      "he": "מעיין מטופח סמוך לצפת עם תצפית יפה.",
+      "ar": "نبع جميل بالقرب من صفد مع إطلالة رائعة.",
+      "en": "Well-kept spring near Safed with a nice view.",
+      "ru": "Ухоженный источник рядом с Цфатом."
+    }
+  },
+  {
+    "id": "81",
+    "name": {
+      "he": "עין רמיאל",
+      "ar": "عين إرميلة",
+      "en": "Ein Ramiel",
+      "ru": "Эйн-Рамиэль"
+    },
+    "coords": [
+      32.9321,
+      35.3412
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "מעיין במושב שפר עם מפלי מים קטנים.",
+      "ar": "نبع في قرية شيفر يضم شلالات صغيرة.",
+      "en": "Spring in Shefer with small waterfalls.",
+      "ru": "Источник в мошаве Шефер с водопадами."
+    }
+  },
+  {
+    "id": "82",
+    "name": {
+      "he": "עין חרדלית",
+      "ar": "عين الهردويل",
+      "en": "Ein Hardalit",
+      "ru": "Эйн-Хардалית"
+    },
+    "coords": [
+      33.0423,
+      35.1912
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "description": {
+      "he": "חלק נגיש ורטוב של נחל כזיב, מעולה למשפחות.",
+      "ar": "جزء سهل الوصول من وادي القرن، ممتاز للعائلات.",
+      "en": "Accessible part of Kziv Stream, great for families.",
+      "ru": "Доступная часть ручья Кзив, отлично для семей."
+    }
+  },
+  {
+    "id": "83",
+    "name": {
+      "he": "עין געתון",
+      "ar": "عين الجعاتون",
+      "en": "Ein Ga'aton",
+      "ru": "Эйн-Гаатон"
+    },
+    "coords": [
+      33.0112,
+      35.1934
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "description": {
+      "he": "חורבת געתון ומעיינותיה בגליל המערבי.",
+      "ar": "خربة جعاتون وينابيعها في الجليل الغربي.",
+      "en": "Ga'aton ruins and its springs in Western Galilee.",
+      "ru": "Руины Гаатон и источники."
+    }
+  },
+  {
+    "id": "84",
+    "name": {
+      "he": "בריכת גדעונה",
+      "ar": "بركة بوادي جالوت",
+      "en": "Gidona Pool",
+      "ru": "Бассейн Гиدонэ"
+    },
+    "coords": [
+      32.5512,
+      35.3423
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "בריכה משוחזרת ונעימה למרגלות הגלבוע.",
+      "ar": "بركة مرممة ومريحة عند سفح جبال جلبوع.",
+      "en": "Pleasant restored pool at the foot of Mt. Gilboa.",
+      "ru": "Восстановленный бассейн у подножия Гильбоа."
+    }
+  },
+  {
+    "id": "85",
+    "name": {
+      "he": "עין חזין",
+      "ar": "بير بيدر العرب",
+      "en": "Ein Hazin",
+      "ru": "Эйн-Хазин"
+    },
+    "coords": [
+      32.7612,
+      35.1634
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "מעיין נסתר בעמק יזרעאל עם מים עמוקים.",
+      "ar": "نبع مخفي في مرج ابن عامر يتميز بمياهه العميقة.",
+      "en": "Hidden spring in Jezreel Valley with deep water.",
+      "ru": "Скрытый источник в Изреэльской долине."
+    }
+  },
+  {
+    "id": "86",
+    "name": {
+      "he": "עין קדם",
+      "ar": "العين القديمة",
+      "en": "Ein Kedem",
+      "ru": "Эйн-Кедем"
+    },
+    "coords": [
+      32.7681,
+      34.9712
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "description": {
+      "he": "נקבות מים קרירות במורדות הכרמל.",
+      "ar": "أنفاق مياه باردة في منحدرات جبل الكرمل.",
+      "en": "Cool water tunnels in the Carmel slopes.",
+      "ru": "Водные туннели на склонах Кармеля."
+    }
+  },
+  {
+    "id": "87",
+    "name": {
+      "he": "מעיין אלרואי",
+      "ar": "عين زقرية الري",
+      "en": "Alroay Spring",
+      "ru": "Эйн-Альрои"
+    },
+    "coords": [
+      32.7212,
+      35.1034
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "מעיין זורם סמוך לתחנת הרכבת הישנה בקרית טבעון.",
+      "ar": "نبع جاري بالقرب من محطة القطار القديمة في كريات طبعون.",
+      "en": "Flowing spring near the old train station in Kiryat Tivon.",
+      "ru": "Источник рядом со старой станцией."
+    }
+  },
+  {
+    "id": "88",
+    "name": {
+      "he": "עין אלון",
+      "ar": "واد فلاح",
+      "en": "Ein Alon",
+      "ru": "Эйн-Алон"
+    },
+    "coords": [
+      32.7312,
+      35.0345
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "description": {
+      "he": "מעיין מקסים בלב הכרמל בתוך נחל אורן.",
+      "ar": "نبع رائع في قلب الكرمل داخل وادي أورين.",
+      "en": "Charming spring in the heart of Carmel.",
+      "ru": "Очаровательный источник в сердце Кармеля."
+    }
+  },
+  {
+    "id": "89",
+    "name": {
+      "he": "עין יבקע",
+      "ar": "راس العين",
+      "en": "Ein Yivka",
+      "ru": "Эйн-Ивка"
+    },
+    "coords": [
+      32.7591,
+      35.1632
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "בריכה רומית גדולה בנחל ציפורי.",
+      "ar": "بركة رومانية كبيرة في وادي صفورية.",
+      "en": "Large Roman pool in Tzipori Stream.",
+      "ru": "Большой римский бассейн в Нахаль Ципори."
+    }
+  },
+  {
+    "id": "90",
+    "name": {
+      "he": "עין לבן",
+      "ar": "العين البيضاء",
+      "en": "Ein Lavan",
+      "ru": "Эйн-Лаван"
+    },
+    "coords": [
+      31.7512,
+      35.1634
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "description": {
+      "he": "מעיין פופולרי בהרי ירושלים עם בריכות משופצות.",
+      "ar": "نبع مشهور في جبال القدس مع برك مياه مرممة.",
+      "en": "Popular spring in Jerusalem Hills with renovated pools.",
+      "ru": "Популярный источник в горах Иерусалима."
+    }
+  },
+  {
+    "id": "91",
+    "name": {
+      "he": "עין בוקק",
+      "ar": "عين زعيق/بوقيق",
+      "en": "Ein Bokek",
+      "ru": "Эйн-Бокек"
+    },
+    "coords": [
+      31.2032,
+      35.3512
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "מעיין וצמחייה עשירה בלב המדבר ליד ים המלח.",
+      "ar": "نبع ونباتات كثيفة في قلب الصحراء بالقرب من البحر الميت.",
+      "en": "Spring and lush vegetation in the desert near the Dead Sea.",
+      "ru": "Источник и оазис у Мертвого моря."
+    }
+  },
+  {
+    "id": "92",
+    "name": {
+      "he": "אתר אבן רוח מים",
+      "ar": "يروحام - أبن روح مايم",
+      "en": "Stone Wind Water",
+      "ru": "Йерухам"
+    },
+    "coords": [
+      31.0021,
+      34.9123
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "חולות צבעוניים ותצורות סלע בירוחם.",
+      "ar": "رمال ملونة وتشكيلات صخرية في يروحام.",
+      "en": "Colorful sands and rock formations in Yeruham.",
+      "ru": "Цветные пески и скалы в Йерухаме."
+    }
+  },
+  {
+    "id": "93",
+    "name": {
+      "he": "נחל פולג",
+      "ar": "نهر الفالق",
+      "en": "Poleg Stream",
+      "ru": "Полег"
+    },
+    "coords": [
+      32.26,
+      34.84
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "description": {
+      "he": "שמורה עם פריחת אירוסים וקניון כורכר.",
+      "ar": "محمية طبيعية تضم أزهار السوسن ووادي صخري.",
+      "en": "Reserve with iris blooms and a sandstone canyon.",
+      "ru": "Заповедник с ирисами и каньоном."
+    }
+  },
+  {
+    "id": "94",
+    "name": {
+      "he": "נחל ארוד",
+      "ar": "وادي أرود",
+      "en": "Arud Stream",
+      "ru": "Аруд"
+    },
+    "coords": [
+      30.55,
+      34.7
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "description": {
+      "he": "נחל גדול בנגב עם עצי אלה עתיקים.",
+      "ar": "وادي كبير في النقب يضم أشجار البطم القديمة.",
+      "en": "Large Negev stream with ancient pistachio trees.",
+      "ru": "Ручей в Негеве с древними деревьями."
+    }
+  },
+  {
+    "id": "95",
+    "name": {
+      "he": "נחל נקרות",
+      "ar": "وادي نكروت",
+      "en": "Nekarot Stream",
+      "ru": "Некарот"
+    },
+    "coords": [
+      30.58,
+      34.95
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "קניון מרשים במדבר עם מערות ותופעות גאולוגיות.",
+      "ar": "وادٍ مذهل في الصحراء يضم كهوفاً وظواهر جيولوجية.",
+      "en": "Impressive desert canyon with caves and geological phenomena.",
+      "ru": "Каньон Некарот с пещерами."
+    }
+  },
+  {
+    "id": "96",
+    "name": {
+      "he": "נחל צין",
+      "ar": "وادي صين",
+      "en": "Zin Stream",
+      "ru": "Цин"
+    },
+    "coords": [
+      30.85,
+      35.15
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "מגדולי נחלי הנגב עם בריכות ומפלים.",
+      "ar": "من أكبر وديان النقب ويضم بركاً وشلالات.",
+      "en": "One of the largest Negev streams with pools and falls.",
+      "ru": "Один из крупнейших ручьев Негева."
+    }
+  },
+  {
+    "id": "97",
+    "name": {
+      "he": "נחל המערה",
+      "ar": "وادي المغارة",
+      "en": "Me'ara Stream",
+      "ru": "Нахаль-ха-Меара"
+    },
+    "coords": [
+      31.73,
+      35.02
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500",
+    "description": {
+      "he": "מסלול המוביל למערת התאומים המרהיבה.",
+      "ar": "مسار يؤدي إلى مغارة التوائم الرائعة.",
+      "en": "Trail leading to the spectacular Twin Cave.",
+      "ru": "Путь к пещере Близнецов."
+    }
+  },
+  {
+    "id": "98",
+    "name": {
+      "he": "נחל קיני",
+      "ar": "وادي القيني",
+      "en": "Kini Stream",
+      "ru": "Киני"
+    },
+    "coords": [
+      32.57,
+      35.18
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "description": {
+      "he": "נחל זורם ליד מגידו עם צמחיית נחלים עשירה.",
+      "ar": "نهر جاري بالقرب من مجيدو مع نباتات نهرية كثيفة.",
+      "en": "Flowing stream near Megiddo with rich river vegetation.",
+      "ru": "Проточный ручей рядом с Мегиддо."
+    }
+  },
+  {
+    "id": "99",
+    "name": {
+      "he": "נחל גחר",
+      "ar": "واد جحر",
+      "en": "Gahar Stream",
+      "ru": "Гахар"
+    },
+    "coords": [
+      32.61,
+      35.12
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "description": {
+      "he": "יער קסום בהרי מנשה עם מסלולי הליכה מוצלים.",
+      "ar": "غابة ساحرة في جبال منشة مع مسارات مشي مظللة.",
+      "en": "Magical forest in Menashe Heights with shaded trails.",
+      "ru": "Волшебный лес с тенистыми тропами."
+    }
+  },
+  {
+    "id": "100",
+    "name": {
+      "he": "נחל השלושה",
+      "ar": "وادي الثلاثة",
+      "en": "HaShlosha Stream",
+      "ru": "Нахаль-ха-Шлоша"
+    },
+    "coords": [
+      32.55,
+      35.15
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "description": {
+      "he": "מסלול הליכה בטבע בין גבעות מנשה.",
+      "ar": "مسار مشي في الطبيعة بين تلال منشة.",
+      "en": "Nature trail among the Menashe Hills.",
+      "ru": "Природный маршрут среди холмов Менаше."
+    }
+  },
+  {
+    "id": "101",
+    "name": {
+      "he": "עין חורשה",
+      "ar": "عين حورشا",
+      "en": "Ein Horsha",
+      "ru": "Эйн-Хорша"
+    },
+    "coords": [
+      30.63,
+      34.52
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "description": {
+      "he": "מעיין קטן ומבודד במערב הנגב.",
+      "ar": "نبع صغير ومعزول في غرب النقب.",
+      "en": "Small and isolated spring in the Western Negev.",
+      "ru": "Изолированный источник в Западном Негеве."
+    }
+  },
+  {
+    "id": "102",
+    "name": {
+      "he": "נחל רמון",
+      "ar": "واد رامون",
+      "en": "Ramon Stream",
+      "ru": "Нахаль Рамон"
+    },
+    "coords": [
+      30.6,
+      34.8
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "נחל האכזב החוצה את מכתש רמון.",
+      "ar": "وادٍ جاف يمر عبر فوهة رامون.",
+      "en": "Dry stream crossing the Ramon Crater.",
+      "ru": "Пересыхающий ручей в кратере Рамон."
+    }
+  },
+  {
+    "id": "103",
+    "name": {
+      "he": "מבצר אנטיפטריס",
+      "ar": "قلعة أنتيباتريس",
+      "en": "Antipatris",
+      "ru": "Антипатрида"
+    },
+    "coords": [
+      32.105,
+      34.931
+    ],
+    "category": "history",
+    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "description": {
+      "he": "מבצר עות'מאני מרשים במקורות הירקון.",
+      "ar": "قلعة عثمانية رائعة عند منابع نهر العوجا.",
+      "en": "Impressive Ottoman fortress at the Yarkon sources.",
+      "ru": "Османская крепость у истоков Яркона."
+    }
+  },
+  {
+    "id": "104",
+    "name": {
+      "he": "נחל הירקון",
+      "ar": "نهر العوجا",
+      "en": "Yarkon River",
+      "ru": "Яркон"
+    },
+    "coords": [
+      32.102,
+      34.852
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "הנחל הגדול במרכז ישראל עם פארק רחב ידיים.",
+      "ar": "أكبر نهر في وسط إسرائيل مع منتزه واسع.",
+      "en": "The largest river in central Israel with a vast park.",
+      "ru": "Самая большая река в центре Израиля."
+    }
+  },
+  {
+    "id": "105",
+    "name": {
+      "he": "נחל עדה",
+      "ar": "واد عدا",
+      "en": "Ada Stream",
+      "ru": "Ада"
+    },
+    "coords": [
+      32.52,
+      34.95
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "description": {
+      "he": "נחל נעים להליכה בשולי רמת מנשה.",
+      "ar": "نهر جميل للمشي في أطراف مرتفعات منشة.",
+      "en": "Pleasant stream for hiking on the edge of Menashe Heights.",
+      "ru": "Приятный ручей на краю плато Менаше."
+    }
+  },
+  {
+    "id": "106",
+    "name": {
+      "he": "נחל אביב",
+      "ar": "وادي الربيع",
+      "en": "Aviv Stream",
+      "ru": "Авив"
+    },
+    "coords": [
+      33.08,
+      35.5
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "description": {
+      "he": "קניון עם תצורות סלע מיוחדות ומערות.",
+      "ar": "وادٍ يضم تشكيلات صخرية مميزة وكهوفاً.",
+      "en": "Canyon with unique rock formations and caves.",
+      "ru": "Каньон с необычными скалами и пещерами."
+    }
+  },
+  {
+    "id": "107",
+    "name": {
+      "he": "נחל דישון",
+      "ar": "وادي ديشون",
+      "en": "Dishon Stream",
+      "ru": "Дишон"
+    },
+    "coords": [
+      33.06,
+      35.53
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "description": {
+      "he": "מהנחלים הגדולים בגליל העליון, נוף הררי.",
+      "ar": "من أكبر وديان الجليل الأعلى، يتميز بمناظره الجبلية.",
+      "en": "One of the largest streams in Upper Galilee.",
+      "ru": "Один из крупнейших ручьев Верхней Галилеи."
+    }
+  },
+  {
+    "id": "108",
+    "name": {
+      "he": "נחל סלוודורה",
+      "ar": "وادي السلفادورا",
+      "en": "Salvadora",
+      "ru": "Сальвадора"
+    },
+    "coords": [
+      31.54,
+      35.39
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "description": {
+      "he": "מעיין קטן החבוי בתוך קניון במדבר יהודה.",
+      "ar": "نبع صغير مخفي داخل وادٍ في صحراء يهودا.",
+      "en": "Small spring hidden within a Judean Desert canyon.",
+      "ru": "Маленький источник в каньоне Иудейской пустыни."
+    }
+  },
+  {
+    "id": "109",
+    "name": {
+      "he": "נחל רחף",
+      "ar": "وادي رفيف",
+      "en": "Rahaf Stream",
+      "ru": "Рахаф"
+    },
+    "coords": [
+      31.25,
+      35.34
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "קניון אתגרי הפופולרי לגלישת מצוקים (סנפלינג).",
+      "ar": "وادٍ مليء بالتحديات يشتهر برياضة الهبوط من قمم الجبال.",
+      "en": "Challenging canyon popular for canyoneering.",
+      "ru": "Сложный каньон, популярный для скалолазания."
+    }
+  },
+  {
+    "id": "110",
+    "name": {
+      "he": "נחל צוף",
+      "ar": "واد صوف",
+      "en": "Tzuf Stream",
+      "ru": "Цуф"
+    },
+    "coords": [
+      31.85,
+      35.05
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "description": {
+      "he": "מסלול טבע ירוק באזור הרי ירושלים.",
+      "ar": "مسار طبيعي أخضر في منطقة جبال القدس.",
+      "en": "Green nature trail in the Jerusalem Hills area.",
+      "ru": "Зеленый маршрут в районе Иерусалимских гор."
+    }
+  },
+  {
+    "id": "111",
+    "name": {
+      "he": "נחל כפירה",
+      "ar": "وادي كفيرة",
+      "en": "Kefira Stream",
+      "ru": "Кефира"
+    },
+    "coords": [
+      31.83,
+      35.07
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "מעיין ובריכה למרגלות תל כפירה.",
+      "ar": "نبع وبركة مياه عند سفح تل كفيرة.",
+      "en": "Spring and pool at the foot of Tel Kefira.",
+      "ru": "Источник и бассейн у подножия Тель-Кефира."
+    }
+  },
+  {
+    "id": "112",
+    "name": {
+      "he": "חניון האקליפטוס (הבניאס)",
+      "ar": "البانياس",
+      "en": "Banias Eucalyptus Grove",
+      "ru": "Эвкалиптовая роща Баниас"
+    },
+    "coords": [
+      33.2201,
+      35.6264
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "חניון יום יפהפה על גדות נחל הבניאס.",
+      "ar": "موقف يوم جميل على ضفاف نهر بانياس.",
+      "en": "Beautiful day camp on the banks of the Banias stream.",
+      "ru": "Прекрасная дневная стоянка на берегу ручья Баниас."
+    }
+  },
+  {
+    "id": "113",
+    "name": {
+      "he": "עין כנף (דיר עזיז)",
+      "ar": "عين دير عزيز",
+      "en": "Ein Kanaf",
+      "ru": "Эйн-Канаф"
+    },
+    "coords": [
+      32.8631,
+      35.7336
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "מעיין מטופח עם שלוש בריכות רדודות בדרום הגולן.",
+      "ar": "نبع مجهز بثلاث برك ضحلة في جنوب الجولان.",
+      "en": "Well-kept spring with three shallow pools in the southern Golan.",
+      "ru": "Ухоженный источник с тремя неглубокими бассейнами на юге Голан."
+    }
+  },
+  {
+    "id": "114",
+    "name": {
+      "he": "עין פיק",
+      "ar": "عين فيق",
+      "en": "Ein Fik",
+      "ru": "Эйн-Фик"
+    },
+    "coords": [
+      32.7788,
+      35.7001
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "description": {
+      "he": "מעיין קטן בתוך בוסתן עתיק בדרום רמת הגולן.",
+      "ar": "نبع صغير داخل بستان قديم في جنوب هضبة الجولان.",
+      "en": "Small spring inside an ancient orchard in the southern Golan Heights.",
+      "ru": "Небольшой источник в старом саду на юге Голанских высот."
+    }
+  },
+  {
+    "id": "115",
+    "name": {
+      "he": "עין אמפי (עין א-דורה)",
+      "ar": "عين الدورة",
+      "en": "Ein Amphi",
+      "ru": "Эйн-Амфи"
+    },
+    "coords": [
+      33.0242,
+      35.6321
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "בריכה עגולה ומיוחדת המוקפת במדרגות אבן.",
+      "ar": "بركة مستديرة ومميزة محاطة بدرجات حجرية.",
+      "en": "Special round pool surrounded by stone steps.",
+      "ru": "Особенный круглый бассейн, окруженный каменными ступенями."
+    }
+  },
+  {
+    "id": "116",
+    "name": {
+      "he": "עין תאופיק",
+      "ar": "عين توافيق",
+      "en": "Ein Tawfiq",
+      "ru": "Эйн-Тауфик"
+    },
+    "coords": [
+      32.7011,
+      35.6664
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "description": {
+      "he": "מעיין זורם בתוך יער מבוא חמה עם תצפית לכנרת.",
+      "ar": "نبع يتدفق داخل غابة ميفو حماة مع إطلالة على طبريا.",
+      "en": "Streaming spring inside Mevo Hama forest with a view of the Sea of Galilee.",
+      "ru": "Источник в лесу Мево-Хама с видом на Тивериадское озеро."
+    }
+  },
+  {
+    "id": "117",
+    "name": {
+      "he": "עין סלוקיה (קצביה)",
+      "ar": "عين السلوقية",
+      "en": "Ein Salukia",
+      "ru": "Эйн-Салукия"
+    },
+    "coords": [
+      32.9555,
+      35.7441
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "description": {
+      "he": "מעיינות צלולים הזורמים בין בריכות קטנות וצמחייה.",
+      "ar": "ينابيع صافية تتدفق بين برك صغيرة ونباتات.",
+      "en": "Clear springs flowing between small pools and vegetation.",
+      "ru": "Чистые источники, текущие среди небольших бассейнов и зелени."
+    }
+  },
+  {
+    "id": "118",
+    "name": {
+      "he": "עין הזהב (קרית שמונה)",
+      "ar": "عين الذهب الخالصة",
+      "en": "Ein HaZahav",
+      "ru": "Эйн-ха-Захав"
+    },
+    "coords": [
+      33.2081,
+      35.5761
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "description": {
+      "he": "פארק יפהפה בלב קרית שמונה עם פלגי מים.",
+      "ar": "منتزه جميل في قلب كريات شمونة مع جداول مائية.",
+      "en": "Beautiful park in the heart of Kiryat Shmona with water streams.",
+      "ru": "Красивый парк в центре Кирьят-Шмоны с ручьями."
+    }
+  },
+  {
+    "id": "119",
+    "name": {
+      "he": "נחל ראש פינה",
+      "ar": "واد شهيان الجاعونة",
+      "en": "Rosh Pinna Stream",
+      "ru": "Ручей Рош-Пина"
+    },
+    "coords": [
+      32.9691,
+      35.5321
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "מסלול הליכה לצד שלושה מעיינות ובוסתנים.",
+      "ar": "مسار مشي بجانب ثلاثة ينابيع وبساتين.",
+      "en": "Walking trail alongside three springs and orchards.",
+      "ru": "Пешеходная тропа вдоль трех источников и садов."
+    }
+  },
+  {
+    "id": "120",
+    "name": {
+      "he": "עין תינה",
+      "ar": "عين التينة",
+      "en": "Ein Tina",
+      "ru": "Эйн-Тина"
+    },
+    "coords": [
+      33.0561,
+      35.6421
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "מסלול רטוב המוביל למפל ומרפסת תצפית.",
+      "ar": "مسار مائي يؤدي إلى شلال ومنصة مراقبة.",
+      "en": "Wet trail leading to a waterfall and observation deck.",
+      "ru": "Водный маршрут, ведущий к водопаду и смотровой площадке."
+    }
+  },
+  {
+    "id": "121",
+    "name": {
+      "he": "עין דיבשה",
+      "ar": "عين درباشية",
+      "en": "Ein Dibsha",
+      "ru": "Эйн-Дибша"
+    },
+    "coords": [
+      33.0851,
+      35.6511
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "description": {
+      "he": "טחנת קמח עתיקה ומים הזורמים על שביל ההליכה.",
+      "ar": "طاحونة قمح قديمة ومياه تتدفق على مسار المشي.",
+      "en": "Ancient flour mill and water flowing on the walking path.",
+      "ru": "Старинная мельница и вода, текущая прямо по тропе."
+    }
+  },
+  {
+    "id": "122",
+    "name": {
+      "he": "ירדנית",
+      "ar": "نهر الأردن الجنوبي - طبريا",
+      "en": "Yardenit",
+      "ru": "Ярденит"
+    },
+    "coords": [
+      32.7111,
+      35.5711
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "אתר טבילה ונופש על גדות נהר הירדן.",
+      "ar": "موقع تعميد واستجمام على ضفاف نهر الأردن.",
+      "en": "Baptism and recreation site on the banks of the Jordan River.",
+      "ru": "Место для крещения и отдыха на берегу реки Иордан."
+    }
+  },
+  {
+    "id": "123",
+    "name": {
+      "he": "עין נזם",
+      "ar": "عين الخنيزرة",
+      "en": "Ein Nezem",
+      "ru": "Эйн-Незем"
+    },
+    "coords": [
+      32.4411,
+      35.5311
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "בריכת מעיין גדולה ועמוקה בעמק המעיינות.",
+      "ar": "بركة نبع كبيرة وعميقة في وادي الينابيع.",
+      "en": "Large and deep spring pool in the Valley of Springs.",
+      "ru": "Большой и глубокий источник в Долине источников."
+    }
+  },
+  {
+    "id": "124",
+    "name": {
+      "he": "עין מודע",
+      "ar": "عين الضبعة",
+      "en": "Ein Moda",
+      "ru": "Эйн-Мода"
+    },
+    "coords": [
+      32.4581,
+      35.4741
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "description": {
+      "he": "מעיין מרהיב ביופיו עם בריכה גדולה וחורשת צל.",
+      "ar": "نبع رائع الجمال مع بركة كبيرة وبستان مظلل.",
+      "en": "Beautiful spring with a large pool and shaded grove.",
+      "ru": "Красивый источник с большим бассейном и тенистой рощей."
+    }
+  },
+  {
+    "id": "125",
+    "name": {
+      "he": "נחל הקיבוצים",
+      "ar": "وادي جماعين",
+      "en": "Kibbutzim Stream",
+      "ru": "Нахаль-ха-Кибуцим"
+    },
+    "coords": [
+      32.5021,
+      35.4521
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "נחל עמוק ורחב המאפשר שחייה לאורך המסלול.",
+      "ar": "نهر عميق وواسع يسمح بالسباحة على طول المسار.",
+      "en": "Deep and wide stream allowing swimming along the trail.",
+      "ru": "Глубокий и широкий ручей, по которому можно плыть."
+    }
+  },
+  {
+    "id": "126",
+    "name": {
+      "he": "עין שוקק",
+      "ar": "عين الجوسق",
+      "en": "Ein Shokek",
+      "ru": "Эйн-Шокек"
+    },
+    "coords": [
+      32.5031,
+      35.4381
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "אחד המעיינות הצלולים והיפים בעמק המעיינות.",
+      "ar": "أحد الينابيع الصافية والجميلة في وادي الينابيع.",
+      "en": "One of the clearest and most beautiful springs in the Valley of Springs.",
+      "ru": "Один из самых чистых и красивых источников в Долине источников."
+    }
+  },
+  {
+    "id": "127",
+    "name": {
+      "he": "עין יזרעאל",
+      "ar": "عين زرعين",
+      "en": "Ein Jezreel",
+      "ru": "Эйн-Изреэль"
+    },
+    "coords": [
+      32.5591,
+      35.3341
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "description": {
+      "he": "בריכת מים רדודה למרגלות הגלבוע עם חורשת צל.",
+      "ar": "بركة مياه ضحلة عند سفح الجلبوع مع بستان مظلل.",
+      "en": "Shallow water pool at the foot of Mount Gilboa with a shaded grove.",
+      "ru": "Мелкий бассейн у подножия горы Гильбоа с тенистой рощей."
+    }
+  },
+  {
+    "id": "128",
+    "name": {
+      "he": "בשביל החמישה (עין שערה)",
+      "ar": "عين شعارة",
+      "en": "Five Path Spring",
+      "ru": "Эйн-Шаара"
+    },
+    "coords": [
+      32.7051,
+      35.4121
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "מצפה ומעיין לזכר חמישה לוחמים, עם נוף מרהיב.",
+      "ar": "مطل ونبع لتخليد ذكرى خمسة مقاتلين، مع إطلالة رائعة.",
+      "en": "Lookout and spring in memory of five soldiers, with a spectacular view.",
+      "ru": "Смотровая площадка и источник в память о пяти бойцах с видом."
+    }
+  },
+  {
+    "id": "129",
+    "name": {
+      "he": "עין עמוד",
+      "ar": "عين ووادي العامود",
+      "en": "Ein Amud",
+      "ru": "Эйн-Амуд"
+    },
+    "coords": [
+      32.9021,
+      35.4851
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "מעיין בתוך ערוץ נחל עמוד עם צמחייה עשירה.",
+      "ar": "نبع داخل وادي العامود مع نباتات غنية.",
+      "en": "Spring inside the Amud stream channel with rich vegetation.",
+      "ru": "Источник в русле ручья Амуд с богатой растительностью."
+    }
+  },
+  {
+    "id": "130",
+    "name": {
+      "he": "עין ליאור",
+      "ar": "عين الزيتونة",
+      "en": "Ein Lior",
+      "ru": "Эйн-Лиор"
+    },
+    "coords": [
+      32.9811,
+      35.5011
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "מעיין קטן ומקסים ליד צפת לזכר ליאור דהן.",
+      "ar": "نبع صغير وجميل بالقرب من صفد تخليداً لذكرى ليئور دهان.",
+      "en": "Small and charming spring near Safed in memory of Lior Dahan.",
+      "ru": "Маленький очаровательный источник рядом с Цфатом."
+    }
+  },
+  {
+    "id": "131",
+    "name": {
+      "he": "עין רמיאל",
+      "ar": "عين إرميلة",
+      "en": "Ein Ramiel",
+      "ru": "Эйн-Рамиэль"
+    },
+    "coords": [
+      32.9411,
+      35.3911
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "description": {
+      "he": "בריכה קטנה ביישוב שפר המשקיפה על הנוף.",
+      "ar": "بركة صغيرة في بلدة شيفر تطل على المنظر.",
+      "en": "Small pool in Shefer community overlooking the view.",
+      "ru": "Небольшой бассейн в поселении Шефер с видом на окрестности."
+    }
+  },
+  {
+    "id": "132",
+    "name": {
+      "he": "עין חרדלית",
+      "ar": "عين الهردويل",
+      "en": "Ein Hardalit",
+      "ru": "Эйн-Хардалит"
+    },
+    "coords": [
+      33.0451,
+      35.1951
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "חלק מנחל כזיב עם מים רדודים ומתאים למשפחות.",
+      "ar": "جزء من نهر كزيف بمياه ضحلة ومناسب للعائلات.",
+      "en": "Part of Kziv stream with shallow water, suitable for families.",
+      "ru": "Часть ручья Кзив с мелкой водой, подходит для семейного отдыха."
+    }
+  },
+  {
+    "id": "133",
+    "name": {
+      "he": "עין געתון",
+      "ar": "عين الجعاتون",
+      "en": "Ein Ga'aton",
+      "ru": "Эйн-Гаатон"
+    },
+    "coords": [
+      33.0121,
+      35.2141
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "מעיין הנובע ליד חורבת געתון העתיקה.",
+      "ar": "نبع ينبع بالقرب من خربة جعاتون القديمة.",
+      "en": "Spring rising near the ancient Ga'aton ruins.",
+      "ru": "Источник, вытекающий рядом с руинами древнего Гаатона."
+    }
+  },
+  {
+    "id": "134",
+    "name": {
+      "he": "בריכת גדעונה",
+      "ar": "بركة بوادي جالوت",
+      "en": "Gidona Pool",
+      "ru": "Бассейн Гидона"
+    },
+    "coords": [
+      32.5481,
+      35.3721
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "description": {
+      "he": "בריכה רדודה ונעימה ביישוב גדעונה.",
+      "ar": "بركة ضحلة وممتعة في بلدة جدعونا.",
+      "en": "Shallow and pleasant pool in Gidona community.",
+      "ru": "Мелкий и приятный бассейн в поселении Гидона."
+    }
+  },
+  {
+    "id": "135",
+    "name": {
+      "he": "עין חזין",
+      "ar": "بير بيدر العرب",
+      "en": "Ein Hazin",
+      "ru": "Эйн-Хазин"
+    },
+    "coords": [
+      32.7741,
+      35.2511
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "מעיין נסתר ליד היישוב אלון הגליל.",
+      "ar": "نبع مخفي بالقرب من بلدة ألون هجليل.",
+      "en": "Hidden spring near Alon HaGalil community.",
+      "ru": "Скрытый источник рядом с поселением Алон-ха-Галиль."
+    }
+  },
+  {
+    "id": "136",
+    "name": {
+      "he": "עין קדם",
+      "ar": "العين القديمة",
+      "en": "Ein Kedem",
+      "ru": "Эйн-Кедем"
+    },
+    "coords": [
+      32.7721,
+      34.9651
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "ניקבת מים קרירה בהר הכרמל.",
+      "ar": "نفق مائي بارد في جبل الكرمل.",
+      "en": "Cool water tunnel in Mount Carmel.",
+      "ru": "Прохладный водный туннель на горе Кармель."
+    }
+  },
+  {
+    "id": "137",
+    "name": {
+      "he": "עין צור (אום אל עלק)",
+      "ar": "خربة أم العلق",
+      "en": "Ein Tzur",
+      "ru": "Эйн-Цур"
+    },
+    "coords": [
+      32.5511,
+      34.9451
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "description": {
+      "he": "מעיין ונקבה עתיקה ליד רמת הנדיב.",
+      "ar": "نبع ونفق قديم بالقرب من رمات هينديف.",
+      "en": "Spring and ancient tunnel near Ramat HaNadiv.",
+      "ru": "Источник и древний туннель рядом с Рамат-ха-Надив."
+    }
+  },
+  {
+    "id": "138",
+    "name": {
+      "he": "מעיין אלרואי",
+      "ar": "عين زقرية الري",
+      "en": "Alroay Spring",
+      "ru": "Источник Альрои"
+    },
+    "coords": [
+      32.7221,
+      35.1051
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "מעיין יפהפה הזורם לבריכה לצד מסילת הרכבת הישנה.",
+      "ar": "نبع جميل يتدفق إلى بركة بجانب سكة الحديد القديمة.",
+      "en": "Beautiful spring flowing into a pool alongside the old railway.",
+      "ru": "Красивый источник, впадающий в бассейн рядом со старой железной дорогой."
+    }
+  },
+  {
+    "id": "139",
+    "name": {
+      "he": "נחל השופט",
+      "ar": "واد الطواحين",
+      "en": "HaShofet Stream",
+      "ru": "Ручей Ха-Шофет"
+    },
+    "coords": [
+      32.6451,
+      35.1011
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "מסלול נגיש ויפהפה עם זרימת מים כל השנה.",
+      "ar": "مسار سهل وجميل مع تدفق المياه طوال العام.",
+      "en": "Accessible and beautiful trail with year-round water flow.",
+      "ru": "Доступный и красивый маршрут с водой круглый год."
+    }
+  },
+  {
+    "id": "140",
+    "name": {
+      "he": "עין אלון",
+      "ar": "واد فلاح",
+      "en": "Ein Alon",
+      "ru": "Эйн-Алон"
+    },
+    "coords": [
+      32.7211,
+      35.0311
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "מעיין בלב הכרמל בתוך מבנה אבן עתיק.",
+      "ar": "نبع في قلب الكرمل داخل مبنى حجري قديم.",
+      "en": "Spring in the heart of Carmel inside an ancient stone building.",
+      "ru": "Источник в центре Кармеля в старом каменном здании."
+    }
+  },
+  {
+    "id": "141",
+    "name": {
+      "he": "עין יבקע (ראש העין)",
+      "ar": "راس العين",
+      "en": "Ein Yivka",
+      "ru": "Эйн-Ивка"
+    },
+    "coords": [
+      32.7541,
+      35.1711
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "description": {
+      "he": "בריכה גדולה בנחל ציפורי עם מבנה אבן מרשים.",
+      "ar": "بركة كبيرة في نهر تسيبوري مع مبنى حجري رائع.",
+      "en": "Large pool in Tzipori stream with an impressive stone structure.",
+      "ru": "Большой бассейн в ручье Ципори с каменным строением."
+    }
+  },
+  {
+    "id": "142",
+    "name": {
+      "he": "עין אביאל",
+      "ar": "عين اسماعيل",
+      "en": "Ein Aviel",
+      "ru": "Эйн-Авиэль"
+    },
+    "coords": [
+      32.5211,
+      34.9811
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "סדרת בריכות ומפלים קטנים בנחל תנינים.",
+      "ar": "سلسلة من البرك والشلالات الصغيرة في نهر التماسيح.",
+      "en": "Series of small pools and waterfalls in Taninim stream.",
+      "ru": "Серия небольших бассейнов и водопадов на ручье Таниним."
+    }
+  },
+  {
+    "id": "143",
+    "name": {
+      "he": "עין לבן",
+      "ar": "العين البيضاء",
+      "en": "Ein Lavan",
+      "ru": "Эйн-Лаван"
+    },
+    "coords": [
+      31.7511,
+      35.1611
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "description": {
+      "he": "שתי בריכות מים יפות בהרי ירושלים.",
+      "ar": "بركتان جميلتان في جبال القدس.",
+      "en": "Two beautiful water pools in the Jerusalem hills.",
+      "ru": "Два красивых бассейна в иерусалимских горах."
+    }
+  },
+  {
+    "id": "144",
+    "name": {
+      "he": "עין ירקעם",
+      "ar": "عين يرقة",
+      "en": "Ein Yorkeam",
+      "ru": "Эйн-Йоркеам"
+    },
+    "coords": [
+      30.9311,
+      35.0311
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "description": {
+      "he": "גב מים ענק בלב המדבר ליד המכתש הגדול.",
+      "ar": "حوض مائي ضخم في قلب الصحراء بالقرب من الفوهة الكبيرة.",
+      "en": "Huge water cistern in the heart of the desert near the Big Crater.",
+      "ru": "Огромный резервуар с водой в сердце пустыни."
+    }
+  },
+  {
+    "id": "145",
+    "name": {
+      "he": "עין בוקק",
+      "ar": "عين زعيق",
+      "en": "Ein Bokek",
+      "ru": "Эйн-Бокек"
+    },
+    "coords": [
+      31.2011,
+      35.3511
+    ],
+    "category": "water",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "description": {
+      "he": "נווה מדבר עם מים זורמים ומפלים קטנים ליד ים המלח.",
+      "ar": "واحة صحراوية بها مياه جارية وشلالات صغيرة بالقرب من البحر الميت.",
+      "en": "Desert oasis with running water and small waterfalls near the Dead Sea.",
+      "ru": "Пустынный оазис с проточной водой у Мертвого моря."
+    }
+  },
+  {
+    "id": "146",
+    "name": {
+      "he": "אתר אבן רוח מים (ירוחם)",
+      "ar": "جرن الرومان",
+      "en": "Stone Wind Water Site",
+      "ru": "Камень, ветер, вода"
+    },
+    "coords": [
+      30.9851,
+      34.9211
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "חניון לילה ייחודי עם חולות צבעוניים ותצורות סלע.",
+      "ar": "موقع تخييم فريد مع رمال ملونة وتشكيلات صخرية.",
+      "en": "Unique campsite with colorful sands and rock formations.",
+      "ru": "Уникальный лагерь с цветными песками и скальными образованиями."
+    }
+  },
+  {
+    "id": "149",
+    "name": {
+      "he": "חאן שיירות",
+      "ar": "خان شيروت",
+      "en": "Khan Shaherut",
+      "ru": "Хан Шаеруט"
+    },
+    "coords": [
+      30.63,
+      34.85
+    ],
+    "category": "sleep",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=500",
+    "description": {
+      "he": "אירוח מדברי אותנטי, לינה באוהלים או בחדרים למרגלות המכתש.",
+      "ar": "ضيافة صحراوية أصيلة، الإقامة في خيام أو غرف عند سفح الفوهة.",
+      "en": "Authentic desert hospitality, staying in tents or rooms at the foot of the crater.",
+      "ru": "Аутентичное гостеприимство в пустыне, проживание в палатках или комнатах."
+    }
+  },
+  {
+    "id": "150",
+    "name": {
+      "he": "סינגל ערד-מצדה",
+      "ar": "مسار عراد-مسعدة",
+      "en": "Arad-Masada Singletrack",
+      "ru": "Сингл Арад-Масада"
+    },
+    "coords": [
+      31.24,
+      35.31
+    ],
+    "category": "bike",
+    "image": "https://images.unsplash.com/photo-1444491741275-3747c53c99b4?w=500",
+    "description": {
+      "he": "מסלול אופניים אתגרי עם נוף מדברי עוצר נשימה עד לים המלח.",
+      "ar": "مسار دراجات مليء بالتحديات مع إطلالات صحراوية خلابة حتى البحر الميت.",
+      "en": "Challenging bike trail with breathtaking desert views down to the Dead Sea.",
+      "ru": "Сложная велосипедная трасса с захватывающими видами на пустыню."
+    }
+  },
+  {
+    "id": "151",
+    "name": {
+      "he": "מג'דל שמס - מסעדות",
+      "ar": "مطاعم مجدل شمس",
+      "en": "Majdal Shams Restaurants",
+      "ru": "Рестораны Мадждаль-Шамс"
+    },
+    "coords": [
+      33.265,
+      35.772
+    ],
+    "category": "food",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500",
+    "description": {
+      "he": "חוויה קולינרית דרוזית אותנטית עם נוף לחרמון.",
+      "ar": "تجربة طهو درزية أصيلة مع إطلالة على جبل الشيخ.",
+      "en": "Authentic Druze culinary experience with a view of Mount Hermon.",
+      "ru": "Подлинный друзский кулинарный опыт с видом на Хермон."
+    }
+  },
+  {
+    "id": "152",
+    "name": {
+      "he": "עין עבדת",
+      "ar": "عين عبدات",
+      "en": "Ein Avdat",
+      "ru": "Эйн-Авдат"
+    },
+    "coords": [
+      30.825,
+      34.763
+    ],
+    "category": "nature",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "description": {
+      "he": "קניון מרהיב בנגב עם נביעה וצמחיית מדבר.",
+      "ar": "وادٍ رائع في النقب مع ينبوع ونباتات صحراوية.",
+      "en": "A magnificent canyon in the Negev with a spring and desert vegetation.",
+      "ru": "Великолепный каньон в Негеве с источником и пустынной растительностью."
+    }
+  }
 ]
