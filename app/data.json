@@ -1,19 +1,19 @@
 [
  {
-  "id": "1",
-  "name": { "he": "אתר החרמון", "ar": "جبل الشيخ", "en": "Mount Hermon", "ru": "Хермон" },
-  "coords": [33.315, 35.783],
-  "category": "nature",
-  "region": "north",
-  "video": null,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Hermonsnow.jpg/800px-Hermonsnow.jpg",
-  "description": {
-    "he": "ההר הגבוה במדינה. מציע חוויות שלג בחורף, אתר סקי, רכבל ותצפיות גאולוגיות מרהיבות על פני כל הצפון.",
-    "ar": "أعلى جبل في البلاد، يتميز بمناظره الخلابة ومساراته.",
-    "en": "Israel's highest mountain, offering alpine scenery.",
-    "ru": "Высшая точка Израиля с альпийскими пейзажами."
-  }
-},
+   "id": "1",
+   "name": { "he": "אתר החרמון", "ar": "جبل الشيخ", "en": "Mount Hermon", "ru": "Хермон" },
+   "coords": [33.315, 35.783],
+   "category": "nature",
+   "region": "north",
+   "video": null,
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Hermonsnow.jpg/800px-Hermonsnow.jpg",
+   "description": {
+     "he": "ההר הגבוה במדינה. מציע חוויות שלג בחורף, אתר סקי, רכבל ותצפיות גאולוגיות מרהיבות על פני כל הצפון.",
+     "ar": "أعلى جبل في البلاد، يتميز بمناظره الخلابة ومساراته.",
+     "en": "Israel's highest mountain, offering alpine scenery.",
+     "ru": "Высшая точка Израиля с альпийскими пейзажами."
+    }
+  },
   {
     "id": "2",
     "name": {
