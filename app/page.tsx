@@ -64,7 +64,6 @@ export default function TiyulifyApp() {
       import('react-leaflet'),
       import('leaflet')
     ]).then(([res, L]: any) => {
-      // הגדרת אייקון ברירת מחדל (כחול)
       delete L.Icon.Default.prototype._getIconUrl;
       L.Icon.Default.mergeOptions({
         iconRetinaUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png',
@@ -72,7 +71,6 @@ export default function TiyulifyApp() {
         shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
       });
 
-      // הגדרת אייקון אדום למיקום המשתמש
       const redMarker = new L.Icon({
         iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
         shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
@@ -121,6 +119,8 @@ export default function TiyulifyApp() {
 
   return (
     <div className="flex flex-col h-screen bg-white font-sans overflow-hidden" dir={lang === 'ar' || lang === 'he' ? 'rtl' : 'ltr'}>
+      
+      {/* מסך בית */}
       {view === 'home' && (
         <div className="flex-1 flex flex-col items-center justify-center p-6 bg-[url('https://images.unsplash.com/photo-1548777123-e216912df7d8?w=1200')] bg-cover bg-center relative text-white">
           <div className="absolute inset-0 bg-black/50 backdrop-blur-[2px]" />
@@ -144,6 +144,7 @@ export default function TiyulifyApp() {
         </div>
       )}
 
+      {/* שאלון סגנון */}
       {view === 'quiz' && (
         <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-50">
           <h2 className="text-4xl font-black text-gray-800 mb-10">{ui[lang].style}</h2>
@@ -162,26 +163,39 @@ export default function TiyulifyApp() {
         </div>
       )}
 
+      {/* מסך מפה ראשי */}
       {view === 'map' && (
         <div className="flex flex-col h-full relative">
           <header className="bg-white/90 backdrop-blur-md border-b p-4 flex flex-col lg:flex-row items-center gap-4 z-[2000] shadow-sm">
-            <h2 className="text-3xl font-black text-green-700 cursor-pointer" onClick={() => setView('home')}>Tiyulify</h2>
+            <div className="flex items-center gap-4 w-full lg:w-auto">
+              <h2 className="text-3xl font-black text-green-700 cursor-pointer" onClick={() => setView('home')}>Tiyulify</h2>
+              
+              {/* בורר שפה - החזרתי אותו כאן! */}
+              <div className="flex gap-1 bg-gray-100 p-1 rounded-lg">
+                {['he', 'ar', 'en', 'ru'].map(l => (
+                  <button key={l} onClick={() => setLang(l)} className={`px-2 py-1 rounded text-[10px] font-bold transition-all ${lang === l ? 'bg-green-600 text-white shadow-sm' : 'text-gray-400 hover:text-gray-600'}`}>{l.toUpperCase()}</button>
+                ))}
+              </div>
+            </div>
+
             <div className="flex-1 w-full max-w-md relative">
               <input type="text" placeholder={ui[lang].search} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full bg-gray-100 border-none rounded-xl py-2 px-10 focus:ring-2 focus:ring-green-400 outline-none text-gray-800" />
               <span className={`absolute top-2.5 opacity-30 ${lang === 'he' || lang === 'ar' ? 'right-3' : 'left-3'}`}>🔍</span>
             </div>
+
             <div className="flex gap-2 overflow-x-auto pb-1 w-full lg:w-auto no-scrollbar">
               {Object.entries(ui[lang].categories).map(([id, label]: any) => (
                 <button key={id} onClick={() => setActiveCategory(id)} 
-                  className={`px-4 py-1.5 rounded-full text-sm font-bold whitespace-nowrap transition-all ${activeCategory === id ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-500'}`}>
+                  className={`px-4 py-1.5 rounded-full text-sm font-bold whitespace-nowrap transition-all ${activeCategory === id ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}>
                   {label}
                 </button>
               ))}
             </div>
           </header>
 
-          <div className="flex-1 flex relative">
+          <div className="flex-1 flex relative overflow-hidden">
+            {/* רשימה צדדית */}
             <aside className="w-80 bg-white border-r overflow-y-auto hidden md:block p-4 shadow-inner">
               <div className="flex justify-between items-center mb-4 text-gray-400 font-bold text-xs uppercase">
                 <span>{ui[lang].results} ({filteredData.length})</span>
@@ -202,11 +216,11 @@ export default function TiyulifyApp() {
               </div>
             </aside>
 
+            {/* מפה */}
             <div className="flex-1 relative">
               <MapContainer center={[32.0, 34.9]} zoom={8} style={{ height: '100%', width: '100%' }} ref={mapRef}>
                 <TileLayer url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png" />
                 
-                {/* סיכה אדומה למיקום המשתמש */}
                 {userLocation && redIcon && (
                   <Marker position={userLocation} icon={redIcon}>
                     <Popup><div className="text-center font-bold">{ui[lang].youAreHere}</div></Popup>
@@ -216,12 +230,18 @@ export default function TiyulifyApp() {
                 {filteredData.map((item: any) => (
                   <Marker key={item.id} position={item.coords}>
                     <Popup>
-                      <div className="text-right font-sans min-w-[200px]">
-                        <img src={item.image} className="w-full h-24 object-cover rounded-lg mb-2" />
-                        <h4 className="font-bold text-green-800 m-0">{item.name[lang] || item.name.he}</h4>
-                        <div className="flex gap-2 mt-3">
-                          <a href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-2 rounded-lg text-xs font-bold no-underline">Waze</a>
-                          <a href={`https://www.google.com/maps/search/?api=1&query=${item.coords[0]},${item.coords[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-2 rounded-lg text-xs font-bold no-underline">Google</a>
+                      <div className="text-right font-sans min-w-[220px]">
+                        <img src={item.image} className="w-full h-28 object-cover rounded-lg mb-2 shadow-sm" />
+                        <h4 className="font-bold text-green-800 text-lg m-0">{item.name[lang] || item.name.he}</h4>
+                        
+                        {/* תיאור האתר - החזרתי אותו כאן! */}
+                        <p className="text-xs text-gray-600 my-2 leading-relaxed">
+                          {item.description[lang] || item.description.he}
+                        </p>
+
+                        <div className="flex gap-2 mt-4">
+                          <a href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-2 rounded-lg text-xs font-bold no-underline shadow-md">Waze</a>
+                          <a href={`https://www.google.com/maps/search/?api=1&query=${item.coords[0]},${item.coords[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-2 rounded-lg text-xs font-bold no-underline border border-gray-200">Maps</a>
                         </div>
                       </div>
                     </Popup>
@@ -229,16 +249,18 @@ export default function TiyulifyApp() {
                 ))}
               </MapContainer>
 
-              <button onClick={handleSurprise} className="absolute bottom-24 left-6 z-[2000] bg-green-600 text-white w-16 h-16 rounded-full shadow-2xl flex flex-col items-center justify-center text-xs font-bold border-4 border-white hover:bg-green-700 transition-all">
+              <button onClick={handleSurprise} className="absolute bottom-24 left-6 z-[2000] bg-green-600 text-white w-16 h-16 rounded-full shadow-2xl flex flex-col items-center justify-center text-xs font-bold border-4 border-white hover:bg-green-700 transition-all transform hover:scale-110">
                 <span className="text-2xl mb-0.5">🎲</span> {ui[lang].surprise}
               </button>
-              <button onClick={() => setView('home')} className="absolute bottom-6 left-6 z-[2000] bg-white text-green-600 w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-2xl border-2 border-green-600 hover:bg-green-50">
+              
+              <button onClick={() => setView('home')} className="absolute bottom-6 left-6 z-[2000] bg-white text-green-600 w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-2xl border-2 border-green-600 hover:bg-green-50 transition-all transform hover:scale-110">
                 🏠
               </button>
             </div>
           </div>
         </div>
       )}
+
       <style jsx global>{`
         .leaflet-marker-icon { margin-top: -34px !important; margin-left: -12px !important; }
         .no-scrollbar::-webkit-scrollbar { display: none; }
