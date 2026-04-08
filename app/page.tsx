@@ -45,7 +45,7 @@ export default function TiyulifyApp() {
       home: "الرئيسية", youAreHere: "أنت هنا", categories: { all: "الكل", water: "مياه", nature: "طبيعة", history: "تاريخ", sleep: "مبيت", food: "طعام", bike: "دراجات" }
     },
     ru: { 
-      search: "Поиск...", results: "Результаты", surprise: "Удиви меня", welcome: "Куда поедем сегодня?", 
+      search: "Поиск...", results: "Результаты", surprise: "Удиви меня", welcome: "Куדה поедем сегодня?", 
       start: "Поехали", back: "Назад", style: "Какой стиль?", nearby: "км от вас",
       home: "Домой", youAreHere: "Вы здесь", categories: { all: "Все", water: "Вода", nature: "Природа", history: "История", sleep: "Жилье", food: "Еда", bike: "Велосипед" }
     }
@@ -125,7 +125,19 @@ export default function TiyulifyApp() {
         <div className="flex-1 flex flex-col items-center justify-center p-6 bg-[url('https://images.unsplash.com/photo-1548777123-e216912df7d8?w=1200')] bg-cover bg-center relative text-white">
           <div className="absolute inset-0 bg-black/50 backdrop-blur-[2px]" />
           <div className="relative z-10 text-center">
-            <h1 className="text-8xl font-black mb-4 tracking-tighter drop-shadow-2xl italic">Tiyulify</h1>
+            
+            {/* לוגו עם אנימציה וקישור במסך הבית */}
+            <div className="flex items-center justify-center gap-6 mb-4">
+               <a href="https://sites.google.com/view/geology-info/" target="_blank" rel="noopener noreferrer" className="group">
+                 <img 
+                   src="/Logo- Mamdoh1.gif" 
+                   alt="Logo" 
+                   className="w-24 h-24 rounded-full border-4 border-white shadow-2xl transition-transform duration-1000 group-hover:rotate-[360deg] object-cover" 
+                 />
+               </a>
+               <h1 className="text-8xl font-black tracking-tighter drop-shadow-2xl italic">Tiyulify</h1>
+            </div>
+
             <p className="text-2xl font-light mb-12 opacity-90">{ui[lang].welcome}</p>
             <div className="flex flex-col gap-4 w-64 mx-auto">
               <button onClick={() => setView('quiz')} className="bg-green-500 hover:bg-green-600 py-4 rounded-2xl font-bold text-2xl shadow-2xl transition-transform active:scale-95">
@@ -144,7 +156,7 @@ export default function TiyulifyApp() {
         </div>
       )}
 
-      {/* שאלון סגנון */}
+      {/* שאלון */}
       {view === 'quiz' && (
         <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-50">
           <h2 className="text-4xl font-black text-gray-800 mb-10">{ui[lang].style}</h2>
@@ -163,14 +175,22 @@ export default function TiyulifyApp() {
         </div>
       )}
 
-      {/* מסך מפה ראשי */}
+      {/* מפה */}
       {view === 'map' && (
         <div className="flex flex-col h-full relative">
           <header className="bg-white/90 backdrop-blur-md border-b p-4 flex flex-col lg:flex-row items-center gap-4 z-[2000] shadow-sm">
             <div className="flex items-center gap-4 w-full lg:w-auto">
-              <h2 className="text-3xl font-black text-green-700 cursor-pointer" onClick={() => setView('home')}>Tiyulify</h2>
               
-              {/* בורר שפה - החזרתי אותו כאן! */}
+              {/* לוגו קטן ב-Header עם אנימציה וקישור */}
+              <a href="https://sites.google.com/view/geology-info/" target="_blank" rel="noopener noreferrer" className="group shrink-0">
+                 <img 
+                   src="/Logo- Mamdoh1.gif" 
+                   alt="Logo" 
+                   className="w-10 h-10 rounded-full border-2 border-green-500 transition-transform duration-700 group-hover:rotate-[360deg] object-cover" 
+                 />
+              </a>
+
+              <h2 className="text-3xl font-black text-green-700 cursor-pointer" onClick={() => setView('home')}>Tiyulify</h2>
               <div className="flex gap-1 bg-gray-100 p-1 rounded-lg">
                 {['he', 'ar', 'en', 'ru'].map(l => (
                   <button key={l} onClick={() => setLang(l)} className={`px-2 py-1 rounded text-[10px] font-bold transition-all ${lang === l ? 'bg-green-600 text-white shadow-sm' : 'text-gray-400 hover:text-gray-600'}`}>{l.toUpperCase()}</button>
@@ -195,7 +215,6 @@ export default function TiyulifyApp() {
           </header>
 
           <div className="flex-1 flex relative overflow-hidden">
-            {/* רשימה צדדית */}
             <aside className="w-80 bg-white border-r overflow-y-auto hidden md:block p-4 shadow-inner">
               <div className="flex justify-between items-center mb-4 text-gray-400 font-bold text-xs uppercase">
                 <span>{ui[lang].results} ({filteredData.length})</span>
@@ -216,7 +235,6 @@ export default function TiyulifyApp() {
               </div>
             </aside>
 
-            {/* מפה */}
             <div className="flex-1 relative">
               <MapContainer center={[32.0, 34.9]} zoom={8} style={{ height: '100%', width: '100%' }} ref={mapRef}>
                 <TileLayer url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png" />
@@ -233,12 +251,9 @@ export default function TiyulifyApp() {
                       <div className="text-right font-sans min-w-[220px]">
                         <img src={item.image} className="w-full h-28 object-cover rounded-lg mb-2 shadow-sm" />
                         <h4 className="font-bold text-green-800 text-lg m-0">{item.name[lang] || item.name.he}</h4>
-                        
-                        {/* תיאור האתר - החזרתי אותו כאן! */}
                         <p className="text-xs text-gray-600 my-2 leading-relaxed">
                           {item.description[lang] || item.description.he}
                         </p>
-
                         <div className="flex gap-2 mt-4">
                           <a href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-2 rounded-lg text-xs font-bold no-underline shadow-md">Waze</a>
                           <a href={`https://www.google.com/maps/search/?api=1&query=${item.coords[0]},${item.coords[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-2 rounded-lg text-xs font-bold no-underline border border-gray-200">Maps</a>
