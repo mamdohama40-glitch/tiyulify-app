@@ -3148,5 +3148,75 @@
       "en": "A magnificent canyon in the Negev with a spring and desert vegetation.",
       "ru": "Великолепный каньон в Негеве с источником и пустынной растительностью."
     }
+  },
+  {
+    "id": "153",
+    "name": { "he": "סובב מכתש רמון", "ar": "محيط فوهة رامون", "en": "Ramon Rim Trail", "ru": "Вокруг кратера Рамон" },
+    "coords": [30.611, 34.803],
+    "category": "nature",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mitzpe_Ramon_Crater.jpg/800px-Mitzpe_Ramon_Crater.jpg",
+    "description": {
+      "he": "מסלול הליכה עוצר נשימה על שפת המכתש האירוזי הגדול בעולם, חושף שכבות סלע בנות מיליוני שנים.",
+      "ar": "مسار مشي مذهل على حافة أكبر فوهة تآكل في العالم ، يكشف عن طبقات صخرية عمرها ملايين السنين.",
+      "en": "Breathtaking trail on the rim of the world's largest erosion crater, exposing ancient rock layers.",
+      "ru": "Потрясающая тропа по краю самого большого в мире эрозионного кратера, обнажающая древние слои горных пород."
+    }
+  },
+  {
+    "id": "154",
+    "name": { "he": "סינגל ריש לקיש", "ar": "مسار ريش لاكيش", "en": "Resh Lakish Singletrack", "ru": "Сингл Риш Лакиш" },
+    "coords": [32.755, 35.281],
+    "category": "bike",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Zippori_Forest.jpg/800px-Zippori_Forest.jpg",
+    "description": {
+      "he": "מסלול אופניים זורם ומהנה ביער ציפורי, המשלב חורש ים תיכוני עשיר ותצפיות על הגליל התחתון.",
+      "ar": "مسار دراجات ممتع في غابة صفورية ، يجمع بين الغابات الغنية وإطلالات على الجليل الأسفل.",
+      "en": "Flowing bike trail in Zippori forest, combining Mediterranean woodland and Galilee views.",
+      "ru": "Велосипедная трасса в лесу Ципори, сочетающая средиземноморские рощи и виды на Галилею."
+    }
+  },
+  {
+    "id": "155",
+    "name": { "he": "טיילת החוף", "ar": "ممشى الشاطئ", "en": "Beach Promenade", "ru": "Приморский променад" },
+    "coords": [32.102, 34.778],
+    "category": "nature",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tel_Aviv_Promenade_2012.JPG/800px-Tel_Aviv_Promenade_2012.JPG",
+    "description": {
+      "he": "טיילת רציפה ומרהיבה המחברת בין נמל תל אביב להרצליה, מושלמת להליכה ושקיעות.",
+      "ar": "ممشى مستمر ورائع يربط ميناء تل أبيب بهرتسليا ، وهو مثالي للمشي ومشاهدة الغروب.",
+      "en": "Spectacular continuous promenade connecting Tel Aviv Port to Herzliya, perfect for sunset walks.",
+      "ru": "Красивый променад, соединяющий порт Тель-Авива с Герцлией, идеален для прогулок на закате."
+    }
+  },
+  {
+    "id": "156",
+    "name": { "he": "פארק קנאביס (בארי)", "ar": "متنزه بئيري", "en": "Be'eri Forest", "ru": "Лес Беэри" },
+    "coords": [31.424, 34.492],
+    "category": "nature",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Beeri_Forest_Anemones.jpg/800px-Beeri_Forest_Anemones.jpg",
+    "description": {
+      "he": "מרחבים ירוקים בעוטף עזה, מפורסם בפריחת הכלניות האדומות בחורף ובאתרי מורשת.",
+      "ar": "مساحات خضراء في غلاف غزة ، تشتهر بتفتح أزهار شقائق النعمان الحمراء في الشتاء.",
+      "en": "Green spaces near Gaza, famous for red anemone blooms in winter and heritage sites.",
+      "ru": "Зеленые просторы рядом с Газой, знаменитые зимним цветением красных анемонов."
+    }
+  },
+  {
+    "id": "157",
+    "name": { "he": "נחל אלכסנדר - גשר הצבים", "ar": "وادي الإسكندر", "en": "Alexander Stream", "ru": "Река Александр" },
+    "coords": [32.392, 34.864],
+    "category": "water",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Alexander_Stream_IMG_2584.JPG/800px-Alexander_Stream_IMG_2584.JPG",
+    "description": {
+      "he": "נחל משוקם המהווה בית לצבים רכים ענקיים, עם שבילי הליכה נעימים ופארק רחב.",
+      "ar": "نهر مرمم موطن للسلاحف اللينة العملاقة ، مع مسارات مشي ممتعة ومتنزه واسع.",
+      "en": "Restored stream home to giant soft-shell turtles, with pleasant walking paths and a wide park.",
+      "ru": "Восстановленная река, где живут гигантские мягкотелые черепахи, с удобными тропами."
+    }
   }
 ]

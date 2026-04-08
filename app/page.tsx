@@ -22,6 +22,7 @@ export default function TiyulifyApp() {
   const [view, setView] = useState<ViewState>('home');
   const [lang, setLang] = useState('he');
   const [activeCategory, setActiveCategory] = useState('all');
+  const [activeRegion, setActiveRegion] = useState('all'); // חדש: פילטר אזור
   const [searchQuery, setSearchQuery] = useState('');
   const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
   const [LeafletComponents, setLeafletComponents] = useState<any>(null);
@@ -32,22 +33,30 @@ export default function TiyulifyApp() {
     he: { 
       search: "חפש מקום...", results: "תוצאות", surprise: "תפתיע אותי", welcome: "לאן נטייל היום?", 
       start: "בואו נתחיל", back: "חזרה", style: "מה הסגנון שלכם?", nearby: "קמ ממך",
-      home: "בית", youAreHere: "אתם כאן", categories: { all: "הכל", water: "מים", nature: "טבע", history: "היסטוריה", sleep: "לינה", food: "אוכל", bike: "אופניים" }
+      home: "בית", youAreHere: "אתם כאן", 
+      regions: { all: "כל הארץ", north: "צפון", center: "מרכז", south: "דרום" },
+      categories: { all: "הכל", water: "מים", nature: "טבע", history: "היסטוריה", sleep: "לינה", food: "אוכל", bike: "אופניים" }
     },
     en: { 
       search: "Search...", results: "Results", surprise: "Surprise Me", welcome: "Where to today?", 
       start: "Let's Go", back: "Back", style: "What's your style?", nearby: "km away",
-      home: "Home", youAreHere: "You are here", categories: { all: "All", water: "Water", nature: "Nature", history: "History", sleep: "Sleep", food: "Food", bike: "Bike" }
+      home: "Home", youAreHere: "You are here", 
+      regions: { all: "Israel", north: "North", center: "Center", south: "South" },
+      categories: { all: "All", water: "Water", nature: "Nature", history: "History", sleep: "Sleep", food: "Food", bike: "Bike" }
     },
     ar: { 
       search: "بحث...", results: "نتائج", surprise: "فاجئني", welcome: "أين نذهب היום؟", 
       start: "لنبدأ", back: "رجوع", style: "ما هو أسلوبك؟", nearby: "كم منك",
-      home: "الرئيسية", youAreHere: "أنت هنا", categories: { all: "الكل", water: "مياه", nature: "طبيعة", history: "تاريخ", sleep: "مبيت", food: "طعام", bike: "دراجات" }
+      home: "الرئيسية", youAreHere: "أنت هنا", 
+      regions: { all: "כל البلاد", north: "شمال", center: "مركز", south: "جنوب" },
+      categories: { all: "الكل", water: "مياه", nature: "طبيعة", history: "تاريخ", sleep: "مبيت", food: "طعام", bike: "دراجات" }
     },
     ru: { 
       search: "Поиск...", results: "Результаты", surprise: "Удиви меня", welcome: "Куדה поедем сегодня?", 
       start: "Поехали", back: "Назад", style: "Какой стиль?", nearby: "км от вас",
-      home: "Домой", youAreHere: "Вы здесь", categories: { all: "Все", water: "Вода", nature: "Природа", history: "История", sleep: "Жилье", food: "Еда", bike: "Велосипед" }
+      home: "Домой", youAreHere: "Вы здесь", 
+      regions: { all: "Израиль", north: "Север", center: "Центр", south: "Юг" },
+      categories: { all: "Все", water: "Вода", nature: "Природа", history: "История", sleep: "Жилье", food: "Еда", bike: "Велосипед" }
     }
   };
 
@@ -89,7 +98,11 @@ export default function TiyulifyApp() {
       const searchLower = searchQuery.toLowerCase();
       const matchesName = Object.values(item.name).some(n => String(n).toLowerCase().includes(searchLower));
       const matchesCategory = activeCategory === 'all' || item.category === activeCategory;
-      return matchesName && matchesCategory;
+      
+      // סינון לפי אזור - תומך גם במקומות שעדיין אין להם שדה region
+      const matchesRegion = activeRegion === 'all' || (item as any).region === activeRegion;
+      
+      return matchesName && matchesCategory && matchesRegion;
     });
     if (userLocation) {
       return [...result].sort((a, b) => {
@@ -99,7 +112,7 @@ export default function TiyulifyApp() {
       });
     }
     return result;
-  }, [searchQuery, activeCategory, userLocation]);
+  }, [searchQuery, activeCategory, activeRegion, userLocation]);
 
   const handleFlyTo = (coords: [number, number]) => {
     if (mapRef.current) mapRef.current.flyTo(coords, 14);
@@ -120,13 +133,11 @@ export default function TiyulifyApp() {
   return (
     <div className="flex flex-col h-screen bg-white font-sans overflow-hidden" dir={lang === 'ar' || lang === 'he' ? 'rtl' : 'ltr'}>
       
-      {/* מסך בית */}
       {view === 'home' && (
         <div className="flex-1 flex flex-col items-center justify-center p-6 bg-[url('https://images.unsplash.com/photo-1548777123-e216912df7d8?w=1200')] bg-cover bg-center relative text-white">
           <div className="absolute inset-0 bg-black/50 backdrop-blur-[2px]" />
           <div className="relative z-10 text-center">
             
-            {/* לוגו עם אנימציה וקישור במסך הבית */}
             <div className="flex items-center justify-center gap-6 mb-4">
                <a href="https://sites.google.com/view/geology-info/" target="_blank" rel="noopener noreferrer" className="group">
                  <img 
@@ -156,9 +167,8 @@ export default function TiyulifyApp() {
         </div>
       )}
 
-      {/* שאלון */}
       {view === 'quiz' && (
-        <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-50">
+        <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-50 overflow-y-auto">
           <h2 className="text-4xl font-black text-gray-800 mb-10">{ui[lang].style}</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-3xl">
             {Object.entries(ui[lang].categories).filter(([id]) => id !== 'all').map(([id, label]: any) => (
@@ -175,42 +185,54 @@ export default function TiyulifyApp() {
         </div>
       )}
 
-      {/* מפה */}
       {view === 'map' && (
         <div className="flex flex-col h-full relative">
-          <header className="bg-white/90 backdrop-blur-md border-b p-4 flex flex-col lg:flex-row items-center gap-4 z-[2000] shadow-sm">
-            <div className="flex items-center gap-4 w-full lg:w-auto">
+          <header className="bg-white/90 backdrop-blur-md border-b p-4 flex flex-col gap-4 z-[2000] shadow-sm">
+            <div className="flex items-center justify-between w-full">
+              <div className="flex items-center gap-4">
+                <a href="https://sites.google.com/view/geology-info/" target="_blank" rel="noopener noreferrer" className="group shrink-0">
+                   <img 
+                     src="/Logo- Mamdoh1.gif" 
+                     alt="Logo" 
+                     className="w-10 h-10 rounded-full border-2 border-green-500 transition-transform duration-700 group-hover:rotate-[360deg] object-cover" 
+                   />
+                </a>
+                <h2 className="text-3xl font-black text-green-700 cursor-pointer" onClick={() => setView('home')}>Tiyulify</h2>
+              </div>
               
-              {/* לוגו קטן ב-Header עם אנימציה וקישור */}
-              <a href="https://sites.google.com/view/geology-info/" target="_blank" rel="noopener noreferrer" className="group shrink-0">
-                 <img 
-                   src="/Logo- Mamdoh1.gif" 
-                   alt="Logo" 
-                   className="w-10 h-10 rounded-full border-2 border-green-500 transition-transform duration-700 group-hover:rotate-[360deg] object-cover" 
-                 />
-              </a>
-
-              <h2 className="text-3xl font-black text-green-700 cursor-pointer" onClick={() => setView('home')}>Tiyulify</h2>
               <div className="flex gap-1 bg-gray-100 p-1 rounded-lg">
                 {['he', 'ar', 'en', 'ru'].map(l => (
-                  <button key={l} onClick={() => setLang(l)} className={`px-2 py-1 rounded text-[10px] font-bold transition-all ${lang === l ? 'bg-green-600 text-white shadow-sm' : 'text-gray-400 hover:text-gray-600'}`}>{l.toUpperCase()}</button>
+                  <button key={l} onClick={() => setLang(l)} className={`px-2 py-1 rounded text-[10px] font-bold transition-all ${lang === l ? 'bg-green-600 text-white' : 'text-gray-400 hover:text-gray-600'}`}>{l.toUpperCase()}</button>
                 ))}
               </div>
             </div>
 
-            <div className="flex-1 w-full max-w-md relative">
-              <input type="text" placeholder={ui[lang].search} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-gray-100 border-none rounded-xl py-2 px-10 focus:ring-2 focus:ring-green-400 outline-none text-gray-800" />
-              <span className={`absolute top-2.5 opacity-30 ${lang === 'he' || lang === 'ar' ? 'right-3' : 'left-3'}`}>🔍</span>
-            </div>
+            <div className="flex flex-col lg:flex-row gap-4 w-full">
+              <div className="flex-1 relative">
+                <input type="text" placeholder={ui[lang].search} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full bg-gray-100 border-none rounded-xl py-2 px-10 focus:ring-2 focus:ring-green-400 outline-none text-gray-800" />
+                <span className={`absolute top-2.5 opacity-30 ${lang === 'he' || lang === 'ar' ? 'right-3' : 'left-3'}`}>🔍</span>
+              </div>
 
-            <div className="flex gap-2 overflow-x-auto pb-1 w-full lg:w-auto no-scrollbar">
-              {Object.entries(ui[lang].categories).map(([id, label]: any) => (
-                <button key={id} onClick={() => setActiveCategory(id)} 
-                  className={`px-4 py-1.5 rounded-full text-sm font-bold whitespace-nowrap transition-all ${activeCategory === id ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}>
-                  {label}
-                </button>
-              ))}
+              {/* בורר אזור (Select) ופילטר קטגוריות */}
+              <div className="flex gap-2 overflow-x-auto no-scrollbar">
+                <select 
+                  value={activeRegion}
+                  onChange={(e) => setActiveRegion(e.target.value)}
+                  className="bg-blue-50 text-blue-700 font-bold px-4 py-2 rounded-xl text-sm outline-none border-none"
+                >
+                  {Object.entries(ui[lang].regions).map(([id, label]: any) => (
+                    <option key={id} value={id}>{label}</option>
+                  ))}
+                </select>
+
+                {Object.entries(ui[lang].categories).map(([id, label]: any) => (
+                  <button key={id} onClick={() => setActiveCategory(id)} 
+                    className={`px-4 py-2 rounded-xl text-sm font-bold whitespace-nowrap transition-all ${activeCategory === id ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}>
+                    {label}
+                  </button>
+                ))}
+              </div>
             </div>
           </header>
 
