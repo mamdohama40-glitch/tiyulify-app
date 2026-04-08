@@ -6,15 +6,18 @@ import data from './data.json';
 
 type ViewState = 'home' | 'quiz' | 'map';
 
+// פונקציית מרחק - Haversine Formula
 function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
-  const R = 6371;
+  const R = 6371; // רדיוס כדור הארץ בק"מ
   const dLat = (lat2 - lat1) * Math.PI / 180;
   const dLon = (lon2 - lon1) * Math.PI / 180;
-  const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-            Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-            Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  const a = 
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * 
+    Math.sin(dLon / 2) * Math.sin(dLon / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  return R * c;
+  const distance = R * c;
+  return distance;
 }
 
 export default function TiyulifyApp() {
@@ -22,41 +25,118 @@ export default function TiyulifyApp() {
   const [view, setView] = useState<ViewState>('home');
   const [lang, setLang] = useState('he');
   const [activeCategory, setActiveCategory] = useState('all');
-  const [activeRegion, setActiveRegion] = useState('all'); // חדש: פילטר אזור
+  const [activeRegion, setActiveRegion] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
   const [LeafletComponents, setLeafletComponents] = useState<any>(null);
   const [redIcon, setRedIcon] = useState<any>(null);
   const mapRef = useRef<any>(null);
 
+  // אובייקט ממשק המשתמש - 10 קטגוריות, 4 שפות, 4 אזורים
   const ui: any = {
     he: { 
-      search: "חפש מקום...", results: "תוצאות", surprise: "תפתיע אותי", welcome: "לאן נטייל היום?", 
-      start: "בואו נתחיל", back: "חזרה", style: "מה הסגנון שלכם?", nearby: "קמ ממך",
-      home: "בית", youAreHere: "אתם כאן", 
+      search: "חפש מקום...", 
+      results: "תוצאות", 
+      surprise: "תפתיע אותי", 
+      welcome: "לאן נטייל היום?", 
+      start: "בואו נתחיל", 
+      back: "חזרה", 
+      style: "מה הסגנון שלכם?", 
+      nearby: "קמ ממך",
+      home: "בית",
+      youAreHere: "אתם כאן",
       regions: { all: "כל הארץ", north: "צפון", center: "מרכז", south: "דרום" },
-      categories: { all: "הכל", water: "מים", nature: "טבע", history: "היסטוריה", sleep: "לינה", food: "אוכל", bike: "אופניים" }
+      categories: { 
+        all: "הכל", 
+        water: "מים ומעיינות", 
+        nature: "פארקים וטבע", 
+        history: "היסטוריה ומורשת", 
+        sleep: "לינה וקמפינג", 
+        food: "אוכל ומסעדות", 
+        bike: "מסלולי אופניים",
+        hiking: "מסלולי הליכה",
+        promenade: "טיילות",
+        beach: "חופי ים",
+        river: "נחלים ונהרות"
+      }
     },
     en: { 
-      search: "Search...", results: "Results", surprise: "Surprise Me", welcome: "Where to today?", 
-      start: "Let's Go", back: "Back", style: "What's your style?", nearby: "km away",
-      home: "Home", youAreHere: "You are here", 
+      search: "Search...", 
+      results: "Results", 
+      surprise: "Surprise Me", 
+      welcome: "Where to today?", 
+      start: "Let's Go", 
+      back: "Back", 
+      style: "What's your style?", 
+      nearby: "km away",
+      home: "Home",
+      youAreHere: "You are here",
       regions: { all: "Israel", north: "North", center: "Center", south: "South" },
-      categories: { all: "All", water: "Water", nature: "Nature", history: "History", sleep: "Sleep", food: "Food", bike: "Bike" }
+      categories: { 
+        all: "All", 
+        water: "Water & Springs", 
+        nature: "Parks & Nature", 
+        history: "History & Heritage", 
+        sleep: "Sleep & Camp", 
+        food: "Food & Restaurants", 
+        bike: "Bike Trails",
+        hiking: "Hiking Trails",
+        promenade: "Promenades",
+        beach: "Beaches",
+        river: "Rivers & Streams"
+      }
     },
     ar: { 
-      search: "بحث...", results: "نتائج", surprise: "فاجئني", welcome: "أين نذهب היום؟", 
-      start: "لنبدأ", back: "رجوع", style: "ما هو أسلوبك؟", nearby: "كم منك",
-      home: "الرئيسية", youAreHere: "أنت هنا", 
-      regions: { all: "כל البلاد", north: "شمال", center: "مركز", south: "جنوب" },
-      categories: { all: "الكل", water: "مياه", nature: "طبيعة", history: "تاريخ", sleep: "مبيت", food: "طعام", bike: "دراجات" }
+      search: "بحث...", 
+      results: "نتائج", 
+      surprise: "فاجئني", 
+      welcome: "أين نذهب اليوم؟", 
+      start: "لنبدأ", 
+      back: "رجوع", 
+      style: "ما هو أسلوبك؟", 
+      nearby: "كم منك",
+      home: "الرئيسية",
+      youAreHere: "أنت هنا",
+      regions: { all: "كل البلاد", north: "شمال", center: "مركز", south: "جنوب" },
+      categories: { 
+        all: "الكل", 
+        water: "مياه وينابيع", 
+        nature: "منتزهات وطبيعة", 
+        history: "تاريخ وتراث", 
+        sleep: "مبيت وتخييم", 
+        food: "طعام ومطاعم", 
+        bike: "مسارات دراجات",
+        hiking: "مسارات مشي",
+        promenade: "مماشٍ",
+        beach: "شواطئ",
+        river: "أنهار وجداول"
+      }
     },
     ru: { 
-      search: "Поиск...", results: "Результаты", surprise: "Удиви меня", welcome: "Куדה поедем сегодня?", 
-      start: "Поехали", back: "Назад", style: "Какой стиль?", nearby: "км от вас",
-      home: "Домой", youAreHere: "Вы здесь", 
+      search: "Поиск...", 
+      results: "Результаты", 
+      surprise: "Удиви меня", 
+      welcome: "Куда поедем сегодня?", 
+      start: "Поехали", 
+      back: "Назад", 
+      style: "Какой стиль?", 
+      nearby: "км от вас",
+      home: "Домой",
+      youAreHere: "Вы здесь",
       regions: { all: "Израиль", north: "Север", center: "Центр", south: "Юг" },
-      categories: { all: "Все", water: "Вода", nature: "Природа", history: "История", sleep: "Жилье", food: "Еда", bike: "Велосипед" }
+      categories: { 
+        all: "Все", 
+        water: "Вода и источники", 
+        nature: "Парки и природа", 
+        history: "История и наследие", 
+        sleep: "Жилье и кемпинг", 
+        food: "Еда и рестораны", 
+        bike: "Веломаршруты",
+        hiking: "Пешие тропы",
+        promenade: "Променады",
+        beach: "Пляжи",
+        river: "Реки и ручьи"
+      }
     }
   };
 
@@ -64,8 +144,10 @@ export default function TiyulifyApp() {
     setIsClient(true);
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
-        (pos) => setUserLocation([pos.coords.latitude, pos.coords.longitude]),
-        (err) => console.log("GPS Location denied")
+        (pos) => {
+          setUserLocation([pos.coords.latitude, pos.coords.longitude]);
+        },
+        (err) => console.log("GPS Location access denied")
       );
     }
 
@@ -98,12 +180,10 @@ export default function TiyulifyApp() {
       const searchLower = searchQuery.toLowerCase();
       const matchesName = Object.values(item.name).some(n => String(n).toLowerCase().includes(searchLower));
       const matchesCategory = activeCategory === 'all' || item.category === activeCategory;
-      
-      // סינון לפי אזור - תומך גם במקומות שעדיין אין להם שדה region
       const matchesRegion = activeRegion === 'all' || (item as any).region === activeRegion;
-      
       return matchesName && matchesCategory && matchesRegion;
     });
+
     if (userLocation) {
       return [...result].sort((a, b) => {
         const distA = getDistance(userLocation[0], userLocation[1], a.coords[0], a.coords[1]);
@@ -115,7 +195,9 @@ export default function TiyulifyApp() {
   }, [searchQuery, activeCategory, activeRegion, userLocation]);
 
   const handleFlyTo = (coords: [number, number]) => {
-    if (mapRef.current) mapRef.current.flyTo(coords, 14);
+    if (mapRef.current) {
+      mapRef.current.flyTo(coords, 14);
+    }
   };
 
   const handleSurprise = () => {
@@ -133,13 +215,14 @@ export default function TiyulifyApp() {
   return (
     <div className="flex flex-col h-screen bg-white font-sans overflow-hidden" dir={lang === 'ar' || lang === 'he' ? 'rtl' : 'ltr'}>
       
+      {/* מסך בית */}
       {view === 'home' && (
         <div className="flex-1 flex flex-col items-center justify-center p-6 bg-[url('https://images.unsplash.com/photo-1548777123-e216912df7d8?w=1200')] bg-cover bg-center relative text-white">
           <div className="absolute inset-0 bg-black/50 backdrop-blur-[2px]" />
           <div className="relative z-10 text-center">
             
             <div className="flex items-center justify-center gap-6 mb-4">
-               <a href="https://sites.google.com/view/geology-info/" target="_blank" rel="noopener noreferrer" className="group">
+               <a href="https://sites.google.com/view/geology-info/" target="_blank" rel="noopener noreferrer" className="group shrink-0">
                  <img 
                    src="/Logo- Mamdoh1.gif" 
                    alt="Logo" 
@@ -167,27 +250,32 @@ export default function TiyulifyApp() {
         </div>
       )}
 
+      {/* שאלון - 10 כרטיסיות */}
       {view === 'quiz' && (
         <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-50 overflow-y-auto">
           <h2 className="text-4xl font-black text-gray-800 mb-10">{ui[lang].style}</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-3xl">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 w-full max-w-6xl p-4">
             {Object.entries(ui[lang].categories).filter(([id]) => id !== 'all').map(([id, label]: any) => (
-              <button key={id} onClick={() => { setActiveCategory(id); setView('map'); }}
-                className="aspect-square flex flex-col items-center justify-center gap-4 bg-white hover:bg-green-50 rounded-3xl shadow-md border-4 border-transparent hover:border-green-400 transition-all group">
-                <span className="text-6xl group-hover:scale-125 transition-transform">
-                  {id === 'water' ? '💦' : id === 'nature' ? '🏞️' : id === 'history' ? '🏰' : id === 'sleep' ? '🏕️' : id === 'food' ? '🍕' : '🚲'}
+              <button 
+                key={id} 
+                onClick={() => { setActiveCategory(id); setView('map'); }}
+                className="aspect-square flex flex-col items-center justify-center gap-4 bg-white hover:bg-green-50 rounded-3xl shadow-md border-4 border-transparent hover:border-green-400 transition-all group p-4"
+              >
+                <span className="text-5xl group-hover:scale-125 transition-transform">
+                  {id === 'water' ? '💦' : id === 'nature' ? '🏞️' : id === 'history' ? '🏰' : id === 'sleep' ? '🏕️' : id === 'food' ? '🍕' : id === 'bike' ? '🚲' : id === 'hiking' ? '🥾' : id === 'promenade' ? '🚶‍♂️' : id === 'beach' ? '🏖️' : '🌊'}
                 </span>
-                <span className="font-black text-gray-700 text-lg">{label}</span>
+                <span className="font-black text-gray-700 text-center text-sm leading-tight">{label}</span>
               </button>
             ))}
           </div>
-          <button onClick={() => setView('home')} className="mt-12 text-green-700 font-bold underline">{ui[lang].back}</button>
+          <button onClick={() => setView('home')} className="mt-12 text-green-700 font-bold underline text-lg">{ui[lang].back}</button>
         </div>
       )}
 
+      {/* מצב מפה */}
       {view === 'map' && (
         <div className="flex flex-col h-full relative">
-          <header className="bg-white/90 backdrop-blur-md border-b p-4 flex flex-col gap-4 z-[2000] shadow-sm">
+          <header className="bg-white border-b p-4 flex flex-col gap-4 z-[2000] shadow-md">
             <div className="flex items-center justify-between w-full">
               <div className="flex items-center gap-4">
                 <a href="https://sites.google.com/view/geology-info/" target="_blank" rel="noopener noreferrer" className="group shrink-0">
@@ -202,7 +290,7 @@ export default function TiyulifyApp() {
               
               <div className="flex gap-1 bg-gray-100 p-1 rounded-lg">
                 {['he', 'ar', 'en', 'ru'].map(l => (
-                  <button key={l} onClick={() => setLang(l)} className={`px-2 py-1 rounded text-[10px] font-bold transition-all ${lang === l ? 'bg-green-600 text-white' : 'text-gray-400 hover:text-gray-600'}`}>{l.toUpperCase()}</button>
+                  <button key={l} onClick={() => setLang(l)} className={`px-2 py-1 rounded text-[10px] font-bold transition-all ${lang === l ? 'bg-green-600 text-white' : 'text-gray-400'}`}>{l.toUpperCase()}</button>
                 ))}
               </div>
             </div>
@@ -210,16 +298,15 @@ export default function TiyulifyApp() {
             <div className="flex flex-col lg:flex-row gap-4 w-full">
               <div className="flex-1 relative">
                 <input type="text" placeholder={ui[lang].search} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full bg-gray-100 border-none rounded-xl py-2 px-10 focus:ring-2 focus:ring-green-400 outline-none text-gray-800" />
+                  className="w-full bg-gray-50 border-2 border-gray-100 rounded-xl py-2 px-10 focus:border-green-400 outline-none transition-all text-gray-800" />
                 <span className={`absolute top-2.5 opacity-30 ${lang === 'he' || lang === 'ar' ? 'right-3' : 'left-3'}`}>🔍</span>
               </div>
 
-              {/* בורר אזור (Select) ופילטר קטגוריות */}
               <div className="flex gap-2 overflow-x-auto no-scrollbar">
                 <select 
                   value={activeRegion}
                   onChange={(e) => setActiveRegion(e.target.value)}
-                  className="bg-blue-50 text-blue-700 font-bold px-4 py-2 rounded-xl text-sm outline-none border-none"
+                  className="bg-blue-50 text-blue-700 font-bold px-4 py-2 rounded-xl text-sm outline-none border-none cursor-pointer"
                 >
                   {Object.entries(ui[lang].regions).map(([id, label]: any) => (
                     <option key={id} value={id}>{label}</option>
@@ -228,7 +315,7 @@ export default function TiyulifyApp() {
 
                 {Object.entries(ui[lang].categories).map(([id, label]: any) => (
                   <button key={id} onClick={() => setActiveCategory(id)} 
-                    className={`px-4 py-2 rounded-xl text-sm font-bold whitespace-nowrap transition-all ${activeCategory === id ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}>
+                    className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${activeCategory === id ? 'bg-green-600 text-white shadow-md' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}>
                     {label}
                   </button>
                 ))}
@@ -249,7 +336,7 @@ export default function TiyulifyApp() {
                     <div key={item.id} onClick={() => handleFlyTo(item.coords)} 
                       className="bg-gray-50 rounded-2xl p-2 shadow-sm hover:shadow-md cursor-pointer border-2 border-transparent hover:border-green-300 transition-all group">
                       <img src={item.image} className="w-full h-28 object-cover rounded-xl mb-2" />
-                      <h3 className="font-bold text-gray-800 text-sm">{item.name[lang] || item.name.he}</h3>
+                      <h3 className="font-bold text-gray-800 text-sm leading-tight">{item.name[lang] || item.name.he}</h3>
                       {dist && <p className="text-[10px] text-green-600 font-bold mt-1">🚀 {dist} {ui[lang].nearby}</p>}
                     </div>
                   );
