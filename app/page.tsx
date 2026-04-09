@@ -20,6 +20,80 @@ function getYoutubeLink(id: string): string {
   return `https://www.youtube.com/embed/${id}?autoplay=0&rel=0&modestbranding=1${o}`;
 }
 
+
+// ============================================================
+// SmartImage — תמונה חכמה עם fallback אוטומטי
+// מנסה: 1) item.image  2) Wikimedia API  3) placeholder צבעוני
+// ============================================================
+const CATEGORY_COLORS: Record<string, string> = {
+  water: '#3b82f6', nature: '#22c55e', history: '#a16207',
+  sleep: '#8b5cf6', accommodation: '#8b5cf6', food: '#f97316',
+  bike: '#ef4444', hiking: '#84cc16', promenade: '#06b6d4',
+  beach: '#0ea5e9', river: '#6366f1', park: '#10b981',
+  cafe: '#92400e', default: '#6b7280'
+};
+
+const CATEGORY_EMOJI: Record<string, string> = {
+  water: '💧', nature: '🌿', history: '🏛️', sleep: '🏕️',
+  accommodation: '🛖', food: '🍽️', bike: '🚲', hiking: '🥾',
+  promenade: '🚶', beach: '🏖️', river: '🌊', park: '🌳',
+  cafe: '☕', default: '📍'
+};
+
+function SmartImage({ item, className }: { item: any; className?: string }) {
+  const [src, setSrc] = React.useState<string>(item.image || '');
+  const [tried, setTried] = React.useState(0); // 0=original, 1=wikimedia, 2=placeholder
+  const [wikiSrc, setWikiSrc] = React.useState<string | null>(null);
+
+  // Fetch Wikimedia image when original fails
+  React.useEffect(() => {
+    if (tried !== 1) return;
+    const name = item.name?.he || item.name?.en || '';
+    if (!name) { setTried(2); return; }
+    const searchTerm = encodeURIComponent(name);
+    fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${searchTerm}`)
+      .then(r => r.json())
+      .then(d => {
+        const imgUrl = d?.thumbnail?.source || d?.originalimage?.source;
+        if (imgUrl) { setWikiSrc(imgUrl); setSrc(imgUrl); }
+        else { setTried(2); }
+      })
+      .catch(() => setTried(2));
+  }, [tried, item.name]);
+
+  const color = CATEGORY_COLORS[item.category] || CATEGORY_COLORS.default;
+  const emoji = CATEGORY_EMOJI[item.category] || CATEGORY_EMOJI.default;
+  const label = item.name?.he || item.name?.en || '';
+
+  if (tried === 2) {
+    // Beautiful colored placeholder
+    return (
+      <div className={className} style={{
+        background: `linear-gradient(135deg, ${color}22, ${color}44)`,
+        display: 'flex', flexDirection: 'column',
+        alignItems: 'center', justifyContent: 'center',
+        gap: '8px', border: `2px solid ${color}33`
+      }}>
+        <span style={{ fontSize: '2.5rem' }}>{emoji}</span>
+        <span style={{ fontSize: '0.7rem', fontWeight: 800, color, textAlign: 'center', padding: '0 8px', opacity: 0.8 }}>{label}</span>
+      </div>
+    );
+  }
+
+  return (
+    <img
+      src={src}
+      className={className}
+      alt={label}
+      onError={() => {
+        if (tried === 0) { setTried(1); setSrc(''); }
+        else { setTried(2); }
+      }}
+      style={{ display: src ? 'block' : 'none' }}
+    />
+  );
+}
+
 export default function TiyulifyApp() {
   const [isClientReady, setIsClientReady] = useState(false);
   const [activeView, setActiveView] = useState<ViewState>('home');
@@ -283,7 +357,7 @@ export default function TiyulifyApp() {
                         <div key={item.id} onClick={()=>flyToCoords(item.coords)}
                           className="bg-gray-50 rounded-[3rem] p-5 shadow-sm hover:shadow-2xl cursor-pointer border-2 border-transparent hover:border-green-300 transition-all group overflow-hidden">
                           <div className="relative h-44 w-full mb-5 rounded-[2rem] overflow-hidden shadow-inner bg-gray-200">
-                            <img src={item.image} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" alt=""/>
+                            <SmartImage item={item} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"/>
                           </div>
                           <h3 className="font-black text-gray-800 text-xl px-2 leading-tight">{item.name[activeLang]||item.name.he}</h3>
                           {d && <p className="text-[14px] text-green-600 font-black mt-3 px-2 flex items-center gap-1.5"><span className="text-lg">🚀</span> {d} {labels[activeLang].distText}</p>}
@@ -326,7 +400,7 @@ export default function TiyulifyApp() {
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen referrerPolicy="strict-origin-when-cross-origin"/>
                                 ) : (
-                                  <img src={item.image} alt="" className="w-full h-full object-cover"/>
+                                  <SmartImage item={item} className="w-full h-full object-cover"/>
                                 )}
                               </div>
                               <h4 className="font-black text-green-900 text-3xl m-0 leading-none mb-3 px-1">{item.name[activeLang]||item.name.he}</h4>
