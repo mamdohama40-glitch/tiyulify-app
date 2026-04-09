@@ -4520,5 +4520,215 @@
       "en": "Guest rooms adjacent to one of Israel's most beautiful beaches.",
       "ru": "Гостевые комнаты рядом с одним из самых красивых пляжей Израиля."
     }
+  },
+  {
+    "id": "218",
+    "name": {
+      "he": "יערות הכרמל - אחוזת בריאות",
+      "ar": "ياعروت هكرمل - منتجع صحي",
+      "en": "Carmel Forest Health Farm",
+      "ru": "Кармель Форест - оздоровительный курорт"
+    },
+    "coords": [
+      32.744,
+      35.023
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "אירוח יוקרתי ומבודד בלב שמורת הטבע כרמל.",
+      "ar": "إقامة فاخرة ومنعزلة في قلب محمية جبل الكرمل الطبيعية.",
+      "en": "Luxurious and secluded accommodation in the heart of the Carmel Forest.",
+      "ru": "Роскошное и уединенное жилье в самом сердце заповедника Кармель."
+    }
+  },
+  {
+    "id": "219",
+    "name": {
+      "he": "צימרים בעין הוד",
+      "ar": "أكواخ في عين هود",
+      "en": "Ein Hod Artist Village Cabins",
+      "ru": "Домики в деревне художников Эйн-Ход"
+    },
+    "coords": [
+      32.701,
+      34.982
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ein_Hod_001.jpg/800px-Ein_Hod_001.jpg",
+    "description": {
+      "he": "אירוח בוטיק בתוך כפר האמנים הציורי.",
+      "ar": "إقامة بوتيك داخل قرية الفنانين الخلابة.",
+      "en": "Boutique accommodation within the picturesque artist village.",
+      "ru": "Бутик-отели в живописной деревне художников."
+    }
+  },
+  {
+    "id": "220",
+    "name": {
+      "he": "חושות נווה ים",
+      "ar": "أكواخ نفي يام",
+      "en": "Neve Yam Beach Huts",
+      "ru": "Хижины Неве-Ям"
+    },
+    "coords": [
+      32.673,
+      34.929
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "אירוח פשוט וקרוב לקו המים בסגנון חושות.",
+      "ar": "إقامة بسيطة وقريبة من خط المياه على طراز الأكواخ.",
+      "en": "Simple, beachfront accommodation in a hut style.",
+      "ru": "Простое жилье в стиле хижин на самом берегу моря."
+    }
+  },
+  {
+    "id": "221",
+    "name": {
+      "he": "פארק הכרמל - שוויצריה הקטנה",
+      "ar": "منتزه الكرمل - سويسرا الصغيرة",
+      "en": "Carmel Park - Little Switzerland",
+      "ru": "Парк Кармель - Маленькая Швейцария"
+    },
+    "coords": [
+      32.738,
+      35.011
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Little_Switzerland_Carmel.jpg/800px-Little_Switzerland_Carmel.jpg",
+    "description": {
+      "he": "אזור נופש וטיול עם תצפיות מרהיבות וחורש צפוף.",
+      "ar": "منطقة ترفيه ومسارات مشي مع إطلالات رائعة وغابات كثيفة.",
+      "en": "Recreation and hiking area with spectacular views and dense woodland.",
+      "ru": "Зона отдыха и пеших прогулок с потрясающими видами и густым лесом."
+    }
+  },
+  {
+    "id": "222",
+    "name": {
+      "he": "חוף דור - נחשולים",
+      "ar": "شاطئ دور - نحشوليم",
+      "en": "Dor - Nachsholim Beach",
+      "ru": "Пляж Дор-Нахшолим"
+    },
+    "coords": [
+      32.615,
+      34.918
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dor_Beach_Sunset.jpg/800px-Dor_Beach_Sunset.jpg",
+    "description": {
+      "he": "חוף רחצה מוסדר עם לגונות טבעיות ואיים קטנים.",
+      "ar": "شاطئ منظم مع بحيرات طبيعية وجزر صغيرة.",
+      "en": "Regulated beach with natural lagoons and small islands.",
+      "ru": "Благоустроенный пляж с природными лагунами и маленькими островками."
+    }
+  },
+  {
+    "id": "223",
+    "name": {
+      "he": "פארק נשר - הגשרים התלויים",
+      "ar": "منتزه نيشر - الجسور المعلقة",
+      "en": "Nesher Park - Hanging Bridges",
+      "ru": "Парк Нешер - Подвесные мосты"
+    },
+    "coords": [
+      32.755,
+      35.039
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Nesher_Hanging_Bridge.jpg/800px-Nesher_Hanging_Bridge.jpg",
+    "description": {
+      "he": "מסלול הליכה בתוך נחל הכולל גשרים תלויים גבוהים.",
+      "ar": "مسار مشي داخل وادٍ يتضمن جسوراً معلقة عالية.",
+      "en": "Hiking trail inside a stream featuring high hanging bridges.",
+      "ru": "Пешеходный маршрут вдоль ручья с высокими подвесными мостами."
+    }
+  },
+  {
+    "id": "224",
+    "name": {
+      "he": "חוף הבונים",
+      "ar": "شاطئ هبونيم",
+      "en": "Habonim Beach",
+      "ru": "Пляж Ха-Боним"
+    },
+    "coords": [
+      32.637,
+      34.919
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Habonim_Beach_Nature_Reserve.jpg/800px-Habonim_Beach_Nature_Reserve.jpg",
+    "description": {
+      "he": "שמורת טבע חופית פראית עם מפרצים חוליים.",
+      "ar": "محمية طبيعية ساحلية برية مع خلجان رملية.",
+      "en": "Wild coastal nature reserve with sandy bays.",
+      "ru": "Дикий прибрежный заповедник с песчаными бухтами."
+    }
+  },
+  {
+    "id": "225",
+    "name": {
+      "he": "אירוח כפרי בקיבוץ בית אורן",
+      "ar": "سياحة ريفية في كيبوتس بيت أورين",
+      "en": "Beit Oren Country Lodging",
+      "ru": "Сельское жилье в кибуце Бейт-Орен"
+    },
+    "coords": [
+      32.729,
+      35.004
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Beit_Oren_View.jpg/800px-Beit_Oren_View.jpg",
+    "description": {
+      "he": "יחידות אירוח בראש ההר עם נוף פנורמי לים ולכרמל.",
+      "ar": "وحدات سكنية على قمة الجبل مع إطلالة بانورامية على البحر والكرمل.",
+      "en": "Guest units on the mountain top with panoramic views of the sea and Carmel.",
+      "ru": "Апартаменты на вершине горы с панорамным видом на море и Кармель."
+    }
+  },
+  {
+    "id": "226",
+    "name": {
+      "he": "חוף קיסריה - חוף הקשתות",
+      "ar": "شاطئ قيسارية - شاطئ الأقواس",
+      "en": "Caesarea - Aqueduct Beach",
+      "ru": "Кейсария - Пляж Акведук"
+    },
+    "coords": [
+      32.518,
+      34.896
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Caesarea_Aqueduct_Beach.jpg/800px-Caesarea_Aqueduct_Beach.jpg",
+    "description": {
+      "he": "חוף פתוח לקהל לצד אמת מים רומית עתיקה.",
+      "ar": "شاطئ مفتوح للجمهور بجانب قناة مياه رومانية قديمة.",
+      "en": "Public beach next to an ancient Roman aqueduct.",
+      "ru": "Общественный пляж рядом с древнеримским акведуком."
+    }
+  },
+  {
+    "id": "227",
+    "name": {
+      "he": "פארק רמת הנדיב",
+      "ar": "حدائق رمات هنديف",
+      "en": "Ramat Hanadiv Gardens",
+      "ru": "Сады Рамат Ха-Надив"
+    },
+    "coords": [
+      32.548,
+      34.945
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ramat_Hanadiv_Gardens.jpg/800px-Ramat_Hanadiv_Gardens.jpg",
+    "description": {
+      "he": "גנים מטופחים ומסלולי טיול בנקודת המפגש של הכרמל והמישור.",
+      "ar": "حدائق منسقة ومسارات مشي عند نقطة التقاء الكرمل والسهل.",
+      "en": "Manicured gardens and hiking trails at the meeting point of Carmel and the plain.",
+      "ru": "Ухоженные сады и пешеходные маршруты на стыке гор Кармель и долины."
+    }
   }
 ]
