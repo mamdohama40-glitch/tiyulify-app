@@ -1,17 +1,25 @@
 [
- {
-   "id": "1",
-   "name": { "he": "אתר החרמון", "ar": "جبل الشيخ", "en": "Mount Hermon", "ru": "Хермон" },
-   "coords": [33.315, 35.783],
-   "category": "nature",
-   "region": "north",
-   "video": null,
-   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Hermonsnow.jpg/800px-Hermonsnow.jpg",
-   "description": {
-     "he": "ההר הגבוה במדינה. מציע חוויות שלג בחורף, אתר סקי, רכבל ותצפיות גאולוגיות מרהיבות על פני כל הצפון.",
-     "ar": "أعلى جبل في البلاد، يتميز بمناظره الخلابة ومساراته.",
-     "en": "Israel's highest mountain, offering alpine scenery.",
-     "ru": "Высшая точка Израиля с альпийскими пейзажами."
+  {
+    "id": "1",
+    "name": {
+      "he": "אתר החרמון",
+      "ar": "جبل الشيخ",
+      "en": "Mount Hermon",
+      "ru": "Хермон"
+    },
+    "coords": [
+      33.315,
+      35.783
+    ],
+    "category": "nature",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Hermonsnow.jpg/800px-Hermonsnow.jpg",
+    "description": {
+      "he": "ההר הגבוה במדינה. מציע חוויות שלג בחורף, אתר סקי, רכבל ותצפיות גאולוגיות מרהיבות על פני כל הצפון.",
+      "ar": "أعلى جبل في البلاد، يتميز بمناظره الخلابة ومساراته.",
+      "en": "Israel's highest mountain, offering alpine scenery.",
+      "ru": "Высшая точка Израиля с альпийскими пейзажами."
     }
   },
   {
@@ -27,7 +35,7 @@
       35.617
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
     "description": {
       "he": "הארוך מבין מקורות הירדן, זרימה חזקה ומסלול מוצל.",
       "ar": "أطول روافد نهر الأردن، يتميز بتدفقه القوي ومساراته المظللة.",
@@ -48,7 +56,7 @@
       35.652
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "image": "https://images.unsplash.com/photo-1516912481800-0b03bf3c84a2?w=500",
     "description": {
       "he": "שמורה ירוקה עם פלגי מים שוצפים ועצים עתיקים.",
       "ar": "محمية طبيعية خلابة مع مياه جارية وأشجار قديمة.",
@@ -69,7 +77,7 @@
       35.694
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Banias_Waterfall.jpg/800px-Banias_Waterfall.jpg",
     "description": {
       "he": "מפל מרשים, גשרון תלוי ושרידים ארכיאולוגיים.",
       "ar": "شلال رائع وجسر معلق وبقايا أثرية قديمة.",
@@ -90,7 +98,7 @@
       35.58
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=500",
     "description": {
       "he": "קניון עמוק עם ארבעה מפלים זורמים כל השנה.",
       "ar": "وادٍ عميق يضم أربعة شلالات تتدفق طوال العام.",
@@ -111,7 +119,7 @@
       35.714
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nimrod_fortress_from_the_air.jpg/800px-Nimrod_fortress_from_the_air.jpg",
     "description": {
       "he": "מבצר גדול מימי הביניים הצופה על עמק החולה.",
       "ar": "قلعة تاريخية ضخمة تطل على سهل الحولة.",
@@ -132,7 +140,7 @@
       35.7
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=500",
     "description": {
       "he": "מסלול אתגרי בתוך חורש ים תיכוני סבוך ומרהיב.",
       "ar": "مسار تحدي وسط غابات البحر المتوسط الكثيفة.",
@@ -153,7 +161,7 @@
       35.741
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=500",
     "description": {
       "he": "מסלול טיול יפהפה בדרום הגולן עם המפל השחור והלבן.",
       "ar": "مسار جميل في جنوب الجولان يضم الشلالين الأسود والأبيض.",
@@ -174,7 +182,7 @@
       35.813
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Mount_Bental_Israel.jpg/800px-Mount_Bental_Israel.jpg",
     "description": {
       "he": "תצפית מרהיבה על סוריה והחרמון מלוע הר געש כבוי.",
       "ar": "إطلالة رائعة على سوريا وجبل الشيخ من فوهة بركان خامد.",
@@ -195,7 +203,7 @@
       35.642
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=500",
     "description": {
       "he": "קניון עמוק בגולן עם מפלים זורמים ובריכות עמוקות.",
       "ar": "وادٍ عميق في الجولان يضم شلالات وبرك مياه عميقة.",
@@ -216,7 +224,7 @@
       35.67
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Hexagonal_basalt_columns_Meshushim.jpg/800px-Hexagonal_basalt_columns_Meshushim.jpg",
     "description": {
       "he": "תופעת טבע ייחודית של עמודי בזלת משושים סביב בריכה.",
       "ar": "ظاهرة طبيعية فريدة من نوعها لأعمدة البازلت حول البركة.",
@@ -237,7 +245,7 @@
       35.66
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=500",
+    "image": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=500",
     "description": {
       "he": "תצפית פנורמית מרהיבה על הכנרת והרי הגליל.",
       "ar": "إطلالة بانورامية رائعة على بحيرة طبريا وجبال الجليل.",
@@ -258,7 +266,7 @@
       35.653
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1544198365-f5d60b6d8190?w=500",
+    "image": "https://images.unsplash.com/photo-1502322754280-b7fd4b1f5da3?w=500",
     "description": {
       "he": "מסלול הליכה בתוך המים הזורמים במורד הגולן.",
       "ar": "مسار مشي وسط المياه الجارية في منحدرات الجولان.",
@@ -279,7 +287,7 @@
       35.67
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=500",
     "description": {
       "he": "קניון פראי עם מפלים עונתיים מרשימים ונוף פתוח.",
       "ar": "وادٍ بري يضم شلالات موسمية رائعة ومناظر مفتوحة.",
@@ -300,7 +308,7 @@
       35.69
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1494472155656-f34e81b17ddc?w=500",
     "description": {
       "he": "אחד המסלולים הפופולריים בגולן עם בריכות עמוקות.",
       "ar": "أحد أشهر المسارات في الجولان مع برك مياه عميقة.",
@@ -321,7 +329,7 @@
       35.65
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=500",
+    "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=500",
     "description": {
       "he": "נוף מרהיב לכנרת מקצה המצוק של דרום הגולן.",
       "ar": "مناظر خلابة لبحيرة طبريا من حافة منحدرات جنوب الجولان.",
@@ -342,7 +350,7 @@
       35.652
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Tel_Dan_Stream.jpg/800px-Tel_Dan_Stream.jpg",
     "description": {
       "he": "שילוב של עיר מקראית עתיקה ומקורות מים שופעים.",
       "ar": "مزيج من مدينة توراتية قديمة ومصادر مياه وفيرة.",
@@ -363,7 +371,7 @@
       35.6425
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=500",
     "description": {
       "he": "מעיין קטן ופסטורלי עם טחנת קמח עתיקה.",
       "ar": "نبع صغير هادئ مع طاحونة قمح قديمة.",
@@ -384,7 +392,7 @@
       35.7335
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1544198365-f5d60b6d8190?w=500",
+    "image": "https://images.unsplash.com/photo-1546587348-d12660c30c50?w=500",
     "description": {
       "he": "שלוש בריכות יפות המשקיפות על נחל כנף והכנרת.",
       "ar": "ثلاث برك مياه جميلة تطل على وادي كنف وبحيرة طبريا.",
@@ -405,7 +413,7 @@
       35.7001
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "image": "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=500",
     "description": {
       "he": "מעיין הנובע בתוך בוסתן עצי פרי מתחת לכפר עתיק.",
       "ar": "نبع يتدفق داخل بستان من الأشجار المثمرة تحت قرية قديمة.",
@@ -426,7 +434,7 @@
       35.526
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Belvoir_Castle_aerial.jpg/800px-Belvoir_Castle_aerial.jpg",
     "description": {
       "he": "מבצר צלבני שלם המשקיף על בקעת הירדן.",
       "ar": "قلعة صليبية كاملة تطل على غور الأردن.",
@@ -447,7 +455,7 @@
       35.405
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500",
     "description": {
       "he": "תצפית מרהיבה מהגלבוע אל עמק חרוד ועמק המעיינות.",
       "ar": "إطلالة رائعة من جبال جلبوع على سهل حارود ووادي الينابيع.",
@@ -468,7 +476,7 @@
       35.412
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=500",
     "description": {
       "he": "מסלול ירידה תלול בגלבוע בין פריחות עונתיות.",
       "ar": "مسار منحدر وحاد في جبال جلبوع بين الزهور الموسمية.",
@@ -489,7 +497,7 @@
       35.446
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=500",
     "description": {
       "he": "מעיינות צלולים וגדולים בעמק המעיינות, מים כל השנה.",
       "ar": "ينابيع مياه صافية وكبيرة في وادي الينابيع طوال العام.",
@@ -510,7 +518,7 @@
       35.495
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500",
     "description": {
       "he": "נחל זורם עם קניון בזלת וגשרים תלויים.",
       "ar": "نهر جاري يضم وادٍ بازلتي وجسور معلقة.",
@@ -531,7 +539,7 @@
       35.474
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1566024349612-85eb12fe1d68?w=500",
     "description": {
       "he": "מסלול הליכה רטוב ומהנה בתוך מים עמוקים.",
       "ar": "مسار مشي رطب وممتع وسط المياه العميقة.",
@@ -552,7 +560,7 @@
       35.31
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=500",
     "description": {
       "he": "נקודת עצירה נעימה עם בריכה גדולה תחת עצי איקליפטוס.",
       "ar": "نقطة توقف مريحة مع بركة كبيرة تحت أشجار الأوكالبتوس.",
@@ -573,7 +581,7 @@
       35.58
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500",
+    "image": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=500",
     "description": {
       "he": "סיפורי ראשונים, תחנת כוח עתיקה וגבול נהר הירדן.",
       "ar": "قصص المستوطنين الأوائل، محطة طاقة قديمة وحدود نهر الأردن.",
@@ -594,7 +602,7 @@
       35.501
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Beit_Shean_Roman_Theatre.jpg/800px-Beit_Shean_Roman_Theatre.jpg",
     "description": {
       "he": "עיר רומית-ביזנטית מרהיבה עם תיאטרון ורחובות עמודים.",
       "ar": "مدينة رومانية بيزنطية رائعة تضم مسرحاً وشوارع بأعمدة.",
@@ -615,7 +623,7 @@
       35.352
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Monastery_of_Saint_George_Wadi_Qelt.jpg/800px-Monastery_of_Saint_George_Wadi_Qelt.jpg",
     "description": {
       "he": "נווה מדבר יפהפה עם מנזרים תלויים ובריכות שכשוך.",
       "ar": "واحة صحراوية جميلة تضم أديرة معلقة وبرك مياه.",
@@ -636,7 +644,7 @@
       35.454
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=500",
     "description": {
       "he": "קניון צר עם סולמות וחבלים במדבר יהודה.",
       "ar": "وادٍ ضيق يضم سلالم وحبال في صحراء يهودا.",
@@ -657,7 +665,7 @@
       35.392
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1504233529578-6d46baba6d34?w=500",
     "description": {
       "he": "תצפית מרהיבה על ים המלח ומסלול קניוני מאתגר.",
       "ar": "إطلالة رائعة على البحر الميت ومسار وادٍ مليء بالتحديات.",
@@ -678,7 +686,7 @@
       35.394
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Ein_Gedi_waterfall.jpg/800px-Ein_Gedi_waterfall.jpg",
     "description": {
       "he": "נווה מדבר בשמורת עין גדי עם מפלים ויעלים.",
       "ar": "واحة صحراوية في محمية عين جدي تضم شلالات ووعولاً.",
@@ -699,7 +707,7 @@
       35.385
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=500",
     "description": {
       "he": "טיול מים מרענן במדבר עד למפל הנסתר.",
       "ar": "رحلة مائية منعشة في الصحراء وصولاً إلى الشلال المخفي.",
@@ -720,7 +728,7 @@
       35.326
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=500",
     "description": {
       "he": "קניון עצום עם גבים עמוקים לאחר הגשמים.",
       "ar": "وادٍ ضخم يضم بركاً عميقة بعد هطول الأمطار.",
@@ -741,7 +749,7 @@
       35.353
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Israel-2013-Aerial_21-Masada.jpg/800px-Israel-2013-Aerial_21-Masada.jpg",
     "description": {
       "he": "מבצר עתיק על צוק מבודד, סמל לגבורה היסטורית.",
       "ar": "قلعة قديمة على منحدر معزول، رمز للبطولة التاريخية.",
@@ -762,7 +770,7 @@
       35.351
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
     "description": {
       "he": "מסלול קצר ורטוב סמוך לבתי המלון של ים המלח.",
       "ar": "مسار قصير ورطب بالقرب من فنادق البحر الميت.",
@@ -783,7 +791,7 @@
       35.352
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "image": "https://images.unsplash.com/photo-1510797215324-95aa89f43c33?w=500",
     "description": {
       "he": "מסלול קניוני פראי ומאתגר עם גבים יפים.",
       "ar": "مسار وادٍ بري ومليء بالتحديات مع برك مياه جميلة.",
@@ -804,7 +812,7 @@
       35.023
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Soreq_Cave_Stalactites.jpg/800px-Soreq_Cave_Stalactites.jpg",
     "description": {
       "he": "עולם קסום של נטיפים וזקיפים בשלל צורות.",
       "ar": "عالم ساحر من الصواعد والهوابط بأشكال متنوعة.",
@@ -825,7 +833,7 @@
       34.9
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "image": "https://images.unsplash.com/photo-1549880338-65ddcdfd017b?w=500",
     "description": {
       "he": "מרחבים ירוקים, חורש טבעי ותצפיות נוף בשפלה.",
       "ar": "مساحات خضراء وغابات طبيعية وإطلالات خلابة في منطقة السهل.",
@@ -846,7 +854,7 @@
       34.846
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500",
+    "image": "https://images.unsplash.com/photo-1569163139394-de4e4f43e4e3?w=500",
     "description": {
       "he": "עיר מקראית חשובה עם שרידי שער וארמון.",
       "ar": "مدينة توراتية هامة تضم بقايا بوابة وقصر.",
@@ -867,7 +875,7 @@
       34.898
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Beit_Guvrin_bell_cave.jpg/800px-Beit_Guvrin_bell_cave.jpg",
     "description": {
       "he": "מערות פעמון ענקיות ועיר קדומה מרשימה.",
       "ar": "كهوف جرس ضخمة ومدينة قديمة رائعة.",
@@ -888,7 +896,7 @@
       35.191
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1516912481800-0b03bf3c84a2?w=500",
     "description": {
       "he": "נחל זורם כל השנה בגליל המערבי עם מים צלולים.",
       "ar": "نهر يتدفق طوال العام في الجليل الغربي بمياه صافية.",
@@ -909,7 +917,7 @@
       35.104
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Rosh_Hanikra_grotto.jpg/800px-Rosh_Hanikra_grotto.jpg",
     "description": {
       "he": "נקרות ימיות מרהיבות שנוצרו על ידי גלי הים.",
       "ar": "كهوف بحرية رائعة تشكلت بفعل أمواج البحر.",
@@ -930,7 +938,7 @@
       35.193
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=500",
     "description": {
       "he": "נחל החוצה את נהריה עם שבילי הליכה נוחים.",
       "ar": "نهر يمر عبر نهاريا مع مسارات مشي مريحة.",
@@ -951,7 +959,7 @@
       35.155
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=500",
     "description": {
       "he": "מסלול מוצל בגליל המערבי עם עצי דולב ענקיים.",
       "ar": "مسار مظلل في الجليل الغربي يضم أشجار الدلب الضخمة.",
@@ -972,7 +980,7 @@
       35.221
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500",
+    "image": "https://images.unsplash.com/photo-1548681528-6a5c45b66b42?w=500",
     "description": {
       "he": "מבצר צלבני ועות'מאני המספר סיפורי גבורה.",
       "ar": "قلعة صليبية وعثمانية تروي قصص البطولة.",
@@ -993,7 +1001,7 @@
       35.491
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=500",
     "description": {
       "he": "נחל איתן עם בוסתנים, טחנות קמח וסלע העמוד.",
       "ar": "نهر دائم يضم بساتين وطواحين قمح وصخرة العامود الشهيرة.",
@@ -1014,7 +1022,7 @@
       35.393
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "image": "https://images.unsplash.com/photo-1502322754280-b7fd4b1f5da3?w=500",
     "description": {
       "he": "מסלול קל ונעים בין שרידי טחנות קמח ובריכות.",
       "ar": "مسار سهل وممتع بين بقايا طواحين القمح وبرك المياه.",
@@ -1035,7 +1043,7 @@
       35.412
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mount_Meron_forest.jpg/800px-Mount_Meron_forest.jpg",
     "description": {
       "he": "שביל הפסגה עם תצפיות מרהיבות על כל הצפון.",
       "ar": "مسار القمة الذي يضم إطلالات رائعة على كامل منطقة الشمال.",
@@ -1056,7 +1064,7 @@
       35.534
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "image": "https://images.unsplash.com/photo-1478827387698-1527781a4887?w=500",
     "description": {
       "he": "קניון בזלת יפהפה עם פריחת תורמוסים באביב.",
       "ar": "وادٍ بازلتي جميل مع تفتح أزهار الترمس في الربيع.",
@@ -1077,7 +1085,7 @@
       35.1
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=500",
     "description": {
       "he": "מסלול נגיש ונוח בתוך חורש ירוק ומים זורמים.",
       "ar": "مسار سهل ومتاح للجميع داخل غابة خضراء ومياه جارية.",
@@ -1098,7 +1106,7 @@
       35.038
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://images.unsplash.com/photo-1494472155656-f34e81b17ddc?w=500",
     "description": {
       "he": "גב מים ענק ומרהיב בלב המדבר.",
       "ar": "بركة مياه ضخمة ورائعة في قلب الصحراء.",
@@ -1119,7 +1127,7 @@
       34.762
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ein_Avdat_Canyon.jpg/800px-Ein_Avdat_Canyon.jpg",
     "description": {
       "he": "קניון לבן ומרהיב עם מפלים ובריכות במדבר.",
       "ar": "وادٍ أبيض رائع يضم شلالات وبرك مياه في الصحراء.",
@@ -1140,7 +1148,7 @@
       35.104
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "image": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=500",
     "description": {
       "he": "מסלול הרפתקני עם סולמות בתוך קניון צר.",
       "ar": "مسار مليء بالمغامرات مع سلالم داخل وادٍ ضيق.",
@@ -1161,7 +1169,7 @@
       35.289
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=500",
     "description": {
       "he": "גבי מים מרשימים ומראה מרהיב של 'חלון' לערבה.",
       "ar": "برك مياه رائعة وإطلالة خلابة من 'النافذة' على منطقة العربة.",
@@ -1182,7 +1190,7 @@
       34.9
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/HaMakhtesh_HaGadol.jpg/800px-HaMakhtesh_HaGadol.jpg",
     "description": {
       "he": "תופעת טבע ייחודית עם חולות צבעוניים ותצפיות נוף.",
       "ar": "ظاهرة طبيعية فريدة تضم رمالاً ملونة وإطلالات خلابة.",
@@ -1203,7 +1211,7 @@
       34.881
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=500",
     "description": {
       "he": "סלעים צבעוניים ותופעות גאולוגיות במכתש רמון.",
       "ar": "صخور ملونة وظواهر جيولوجية في فوهة رامون.",
@@ -1224,7 +1232,7 @@
       34.912
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=500",
     "description": {
       "he": "קניון צר ויפהפה בערבה, מסלול הליכה קצר ומקסים.",
       "ar": "وادٍ ضيق وجميل في منطقة العربة، مسار مشي قصير ورائع.",
@@ -1245,7 +1253,7 @@
       34.922
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Timna_park_Solomons_pillars.jpg/800px-Timna_park_Solomons_pillars.jpg",
     "description": {
       "he": "נופי בראשית, עמודי שלמה ואגם מלאכותי במדבר.",
       "ar": "مناظر طبيعية بدائية، أعمدة سليمان وبحيرة اصطناعية في الصحراء.",
@@ -1266,7 +1274,7 @@
       34.86
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Red_Canyon_Eilat.JPG/800px-Red_Canyon_Eilat.JPG",
     "description": {
       "he": "מסלול הליכה בתוך קניון מאבן חול אדומה ומרהיבה.",
       "ar": "مسار مشي داخل وادٍ من الحجر الرملي الأحمر الرائع.",
@@ -1287,7 +1295,7 @@
       34.9
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500",
     "description": {
       "he": "תצפיות עוצרות נשימה על מפרץ אילת וארבע מדינות.",
       "ar": "إطلالات تحبس الأنفاس على خليج إيلات وأربع دول.",
@@ -1308,7 +1316,7 @@
       34.864
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1546587348-d12660c30c50?w=500",
     "description": {
       "he": "נחל עם צבים רכים וגשרים להולכי רגל.",
       "ar": "نهر يضم سلاحف لينة وجسور للمشاة.",
@@ -1329,7 +1337,7 @@
       34.807
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=500",
     "description": {
       "he": "מבצר צלבני על מצוק חוף הים בהרצליה.",
       "ar": "قلعة صليبية على جرف شاطئ البحر في هرتسليا.",
@@ -1350,7 +1358,7 @@
       34.892
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Caesarea_Maritima_Theatre.jpg/800px-Caesarea_Maritima_Theatre.jpg",
     "description": {
       "he": "עיר נמל עתיקה עם תיאטרון, היפודרום ונמל מרשים.",
       "ar": "مدينة ميناء قديمة تضم مسرحاً وميداناً لسباق الخيل وميناءً رائعاً.",
@@ -1371,7 +1379,7 @@
       34.915
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "image": "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=500",
     "description": {
       "he": "שמורה עם סכר רומי עתיק וטחנות קמח.",
       "ar": "محمية طبيعية تضم سداً رومانياً قديماً وطواحين قمح.",
@@ -1392,7 +1400,7 @@
       34.945
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "image": "https://images.unsplash.com/photo-1592409823564-9f4fb41f0523?w=500",
     "description": {
       "he": "מעיין בתוך נקבה ושרידי וילה רומית.",
       "ar": "نبع داخل نفق وبقايا فيلا رومانية قديمة.",
@@ -1413,7 +1421,7 @@
       35.008
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "image": "https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=500",
     "description": {
       "he": "בריכות קסומות ומפלים קטנים בין קני סוף.",
       "ar": "برك مياه ساحرة وشلالات صغيرة وسط القصب.",
@@ -1434,7 +1442,7 @@
       35.345
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500",
     "description": {
       "he": "מעיין פועם המתמלא ומתרוקן בקצב קבוע.",
       "ar": "نبع نابض يمتلئ ويفرغ بوتيرة ثابتة.",
@@ -1455,7 +1463,7 @@
       35.378
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://images.unsplash.com/photo-1566024349612-85eb12fe1d68?w=500",
     "description": {
       "he": "בריכה עמוקה ומרעננת בלב מדבר יהודה.",
       "ar": "بركة مياه عميقة ومنعشة في قلب صحراء يهودا.",
@@ -1476,7 +1484,7 @@
       35.401
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Monastery_of_Saint_George_Wadi_Qelt.jpg/800px-Monastery_of_Saint_George_Wadi_Qelt.jpg",
     "description": {
       "he": "מנזר עוצר נשימה התלוי על מצוק בנחל פרת.",
       "ar": "دير مذهل معلق على جرف في وادي القلط.",
@@ -1497,7 +1505,7 @@
       35.459
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Qumran_Caves.jpg/800px-Qumran_Caves.jpg",
     "description": {
       "he": "מקום מציאת המגילות הגנוזות ושרידי יישוב עתיק.",
       "ar": "مكان العثور على مخطوطات البحر الميت وبقايا مستوطنة قديمة.",
@@ -1518,7 +1526,7 @@
       35.5341
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=500",
     "description": {
       "he": "מסלול הליכה פסטורלי בין עצי פרי ומעיינות.",
       "ar": "مسار مشي هادئ بين الأشجار المثمرة والينابيع.",
@@ -1539,7 +1547,7 @@
       35.6558
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=500",
     "description": {
       "he": "בריכת אבן מעגלית ויפה במורדות הגולן.",
       "ar": "بركة حجرية دائرية جميلة في منحدرات الجولان.",
@@ -1560,7 +1568,7 @@
       35.6542
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=500",
     "description": {
       "he": "מעיין ופינת פיקניק ביער בדרום הגולן.",
       "ar": "نبع ومنطقة تنزه في غابة جنوب الجولان.",
@@ -1581,7 +1589,7 @@
       35.7483
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
     "description": {
       "he": "מעיינות עדן - מסלול מים רדודים ונעים.",
       "ar": "ينابيع عدن - مسار مياه ضحلة وممتع.",
@@ -1602,7 +1610,7 @@
       35.5714
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "image": "https://images.unsplash.com/photo-1516912481800-0b03bf3c84a2?w=500",
     "description": {
       "he": "פארק טבע בלב קריית שמונה עם פלגי מים.",
       "ar": "منتزه طبيعي في قلب كريات شمونة يضم جداول مياه.",
@@ -1623,7 +1631,7 @@
       35.5254
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=500",
     "description": {
       "he": "בריכה גדולה ועמוקה בעמק המעיינות.",
       "ar": "بركة مياه كبيرة وعميقة في وادي الينابيع.",
@@ -1644,7 +1652,7 @@
       35.5012
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=500",
     "description": {
       "he": "פינה שקטה בנחל עמוד עם בריכה קטנה.",
       "ar": "زاوية هادئة في وادي العامود تضم بركة صغيرة.",
@@ -1665,7 +1673,7 @@
       35.5123
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=500",
     "description": {
       "he": "מעיין מטופח סמוך לצפת עם תצפית יפה.",
       "ar": "نبع جميل بالقرب من صفد مع إطلالة رائعة.",
@@ -1686,7 +1694,7 @@
       35.3412
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1502322754280-b7fd4b1f5da3?w=500",
     "description": {
       "he": "מעיין במושב שפר עם מפלי מים קטנים.",
       "ar": "نبع في قرية شيفر يضم شلالات صغيرة.",
@@ -1707,7 +1715,7 @@
       35.1912
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "image": "https://images.unsplash.com/photo-1494472155656-f34e81b17ddc?w=500",
     "description": {
       "he": "חלק נגיש ורטוב של נחל כזיב, מעולה למשפחות.",
       "ar": "جزء سهل الوصول من وادي القرن، ممتاز للعائلات.",
@@ -1728,7 +1736,7 @@
       35.1934
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=500",
     "description": {
       "he": "חורבת געתון ומעיינותיה בגליל המערבי.",
       "ar": "خربة جعاتون وينابيعها في الجليل الغربي.",
@@ -1749,7 +1757,7 @@
       35.3423
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1546587348-d12660c30c50?w=500",
     "description": {
       "he": "בריכה משוחזרת ונעימה למרגלות הגלבוע.",
       "ar": "بركة مرممة ومريحة عند سفح جبال جلبوع.",
@@ -1770,7 +1778,7 @@
       35.1634
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=500",
     "description": {
       "he": "מעיין נסתר בעמק יזרעאל עם מים עמוקים.",
       "ar": "نبع مخفي في مرج ابن عامر يتميز بمياهه العميقة.",
@@ -1791,7 +1799,7 @@
       34.9712
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "image": "https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=500",
     "description": {
       "he": "נקבות מים קרירות במורדות הכרמל.",
       "ar": "أنفاق مياه باردة في منحدرات جبل الكرمل.",
@@ -1812,7 +1820,7 @@
       35.1034
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500",
     "description": {
       "he": "מעיין זורם סמוך לתחנת הרכבת הישנה בקרית טבעון.",
       "ar": "نبع جاري بالقرب من محطة القطار القديمة في كريات طبعون.",
@@ -1833,7 +1841,7 @@
       35.0345
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "image": "https://images.unsplash.com/photo-1566024349612-85eb12fe1d68?w=500",
     "description": {
       "he": "מעיין מקסים בלב הכרמל בתוך נחל אורן.",
       "ar": "نبع رائع في قلب الكرمل داخل وادي أورين.",
@@ -1854,7 +1862,7 @@
       35.1632
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=500",
     "description": {
       "he": "בריכה רומית גדולה בנחל ציפורי.",
       "ar": "بركة رومانية كبيرة في وادي صفورية.",
@@ -1875,7 +1883,7 @@
       35.1634
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=500",
     "description": {
       "he": "מעיין פופולרי בהרי ירושלים עם בריכות משופצות.",
       "ar": "نبع مشهور في جبال القدس مع برك مياه مرممة.",
@@ -1896,7 +1904,7 @@
       35.3512
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
     "description": {
       "he": "מעיין וצמחייה עשירה בלב המדבר ליד ים המלח.",
       "ar": "نبع ونباتات كثيفة في قلب الصحراء بالقرب من البحر الميت.",
@@ -1917,7 +1925,7 @@
       34.9123
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=500",
     "description": {
       "he": "חולות צבעוניים ותצורות סלע בירוחם.",
       "ar": "رمال ملونة وتشكيلات صخرية في يروحام.",
@@ -1938,7 +1946,7 @@
       34.84
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "image": "https://images.unsplash.com/photo-1504233529578-6d46baba6d34?w=500",
     "description": {
       "he": "שמורה עם פריחת אירוסים וקניון כורכר.",
       "ar": "محمية طبيعية تضم أزهار السوسن ووادي صخري.",
@@ -1959,7 +1967,7 @@
       34.7
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=500",
     "description": {
       "he": "נחל גדול בנגב עם עצי אלה עתיקים.",
       "ar": "وادي كبير في النقب يضم أشجار البطم القديمة.",
@@ -1980,7 +1988,7 @@
       34.95
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1510797215324-95aa89f43c33?w=500",
     "description": {
       "he": "קניון מרשים במדבר עם מערות ותופעות גאולוגיות.",
       "ar": "وادٍ مذهل في الصحراء يضم كهوفاً وظواهر جيولوجية.",
@@ -2001,7 +2009,7 @@
       35.15
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://images.unsplash.com/photo-1516912481800-0b03bf3c84a2?w=500",
     "description": {
       "he": "מגדולי נחלי הנגב עם בריכות ומפלים.",
       "ar": "من أكبر وديان النقب ويضم بركاً وشلالات.",
@@ -2022,7 +2030,7 @@
       35.02
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500",
+    "image": "https://images.unsplash.com/photo-1549880338-65ddcdfd017b?w=500",
     "description": {
       "he": "מסלול המוביל למערת התאומים המרהיבה.",
       "ar": "مسار يؤدي إلى مغارة التوائم الرائعة.",
@@ -2043,7 +2051,7 @@
       35.18
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1437333028129-c14bb199f782?w=500",
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=500",
     "description": {
       "he": "נחל זורם ליד מגידו עם צמחיית נחלים עשירה.",
       "ar": "نهر جاري بالقرب من مجيدو مع نباتات نهرية كثيفة.",
@@ -2064,7 +2072,7 @@
       35.12
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "image": "https://images.unsplash.com/photo-1478827387698-1527781a4887?w=500",
     "description": {
       "he": "יער קסום בהרי מנשה עם מסלולי הליכה מוצלים.",
       "ar": "غابة ساحرة في جبال منشة مع مسارات مشي مظللة.",
@@ -2085,7 +2093,7 @@
       35.15
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=500",
     "description": {
       "he": "מסלול הליכה בטבע בין גבעות מנשה.",
       "ar": "مسار مشي في الطبيعة بين تلال منشة.",
@@ -2106,7 +2114,7 @@
       34.52
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=500",
+    "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=500",
     "description": {
       "he": "מעיין קטן ומבודד במערב הנגב.",
       "ar": "نبع صغير ومعزول في غرب النقب.",
@@ -2127,7 +2135,7 @@
       34.8
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=500",
     "description": {
       "he": "נחל האכזב החוצה את מכתש רמון.",
       "ar": "وادٍ جاف يمر عبر فوهة رامون.",
@@ -2148,7 +2156,7 @@
       34.931
     ],
     "category": "history",
-    "image": "https://images.unsplash.com/photo-1590076215667-875d4ef2d97e?w=500",
+    "image": "https://images.unsplash.com/photo-1466442929976-97f336a657be?w=500",
     "description": {
       "he": "מבצר עות'מאני מרשים במקורות הירקון.",
       "ar": "قلعة عثمانية رائعة عند منابع نهر العوجا.",
@@ -2169,7 +2177,7 @@
       34.852
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=500",
     "description": {
       "he": "הנחל הגדול במרכז ישראל עם פארק רחב ידיים.",
       "ar": "أكبر نهر في وسط إسرائيل مع منتزه واسع.",
@@ -2190,7 +2198,7 @@
       34.95
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "image": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=500",
     "description": {
       "he": "נחל נעים להליכה בשולי רמת מנשה.",
       "ar": "نهر جميل للمشي في أطراف مرتفعات منشة.",
@@ -2211,7 +2219,7 @@
       35.5
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=500",
     "description": {
       "he": "קניון עם תצורות סלע מיוחדות ומערות.",
       "ar": "وادٍ يضم تشكيلات صخرية مميزة وكهوفاً.",
@@ -2232,7 +2240,7 @@
       35.53
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500",
     "description": {
       "he": "מהנחלים הגדולים בגליל העליון, נוף הררי.",
       "ar": "من أكبر وديان الجليل الأعلى، يتميز بمناظره الجبلية.",
@@ -2253,7 +2261,7 @@
       35.39
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=500",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=500",
     "description": {
       "he": "מעיין קטן החבוי בתוך קניון במדבר יהודה.",
       "ar": "نبع صغير مخفي داخل وادٍ في صحراء يهودا.",
@@ -2274,7 +2282,7 @@
       35.34
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=500",
     "description": {
       "he": "קניון אתגרי הפופולרי לגלישת מצוקים (סנפלינג).",
       "ar": "وادٍ مليء بالتحديات يشتهر برياضة الهبوط من قمم الجبال.",
@@ -2295,7 +2303,7 @@
       35.05
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "image": "https://images.unsplash.com/photo-1504233529578-6d46baba6d34?w=500",
     "description": {
       "he": "מסלול טבע ירוק באזור הרי ירושלים.",
       "ar": "مسار طبيعي أخضر في منطقة جبال القدس.",
@@ -2316,7 +2324,7 @@
       35.07
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://images.unsplash.com/photo-1502322754280-b7fd4b1f5da3?w=500",
     "description": {
       "he": "מעיין ובריכה למרגלות תל כפירה.",
       "ar": "نبع وبركة مياه عند سفح تل كفيرة.",
@@ -2337,7 +2345,7 @@
       35.6264
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://images.unsplash.com/photo-1494472155656-f34e81b17ddc?w=500",
     "description": {
       "he": "חניון יום יפהפה על גדות נחל הבניאס.",
       "ar": "موقف يوم جميل على ضفاف نهر بانياس.",
@@ -2358,7 +2366,7 @@
       35.7336
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=500",
     "description": {
       "he": "מעיין מטופח עם שלוש בריכות רדודות בדרום הגולן.",
       "ar": "نبع مجهز بثلاث برك ضحلة في جنوب الجولان.",
@@ -2379,7 +2387,7 @@
       35.7001
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500",
+    "image": "https://images.unsplash.com/photo-1546587348-d12660c30c50?w=500",
     "description": {
       "he": "מעיין קטן בתוך בוסתן עתיק בדרום רמת הגולן.",
       "ar": "نبع صغير داخل بستان قديم في جنوب هضبة الجولان.",
@@ -2400,7 +2408,7 @@
       35.6321
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=500",
     "description": {
       "he": "בריכה עגולה ומיוחדת המוקפת במדרגות אבן.",
       "ar": "بركة مستديرة ومميزة محاطة بدرجات حجرية.",
@@ -2421,7 +2429,7 @@
       35.6664
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500",
+    "image": "https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=500",
     "description": {
       "he": "מעיין זורם בתוך יער מבוא חמה עם תצפית לכנרת.",
       "ar": "نبع يتدفق داخل غابة ميفو حماة مع إطلالة على طبريا.",
@@ -2442,7 +2450,7 @@
       35.7441
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500",
     "description": {
       "he": "מעיינות צלולים הזורמים בין בריכות קטנות וצמחייה.",
       "ar": "ينابيع صافية تتدفق بين برك صغيرة ونباتات.",
@@ -2463,7 +2471,7 @@
       35.5761
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1542329891-303c274f0531?w=500",
+    "image": "https://images.unsplash.com/photo-1566024349612-85eb12fe1d68?w=500",
     "description": {
       "he": "פארק יפהפה בלב קרית שמונה עם פלגי מים.",
       "ar": "منتزه جميل في قلب كريات شمونة مع جداول مائية.",
@@ -2484,7 +2492,7 @@
       35.5321
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=500",
     "description": {
       "he": "מסלול הליכה לצד שלושה מעיינות ובוסתנים.",
       "ar": "مسار مشي بجانب ثلاثة ينابيع وبساتين.",
@@ -2505,7 +2513,7 @@
       35.6421
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=500",
     "description": {
       "he": "מסלול רטוב המוביל למפל ומרפסת תצפית.",
       "ar": "مسار مائي يؤدي إلى شلال ومنصة مراقبة.",
@@ -2526,7 +2534,7 @@
       35.6511
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=500",
     "description": {
       "he": "טחנת קמח עתיקה ומים הזורמים על שביל ההליכה.",
       "ar": "طاحونة قمح قديمة ومياه تتدفق على مسار المشي.",
@@ -2547,7 +2555,7 @@
       35.5711
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
     "description": {
       "he": "אתר טבילה ונופש על גדות נהר הירדן.",
       "ar": "موقع تعميد واستجمام على ضفاف نهر الأردن.",
@@ -2568,7 +2576,7 @@
       35.5311
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1516912481800-0b03bf3c84a2?w=500",
     "description": {
       "he": "בריכת מעיין גדולה ועמוקה בעמק המעיינות.",
       "ar": "بركة نبع كبيرة وعميقة في وادي الينابيع.",
@@ -2589,7 +2597,7 @@
       35.4741
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=500",
     "description": {
       "he": "מעיין מרהיב ביופיו עם בריכה גדולה וחורשת צל.",
       "ar": "نبع رائع الجمال مع بركة كبيرة وبستان مظلل.",
@@ -2610,7 +2618,7 @@
       35.4521
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=500",
     "description": {
       "he": "נחל עמוק ורחב המאפשר שחייה לאורך המסלול.",
       "ar": "نهر عميق وواسع يسمح بالسباحة على طول المسار.",
@@ -2631,7 +2639,7 @@
       35.4381
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=500",
     "description": {
       "he": "אחד המעיינות הצלולים והיפים בעמק המעיינות.",
       "ar": "أحد الينابيع الصافية والجميلة في وادي الينابيع.",
@@ -2652,7 +2660,7 @@
       35.3341
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "image": "https://images.unsplash.com/photo-1502322754280-b7fd4b1f5da3?w=500",
     "description": {
       "he": "בריכת מים רדודה למרגלות הגלבוע עם חורשת צל.",
       "ar": "بركة مياه ضحلة عند سفح الجلبوع مع بستان مظلل.",
@@ -2673,7 +2681,7 @@
       35.4121
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1510797215324-95aa89f43c33?w=500",
     "description": {
       "he": "מצפה ומעיין לזכר חמישה לוחמים, עם נוף מרהיב.",
       "ar": "مطل ونبع لتخليد ذكرى خمسة مقاتلين، مع إطلالة رائعة.",
@@ -2694,7 +2702,7 @@
       35.4851
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1494472155656-f34e81b17ddc?w=500",
     "description": {
       "he": "מעיין בתוך ערוץ נחל עמוד עם צמחייה עשירה.",
       "ar": "نبع داخل وادي العامود مع نباتات غنية.",
@@ -2715,7 +2723,7 @@
       35.5011
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=500",
     "description": {
       "he": "מעיין קטן ומקסים ליד צפת לזכר ליאור דהן.",
       "ar": "نبع صغير وجميل بالقرب من صفد تخليداً لذكرى ليئور دهان.",
@@ -2736,7 +2744,7 @@
       35.3911
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "image": "https://images.unsplash.com/photo-1546587348-d12660c30c50?w=500",
     "description": {
       "he": "בריכה קטנה ביישוב שפר המשקיפה על הנוף.",
       "ar": "بركة صغيرة في بلدة شيفر تطل على المنظر.",
@@ -2757,7 +2765,7 @@
       35.1951
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=500",
     "description": {
       "he": "חלק מנחל כזיב עם מים רדודים ומתאים למשפחות.",
       "ar": "جزء من نهر كزيف بمياه ضحلة ومناسب للعائلات.",
@@ -2778,7 +2786,7 @@
       35.2141
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=500",
     "description": {
       "he": "מעיין הנובע ליד חורבת געתון העתיקה.",
       "ar": "نبع ينبع بالقرب من خربة جعاتون القديمة.",
@@ -2799,7 +2807,7 @@
       35.3721
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500",
     "description": {
       "he": "בריכה רדודה ונעימה ביישוב גדעונה.",
       "ar": "بركة ضحلة وممتعة في بلدة جدعونا.",
@@ -2820,7 +2828,7 @@
       35.2511
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1566024349612-85eb12fe1d68?w=500",
     "description": {
       "he": "מעיין נסתר ליד היישוב אלון הגליל.",
       "ar": "نبع مخفي بالقرب من بلدة ألون هجليل.",
@@ -2841,7 +2849,7 @@
       34.9651
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=500",
     "description": {
       "he": "ניקבת מים קרירה בהר הכרמל.",
       "ar": "نفق مائي بارد في جبل الكرمل.",
@@ -2862,7 +2870,7 @@
       34.9451
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=500",
     "description": {
       "he": "מעיין ונקבה עתיקה ליד רמת הנדיב.",
       "ar": "نبع ونفق قديم بالقرب من رمات هينديف.",
@@ -2883,7 +2891,7 @@
       35.1051
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
     "description": {
       "he": "מעיין יפהפה הזורם לבריכה לצד מסילת הרכבת הישנה.",
       "ar": "نبع جميل يتدفق إلى بركة بجانب سكة الحديد القديمة.",
@@ -2904,7 +2912,7 @@
       35.1011
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1549880338-65ddcdfd017b?w=500",
     "description": {
       "he": "מסלול נגיש ויפהפה עם זרימת מים כל השנה.",
       "ar": "مسار سهل وجميل مع تدفق المياه طوال العام.",
@@ -2925,7 +2933,7 @@
       35.0311
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1516912481800-0b03bf3c84a2?w=500",
     "description": {
       "he": "מעיין בלב הכרמל בתוך מבנה אבן עתיק.",
       "ar": "نبع في قلب الكرمل داخل مبنى حجري قديم.",
@@ -2946,7 +2954,7 @@
       35.1711
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=500",
     "description": {
       "he": "בריכה גדולה בנחל ציפורי עם מבנה אבן מרשים.",
       "ar": "بركة كبيرة في نهر تسيبوري مع مبنى حجري رائع.",
@@ -2967,7 +2975,7 @@
       34.9811
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=500",
     "description": {
       "he": "סדרת בריכות ומפלים קטנים בנחל תנינים.",
       "ar": "سلسلة من البرك والشلالات الصغيرة في نهر التماسيح.",
@@ -2988,7 +2996,7 @@
       35.1611
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=500",
     "description": {
       "he": "שתי בריכות מים יפות בהרי ירושלים.",
       "ar": "بركتان جميلتان في جبال القدس.",
@@ -3009,7 +3017,7 @@
       35.0311
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=500",
+    "image": "https://images.unsplash.com/photo-1502322754280-b7fd4b1f5da3?w=500",
     "description": {
       "he": "גב מים ענק בלב המדבר ליד המכתש הגדול.",
       "ar": "حوض مائي ضخم في قلب الصحراء بالقرب من الفوهة الكبيرة.",
@@ -3030,7 +3038,7 @@
       35.3511
     ],
     "category": "water",
-    "image": "https://images.unsplash.com/photo-1508873696983-2df5151ec3e5?w=500",
+    "image": "https://images.unsplash.com/photo-1494472155656-f34e81b17ddc?w=500",
     "description": {
       "he": "נווה מדבר עם מים זורמים ומפלים קטנים ליד ים המלח.",
       "ar": "واحة صحراوية بها مياه جارية وشلالات صغيرة بالقرب من البحر الميت.",
@@ -3051,7 +3059,7 @@
       34.9211
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1478827387698-1527781a4887?w=500",
     "description": {
       "he": "חניון לילה ייחודי עם חולות צבעוניים ותצורות סלע.",
       "ar": "موقع تخييم فريد مع رمال ملونة وتشكيلات صخرية.",
@@ -3114,7 +3122,7 @@
       35.772
     ],
     "category": "food",
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500",
     "description": {
       "he": "חוויה קולינרית דרוזית אותנטית עם נוף לחרמון.",
       "ar": "تجربة طهو درزية أصيلة مع إطلالة على جبل الشيخ.",
@@ -3135,7 +3143,7 @@
       34.763
     ],
     "category": "nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=500",
     "description": {
       "he": "קניון מרהיב בנגב עם נביעה וצמחיית מדבר.",
       "ar": "وادٍ رائع في النقب مع ينبوع ونباتات صحراوية.",
@@ -3145,8 +3153,16 @@
   },
   {
     "id": "153",
-    "name": { "he": "סובב מכתש רמון", "ar": "محيط فوهة رامون", "en": "Ramon Rim Trail", "ru": "Вокруг кратера Рамон" },
-    "coords": [30.611, 34.803],
+    "name": {
+      "he": "סובב מכתש רמון",
+      "ar": "محيط فوهة رامون",
+      "en": "Ramon Rim Trail",
+      "ru": "Вокруг кратера Рамон"
+    },
+    "coords": [
+      30.611,
+      34.803
+    ],
     "category": "nature",
     "region": "south",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mitzpe_Ramon_Crater.jpg/800px-Mitzpe_Ramon_Crater.jpg",
@@ -3159,11 +3175,19 @@
   },
   {
     "id": "154",
-    "name": { "he": "סינגל ריש לקיש", "ar": "مسار ريش لاكيش", "en": "Resh Lakish Singletrack", "ru": "Сингл Риш Лакиш" },
-    "coords": [32.755, 35.281],
+    "name": {
+      "he": "סינגל ריש לקיש",
+      "ar": "مسار ريش لاكيش",
+      "en": "Resh Lakish Singletrack",
+      "ru": "Сингл Риш Лакиш"
+    },
+    "coords": [
+      32.755,
+      35.281
+    ],
     "category": "bike",
     "region": "north",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Zippori_Forest.jpg/800px-Zippori_Forest.jpg",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500",
     "description": {
       "he": "מסלול אופניים זורם ומהנה ביער ציפורי, המשלב חורש ים תיכוני עשיר ותצפיות על הגליל התחתון.",
       "ar": "مسار دراجات ممتع في غابة صفورية ، يجمع بين الغابات الغنية وإطلالات على الجليل الأسفل.",
@@ -3173,8 +3197,16 @@
   },
   {
     "id": "155",
-    "name": { "he": "טיילת החוף", "ar": "ممشى الشاطئ", "en": "Beach Promenade", "ru": "Приморский променад" },
-    "coords": [32.102, 34.778],
+    "name": {
+      "he": "טיילת החוף",
+      "ar": "ممشى الشاطئ",
+      "en": "Beach Promenade",
+      "ru": "Приморский променад"
+    },
+    "coords": [
+      32.102,
+      34.778
+    ],
     "category": "nature",
     "region": "center",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tel_Aviv_Promenade_2012.JPG/800px-Tel_Aviv_Promenade_2012.JPG",
@@ -3187,11 +3219,19 @@
   },
   {
     "id": "156",
-    "name": { "he": "פארק קנאביס (בארי)", "ar": "متنزه بئيري", "en": "Be'eri Forest", "ru": "Лес Беэри" },
-    "coords": [31.424, 34.492],
+    "name": {
+      "he": "פארק קנאביס (בארי)",
+      "ar": "متنزه بئيري",
+      "en": "Be'eri Forest",
+      "ru": "Лес Беэри"
+    },
+    "coords": [
+      31.424,
+      34.492
+    ],
     "category": "nature",
     "region": "south",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Beeri_Forest_Anemones.jpg/800px-Beeri_Forest_Anemones.jpg",
+    "image": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=500",
     "description": {
       "he": "מרחבים ירוקים בעוטף עזה, מפורסם בפריחת הכלניות האדומות בחורף ובאתרי מורשת.",
       "ar": "مساحات خضراء في غلاف غزة ، تشتهر بتفتح أزهار شقائق النعمان الحمراء في الشتاء.",
@@ -3201,8 +3241,16 @@
   },
   {
     "id": "157",
-    "name": { "he": "נחל אלכסנדר - גשר הצבים", "ar": "وادي الإسكندر", "en": "Alexander Stream", "ru": "Река Александр" },
-    "coords": [32.392, 34.864],
+    "name": {
+      "he": "נחל אלכסנדר - גשר הצבים",
+      "ar": "وادي الإسكندر",
+      "en": "Alexander Stream",
+      "ru": "Река Александр"
+    },
+    "coords": [
+      32.392,
+      34.864
+    ],
     "category": "water",
     "region": "center",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Alexander_Stream_IMG_2584.JPG/800px-Alexander_Stream_IMG_2584.JPG",
@@ -3221,9 +3269,12 @@
       "en": "Arugot Stream",
       "ru": "Нахаль Аругот"
     },
-    "coords": [31.467, 35.385],
+    "coords": [
+      31.467,
+      35.385
+    ],
     "category": "hiking",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nachal_Arugot_IMG_0085.JPG/800px-Nachal_Arugot_IMG_0085.JPG",
+    "image": "https://images.unsplash.com/photo-1501261379792-a15e8e7b5a46?w=500",
     "description": {
       "he": "מסלול מים יפהפה במדבר יהודה עם בריכות ומפלים.",
       "ar": "مسار مائي جميل في صحراء يهودا مع برك وشلالات.",
@@ -3239,9 +3290,12 @@
       "en": "Kziv Stream",
       "ru": "Нахаль Кзив"
     },
-    "coords": [33.045, 35.158],
+    "coords": [
+      33.045,
+      35.158
+    ],
     "category": "hiking",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Kziv_Stream_Israel.jpg/800px-Kziv_Stream_Israel.jpg",
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=500",
     "description": {
       "he": "מסלול הליכה בתוך המים בלב חורש גלילי ירוק.",
       "ar": "مسار للمشي في الماء في قلب غابة جليلية خضراء.",
@@ -3257,7 +3311,10 @@
       "en": "Mount Tabor Loop",
       "ru": "Гора Фавор"
     },
-    "coords": [32.686, 35.391],
+    "coords": [
+      32.686,
+      35.391
+    ],
     "category": "hiking",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mount_Tabor_Israel.JPG/800px-Mount_Tabor_Israel.JPG",
     "description": {
@@ -3275,9 +3332,12 @@
       "en": "HaShofet Stream",
       "ru": "Нахаль Ха-Шофет"
     },
-    "coords": [32.601, 35.105],
+    "coords": [
+      32.601,
+      35.105
+    ],
     "category": "hiking",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Nahal_HaShofet_winter.jpg/800px-Nahal_HaShofet_winter.jpg",
+    "image": "https://images.unsplash.com/photo-1530866495561-507c9faab2ed?w=500",
     "description": {
       "he": "מסלול נגיש ונוח למשפחות בלב רמות מנשה.",
       "ar": "مسار سهل الوصول ومناسب للعائلات في قلب مرتفعات منسيه.",
@@ -3293,9 +3353,12 @@
       "en": "Tel Dan Nature Reserve",
       "ru": "Тель-Дан"
     },
-    "coords": [33.249, 35.652],
+    "coords": [
+      33.249,
+      35.652
+    ],
     "category": "hiking",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Tel_Dan_Stream.jpg/800px-Tel_Dan_Stream.jpg",
+    "image": "https://images.unsplash.com/photo-1536575193803-5591fc8b74ba?w=500",
     "description": {
       "he": "מסלול הליכה מוצל בין פלגי מים שוצפים וחורש עתיק.",
       "ar": "مسار مشي مظلل بين الجداول المتدفقة والغابات القديمة.",
@@ -3311,7 +3374,10 @@
       "en": "Little Switzerland",
       "ru": "Маленькая Швейцария"
     },
-    "coords": [32.744, 35.018],
+    "coords": [
+      32.744,
+      35.018
+    ],
     "category": "hiking",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Little_Switzerland_Carmel.jpg/800px-Little_Switzerland_Carmel.jpg",
     "description": {
@@ -3329,7 +3395,10 @@
       "en": "Red Canyon",
       "ru": "Красный каньон"
     },
-    "coords": [29.674, 34.887],
+    "coords": [
+      29.674,
+      34.887
+    ],
     "category": "hiking",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Red_Canyon_Eilat.JPG/800px-Red_Canyon_Eilat.JPG",
     "description": {
@@ -3347,9 +3416,12 @@
       "en": "Tabor Stream",
       "ru": "Нахаль Тавор"
     },
-    "coords": [32.648, 35.495],
+    "coords": [
+      32.648,
+      35.495
+    ],
     "category": "hiking",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Tabor_Stream_Green.jpg/800px-Tabor_Stream_Green.jpg",
+    "image": "https://images.unsplash.com/photo-1491555103944-7c647fd857e6?w=500",
     "description": {
       "he": "מסלול מרהיב במיוחד בעונת הפריחה של התורמוסים.",
       "ar": "مسار مذهل خاصة خلال موسم تزهير الترمس.",
@@ -3365,9 +3437,12 @@
       "en": "Keshet Cave",
       "ru": "Пещера Кешет"
     },
-    "coords": [33.078, 35.195],
+    "coords": [
+      33.078,
+      35.195
+    ],
     "category": "hiking",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Keshet_Cave_Galilee.jpg/800px-Keshet_Cave_Galilee.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Keshet_Cave_arch_Israel.jpg/800px-Keshet_Cave_arch_Israel.jpg",
     "description": {
       "he": "קשת סלע ענקית התלויה מעל תהום עם נוף לגליל.",
       "ar": "قوس صخري عملاق معلق فوق هاوية مع إطلالة على الجليل.",
@@ -3383,9 +3458,12 @@
       "en": "Amud Stream",
       "ru": "Нахаль Амуд"
     },
-    "coords": [32.925, 35.438],
+    "coords": [
+      32.925,
+      35.438
+    ],
     "category": "hiking",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Amud_Stream_Israel.jpg/800px-Amud_Stream_Israel.jpg",
+    "image": "https://images.unsplash.com/photo-1543953474-b2b1acdef5b7?w=500",
     "description": {
       "he": "מסלול הליכה לאורך הנחל עם טחנות קמח עתיקות.",
       "ar": "مسار للمشي على طول النهر مع مطاحن الدقيق القديمة.",
@@ -3401,9 +3479,12 @@
       "en": "Walls Promenade",
       "ru": "Прогулка по стенам"
     },
-    "coords": [31.776, 35.227],
+    "coords": [
+      31.776,
+      35.227
+    ],
     "category": "promenade",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jerusalem_Old_City_Walls_Promenade.jpg/800px-Jerusalem_Old_City_Walls_Promenade.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jerusalem_Old_City_Walls.jpg/800px-Jerusalem_Old_City_Walls.jpg",
     "description": {
       "he": "הליכה על חומות העיר העתיקה בירושלים.",
       "ar": "المشي على أسوار مدينة القدس القديمة.",
@@ -3419,9 +3500,12 @@
       "en": "Armon Hanatziv Promenade",
       "ru": "Променад Армон Ха-Нацив"
     },
-    "coords": [31.753, 35.234],
+    "coords": [
+      31.753,
+      35.234
+    ],
     "category": "promenade",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Armon_Hanatziv_Promenade.jpg/800px-Armon_Hanatziv_Promenade.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Armon_Hanatziv_Promenade_view.jpg/800px-Armon_Hanatziv_Promenade_view.jpg",
     "description": {
       "he": "תצפית פנורמית מרהיבה על אגן העיר העתיקה.",
       "ar": "إطلالة بانورامية رائعة على حوض المدينة القديمة.",
@@ -3437,7 +3521,10 @@
       "en": "Louis Promenade",
       "ru": "Променад Луи"
     },
-    "coords": [32.812, 34.986],
+    "coords": [
+      32.812,
+      34.986
+    ],
     "category": "promenade",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Louis_Promenade_Haifa.JPG/800px-Louis_Promenade_Haifa.JPG",
     "description": {
@@ -3455,7 +3542,10 @@
       "en": "Tel Aviv Promenade",
       "ru": "Променад Тель-Авив-Яффо"
     },
-    "coords": [32.073, 34.764],
+    "coords": [
+      32.073,
+      34.764
+    ],
     "category": "promenade",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Tel_Aviv_Beach_Promenade.jpg/800px-Tel_Aviv_Beach_Promenade.jpg",
     "description": {
@@ -3473,9 +3563,12 @@
       "en": "Cliff Promenade - Netanya",
       "ru": "Променад на скаלה - Нетания"
     },
-    "coords": [32.327, 34.846],
+    "coords": [
+      32.327,
+      34.846
+    ],
     "category": "promenade",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Netanya_Cliff_Promenade.JPG/800px-Netanya_Cliff_Promenade.JPG",
+    "image": "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=500",
     "description": {
       "he": "טיילת לאורך מצוקי הכורכר מעל הים בנתניה.",
       "ar": "متنزه على طول منحدرات الكركار فوق البحر في نتانيا.",
@@ -3491,9 +3584,12 @@
       "en": "Eilat Promenade",
       "ru": "Набережная Эйлата"
     },
-    "coords": [29.551, 34.957],
+    "coords": [
+      29.551,
+      34.957
+    ],
     "category": "promenade",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Eilat_Promenade_Night.jpg/800px-Eilat_Promenade_Night.jpg",
+    "image": "https://images.unsplash.com/photo-1520516088096-07ddfe5a3079?w=500",
     "description": {
       "he": "טיילת תוססת לאורך החוף הצפוני של אילת.",
       "ar": "متنزه حيوي على طول الشاطئ الشمالي لإيلات.",
@@ -3509,9 +3605,12 @@
       "en": "Tiberias Promenade",
       "ru": "Набережная Тверии"
     },
-    "coords": [32.788, 35.541],
+    "coords": [
+      32.788,
+      35.541
+    ],
     "category": "promenade",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tiberias_Promenade_Kinneret.jpg/800px-Tiberias_Promenade_Kinneret.jpg",
+    "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=500",
     "description": {
       "he": "הליכה נעימה על שפת הכנרת בלב טבריה.",
       "ar": "مشي ممتع على شاطئ بحيرة طبريا في قلب طبريا.",
@@ -3527,9 +3626,12 @@
       "en": "Ashdod Promenade",
       "ru": "Набережная Ашдода"
     },
-    "coords": [31.802, 34.634],
+    "coords": [
+      31.802,
+      34.634
+    ],
     "category": "promenade",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Ashdod_Beach_Promenade.JPG/800px-Ashdod_Beach_Promenade.JPG",
+    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=500",
     "description": {
       "he": "טיילת חוף מטופחת עם נוף לים התיכון.",
       "ar": "متنزه شاطئي جيد الصيانة مع إطلالة على البحر الأبيض المتوسط.",
@@ -3545,9 +3647,12 @@
       "en": "Old Acre Promenade",
       "ru": "Набережная Старого Акко"
     },
-    "coords": [32.921, 35.068],
+    "coords": [
+      32.921,
+      35.068
+    ],
     "category": "promenade",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Acre_Old_City_Promenade.JPG/800px-Acre_Old_City_Promenade.JPG",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Acre_walls_promenade.jpg/800px-Acre_walls_promenade.jpg",
     "description": {
       "he": "טיילת מעל חומות עכו העתיקה והנמל.",
       "ar": "متنزه فوق أسوار عكا القديمة والميناء.",
@@ -3563,9 +3668,12 @@
       "en": "Nahariya Promenade",
       "ru": "Набережная Нагарии"
     },
-    "coords": [33.007, 35.088],
+    "coords": [
+      33.007,
+      35.088
+    ],
     "category": "promenade",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Nahariya_Promenade.JPG/800px-Nahariya_Promenade.JPG",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500",
     "description": {
       "he": "טיילת חוף נעימה ורחבה בצפון הארץ.",
       "ar": "متنزه شاطئي ممتع وواسع في شمال البلاد.",
@@ -3581,9 +3689,12 @@
       "en": "Machneyuda Restaurant",
       "ru": "Ресторан Махнейуда"
     },
-    "coords": [31.785, 35.212],
+    "coords": [
+      31.785,
+      35.212
+    ],
     "category": "food",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mahane_Yehuda_Market_Jerusalem_Display.jpg/800px-Mahane_Yehuda_Market_Jerusalem_Display.jpg",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500",
     "description": {
       "he": "מסעדת שוק מפורסמת בירושלים עם אווירה תוססת.",
       "ar": "مطعم سوق شهير في القدس مع أجواء حيوية.",
@@ -3599,9 +3710,12 @@
       "en": "Uri Buri",
       "ru": "Ури Бури"
     },
-    "coords": [32.921, 35.068],
+    "coords": [
+      32.921,
+      35.068
+    ],
     "category": "food",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Acre_Israel_6883.JPG/800px-Acre_Israel_6883.JPG",
+    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=500",
     "description": {
       "he": "מסעדת דגים ופירות ים איכותית בעכו העתיקה.",
       "ar": "مطعم أسماك ومأكولات بحرية فاخر في عكا القديمة.",
@@ -3617,9 +3731,12 @@
       "en": "The Old Man and the Sea",
       "ru": "Старик и море"
     },
-    "coords": [32.051, 34.751],
+    "coords": [
+      32.051,
+      34.751
+    ],
     "category": "food",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jaffa_Port_2015.jpg/800px-Jaffa_Port_2015.jpg",
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=500",
     "description": {
       "he": "מסעדה מפורסמת בנמל יפו הידועה במגוון הסלטים שלה.",
       "ar": "مطعم شهير في ميناء يافا معروف بتشكيلة السلطات الواسعة.",
@@ -3635,9 +3752,12 @@
       "en": "Diana Restaurant",
       "ru": "Ресторан Диана"
     },
-    "coords": [32.704, 35.297],
+    "coords": [
+      32.704,
+      35.297
+    ],
     "category": "food",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Nazareth_Street_Life.jpg/800px-Nazareth_Street_Life.jpg",
+    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=500",
     "description": {
       "he": "מוסד קולינרי בנצרת המפורסם בקבב ובמטבח הערבי האוטנטי.",
       "ar": "مؤسسة طهي في الناصرة تشتهر بالكباب والمطبخ العربي الأصيل.",
@@ -3653,9 +3773,12 @@
       "en": "Dok Restaurant",
       "ru": "Ресторан Док"
     },
-    "coords": [32.071, 34.781],
+    "coords": [
+      32.071,
+      34.781
+    ],
     "category": "food",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Israeli_Cuisine_Dish.jpg/800px-Israeli_Cuisine_Dish.jpg",
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500",
     "description": {
       "he": "מסעדת שף בתל אביב המבוססת על חומרי גלם מקומיים בלבד.",
       "ar": "مطعم شيف في تل أبيب يعتمد فقط على المكونات المحلية.",
@@ -3671,9 +3794,12 @@
       "en": "Ezba Restaurant",
       "ru": "Ресторан Эзба"
     },
-    "coords": [32.802, 35.215],
+    "coords": [
+      32.802,
+      35.215
+    ],
     "category": "food",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Galilee_landscape.jpg/800px-Galilee_landscape.jpg",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500",
     "description": {
       "he": "מסעדה כפרית בכפר ראמה המגישה אוכל גלילי ביתי.",
       "ar": "مطعم ريفي في قرية الرامة يقدم مأكولات جليلية بيتية.",
@@ -3689,9 +3815,12 @@
       "en": "Chakra Restaurant",
       "ru": "Ресторан Чакра"
     },
-    "coords": [31.781, 35.218],
+    "coords": [
+      31.781,
+      35.218
+    ],
     "category": "food",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Jerusalem_night_life.jpg/800px-Jerusalem_night_life.jpg",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500",
     "description": {
       "he": "מסעדת שף ותיקה ואהובה במרכז ירושלים.",
       "ar": "مطعم شيف عريق ومحبوب في وسط القدس.",
@@ -3707,9 +3836,12 @@
       "en": "Port Said",
       "ru": "Порт-Саид"
     },
-    "coords": [32.062, 34.771],
+    "coords": [
+      32.062,
+      34.771
+    ],
     "category": "food",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Great_Synagogue_Tel_Aviv.jpg/800px-Great_Synagogue_Tel_Aviv.jpg",
+    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=500",
     "description": {
       "he": "מסעדה פופולרית של השף אייל שני ליד בית הכנסת הגדול.",
       "ar": "مطعم شعبي للشيف إيال شاني بالقرب من الكنيس الكبير.",
@@ -3725,9 +3857,12 @@
       "en": "Magdalena Restaurant",
       "ru": "Ресторан Магдалена"
     },
-    "coords": [32.825, 35.518],
+    "coords": [
+      32.825,
+      35.518
+    ],
     "category": "food",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Sea_of_Galilee_from_Arbel.jpg/800px-Sea_of_Galilee_from_Arbel.jpg",
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=500",
     "description": {
       "he": "מסעדת שף יוקרתית המשלבת מטבח ערבי מודרני מול הכנרת.",
       "ar": "مطعم شيف فاخر يدمج المطبخ العربي الحديث مع إطلالة على طبريا.",
@@ -3743,9 +3878,12 @@
       "en": "Thai House",
       "ru": "Тайский дом"
     },
-    "coords": [32.079, 34.768],
+    "coords": [
+      32.079,
+      34.768
+    ],
     "category": "food",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Thai_food_in_Israel.jpg/800px-Thai_food_in_Israel.jpg",
+    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=500",
     "description": {
       "he": "המסעדה התאילנדית האוטנטית והמוערכת ביותר בישראל.",
       "ar": "المطعم التايلاندي الأكثر أصالة وتقديراً في إسرائيل.",
@@ -3761,9 +3899,12 @@
       "en": "Kadosh Cafe",
       "ru": "Кафе Кадош"
     },
-    "coords": [31.782, 35.221],
+    "coords": [
+      31.782,
+      35.221
+    ],
     "category": "cafe",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Jerusalem_Cafe_Setting.jpg/800px-Jerusalem_Cafe_Setting.jpg",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500",
     "description": {
       "he": "בית קפה וקונדיטוריה מיתולוגית בירושלים מאז 1967.",
       "ar": "مقهى وحلويات أسطورية في القدس منذ عام 1967.",
@@ -3779,9 +3920,12 @@
       "en": "Tamati Cafe",
       "ru": "Кафе Тамати"
     },
-    "coords": [32.815, 34.998],
+    "coords": [
+      32.815,
+      34.998
+    ],
     "category": "cafe",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Haifa_German_Colony_View.jpg/800px-Haifa_German_Colony_View.jpg",
+    "image": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=500",
     "description": {
       "he": "קפה בוטיק איכותי בלב המושבה הגרמנית בחיפה.",
       "ar": "مقهى بوتيك عالي الجودة في قلب المستعمرة الألمانية في حيفا.",
@@ -3797,9 +3941,12 @@
       "en": "Cafe Noir",
       "ru": "Кафе Нуар"
     },
-    "coords": [32.065, 34.775],
+    "coords": [
+      32.065,
+      34.775
+    ],
     "category": "cafe",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Tel_Aviv_Street_Scene.jpg/800px-Tel_Aviv_Street_Scene.jpg",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500",
     "description": {
       "he": "ביסטרו אירופאי קלאסי בלב תל אביב המפורסם בשניצל שלו.",
       "ar": "بيسترو أوروبي كلاسيكي في قلب تل أبيب يشتهر بشنيتزل.",
@@ -3815,9 +3962,12 @@
       "en": "Landwer Cafe",
       "ru": "Кафе Ландвер"
     },
-    "coords": [32.078, 34.791],
+    "coords": [
+      32.078,
+      34.791
+    ],
     "category": "cafe",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Coffee_shop_Tel_Aviv.jpg/800px-Coffee_shop_Tel_Aviv.jpg",
+    "image": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=500",
     "description": {
       "he": "רשת בתי קפה ותיקה עם אווירה של פעם.",
       "ar": "سلسلة مقاهي عريقة مع أجواء كلاسيكية.",
@@ -3833,9 +3983,12 @@
       "en": "Shraga Cafe",
       "ru": "Кафе Шрага"
     },
-    "coords": [31.783, 35.225],
+    "coords": [
+      31.783,
+      35.225
+    ],
     "category": "cafe",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Jerusalem_city_center.jpg/800px-Jerusalem_city_center.jpg",
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=500",
     "description": {
       "he": "בית קפה ירושלמי שכונתי עם כריכים מעולים.",
       "ar": "مقهى حي مقدسي مع سندويشات ممتازة.",
@@ -3851,9 +4004,12 @@
       "en": "Meisels Cafe",
       "ru": "Кафе Майзелс"
     },
-    "coords": [31.776, 35.231],
+    "coords": [
+      31.776,
+      35.231
+    ],
     "category": "cafe",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Old_Jerusalem_Street.jpg/800px-Old_Jerusalem_Street.jpg",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500",
     "description": {
       "he": "בית קפה עם תצפית מרהיבה בעיר העתיקה בירושלים.",
       "ar": "مقهى مع إطلالة رائعة في البلدة القديمة بالقدس.",
@@ -3869,9 +4025,12 @@
       "en": "Nimrod Cafe",
       "ru": "Кафе Нимрод"
     },
-    "coords": [32.096, 34.773],
+    "coords": [
+      32.096,
+      34.773
+    ],
     "category": "cafe",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Tel_Aviv_Port_2012.JPG/800px-Tel_Aviv_Port_2012.JPG",
+    "image": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=500",
     "description": {
       "he": "קפה באווירה גלילית על שפת הים בנמל תל אביב.",
       "ar": "مقهى بأجواء جليلية على شاطئ البحر في ميناء تل أبيب.",
@@ -3887,9 +4046,12 @@
       "en": "Puaa Cafe",
       "ru": "Кафе Пуа"
     },
-    "coords": [32.052, 34.755],
+    "coords": [
+      32.052,
+      34.755
+    ],
     "category": "cafe",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Jaffa_Flea_Market.jpg/800px-Jaffa_Flea_Market.jpg",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500",
     "description": {
       "he": "בית קפה וינטג' ייחודי בלב שוק הפשפשים ביפו.",
       "ar": "مقهى عتيق فريد في قلب سوق البرغوث في يافا.",
@@ -3905,9 +4067,12 @@
       "en": "Village Cafe",
       "ru": "Деревенское кафе"
     },
-    "coords": [32.955, 35.532],
+    "coords": [
+      32.955,
+      35.532
+    ],
     "category": "cafe",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Rosh_Pinna.jpg/800px-Rosh_Pinna.jpg",
+    "image": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=500",
     "description": {
       "he": "בית קפה פסטורלי בראש פינה העתיקה.",
       "ar": "مقهى رعوي في روش بينا القديمة.",
@@ -3923,9 +4088,12 @@
       "en": "Elite Cafe Safed",
       "ru": "Кафе Элит Цфат"
     },
-    "coords": [32.965, 35.495],
+    "coords": [
+      32.965,
+      35.495
+    ],
     "category": "cafe",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Safed_Simta.jpg/800px-Safed_Simta.jpg",
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=500",
     "description": {
       "he": "בית קפה עם נוף גלילי בסמטאות צפת.",
       "ar": "مقهى مع إطلالة جليلية في زقاق صفد.",
@@ -3933,7 +4101,7 @@
       "ru": "Кафе с видом на Галилею в переулках Цфата."
     }
   },
-    {
+  {
     "id": "198",
     "name": {
       "he": "בקתות עץ בכפר - רמות",
@@ -3941,9 +4109,12 @@
       "en": "Village Wooden Cabins - Ramot",
       "ru": "Деревянные домики в деревне - Рамот"
     },
-    "coords": [32.844, 35.688],
+    "coords": [
+      32.844,
+      35.688
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Ramot_View.jpg/800px-Ramot_View.jpg",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=500",
     "description": {
       "he": "בקתות עץ כפריות מול נוף הכנרת.",
       "ar": "أكواخ خشبية ريفية مطلة على بحيرة طبريا.",
@@ -3959,9 +4130,12 @@
       "en": "Dorit Estate - Rosh Pinna",
       "ru": "Поместье Дорит - Рош-Пина"
     },
-    "coords": [32.968, 35.539],
+    "coords": [
+      32.968,
+      35.539
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rosh_Pina_View.jpg/800px-Rosh_Pina_View.jpg",
+    "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=500",
     "description": {
       "he": "סוויטות יוקרתיות באווירה גלילית קלאסית.",
       "ar": "أجنحة فاخرة في أجواء جليلية كلاسيكية.",
@@ -3977,9 +4151,12 @@
       "en": "Galilee View - Amirim",
       "ru": "Вид на Галилею - Амирим"
     },
-    "coords": [32.934, 35.451],
+    "coords": [
+      32.934,
+      35.451
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Amirim_View.jpg/800px-Amirim_View.jpg",
+    "image": "https://images.unsplash.com/photo-1525596662741-e94ff9f26de1?w=500",
     "description": {
       "he": "אירוח טבעוני שליו בלב היער.",
       "ar": "إقامة نباتية هادئة في قلب الغابة.",
@@ -3995,9 +4172,12 @@
       "en": "The House in Metula",
       "ru": "Дом в Метуле"
     },
-    "coords": [33.284, 35.581],
+    "coords": [
+      33.284,
+      35.581
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Metula_View.jpg/800px-Metula_View.jpg",
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=500",
     "description": {
       "he": "אירוח וינטאג' במושבה הצפונית ביותר.",
       "ar": "إقامة كلاسيكية في أقصى مستعمرة شمالية.",
@@ -4013,9 +4193,12 @@
       "en": "Sunset Cabins - Had Nes",
       "ru": "Хижины на закате - Хад Нес"
     },
-    "coords": [32.903, 35.641],
+    "coords": [
+      32.903,
+      35.641
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kinneret_view_North.jpg/800px-Kinneret_view_North.jpg",
+    "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=500",
     "description": {
       "he": "סוויטות מודרניות עם בריכה פרטית.",
       "ar": "أجنحة حديثة مع مسبح خاص.",
@@ -4031,9 +4214,12 @@
       "en": "Galilee Orchard - Ma'ale Gamla",
       "ru": "Галилейский сад - Маале Гамла"
     },
-    "coords": [32.889, 35.678],
+    "coords": [
+      32.889,
+      35.678
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "image": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=500",
     "description": {
       "he": "בקתות רומנטיות המוקפות במטעים.",
       "ar": "أكواخ رومانسية محاطة بالبساتين.",
@@ -4049,9 +4235,12 @@
       "en": "Beyond the Horizon - Mitzpe Ramon",
       "ru": "За горизонтом - Мицпе-Рамон"
     },
-    "coords": [30.607, 34.801],
+    "coords": [
+      30.607,
+      34.801
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Mitzpe_Ramon_Makhtesh.jpg/800px-Mitzpe_Ramon_Makhtesh.jpg",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=500",
     "description": {
       "he": "סוויטות מדבריות יוקרתיות על שפת המכתש.",
       "ar": "أجنحة صحراوية فاخرة على حافة الفوهة.",
@@ -4067,9 +4256,12 @@
       "en": "Anicca Cabins - Klil",
       "ru": "Хижины Аничча - Клиль"
     },
-    "coords": [32.983, 35.192],
+    "coords": [
+      32.983,
+      35.192
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Galilee_Mountains.jpg/800px-Galilee_Mountains.jpg",
+    "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=500",
     "description": {
       "he": "אירוח אקולוגי מבודד ביישוב ללא חשמל מרכזי.",
       "ar": "إقامة صديقة للبيئة ومنعزلة في قرية بدون كهرباء مركزية.",
@@ -4085,9 +4277,12 @@
       "en": "Cliff Suites - Manara",
       "ru": "Люксы на скале - Манара"
     },
-    "coords": [33.161, 35.553],
+    "coords": [
+      33.161,
+      35.553
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Dead_Sea_Coast_View.jpg/800px-Dead_Sea_Coast_View.jpg",
+    "image": "https://images.unsplash.com/photo-1525596662741-e94ff9f26de1?w=500",
     "description": {
       "he": "אירוח בקו ראשון למצוק עם נוף עוצר נשימה.",
       "ar": "إقامة على خط الجرف الأول مع إطلالات تحبس الأنفاس.",
@@ -4103,9 +4298,12 @@
       "en": "Swiss House - Ein Zivan",
       "ru": "Швейцарский дом - Эйн-Зиван"
     },
-    "coords": [33.092, 35.839],
+    "coords": [
+      33.092,
+      35.839
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ein_Zivan_Vineyards.jpg/800px-Ein_Zivan_Vineyards.jpg",
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=500",
     "description": {
       "he": "בקתות עץ בסגנון אירופאי בגובה רב.",
       "ar": "أكواخ خشبية على الطراز الأوروبي على ارتفاع شاهق.",
@@ -4121,9 +4319,12 @@
       "en": "Dafna Kibbutz Lodging",
       "ru": "Жилье в кибуце Дафна"
     },
-    "coords": [33.235, 35.631],
+    "coords": [
+      33.235,
+      35.631
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Dafna_Kibbutz_Water.jpg/800px-Dafna_Kibbutz_Water.jpg",
+    "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=500",
     "description": {
       "he": "חדרי אירוח כפריים לצד נחלים זורמים.",
       "ar": "غرف ضيافة ريفية بجانب الجداول المتدفقة.",
@@ -4139,9 +4340,12 @@
       "en": "Ein Gedi Guest Rooms",
       "ru": "Гостевые комнаты Эйн-Геди"
     },
-    "coords": [31.458, 35.388],
+    "coords": [
+      31.458,
+      35.388
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ein_Gedi_Kibbutz.jpg/800px-Ein_Gedi_Kibbutz.jpg",
+    "image": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=500",
     "description": {
       "he": "חדרים נעימים בלב הגן הבוטני הייחודי.",
       "ar": "غرف مريحة في قلب الحديقة النباتية الفريدة.",
@@ -4157,9 +4361,12 @@
       "en": "Jaffa Guest House",
       "ru": "Гостевой дом Яффо"
     },
-    "coords": [32.053, 34.752],
+    "coords": [
+      32.053,
+      34.752
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Old_City_of_Acre_001.jpg/800px-Old_City_of_Acre_001.jpg",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=500",
     "description": {
       "he": "אירוח אורבני בסמטאות יפו העתיקה.",
       "ar": "إقامة حضرية في أزقة يافا القديمة.",
@@ -4175,9 +4382,12 @@
       "en": "Nir David Country Lodging",
       "ru": "Сельское жилье Нир Давид"
     },
-    "coords": [32.502, 35.454],
+    "coords": [
+      32.502,
+      35.454
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Nir_David_River.jpg/800px-Nir_David_River.jpg",
+    "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=500",
     "description": {
       "he": "חדרי אירוח על גדות נחל האסי היפהפה.",
       "ar": "غرف ضيافة على ضفاف نهر العاصي الجميل.",
@@ -4193,9 +4403,12 @@
       "en": "Sde Boker Field School",
       "ru": "Полевая школа Сде Бокер"
     },
-    "coords": [30.850, 34.783],
+    "coords": [
+      30.85,
+      34.783
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ein_Yahav_Agriculture.jpg/800px-Ein_Yahav_Agriculture.jpg",
+    "image": "https://images.unsplash.com/photo-1525596662741-e94ff9f26de1?w=500",
     "description": {
       "he": "אירוח חינוכי ומדברי בקרבת קבר בן גוריון.",
       "ar": "إقامة تعليمية وصحراوية بالقرب من قبر بن غوريون.",
@@ -4211,9 +4424,12 @@
       "en": "ANA Guest House Jerusalem",
       "ru": "Гостевой дом ANA Иерусалим"
     },
-    "coords": [31.771, 35.217],
+    "coords": [
+      31.771,
+      35.217
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Eilon_Landscape.jpg/800px-Eilon_Landscape.jpg",
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=500",
     "description": {
       "he": "חדרי אירוח מודרניים בלב העיר ההיסטורית.",
       "ar": "غرف ضيافة حديثة في قلب المدينة التاريخية.",
@@ -4229,9 +4445,12 @@
       "en": "Merom Golan Lodging",
       "ru": "Жилье Мером Голан"
     },
-    "coords": [33.131, 35.779],
+    "coords": [
+      33.131,
+      35.779
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Merom_Golan_Bental.jpg/800px-Merom_Golan_Bental.jpg",
+    "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=500",
     "description": {
       "he": "חדרי אירוח הרריים באווירה ייחודית.",
       "ar": "غرف ضيافة جبلية في أجواء فريدة.",
@@ -4247,9 +4466,12 @@
       "en": "Gonen Lodging - Hula Valley",
       "ru": "Жилье Гонен - Долина Хула"
     },
-    "coords": [33.125, 35.642],
+    "coords": [
+      33.125,
+      35.642
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Vineyards_in_Galilee.jpg/800px-Vineyards_in_Galilee.jpg",
+    "image": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=500",
     "description": {
       "he": "חדרי אירוח כפריים אל מול נוף העמק.",
       "ar": "غرف ضيافة ريفية تطل على منظر السهل.",
@@ -4265,9 +4487,12 @@
       "en": "Antelope Farm",
       "ru": "Ферма антилоп"
     },
-    "coords": [30.732, 35.195],
+    "coords": [
+      30.732,
+      35.195
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Antelope_Farm_Israel.jpg/800px-Antelope_Farm_Israel.jpg",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=500",
     "description": {
       "he": "חדרי אירוח ייחודיים בחווה בערבה.",
       "ar": "غرف ضيافة فريدة في مزرعة في وادي عربة.",
@@ -4283,9 +4508,12 @@
       "en": "Nachsholim Lodging",
       "ru": "Жилье Нахшолим"
     },
-    "coords": [32.614, 34.921],
+    "coords": [
+      32.614,
+      34.921
+    ],
     "category": "accommodation",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Shefayim_Beach.jpg/800px-Shefayim_Beach.jpg",
+    "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=500",
     "description": {
       "he": "חדרי אירוח צמודים לאחד החופים היפים בישראל.",
       "ar": "غرف ضيافة مجاورة لأحد أجمل الشواطئ في إسرائيل.",
