@@ -3212,5 +3212,725 @@
       "en": "Restored stream home to giant soft-shell turtles, with pleasant walking paths and a wide park.",
       "ru": "Восстановленная река, где живут гигантские мягкотелые черепахи, с удобными тропами."
     }
+  },
+  {
+    "id": "158",
+    "name": {
+      "he": "נחל ערוגות",
+      "ar": "نهر عروغوت",
+      "en": "Arugot Stream",
+      "ru": "Нахаль Аругот"
+    },
+    "coords": [31.467, 35.385],
+    "category": "hiking",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nachal_Arugot_IMG_0085.JPG/800px-Nachal_Arugot_IMG_0085.JPG",
+    "description": {
+      "he": "מסלול מים יפהפה במדבר יהודה עם בריכות ומפלים.",
+      "ar": "مسار مائي جميل في صحراء يهودا مع برك وشلالات.",
+      "en": "A beautiful water trail in the Judean Desert with pools and waterfalls.",
+      "ru": "Красивый водный маршрут в Иудейской пустыне с бассейнами и водопадами."
+    }
+  },
+  {
+    "id": "159",
+    "name": {
+      "he": "נחל כזיב ועין חרדלית",
+      "ar": "نهر كزيف",
+      "en": "Kziv Stream",
+      "ru": "Нахаль Кзив"
+    },
+    "coords": [33.045, 35.158],
+    "category": "hiking",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Kziv_Stream_Israel.jpg/800px-Kziv_Stream_Israel.jpg",
+    "description": {
+      "he": "מסלול הליכה בתוך המים בלב חורש גלילי ירוק.",
+      "ar": "مسار للمشي في الماء في قلب غابة جليلية خضراء.",
+      "en": "A hiking trail inside the water in the heart of a green Galilean forest.",
+      "ru": "Пешеходный маршрут по воде в самом сердце зеленого галилейского леса."
+    }
+  },
+  {
+    "id": "160",
+    "name": {
+      "he": "הר תבור - סובב פסגה",
+      "ar": "جبل الطور",
+      "en": "Mount Tabor Loop",
+      "ru": "Гора Фавор"
+    },
+    "coords": [32.686, 35.391],
+    "category": "hiking",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mount_Tabor_Israel.JPG/800px-Mount_Tabor_Israel.JPG",
+    "description": {
+      "he": "מסלול מעגלי קל עם תצפית פנורמית על עמק יזרעאל.",
+      "ar": "مسار دائري سهل مع إطلالة بانورامية على مرج ابن عامر.",
+      "en": "An easy circular trail with a panoramic view of the Jezreel Valley.",
+      "ru": "Легкий круговой маршрут с панорамным видом на Изреельскую долину."
+    }
+  },
+  {
+    "id": "161",
+    "name": {
+      "he": "נחל השופט",
+      "ar": "نهر القاضي",
+      "en": "HaShofet Stream",
+      "ru": "Нахаль Ха-Шофет"
+    },
+    "coords": [32.601, 35.105],
+    "category": "hiking",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Nahal_HaShofet_winter.jpg/800px-Nahal_HaShofet_winter.jpg",
+    "description": {
+      "he": "מסלול נגיש ונוח למשפחות בלב רמות מנשה.",
+      "ar": "مسار سهل الوصول ومناسب للعائلات في قلب مرتفعات منسيه.",
+      "en": "An accessible and comfortable trail for families in the heart of Ramat Menashe.",
+      "ru": "Доступный и удобный маршрут для семей в самом сердце Рамат-Менаше."
+    }
+  },
+  {
+    "id": "162",
+    "name": {
+      "he": "שמורת תל דן",
+      "ar": "تل القاضي",
+      "en": "Tel Dan Nature Reserve",
+      "ru": "Тель-Дан"
+    },
+    "coords": [33.249, 35.652],
+    "category": "hiking",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Tel_Dan_Stream.jpg/800px-Tel_Dan_Stream.jpg",
+    "description": {
+      "he": "מסלול הליכה מוצל בין פלגי מים שוצפים וחורש עתיק.",
+      "ar": "مسار مشي مظلل بين الجداول المتدفقة والغابات القديمة.",
+      "en": "A shaded hiking trail between rushing streams and ancient woodland.",
+      "ru": "Тенистый пешеходный маршрут среди бурных ручьев и древнего леса."
+    }
+  },
+  {
+    "id": "163",
+    "name": {
+      "he": "נחל קלח - שוויצריה הקטנה",
+      "ar": "سويسرا الصغيرة",
+      "en": "Little Switzerland",
+      "ru": "Маленькая Швейцария"
+    },
+    "coords": [32.744, 35.018],
+    "category": "hiking",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Little_Switzerland_Carmel.jpg/800px-Little_Switzerland_Carmel.jpg",
+    "description": {
+      "he": "אחד המסלולים היפים בכרמל, חורש ים תיכוני צפוף.",
+      "ar": "أحد أجمل المسارات في جبل الكرمل، غابة متوسطية كثيفة.",
+      "en": "One of the most beautiful trails in the Carmel, dense Mediterranean forest.",
+      "ru": "Один из красивейших маршрутов на Кармеле, густой средиземноморский лес."
+    }
+  },
+  {
+    "id": "164",
+    "name": {
+      "he": "הקניון האדום",
+      "ar": "الوادي الأحمر",
+      "en": "Red Canyon",
+      "ru": "Красный каньон"
+    },
+    "coords": [29.674, 34.887],
+    "category": "hiking",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Red_Canyon_Eilat.JPG/800px-Red_Canyon_Eilat.JPG",
+    "description": {
+      "he": "מסלול חווייתי בתוך נקיק של אבן חול אדומה.",
+      "ar": "مسار تجريبي داخل وادي من الحجر الرملي الأحمر.",
+      "en": "An experiential trail inside a red sandstone gorge.",
+      "ru": "Захватывающий маршрут внутри ущелья из красного песчаника."
+    }
+  },
+  {
+    "id": "165",
+    "name": {
+      "he": "נחל תבור",
+      "ar": "نهر الطور",
+      "en": "Tabor Stream",
+      "ru": "Нахаль Тавор"
+    },
+    "coords": [32.648, 35.495],
+    "category": "hiking",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Tabor_Stream_Green.jpg/800px-Tabor_Stream_Green.jpg",
+    "description": {
+      "he": "מסלול מרהיב במיוחד בעונת הפריחה של התורמוסים.",
+      "ar": "مسار مذهل خاصة خلال موسم تزهير الترمس.",
+      "en": "A spectacular trail especially during the lupine blooming season.",
+      "ru": "Захватывающий маршрут, особенно в сезон цветения люпинов."
+    }
+  },
+  {
+    "id": "166",
+    "name": {
+      "he": "מערת קשת",
+      "ar": "مغارة القوس",
+      "en": "Keshet Cave",
+      "ru": "Пещера Кешет"
+    },
+    "coords": [33.078, 35.195],
+    "category": "hiking",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Keshet_Cave_Galilee.jpg/800px-Keshet_Cave_Galilee.jpg",
+    "description": {
+      "he": "קשת סלע ענקית התלויה מעל תהום עם נוף לגליל.",
+      "ar": "قوس صخري عملاق معلق فوق هاوية مع إطلالة على الجليل.",
+      "en": "A giant rock arch hanging over an abyss with a view of the Galilee.",
+      "ru": "Гигантская скальная арка, нависшая над пропастью с видом на Галилею."
+    }
+  },
+  {
+    "id": "167",
+    "name": {
+      "he": "נחל עמוד",
+      "ar": "وادي عمود",
+      "en": "Amud Stream",
+      "ru": "Нахаль Амуд"
+    },
+    "coords": [32.925, 35.438],
+    "category": "hiking",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Amud_Stream_Israel.jpg/800px-Amud_Stream_Israel.jpg",
+    "description": {
+      "he": "מסלול הליכה לאורך הנחל עם טחנות קמח עתיקות.",
+      "ar": "مسار للمشي على طول النهر مع مطاحن الدقيق القديمة.",
+      "en": "A hiking trail along the stream with ancient flour mills.",
+      "ru": "Пешеходный маршрут вдоль ручья со старинными водяными мельницами."
+    }
+  },
+  {
+    "id": "168",
+    "name": {
+      "he": "טיילת החומות",
+      "ar": "متنزه الأسوار",
+      "en": "Walls Promenade",
+      "ru": "Прогулка по стенам"
+    },
+    "coords": [31.776, 35.227],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jerusalem_Old_City_Walls_Promenade.jpg/800px-Jerusalem_Old_City_Walls_Promenade.jpg",
+    "description": {
+      "he": "הליכה על חומות העיר העתיקה בירושלים.",
+      "ar": "المشي على أسوار مدينة القدس القديمة.",
+      "en": "Walking on the walls of the Old City of Jerusalem.",
+      "ru": "Прогулка по стенам Старого города Иерусалима."
+    }
+  },
+  {
+    "id": "169",
+    "name": {
+      "he": "טיילת ארמון הנציב",
+      "ar": "متنزه قصر المندوب السامي",
+      "en": "Armon Hanatziv Promenade",
+      "ru": "Променад Армон Ха-Нацив"
+    },
+    "coords": [31.753, 35.234],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Armon_Hanatziv_Promenade.jpg/800px-Armon_Hanatziv_Promenade.jpg",
+    "description": {
+      "he": "תצפית פנורמית מרהיבה על אגן העיר העתיקה.",
+      "ar": "إطلالة بانورامية رائعة على حوض المدينة القديمة.",
+      "en": "Spectacular panoramic view of the Old City basin.",
+      "ru": "Захватывающий панорамный вид на бассейн Старого города."
+    }
+  },
+  {
+    "id": "170",
+    "name": {
+      "he": "טיילת לואי",
+      "ar": "متنزه لوي",
+      "en": "Louis Promenade",
+      "ru": "Променад Луи"
+    },
+    "coords": [32.812, 34.986],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Louis_Promenade_Haifa.JPG/800px-Louis_Promenade_Haifa.JPG",
+    "description": {
+      "he": "טיילת יפהפייה בחיפה המשקיפה על המפרץ.",
+      "ar": "متنزه جميل في حيفا يطل على الخليج.",
+      "en": "A beautiful promenade in Haifa overlooking the bay.",
+      "ru": "Красивый променад в Хайфе с видом на залив."
+    }
+  },
+  {
+    "id": "171",
+    "name": {
+      "he": "טיילת תל אביב-יפו",
+      "ar": "متنزه تل أبيب يافا",
+      "en": "Tel Aviv Promenade",
+      "ru": "Променад Тель-Авив-Яффо"
+    },
+    "coords": [32.073, 34.764],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Tel_Aviv_Beach_Promenade.jpg/800px-Tel_Aviv_Beach_Promenade.jpg",
+    "description": {
+      "he": "הטיילת המרכזית לאורך חופי תל אביב.",
+      "ar": "المتنزه الرئيسي على طول شواطئ تل أبيب.",
+      "en": "The main promenade along the beaches of Tel Aviv.",
+      "ru": "Главный променад вдоль пляжей Тель-Авива."
+    }
+  },
+  {
+    "id": "172",
+    "name": {
+      "he": "טיילת המצוק - נתניה",
+      "ar": "متنزه الجرف - نتانيا",
+      "en": "Cliff Promenade - Netanya",
+      "ru": "Променад на скаלה - Нетания"
+    },
+    "coords": [32.327, 34.846],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Netanya_Cliff_Promenade.JPG/800px-Netanya_Cliff_Promenade.JPG",
+    "description": {
+      "he": "טיילת לאורך מצוקי הכורכר מעל הים בנתניה.",
+      "ar": "متنزه على طول منحدرات الكركار فوق البحر في نتانيا.",
+      "en": "A promenade along the sandstone cliffs above the sea in Netanya.",
+      "ru": "Променад вдоль скал из песчаника над морем в Нетании."
+    }
+  },
+  {
+    "id": "173",
+    "name": {
+      "he": "טיילת אילת",
+      "ar": "متنزه إيلات",
+      "en": "Eilat Promenade",
+      "ru": "Набережная Эйлата"
+    },
+    "coords": [29.551, 34.957],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Eilat_Promenade_Night.jpg/800px-Eilat_Promenade_Night.jpg",
+    "description": {
+      "he": "טיילת תוססת לאורך החוף הצפוני של אילת.",
+      "ar": "متنزه حيوي على طول الشاطئ الشمالي لإيلات.",
+      "en": "A lively promenade along Eilat's North Beach.",
+      "ru": "Оживленная набережная вдоль Северного пляжа Эйлата."
+    }
+  },
+  {
+    "id": "174",
+    "name": {
+      "he": "טיילת טבריה",
+      "ar": "متنزه طبريا",
+      "en": "Tiberias Promenade",
+      "ru": "Набережная Тверии"
+    },
+    "coords": [32.788, 35.541],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tiberias_Promenade_Kinneret.jpg/800px-Tiberias_Promenade_Kinneret.jpg",
+    "description": {
+      "he": "הליכה נעימה על שפת הכנרת בלב טבריה.",
+      "ar": "مشي ممتع على شاطئ بحيرة طبريا في قلب طبريا.",
+      "en": "A pleasant walk on the shores of the Sea of Galilee in the heart of Tiberias.",
+      "ru": "Приятная прогулка по берегу Кинерета в центре Тверии."
+    }
+  },
+  {
+    "id": "175",
+    "name": {
+      "he": "טיילת אשדוד",
+      "ar": "متنزه أشدود",
+      "en": "Ashdod Promenade",
+      "ru": "Набережная Ашдода"
+    },
+    "coords": [31.802, 34.634],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Ashdod_Beach_Promenade.JPG/800px-Ashdod_Beach_Promenade.JPG",
+    "description": {
+      "he": "טיילת חוף מטופחת עם נוף לים התיכון.",
+      "ar": "متنزه شاطئي جيد الصيانة مع إطلالة على البحر الأبيض المتوسط.",
+      "en": "A well-maintained beach promenade with a view of the Mediterranean.",
+      "ru": "Ухоженная набережная с видом на Средиземное море."
+    }
+  },
+  {
+    "id": "176",
+    "name": {
+      "he": "טיילת עכו העתיקה",
+      "ar": "متنزه عكا القديمة",
+      "en": "Old Acre Promenade",
+      "ru": "Набережная Старого Акко"
+    },
+    "coords": [32.921, 35.068],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Acre_Old_City_Promenade.JPG/800px-Acre_Old_City_Promenade.JPG",
+    "description": {
+      "he": "טיילת מעל חומות עכו העתיקה והנמל.",
+      "ar": "متنزه فوق أسوار عكا القديمة والميناء.",
+      "en": "A promenade above the Old Acre walls and the harbor.",
+      "ru": "Променад по стенам Старого Акко и порта."
+    }
+  },
+  {
+    "id": "177",
+    "name": {
+      "he": "טיילת נהריה",
+      "ar": "متنزه نهاريا",
+      "en": "Nahariya Promenade",
+      "ru": "Набережная Нагарии"
+    },
+    "coords": [33.007, 35.088],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Nahariya_Promenade.JPG/800px-Nahariya_Promenade.JPG",
+    "description": {
+      "he": "טיילת חוף נעימה ורחבה בצפון הארץ.",
+      "ar": "متنزه شاطئي ممتع وواسع في شمال البلاد.",
+      "en": "A pleasant and wide beach promenade in the north of the country.",
+      "ru": "Приятная и широкая набережная на севере страны."
+    }
+  },
+  {
+    "id": "178",
+    "name": {
+      "he": "מסעדת מחניודה",
+      "ar": "مطعم محنيودا",
+      "en": "Machneyuda Restaurant",
+      "ru": "Ресторан Махнейуда"
+    },
+    "coords": [31.785, 35.212],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mahane_Yehuda_Market_Jerusalem_Display.jpg/800px-Mahane_Yehuda_Market_Jerusalem_Display.jpg",
+    "description": {
+      "he": "מסעדת שוק מפורסמת בירושלים עם אווירה תוססת.",
+      "ar": "مطعم سوق شهير في القدس مع أجواء حيوية.",
+      "en": "Famous market restaurant in Jerusalem with a vibrant atmosphere.",
+      "ru": "Знаменитый ресторан на рынке в Иерусалиме с оживленной атмосферой."
+    }
+  },
+  {
+    "id": "179",
+    "name": {
+      "he": "אורי בורי",
+      "ar": "أوري بوري",
+      "en": "Uri Buri",
+      "ru": "Ури Бури"
+    },
+    "coords": [32.921, 35.068],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Acre_Israel_6883.JPG/800px-Acre_Israel_6883.JPG",
+    "description": {
+      "he": "מסעדת דגים ופירות ים איכותית בעכו העתיקה.",
+      "ar": "مطعم أسماك ومأكولات بحرية فاخر في عكا القديمة.",
+      "en": "High-quality fish and seafood restaurant in Old Acre.",
+      "ru": "Высококачественный рыбный ресторан в Старом Акко."
+    }
+  },
+  {
+    "id": "180",
+    "name": {
+      "he": "הזקן והים",
+      "ar": "العجوز والبحر",
+      "en": "The Old Man and the Sea",
+      "ru": "Старик и море"
+    },
+    "coords": [32.051, 34.751],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jaffa_Port_2015.jpg/800px-Jaffa_Port_2015.jpg",
+    "description": {
+      "he": "מסעדה מפורסמת בנמל יפו הידועה במגוון הסלטים שלה.",
+      "ar": "مطعم شهير في ميناء يافا معروف بتشكيلة السلطات الواسعة.",
+      "en": "Famous restaurant in Jaffa Port known for its variety of salads.",
+      "ru": "Знаменитый ресторан в порту Яффо, известный своим разнообразием салатов."
+    }
+  },
+  {
+    "id": "181",
+    "name": {
+      "he": "מסעדת דיאנה",
+      "ar": "مطعم ديانا",
+      "en": "Diana Restaurant",
+      "ru": "Ресторан Диана"
+    },
+    "coords": [32.704, 35.297],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Nazareth_Street_Life.jpg/800px-Nazareth_Street_Life.jpg",
+    "description": {
+      "he": "מוסד קולינרי בנצרת המפורסם בקבב ובמטבח הערבי האוטנטי.",
+      "ar": "مؤسسة طهي في الناصرة تشتهر بالكباب والمطبخ العربي الأصيل.",
+      "en": "A culinary institution in Nazareth famous for kebab and authentic Arabic cuisine.",
+      "ru": "Кулинарное заведение в Назарете, знаменитое своим кебабом и аутентичной арабской кухней."
+    }
+  },
+  {
+    "id": "182",
+    "name": {
+      "he": "דוק (Dok)",
+      "ar": "دوك",
+      "en": "Dok Restaurant",
+      "ru": "Ресторан Док"
+    },
+    "coords": [32.071, 34.781],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Israeli_Cuisine_Dish.jpg/800px-Israeli_Cuisine_Dish.jpg",
+    "description": {
+      "he": "מסעדת שף בתל אביב המבוססת על חומרי גלם מקומיים בלבד.",
+      "ar": "مطعم شيف في تل أبيب يعتمد فقط على المكونات المحلية.",
+      "en": "Chef restaurant in Tel Aviv based solely on local ingredients.",
+      "ru": "Шеф-ресторан в Тель-Авиве, основанный исключительно на местных продуктах."
+    }
+  },
+  {
+    "id": "183",
+    "name": {
+      "he": "עזבה",
+      "ar": "عزبة",
+      "en": "Ezba Restaurant",
+      "ru": "Ресторан Эзба"
+    },
+    "coords": [32.802, 35.215],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Galilee_landscape.jpg/800px-Galilee_landscape.jpg",
+    "description": {
+      "he": "מסעדה כפרית בכפר ראמה המגישה אוכל גלילי ביתי.",
+      "ar": "مطعم ريفي في قرية الرامة يقدم مأكولات جليلية بيتية.",
+      "en": "Rural restaurant in Rama village serving home-cooked Galilean food.",
+      "ru": "Сельский ресторан в деревне Рама, предлагающий домашнюю галилейскую еду."
+    }
+  },
+  {
+    "id": "184",
+    "name": {
+      "he": "צ'אקרה (Chakra)",
+      "ar": "تشاكرا",
+      "en": "Chakra Restaurant",
+      "ru": "Ресторан Чакра"
+    },
+    "coords": [31.781, 35.218],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Jerusalem_night_life.jpg/800px-Jerusalem_night_life.jpg",
+    "description": {
+      "he": "מסעדת שף ותיקה ואהובה במרכז ירושלים.",
+      "ar": "مطعم شيف عريق ومحبوب في وسط القدس.",
+      "en": "Long-standing and beloved chef restaurant in central Jerusalem.",
+      "ru": "Старый и любимый шеф-ресторан в центре Иерусалима."
+    }
+  },
+  {
+    "id": "185",
+    "name": {
+      "he": "פורט סעיד",
+      "ar": "بور سعيد",
+      "en": "Port Said",
+      "ru": "Порт-Саид"
+    },
+    "coords": [32.062, 34.771],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Great_Synagogue_Tel_Aviv.jpg/800px-Great_Synagogue_Tel_Aviv.jpg",
+    "description": {
+      "he": "מסעדה פופולרית של השף אייל שני ליד בית הכנסת הגדול.",
+      "ar": "مطعم شعبي للشيف إيال شاني بالقرب من الكنيس الكبير.",
+      "en": "Popular restaurant by Chef Eyal Shani near the Great Synagogue.",
+      "ru": "Популярный ресторан шеф-повара Эяля Шани рядом с Большой синагогой."
+    }
+  },
+  {
+    "id": "186",
+    "name": {
+      "he": "מגדלנה",
+      "ar": "مجدلة",
+      "en": "Magdalena Restaurant",
+      "ru": "Ресторан Магдалена"
+    },
+    "coords": [32.825, 35.518],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Sea_of_Galilee_from_Arbel.jpg/800px-Sea_of_Galilee_from_Arbel.jpg",
+    "description": {
+      "he": "מסעדת שף יוקרתית המשלבת מטבח ערבי מודרני מול הכנרת.",
+      "ar": "مطعم شيف فاخر يدمج المطبخ العربي الحديث مع إطلالة على طبريا.",
+      "en": "Upscale chef restaurant combining modern Arabic cuisine with Sea of Galilee views.",
+      "ru": "Высококлассный шеф-ресторан современной арабской кухни с видом на Кинерет."
+    }
+  },
+  {
+    "id": "187",
+    "name": {
+      "he": "הבית התאילנדי",
+      "ar": "البيت التايلاندي",
+      "en": "Thai House",
+      "ru": "Тайский дом"
+    },
+    "coords": [32.079, 34.768],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Thai_food_in_Israel.jpg/800px-Thai_food_in_Israel.jpg",
+    "description": {
+      "he": "המסעדה התאילנדית האוטנטית והמוערכת ביותר בישראל.",
+      "ar": "المطعم التايلاندي الأكثر أصالة وتقديراً في إسرائيل.",
+      "en": "The most authentic and highly regarded Thai restaurant in Israel.",
+      "ru": "Самый аутентичный и высоко ценимый тайский ресторан в Израиле."
+    }
+  },
+  {
+    "id": "188",
+    "name": {
+      "he": "קפה קדוש",
+      "ar": "مقهى كادوش",
+      "en": "Kadosh Cafe",
+      "ru": "Кафе Кадош"
+    },
+    "coords": [31.782, 35.221],
+    "category": "cafe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Jerusalem_Cafe_Setting.jpg/800px-Jerusalem_Cafe_Setting.jpg",
+    "description": {
+      "he": "בית קפה וקונדיטוריה מיתולוגית בירושלים מאז 1967.",
+      "ar": "مقهى وحلويات أسطورية في القدس منذ عام 1967.",
+      "en": "Mythical cafe and pastry shop in Jerusalem since 1967.",
+      "ru": "Легендарное кафе и кондитерская в Иерусалиме с 1967 года."
+    }
+  },
+  {
+    "id": "189",
+    "name": {
+      "he": "קפה תמתי (חיפה)",
+      "ar": "مقهى تمتي",
+      "en": "Tamati Cafe",
+      "ru": "Кафе Тамати"
+    },
+    "coords": [32.815, 34.998],
+    "category": "cafe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Haifa_German_Colony_View.jpg/800px-Haifa_German_Colony_View.jpg",
+    "description": {
+      "he": "קפה בוטיק איכותי בלב המושבה הגרמנית בחיפה.",
+      "ar": "مقهى بوتيك عالي الجودة في قلب المستعمرة الألمانية في حيفا.",
+      "en": "Quality boutique cafe in the heart of the German Colony in Haifa.",
+      "ru": "Качественное бутик-кафе в сердце Немецкой колонии в Хайфе."
+    }
+  },
+  {
+    "id": "190",
+    "name": {
+      "he": "קפה נואר",
+      "ar": "كافيه نوار",
+      "en": "Cafe Noir",
+      "ru": "Кафе Нуар"
+    },
+    "coords": [32.065, 34.775],
+    "category": "cafe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Tel_Aviv_Street_Scene.jpg/800px-Tel_Aviv_Street_Scene.jpg",
+    "description": {
+      "he": "ביסטרו אירופאי קלאסי בלב תל אביב המפורסם בשניצל שלו.",
+      "ar": "بيسترو أوروبي كلاسيكي في قلب تل أبيب يشتهر بشنيتزل.",
+      "en": "Classic European bistro in central Tel Aviv famous for its schnitzel.",
+      "ru": "Классическое европейское бистро в центре Тель-Авива, известное своим шницелем."
+    }
+  },
+  {
+    "id": "191",
+    "name": {
+      "he": "קפה לנדוור (תל אביב)",
+      "ar": "مقهى لاندوير",
+      "en": "Landwer Cafe",
+      "ru": "Кафе Ландвер"
+    },
+    "coords": [32.078, 34.791],
+    "category": "cafe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Coffee_shop_Tel_Aviv.jpg/800px-Coffee_shop_Tel_Aviv.jpg",
+    "description": {
+      "he": "רשת בתי קפה ותיקה עם אווירה של פעם.",
+      "ar": "سلسلة مقاهي عريقة مع أجواء كلاسيكية.",
+      "en": "Veteran cafe chain with a vintage atmosphere.",
+      "ru": "Старейшая сеть кафе с винтажной атмосферой."
+    }
+  },
+  {
+    "id": "192",
+    "name": {
+      "he": "קפה שרגא",
+      "ar": "مقهى شراغا",
+      "en": "Shraga Cafe",
+      "ru": "Кафе Шрага"
+    },
+    "coords": [31.783, 35.225],
+    "category": "cafe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Jerusalem_city_center.jpg/800px-Jerusalem_city_center.jpg",
+    "description": {
+      "he": "בית קפה ירושלמי שכונתי עם כריכים מעולים.",
+      "ar": "مقهى حي مقدسي مع سندويشات ممتازة.",
+      "en": "Neighborhood Jerusalem cafe with excellent sandwiches.",
+      "ru": "Районное иерусалимское кафе с отличными сэндвичами."
+    }
+  },
+  {
+    "id": "193",
+    "name": {
+      "he": "מייזלס (Meisels)",
+      "ar": "مايزلس",
+      "en": "Meisels Cafe",
+      "ru": "Кафе Майзелс"
+    },
+    "coords": [31.776, 35.231],
+    "category": "cafe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Old_Jerusalem_Street.jpg/800px-Old_Jerusalem_Street.jpg",
+    "description": {
+      "he": "בית קפה עם תצפית מרהיבה בעיר העתיקה בירושלים.",
+      "ar": "مقهى مع إطلالة رائعة في البلدة القديمة بالقدس.",
+      "en": "Cafe with a spectacular view in the Old City of Jerusalem.",
+      "ru": "Кафе с великолепным видом в Старом городе Иерусалима."
+    }
+  },
+  {
+    "id": "194",
+    "name": {
+      "he": "קפה נמרוד (נמל תל אביב)",
+      "ar": "مقهى نمرود",
+      "en": "Nimrod Cafe",
+      "ru": "Кафе Нимрод"
+    },
+    "coords": [32.096, 34.773],
+    "category": "cafe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Tel_Aviv_Port_2012.JPG/800px-Tel_Aviv_Port_2012.JPG",
+    "description": {
+      "he": "קפה באווירה גלילית על שפת הים בנמל תל אביב.",
+      "ar": "مقهى بأجواء جليلية على شاطئ البحر في ميناء تل أبيب.",
+      "en": "Galilean-style cafe on the beachfront at Tel Aviv Port.",
+      "ru": "Кафе в галилейском стиле на берегу моря в порту Тель-Авива."
+    }
+  },
+  {
+    "id": "195",
+    "name": {
+      "he": "קפה פועה",
+      "ar": "كافيه بوعا",
+      "en": "Puaa Cafe",
+      "ru": "Кафе Пуа"
+    },
+    "coords": [32.052, 34.755],
+    "category": "cafe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Jaffa_Flea_Market.jpg/800px-Jaffa_Flea_Market.jpg",
+    "description": {
+      "he": "בית קפה וינטג' ייחודי בלב שוק הפשפשים ביפו.",
+      "ar": "مقهى عتيق فريد في قلب سوق البرغوث في يافا.",
+      "en": "Unique vintage cafe in the heart of the Jaffa Flea Market.",
+      "ru": "Уникальное винтажное кафе в самом сердце блошиного рынка в Яффо."
+    }
+  },
+  {
+    "id": "196",
+    "name": {
+      "he": "קפה בכפר",
+      "ar": "مقهى القرية",
+      "en": "Village Cafe",
+      "ru": "Деревенское кафе"
+    },
+    "coords": [32.955, 35.532],
+    "category": "cafe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Rosh_Pinna.jpg/800px-Rosh_Pinna.jpg",
+    "description": {
+      "he": "בית קפה פסטורלי בראש פינה העתיקה.",
+      "ar": "مقهى رعوي في روش بينا القديمة.",
+      "en": "Pastoral cafe in ancient Rosh Pinna.",
+      "ru": "Пасторальное кафе в древней Рош-Пине."
+    }
+  },
+  {
+    "id": "197",
+    "name": {
+      "he": "קפה עלית (צפת)",
+      "ar": "مقهى عليت",
+      "en": "Elite Cafe Safed",
+      "ru": "Кафе Элит Цфат"
+    },
+    "coords": [32.965, 35.495],
+    "category": "cafe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Safed_Simta.jpg/800px-Safed_Simta.jpg",
+    "description": {
+      "he": "בית קפה עם נוף גלילי בסמטאות צפת.",
+      "ar": "مقهى مع إطلالة جليلية في زقاق صفد.",
+      "en": "Cafe with Galilean views in the alleys of Safed.",
+      "ru": "Кафе с видом на Галилею в переулках Цфата."
+    }
   }
 ]
