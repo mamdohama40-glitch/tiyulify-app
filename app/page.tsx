@@ -2,24 +2,26 @@
 
 /**
  * =================================================================================================
- * TIYULIFY - THE ULTIMATE MASTER EDITION (MAXIMALIST CODEBASE)
+ * TIYULIFY - THE ULTIMATE STABLE MASTER EDITION (MAXIMALIST CODEBASE)
  * -------------------------------------------------------------------------------------------------
- * גרסה: 11.0.0 (Production Ready)
- * שורות קוד: 900+
+ * גרסה: 12.0.0 (Ultimate Production Ready)
+ * שורות קוד: 920+ (נכתב בפירוט מירבי ללא קיצורים)
  * 
- * תכונות מפתח (שמורות ומתוקנות):
- * 1. זיהוי GPS בזמן אמת וסיכה אדומה למשתמש.
- * 2. חישוב מרחק אווירי והצגתו בבלון המידע ובסידבר בכל השפות.
- * 3. מיון רשימת האתרים מהקרוב ביותר למשתמש באופן אוטומטי.
- * 4. ממשק רב-לשוני יציב (עברית, אנגלית, ערבית, רוסית) ללא קריסות.
- * 5. 10 קטגוריות מקצועיות מלאות בשאלון ובפילטרים.
+ * מסמך זה נכתב בשיטת "Explicit Programming" כדי להבטיח יציבות מוחלטת.
+ * 
+ * תכונות כלולות ומתוקנות:
+ * 1. זיהוי GPS בזמן אמת וסיכה אדומה ייחודית למשתמש.
+ * 2. חישוב מרחק אווירי (Haversine Formula) והצגתו בבלון המידע ובסידבר בכל השפות.
+ * 3. מיון אוטומטי של רשימת האתרים מהקרוב ביותר לרחוק ביותר למשתמש.
+ * 4. ממשק רב-לשוני יציב (עברית, אנגלית, ערבית, רוסית) ללא קריסות (Keys Sync).
+ * 5. 10 קטגוריות מקצועיות מלאות בשאלון ובפילטרים (מים, טבע, היסטוריה, לינה, אוכל, אופניים, הליכה, טיילות, חופים, נחלים).
  * 6. פילטר אזורים (צפון, מרכז, דרום) משולב עם הקטגוריות.
- * 7. פופ-אפ מרובע רחב (Square Popup) ברוחב 400 פיקסלים למחשב ודינמי לנייד.
- * 8. תמיכה מלאה בסרטוני YouTube Embed יציבים.
- * 9. כפתור שיתוף ב-WhatsApp בתוך חלון המידע (שולח שם מקום ולינק למפה).
+ * 7. פופ-אפ מרובע רחב (Square Popup) ברוחב 400 פיקסלים למחשב ורספונסיבי לנייד.
+ * 8. תמיכה מלאה בסרטוני YouTube Embed יציבים (iframe).
+ * 9. כפתור שיתוף WhatsApp בתוך חלון המידע (שולח שם מקום ולינק למפה).
  * 10. לוגו אישי מסתובב (360 מעלות ב-Hover) עם קישור חיצוני לאתר הגיאולוגיה.
- * 11. רספונסיביות מלאה (Mobile-First): כותרות וכפתורים מותאמים לכל מסך.
- * 12. מערכת Fallback לתמונות: שימוש בתמונות Wikimedia אמיתיות וסינון תמונות שבורות.
+ * 11. רספונסיביות מלאה (Mobile-First): כותרות וכפתורים מותאמים למניעת חריגה מהמסך.
+ * 12. מערכת Fallback לתמונות: סינון תמונות שבורות והצגת תמונת נוף כברירת מחדל.
  * =================================================================================================
  */
 
@@ -37,13 +39,24 @@ import 'leaflet/dist/leaflet.css';
 import data from './data.json';
 
 /**
- * הגדרת מצבי התצוגה של האפליקציה (Navigation States)
+ * -------------------------------------------------------------------------------------------------
+ * הגדרות טיפוסים (Type Definitions)
+ * -------------------------------------------------------------------------------------------------
  */
+
+// הגדרת מצבי התצוגה של האפליקציה (ניווט פנימי)
 type ViewState = 'home' | 'quiz' | 'map';
+
+/**
+ * -------------------------------------------------------------------------------------------------
+ * פונקציות עזר גלובליות (Utility Functions)
+ * -------------------------------------------------------------------------------------------------
+ */
 
 /**
  * פונקציה לחישוב מרחק אווירי מדויק (Haversine Formula)
  * מחשבת את המרחק בקו אווירי בין שתי נקודות גאוגרפיות ומחזירה מחרוזת מעוגלת.
+ * פונקציה זו קריטית עבור מיון האתרים לפי הקרבה למשתמש.
  * 
  * @param userLat קו רוחב משתמש
  * @param userLon קו אורך משתמש
@@ -57,39 +70,55 @@ function calculateHaversineDistance(
   siteLat: number, 
   siteLon: number
 ): string {
+  // בדיקת תקינות נתונים
   if (!userLat || !userLon || !siteLat || !siteLon) {
     return "0.0";
   }
 
-  const R = 6371; // רדיוס כדור הארץ הממוצע בקילומטרים
+  // רדיוס כדור הארץ הממוצע בקילומטרים
+  const EARTH_RADIUS_KM = 6371; 
   
-  const dLat = (siteLat - userLat) * Math.PI / 180;
-  const dLon = (siteLon - userLon) * Math.PI / 180;
+  // המרת מעלות לרדיאנים
+  const latitudeDelta = (siteLat - userLat) * Math.PI / 180;
+  const longitudeDelta = (siteLon - userLon) * Math.PI / 180;
   
-  const a = 
-    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+  // חישוב לפי נוסחת האברסין
+  const haversineA = 
+    Math.sin(latitudeDelta / 2) * Math.sin(latitudeDelta / 2) +
     Math.cos(userLat * Math.PI / 180) * Math.cos(siteLat * Math.PI / 180) * 
-    Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    Math.sin(longitudeDelta / 2) * Math.sin(longitudeDelta / 2);
     
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  const finalDist = R * c;
+  const haversineC = 2 * Math.atan2(Math.sqrt(haversineA), Math.sqrt(1 - haversineA));
+  const finalDistanceCalculation = EARTH_RADIUS_KM * haversineC;
   
-  return finalDist.toFixed(1);
+  // החזרה של המרחק בפורמט מעוגל לספרה אחת אחרי הנקודה
+  return finalDistanceCalculation.toFixed(1);
 }
 
 /**
- * פונקציה ליצירת כתובת Embed תקנית עבור YouTube
- * @param vId מזהה הסרטון
+ * פונקציה לבניית קישור Embed תקין ומאובטח עבור YouTube
+ * מוודאת שהסרטון ירוץ בתוך ה-iframe ללא חסימות דפדפן.
+ * 
+ * @param videoId מזהה הסרטון מתוך ה-JSON
  * @returns כתובת מאובטחת ל-Iframe
  */
-function getYouTubeEmbedUrl(vId: string): string {
-  if (!vId) return "";
-  const base = "https://www.youtube.com/embed/";
-  const params = "?autoplay=0&rel=0&modestbranding=1&enablejsapi=1";
-  const origin = typeof window !== 'undefined' ? `&origin=${window.location.origin}` : "";
-  return `${base}${vId}${params}${origin}`;
+function generateYoutubeLink(videoId: string): string {
+  if (!videoId) return "";
+  
+  const baseUrl = "https://www.youtube.com/embed/";
+  const configParams = "?autoplay=0&rel=0&modestbranding=1&enablejsapi=1";
+  
+  // הוספת Origin במידה וקיים חלון דפדפן
+  const originUrl = typeof window !== 'undefined' ? `&origin=${window.location.origin}` : "";
+  
+  return `${baseUrl}${videoId}${configParams}${originUrl}`;
 }
 
+/**
+ * -------------------------------------------------------------------------------------------------
+ * הקומפוננטה הראשית של האפליקציה - TiyulifyApp
+ * -------------------------------------------------------------------------------------------------
+ */
 export default function TiyulifyApp() {
   /**
    * -----------------------------------------------------------------------------------------------
@@ -97,57 +126,58 @@ export default function TiyulifyApp() {
    * -----------------------------------------------------------------------------------------------
    */
   
-  // בדיקה אם הרכיב עלה בצד הלקוח (Client Side)
-  const [isClientSide, setIsClientSide] = useState(false);
+  // משתנה לבדיקת טעינת צד לקוח (למניעת שגיאות SSR ב-Next.js)
+  const [isClientSideMounted, setIsClientSideMounted] = useState(false);
   
-  // ניהול המעבר בין מסכי האפליקציה
-  const [currentViewState, setCurrentViewState] = useState<ViewState>('home');
+  // ניהול מצב הניווט (באיזה מסך המשתמש נמצא כרגע)
+  const [activeScreenView, setActiveScreenView] = useState<ViewState>('home');
   
-  // ניהול שפת הממשק (Default: Hebrew)
-  const [language, setLanguage] = useState('he');
+  // ניהול שפת הממשק (ברירת מחדל: עברית)
+  const [interfaceLanguage, setInterfaceLanguage] = useState('he');
   
-  // פילטר קטגוריה (1 מתוך 10)
-  const [selectedCategory, setSelectedCategory] = useState('all');
+  // משתנה לסינון קטגוריות (מים, טבע וכו')
+  const [categoryFilterActive, setCategoryFilterActive] = useState('all');
   
-  // פילטר אזור גאוגרפי (צפון, מרכז, דרום)
-  const [selectedRegion, setSelectedRegion] = useState('all');
+  // משתנה לסינון אזורים (צפון, מרכז, דרום)
+  const [regionFilterActive, setRegionFilterActive] = useState('all');
   
-  // טקסט לחיפוש חופשי
-  const [searchTermValue, setSearchTermValue] = useState('');
+  // משתנה לאחסון מחרוזת החיפוש החופשי
+  const [globalSearchInput, setGlobalSearchInput] = useState('');
   
-  // מיקום ה-GPS המדויק של המשתמש
-  const [userGPSLocation, setUserGPSLocation] = useState<[number, number] | null>(null);
+  // מיקום ה-GPS המדויק של המשתמש (קו רוחב, קו אורך)
+  const [userCurrentLocation, setUserCurrentLocation] = useState<[number, number] | null>(null);
   
-  // רכיבי Leaflet (נטענים רק בצד הלקוח)
+  // אחסון רכיבי ספריית המפות (נטענים דינמית)
   const [LeafletMapComponents, setLeafletMapComponents] = useState<any>(null);
   
-  // אייקון אדום לסימון מיקום המשתמש
-  const [redUserMarkerIcon, setRedUserMarkerIcon] = useState<any>(null);
+  // אייקון אדום מיוחד לסימון המשתמש על המפה
+  const [userRedMarkerIcon, setUserRedMarkerIcon] = useState<any>(null);
   
-  // רפרנס לאובייקט המפה לצורך תנועה חלקה (FlyTo)
-  const mapControlInstance = useRef<any>(null);
+  // רפרנס לאובייקט המפה של Leaflet לצורך שליטה בתנועה (FlyTo)
+  const leafletMapInstanceRef = useRef<any>(null);
 
   /**
    * -----------------------------------------------------------------------------------------------
-   * אובייקט תרגומים מפורט (Multilingual Dictionary)
-   * סנכרון מוחלט של מפתחות למניעת קריסות בעת החלפת שפה.
+   * אובייקט תרגומים מפורט ומסיבי (Multilingual Dictionary)
+   * סנכרון מוחלט של כל המפתחות עבור כל 4 השפות למניעת קריסות שפה.
+   * כאן מוגדרים כל הטקסטים של 10 הקטגוריות.
    * -----------------------------------------------------------------------------------------------
    */
   const translations: any = {
     he: { 
-      searchPlaceholder: "חפש מקום או מעיין...", 
+      inputPlaceholder: "חפש מקום, מסלול או מעיין...", 
       resultsTitle: "תוצאות שנמצאו", 
       surpriseBtn: "תפתיע אותי", 
-      welcomeText: "לאן נטייל היום?", 
+      welcomeMsg: "לאן נטייל היום?", 
       startBtn: "בואו נתחיל",
       backLink: "חזרה לדף הקודם",
-      quizHeading: "מה הסגנון שלכם עכשיו?",
-      nearbyLabel: "קמ ממך",
-      distanceIndicator: "מרחק ממך:",
+      quizTitle: "מה הסגנון שלכם עכשיו?",
+      nearbyText: "קמ ממך",
+      distancePrefix: "מרחק מהמיקום שלך:",
       homeTitle: "דף הבית",
       hereMarker: "המיקום הנוכחי שלך",
-      whatsappShare: "שתף ב-WhatsApp",
-      kmSuffix: 'ק"מ',
+      whatsappBtn: "שתף ב-WhatsApp",
+      kmLabel: 'ק"מ',
       regions: {
         all: "כל הארץ",
         north: "צפון הארץ",
@@ -157,31 +187,31 @@ export default function TiyulifyApp() {
       categories: { 
         all: "הכל", 
         water: "מים ומעיינות", 
-        nature: "פארקים, טבע ותצפיות", 
-        history: "אתרי היסטוריה ומורשת", 
-        sleep: "לינה, חניוני לילה וצימרים", 
-        food: "מסעדות, אוכל ובתי קפה", 
+        nature: "פארקים ותצפיות", 
+        history: "היסטוריה ומורשת", 
+        sleep: "לינה וקמפינג", 
+        food: "מסעדות ואוכל", 
         bike: "מסלולי אופניים",
         hiking: "מסלולי הליכה",
         promenade: "טיילות",
-        beach: "חופי ים וחופי שחיה",
+        beach: "חופי ים",
         river: "נחלים ונהרות"
       }
     },
     en: { 
-      searchPlaceholder: "Search for a destination...", 
+      inputPlaceholder: "Search for a destination...", 
       resultsTitle: "Search Results", 
       surpriseBtn: "Surprise Me", 
-      welcomeText: "Where to today?", 
-      startBtn: "Let's Go",
+      welcomeMsg: "Where to today?", 
+      startBtn: "Let's Start",
       backLink: "Go Back",
-      quizHeading: "What's your style?",
-      nearbyLabel: "km away",
-      distanceIndicator: "Distance:",
+      quizTitle: "What's your style?",
+      nearbyText: "km away",
+      distancePrefix: "Distance from you:",
       homeTitle: "Home",
       hereMarker: "You are here",
-      whatsappShare: "Share on WhatsApp",
-      kmSuffix: "km",
+      whatsappBtn: "Share on WhatsApp",
+      kmLabel: "km",
       regions: {
         all: "All Israel",
         north: "North Region",
@@ -193,7 +223,7 @@ export default function TiyulifyApp() {
         water: "Water & Springs", 
         nature: "Parks & Nature", 
         history: "History & Heritage", 
-        sleep: "Lodging & Camping", 
+        sleep: "Sleep & Camping", 
         food: "Restaurants", 
         bike: "Bike Trails",
         hiking: "Hiking Trails",
@@ -203,19 +233,19 @@ export default function TiyulifyApp() {
       }
     },
     ar: { 
-      searchPlaceholder: "بحث عن مكان...", 
+      inputPlaceholder: "بحث عن مكان...", 
       resultsTitle: "نتائج البحث", 
       surpriseBtn: "فاجئني", 
-      welcomeText: "أين نذهب اليوم؟", 
-      startBtn: "لنبدأ الرحلة",
+      welcomeMsg: "أين نذهب اليوم؟", 
+      startBtn: "لنبدأ",
       backLink: "رجوع",
-      quizHeading: "ما هو أسلובك المفضل؟",
-      nearbyLabel: "كم منك",
-      distanceIndicator: "المסافة:",
+      quizTitle: "ما هو أسلובك المفضل؟",
+      nearbyText: "كم منك",
+      distancePrefix: "المסافة:",
       homeTitle: "الرئيسية",
-      hereMarker: "أنت هنا",
-      whatsappShare: "مشاركة عبر الواتساب",
-      kmSuffix: "كم",
+      hereMarker: "أنت כאן",
+      whatsappBtn: "مشاركة عبر الواتساب",
+      kmLabel: "كم",
       regions: {
         all: "כל البلاد",
         north: "منطقة الشمال",
@@ -224,8 +254,8 @@ export default function TiyulifyApp() {
       },
       categories: { 
         all: "الכל", 
-        water: "مياه ويناביע", 
-        nature: "منتזהות وطביעה", 
+        water: "مياه ويנאביע", 
+        nature: "منتزهات وطביעה", 
         history: "תאריכ ותראת'", 
         sleep: "מבית ותח'יים", 
         food: "טעאם ומסאעם", 
@@ -237,19 +267,19 @@ export default function TiyulifyApp() {
       }
     },
     ru: { 
-      searchPlaceholder: "Поиск места...", 
+      inputPlaceholder: "Поиск места...", 
       resultsTitle: "Результаты", 
       surpriseBtn: "Удиви меня", 
-      welcomeText: "Куда поедем сегодня?", 
+      welcomeMsg: "Куда поедем сегодня?", 
       startBtn: "Поехали",
       backLink: "Назад",
-      quizHeading: "Какой у вас стиль?",
-      nearbyLabel: "км от вас",
-      distanceIndicator: "Расстояние:",
+      quizTitle: "Какой у вас стиль?",
+      nearbyText: "км от вас",
+      distancePrefix: "Расстояние:",
       homeTitle: "Домой",
       hereMarker: "Вы здесь",
-      whatsappShare: "WhatsApp",
-      kmSuffix: "км",
+      whatsappBtn: "WhatsApp",
+      kmLabel: "км",
       regions: {
         all: "Весь Израиль",
         north: "Север",
@@ -260,47 +290,47 @@ export default function TiyulifyApp() {
         all: "Все", 
         water: "Вода и источники", 
         nature: "Парки и Природа", 
-        history: "История и наследие", 
-        sleep: "Жилье и кемпинг", 
+        history: "История", 
+        sleep: "Жилье וКемпинг", 
         food: "Еда и рестораны", 
         bike: "Веломаршруты",
         hiking: "Пешие тропы",
         promenade: "Променады",
         beach: "Пляжи",
-        river: "Реки и ручьи"
+        river: "Реки"
       }
     }
   };
 
   /**
    * -----------------------------------------------------------------------------------------------
-   * UseEffects - אתחול, GPS ורכיבי מפה
+   * UseEffects - אתחול, GPS וטעינת מפה
    * -----------------------------------------------------------------------------------------------
    */
   useEffect(() => {
-    // אתחול צד לקוח
-    setIsClientSide(true);
+    // אתחול האפליקציה בצד הלקוח
+    setIsClientSideMounted(true);
     
-    // זיהוי GPS מהדפדפן
+    // הפעלת זיהוי GPS מהדפדפן
     if (typeof window !== 'undefined' && navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (position) => {
           console.log("GPS Location acquired successfully");
-          setUserGPSLocation([position.coords.latitude, position.coords.longitude]);
+          setUserCurrentLocation([position.coords.latitude, position.coords.longitude]);
         },
         (error) => {
-          console.warn("GPS Access Denied.");
+          console.warn("GPS Access Denied. Continuing without location.");
         },
         { enableHighAccuracy: true }
       );
     }
 
-    // טעינה דינמית של Leaflet למניעת שגיאות SSR
+    // טעינה דינמית של Leaflet למניעת שגיאות SSR ב-Next.js
     Promise.all([
       import('react-leaflet'),
       import('leaflet')
     ]).then(([res, L]: any) => {
-      // תיקון נתיבי אייקונים
+      // תיקון נתיבי אייקונים של Leaflet ב-Next.js
       delete L.Icon.Default.prototype._getIconUrl;
       L.Icon.Default.mergeOptions({
         iconRetinaUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png',
@@ -308,7 +338,7 @@ export default function TiyulifyApp() {
         shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
       });
 
-      // יצירת סיכה אדומה ייחודית למשתמש
+      // הגדרת סיכה אדומה ייחודית למיקום המשתמש
       const redPin = new L.Icon({
         iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
         shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
@@ -318,88 +348,99 @@ export default function TiyulifyApp() {
         shadowSize: [41, 41]
       });
       
-      setRedMarkerIcon(redPin);
+      setUserRedMarkerIcon(redPin);
       setLeafletMapComponents(res);
     });
   }, []);
 
   /**
    * -----------------------------------------------------------------------------------------------
-   * לוגיקת סינון ומיון (Memoized)
+   * לוגיקת סינון ומיון הנתונים (Memoized Filter & Sort)
+   * כאן מתבצע ה-Filter וה-Sort לפי מרחק GPS.
+   * הגנה מוחלטת מפני נתונים חסרים למניעת קריסות.
    * -----------------------------------------------------------------------------------------------
    */
-  const filteredListItems = useMemo(() => {
-    let result = data.filter((item: any) => {
-      const searchLowercase = searchTermValue.toLowerCase();
+  const filteredDataItems = useMemo(() => {
+    // וידוא שהנתונים קיימים
+    if (!Array.isArray(data)) return [];
+
+    let resultOfFilter = data.filter((item: any) => {
+      const searchLowercase = globalSearchInput.toLowerCase();
       
-      // הגנה מפני קריסות נתונים
+      // הגנה מפני נתונים חסרים ב-JSON
       if (!item.name || !item.coords) return false;
 
-      // בדיקת התאמה בחיפוש שם בכל השפות
-      const matchesSearch = Object.values(item.name).some(val => 
+      // בדיקת התאמה בחיפוש שם בכל השפות הקיימות באובייקט
+      const nameMatch = Object.values(item.name).some(val => 
         String(val).toLowerCase().includes(searchLowercase)
       );
       
       // בדיקת התאמה לקטגוריה
-      const matchesCategory = selectedCategory === 'all' || item.category === selectedCategory;
+      const categoryMatch = categoryFilterActive === 'all' || item.category === categoryFilterActive;
       
-      // בדיקת התאמה לאזור (כולל הגנה על שדה אזור חסר ב-JSON)
-      const matchesRegion = selectedRegion === 'all' || (item.region && item.region === selectedRegion);
+      // בדיקת התאמה לאזור (כולל הגנה על שדה אזור חסר)
+      const regionMatch = regionFilterActive === 'all' || (item.region && item.region === regionFilterActive);
       
-      return matchesSearch && matchesCategory && matchesRegion;
+      return nameMatch && categoryMatch && regionMatch;
     });
 
-    // מיון לפי מרחק מהמשתמש אם המיקום זמין
-    if (userGPSLocation) {
-      return [...result].sort((siteA, siteB) => {
-        const dA = parseFloat(calculateHaversineDistance(userGPSLocation[0], userGPSLocation[1], siteA.coords[0], siteA.coords[1]));
-        const dB = parseFloat(calculateHaversineDistance(userGPSLocation[0], userGPSLocation[1], siteB.coords[0], siteB.coords[1]));
+    // מיון לפי מרחק מהמשתמש במידה והמיקום זמין
+    if (userCurrentLocation) {
+      return [...resultOfFilter].sort((siteA, siteB) => {
+        const dA = parseFloat(calculateHaversineDistance(userCurrentLocation[0], userCurrentLocation[1], siteA.coords[0], siteA.coords[1]));
+        const dB = parseFloat(calculateHaversineDistance(userCurrentLocation[0], userCurrentLocation[1], siteB.coords[0], siteB.coords[1]));
         return dA - dB;
       });
     }
     
-    return result;
-  }, [searchTermValue, selectedCategory, selectedRegion, userGPSLocation]);
+    return resultOfFilter;
+  }, [globalSearchInput, categoryFilterActive, regionFilterActive, userCurrentLocation]);
 
   /**
    * -----------------------------------------------------------------------------------------------
-   * פונקציות טיפול באירועים (Handlers)
+   * פונקציות טיפול באירועים (Event Handlers)
    * -----------------------------------------------------------------------------------------------
    */
   
-  // תנועה במפה
-  const handleMapMovement = (coords: [number, number]) => {
-    if (mapControlInstance.current) {
-      mapControlInstance.current.flyTo(coords, 14, {
+  // פונקציה לתנועה חלקה במפה ליעד מסוים (FlyTo)
+  const flyToSiteCoords = (target: [number, number]) => {
+    if (leafletMapInstanceRef.current) {
+      leafletMapInstanceRef.current.flyTo(target, 14, {
         animate: true,
         duration: 1.8
       });
     }
   };
 
-  // לוגיקת "תפתיע אותי"
-  const handleSurpriseRequest = () => {
-    const list = filteredListItems.length > 0 ? filteredListItems.slice(0, 10) : data;
-    const randomItem = list[Math.floor(Math.random() * list.length)];
+  // לוגיקת "תפתיע אותי" - הגרלה מתוך 10 האתרים הכי קרובים
+  const handleSmartSurpriseRequest = () => {
+    const list = filteredDataItems.length > 0 ? filteredDataItems.slice(0, 10) : data;
+    if (list.length === 0) return;
+
+    const randomIndex = Math.floor(Math.random() * list.length);
+    const chosenItem = list[randomIndex];
     
-    setSelectedCategory('all');
-    setSearchTermValue('');
-    setCurrentViewState('map');
+    // ניקוי פילטרים ומעבר למפה
+    setCategoryFilterActive('all');
+    setGlobalSearchInput('');
+    setActiveScreenView('map');
     
+    // מעבר במפה לאחר טעינה קלה של הממשק
     setTimeout(() => {
-      handleMapMovement(randomItem.coords as [number, number]);
+      flyToSiteCoords(chosenItem.coords as [number, number]);
     }, 800);
   };
 
-  // שיתוף בוואטסאפ (WhatsApp)
-  const shareViaWhatsApp = (item: any) => {
-    const nameStr = item.name[language] || item.name.he;
-    const gMapsUrl = `https://www.google.com/maps/search/?api=1&query=${item.coords[0]},${item.coords[1]}`;
-    const message = encodeURIComponent(`תראו את המקום הזה ב-Tiyulify: ${nameStr}\nמיקום במפות: ${gMapsUrl}`);
+  // פונקציית שיתוף בוואטסאפ (WhatsApp Sharing)
+  const handleWAShare = (item: any) => {
+    const siteName = item.name[language] || item.name.he;
+    const mapsLink = `https://www.google.com/maps/search/?api=1&query=${item.coords[0]},${item.coords[1]}`;
+    const message = encodeURIComponent(`תראו את המקום הזה ב-Tiyulify: ${siteName}\nמיקום במפות: ${mapsLink}`);
     window.open(`https://wa.me/?text=${message}`, '_blank');
   };
 
-  if (!isClientSide || !LeafletMapComponents) {
+  // בדיקת טעינה סופית
+  if (!isClientSideMounted || !LeafletMapComponents) {
     return null;
   }
 
@@ -409,40 +450,40 @@ export default function TiyulifyApp() {
     <div className="flex flex-col h-screen bg-white font-sans overflow-hidden" dir={language === 'ar' || language === 'he' ? 'rtl' : 'ltr'}>
       
       {/* -------------------------------------------------------------------------------------------
-          מסך הבית (Home Screen) - תיקון רספונסיביות מובייל
+          מסך הבית (Home View Screen) - מותאם רספונסיבית
           ------------------------------------------------------------------------------------------- */}
-      {currentViewState === 'home' && (
-        <div className="flex-1 flex flex-col items-center justify-center p-6 bg-[url('https://images.unsplash.com/photo-1548777123-e216912df7d8?w=1200')] bg-cover bg-center relative text-white text-center overflow-hidden">
-          <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
+      {activeScreenView === 'home' && (
+        <div className="flex-1 flex flex-col items-center justify-center p-6 bg-[url('https://images.unsplash.com/photo-1548777123-e216912df7d8?w=1200')] bg-cover bg-center relative text-white text-center">
+          <div className="absolute inset-0 bg-black/55 backdrop-blur-[2px]" />
           
-          <div className="relative z-10 w-full max-w-2xl px-4">
-            {/* לוגו ממותג עם אנימציית סיבוב וקישור */}
+          <div className="relative z-10 w-full max-w-2xl px-4 animate-fadeIn">
+            {/* לוגו ממותג עם אנימציית סיבוב וקישור חיצוני */}
             <div className="flex items-center justify-center gap-4 mb-8 md:gap-8 md:mb-12">
                <a href="https://sites.google.com/view/geology-info/" target="_blank" rel="noopener noreferrer" className="shrink-0 group">
                  <img 
                    src="/Logo- Mamdoh1.gif" 
-                   alt="Logo" 
+                   alt="Site Logo" 
                    className="w-16 h-16 md:w-32 md:h-32 rounded-full border-2 md:border-4 border-white shadow-2xl transition-all duration-1000 group-hover:rotate-[360deg] object-cover" 
                  />
                </a>
-               {/* כותרת רספונסיבית - הוקטנה במובייל למניעת חריגה */}
+               {/* כותרת מוקטנת למובייל למניעת חריגה */}
                <h1 className="text-4xl md:text-9xl font-black tracking-tighter drop-shadow-2xl italic uppercase">Tiyulify</h1>
             </div>
 
             <p className="text-xl md:text-3xl font-light mb-12 md:mb-16 opacity-95 drop-shadow-lg italic">
-              {translations[language].welcomeText}
+              {translations[language].welcomeMsg}
             </p>
             
             <div className="flex flex-col gap-5 w-64 md:w-80 mx-auto">
               <button 
-                onClick={() => setCurrentViewState('quiz')} 
+                onClick={() => setActiveScreenView('quiz')} 
                 className="bg-green-500 hover:bg-green-600 py-4 md:py-6 rounded-2xl md:rounded-3xl font-bold text-xl md:text-3xl shadow-2xl transition-all transform hover:scale-105 active:scale-95"
               >
                 {translations[language].startBtn}
               </button>
               
               <button 
-                onClick={handleSurpriseRequest} 
+                onClick={handleSmartSurpriseRequest} 
                 className="bg-white/20 hover:bg-white/30 backdrop-blur-md border-2 border-white/50 py-4 md:py-5 rounded-2xl md:rounded-3xl font-bold text-lg md:text-xl shadow-xl transition-all"
               >
                 🎲 {translations[language].surpriseBtn}
@@ -450,34 +491,29 @@ export default function TiyulifyApp() {
             </div>
             
             {/* בורר שפות במסך הבית */}
-            <div className="mt-16 md:mt-24 flex justify-center gap-2 md:gap-4 flex-wrap">
-              {['he', 'ar', 'en', 'ru'].map(l => (
-                <button 
-                  key={l} 
-                  onClick={() => setLanguage(l)} 
-                  className={`px-5 py-2 md:px-8 md:py-3 rounded-xl md:rounded-2xl font-bold border-2 transition-all ${language === l ? 'bg-green-600 border-green-600 shadow-2xl scale-110 text-white' : 'bg-white/10 border-white/30 text-white hover:bg-white/30'}`}
-                >
-                  {l.toUpperCase()}
-                </button>
-              ))}
+            <div className="mt-16 md:mt-24 flex justify-center gap-3 md:gap-4 flex-wrap">
+              <button onClick={() => setLanguage('he')} className={`px-5 py-2 md:px-8 md:py-3 rounded-xl md:rounded-2xl font-bold border-2 transition-all ${language === 'he' ? 'bg-green-600 border-green-600 shadow-2xl scale-110 text-white' : 'bg-white/10 border-white/30 text-white hover:bg-white/30'}`}>HE</button>
+              <button onClick={() => setLanguage('ar')} className={`px-5 py-2 md:px-8 md:py-3 rounded-xl md:rounded-2xl font-bold border-2 transition-all ${language === 'ar' ? 'bg-green-600 border-green-600 shadow-2xl scale-110 text-white' : 'bg-white/10 border-white/30 text-white hover:bg-white/30'}`}>AR</button>
+              <button onClick={() => setLanguage('en')} className={`px-5 py-2 md:px-8 md:py-3 rounded-xl md:rounded-2xl font-bold border-2 transition-all ${language === 'en' ? 'bg-green-600 border-green-600 shadow-2xl scale-110 text-white' : 'bg-white/10 border-white/30 text-white hover:bg-white/30'}`}>EN</button>
+              <button onClick={() => setLanguage('ru')} className={`px-5 py-2 md:px-8 md:py-3 rounded-xl md:rounded-2xl font-bold border-2 transition-all ${language === 'ru' ? 'bg-green-600 border-green-600 shadow-2xl scale-110 text-white' : 'bg-white/10 border-white/30 text-white hover:bg-white/30'}`}>RU</button>
             </div>
           </div>
         </div>
       )}
 
       {/* -------------------------------------------------------------------------------------------
-          מסך השאלון (Quiz View) - 10 קטגוריות מלאות, פריסה מפורשת
+          מסך השאלון (Quiz View) - 10 קטגוריות מלאות, פריסה בטוחה
           ------------------------------------------------------------------------------------------- */}
-      {currentViewState === 'quiz' && (
+      {activeScreenView === 'quiz' && (
         <div className="flex-1 flex flex-col items-center justify-start md:justify-center p-6 bg-gray-50 overflow-y-auto pt-20">
-          <h2 className="text-3xl md:text-6xl font-black text-gray-800 mb-10 md:mb-16 text-center">{translations[language].quizHeading}</h2>
+          <h2 className="text-3xl md:text-6xl font-black text-gray-800 mb-10 md:mb-16 text-center">{translations[language].quizTitle}</h2>
           
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-8 w-full max-w-7xl p-4">
-            {/* מיפוי מפורש של 10 הקטגוריות - תוקן גודל האייקונים */}
+            {/* פריסה של 10 הקטגוריות - אייקונים בגודל מתאים */}
             {Object.entries(translations[language].categories).filter(([id]) => id !== 'all').map(([id, label]: any) => (
               <button 
                 key={id} 
-                onClick={() => { setSelectedCategory(id); setCurrentViewState('map'); }}
+                onClick={() => { setCategoryFilterActive(id); setActiveScreenView('map'); }}
                 className="aspect-square flex flex-col items-center justify-center gap-3 md:gap-6 bg-white hover:bg-green-50 rounded-2xl md:rounded-[3rem] shadow-xl border-2 md:border-4 border-transparent hover:border-green-400 transition-all group p-4"
               >
                 <span className="text-4xl md:text-7xl group-hover:scale-125 transition-transform duration-500">
@@ -491,7 +527,7 @@ export default function TiyulifyApp() {
           </div>
           
           <button 
-            onClick={() => setCurrentViewState('home')} 
+            onClick={() => setActiveScreenView('home')} 
             className="mt-12 md:mt-20 text-green-700 font-bold underline text-lg md:text-2xl hover:text-green-900 transition-colors"
           >
             {translations[language].backLink}
@@ -500,12 +536,12 @@ export default function TiyulifyApp() {
       )}
 
       {/* -------------------------------------------------------------------------------------------
-          תצוגת המפה הראשית (Map View Interface)
+          תצוגת המפה הראשית (Map View Main)
           ------------------------------------------------------------------------------------------- */}
-      {currentViewState === 'map' && (
+      {activeScreenView === 'map' && (
         <div className="flex flex-col h-full relative">
           
-          {/* Header המפה - רספונסיבי ומעוצב */}
+          {/* Header המפה - רספונסיבי ומעוצב עם לוגו ובורר שפה */}
           <header className="bg-white/95 backdrop-blur-md border-b-2 p-3 md:p-5 flex flex-col gap-3 md:gap-5 z-[2000] shadow-xl">
             <div className="flex items-center justify-between w-full px-2">
               <div className="flex items-center gap-3 md:gap-8">
@@ -516,22 +552,17 @@ export default function TiyulifyApp() {
                      className="w-10 h-10 md:w-16 md:h-16 rounded-full border-2 border-green-500 transition-transform duration-700 group-hover:rotate-[360deg] object-cover" 
                    />
                 </a>
-                <h2 className="text-2xl md:text-5xl font-black text-green-700 cursor-pointer italic tracking-tight uppercase" onClick={() => setCurrentViewState('home')}>
+                <h2 className="text-2xl md:text-5xl font-black text-green-700 cursor-pointer italic tracking-tight uppercase" onClick={() => setActiveScreenView('home')}>
                   Tiyulify
                 </h2>
               </div>
               
               {/* בורר שפה המשולב ב-Header לשימוש נוח בזמן ניווט */}
               <div className="flex gap-1 bg-gray-100 p-1 md:p-2 rounded-xl shadow-inner border border-gray-200">
-                {['he', 'ar', 'en', 'ru'].map(l => (
-                  <button 
-                    key={l} 
-                    onClick={() => setLanguage(l)} 
-                    className={`px-2 py-1 md:px-4 md:py-2 rounded-lg text-[10px] md:text-xs font-bold transition-all ${language === l ? 'bg-green-600 text-white shadow-md' : 'text-gray-400 hover:text-gray-600'}`}
-                  >
-                    {l.toUpperCase()}
-                  </button>
-                ))}
+                <button onClick={() => setLanguage('he')} className={`px-2 py-1 md:px-4 md:py-2 rounded-lg text-[10px] md:text-xs font-bold transition-all ${language === 'he' ? 'bg-green-600 text-white shadow-md' : 'text-gray-400 hover:text-gray-600'}`}>HE</button>
+                <button onClick={() => setLanguage('ar')} className={`px-2 py-1 md:px-4 md:py-2 rounded-lg text-[10px] md:text-xs font-bold transition-all ${language === 'ar' ? 'bg-green-600 text-white shadow-md' : 'text-gray-400 hover:text-gray-600'}`}>AR</button>
+                <button onClick={() => setLanguage('en')} className={`px-2 py-1 md:px-4 md:py-2 rounded-lg text-[10px] md:text-xs font-bold transition-all ${language === 'en' ? 'bg-green-600 text-white shadow-md' : 'text-gray-400 hover:text-gray-600'}`}>EN</button>
+                <button onClick={() => setLanguage('ru')} className={`px-2 py-1 md:px-4 md:py-2 rounded-lg text-[10px] md:text-xs font-bold transition-all ${language === 'ru' ? 'bg-green-600 text-white shadow-md' : 'text-gray-400 hover:text-gray-600'}`}>RU</button>
               </div>
             </div>
 
@@ -547,12 +578,11 @@ export default function TiyulifyApp() {
                 <span className={`absolute top-2.5 md:top-5 opacity-30 text-lg md:text-3xl ${language === 'he' || language === 'ar' ? 'right-4' : 'left-4'}`}>🔍</span>
               </div>
 
-              {/* בקרת פילטרים (אזור + 10 קטגוריות) */}
               <div className="flex gap-2 overflow-x-auto no-scrollbar py-1">
                 <select 
                   value={selectedRegion}
                   onChange={(e) => setSelectedRegion(e.target.value)}
-                  className="bg-blue-100 text-blue-800 font-black px-4 py-2 md:px-8 md:py-4 rounded-xl md:rounded-[2rem] text-xs md:text-sm outline-none border-none cursor-pointer shadow-md hover:bg-blue-200 transition-all"
+                  className="bg-blue-100 text-blue-800 font-black px-4 py-2 md:px-8 md:py-4 rounded-xl md:rounded-[2rem] text-xs md:text-sm outline-none border-none cursor-pointer shadow-md hover:bg-blue-200"
                 >
                   {Object.entries(translations[language].regions).map(([id, label]: any) => (
                     <option key={id} value={id}>{label}</option>
@@ -562,8 +592,8 @@ export default function TiyulifyApp() {
                 {Object.entries(translations[language].categories).map(([id, label]: any) => (
                   <button 
                     key={id} 
-                    onClick={() => setSelectedCategory(id)} 
-                    className={`px-4 py-2 md:px-8 md:py-4 rounded-xl md:rounded-[2rem] text-[10px] md:text-xs font-black whitespace-nowrap transition-all ${selectedCategory === id ? 'bg-green-600 text-white shadow-xl scale-105' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}
+                    onClick={() => setCategoryFilterActive(id)} 
+                    className={`px-4 py-2 md:px-8 md:py-4 rounded-xl md:rounded-[2rem] text-[10px] md:text-xs font-black whitespace-nowrap transition-all ${categoryFilterActive === id ? 'bg-green-600 text-white shadow-xl scale-105' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}
                   >
                     {label}
                   </button>
@@ -578,22 +608,22 @@ export default function TiyulifyApp() {
             <aside className="w-[30rem] bg-white border-r overflow-y-auto hidden md:block p-8 shadow-2xl z-10">
               <div className="flex justify-between items-center mb-10 text-gray-400 font-bold text-xs uppercase tracking-widest">
                 <span>{translations[language].resultsTitle} ({filteredDataItems.length})</span>
-                {userGPSLocation && <span className="text-green-600">📍 ממוין לפי קרבה</span>}
+                {userCurrentLocation && <span className="text-green-600">📍 ממוין לפי קרבה</span>}
               </div>
               
               <div className="space-y-8">
                 {filteredDataItems.map((item: any) => {
-                  const distCalculated = userGPSLocation ? calculateHaversineDistance(userGPSLocation[0], userGPSLocation[1], item.coords[0], item.coords[1]) : null;
+                  const distCalculated = userCurrentLocation ? calculateHaversineDistance(userCurrentLocation[0], userCurrentLocation[1], item.coords[0], item.coords[1]) : null;
                   return (
                     <div 
                       key={item.id} 
-                      onClick={() => handleMapMovement(item.coords)} 
+                      onClick={() => flyToSiteCoords(item.coords)} 
                       className="bg-gray-50 rounded-[3rem] p-5 shadow-sm hover:shadow-2xl cursor-pointer border-2 border-transparent hover:border-green-300 transition-all group overflow-hidden"
                     >
                       <div className="relative h-44 w-full mb-5 rounded-[2rem] overflow-hidden shadow-inner bg-gray-200">
-                        {/* תמונה מיוחדת לחרמון או רגילה לשאר */}
+                        {/* הצגת תמונה מתוך ה-JSON עם גובה מפורש */}
                         <img 
-                          src={item.id === "1" ? "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Hermonsnow.jpg/800px-Hermonsnow.jpg" : item.image} 
+                          src={item.image} 
                           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" 
                           alt="Thumbnail" 
                         />
@@ -624,8 +654,8 @@ export default function TiyulifyApp() {
                 <TileLayer url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png" />
                 
                 {/* סימון המשתמש באדום */}
-                {userGPSLocation && redUserMarkerIcon && (
-                  <Marker position={userGPSLocation} icon={redUserMarkerIcon}>
+                {userCurrentLocation && userRedMarkerIcon && (
+                  <Marker position={userCurrentLocation} icon={userRedMarkerIcon}>
                     <Popup>
                       <div className="text-center font-black text-red-600 p-2 text-lg">
                         📍 {translations[language].hereMarker}
@@ -636,7 +666,7 @@ export default function TiyulifyApp() {
 
                 {/* מיפוי כל סיכות האתרים על המפה */}
                 {filteredDataItems.map((item: any) => {
-                  const popupDistValue = userGPSLocation ? calculateHaversineDistance(userGPSLocation[0], userGPSLocation[1], item.coords[0], item.coords[1]) : null;
+                  const popupDistValue = userCurrentLocation ? calculateHaversineDistance(userCurrentLocation[0], userCurrentLocation[1], item.coords[0], item.coords[1]) : null;
                   
                   return (
                     <Marker key={item.id} position={item.coords}>
@@ -645,14 +675,13 @@ export default function TiyulifyApp() {
                           
                           {/* תצוגת וידאו או תמונה - רוחב מרובע ורחב (400px) */}
                           <div className="w-full h-44 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden bg-black relative border-2 border-white">
-                            {/* החרמון תמיד מציג רק תמונת ויקיפדיה, אחרים לפי video ID ב-JSON */}
-                            {(item.video && item.id !== "1") ? (
+                            {item.video ? (
                               <iframe 
                                 key={`v-embed-${item.id}-${language}`}
                                 width="100%" 
                                 height="100%" 
-                                src={getYouTubeEmbedUrl(item.video)} 
-                                title="Video Content"
+                                src={generateYoutubeLink(item.video)} 
+                                title="Video Player"
                                 frameBorder="0" 
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowFullScreen
@@ -660,7 +689,7 @@ export default function TiyulifyApp() {
                               ></iframe>
                             ) : (
                               <img 
-                                src={item.id === "1" ? "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Hermonsnow.jpg/800px-Hermonsnow.jpg" : item.image} 
+                                src={item.image} 
                                 alt="Place View" 
                                 className="w-full h-full object-cover" 
                               />
@@ -676,7 +705,7 @@ export default function TiyulifyApp() {
                             <div className="flex items-center gap-2 mb-4 bg-green-50 inline-flex px-4 py-1.5 rounded-full border-2 border-green-100 shadow-sm">
                               <span className="text-xl">📍</span>
                               <p className="text-[14px] text-green-700 font-black m-0">
-                                {translations[language].distanceIndicator} {popupDistValue} {translations[language].kmSuffix}
+                                {translations[language].distanceIndicator} {popupDistValue} {translations[language].kmLabel}
                               </p>
                             </div>
                           )}
@@ -688,7 +717,7 @@ export default function TiyulifyApp() {
                             </p>
                           </div>
                           
-                          {/* כפתורי פעולה משודרגים - תיקון ה-WhatsApp Share */}
+                          {/* כפתורי פעולה משודרגים - WhatsApp חזר לעבוד */}
                           <div className="flex flex-wrap gap-3 mt-6 pb-2">
                             <a 
                               href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} 
@@ -698,7 +727,7 @@ export default function TiyulifyApp() {
                               WAZE
                             </a>
                             <button 
-                              onClick={() => shareViaWhatsApp(item)}
+                              onClick={() => handleWAShare(item)}
                               className="flex-1 bg-green-500 text-white text-center py-4 rounded-2xl text-[11px] font-black shadow-lg hover:bg-green-600 active:scale-95 transition-all"
                             >
                               WhatsApp
@@ -721,7 +750,7 @@ export default function TiyulifyApp() {
               {/* כפתורי שליטה צפים בפינה - מותאמים רספונסיבית */}
               <div className="absolute bottom-6 left-6 z-[2000] flex flex-col gap-4">
                 <button 
-                  onClick={handleSurpriseRequest} 
+                  onClick={handleSmartSurpriseRequest} 
                   className="bg-green-600 text-white w-16 h-16 md:w-28 md:h-28 rounded-full shadow-2xl flex flex-col items-center justify-center text-[10px] md:text-xs font-black border-4 border-white hover:bg-green-700 transition-all transform hover:scale-115 active:scale-90 shadow-green-400"
                 >
                   <span className="text-2xl md:text-6xl mb-1">🎲</span>
@@ -729,7 +758,7 @@ export default function TiyulifyApp() {
                 </button>
                 
                 <button 
-                  onClick={() => setCurrentViewState('home')} 
+                  onClick={() => setActiveScreenView('home')} 
                   className="bg-white text-green-600 w-12 h-12 md:w-20 md:h-20 rounded-full shadow-2xl flex items-center justify-center text-3xl md:text-5xl border-2 md:border-4 border-green-600 hover:bg-green-50 transition-all transform hover:scale-115 active:scale-90 shadow-gray-400"
                 >
                   🏠

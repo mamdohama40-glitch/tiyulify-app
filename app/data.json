@@ -3932,5 +3932,365 @@
       "en": "Cafe with Galilean views in the alleys of Safed.",
       "ru": "Кафе с видом на Галилею в переулках Цфата."
     }
+  },
+    {
+    "id": "198",
+    "name": {
+      "he": "בקתות עץ בכפר - רמות",
+      "ar": "أكواخ خشبية في القرية - راموت",
+      "en": "Village Wooden Cabins - Ramot",
+      "ru": "Деревянные домики в деревне - Рамот"
+    },
+    "coords": [32.844, 35.688],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Ramot_View.jpg/800px-Ramot_View.jpg",
+    "description": {
+      "he": "בקתות עץ כפריות מול נוף הכנרת.",
+      "ar": "أكواخ خشبية ريفية مطلة على بحيرة طبريا.",
+      "en": "Rustic wooden cabins facing the Sea of Galilee view.",
+      "ru": "Деревенские деревянные домики с видом на Кинерет."
+    }
+  },
+  {
+    "id": "199",
+    "name": {
+      "he": "אחוזת דורית - ראש פינה",
+      "ar": "قصر دوريت - روش بينا",
+      "en": "Dorit Estate - Rosh Pinna",
+      "ru": "Поместье Дорит - Рош-Пина"
+    },
+    "coords": [32.968, 35.539],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rosh_Pina_View.jpg/800px-Rosh_Pina_View.jpg",
+    "description": {
+      "he": "סוויטות יוקרתיות באווירה גלילית קלאסית.",
+      "ar": "أجنحة فاخرة في أجواء جليلية كلاسيكية.",
+      "en": "Luxury suites in a classic Galilean atmosphere.",
+      "ru": "Роскошные люксы в классической галилейской атмосфере."
+    }
+  },
+  {
+    "id": "200",
+    "name": {
+      "he": "נוף גלילי - אמירים",
+      "ar": "نوف جليلي - أميريم",
+      "en": "Galilee View - Amirim",
+      "ru": "Вид на Галилею - Амирим"
+    },
+    "coords": [32.934, 35.451],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Amirim_View.jpg/800px-Amirim_View.jpg",
+    "description": {
+      "he": "אירוח טבעוני שליו בלב היער.",
+      "ar": "إقامة نباتية هادئة في قلب الغابة.",
+      "en": "Serene vegan accommodation in the heart of the forest.",
+      "ru": "Спокойное веганское жилье в самом сердце леса."
+    }
+  },
+  {
+    "id": "201",
+    "name": {
+      "he": "הבית במטולה",
+      "ar": "البيت في المطلة",
+      "en": "The House in Metula",
+      "ru": "Дом в Метуле"
+    },
+    "coords": [33.284, 35.581],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Metula_View.jpg/800px-Metula_View.jpg",
+    "description": {
+      "he": "אירוח וינטאג' במושבה הצפונית ביותר.",
+      "ar": "إقامة كلاسيكية في أقصى مستعمرة شمالية.",
+      "en": "Vintage accommodation in the northernmost colony.",
+      "ru": "Винтажное жилье в самой северной колонии."
+    }
+  },
+  {
+    "id": "202",
+    "name": {
+      "he": "בקתות השקיעה - חד נס",
+      "ar": "أكواخ الغروب - حد نيس",
+      "en": "Sunset Cabins - Had Nes",
+      "ru": "Хижины на закате - Хад Нес"
+    },
+    "coords": [32.903, 35.641],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kinneret_view_North.jpg/800px-Kinneret_view_North.jpg",
+    "description": {
+      "he": "סוויטות מודרניות עם בריכה פרטית.",
+      "ar": "أجنحة حديثة مع مسبح خاص.",
+      "en": "Modern suites with a private pool.",
+      "ru": "Современные люксы с частным бассейном."
+    }
+  },
+  {
+    "id": "203",
+    "name": {
+      "he": "בוסתן הגליל - מעלה גמלא",
+      "ar": "بستان الجليل - معاليه غملا",
+      "en": "Galilee Orchard - Ma'ale Gamla",
+      "ru": "Галилейский сад - Маале Гамла"
+    },
+    "coords": [32.889, 35.678],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בקתות רומנטיות המוקפות במטעים.",
+      "ar": "أكواخ رومانسية محاطة بالبساتين.",
+      "en": "Romantic cabins surrounded by orchards.",
+      "ru": "Романтические домики в окружении садов."
+    }
+  },
+  {
+    "id": "204",
+    "name": {
+      "he": "מעבר לאופק - מצפה רמון",
+      "ar": "ما وراء الأفق - متسبي رامون",
+      "en": "Beyond the Horizon - Mitzpe Ramon",
+      "ru": "За горизонтом - Мицпе-Рамон"
+    },
+    "coords": [30.607, 34.801],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Mitzpe_Ramon_Makhtesh.jpg/800px-Mitzpe_Ramon_Makhtesh.jpg",
+    "description": {
+      "he": "סוויטות מדבריות יוקרתיות על שפת המכתש.",
+      "ar": "أجنحة صحراوية فاخرة على حافة الفوهة.",
+      "en": "Luxury desert suites on the edge of the crater.",
+      "ru": "Роскошные люксы в пустыне на краю кратера."
+    }
+  },
+  {
+    "id": "205",
+    "name": {
+      "he": "אניצ'ה בקתות - כליל",
+      "ar": "أكواخ أنيتشا - كليل",
+      "en": "Anicca Cabins - Klil",
+      "ru": "Хижины Аничча - Клиль"
+    },
+    "coords": [32.983, 35.192],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Galilee_Mountains.jpg/800px-Galilee_Mountains.jpg",
+    "description": {
+      "he": "אירוח אקולוגי מבודד ביישוב ללא חשמל מרכזי.",
+      "ar": "إقامة صديقة للبيئة ومنعزلة في قرية بدون كهرباء مركزية.",
+      "en": "Isolated eco-lodging in a village without central electricity.",
+      "ru": "Уединенное эко-жилье в поселке без централизованного электричества."
+    }
+  },
+  {
+    "id": "206",
+    "name": {
+      "he": "סוויטות הצוק - מנרה",
+      "ar": "أجنحة الصخرة - منارة",
+      "en": "Cliff Suites - Manara",
+      "ru": "Люксы на скале - Манара"
+    },
+    "coords": [33.161, 35.553],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Dead_Sea_Coast_View.jpg/800px-Dead_Sea_Coast_View.jpg",
+    "description": {
+      "he": "אירוח בקו ראשון למצוק עם נוף עוצר נשימה.",
+      "ar": "إقامة على خط الجرف الأول مع إطلالات تحبس الأنفاس.",
+      "en": "First-line cliff accommodation with breathtaking views.",
+      "ru": "Жилье на первой линии утеса с захватывающим видом."
+    }
+  },
+  {
+    "id": "207",
+    "name": {
+      "he": "הבית השווייצרי - עין זיוון",
+      "ar": "البيت السويسري - عين زيفان",
+      "en": "Swiss House - Ein Zivan",
+      "ru": "Швейцарский дом - Эйн-Зиван"
+    },
+    "coords": [33.092, 35.839],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ein_Zivan_Vineyards.jpg/800px-Ein_Zivan_Vineyards.jpg",
+    "description": {
+      "he": "בקתות עץ בסגנון אירופאי בגובה רב.",
+      "ar": "أكواخ خشبية على الطراز الأوروبي على ارتفاع شاهق.",
+      "en": "European-style wooden cabins at high altitude.",
+      "ru": "Деревянные домики в европейском стиле на большой высоте."
+    }
+  },
+  {
+    "id": "208",
+    "name": {
+      "he": "אירוח קיבוץ דפנה",
+      "ar": "ضيافة كيبوتس دفنه",
+      "en": "Dafna Kibbutz Lodging",
+      "ru": "Жилье в кибуце Дафна"
+    },
+    "coords": [33.235, 35.631],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Dafna_Kibbutz_Water.jpg/800px-Dafna_Kibbutz_Water.jpg",
+    "description": {
+      "he": "חדרי אירוח כפריים לצד נחלים זורמים.",
+      "ar": "غرف ضيافة ريفية بجانب الجداول المتدفقة.",
+      "en": "Rural guest rooms alongside flowing streams.",
+      "ru": "Сельские гостевые комнаты рядом с текущими ручьями."
+    }
+  },
+  {
+    "id": "209",
+    "name": {
+      "he": "חדרי אירוח עין גדי",
+      "ar": "غرف ضيافة عين جدي",
+      "en": "Ein Gedi Guest Rooms",
+      "ru": "Гостевые комнаты Эйн-Геди"
+    },
+    "coords": [31.458, 35.388],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ein_Gedi_Kibbutz.jpg/800px-Ein_Gedi_Kibbutz.jpg",
+    "description": {
+      "he": "חדרים נעימים בלב הגן הבוטני הייחודי.",
+      "ar": "غرف مريحة في قلب الحديقة النباتية الفريدة.",
+      "en": "Cozy rooms in the heart of the unique botanical garden.",
+      "ru": "Уютные номера в самом сердце уникального ботанического сада."
+    }
+  },
+  {
+    "id": "210",
+    "name": {
+      "he": "בית הארחה יפו",
+      "ar": "بيت ضيافة يافا",
+      "en": "Jaffa Guest House",
+      "ru": "Гостевой дом Яффо"
+    },
+    "coords": [32.053, 34.752],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Old_City_of_Acre_001.jpg/800px-Old_City_of_Acre_001.jpg",
+    "description": {
+      "he": "אירוח אורבני בסמטאות יפו העתיקה.",
+      "ar": "إقامة حضرية في أزقة يافا القديمة.",
+      "en": "Urban accommodation in the alleys of Old Jaffa.",
+      "ru": "Городское жилье в переулках Старого Яффо."
+    }
+  },
+  {
+    "id": "211",
+    "name": {
+      "he": "אירוח כפרי ניר דוד",
+      "ar": "سياחה ريفية نير دافيد",
+      "en": "Nir David Country Lodging",
+      "ru": "Сельское жилье Нир Давид"
+    },
+    "coords": [32.502, 35.454],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Nir_David_River.jpg/800px-Nir_David_River.jpg",
+    "description": {
+      "he": "חדרי אירוח על גדות נחל האסי היפהפה.",
+      "ar": "غرف ضيافة على ضفاف نهر العاصي الجميل.",
+      "en": "Guest rooms on the banks of the beautiful Asi River.",
+      "ru": "Гостевые комнаты на берегу прекрасной реки Аси."
+    }
+  },
+  {
+    "id": "212",
+    "name": {
+      "he": "מדרשת שדה בוקר",
+      "ar": "مدرسة سديه بوكير",
+      "en": "Sde Boker Field School",
+      "ru": "Полевая школа Сде Бокер"
+    },
+    "coords": [30.850, 34.783],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ein_Yahav_Agriculture.jpg/800px-Ein_Yahav_Agriculture.jpg",
+    "description": {
+      "he": "אירוח חינוכי ומדברי בקרבת קבר בן גוריון.",
+      "ar": "إقامة تعليمية وصحراوية بالقرب من قبر بن غوريون.",
+      "en": "Educational and desert accommodation near Ben-Gurion's grave.",
+      "ru": "Образовательное и пустынное жилье рядом с могилой Бен-Гуриона."
+    }
+  },
+  {
+    "id": "213",
+    "name": {
+      "he": "אכסניית אנא ירושלים",
+      "ar": "بيت ضيافة أنا القدس",
+      "en": "ANA Guest House Jerusalem",
+      "ru": "Гостевой дом ANA Иерусалим"
+    },
+    "coords": [31.771, 35.217],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Eilon_Landscape.jpg/800px-Eilon_Landscape.jpg",
+    "description": {
+      "he": "חדרי אירוח מודרניים בלב העיר ההיסטורית.",
+      "ar": "غرف ضيافة حديثة في قلب المدينة التاريخية.",
+      "en": "Modern guest rooms in the heart of the historic city.",
+      "ru": "Современные гостевые номера в самом сердце исторического города."
+    }
+  },
+  {
+    "id": "214",
+    "name": {
+      "he": "אירוח מרום גולן",
+      "ar": "إقامة مروم جولان",
+      "en": "Merom Golan Lodging",
+      "ru": "Жилье Мером Голан"
+    },
+    "coords": [33.131, 35.779],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Merom_Golan_Bental.jpg/800px-Merom_Golan_Bental.jpg",
+    "description": {
+      "he": "חדרי אירוח הרריים באווירה ייחודית.",
+      "ar": "غرف ضيافة جبلية في أجواء فريدة.",
+      "en": "Mountain guest rooms in a unique atmosphere.",
+      "ru": "Горные гостевые комнаты в уникальной атмосфере."
+    }
+  },
+  {
+    "id": "215",
+    "name": {
+      "he": "אירוח גונן - עמק החולה",
+      "ar": "إقامة جونين - سهل الحولة",
+      "en": "Gonen Lodging - Hula Valley",
+      "ru": "Жилье Гонен - Долина Хула"
+    },
+    "coords": [33.125, 35.642],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Vineyards_in_Galilee.jpg/800px-Vineyards_in_Galilee.jpg",
+    "description": {
+      "he": "חדרי אירוח כפריים אל מול נוף העמק.",
+      "ar": "غرف ضيافة ريفية تطل على منظر السهل.",
+      "en": "Rural guest rooms facing the valley view.",
+      "ru": "Сельские гостевые комнаты с видом на долину."
+    }
+  },
+  {
+    "id": "216",
+    "name": {
+      "he": "חוות האנטילופות",
+      "ar": "مزرعة الظباء",
+      "en": "Antelope Farm",
+      "ru": "Ферма антилоп"
+    },
+    "coords": [30.732, 35.195],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Antelope_Farm_Israel.jpg/800px-Antelope_Farm_Israel.jpg",
+    "description": {
+      "he": "חדרי אירוח ייחודיים בחווה בערבה.",
+      "ar": "غرف ضيافة فريدة في مزرعة في وادي عربة.",
+      "en": "Unique guest rooms on a farm in the Arava.",
+      "ru": "Уникальные гостевые комнаты на ферме в Араве."
+    }
+  },
+  {
+    "id": "217",
+    "name": {
+      "he": "אירוח נחשולים",
+      "ar": "إقامة نحشوليم",
+      "en": "Nachsholim Lodging",
+      "ru": "Жилье Нахшолим"
+    },
+    "coords": [32.614, 34.921],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Shefayim_Beach.jpg/800px-Shefayim_Beach.jpg",
+    "description": {
+      "he": "חדרי אירוח צמודים לאחד החופים היפים בישראל.",
+      "ar": "غرف ضيافة مجاورة لأحد أجمل الشواطئ في إسرائيل.",
+      "en": "Guest rooms adjacent to one of Israel's most beautiful beaches.",
+      "ru": "Гостевые комнаты рядом с одним из самых красивых пляжей Израиля."
+    }
   }
 ]
