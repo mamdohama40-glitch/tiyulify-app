@@ -283,7 +283,7 @@ export default function TiyulifyApp() {
                         <div key={item.id} onClick={()=>flyToCoords(item.coords)}
                           className="bg-gray-50 rounded-[3rem] p-5 shadow-sm hover:shadow-2xl cursor-pointer border-2 border-transparent hover:border-green-300 transition-all group overflow-hidden">
                           <div className="relative h-44 w-full mb-5 rounded-[2rem] overflow-hidden shadow-inner bg-gray-200">
-                            <img referrerPolicy="no-referrer" referrerPolicy="no-referrer" src={item.image} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" alt=""/>
+                            <img referrerPolicy="no-referrer" referrerPolicy="no-referrer" src={(item.image && item.image.includes('wiki') ? 'https://images.weserv.nl/?url=' + encodeURIComponent(item.image.replace('https://', '')) : item.image)} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" alt=""/>
                           </div>
                           <h3 className="font-black text-gray-800 text-xl px-2 leading-tight">{item.name[activeLang]||item.name.he}</h3>
                           {d && <p className="text-[14px] text-green-600 font-black mt-3 px-2 flex items-center gap-1.5"><span className="text-lg">🚀</span> {d} {labels[activeLang].distText}</p>}
@@ -326,7 +326,7 @@ export default function TiyulifyApp() {
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen referrerPolicy="strict-origin-when-cross-origin"/>
                                 ) : (
-                                  <img referrerPolicy="no-referrer" referrerPolicy="no-referrer" src={item.image} alt="" className="w-full h-full object-cover"/>
+                                  <img referrerPolicy="no-referrer" referrerPolicy="no-referrer" src={(item.image && item.image.includes('wiki') ? 'https://images.weserv.nl/?url=' + encodeURIComponent(item.image.replace('https://', '')) : item.image)} alt="" className="w-full h-full object-cover"/>
                                 )}
                               </div>
                               <h4 className="font-black text-green-900 text-3xl m-0 leading-none mb-3 px-1">{item.name[activeLang]||item.name.he}</h4>
