@@ -419,8 +419,6 @@ export default function TiyulifyApp() {
                             </div>
                             <div className="flex flex-wrap gap-3 mt-4 pb-2">
                               <a href={`https://www.waze.com/ul?ll=${searchMarker[0]},${searchMarker[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-4 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95 transition-all">WAZE</a>
-                              <button onClick={()=>window.open(`https://wa.me/?text=${encodeURIComponent('תראו את המקום הזה ב-Tiyulify: ' + searchMarkerName + '
-https://www.google.com/maps/search/?api=1&query=' + searchMarker[0] + ',' + searchMarker[1])}`,'_blank')} className="flex-1 bg-green-500 text-white text-center py-4 rounded-2xl text-[11px] font-black shadow-lg hover:bg-green-600 active:scale-95 transition-all">WhatsApp</button>
                               <a href={`https://www.google.com/maps/search/?api=1&query=${searchMarker[0]},${searchMarker[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-4 rounded-2xl text-[11px] font-black no-underline border-2 border-gray-200 hover:bg-gray-200 active:scale-95">GOOGLE</a>
                             </div>
                           </div>
