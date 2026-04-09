@@ -377,12 +377,49 @@ export default function TiyulifyApp() {
                     )}
                     {searchMarker && searchPinIcon && (
                       <Marker position={searchMarker} icon={searchPinIcon}>
-                        <Popup>
-                          <div className="text-center p-3">
-                            <p className="font-black text-blue-700 text-lg mb-3">🔍 {searchMarkerName}</p>
-                            <div className="flex gap-2">
-                              <a href={`https://www.waze.com/ul?ll=${searchMarker[0]},${searchMarker[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-2 rounded-xl text-xs font-black no-underline">WAZE</a>
-                              <a href={`https://www.google.com/maps/search/?api=1&query=${searchMarker[0]},${searchMarker[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-2 rounded-xl text-xs font-black no-underline border">GOOGLE</a>
+                        <Popup minWidth={340} maxWidth={400} className="square-modern-popup-container">
+                          <div className="text-right font-sans p-1 overflow-hidden">
+                            {/* תמונת מפה מ-Mapbox Static API */}
+                            <div className="w-full h-44 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden bg-gray-100 relative border-2 border-white">
+                              <img
+                                src={"https://staticmap.openstreetmap.de/staticmap.php?center=" + searchMarker[0] + "," + searchMarker[1] + "&zoom=14&size=600x300&maptype=mapnik"}
+                                alt={searchMarkerName}
+                                className="w-full h-full object-cover"
+                                onError={(e: any) => {
+                                  // fallback to OpenStreetMap static tile
+                                  e.target.src = `https://staticmap.openstreetmap.de/staticmap.php?center=${searchMarker[0]},${searchMarker[1]}&zoom=14&size=600x300&maptype=mapnik&markers=${searchMarker[0]},${searchMarker[1]},red-pushpin`;
+                                  e.target.onerror = (e2: any) => {
+                                    e2.target.parentElement.style.background = 'linear-gradient(135deg,#3b82f622,#3b82f644)';
+                                    e2.target.style.display='none';
+                                  };
+                                }}
+                              />
+                              <div className="absolute bottom-2 right-2 bg-blue-600 text-white text-[10px] font-black px-2 py-1 rounded-full shadow">
+                                🔍 חיפוש
+                              </div>
+                            </div>
+                            <h4 className="font-black text-blue-900 text-2xl m-0 leading-none mb-3 px-1">
+                              📍 {searchMarkerName}
+                            </h4>
+                            {userCoords && (
+                              <div className="flex items-center gap-2 mb-4 bg-blue-50 inline-flex px-4 py-1.5 rounded-full border-2 border-blue-100 shadow-sm">
+                                <span className="text-xl">🚀</span>
+                                <p className="text-[14px] text-blue-700 font-black m-0">
+                                  {labels[activeLang].distLabel} {calculateDistance(userCoords[0], userCoords[1], searchMarker[0], searchMarker[1])} {labels[activeLang].km}
+                                </p>
+                              </div>
+                            )}
+                            <div className="border-t-2 border-gray-100 mt-2 pt-3 px-1">
+                              <p className="text-[14px] text-gray-500 font-semibold leading-relaxed">
+                                {activeLang==='he' ? 'מיקום שנמצא בחיפוש. לניווט לחצו על אחד מהכפתורים למטה.' :
+                                 activeLang==='ar' ? 'موقع تم العثور عليه بالبحث. اضغط على أحد الأزرار للتنقل.' :
+                                 activeLang==='ru' ? 'Место найдено через поиск. Нажмите кнопку для навигации.' :
+                                 'Location found via search. Press a button below to navigate.'}
+                              </p>
+                            </div>
+                            <div className="flex flex-wrap gap-3 mt-4 pb-2">
+                              <a href={`https://www.waze.com/ul?ll=${searchMarker[0]},${searchMarker[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-4 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95 transition-all">WAZE</a>
+                              <a href={`https://www.google.com/maps/search/?api=1&query=${searchMarker[0]},${searchMarker[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-4 rounded-2xl text-[11px] font-black no-underline border-2 border-gray-200 hover:bg-gray-200 active:scale-95">GOOGLE</a>
                             </div>
                           </div>
                         </Popup>
