@@ -169,7 +169,7 @@ export default function TiyulifyApp() {
           <div className="relative z-10 w-full max-w-2xl px-4 animate-fadeIn">
             <div className="flex items-center justify-center gap-4 mb-8 md:gap-8 md:mb-12">
               <a href="https://sites.google.com/view/geology-info/" target="_blank" rel="noopener noreferrer" className="shrink-0 group">
-                
+                <img src="/Logo- Mamdoh1.gif" alt="Logo" className="w-16 h-16 md:w-32 md:h-32 rounded-full border-2 md:border-4 border-white shadow-2xl transition-all duration-1000 group-hover:rotate-[360deg] object-cover"/>
               </a>
               <h1 className="text-4xl md:text-9xl font-black tracking-tighter drop-shadow-2xl italic uppercase">Tiyulify</h1>
             </div>
@@ -211,7 +211,7 @@ export default function TiyulifyApp() {
             <div className="flex items-center justify-between w-full px-2">
               <div className="flex items-center gap-3 md:gap-8">
                 <a href="https://sites.google.com/view/geology-info/" target="_blank" rel="noopener noreferrer" className="shrink-0 group">
-                  
+                  <img src="/Logo- Mamdoh1.gif" alt="Logo" className="w-10 h-10 md:w-16 md:h-16 rounded-full border-2 border-green-500 transition-transform duration-700 group-hover:rotate-[360deg] object-cover"/>
                 </a>
                 <h2 className="text-2xl md:text-5xl font-black text-green-700 cursor-pointer italic tracking-tight uppercase" onClick={()=>setActiveView('home')}>Tiyulify</h2>
               </div>
@@ -283,7 +283,7 @@ export default function TiyulifyApp() {
                         <div key={item.id} onClick={()=>flyToCoords(item.coords)}
                           className="bg-gray-50 rounded-[3rem] p-5 shadow-sm hover:shadow-2xl cursor-pointer border-2 border-transparent hover:border-green-300 transition-all group overflow-hidden">
                           <div className="relative h-44 w-full mb-5 rounded-[2rem] overflow-hidden shadow-inner bg-gray-200">
-                            
+                            <img src={item.image} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" alt=""/>
                           </div>
                           <h3 className="font-black text-gray-800 text-xl px-2 leading-tight">{item.name[activeLang]||item.name.he}</h3>
                           {d && <p className="text-[14px] text-green-600 font-black mt-3 px-2 flex items-center gap-1.5"><span className="text-lg">🚀</span> {d} {labels[activeLang].distText}</p>}
@@ -320,13 +320,13 @@ export default function TiyulifyApp() {
                         <Marker key={item.id} position={item.coords}>
                           <Popup minWidth={340} maxWidth={400} className="square-modern-popup-container">
                             <div className="text-right font-sans p-1 overflow-hidden">
-                              <img referrerPolicy="no-referrer" onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src="https://loremflickr.com/800/600/nature,israel," + encodeURIComponent(item.name.he); }} src={item.image} referrerPolicy="no-referrer" onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"; }} referrerPolicy="no-referrer" onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"; }} className="w-full h-44 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden bg-black relative border-2 border-white">
+                              <div className="w-full h-44 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden bg-black relative border-2 border-white">
                                 {(item.video && item.id!=="1") ? (
                                   <iframe key={`v-${item.id}`} width="100%" height="100%" src={getYoutubeLink(item.video)} title="Video" frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen />
+                                    allowFullScreen referrerPolicy="strict-origin-when-cross-origin"/>
                                 ) : (
-                                  
+                                  <img src={item.image} alt="" className="w-full h-full object-cover"/>
                                 )}
                               </div>
                               <h4 className="font-black text-green-900 text-3xl m-0 leading-none mb-3 px-1">{item.name[activeLang]||item.name.he}</h4>
