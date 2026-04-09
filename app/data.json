@@ -4730,5 +4730,1055 @@
       "en": "Manicured gardens and hiking trails at the meeting point of Carmel and the plain.",
       "ru": "Ухоженные сады и пешеходные маршруты на стыке гор Кармель и долины."
     }
+  },
+  {
+    "id": "228",
+    "name": {
+      "he": "סוויטות ענבר - מצוק עורבים",
+      "ar": "أجنحة عنبر - منحدر الغربان",
+      "en": "Inbar Suites - Oravim Cliff",
+      "ru": "Люксы Инбар - Утес Воронов"
+    },
+    "coords": [
+      33.145,
+      35.712
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סוויטות מעוצבות בצפון הגולן אל מול נוף העמק.",
+      "ar": "أجنحة مصممة في شمال الجولان تطل على منظر السهل.",
+      "en": "Designed suites in the Northern Golan overlooking the valley view.",
+      "ru": "Дизайнерские люксы на севере Голан с видом на долину."
+    }
+  },
+  {
+    "id": "229",
+    "name": {
+      "he": "צימר נוף בשניר",
+      "ar": "أكواخ سنير المطلة",
+      "en": "Snir View Cabin",
+      "ru": "Домик с видом в Снире"
+    },
+    "coords": [
+      33.242,
+      35.667
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Dafna_Kibbutz_Water.jpg/800px-Dafna_Kibbutz_Water.jpg",
+    "description": {
+      "he": "אירוח כפרי בגליל העליון סמוך לשמורת הבניאס.",
+      "ar": "إقامة ريفية في الجليل الأعلى بالقرب من محمية بانياس.",
+      "en": "Country lodging in the Upper Galilee near the Banias reserve.",
+      "ru": "Сельское жилье в Верхней Галилее рядом с заповедником Баниас."
+    }
+  },
+  {
+    "id": "230",
+    "name": {
+      "he": "מלון בוטיק הסקוטים - טבריה",
+      "ar": "فندق الاسكتلندي - طبريا",
+      "en": "The Scots Hotel - Tiberias",
+      "ru": "Шотландский отель - Тверия"
+    },
+    "coords": [
+      32.791,
+      35.539
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Tiberias_Promenade.jpg/800px-Tiberias_Promenade.jpg",
+    "description": {
+      "he": "מלון היסטורי ויוקרתי על שפת הכנרת.",
+      "ar": "فندق تاريخي وفاخر على ضفاف بحيرة طبريا.",
+      "en": "Historic and luxury hotel on the shores of the Sea of Galilee.",
+      "ru": "Исторический люкс-отель на берегу Кинерета."
+    }
+  },
+  {
+    "id": "231",
+    "name": {
+      "he": "בקתות עץ ג'וחדר - דרום הגולן",
+      "ar": "أكواخ جوخدر الخشبية",
+      "en": "Juchedar Wooden Cabins",
+      "ru": "Деревянные домики Джухадар"
+    },
+    "coords": [
+      32.955,
+      35.861
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Vineyards_in_Galilee.jpg/800px-Vineyards_in_Galilee.jpg",
+    "description": {
+      "he": "בקתות מבודדות בדרום רמת הגולן.",
+      "ar": "أكواخ منعزلة في جنوب هضبة الجولان.",
+      "en": "Isolated cabins in the Southern Golan Heights.",
+      "ru": "Уединенные домики на юге Голанских высот."
+    }
+  },
+  {
+    "id": "232",
+    "name": {
+      "he": "פארק הדיג יוקנעם",
+      "ar": "منتزه الصيد يوكنعام",
+      "en": "Yoqneam Fishing Park",
+      "ru": "Парк рыбалки Йокнеам"
+    },
+    "coords": [
+      32.651,
+      35.121
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Nir_David_River.jpg/800px-Nir_David_River.jpg",
+    "description": {
+      "he": "פארק רחב עם מדשאות, פינות מנגל ואגמי דיג.",
+      "ar": "منتزه واسع مع مساحات خضراء، مناطق شواء وبحيرات صيد.",
+      "en": "Large park with lawns, BBQ areas, and fishing lakes.",
+      "ru": "Большой парк с газонами, зонами для мангалов и озерами для рыбалки."
+    }
+  },
+  {
+    "id": "233",
+    "name": {
+      "he": "פארק רמות מנשה",
+      "ar": "منتزه رمات منشيه",
+      "en": "Ramat Menashe Park",
+      "ru": "Парк Рамат-Менаше"
+    },
+    "coords": [
+      32.585,
+      35.083
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "מרחב ביוספרי ענק הכולל יערות, נחלים ומקומות מנגל.",
+      "ar": "مساحة بيئية ضخمة تشمل غابات، جداول ومناطق شواء.",
+      "en": "Huge biosphere space including forests, streams, and BBQ spots.",
+      "ru": "Огромный биосферный заповедник с лесами, ручьями и местами для барбекю."
+    }
+  },
+  {
+    "id": "234",
+    "name": {
+      "he": "חוף צמח - כנרת",
+      "ar": "شاطئ تسيمح",
+      "en": "Tzemach Beach",
+      "ru": "Пляж Цемах"
+    },
+    "coords": [
+      32.705,
+      35.584
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kinneret_view_North.jpg/800px-Kinneret_view_North.jpg",
+    "description": {
+      "he": "חוף רחצה מוסדר בדרום הכנרת עם מתקני מים.",
+      "ar": "شاطئ منظم في جنوب بحيرة طبريا مع مرافق مائية.",
+      "en": "Regulated beach in the southern Sea of Galilee with water facilities.",
+      "ru": "Оборудованный пляж на юге Кинерета с водными аттракционами."
+    }
+  },
+  {
+    "id": "235",
+    "name": {
+      "he": "חורשת טל",
+      "ar": "حورشات تال",
+      "en": "Hurshat Tal",
+      "ru": "Хуршат Таль"
+    },
+    "coords": [
+      33.221,
+      35.628
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Eilon_Landscape.jpg/800px-Eilon_Landscape.jpg",
+    "description": {
+      "he": "פארק לאומי עם אלונים עתיקים, בריכות מים קרים ואזורי מנגל.",
+      "ar": "منتزه وطني مع أشجار بلوط قديمة، برك مياه باردة ومناطق شواء.",
+      "en": "National park with ancient oaks, cold water pools, and BBQ areas.",
+      "ru": "Национальный парк со старыми дубами, бассейнами и зонами для мангала."
+    }
+  },
+  {
+    "id": "236",
+    "name": {
+      "he": "חושות רמות מנשה",
+      "ar": "أكواخ رمات منشيه",
+      "en": "Ramat Menashe Huts",
+      "ru": "Хижины Рамат-Менаше"
+    },
+    "coords": [
+      32.612,
+      35.094
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Beit_Oren_View.jpg/800px-Beit_Oren_View.jpg",
+    "description": {
+      "he": "אירוח פשוט בסגנון חושות בלב הטבע של רמות מנשה.",
+      "ar": "إقامة بسيطة على طراز الأكواخ في قلب طبيعة رمات منشيه.",
+      "en": "Simple hut-style accommodation in the heart of Ramat Menashe nature.",
+      "ru": "Простое жилье в стиле хижин в самом сердце природы Рамат-Менаше."
+    }
+  },
+  {
+    "id": "237",
+    "name": {
+      "he": "חוף חוקוק - הכנרת",
+      "ar": "شاطئ حقوق",
+      "en": "Hukok Beach",
+      "ru": "Пляж Хукок"
+    },
+    "coords": [
+      32.879,
+      35.534
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dor_Beach_Sunset.jpg/800px-Dor_Beach_Sunset.jpg",
+    "description": {
+      "he": "חוף ירוק ושקט ללא מוזיקה, פתוח לקהל.",
+      "ar": "شاطئ أخضر وهادئ بدون موسيقى، مفتوح للجمهور.",
+      "en": "Quiet green beach without music, open to the public.",
+      "ru": "Тихий «зеленый» пляж без музыки, открытый для публики."
+    }
+  },
+  {
+    "id": "238",
+    "name": {
+      "he": "פארק נחל קרת - יוקנעם",
+      "ar": "منتزه نهر كرت",
+      "en": "Nahal Keret Park",
+      "ru": "Парк Нахаль Керет"
+    },
+    "coords": [
+      32.658,
+      35.105
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Little_Switzerland_Carmel.jpg/800px-Little_Switzerland_Carmel.jpg",
+    "description": {
+      "he": "פארק עירוני עם פינת חי, אגם קטן ומקומות פיקניק ומנגל.",
+      "ar": "منتزه مدني مع حديقة حيوانات، بحيرة صغيرة وأماكن للنزهات.",
+      "en": "Urban park with a petting zoo, small lake, and picnic/BBQ spots.",
+      "ru": "Городской парк с зоопарком, небольшим озером и местами для пикника."
+    }
+  },
+  {
+    "id": "239",
+    "name": {
+      "he": "צימרים בכפר חיטים",
+      "ar": "أكواخ في كفار حتيم",
+      "en": "Kfar Hittim Cabins",
+      "ru": "Домики в Кфар-Хитим"
+    },
+    "coords": [
+      32.805,
+      35.498
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kinneret_view_North.jpg/800px-Kinneret_view_North.jpg",
+    "description": {
+      "he": "בקתות אירוח במושב הצופה אל הכנרת והר ארבל.",
+      "ar": "أكواخ ضيافة في قرية تطل على بحيرة طبريا وجبل أربل.",
+      "en": "Guest cabins in a moshav overlooking the Sea of Galilee and Mount Arbel.",
+      "ru": "Гостевые домики в мошаве с видом на Кинерет и гору Арбель."
+    }
+  },
+  {
+    "id": "240",
+    "name": {
+      "he": "חוף גופרה - כנרת",
+      "ar": "شاطئ غوفرا",
+      "en": "Gofra Beach",
+      "ru": "Пляж Гофра"
+    },
+    "coords": [
+      32.825,
+      35.636
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "חוף קמפינג פופולרי עם גישה נוחה למים.",
+      "ar": "شاطئ تخييم شهير مع وصول سهل للمياه.",
+      "en": "Popular camping beach with easy water access.",
+      "ru": "Популярный пляж для кемпинга с удобным выходом к воде."
+    }
+  },
+  {
+    "id": "241",
+    "name": {
+      "he": "עין יזרעאל",
+      "ar": "عين يزراعيل",
+      "en": "Ein Jezreel",
+      "ru": "Эйн-Изреель"
+    },
+    "coords": [
+      32.558,
+      35.352
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Galilee_Mountains.jpg/800px-Galilee_Mountains.jpg",
+    "description": {
+      "he": "מעיין הנובע לתוך בריכה רדודה, מקום אידיאלי למנגל תחת העצים.",
+      "ar": "نبع يصب في بركة ضحلة، مكان مثالي للشواء تحت الأشجار.",
+      "en": "A spring flowing into a shallow pool, ideal for BBQ under the trees.",
+      "ru": "Источник, впадающий в неглубокий бассейн, идеальное место для мангала."
+    }
+  },
+  {
+    "id": "242",
+    "name": {
+      "he": "צימרים באורטל",
+      "ar": "أكواخ في أورتال",
+      "en": "Ortal Cabins",
+      "ru": "Домики в Ортале"
+    },
+    "coords": [
+      33.088,
+      35.756
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אירוח יוקרתי בבקתות עץ בתוך יער אלונים בצפון הגולן.",
+      "ar": "إقامة فاخرة في أكواخ خشبية داخل غابة بلوط شمال الجولان.",
+      "en": "Luxury accommodation in wooden cabins inside an oak forest in Northern Golan.",
+      "ru": "Роскошное жилье в деревянных домиках в дубовом лесу на севере Голан."
+    }
+  },
+  {
+    "id": "243",
+    "name": {
+      "he": "פארק המעיינות",
+      "ar": "منتزه الينابيع",
+      "en": "Springs Park",
+      "ru": "Парк Источников"
+    },
+    "coords": [
+      32.505,
+      35.445
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Nir_David_River.jpg/800px-Nir_David_River.jpg",
+    "description": {
+      "he": "פארק ענק עם מעיינות טבעיים ואזורי פיקניק.",
+      "ar": "منتزه ضخم مع ينابيع طبيعية ومناطق للنزهات.",
+      "en": "Huge park with natural springs and picnic areas.",
+      "ru": "Огромный парк с природными источниками и зонами для пикника."
+    }
+  },
+  {
+    "id": "244",
+    "name": {
+      "he": "חוף דוגית - כנרת",
+      "ar": "شاطئ دوغيت",
+      "en": "Dugit Beach",
+      "ru": "Пляж Дугит"
+    },
+    "coords": [
+      32.855,
+      35.635
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dor_Beach_Sunset.jpg/800px-Dor_Beach_Sunset.jpg",
+    "description": {
+      "he": "חוף רחצה מסודר עם מדשאות ומתקני פיקניק.",
+      "ar": "شاطئ منظم مع مساحات خضراء ومرافق للنزهات.",
+      "en": "Regulated beach with lawns and picnic facilities.",
+      "ru": "Оборудованный пляж с газонами и местами для пикника."
+    }
+  },
+  {
+    "id": "245",
+    "name": {
+      "he": "בקתות עץ בכפר בלום",
+      "ar": "أكواخ في كفار بلوم",
+      "en": "Kfar Blum Cabins",
+      "ru": "Домики в Кфар-Блюм"
+    },
+    "coords": [
+      33.178,
+      35.608
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Dafna_Kibbutz_Water.jpg/800px-Dafna_Kibbutz_Water.jpg",
+    "description": {
+      "he": "אירוח לצד נהר הירדן עם גישה לפעילויות קיאקים.",
+      "ar": "إقامة بجانب نهر الأردن مع إمكانية ممارسة رياضة الكاياك.",
+      "en": "Accommodation by the Jordan River with access to kayaking.",
+      "ru": "Жилье рядом с рекой Иордан с доступом к каякингу."
+    }
+  },
+  {
+    "id": "246",
+    "name": {
+      "he": "פארק נחל השופט",
+      "ar": "منتزه وادي الحكام",
+      "en": "Nahal HaShofet Park",
+      "ru": "Парк Нахаль Ха-Шофет"
+    },
+    "coords": [
+      32.595,
+      35.108
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Little_Switzerland_Carmel.jpg/800px-Little_Switzerland_Carmel.jpg",
+    "description": {
+      "he": "מסלול נגיש בתוך מים זורמים עם פינות למנגל בקרבת מקום.",
+      "ar": "مسار سهل داخل مياه جارية مع مناطق للشواء قريبة.",
+      "en": "Accessible trail in flowing water with nearby BBQ spots.",
+      "ru": "Доступный маршрут вдоль проточной воды с местами для мангалов неподалеку."
+    }
+  },
+  {
+    "id": "247",
+    "name": {
+      "he": "צימר נוף הארבל",
+      "ar": "أكواخ إطلالة أربل",
+      "en": "Arbel View Cabin",
+      "ru": "Домик Вид на Арбель"
+    },
+    "coords": [
+      32.818,
+      35.495
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Amirim_View.jpg/800px-Amirim_View.jpg",
+    "description": {
+      "he": "סוויטות מול מצוק הארבל והכנרת.",
+      "ar": "أجنحة أمام منحدر أربل وبحيرة طبريا.",
+      "en": "Suites facing the Arbel cliff and the Sea of Galilee.",
+      "ru": "Люксы с видом на скалу Арбель и Кинерет."
+    }
+  },
+  {
+    "id": "248",
+    "name": {
+      "he": "חוף ברניקי - טבריה",
+      "ar": "شاطئ برنيكي",
+      "en": "Berenice Beach",
+      "ru": "Пляж Береника"
+    },
+    "coords": [
+      32.775,
+      35.545
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Tiberias_Promenade.jpg/800px-Tiberias_Promenade.jpg",
+    "description": {
+      "he": "חוף פתוח לקהל בטבריה עם שירותי הצלה.",
+      "ar": "شاطئ مفتوح للجمهور في طبريا مع خدمات إنقاذ.",
+      "en": "Public beach in Tiberias with lifeguard services.",
+      "ru": "Общественный пляж в Тверии с услугами спасателей."
+    }
+  },
+  {
+    "id": "249",
+    "name": {
+      "he": "פארק אדמית",
+      "ar": "منتزه أدميت",
+      "en": "Adamit Park",
+      "ru": "Парк Адамит"
+    },
+    "coords": [
+      33.078,
+      35.215
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Eilon_Landscape.jpg/800px-Eilon_Landscape.jpg",
+    "description": {
+      "he": "תצפיות מרהיבות על הגליל המערבי, מערת הקשת ואזורי מנגל.",
+      "ar": "إطلالات رائعة على الجليل الغربي ومغارة القوس ومناطق شواء.",
+      "en": "Spectacular views of Western Galilee, the Arch Cave, and BBQ areas.",
+      "ru": "Потрясающие виды на Западную Галилею, пещеру Кешет и зоны для барбекю."
+    }
+  },
+  {
+    "id": "250",
+    "name": {
+      "he": "צימרים ביסוד המעלה",
+      "ar": "أكواخ في يسود همعلاه",
+      "en": "Yesud HaMa'ala Cabins",
+      "ru": "Домики в Йесуд-ха-Маала"
+    },
+    "coords": [
+      33.058,
+      35.605
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rosh_Pina_View.jpg/800px-Rosh_Pina_View.jpg",
+    "description": {
+      "he": "אירוח היסטורי וכפרי בעמק החולה.",
+      "ar": "إقامة تاريخية وريفية في سهل الحولة.",
+      "en": "Historic and country lodging in the Hula Valley.",
+      "ru": "Историческое и сельское жилье в долине Хула."
+    }
+  },
+  {
+    "id": "251",
+    "name": {
+      "he": "יער לביא",
+      "ar": "غابة لافي",
+      "en": "Lavi Forest",
+      "ru": "Лес Лави"
+    },
+    "coords": [
+      32.795,
+      35.435
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Galilee_Mountains.jpg/800px-Galilee_Mountains.jpg",
+    "description": {
+      "he": "חורשת אורנים עם מתקני פיקניק ומקומות מנגל.",
+      "ar": "غابة صنوبر مع مرافق نزهة ومساحات للشواء.",
+      "en": "Large pine forest with picnic facilities and plenty of BBQ space.",
+      "ru": "Большой сосновый лес с местами для пикника и мангалов."
+    }
+  },
+  {
+    "id": "252",
+    "name": {
+      "he": "חוף סירונית - כנרת",
+      "ar": "شاطئ سيرونيت",
+      "en": "Sironit Beach",
+      "ru": "Пляж Сиронит"
+    },
+    "coords": [
+      32.712,
+      35.578
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "חוף רחצה דרומי שקט יחסית.",
+      "ar": "شاطئ جنوبي هادئ نسبياً.",
+      "en": "Relatively quiet southern beach.",
+      "ru": "Относительно тихий южный пляж."
+    }
+  },
+  {
+    "id": "253",
+    "name": {
+      "he": "מלון גליליון - עמק החולה",
+      "ar": "فندق غاليليون",
+      "en": "Galilion Hotel",
+      "ru": "Отель Галилион"
+    },
+    "coords": [
+      33.095,
+      35.588
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מלון יוקרה מול הרי הגולן.",
+      "ar": "فندق فاخر أمام جبال الجولان.",
+      "en": "Luxury hotel facing the Golan mountains.",
+      "ru": "Роскошный отель напротив гор Голан."
+    }
+  },
+  {
+    "id": "254",
+    "name": {
+      "he": "יער שווייץ - טבריה",
+      "ar": "غابة سويسرا - طبريا",
+      "en": "Switzerland Forest",
+      "ru": "Швейцарский лес"
+    },
+    "coords": [
+      32.768,
+      35.525
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "תצפיות על הכנרת עם שולחנות פיקניק ומקומות מנגל.",
+      "ar": "إطلالات على بحيرة طبريا مع طاولات نزهة وأماكن شواء.",
+      "en": "Sea of Galilee views with picnic tables and BBQ spots.",
+      "ru": "Вид на Кинерет, столы для пикника и места для мангалов."
+    }
+  },
+  {
+    "id": "255",
+    "name": {
+      "he": "חוף לבנון - כנרת",
+      "ar": "شاطئ لبنان",
+      "en": "Lebanon Beach",
+      "ru": "Пляж Леванон"
+    },
+    "coords": [
+      32.845,
+      35.638
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dor_Beach_Sunset.jpg/800px-Dor_Beach_Sunset.jpg",
+    "description": {
+      "he": "חוף מוכר לצעירים וקמפינג.",
+      "ar": "شاطئ مشهور للشباب والتخييم.",
+      "en": "Well-known beach for youth and camping.",
+      "ru": "Известный пляж для молодежи и кемпинга."
+    }
+  },
+  {
+    "id": "256",
+    "name": {
+      "he": "צימרים במצוק עורבים",
+      "ar": "أكواخ في منحدر الغربان",
+      "en": "Oravim Cliff Cabins",
+      "ru": "Домики в Утесе Воронов"
+    },
+    "coords": [
+      33.148,
+      35.715
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Vineyards_in_Galilee.jpg/800px-Vineyards_in_Galilee.jpg",
+    "description": {
+      "he": "בקתות עץ ביישוב קלע אלון.",
+      "ar": "أكواخ خشبية في بلدة قلع ألون.",
+      "en": "Wooden cabins in the Kela Alon community.",
+      "ru": "Деревянные домики в поселении Кела-Алон."
+    }
+  },
+  {
+    "id": "257",
+    "name": {
+      "he": "יער בירייה",
+      "ar": "غابة بيرية",
+      "en": "Birya Forest",
+      "ru": "Лес Бирия"
+    },
+    "coords": [
+      32.992,
+      35.515
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Merom_Golan_Bental.jpg/800px-Merom_Golan_Bental.jpg",
+    "description": {
+      "he": "היער הנטוע הגדול בגליל עם קברי צדיקים ופינות מנגל.",
+      "ar": "أكبر غابة مزروعة في الجليل مع قبور الصالحين ومناطق شواء.",
+      "en": "The largest planted forest in Galilee with holy sites and BBQ spots.",
+      "ru": "Самый большой посаженный лес в Галилее с местами для мангалов."
+    }
+  },
+  {
+    "id": "258",
+    "name": {
+      "he": "חוף חלוקים - כנרת",
+      "ar": "شاطئ حلوكيم",
+      "en": "Halukim Beach",
+      "ru": "Пляж Халуким"
+    },
+    "coords": [
+      32.858,
+      35.632
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kinneret_view_North.jpg/800px-Kinneret_view_North.jpg",
+    "description": {
+      "he": "חוף רחצה פופולרי בצד המזרחי.",
+      "ar": "شاطئ شهير في الجانب الشرقي.",
+      "en": "Popular beach on the eastern side.",
+      "ru": "Популярный пляж на восточной стороне."
+    }
+  },
+  {
+    "id": "259",
+    "name": {
+      "he": "צימרים בשדה אליעזר",
+      "ar": "أكواخ في سديه إليعازر",
+      "en": "Sde Eliezer Cabins",
+      "ru": "Домики в Сде-Элиэзер"
+    },
+    "coords": [
+      33.045,
+      35.578
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rosh_Pina_View.jpg/800px-Rosh_Pina_View.jpg",
+    "description": {
+      "he": "סוויטות כפריות עם גינות פרטיות בעמק.",
+      "ar": "أجنحة ريفية مع حدائق خاصة في السهل.",
+      "en": "Rural suites with private gardens in the valley.",
+      "ru": "Сельские люксы с частными садами в долине."
+    }
+  },
+  {
+    "id": "260",
+    "name": {
+      "he": "פארק הירדן",
+      "ar": "منتزه الأردن",
+      "en": "Jordan Park",
+      "ru": "Парк Ярден"
+    },
+    "coords": [
+      32.925,
+      35.638
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Nir_David_River.jpg/800px-Nir_David_River.jpg",
+    "description": {
+      "he": "שילוב של טבע, מים זורמים, ארכיאולוגיה ומקומות מנגל.",
+      "ar": "مزيج من الطبيعة، المياه الجارية، المواقع الأثرية ومناطق الشواء.",
+      "en": "Combination of nature, flowing water, archaeology, and BBQ spots.",
+      "ru": "Природа, проточная вода, археология и места для мангалов."
+    }
+  },
+  {
+    "id": "261",
+    "name": {
+      "he": "חוף כורסי - כנרת",
+      "ar": "شاطئ كورسي",
+      "en": "Kursi Beach",
+      "ru": "Пляж Курси"
+    },
+    "coords": [
+      32.828,
+      35.648
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Korazim_Archaeology.jpg/800px-Korazim_Archaeology.jpg",
+    "description": {
+      "he": "חוף שקט עם אתר ארכיאולוגי סמוך.",
+      "ar": "شاطئ هادئ مع موقع أثري قريب.",
+      "en": "Quiet beach with a nearby archaeological site.",
+      "ru": "Тихий пляж рядом с археологическим памятником."
+    }
+  },
+  {
+    "id": "262",
+    "name": {
+      "he": "צימרים באניעם",
+      "ar": "أكواخ في أنيعام",
+      "en": "Aniam Cabins",
+      "ru": "Домики в Аниаме"
+    },
+    "coords": [
+      32.945,
+      35.758
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אירוח בכפר אמנים במרכז הגולן.",
+      "ar": "إقامة في قرية فنانين وسط الجولان.",
+      "en": "Accommodation in an artist village in Central Golan.",
+      "ru": "Жилье в деревне художников в центре Голан."
+    }
+  },
+  {
+    "id": "263",
+    "name": {
+      "he": "יער ציפורי",
+      "ar": "غابة صفورية",
+      "en": "Tzipori Forest",
+      "ru": "Лес Ципори"
+    },
+    "coords": [
+      32.748,
+      35.265
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Little_Switzerland_Carmel.jpg/800px-Little_Switzerland_Carmel.jpg",
+    "description": {
+      "he": "חורש טבעי עם שולחנות פיקניק.",
+      "ar": "غابات طبيعية مع طاولات نزهة.",
+      "en": "Natural woodland with picnic tables.",
+      "ru": "Природный лес со столами для пикника."
+    }
+  },
+  {
+    "id": "264",
+    "name": {
+      "he": "חוף אמנון - כנרת",
+      "ar": "شاطئ أمنون",
+      "en": "Amnon Beach",
+      "ru": "Пляж Амнон"
+    },
+    "coords": [
+      32.905,
+      35.585
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dor_Beach_Sunset.jpg/800px-Dor_Beach_Sunset.jpg",
+    "description": {
+      "he": "החוף הצפוני ביותר בכנרת, שקט ונעים.",
+      "ar": "أبعد شاطئ شمالي في طبريا، هادئ وجميل.",
+      "en": "The northernmost beach on the Sea of Galilee, quiet and pleasant.",
+      "ru": "Самый северный пляж Кинерета, тихий и приятный."
+    }
+  },
+  {
+    "id": "265",
+    "name": {
+      "he": "צימרים בשפר",
+      "ar": "أكواخ في شيفر",
+      "en": "Shefer Cabins",
+      "ru": "Домики в Шефере"
+    },
+    "coords": [
+      32.938,
+      35.442
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Amirim_View.jpg/800px-Amirim_View.jpg",
+    "description": {
+      "he": "בקתות עץ בלב החורש הגלילי.",
+      "ar": "أكواخ خشبية في قلب الغابات الجليلية.",
+      "en": "Wooden cabins in the heart of the Galilean woodland.",
+      "ru": "Деревянные домики в самом сердце галилейского леса."
+    }
+  },
+  {
+    "id": "266",
+    "name": {
+      "he": "יער גלבוע",
+      "ar": "غابة جلبوع",
+      "en": "Gilboa Forest",
+      "ru": "Лес Гильбоа"
+    },
+    "coords": [
+      32.505,
+      35.385
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Galilee_Mountains.jpg/800px-Galilee_Mountains.jpg",
+    "description": {
+      "he": "מסלול נסיעה עם תצפיות לעמק חרוד וחניונים למנגל.",
+      "ar": "مسار قيادة مع إطلالات على سهل حرود ومواقف للشواء.",
+      "en": "Driving route with views of Harod Valley and BBQ campgrounds.",
+      "ru": "Автомобильный маршрут с видами на долину Харод и местами для мангалов."
+    }
+  },
+  {
+    "id": "267",
+    "name": {
+      "he": "חוף תמינון - כנרת",
+      "ar": "شاطئ تمينون",
+      "en": "Taminon Beach",
+      "ru": "Пляж Таминон"
+    },
+    "coords": [
+      32.842,
+      35.635
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "חוף רחצה מסודר עם צל רב.",
+      "ar": "شاطئ منظم مع الكثير من الظل.",
+      "en": "Regulated beach with plenty of shade.",
+      "ru": "Оборудованный пляж с большим количеством тени."
+    }
+  },
+  {
+    "id": "268",
+    "name": {
+      "he": "צימרים בבית הלל",
+      "ar": "أكواخ في بيت هليل",
+      "en": "Beit Hillel Cabins",
+      "ru": "Домики в Бейт-Хиллель"
+    },
+    "coords": [
+      33.208,
+      35.602
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Dafna_Kibbutz_Water.jpg/800px-Dafna_Kibbutz_Water.jpg",
+    "description": {
+      "he": "אירוח על גדות נחל החצבני.",
+      "ar": "إقامة على ضفاف نهر الحاصباني.",
+      "en": "Accommodation on the banks of the Snir River.",
+      "ru": "Жилье на берегу реки Хацбани."
+    }
+  },
+  {
+    "id": "269",
+    "name": {
+      "he": "יער בית קשת",
+      "ar": "غابة بيت كيشيت",
+      "en": "Beit Keshet Forest",
+      "ru": "Лес Бейт-Кешет"
+    },
+    "coords": [
+      32.722,
+      35.385
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "דרך נוף יפהפייה עם חניוני פיקניק מוסדרים.",
+      "ar": "طريق خلاب مع مواقف نزهة منظمة.",
+      "en": "Beautiful scenic route with regulated picnic campgrounds.",
+      "ru": "Красивый панорамный маршрут с оборудованными местами для пикника."
+    }
+  },
+  {
+    "id": "270",
+    "name": {
+      "he": "חוף רסטל - טבריה",
+      "ar": "شاطئ رستال",
+      "en": "Restal Beach",
+      "ru": "Пляж Ресталь"
+    },
+    "coords": [
+      32.795,
+      35.532
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Tiberias_Promenade.jpg/800px-Tiberias_Promenade.jpg",
+    "description": {
+      "he": "חוף פרטי בטבריה המציע ספורט ימי.",
+      "ar": "شاطئ خاص في طبريا يقدم رياضات مائية.",
+      "en": "Private beach in Tiberias offering water sports.",
+      "ru": "Частный пляж в Тверии с водными видами спорта."
+    }
+  },
+  {
+    "id": "271",
+    "name": {
+      "he": "צימרים במנרה",
+      "ar": "أكواخ في منارة",
+      "en": "Manara Cabins",
+      "ru": "Домики в Манаре"
+    },
+    "coords": [
+      33.165,
+      35.551
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Merom_Golan_Bental.jpg/800px-Merom_Golan_Bental.jpg",
+    "description": {
+      "he": "אירוח על רכס רמים עם נוף מרהיב.",
+      "ar": "إقامة على سلسلة جبال راميم مع إطلالة رائعة.",
+      "en": "Accommodation on the Ramim ridge with spectacular views.",
+      "ru": "Жилье на хребте Рамим с потрясающим видом."
+    }
+  },
+  {
+    "id": "272",
+    "name": {
+      "he": "עין אפק",
+      "ar": "عين أفيق",
+      "en": "Ein Afek",
+      "ru": "Эйн-Афек"
+    },
+    "coords": [
+      32.845,
+      35.115
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Nir_David_River.jpg/800px-Nir_David_River.jpg",
+    "description": {
+      "he": "שמורת טבע עם ביצות, גשרים צפים ואזורי מנגל סמוכים.",
+      "ar": "محمية طبيعية مع مستنقعات، جسور عائمة ومناطق شواء قريبة.",
+      "en": "Nature reserve with swamps, floating bridges, and nearby BBQ areas.",
+      "ru": "Заповедник с болотами, плавучими мостами и местами для мангалов."
+    }
+  },
+  {
+    "id": "273",
+    "name": {
+      "he": "חוף הגיא - טבריה",
+      "ar": "شاطئ هجي",
+      "en": "Hagai Beach",
+      "ru": "Пляж Ха-Гай"
+    },
+    "coords": [
+      32.782,
+      35.542
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kinneret_view_North.jpg/800px-Kinneret_view_North.jpg",
+    "description": {
+      "he": "פארק מים וחוף רחצה משולב.",
+      "ar": "حديقة مائية وشاطئ سباحة مدمج.",
+      "en": "Water park and swimming beach combined.",
+      "ru": "Аквапарк и пляж в одном месте."
+    }
+  },
+  {
+    "id": "274",
+    "name": {
+      "he": "צימרים ברמות",
+      "ar": "أكواخ في راموت",
+      "en": "Ramot Cabins",
+      "ru": "Домики в Рамоте"
+    },
+    "coords": [
+      32.848,
+      35.685
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Ramot_View.jpg/800px-Ramot_View.jpg",
+    "description": {
+      "he": "מגוון רחב של בקתות יוקרה במושב רמות.",
+      "ar": "مجموعة واسعة من الأكواخ الفاخرة في قرية راموت.",
+      "en": "Wide range of luxury cabins in Moshav Ramot.",
+      "ru": "Широкий выбор люксовых домиков в мошаве Рамот."
+    }
+  },
+  {
+    "id": "275",
+    "name": {
+      "he": "תל יזרעאל",
+      "ar": "تل يزراعيل",
+      "en": "Tel Jezreel",
+      "ru": "Тель-Изреель"
+    },
+    "coords": [
+      32.558,
+      35.328
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Galilee_Mountains.jpg/800px-Galilee_Mountains.jpg",
+    "description": {
+      "he": "אתר היסטורי עם תצפית לעמק ומקומות לפיקניק.",
+      "ar": "موقع تاريخي مع إطلالة على السهل وأماكن للنزهة.",
+      "en": "Historic site with valley views and picnic spots.",
+      "ru": "Историческое место с видом на долину и местами для пикника."
+    }
+  },
+  {
+    "id": "276",
+    "name": {
+      "he": "חוף המשאבים - כנרת",
+      "ar": "شاطئ המשאבים",
+      "en": "Hamashabim Beach",
+      "ru": "Пляж Ха-Машабим"
+    },
+    "coords": [
+      32.812,
+      35.642
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dor_Beach_Sunset.jpg/800px-Dor_Beach_Sunset.jpg",
+    "description": {
+      "he": "חוף פראי יחסית ופתוח לקהל.",
+      "ar": "شاطئ بري نسبياً ومفتوح للجمهور.",
+      "en": "Relatively wild beach open to the public.",
+      "ru": "Относительно дикий пляж, открытый для публики."
+    }
+  },
+  {
+    "id": "277",
+    "name": {
+      "he": "צימרים בגדות",
+      "ar": "أكواخ في غدوت",
+      "en": "Gadot Cabins",
+      "ru": "Домики в Гадоте"
+    },
+    "coords": [
+      33.018,
+      35.622
+    ],
+    "category": "accommodation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Vineyards_in_Galilee.jpg/800px-Vineyards_in_Galilee.jpg",
+    "description": {
+      "he": "אירוח קיבוצי נעים סמוך לנהר הירדן.",
+      "ar": "إقامة في الكيبوتس ممتعة بالقرب من نهر الأردن.",
+      "en": "Pleasant kibbutz accommodation near the Jordan River.",
+      "ru": "Приятное жилье в кибуце рядом с рекой Иордан."
+    }
   }
 ]
