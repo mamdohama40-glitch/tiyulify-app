@@ -7281,5 +7281,225 @@
       "en": "One of the favorite trails in the Golan, featuring deep pools and waterfalls within a basalt canyon.",
       "ru": "Один из любимых маршрутов на Голанах с глубокими заводями и водопадами в базальтовом каньоне."
     }
+  },
+  {
+    "id": "334",
+    "name": {
+      "he": "מסעדת שטרודל - המושבה הגרמנית",
+      "ar": "مطعم شترودل - المستعمرة الألمانية",
+      "en": "Shtroudl Restaurant - German Colony",
+      "ru": "Ресторан Штрудель - Немецкая колония"
+    },
+    "coords": [
+      32.824,
+      34.989
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/German_Colony_Haifa.jpg/800px-German_Colony_Haifa.jpg",
+    "description": {
+      "he": "מסעדת שף ים-תיכונית הממוקמת למרגלות הגנים הבהאיים במבנה טמפלרי משוחזר.",
+      "ar": "مطعم شيف متوسطي يقع عند قدمي حدائق البهائيين في مبنى تمبلري مرمم.",
+      "en": "A Mediterranean chef restaurant located at the foot of the Baha'i Gardens in a restored Templar building.",
+      "ru": "Средиземноморский ресторан у подножия Бахайских садов в отреставрированном здании тамплиеров."
+    }
+  },
+  {
+    "id": "335",
+    "name": {
+      "he": "פלאפל הזקנים",
+      "ar": "فلافل هزقنيم",
+      "en": "HaZkenim Falafel",
+      "ru": "Фалафель Ха-Зкеним"
+    },
+    "coords": [
+      32.818,
+      34.997
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Falafel_balls.jpg/800px-Falafel_balls.jpg",
+    "description": {
+      "he": "מוסד פלאפל חיפאי ותיק וידוע בשכונת ואדי ניסנאס.",
+      "ar": "مؤسسة فلافل حيفاوية قديمة ومعروفة في حي وادي النسناس.",
+      "en": "A veteran and famous Haifa falafel institution in the Wadi Nisnas neighborhood.",
+      "ru": "Старейшее и знаменитое заведение фалафеля в районе Вади Ниснас."
+    }
+  },
+  {
+    "id": "336",
+    "name": {
+      "he": "קפה לואיז - מרכז הכרמל",
+      "ar": "مقهى لويز - مركز الكرمل",
+      "en": "Cafe Louise - Carmel Center",
+      "ru": "Кафе Луиз - Центр Кармель"
+    },
+    "coords": [
+      32.805,
+      34.985
+    ],
+    "category": "cafe",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ומסעדה המתמקדים באוכל בריא, טבעי ואורגני באווירה נעימה.",
+      "ar": "مقهى ومطعم يركز على الأكل الصحي والطبيعي والعضوي في أجواء مريحة.",
+      "en": "A cafe and restaurant focusing on healthy, natural, and organic food in a pleasant atmosphere.",
+      "ru": "Кафе и ресторан, специализирующийся на здоровой, натуральной и органической еде."
+    }
+  },
+  {
+    "id": "337",
+    "name": {
+      "he": "מסעדת מעיין הבירה",
+      "ar": "مطعم معيان هبيرا",
+      "en": "Maayan HaBira Restaurant",
+      "ru": "Ресторан Мааян Ха-Бира"
+    },
+    "coords": [
+      32.821,
+      35.0
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה נוסטלגית בעיר התחתית המפורסמת בבשרים מעושנים ובירות מהחבית.",
+      "ar": "مطعم حنين في المدينة السفلى يشتهر باللحوم المدخنة والبيرة.",
+      "en": "A nostalgic restaurant in the Lower City famous for its smoked meats and draft beers.",
+      "ru": "Ностальгический ресторан в Нижнем городе, знаменитый копченым мясом и разливным пивом."
+    }
+  },
+  {
+    "id": "338",
+    "name": {
+      "he": "קפה קהונה - חוף דדו",
+      "ar": "مقهى كاهونا - شاطئ دادو",
+      "en": "Kahuna Cafe - Dado Beach",
+      "ru": "Кафе Кахуна - Пляж Дадо"
+    },
+    "coords": [
+      32.802,
+      34.953
+    ],
+    "category": "cafe",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Shefayim_Beach.jpg/800px-Shefayim_Beach.jpg",
+    "description": {
+      "he": "בית קפה ומסעדה על שפת הים בחיפה, מקום אידיאלי לצפייה בשקיעה.",
+      "ar": "مقهى ومطعم على شاطئ البحر في حيفا، مكان مثالي لمشاهدة غروب الشمس.",
+      "en": "A beachside cafe and restaurant in Haifa, an ideal spot for watching the sunset.",
+      "ru": "Прибрежное кафе и ресторан в Хайфе, идеальное место для наблюдения за закатом."
+    }
+  },
+  {
+    "id": "339",
+    "name": {
+      "he": "רולא - מסעדה לבנטינית",
+      "ar": "رولا - مطعم شامي",
+      "en": "Rola - Levantine Kitchen",
+      "ru": "Рола - Левантийская кухня"
+    },
+    "coords": [
+      32.822,
+      34.996
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מטבח שאמי-לבנטיני אותנטי המציע מנות מסורתיות בלב העיר התחתית.",
+      "ar": "مطبخ شامي أصيل يقدم أطباقاً تقليدية في قلب المدينة السفلى.",
+      "en": "Authentic Shami-Levantine kitchen offering traditional dishes in the heart of the Lower City.",
+      "ru": "Аутентичная левантийская кухня, предлагающая традиционные блюда в Нижнем городе."
+    }
+  },
+  {
+    "id": "340",
+    "name": {
+      "he": "קפה מסדה",
+      "ar": "مقهى مسادا",
+      "en": "Cafe Masada",
+      "ru": "Кафе Масада"
+    },
+    "coords": [
+      32.812,
+      34.993
+    ],
+    "category": "cafe",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "בית קפה שכונתי ובוהמייני ברחוב מסדה הציורי בהדר.",
+      "ar": "مقهى حي بوهيمي في شارع مسادا الخلاب في حي الهدار.",
+      "en": "A bohemian neighborhood cafe on the picturesque Masada Street in Hadar.",
+      "ru": "Богемное соседское кафе на живописной улице Масада в районе Адар."
+    }
+  },
+  {
+    "id": "341",
+    "name": {
+      "he": "וניה ביסטרו",
+      "ar": "فانيا بيسترو",
+      "en": "Vanya Bistro",
+      "ru": "Ваня Бистро"
+    },
+    "coords": [
+      32.82,
+      35.001
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "ביסטרו מודרני בעיר התחתית המשלב קולינריה מקומית עם טכניקות אירופאיות.",
+      "ar": "بيسترو حديث في المدينة السفلى يجمع بين المأكولات المحلية والتقنيات الأوروبية.",
+      "en": "A modern bistro in the Lower City combining local culinary art with European techniques.",
+      "ru": "Современное бистро в Нижнем городе, сочетающее местную кулинарию с европейскими техниками."
+    }
+  },
+  {
+    "id": "342",
+    "name": {
+      "he": "קפה מנדרין - מרכז הכרמל",
+      "ar": "مقهى مندرين",
+      "en": "Mandarin Cafe - Carmel Center",
+      "ru": "Кафе Мандарин - Центр Кармель"
+    },
+    "coords": [
+      32.806,
+      34.986
+    ],
+    "category": "cafe",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף הדגל של הרשת החיפאית, ממוקם בלב אזור הבילויים של הכרמל.",
+      "ar": "الفرع الرئيسي للشبكة الحيفاوية، يقع في قلب منطقة الترفيه في الكرمل.",
+      "en": "The flagship branch of the Haifa-based chain, located in the heart of Carmel's entertainment district.",
+      "ru": "Флагманский филиал хайфской сети в центре развлекательного района Кармель."
+    }
+  },
+  {
+    "id": "343",
+    "name": {
+      "he": "מסעדת המנזר (אל דיר)",
+      "ar": "مطعم الدير",
+      "en": "The Monastery Restaurant",
+      "ru": "Ресторан Монастырь"
+    },
+    "coords": [
+      32.83,
+      34.97
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Stella_Maris_Monastery.jpg/800px-Stella_Maris_Monastery.jpg",
+    "description": {
+      "he": "מסעדה השוכנת במתחם סטלה מאריס עם תצפית מדהימה למפרץ חיפה.",
+      "ar": "مطعم يقع في مجمع ستيلا ماريس مع إطلالة رائعة على خليج حيفا.",
+      "en": "A restaurant located in the Stella Maris complex with an amazing view of the Haifa Bay.",
+      "ru": "Ресторан в комплексе Стелла Марис с потрясающим видом на Хайфский залив."
+    }
   }
 ]
