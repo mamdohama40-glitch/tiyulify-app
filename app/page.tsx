@@ -1,4 +1,11 @@
 "use client";
+import { createClient } from '@supabase/supabase-js';
+
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+);
+
 import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import 'leaflet/dist/leaflet.css';
 import data from './data.json';
@@ -16,6 +23,94 @@ function getYoutubeLink(id: string): string {
   if (!id) return "";
   const o = typeof window!=='undefined' ? `&origin=${window.location.origin}` : "";
   return `https://www.youtube.com/embed/${id}?autoplay=0&rel=0&modestbranding=1${o}`;
+}
+
+
+// === העלאת תמונות משתמשים ===
+function PhotoUploader({ item, onPhotoAdded }: { item: any; onPhotoAdded: () => void }) {
+  const [uploading, setUploading] = React.useState(false);
+  const [name, setName] = React.useState('');
+
+  const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setUploading(true);
+    try {
+      const ext = file.name.split('.').pop();
+      const fileName = `${item.id}/${Date.now()}.${ext}`;
+      const { error } = await supabase.storage
+        .from('place-photos')
+        .upload(fileName, file, { upsert: true });
+      if (error) throw error;
+
+      await supabase.from('place_photos').insert({
+        place_id: item.id,
+        file_path: fileName,
+        uploader_name: name || 'אורח',
+        taken_at: new Date().toISOString(),
+      });
+      onPhotoAdded();
+      alert('✅ התמונה הועלתה בהצלחה!');
+    } catch (err) {
+      alert('שגיאה בהעלאה');
+    } finally {
+      setUploading(false);
+    }
+  };
+
+  return (
+    <div className="mt-3 border-t border-gray-100 pt-3">
+      <input
+        type="text"
+        placeholder="השם שלך (אופציונלי)"
+        value={name}
+        onChange={e => setName(e.target.value)}
+        className="w-full border rounded-xl px-3 py-2 text-sm mb-2 text-right"
+      />
+      <label className={`flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-black cursor-pointer transition-all ${uploading ? 'bg-gray-200 text-gray-400' : 'bg-green-500 text-white hover:bg-green-600'}`}>
+        {uploading ? '⏳ מעלה...' : '📷 הוסף תמונה שלך'}
+        <input type="file" accept="image/*" capture="environment" className="hidden" onChange={handleUpload} disabled={uploading} />
+      </label>
+    </div>
+  );
+}
+
+// === גלריית תמונות משתמשים ===
+function UserPhotos({ item }: { item: any }) {
+  const [photos, setPhotos] = React.useState<any[]>([]);
+  const [refresh, setRefresh] = React.useState(0);
+
+  React.useEffect(() => {
+    supabase.from('place_photos')
+      .select('*')
+      .eq('place_id', item.id)
+      .order('taken_at', { ascending: false })
+      .then(({ data }) => setPhotos(data || []));
+  }, [item.id, refresh]);
+
+  if (photos.length === 0) return (
+    <PhotoUploader item={item} onPhotoAdded={() => setRefresh(r => r+1)} />
+  );
+
+  return (
+    <div className="mt-3 border-t border-gray-100 pt-3">
+      <p className="text-xs font-black text-gray-400 mb-2 text-right">📸 תמונות מבקרים ({photos.length})</p>
+      <div className="flex gap-2 overflow-x-auto no-scrollbar pb-2">
+        {photos.map((p, i) => {
+          const { data } = supabase.storage.from('place-photos').getPublicUrl(p.file_path);
+          return (
+            <div key={i} className="shrink-0 relative">
+              <img src={data.publicUrl} className="h-20 w-20 object-cover rounded-xl border-2 border-white shadow" />
+              <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-[8px] text-center rounded-b-xl px-1 py-0.5 truncate">
+                {p.uploader_name} · {new Date(p.taken_at).toLocaleDateString('he-IL')}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      <PhotoUploader item={item} onPhotoAdded={() => setRefresh(r => r+1)} />
+    </div>
+  );
 }
 
 // === SmartImage: תמונה חכמה עם fallback ===
