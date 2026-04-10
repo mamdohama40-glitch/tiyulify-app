@@ -203,7 +203,7 @@ export default function TiyulifyApp() {
         matchesCat = true;
       } else if (categoryFilter === 'river') {
         // נחלים = water items עם נחל בשם
-        matchesCat = cat === 'water' && ('נחל' in nameHe || nameHe.includes('נחל') || nameEn.includes('stream') || nameEn.includes('nahal') || nameEn.includes('river'));
+        matchesCat = cat === 'water' && (nameHe.includes('נחל') || nameEn.includes('stream') || nameEn.includes('nahal') || nameEn.includes('river'));
       } else if (categoryFilter === 'water') {
         // מים = water items שאינם נחלים
         matchesCat = cat === 'water' && !nameHe.includes('נחל') && !nameEn.includes('stream');
@@ -228,7 +228,8 @@ export default function TiyulifyApp() {
 
   const flyToCoords = (t: [number,number]) => { if(mapControl.current) mapControl.current.flyTo(t, 14, {animate:true,duration:2.0}); };
   const handleSurpriseMe = () => {
-    const pool = filteredItems.length>0 ? filteredItems.slice(0,10) : data as any[];
+    const pool = filteredItems.length>0 ? filteredItems.slice(0,10) : (data as any[]);
+    if (pool.length === 0) return;
     const pick = pool[Math.floor(Math.random()*pool.length)] as any;
     setCategoryFilter('all'); setActiveView('map');
     setTimeout(() => flyToCoords(pick.coords as [number,number]), 800);
