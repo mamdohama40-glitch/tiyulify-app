@@ -75,40 +75,60 @@ function PhotoUploader({ item, onPhotoAdded }: { item: any; onPhotoAdded: () => 
   );
 }
 
-// === גלריית תמונות משתמשים ===
+// === גלריה עם carousel ===
 function UserPhotos({ item }: { item: any }) {
   const [photos, setPhotos] = React.useState<any[]>([]);
   const [refresh, setRefresh] = React.useState(0);
+  const [idx, setIdx] = React.useState(0);
 
   React.useEffect(() => {
     supabase.from('place_photos')
       .select('*')
       .eq('place_id', item.id)
       .order('taken_at', { ascending: false })
-      .then(({ data }) => setPhotos(data || []));
+      .then(({ data }) => { setPhotos(data || []); setIdx(0); });
   }, [item.id, refresh]);
 
-  if (photos.length === 0) return (
-    <PhotoUploader item={item} onPhotoAdded={() => setRefresh(r => r+1)} />
-  );
+  // כל התמונות: תמונת ברירת המחדל + תמונות משתמשים
+  const defaultImg = item.image || '';
+  const userImgs = photos.map(p => ({
+    url: supabase.storage.from('place-photos').getPublicUrl(p.file_path).data.publicUrl,
+    name: p.uploader_name,
+    date: new Date(p.taken_at).toLocaleDateString('he-IL'),
+    isUser: true,
+  }));
+  const allImgs = [{ url: defaultImg, name: '', date: '', isUser: false }, ...userImgs];
+  const current = allImgs[idx] || allImgs[0];
+  const total = allImgs.length;
 
   return (
-    <div className="mt-3 border-t border-gray-100 pt-3">
-      <p className="text-xs font-black text-gray-400 mb-2 text-right">📸 תמונות מבקרים ({photos.length})</p>
-      <div className="flex gap-2 overflow-x-auto no-scrollbar pb-2">
-        {photos.map((p, i) => {
-          const { data } = supabase.storage.from('place-photos').getPublicUrl(p.file_path);
-          return (
-            <div key={i} className="shrink-0 relative">
-              <img src={data.publicUrl} className="h-20 w-20 object-cover rounded-xl border-2 border-white shadow" />
-              <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-[8px] text-center rounded-b-xl px-1 py-0.5 truncate">
-                {p.uploader_name} · {new Date(p.taken_at).toLocaleDateString('he-IL')}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-      <PhotoUploader item={item} onPhotoAdded={() => setRefresh(r => r+1)} />
+    <div className="relative w-full h-44 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden bg-gray-100 border-2 border-white">
+      <img src={current.url} alt="" className="w-full h-full object-cover"/>
+      {current.isUser && (
+        <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-[10px] text-center py-1 px-2">
+          📸 {current.name} · {current.date}
+        </div>
+      )}
+      {total > 1 && (
+        <>
+          <button onClick={e => { e.stopPropagation(); setIdx(i => (i-1+total)%total); }}
+            className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/40 text-white rounded-full w-7 h-7 flex items-center justify-center text-lg font-black hover:bg-black/70">‹</button>
+          <button onClick={e => { e.stopPropagation(); setIdx(i => (i+1)%total); }}
+            className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/40 text-white rounded-full w-7 h-7 flex items-center justify-center text-lg font-black hover:bg-black/70">›</button>
+          <div className="absolute top-2 right-2 bg-black/50 text-white text-[10px] px-2 py-0.5 rounded-full">{idx+1}/{total}</div>
+        </>
+      )}
+      <label className="absolute bottom-2 left-2 bg-green-500 text-white text-[10px] font-black px-2 py-1 rounded-full cursor-pointer hover:bg-green-600 shadow">
+        📷+
+        <input type="file" accept="image/*" capture="environment" className="hidden" onChange={async e => {
+          const file = e.target.files?.[0]; if (!file) return;
+          const ext = file.name.split('.').pop();
+          const fileName = `${item.id}/${Date.now()}.${ext}`;
+          await supabase.storage.from('place-photos').upload(fileName, file, { upsert: true });
+          await supabase.from('place_photos').insert({ place_id: item.id, file_path: fileName, uploader_name: 'מבקר', taken_at: new Date().toISOString() });
+          setRefresh(r => r+1);
+        }} />
+      </label>
     </div>
   );
 }
@@ -513,21 +533,12 @@ export default function TiyulifyApp() {
                         <Marker key={item.id} position={item.coords}>
                           <Popup minWidth={340} maxWidth={400} className="square-modern-popup-container">
                             <div className="text-right font-sans p-1 overflow-hidden">
-                              <div className="w-full h-44 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden bg-black relative border-2 border-white">
-                                {(item.video && item.id!=="1") ? (
-                                  <iframe key={`v-${item.id}`} width="100%" height="100%" src={getYoutubeLink(item.video)} title="Video" frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen referrerPolicy="strict-origin-when-cross-origin"/>
-                                ) : (
-                                  <SmartImage item={item} className="w-full h-full object-cover"/>
-                                )}
-                              </div>
+                              <UserPhotos item={item} />
                               <h4 className="font-black text-green-900 text-3xl m-0 leading-none mb-3 px-1">{item.name[activeLang]||item.name.he}</h4>
                               {pd && <div className="flex items-center gap-2 mb-4 bg-green-50 inline-flex px-4 py-1.5 rounded-full border-2 border-green-100 shadow-sm"><span className="text-xl">📍</span><p className="text-[14px] text-green-700 font-black m-0">{labels[activeLang].distLabel} {pd} {labels[activeLang].km}</p></div>}
                               <div className="max-h-40 overflow-y-auto no-scrollbar border-t-2 border-gray-100 mt-2 pt-4 px-1">
                                 <p className="text-[16px] text-gray-700 leading-relaxed font-semibold">{item.description[activeLang]||item.description.he}</p>
                               </div>
-                              <UserPhotos item={item} />
                               <div className="flex flex-wrap gap-3 mt-6 pb-2">
                                 <a href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-4 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95">WAZE</a>
                                 <button onClick={()=>shareOnWhatsApp(item)} className="flex-1 bg-green-500 text-white text-center py-4 rounded-2xl text-[11px] font-black shadow-lg hover:bg-green-600 active:scale-95">WhatsApp</button>
