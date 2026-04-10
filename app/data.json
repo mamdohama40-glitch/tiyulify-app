@@ -6841,5 +6841,225 @@
       "en": "A hiking trail offering east and west views of the Golan and Galilee ridges.",
       "ru": "Пешеходный маршрут с видами на восток и запад на хребты Голан и Галилеи."
     }
+  },
+  {
+    "id": "314",
+    "name": {
+      "he": "קפה ארטורה - עמק חפר",
+      "ar": "مقهى أرتورا",
+      "en": "Artura Cafe",
+      "ru": "Кафе Артура"
+    },
+    "coords": [
+      32.368,
+      34.908
+    ],
+    "category": "cafe",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה וגלריה בלב המרחבים הכפריים של עמק חפר.",
+      "ar": "مقهى ومعرض في قلب المناطق الريفية في وادي حيفر.",
+      "en": "A cafe and gallery in the heart of the rural landscapes of Emek Hefer.",
+      "ru": "Кафе и галерея в сердце сельских пейзажей Эмек-Хефер."
+    }
+  },
+  {
+    "id": "315",
+    "name": {
+      "he": "מסעדת דג על הדן",
+      "ar": "مطعم السمك على الدان",
+      "en": "Dag Al HaDan Restaurant",
+      "ru": "Ресторан Даг аль-Дан"
+    },
+    "coords": [
+      33.238,
+      35.618
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Dafna_Kibbutz_Water.jpg/800px-Dafna_Kibbutz_Water.jpg",
+    "description": {
+      "he": "מסעדת דגים ותיקה היושבת ממש על פלגי המים של נחל הדן.",
+      "ar": "مطعم أسماك قديم يقع مباشرة على فروع نهر الدان.",
+      "en": "A veteran fish restaurant situated right on the streams of the Dan River.",
+      "ru": "Знаменитый рыбный ресторан прямо на истоках реки Дан."
+    }
+  },
+  {
+    "id": "316",
+    "name": {
+      "he": "קפה נמרוד - נמל תל אביב",
+      "ar": "مقهى نمرود",
+      "en": "Cafe Nimrod",
+      "ru": "Кафе Нимрод"
+    },
+    "coords": [
+      32.097,
+      34.774
+    ],
+    "category": "cafe",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dor_Beach_Sunset.jpg/800px-Dor_Beach_Sunset.jpg",
+    "description": {
+      "he": "בית קפה בסגנון ראש פינה על שפת הים, עם אווירה גלילית בלב העיר.",
+      "ar": "مقهى على طراز روش بينا على شاطئ البحر، مع أجواء جليلية.",
+      "en": "Rosh Pina-style cafe by the sea, with a Galilean atmosphere.",
+      "ru": "Кафе в стиле Рош-Пины на берегу моря с галилейской атмосферой."
+    }
+  },
+  {
+    "id": "317",
+    "name": {
+      "he": "חניון הזיתים - פארק הכרמל",
+      "ar": "موقف الزيتون - الكرمل",
+      "en": "The Olives Grove - Carmel Park",
+      "ru": "Оливковая роща - Кармель"
+    },
+    "coords": [
+      32.721,
+      35.015
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "חניון פיקניק מוסדר המאפשר הדלקת מנגל תחת עצי זית עתיקים.",
+      "ar": "موقف للنزهات يسمح بالشواء تحت أشجار الزيتون القديمة.",
+      "en": "A regulated picnic area where BBQ is permitted under ancient olive trees.",
+      "ru": "Оборудованная стоянка для пикника, где можно разжигать мангал под оливами."
+    }
+  },
+  {
+    "id": "318",
+    "name": {
+      "he": "יער בן שמן - חניון מקסיקו",
+      "ar": "غابة بن شيمن - موقف المكسيك",
+      "en": "Ben Shemen Forest - Mexico Grove",
+      "ru": "Лес Бен-Шемен - стоянка Мексика"
+    },
+    "coords": [
+      31.948,
+      34.935
+    ],
+    "category": "park",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Little_Switzerland_Carmel.jpg/800px-Little_Switzerland_Carmel.jpg",
+    "description": {
+      "he": "מרכז הפיקניקים של ישראל, אזור ענק המיועד לעל האש בלב היער.",
+      "ar": "مركز النزهات في إسرائيل، منطقة ضخمة مخصصة للشواء في قلب الغابة.",
+      "en": "Israel's picnic hub, a huge area designated for BBQs in the forest.",
+      "ru": "Центр пикников Израиля, огромная территория для мангалов в лесу."
+    }
+  },
+  {
+    "id": "319",
+    "name": {
+      "he": "קפה עזוז - הנגב",
+      "ar": "مقهى عزوز",
+      "en": "Cafe Ezuz",
+      "ru": "Кафе Эзуз"
+    },
+    "coords": [
+      30.793,
+      34.468
+    ],
+    "category": "cafe",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Galilee_Mountains.jpg/800px-Galilee_Mountains.jpg",
+    "description": {
+      "he": "בית קפה מדברי מבודד וייחודי בלב הנגב.",
+      "ar": "مقهى صحراوي منعزل وفريد في قلب النقب.",
+      "en": "A unique, isolated desert cafe in the heart of the Negev.",
+      "ru": "Уединенное и уникальное пустынное кафе в сердце Негева."
+    }
+  },
+  {
+    "id": "320",
+    "name": {
+      "he": "פארק הירקון - אזורי מנגל",
+      "ar": "منتزه اليركون - مناطق الشواء",
+      "en": "Yarkon Park - BBQ Areas",
+      "ru": "Парк Яркон - зоны для мангалов"
+    },
+    "coords": [
+      32.102,
+      34.815
+    ],
+    "category": "park",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kinneret_view_North.jpg/800px-Kinneret_view_North.jpg",
+    "description": {
+      "he": "הריאה הירוקה של תל אביב עם אזורים מוגדרים ומרווחים למנגל.",
+      "ar": "الرئة الخضراء لتل أبيب مع مناطق محددة وواسعة للشواء.",
+      "en": "Tel Aviv's green lung with designated, spacious BBQ areas.",
+      "ru": "Зеленые легкие Тель-Авива с просторными зонами для мангалов."
+    }
+  },
+  {
+    "id": "321",
+    "name": {
+      "he": "יער המלאכים",
+      "ar": "غابة الملائكة",
+      "en": "Angels Forest",
+      "ru": "Лес Ангелов"
+    },
+    "coords": [
+      31.605,
+      34.845
+    ],
+    "category": "park",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "יער בדרום השפלה עם חניונים מאובזרים למנגל ומתקני משחקים.",
+      "ar": "غابة في الجنوب مع مواقف مجهزة للشواء وألعاب للأطفال.",
+      "en": "A forest in the southern lowlands with equipped BBQ campgrounds and playgrounds.",
+      "ru": "Лес на юге равнины с оборудованными стоянками для мангалов."
+    }
+  },
+  {
+    "id": "322",
+    "name": {
+      "he": "חוות התבלינים בגלבוע",
+      "ar": "مزرعة التوابل في جلبوع",
+      "en": "The Spice Farm - Gilboa",
+      "ru": "Ферма специй на Гильбоа"
+    },
+    "coords": [
+      32.535,
+      35.342
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Vineyards_in_Galilee.jpg/800px-Vineyards_in_Galilee.jpg",
+    "description": {
+      "he": "מסעדה עם נוף פנורמי לעמק חרוד השוכנת בתוך מרכז תבלינים.",
+      "ar": "مطعم مع إطلالة بانورامية على سهل حرود يقع داخل مركز للتوابل.",
+      "en": "A restaurant with a panoramic view of the Harod Valley located within a spice center.",
+      "ru": "Ресторан с панорамным видом на долину Харод, расположенный в центре специй."
+    }
+  },
+  {
+    "id": "323",
+    "name": {
+      "he": "יער קריית אתא",
+      "ar": "غابة كريات أتا",
+      "en": "Kiryat Ata Forest",
+      "ru": "Лес Кирьят-Ата"
+    },
+    "coords": [
+      32.798,
+      35.125
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Merom_Golan_Bental.jpg/800px-Merom_Golan_Bental.jpg",
+    "description": {
+      "he": "יער אלונים יפהפה בגליל התחתון עם שולחנות ופינות למנגל.",
+      "ar": "غابة بلوط جميلة في الجليل الأسفل مع طاولات ومناطق للشواء.",
+      "en": "A beautiful oak forest in the Lower Galilee with tables and BBQ spots.",
+      "ru": "Красивый дубовый лес в Нижней Галилее со столами и местами для мангалов."
+    }
   }
 ]
