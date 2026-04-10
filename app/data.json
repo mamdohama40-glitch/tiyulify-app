@@ -7501,5 +7501,225 @@
       "en": "A restaurant located in the Stella Maris complex with an amazing view of the Haifa Bay.",
       "ru": "Ресторан в комплексе Стелла Марис с потрясающим видом на Хайфский залив."
     }
+  },
+  {
+    "id": "344",
+    "name": {
+      "he": "מסעדת אורי בורי",
+      "ar": "مطعم أوري بوري",
+      "en": "Uri Buri Restaurant",
+      "ru": "Ресторан Ури Бури"
+    },
+    "coords": [
+      32.921,
+      35.068
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת דגים ופירות ים מפורסמת בעולם השוכנת במבנה עתיק על קו המים.",
+      "ar": "مطعم أسماك وفواكه بحر مشهور عالمياً يقع في مبنى قديم على الواجهة البحرية.",
+      "en": "World-famous fish and seafood restaurant housed in an ancient building on the waterfront.",
+      "ru": "Всемирно известный ресторан рыбы и морепродуктов в старинном здании на берегу."
+    }
+  },
+  {
+    "id": "345",
+    "name": {
+      "he": "חומוס סעיד",
+      "ar": "حمص سعيد",
+      "en": "Hummus Said",
+      "ru": "Хумус Саид"
+    },
+    "coords": [
+      32.923,
+      35.07
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Falafel_balls.jpg/800px-Falafel_balls.jpg",
+    "description": {
+      "he": "אחד ממוסדות החומוס המפורסמים בישראל, ממוקם בלב השוק של עכו העתיקה.",
+      "ar": "أحد أشهر مطاعم الحمص في إسرائيل، يقع في قلب سوق عكا القديمة.",
+      "en": "One of Israel's most famous hummus institutions, located in the heart of the Old Acre market.",
+      "ru": "Одно из самых известных заведений хумуса в Израиле, в сердце рынка Акко."
+    }
+  },
+  {
+    "id": "346",
+    "name": {
+      "he": "מסעדת אל-מרסא",
+      "ar": "مطعم المرسى",
+      "en": "El Marsa Restaurant",
+      "ru": "Ресторан Эль Марса"
+    },
+    "coords": [
+      32.921,
+      35.071
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Old_City_of_Acre_001.jpg/800px-Old_City_of_Acre_001.jpg",
+    "description": {
+      "he": "מסעדת שף הממוקמת בבניין המכס העתיק בנמל, משלבת מטבח ערבי מודרני.",
+      "ar": "مطعم شيف يقع في مبنى الجمارك القديم في الميناء، يجمع بين المطبخ العربي الحديث.",
+      "en": "A chef restaurant located in the old customs building at the port, blending modern Arabic cuisine.",
+      "ru": "Ресторан в здании старой таможни в порту, сочетающий современную арабскую кухню."
+    }
+  },
+  {
+    "id": "347",
+    "name": {
+      "he": "אולמות האבירים - המצודה ההוספיטלרית",
+      "ar": "قاعات الفرسان",
+      "en": "Knights' Halls",
+      "ru": "Рыцарские залы"
+    },
+    "coords": [
+      32.923,
+      35.068
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Acre_Knights_Halls.jpg/800px-Acre_Knights_Halls.jpg",
+    "description": {
+      "he": "שרידים מרשימים של המצודה הצלבנית הכוללים אולמות ענק, חצרות וקמרונות.",
+      "ar": "بقايا رائعة للقلعة الصليبية تضم قاعات ضخمة وساحات وأقبية.",
+      "en": "Impressive remains of the Crusader fortress including huge halls, courtyards, and vaults.",
+      "ru": "Впечатляющие остатки крепости крестоносцев с огромными залами и дворами."
+    }
+  },
+  {
+    "id": "348",
+    "name": {
+      "he": "מנהרת הטמפלרים",
+      "ar": "نفق التمبلاريين",
+      "en": "Templars Tunnel",
+      "ru": "Тоннель тамплиеров"
+    },
+    "coords": [
+      32.92,
+      35.067
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Templars_Tunnel_Acre.jpg/800px-Templars_Tunnel_Acre.jpg",
+    "description": {
+      "he": "מנהרה תת-קרקעית המחברת בין המצודה לנמל, שנבנתה על ידי הטמפלרים במאה ה-12.",
+      "ar": "نفق تحت الأرض يربط بين القلعة والميناء، بناه التمبلاريون في القرن الثاني عشر.",
+      "en": "An underground tunnel connecting the fortress to the port, built by the Templars in the 12th century.",
+      "ru": "Подземный тоннель, соединяющий крепость и порт, построенный тамплиерами в XII веке."
+    }
+  },
+  {
+    "id": "349",
+    "name": {
+      "he": "חאן אל-עומדאן",
+      "ar": "خان العمدان",
+      "en": "Khan al-Umdan",
+      "ru": "Хан эль-Умдан"
+    },
+    "coords": [
+      32.921,
+      35.071
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Khan_al-Umdan.jpg/800px-Khan_al-Umdan.jpg",
+    "description": {
+      "he": "החאן הגדול והשמור ביותר בישראל, המפורסם בזכות עמודי הגרניט ומגדל השעון.",
+      "ar": "أكبر خان وأكثرها حفظاً في إسرائيل، يشتهر بأعمدة الجرانيت وبرج الساعة.",
+      "en": "The largest and best-preserved caravanserai in Israel, famous for its granite columns and clock tower.",
+      "ru": "Самый большой и хорошо сохранившийся постоялый двор, знаменитый гранитными колоннами."
+    }
+  },
+  {
+    "id": "350",
+    "name": {
+      "he": "מסגד אל-ג'זאר",
+      "ar": "جامع الجزار",
+      "en": "Al-Jazzar Mosque",
+      "ru": "Мечеть Аль-Джаззар"
+    },
+    "coords": [
+      32.923,
+      35.069
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Al-Jazzar_Mosque.jpg/800px-Al-Jazzar_Mosque.jpg",
+    "description": {
+      "he": "המסגד הגדול והחשוב ביותר בעכו, דוגמה מפוארת לאדריכלות עות'מאנית.",
+      "ar": "أكبر وأهم مسجد في عكا، مثال رائع للعمارة العثمانية.",
+      "en": "The largest and most important mosque in Acre, a magnificent example of Ottoman architecture.",
+      "ru": "Самая большая и важная мечеть в Акко, великолепный образец османской архитектуры."
+    }
+  },
+  {
+    "id": "351",
+    "name": {
+      "he": "בית הכנסת אור תורה (התוניסאי)",
+      "ar": "كنيس أور توراة",
+      "en": "Or Torah Synagogue",
+      "ru": "Синагога Ор-Тора"
+    },
+    "coords": [
+      32.926,
+      35.083
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Or_Torah_Synagogue.jpg/800px-Or_Torah_Synagogue.jpg",
+    "description": {
+      "he": "בית כנסת ייחודי המכוסה כולו במיליוני אבני פסיפס המתארות את תולדות עם ישראל.",
+      "ar": "كنيس فريد مغطى بالكامل بملايين قطع الفسيفساء التي تصور تاريخ الشعب اليهودي.",
+      "en": "A unique synagogue entirely covered with millions of mosaic stones depicting Jewish history.",
+      "ru": "Уникальная синагога, полностью покрытая мозаикой, изображающей историю еврейского народа."
+    }
+  },
+  {
+    "id": "352",
+    "name": {
+      "he": "קפה טורינו - עכו העתיקה",
+      "ar": "مقهى تورينو",
+      "en": "Cafe Torino",
+      "ru": "Кафе Торино"
+    },
+    "coords": [
+      32.922,
+      35.069
+    ],
+    "category": "cafe",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה קטן ואותנטי בלב הסמטאות המציע קפה איכותי ואווירה מקומית.",
+      "ar": "مقهى صغير وأصيل في قلب الأزقة يقدم قهوة عالية الجودة وأجواء محلية.",
+      "en": "A small, authentic cafe in the heart of the alleys offering quality coffee and local atmosphere.",
+      "ru": "Маленькое аутентичное кафе в переулках с отличным кофе и местной атмосферой."
+    }
+  },
+  {
+    "id": "353",
+    "name": {
+      "he": "מצודת עכו (מוזיאון אסירי המחתרות)",
+      "ar": "قلعة عكا",
+      "en": "Acre Fortress",
+      "ru": "Крепость Акко"
+    },
+    "coords": [
+      32.924,
+      35.068
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Acre_Citadel.jpg/800px-Acre_Citadel.jpg",
+    "description": {
+      "he": "מבצר עות'מאני שנבנה על יסודות צלבניים ושימש ככלא המרכזי בתקופת המנדט.",
+      "ar": "قلعة عثمانية بنيت على أسس صليبية واستخدمت كسجن مركزي خلال فترة الانتداب.",
+      "en": "An Ottoman fortress built on Crusader foundations, used as the central prison during the Mandate era.",
+      "ru": "Османская крепость на фундаменте крестоносцев, служившая тюрьмой в период мандата."
+    }
   }
 ]
