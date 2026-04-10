@@ -529,8 +529,20 @@ export default function TiyulifyApp() {
                     )}
                     {filteredItems.map((item:any)=>{
                       const pd = userCoords ? calculateDistance(userCoords[0],userCoords[1],item.coords[0],item.coords[1]) : null;
+                      const catEmoji: Record<string,string> = {
+                        water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
+                        food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',river:'🌊',park:'🌳',cafe:'☕'
+                      };
+                      const emoji = catEmoji[item.category] || '📍';
+                      const emojiIcon = LeafletMapLib && new (require('leaflet').DivIcon)({
+                        html: `<div style="font-size:22px;line-height:1;filter:drop-shadow(0 2px 3px rgba(0,0,0,0.4))">${emoji}</div>`,
+                        className: '',
+                        iconSize: [28, 28],
+                        iconAnchor: [14, 28],
+                        popupAnchor: [0, -30],
+                      });
                       return (
-                        <Marker key={item.id} position={item.coords}>
+                        <Marker key={item.id} position={item.coords} icon={emojiIcon}>
                           <Popup minWidth={340} maxWidth={400} className="square-modern-popup-container">
                             <div className="text-right font-sans p-1 overflow-hidden">
                               <UserPhotos item={item} />
