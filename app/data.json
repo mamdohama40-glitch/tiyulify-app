@@ -7061,5 +7061,225 @@
       "en": "A beautiful oak forest in the Lower Galilee with tables and BBQ spots.",
       "ru": "Красивый дубовый лес в Нижней Галилее со столами и местами для мангалов."
     }
+  },
+  {
+    "id": "324",
+    "name": {
+      "he": "נחל אל על - המפל השחור והלבן",
+      "ar": "وادي العال - الشلال الأسود والأبيض",
+      "en": "Nahal El Al - Black and White Waterfalls",
+      "ru": "Нахаль Эль-Аль - Черный и Белый водопады"
+    },
+    "coords": [
+      32.812,
+      35.742
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/The_White_Waterfall.JPG/800px-The_White_Waterfall.JPG",
+    "description": {
+      "he": "מסלול מים בדרום הגולן העובר בין שני מפלים מרשימים בתוך סלעי בזלת וגיר.",
+      "ar": "مسار مائي في جنوب الجولان يمر بين شلالين رائعين وسط صخور البازلت والجير.",
+      "en": "A water trail in the southern Golan Heights passing between two impressive waterfalls set in basalt and limestone.",
+      "ru": "Водный маршрут на юге Голанских высот, проходящий между двумя впечатляющими водопадами."
+    }
+  },
+  {
+    "id": "325",
+    "name": {
+      "he": "שמורת תל דן",
+      "ar": "محمية تل دان",
+      "en": "Tel Dan Nature Reserve",
+      "ru": "Заповедник Тель-Дан"
+    },
+    "coords": [
+      33.249,
+      35.652
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tel_Dan_Reserve.jpg/800px-Tel_Dan_Reserve.jpg",
+    "description": {
+      "he": "מסלול הליכה נגיש בלב צמחייה עשירה ומקורות הירדן, כולל אתר ארכאולוגי חשוב.",
+      "ar": "مسار مشي سهل في قلب نباتات كثيفة ومصادر نهر الأردن، يضم موقعاً أثرياً هاماً.",
+      "en": "An accessible hiking trail amidst lush vegetation and the sources of the Jordan River, including an important archaeological site.",
+      "ru": "Доступный маршрут среди густой растительности у истоков реки Иордан."
+    }
+  },
+  {
+    "id": "326",
+    "name": {
+      "he": "נחל כזיב ומבצר המונפורט",
+      "ar": "وادي كزيف وقلعة مونفور",
+      "en": "Nahal Kziv & Montfort Castle",
+      "ru": "Нахаль Кзив и крепость Монфор"
+    },
+    "coords": [
+      33.044,
+      35.226
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Montfort_Castle_Israel.jpg/800px-Montfort_Castle_Israel.jpg",
+    "description": {
+      "he": "מסלול יפהפה בגליל המערבי המשלב מבצר צלבני עתיק וזרימת מים לאורך כל השנה.",
+      "ar": "مسار جميل في الجليل الغربي يجمع بين قلعة صليبية قديمة ومياه جارية طوال العام.",
+      "en": "A beautiful trail in the Western Galilee combining an ancient Crusader fortress and year-round flowing water.",
+      "ru": "Прекрасный маршрут в Западной Галилее, сочетающий крепость крестоносцев и круглогодичный ручей."
+    }
+  },
+  {
+    "id": "327",
+    "name": {
+      "he": "שמורת טבע מצוק הארבל",
+      "ar": "محمية منحدر أربيل",
+      "en": "Mount Arbel Nature Reserve",
+      "ru": "Заповедник Арбель"
+    },
+    "coords": [
+      32.824,
+      35.506
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Arbel_Cliff_View.jpg/800px-Arbel_Cliff_View.jpg",
+    "description": {
+      "he": "תצפית פנורמית עוצרת נשימה על הכנרת ומסלול מאתגר הכולל ירידה ביתדות.",
+      "ar": "إطلالة بانورامية خلابة على بحيرة طبريا ومسار مليء بالتحديات.",
+      "en": "Breathtaking panoramic views of the Sea of Galilee and a challenging trail involving steep descents with handholds.",
+      "ru": "Захватывающий панорамный вид на Кинерет и сложный маршрут со спуском по скобам."
+    }
+  },
+  {
+    "id": "328",
+    "name": {
+      "he": "נחל ג'ילבון",
+      "ar": "وادي جلبون",
+      "en": "Nahal Jilabun",
+      "ru": "Нахаль Джилабун"
+    },
+    "coords": [
+      33.036,
+      35.663
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Jilabun_Waterfall.jpg/800px-Jilabun_Waterfall.jpg",
+    "description": {
+      "he": "מסלול טיול פופולרי ברמת הגולן הכולל מפלי מים ובריכות שחייה טבעיות.",
+      "ar": "مسار مشهور في هضبة الجولان يضم شلالات مياه وبرك سباحة طبيعية.",
+      "en": "A popular hiking trail in the Golan Heights featuring waterfalls and natural swimming pools.",
+      "ru": "Популярный маршрут на Голанских высотах с водопадами и природными бассейнами."
+    }
+  },
+  {
+    "id": "329",
+    "name": {
+      "he": "נחל עמוד עליון",
+      "ar": "وادي عامود العلوي",
+      "en": "Upper Amud Stream",
+      "ru": "Верхний Нахаль Амуд"
+    },
+    "coords": [
+      32.932,
+      35.451
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Amud_Stream.jpg/800px-Amud_Stream.jpg",
+    "description": {
+      "he": "מסלול מוצל ורטוב בגליל העליון עם בוסתנים עתיקים, טחנות קמח ובריכות מים.",
+      "ar": "مسار مظلل ومائي في الجليل الأعلى يضم بساتين قديمة وطواحين دقيق وبرك مياه.",
+      "en": "A shaded and wet trail in the Upper Galilee with ancient orchards, flour mills, and water pools.",
+      "ru": "Тенистый водный маршрут в Верхней Галилее со старыми садами, мельницами и заводями."
+    }
+  },
+  {
+    "id": "330",
+    "name": {
+      "he": "נחל תבור",
+      "ar": "وادي طابور",
+      "en": "Nahal Tavor",
+      "ru": "Нахаль Тавор"
+    },
+    "coords": [
+      32.651,
+      35.474
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nahal_Tavor_Lupines.jpg/800px-Nahal_Tavor_Lupines.jpg",
+    "description": {
+      "he": "מסלול מרהיב בגליל התחתון, מומלץ במיוחד באביב בשל פריחת התורמוסים הכחולה.",
+      "ar": "مسار رائع في الجليل الأسفل، ينصح به بشدة في فصل الربيع بسبب ازهار الترمس الزرقاء.",
+      "en": "A spectacular trail in the Lower Galilee, especially recommended in spring for its blue lupine blooms.",
+      "ru": "Великолепный маршрут в Нижней Галилее, особенно рекомендуемый весной из-за цветения люпинов."
+    }
+  },
+  {
+    "id": "331",
+    "name": {
+      "he": "שביל סובב כנרת",
+      "ar": "مسار حول بحيرة طبريا",
+      "en": "Sea of Galilee Trail",
+      "ru": "Тропа вокруг Кинерета"
+    },
+    "coords": [
+      32.815,
+      35.586
+    ],
+    "category": "hiking",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Kinneret_view.jpg/800px-Kinneret_view.jpg",
+    "description": {
+      "he": "שביל היקפי המאפשר נגישות לחופים ונופי האגם, מחולק למקטעים נוחים למשפחות.",
+      "ar": "مسار يحيط بالبحيرة يتيح الوصول إلى الشواطئ والمناظر الطبيعية، مقسم إلى أجزاء مناسبة للعائلات.",
+      "en": "A circumferential trail providing access to the shores and lake views, divided into family-friendly sections.",
+      "ru": "Кольцевая тропа, обеспечивающая доступ к пляжам и видам на озеро."
+    }
+  },
+  {
+    "id": "332",
+    "name": {
+      "he": "נחל שרך ונחל בצת",
+      "ar": "وادي شرخ ووادي بصة",
+      "en": "Nahal Serach & Nahal Betzet",
+      "ru": "Нахаль Шерах и Нахаль Бецет"
+    },
+    "coords": [
+      33.078,
+      35.195
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Serach_Cave.jpg/800px-Serach_Cave.jpg",
+    "description": {
+      "he": "מסלול מוצל בגליל המערבי העובר בתוך חורש ים-תיכוני וכולל ביקור במערת שרך.",
+      "ar": "مسار مظلل في الجليل الغربي يمر عبر غابات البحر الأبيض المتوسط ويشمل زيارة مغارة شرخ.",
+      "en": "A shaded trail in the Western Galilee passing through Mediterranean woodland and including a visit to the Serach Cave.",
+      "ru": "Тенистый маршрут в Западной Галилее через средиземноморский лес с посещением пещеры Шерах."
+    }
+  },
+  {
+    "id": "333",
+    "name": {
+      "he": "שמורת הטבע יהודיה",
+      "ar": "محمية اليهودية",
+      "en": "Yehudiya Nature Reserve",
+      "ru": "Заповедник Иегудия"
+    },
+    "coords": [
+      32.935,
+      35.679
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Yehudiya_Falls.jpg/800px-Yehudiya_Falls.jpg",
+    "description": {
+      "he": "אחד המסלולים האהובים בגולן, הכולל בריכות עמוקות ומפלים בתוך קניון בזלת.",
+      "ar": "واحد من أجمل المسارات في الجولان، يضم بركاً عميقة وشلالات داخل وادٍ بازلتي.",
+      "en": "One of the favorite trails in the Golan, featuring deep pools and waterfalls within a basalt canyon.",
+      "ru": "Один из любимых маршрутов на Голанах с глубокими заводями и водопадами в базальтовом каньоне."
+    }
   }
 ]
