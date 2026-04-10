@@ -79,9 +79,14 @@ const MAP_LAYERS = [
   { id:'dark',      label:'🌙 כהה',    url:'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', attribution:'©CARTO' },
 ];
 
-  useEffect(() => { if ("wakeLock" in navigator) { try { (navigator as any).wakeLock.request("screen"); } catch (err) { console.log(err); } } }, []);
 export default function TiyulifyApp() {
   const [isClientReady, setIsClientReady] = useState(false);
+
+  useEffect(() => {
+    if ("wakeLock" in navigator) {
+      try { (navigator as any).wakeLock.request("screen"); } catch (err) {}
+    }
+  }, []);
   const [activeView, setActiveView] = useState<ViewState>('home');
   const [activeLang, setActiveLang] = useState('he');
   const [categoryFilter, setCategoryFilter] = useState('all');
