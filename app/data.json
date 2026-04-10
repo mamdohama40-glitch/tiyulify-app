@@ -6049,5 +6049,357 @@
       "ru": "Приятное жилье в кибуце рядом с рекой Иордан."
     },
     "region": "north"
+  },
+  {
+    "id": "278",
+    "name": {
+      "he": "נחל כלח וגלים - שוויצריה הקטנה",
+      "ar": "وادي كلح وجاليم - سويسرا الصغيرة",
+      "en": "Nahal Kelah & Galim - Little Switzerland",
+      "ru": "Нахаль Келах и Галим - Маленькая Швейцария"
+    },
+    "coords": [
+      32.742,
+      35.008
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Little_Switzerland_Carmel.jpg/800px-Little_Switzerland_Carmel.jpg",
+    "description": {
+      "he": "מסלול הליכה מוצל ויפהפה בלב החורש של הכרמל.",
+      "ar": "مسار مشي مظلل وجميل في قلب غابات الكرمل.",
+      "en": "A beautiful shaded hiking trail in the heart of the Carmel forest.",
+      "ru": "Красивый тенистый пешеходный маршрут в сердце леса Кармель."
+    }
+  },
+  {
+    "id": "279",
+    "name": {
+      "he": "סינגל אלון - מסלול אופניים",
+      "ar": "مسار ألون للدراجات",
+      "en": "Alon Singletrack - Bike Trail",
+      "ru": "Сингл Алон - веломаршрут"
+    },
+    "coords": [
+      32.725,
+      35.035
+    ],
+    "category": "bike",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול רכיבת אופניים אתגרי ומרהיב ברכס הכרמל.",
+      "ar": "مسار ركوب دراجات مليء بالتحديات ومذهل في سلسلة جبال الكرمل.",
+      "en": "A spectacular and challenging bike trail on the Carmel ridge.",
+      "ru": "Захватывающий и сложный веломаршрут на хребте Кармель."
+    }
+  },
+  {
+    "id": "280",
+    "name": {
+      "he": "נחל יגור - מסלול הליכה",
+      "ar": "وادي ياغور - مسار مشي",
+      "en": "Nahal Yagur Hiking Trail",
+      "ru": "Пешеходный маршрут Нахаль Ягур"
+    },
+    "coords": [
+      32.748,
+      35.075
+    ],
+    "category": "hiking",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Galilee_Mountains.jpg/800px-Galilee_Mountains.jpg",
+    "description": {
+      "he": "מסלול ירידה תלול ומאתגר מהכרמל לכיוון קיבוץ יגור.",
+      "ar": "مسار منحدر حاد ومليء بالتحديات من الكرمل باتجاه كيبوتس ياغور.",
+      "en": "A steep and challenging descending trail from Carmel towards Kibbutz Yagur.",
+      "ru": "Крутой и сложный спуск с Кармеля в сторону кибуца Ягур."
+    }
+  },
+  {
+    "id": "281",
+    "name": {
+      "he": "חוף ראש הנקרה",
+      "ar": "شاطئ رأس الناقورة",
+      "en": "Rosh HaNikra Beach",
+      "ru": "Пляж Рош-ха-Никра"
+    },
+    "coords": [
+      33.085,
+      35.104
+    ],
+    "category": "beach",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rosh_HaNikra_beach.jpg/800px-Rosh_HaNikra_beach.jpg",
+    "description": {
+      "he": "חוף פראי בצפון הארץ עם שילוב של סלעים ולגונות.",
+      "ar": "شاطئ بري في شمال البلاد مع مزيج من الصخور والبحيرات.",
+      "en": "A wild beach in the north of the country featuring rocks and lagoons.",
+      "ru": "Дикий пляж на севере страны со скалами и лагунами."
+    }
+  },
+  {
+    "id": "282",
+    "name": {
+      "he": "חוף בצת",
+      "ar": "شاطئ بصت",
+      "en": "Betzet Beach",
+      "ru": "Пляж Бецет"
+    },
+    "coords": [
+      33.072,
+      35.105
+    ],
+    "category": "beach",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "חוף רחצה מוסדר ופתוח לקהל בקרבת הגבול הצפוני.",
+      "ar": "شاطئ منظم ومفتوح للجمهور بالقرب من الحدود الشمالية.",
+      "en": "A regulated public beach near the northern border.",
+      "ru": "Благоустроенный общественный пляж рядом с северной границей."
+    }
+  },
+  {
+    "id": "283",
+    "name": {
+      "he": "חוף אכזיב",
+      "ar": "شاطئ أخزيف",
+      "en": "Achziv Beach",
+      "ru": "Пляж Ахзив"
+    },
+    "coords": [
+      33.048,
+      35.101
+    ],
+    "category": "beach",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dor_Beach_Sunset.jpg/800px-Dor_Beach_Sunset.jpg",
+    "description": {
+      "he": "פארק לאומי וחוף רחצה מהיפים בישראל עם בריכות ים טבעיות.",
+      "ar": "منتزه وطني وشاطئ سباحة من الأجمل في إسرائيل مع برك بحرية طبيعية.",
+      "en": "A national park and one of Israel's most beautiful beaches with natural sea pools.",
+      "ru": "Национальный парк и один из красивейших пляжей Израиля с природными морскими бассейнами."
+    }
+  },
+  {
+    "id": "284",
+    "name": {
+      "he": "חוף נהריה",
+      "ar": "شاطئ نهاريا",
+      "en": "Nahariya Beach",
+      "ru": "Пляж Нагария"
+    },
+    "coords": [
+      33.006,
+      35.088
+    ],
+    "category": "beach",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Tiberias_Promenade.jpg/800px-Tiberias_Promenade.jpg",
+    "description": {
+      "he": "טיילת וחוף רחצה עירוני במרכז העיר נהריה.",
+      "ar": "متنزه وشاطئ بلدي في وسط مدينة نهاريا.",
+      "en": "A promenade and urban beach in the center of Nahariya.",
+      "ru": "Набережная и городской пляж в центре Нагарии."
+    }
+  },
+  {
+    "id": "285",
+    "name": {
+      "he": "חוף עכו - חוף ארגמן",
+      "ar": "شاطئ عكا - شاطئ أرجوان",
+      "en": "Acre - Argaman Beach",
+      "ru": "Акко - пляж Аргаман"
+    },
+    "coords": [
+      32.915,
+      35.082
+    ],
+    "category": "beach",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Old_City_of_Acre_001.jpg/800px-Old_City_of_Acre_001.jpg",
+    "description": {
+      "he": "חוף רחצה עם מבט פנורמי לחומות עכו העתיקה.",
+      "ar": "شاطئ سباحة مع إطلالة بانورامية على أسوار مدينة عكا القديمة.",
+      "en": "A beach with a panoramic view of Old Acre's walls.",
+      "ru": "Пляж с панорамным видом на стены Старого Акко."
+    }
+  },
+  {
+    "id": "286",
+    "name": {
+      "he": "חוף חיפה - חוף דדו",
+      "ar": "شاطئ حيفا - شاطئ دادو",
+      "en": "Haifa - Dado Beach",
+      "ru": "Хайфа - пляж Дадо"
+    },
+    "coords": [
+      32.802,
+      34.952
+    ],
+    "category": "beach",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Shefayim_Beach.jpg/800px-Shefayim_Beach.jpg",
+    "description": {
+      "he": "החוף המרכזי בחיפה עם טיילת ארוכה ומגוון שירותים.",
+      "ar": "الشاطئ المركزي في حيفا مع متنزه طويل ومجموعة متنوعة من الخدمات.",
+      "en": "The central beach in Haifa with a long promenade and various amenities.",
+      "ru": "Центральный пляж Хайфы с длинной набережной и множеством услуг."
+    }
+  },
+  {
+    "id": "287",
+    "name": {
+      "he": "חוף נתניה - חוף סירונית",
+      "ar": "شاطئ نتانيا - شاطئ سيرونيت",
+      "en": "Netanya - Sironit Beach",
+      "ru": "Нетания - пляж Сиронит"
+    },
+    "coords": [
+      32.332,
+      34.846
+    ],
+    "category": "beach",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Shefayim_Beach.jpg/800px-Shefayim_Beach.jpg",
+    "description": {
+      "he": "חוף רחצה מרכזי הכולל מעלית אל החוף.",
+      "ar": "شاطئ مركزي يتضمن مصعداً للوصول إلى الشاطئ.",
+      "en": "A central beach featuring an elevator to the shore.",
+      "ru": "Центральный пляж с лифтом к берегу."
+    }
+  },
+  {
+    "id": "288",
+    "name": {
+      "he": "חוף הרצליה - חוף אכדיה",
+      "ar": "شاطئ هرتسليا - شاطئ أركاديا",
+      "en": "Herzliya - Accadia Beach",
+      "ru": "Герцлия - пляж Аккадия"
+    },
+    "coords": [
+      32.161,
+      34.798
+    ],
+    "category": "beach",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "חוף פופולרי ורחב מתחת למלון דן אכדיה.",
+      "ar": "شاطئ مشهور وواسع تحت فندق دان أركاديا.",
+      "en": "A popular, wide beach located below the Dan Accadia Hotel.",
+      "ru": "Популярный широкий пляж под отелем Дан Аккадия."
+    }
+  },
+  {
+    "id": "289",
+    "name": {
+      "he": "חוף תל אביב - חוף מציצים",
+      "ar": "شاطئ تل أبيب - شاطئ ميتسيتسيم",
+      "en": "Tel Aviv - Metzitzim Beach",
+      "ru": "Тель-Авив - пляж Мецицим"
+    },
+    "coords": [
+      32.094,
+      34.771
+    ],
+    "category": "beach",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dor_Beach_Sunset.jpg/800px-Dor_Beach_Sunset.jpg",
+    "description": {
+      "he": "חוף מפורסם ונוסטלגי בצפון תל אביב.",
+      "ar": "شاطئ شهير وقديم في شمال تل أبيب.",
+      "en": "A famous and nostalgic beach in north Tel Aviv.",
+      "ru": "Знаменитый ностальгический пляж на севере Тель-Авива."
+    }
+  },
+  {
+    "id": "290",
+    "name": {
+      "he": "חוף ראשון לציון",
+      "ar": "شاطئ ريشون لتسيون",
+      "en": "Rishon LeZion Beach",
+      "ru": "Пляж Ришон-ле-Цион"
+    },
+    "coords": [
+      31.979,
+      34.743
+    ],
+    "category": "beach",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Shefayim_Beach.jpg/800px-Shefayim_Beach.jpg",
+    "description": {
+      "he": "חוף רחב ידיים עם טיילת תוססת ומסעדות.",
+      "ar": "شاطئ واسع مع متنزه حيوي ومطاعم.",
+      "en": "A vast beach with a vibrant promenade and restaurants.",
+      "ru": "Обширный пляж с оживленной набережной и ресторанами."
+    }
+  },
+  {
+    "id": "291",
+    "name": {
+      "he": "חוף אשדוד - חוף הקשתות",
+      "ar": "شاطئ أشدود - شاطئ الأقواس",
+      "en": "Ashdod - HaKshatot Beach",
+      "ru": "Ашдод - пляж Ха-Кшатот"
+    },
+    "coords": [
+      31.799,
+      34.629
+    ],
+    "category": "beach",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "אחד מחופי הרחצה המרכזיים והתוססים באשדוד.",
+      "ar": "واحد من شواطئ السباحة المركزية والحيوية في أشدود.",
+      "en": "One of Ashdod's central and vibrant beaches.",
+      "ru": "Один из центральных и оживленных пляжей Ашдода."
+    }
+  },
+  {
+    "id": "292",
+    "name": {
+      "he": "חוף אשקלון - חוף בר כוכבא",
+      "ar": "شاطئ عسقلان - شاطئ بار كوخبا",
+      "en": "Ashkelon - Bar Kochba Beach",
+      "ru": "Ашкелон - пляж Бар-Кохба"
+    },
+    "coords": [
+      31.684,
+      34.557
+    ],
+    "category": "beach",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Caesarea_Aqueduct_Beach.jpg/800px-Caesarea_Aqueduct_Beach.jpg",
+    "description": {
+      "he": "חוף רחצה מוסדר עם טיילת צמודה ומרינה בקרבת מקום.",
+      "ar": "شاطئ سباحة منظم مع متنزه مجاور ومرسى قريب.",
+      "en": "A regulated beach with an adjacent promenade and nearby marina.",
+      "ru": "Благоустроенный пляж с набережной и мариной неподалеку."
+    }
+  },
+  {
+    "id": "293",
+    "name": {
+      "he": "נחל המערות - הכרמל",
+      "ar": "وادي الكهوف - الكرمل",
+      "en": "Nahal Me'arot - Carmel",
+      "ru": "Нахаль Меарот - Кармель"
+    },
+    "coords": [
+      32.671,
+      34.966
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "אתר מורשת עולמית עם מערות פרהיסטוריות ומסלולי טיול.",
+      "ar": "موقع تراث عالمي يضم كهوفاً من عصور ما قبل التاريخ ومسارات مشي.",
+      "en": "A World Heritage site featuring prehistoric caves and hiking trails.",
+      "ru": "Объект всемирного наследия с доисторическими пещерами и маршрутами."
+    }
   }
 ]
