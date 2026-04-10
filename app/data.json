@@ -6621,5 +6621,225 @@
       "en": "Regulated beach in the North Dead Sea featuring swimming pools, lawns, and picnic areas.",
       "ru": "Оборудованный пляж на севере Мертвого моря с бассейнами, газонами и зонами для пикника."
     }
+  },
+  {
+    "id": "304",
+    "name": {
+      "he": "נחל מערות - מסלול הרכס",
+      "ar": "وادي المغارات - مسار الجبل",
+      "en": "Nahal Me'arot - Ridge Trail",
+      "ru": "Нахаль-Меарот - Горный маршрут"
+    },
+    "coords": [
+      32.67,
+      34.966
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "מסלול הליכה המשלב מערות פרהיסטוריות ותצפית מרהיבה לחוף הכרמל.",
+      "ar": "مسار مشي يجمع بين كهوف ما قبل التاريخ وإطلالة رائعة على ساحل الكرمل.",
+      "en": "A hiking trail combining prehistoric caves and a spectacular view of the Carmel coast.",
+      "ru": "Пешеходный маршрут, сочетающий доисторические пещеры и вид на побережье."
+    }
+  },
+  {
+    "id": "305",
+    "name": {
+      "he": "נחל השופט - פארק רמות מנשה",
+      "ar": "وادي الحكام - رمات منشيه",
+      "en": "Nahal HaShofet - Ramat Menashe",
+      "ru": "Нахаль Ха-Шофет - Рамат-Менаше"
+    },
+    "coords": [
+      32.598,
+      35.106
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול הליכה נגיש ומשפחתי לאורך נחל זורם וצמחייה עשירה.",
+      "ar": "مسار مشي سهل للعائلات على طول وادٍ جارٍ ونباتات كثيفة.",
+      "en": "An accessible family hiking trail along a flowing stream and lush vegetation.",
+      "ru": "Доступный семейный маршрут вдоль ручья и пышной растительности."
+    }
+  },
+  {
+    "id": "306",
+    "name": {
+      "he": "שביל סובב הר תבור",
+      "ar": "مسار جبل طابور",
+      "en": "Mount Tabor Loop Trail",
+      "ru": "Кольцевой маршрут горы Фавор"
+    },
+    "coords": [
+      32.686,
+      35.392
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Galilee_Mountains.jpg/800px-Galilee_Mountains.jpg",
+    "description": {
+      "he": "מסלול מעגלי המקיף את פסגת התבור עם נוף פנורמי לגליל התחתון.",
+      "ar": "مسار دائري يحيط بقمة جبل طابور مع إطلالة بانورامية على الجليل الأسفل.",
+      "en": "A circular trail surrounding the peak of Mt. Tabor with panoramic views of the Lower Galilee.",
+      "ru": "Кольцевой маршрут вокруг вершины горы Фавор с панорамным видом."
+    }
+  },
+  {
+    "id": "307",
+    "name": {
+      "he": "נחל ארבל - שמורת טבע",
+      "ar": "وادي أربيل - محمية طبيعية",
+      "en": "Arbel Stream - Nature Reserve",
+      "ru": "Ручей Арбель - заповедник"
+    },
+    "coords": [
+      32.824,
+      35.506
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Amirim_View.jpg/800px-Amirim_View.jpg",
+    "description": {
+      "he": "מסלול הליכה מאתגר היורד ממצוק הארבל אל הכנרת.",
+      "ar": "مسار مشي مليء بالتحديات ينحدر من منحدر أربيل باتجاه بحيرة طبريا.",
+      "en": "A challenging hiking trail descending from the Arbel cliff towards the Sea of Galilee.",
+      "ru": "Сложный пешеходный маршрут, спускающийся со скалы Арбель к Кинерету."
+    }
+  },
+  {
+    "id": "308",
+    "name": {
+      "he": "פארק המעיינות - עמק המעיינות",
+      "ar": "منتزه الينابيع",
+      "en": "Springs Park - Emek HaMaayanot",
+      "ru": "Парк источников - Эмек-ха-Мааянот"
+    },
+    "coords": [
+      32.503,
+      35.451
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Nir_David_River.jpg/800px-Nir_David_River.jpg",
+    "description": {
+      "he": "פארק הכולל שלושה מעיינות גדולים למסלול רטוב.",
+      "ar": "منتزه يضم ثلاثة ينابيع كبيرة لمسار مائي ممتع.",
+      "en": "A park featuring three large springs for a wet trail experience.",
+      "ru": "Парк с тремя крупными источниками для водного маршрута."
+    }
+  },
+  {
+    "id": "309",
+    "name": {
+      "he": "יער בית קשת - דרך נוף",
+      "ar": "غابة بيت كيشيت - طريق خلاب",
+      "en": "Beit Keshet Forest - Scenic Route",
+      "ru": "Лес Бейт-Кешет - панорамный путь"
+    },
+    "coords": [
+      32.72,
+      35.39
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Little_Switzerland_Carmel.jpg/800px-Little_Switzerland_Carmel.jpg",
+    "description": {
+      "he": "דרך נוף יפהפייה בגליל התחתון הכוללת מסלולי הליכה קצרים ותצפיות על התבור.",
+      "ar": "طريق خلاب في الجليل الأسفل يتضمن مسارات مشي قصيرة وإطلالات على جبل طابور.",
+      "en": "A beautiful scenic route in the Lower Galilee with short trails and views of Mt. Tabor.",
+      "ru": "Живописный маршрут в Нижней Галилее с короткими тропами и видом на Фавор."
+    }
+  },
+  {
+    "id": "310",
+    "name": {
+      "he": "נחל צלמון",
+      "ar": "وادي سلامة",
+      "en": "Tzalmon Stream",
+      "ru": "Ручей Цальмон"
+    },
+    "coords": [
+      32.894,
+      35.405
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Dafna_Kibbutz_Water.jpg/800px-Dafna_Kibbutz_Water.jpg",
+    "description": {
+      "he": "מסלול הליכה קל לאורך נחל זורם, טחנות קמח עתיקות ובוסתנים.",
+      "ar": "مسار مشي سهل على طول وادٍ جارٍ وطواحين دقيق قديمة.",
+      "en": "An easy hiking trail along a flowing stream, ancient flour mills, and orchards.",
+      "ru": "Легкий маршрут вдоль ручья со старыми мельницами и садами."
+    }
+  },
+  {
+    "id": "311",
+    "name": {
+      "he": "יער שווייץ - מעל טבריה",
+      "ar": "غابة سويسرا - فوق طبريا",
+      "en": "Switzerland Forest - Tiberias",
+      "ru": "Швейцарский лес - Тверия"
+    },
+    "coords": [
+      32.771,
+      35.526
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kinneret_view_North.jpg/800px-Kinneret_view_North.jpg",
+    "description": {
+      "he": "פארק יער עם תצפיות פנורמיות עוצרות נשימה על הכנרת והגולן.",
+      "ar": "منتزه غابة مع إطلالات بانورامية خلابة على بحيرة طبريا والجولان.",
+      "en": "A forest park with breathtaking panoramic views of the Sea of Galilee and the Golan.",
+      "ru": "Лесопарк с захватывающими панорамными видами на Кинерет и Голаны."
+    }
+  },
+  {
+    "id": "312",
+    "name": {
+      "he": "פארק אלונה - נקבת מי קדם",
+      "ar": "منتزه ألونا - نفق مي كيدم",
+      "en": "Alona Park - Mei Kedem",
+      "ru": "Парк Алона - Мей-Кедем"
+    },
+    "coords": [
+      32.551,
+      34.992
+    ],
+    "category": "park",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "חוויית הליכה בתוך נקבת מים רומית עתיקה וקרירה.",
+      "ar": "تجربة مشي داخل نفق مياه روماني قديم وبارد.",
+      "en": "A walking experience inside an ancient and cool Roman water tunnel.",
+      "ru": "Пешеходный маршрут внутри древнего римского водного туннеля."
+    }
+  },
+  {
+    "id": "313",
+    "name": {
+      "he": "שביל רכס בשנית",
+      "ar": "مسار منحدر بشنيت",
+      "en": "Bashanit Ridge Trail",
+      "ru": "Маршрут по хребту Башанит"
+    },
+    "coords": [
+      32.99,
+      35.842
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Merom_Golan_Bental.jpg/800px-Merom_Golan_Bental.jpg",
+    "description": {
+      "he": "מסלול הליכה המציע תצפיות למזרח ומערב על רכסי הגולן והגליל.",
+      "ar": "مسار مشي يوفر إطلالات شرقاً وغرباً على سلاسل الجولان والجليل.",
+      "en": "A hiking trail offering east and west views of the Golan and Galilee ridges.",
+      "ru": "Пешеходный маршрут с видами на восток и запад на хребты Голан и Галилеи."
+    }
   }
 ]
