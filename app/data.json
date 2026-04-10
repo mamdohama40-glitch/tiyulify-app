@@ -7721,5 +7721,225 @@
       "en": "An Ottoman fortress built on Crusader foundations, used as the central prison during the Mandate era.",
       "ru": "Османская крепость на фундаменте крестоносцев, служившая тюрьмой в период мандата."
     }
+  },
+  {
+    "id": "354",
+    "name": {
+      "he": "נחל צין - עין עבדת",
+      "ar": "وادي زين - عين عبدات",
+      "en": "Nahal Zin - Ein Avdat",
+      "ru": "Нахаль Цин - Эйн-Авдат"
+    },
+    "coords": [
+      30.826,
+      34.774
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ein_Avdat_Canyon.jpg/800px-Ein_Avdat_Canyon.jpg",
+    "description": {
+      "he": "קניון עמוק ומרשים בלב המדבר עם מעיינות זורמים וצמחיית נחל עשירה.",
+      "ar": "وادي عميق ومذهل في قلب الصحراء مع ينابيع جارية ونباتات غنية.",
+      "en": "A deep and impressive canyon in the heart of the desert with flowing springs and lush vegetation.",
+      "ru": "Глубокий каньон в сердце пустыни с текущими источниками и богатой растительностью."
+    }
+  },
+  {
+    "id": "355",
+    "name": {
+      "he": "מכתש רמון - שביל הפסגה",
+      "ar": "مختش رامون - مسار القمة",
+      "en": "Makhtesh Ramon - Summit Trail",
+      "ru": "Махтеш Рамон - Тропа вершины"
+    },
+    "coords": [
+      30.612,
+      34.863
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Makhtesh_Ramon_View.jpg/800px-Makhtesh_Ramon_View.jpg",
+    "description": {
+      "he": "תצפית פנורמית על המכתש הגדול בעולם ומסלול הליכה לאורך המצוק.",
+      "ar": "إطلالة بانورامية على أكبر فوهة بركانية في العالم ومسار مشي على طول المنحدر.",
+      "en": "A panoramic view of the world's largest erosion crater and a hiking trail along the cliff.",
+      "ru": "Панорамный вид на крупнейший в мире эрозионный кратер и маршрут вдоль обрыва."
+    }
+  },
+  {
+    "id": "356",
+    "name": {
+      "he": "הקניון האדום - הרי אילת",
+      "ar": "الوادي الأحمر - جبال إيلات",
+      "en": "The Red Canyon - Eilat Mountains",
+      "ru": "Красный каньон - Эйлатские горы"
+    },
+    "coords": [
+      29.67,
+      34.898
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Red_Canyon_Israel.jpg/800px-Red_Canyon_Israel.jpg",
+    "description": {
+      "he": "מסלול הליכה בתוך קניון צר עשוי אבן חול אדומה, אחד היפים והפופולריים בדרום.",
+      "ar": "مسار مشي داخل وادٍ ضيق من الحجر الرملي الأحمر، أحد أجمل المسارات في الجنوب.",
+      "en": "A hiking trail inside a narrow red sandstone canyon, one of the most beautiful and popular in the south.",
+      "ru": "Пешеходный маршрут внутри узкого каньона из красного песчаника, один из красивейших на юге."
+    }
+  },
+  {
+    "id": "357",
+    "name": {
+      "he": "חאן שיירות",
+      "ar": "خان شيروت",
+      "en": "Chan Shayarot",
+      "ru": "Хан Шаярот"
+    },
+    "coords": [
+      30.84,
+      34.801
+    ],
+    "category": "sleep",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "אתר אירוח מדברי המציע לינה באוהלים בדואים, חדרים פרטיים וסיורי גמלים.",
+      "ar": "موقع ضيافة صحراوي يقدم إقامة في خيام بدوية وغرفاً خاصة وجولات جمال.",
+      "en": "A desert hospitality site offering accommodation in Bedouin tents, private rooms, and camel tours.",
+      "ru": "Пустынный кемпинг с бедуинскими шатрами и турами на верблюдах."
+    }
+  },
+  {
+    "id": "358",
+    "name": {
+      "he": "מלון בראשית - מצפה רמון",
+      "ar": "فندق بيريشت - متسبي رامون",
+      "en": "Beresheet Hotel - Mitzpe Ramon",
+      "ru": "Отель Берешит - Мицпе-Рамон"
+    },
+    "coords": [
+      30.608,
+      34.802
+    ],
+    "category": "sleep",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "מלון יוקרה הממוקם על שפת מכתש רמון, ידוע באדריכלות המשתלבת בטבע.",
+      "ar": "فندق فاخر يقع على حافة فوهة رامون، يشتهر بعمارته المندمجة مع الطبيعة.",
+      "en": "A luxury hotel located on the edge of the Ramon Crater, known for its nature-integrated architecture.",
+      "ru": "Роскошный отель на краю кратера Рамон, известный своей уникальной архитектурой."
+    }
+  },
+  {
+    "id": "359",
+    "name": {
+      "he": "חאן עין גדי",
+      "ar": "خان عين جدي",
+      "en": "Ein Gedi Camp Lodge",
+      "ru": "Хан Эйн-Геди"
+    },
+    "coords": [
+      31.455,
+      35.383
+    ],
+    "category": "sleep",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kinneret_view_North.jpg/800px-Kinneret_view_North.jpg",
+    "description": {
+      "he": "לינה באווירה רגועה מול ים המלח, מגוון אפשרויות מקמפינג ועד חדרים ממוזגים.",
+      "ar": "إقامة في أجواء هادئة مقابل البحر الميت، مع خيارات متنوعة من التخييم إلى الغرف المكيفة.",
+      "en": "Accommodation in a relaxed atmosphere facing the Dead Sea, from camping to AC rooms.",
+      "ru": "Размещение напротив Мертвого моря, от кемпинга до номеров с кондиционером."
+    }
+  },
+  {
+    "id": "360",
+    "name": {
+      "he": "פארק תמנע - מסלול עמודי שלמה",
+      "ar": "حديقة تيمنا - أعمدة سليمان",
+      "en": "Timna Park - Solomon's Pillars",
+      "ru": "Парк Тимна - Соломоновы столбы"
+    },
+    "coords": [
+      29.789,
+      34.924
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Timna_Park_Solomons_Pillars.jpg/800px-Timna_Park_Solomons_Pillars.jpg",
+    "description": {
+      "he": "פארק גאולוגי וארכאולוגי המציע מסלולי הליכה בין תצורות סלע מרהיבות ותולדות הנחושת.",
+      "ar": "حديقة جيولوجية وأثرية تقدم مسارات مشي بين تكوينات صخرية مذهلة.",
+      "en": "A geological and archaeological park offering hiking trails among spectacular rock formations.",
+      "ru": "Геологический и археологический парк с маршрутами среди скальных образований."
+    }
+  },
+  {
+    "id": "361",
+    "name": {
+      "he": "נחל דוד - שמורת עין גדי",
+      "ar": "وادي داود - عين جدي",
+      "en": "Nahal David - Ein Gedi",
+      "ru": "Нахаль Давид - Эйн-Геди"
+    },
+    "coords": [
+      31.466,
+      35.391
+    ],
+    "category": "water",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Nahal_David_Waterfall.jpg/800px-Nahal_David_Waterfall.jpg",
+    "description": {
+      "he": "נווה מדבר ירוק עם מפלים ובריכות מים, ביתם של יעלים ושפני סלע רבים.",
+      "ar": "واحة خضراء مع شلالات وبرك مياه، موطن للوعول والوبر الصخري.",
+      "en": "A green desert oasis with waterfalls and pools, home to many ibexes and hyraxes.",
+      "ru": "Зеленый оазис с водопадами и заводями, где живут горные козлы и даманы."
+    }
+  },
+  {
+    "id": "362",
+    "name": {
+      "he": "מלון פרימה מיוזיק - אילת",
+      "ar": "فندق بريما ميوزيك",
+      "en": "Prima Music Hotel - Eilat",
+      "ru": "Отель Прима Мьюзик - Эйлат"
+    },
+    "coords": [
+      29.516,
+      34.929
+    ],
+    "category": "sleep",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Eilat_beach.jpg/800px-Eilat_beach.jpg",
+    "description": {
+      "he": "מלון קונספט הממוקם בחוף הדרומי, כל קומה מוקדשת לסגנון מוזיקלי אחר.",
+      "ar": "فندق مفهوم يقع في الشاطئ الجنوبي، كل طابق مخصص لنمط موسيقي مختلف.",
+      "en": "A concept hotel on the South Beach, with each floor dedicated to a different musical genre.",
+      "ru": "Концептуальный отель на Южном пляже, где каждый этаж посвящен музыкальному жанру."
+    }
+  },
+  {
+    "id": "363",
+    "name": {
+      "he": "אכסניית אנ\"א מצדה",
+      "ar": "نزل شباب مسعدة",
+      "en": "Masada Youth Hostel (HI)",
+      "ru": "Хостел Масада (HI)"
+    },
+    "coords": [
+      31.312,
+      35.364
+    ],
+    "category": "sleep",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Dead_Sea_Salt_Crystals.jpg/800px-Dead_Sea_Salt_Crystals.jpg",
+    "description": {
+      "he": "אירוח מודרני למרגלות מצדה, כולל בריכה וגישה נוחה לעלייה להר בזריחה.",
+      "ar": "ضيافة حديثة عند قدمي مسعدة، تشمل مسبحاً ووصولاً سهلاً لصعود الجبل عند الشروق.",
+      "en": "Modern accommodation at the foot of Masada, including a pool and easy access for sunrise hikes.",
+      "ru": "Современный хостел у подножия Масады, с бассейном и удобным доступом к горе."
+    }
   }
 ]
