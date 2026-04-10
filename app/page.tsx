@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import 'leaflet/dist/leaflet.css';
 import data from './data.json';
@@ -13,86 +12,72 @@ function calculateDistance(a: number, b: number, c: number, d: number): string {
   const x = Math.sin(dL/2)**2 + Math.cos(a*Math.PI/180)*Math.cos(c*Math.PI/180)*Math.sin(dLo/2)**2;
   return (R*2*Math.atan2(Math.sqrt(x),Math.sqrt(1-x))).toFixed(1);
 }
-
 function getYoutubeLink(id: string): string {
   if (!id) return "";
   const o = typeof window!=='undefined' ? `&origin=${window.location.origin}` : "";
   return `https://www.youtube.com/embed/${id}?autoplay=0&rel=0&modestbranding=1${o}`;
 }
 
-
-// ============================================================
-// SmartImage — תמונה חכמה עם fallback אוטומטי
-// מנסה: 1) item.image  2) Wikimedia API  3) placeholder צבעוני
-// ============================================================
-const CATEGORY_COLORS: Record<string, string> = {
-  water: '#3b82f6', nature: '#22c55e', history: '#a16207',
-  sleep: '#8b5cf6', accommodation: '#8b5cf6', food: '#f97316',
-  bike: '#ef4444', hiking: '#84cc16', promenade: '#06b6d4',
-  beach: '#0ea5e9', river: '#6366f1', park: '#10b981',
-  cafe: '#92400e', default: '#6b7280'
+// === SmartImage: תמונה חכמה עם fallback ===
+const CAT_COLOR: Record<string,string> = {
+  water:'#3b82f6',nature:'#22c55e',history:'#a16207',sleep:'#8b5cf6',
+  accommodation:'#8b5cf6',food:'#f97316',bike:'#ef4444',hiking:'#84cc16',
+  promenade:'#06b6d4',beach:'#0ea5e9',river:'#6366f1',park:'#10b981',cafe:'#92400e',default:'#6b7280'
 };
-
-const CATEGORY_EMOJI: Record<string, string> = {
-  water: '💧', nature: '🌿', history: '🏛️', sleep: '🏕️',
-  accommodation: '🛖', food: '🍽️', bike: '🚲', hiking: '🥾',
-  promenade: '🚶', beach: '🏖️', river: '🌊', park: '🌳',
-  cafe: '☕', default: '📍'
+const CAT_EMOJI: Record<string,string> = {
+  water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
+  food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',river:'🌊',park:'🌳',cafe:'☕',default:'📍'
 };
 
 function SmartImage({ item, className }: { item: any; className?: string }) {
-  const [src, setSrc] = React.useState<string>(item.image || '');
-  const [tried, setTried] = React.useState(0); // 0=original, 1=wikimedia, 2=placeholder
-  const [wikiSrc, setWikiSrc] = React.useState<string | null>(null);
+  const isWiki = (item.image||'').includes('wikimedia') || (item.image||'').includes('wikipedia');
+  const [status, setStatus] = React.useState<'img'|'wiki'|'icon'>(isWiki ? 'img' : 'img');
+  const [src, setSrc] = React.useState(item.image||'');
 
-  // Fetch Wikimedia image when original fails
   React.useEffect(() => {
-    if (tried !== 1) return;
-    const name = item.name?.he || item.name?.en || '';
-    if (!name) { setTried(2); return; }
-    const searchTerm = encodeURIComponent(name);
-    fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${searchTerm}`)
-      .then(r => r.json())
-      .then(d => {
-        const imgUrl = d?.thumbnail?.source || d?.originalimage?.source;
-        if (imgUrl) { setWikiSrc(imgUrl); setSrc(imgUrl); }
-        else { setTried(2); }
-      })
-      .catch(() => setTried(2));
-  }, [tried, item.name]);
+    // אם התמונה Unsplash — נסה Wikipedia תחילה
+    if (!isWiki && item.image && item.image.includes('unsplash')) {
+      const name = item.name?.he || item.name?.en || '';
+      if (!name) return;
+      const q = encodeURIComponent(name.split(' ').slice(0,3).join(' '));
+      fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${q}`)
+        .then(r => r.ok ? r.json() : null)
+        .then(d => {
+          const img = d?.thumbnail?.source;
+          if (img && img.includes('wikipedia')) setSrc(img);
+          // else keep original Unsplash
+        })
+        .catch(()=>{});
+    }
+  }, [item.id]);
 
-  const color = CATEGORY_COLORS[item.category] || CATEGORY_COLORS.default;
-  const emoji = CATEGORY_EMOJI[item.category] || CATEGORY_EMOJI.default;
-  const label = item.name?.he || item.name?.en || '';
+  const color = CAT_COLOR[item.category] || CAT_COLOR.default;
+  const emoji = CAT_EMOJI[item.category] || CAT_EMOJI.default;
 
-  if (tried === 2) {
-    // Beautiful colored placeholder
-    return (
-      <div className={className} style={{
-        background: `linear-gradient(135deg, ${color}22, ${color}44)`,
-        display: 'flex', flexDirection: 'column',
-        alignItems: 'center', justifyContent: 'center',
-        gap: '8px', border: `2px solid ${color}33`
-      }}>
-        <span style={{ fontSize: '2.5rem' }}>{emoji}</span>
-        <span style={{ fontSize: '0.7rem', fontWeight: 800, color, textAlign: 'center', padding: '0 8px', opacity: 0.8 }}>{label}</span>
-      </div>
-    );
-  }
-
+  if (status === 'icon') return (
+    <div className={className} style={{
+      background:`linear-gradient(135deg,${color}22,${color}44)`,
+      display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'8px',border:`2px solid ${color}33`
+    }}>
+      <span style={{fontSize:'2.5rem'}}>{emoji}</span>
+      <span style={{fontSize:'0.7rem',fontWeight:800,color,textAlign:'center',padding:'0 8px',opacity:0.8}}>{item.name?.he||item.name?.en||''}</span>
+    </div>
+  );
   return (
-    <img
-      src={src}
-      className={className}
-      alt={label}
-      onError={() => {
-        if (tried === 0) { setTried(1); setSrc(''); }
-        else { setTried(2); }
-      }}
-      style={{ display: src ? 'block' : 'none' }}
-    />
+    <img src={src} className={className} alt={item.name?.he||''} onError={()=>{
+      if (status==='img' && !isWiki) setStatus('wiki');
+      else setStatus('icon');
+    }}/>
   );
 }
+
+// === שכבות מפה ===
+const MAP_LAYERS = [
+  { id:'standard',  label:'🗺️ רגיל',   url:'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', attribution:'©CARTO' },
+  { id:'satellite', label:'🛸 לוויין', url:'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', attribution:'©Esri' },
+  { id:'terrain',   label:'⛰️ שטח',   url:'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', attribution:'©OpenTopoMap' },
+  { id:'dark',      label:'🌙 כהה',    url:'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', attribution:'©CARTO' },
+];
 
 export default function TiyulifyApp() {
   const [isClientReady, setIsClientReady] = useState(false);
@@ -100,6 +85,8 @@ export default function TiyulifyApp() {
   const [activeLang, setActiveLang] = useState('he');
   const [categoryFilter, setCategoryFilter] = useState('all');
   const [regionFilter, setRegionFilter] = useState('all');
+  const [activeMapLayer, setActiveMapLayer] = useState('standard');
+  const [showLayerPicker, setShowLayerPicker] = useState(false);
   const [geoQuery, setGeoQuery] = useState('');
   const [geoResults, setGeoResults] = useState<GeoResult[]>([]);
   const [geoLoading, setGeoLoading] = useState(false);
@@ -117,6 +104,7 @@ export default function TiyulifyApp() {
       search:"חפש כל מקום בישראל...",results:"תוצאות",surprise:"תפתיע אותי",welcome:"לאן נטייל היום?",
       start:"בואו נתחיל",back:"חזרה",style:"מה הסגנון שלכם?",distText:'ק"מ ממך',distLabel:"מרחק:",
       home:"בית",here:"המיקום שלך",share:"שתף ב-WhatsApp",km:'ק"מ',loading:"טוען מפה...",noResults:"לא נמצאו תוצאות",
+      mapLayers:"שכבות מפה",
       regions:{all:"כל הארץ",north:"צפון",center:"מרכז",south:"דרום"},
       categories:{all:"הכל",water:"מים ומעיינות",nature:"פארקים וטבע",history:"היסטוריה",sleep:"לינה",
         food:"אוכל",bike:"אופניים",hiking:"הליכה",promenade:"טיילות",beach:"חופים",river:"נחלים"}
@@ -125,6 +113,7 @@ export default function TiyulifyApp() {
       search:"Search any place in Israel...",results:"Results",surprise:"Surprise Me",welcome:"Where to today?",
       start:"Let's Begin",back:"Go Back",style:"What's your style?",distText:"km away",distLabel:"Distance:",
       home:"Home",here:"You are here",share:"Share on WhatsApp",km:"km",loading:"Loading map...",noResults:"No results found",
+      mapLayers:"Map Layers",
       regions:{all:"All Israel",north:"North",center:"Center",south:"South"},
       categories:{all:"All",water:"Water & Springs",nature:"Parks & Nature",history:"History",sleep:"Camping",
         food:"Food",bike:"Cycling",hiking:"Hiking",promenade:"Promenades",beach:"Beaches",river:"Rivers"}
@@ -133,6 +122,7 @@ export default function TiyulifyApp() {
       search:"ابحث عن أي مكان في إسرائيل...",results:"نتائج",surprise:"فاجئني",welcome:"أين نذهب اليوم؟",
       start:"لنبدأ",back:"رجوع",style:"ما هو أسلوبك؟",distText:"كم منك",distLabel:"المسافة:",
       home:"الرئيسية",here:"أنت هنا",share:"مشاركة واتساب",km:"كم",loading:"جارٍ التحميل...",noResults:"لا توجد نتائج",
+      mapLayers:"طبقات الخريطة",
       regions:{all:"كل البلاد",north:"الشمال",center:"الوسط",south:"الجنوب"},
       categories:{all:"الكل",water:"مياه وينابيع",nature:"منتزهات وطبيعة",history:"تاريخ وتراث",sleep:"إقامة وتخييم",
         food:"طعام ومطاعم",bike:"مسارات الدراجات",hiking:"مسارات المشي",promenade:"ممشى سياحي",beach:"شواطئ البحر",river:"أنهار وجداول"}
@@ -141,6 +131,7 @@ export default function TiyulifyApp() {
       search:"Поиск любого места в Израиле...",results:"Результаты",surprise:"Удиви меня",welcome:"Куда поедем?",
       start:"Поехали",back:"Назад",style:"Какой стиль?",distText:"км от вас",distLabel:"Расстояние:",
       home:"Домой",here:"Вы здесь",share:"Поделиться WhatsApp",km:"км",loading:"Загрузка карты...",noResults:"Ничего не найдено",
+      mapLayers:"Слои карты",
       regions:{all:"Весь Израиль",north:"Север",center:"Центр",south:"Юг"},
       categories:{all:"Все",water:"Вода и источники",nature:"Парки и природа",history:"История",sleep:"Жилье",
         food:"Еда",bike:"Велосипед",hiking:"Пешие тропы",promenade:"Променады",beach:"Пляжи",river:"Реки"}
@@ -177,19 +168,16 @@ export default function TiyulifyApp() {
   }, []);
 
   const handleGeoSearch = useCallback((query: string) => {
-    setGeoQuery(query);
-    setGeoResults([]);
+    setGeoQuery(query); setGeoResults([]);
     if (geoDebounce.current) clearTimeout(geoDebounce.current);
     if (!query || query.length < 2) return;
     geoDebounce.current = setTimeout(async () => {
       setGeoLoading(true);
       try {
         const lang = activeLang==='he'?'he':activeLang==='ar'?'ar':'en';
-        const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&countrycodes=il&limit=6&accept-language=${lang}`;
-        const r = await fetch(url);
+        const r = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&countrycodes=il&limit=6&accept-language=${lang}`);
         setGeoResults(await r.json());
-      } catch(e) { console.error(e); }
-      finally { setGeoLoading(false); }
+      } catch(e) {} finally { setGeoLoading(false); }
     }, 400);
   }, [activeLang]);
 
@@ -201,14 +189,35 @@ export default function TiyulifyApp() {
     setGeoResults([]);
     if (mapControl.current) mapControl.current.flyTo(coords, 15, {animate:true, duration:1.5});
   };
-
   const clearSearch = () => { setGeoQuery(''); setGeoResults([]); setSearchMarker(null); setSearchMarkerName(''); };
 
+  // ===== פילטר חכם לפי קטגוריה =====
   const filteredItems = useMemo(() => {
-    let r = data.filter((item: any) => {
+    let r = (data as any[]).filter((item: any) => {
       if (!item.name || !item.coords) return false;
-      return (categoryFilter==='all' || item.category===categoryFilter) &&
-             (regionFilter==='all' || (item.region && item.region===regionFilter));
+      const cat = item.category || '';
+      const nameHe = item.name?.he || '';
+      const nameEn = (item.name?.en || '').toLowerCase();
+      let matchesCat = false;
+      if (categoryFilter === 'all') {
+        matchesCat = true;
+      } else if (categoryFilter === 'river') {
+        // נחלים = water items עם נחל בשם
+        matchesCat = cat === 'water' && ('נחל' in nameHe || nameHe.includes('נחל') || nameEn.includes('stream') || nameEn.includes('nahal') || nameEn.includes('river'));
+      } else if (categoryFilter === 'water') {
+        // מים = water items שאינם נחלים
+        matchesCat = cat === 'water' && !nameHe.includes('נחל') && !nameEn.includes('stream');
+      } else if (categoryFilter === 'sleep') {
+        matchesCat = cat === 'sleep' || cat === 'accommodation';
+      } else if (categoryFilter === 'food') {
+        matchesCat = cat === 'food' || cat === 'cafe';
+      } else if (categoryFilter === 'nature') {
+        matchesCat = cat === 'nature' || cat === 'park';
+      } else {
+        matchesCat = cat === categoryFilter;
+      }
+      const matchesReg = regionFilter === 'all' || (item.region && item.region === regionFilter);
+      return matchesCat && matchesReg;
     });
     if (userCoords) return [...r].sort((a,b) =>
       parseFloat(calculateDistance(userCoords[0],userCoords[1],a.coords[0],a.coords[1])) -
@@ -218,14 +227,12 @@ export default function TiyulifyApp() {
   }, [categoryFilter, regionFilter, userCoords]);
 
   const flyToCoords = (t: [number,number]) => { if(mapControl.current) mapControl.current.flyTo(t, 14, {animate:true,duration:2.0}); };
-
   const handleSurpriseMe = () => {
-    const pool = filteredItems.length>0 ? filteredItems.slice(0,10) : data;
+    const pool = filteredItems.length>0 ? filteredItems.slice(0,10) : data as any[];
     const pick = pool[Math.floor(Math.random()*pool.length)] as any;
     setCategoryFilter('all'); setActiveView('map');
     setTimeout(() => flyToCoords(pick.coords as [number,number]), 800);
   };
-
   const shareOnWhatsApp = (item: any) => {
     const n = item.name[activeLang]||item.name.he;
     const u = `https://www.google.com/maps/search/?api=1&query=${item.coords[0]},${item.coords[1]}`;
@@ -233,10 +240,12 @@ export default function TiyulifyApp() {
   };
 
   const isRtl = activeLang==='ar'||activeLang==='he';
+  const currentLayer = MAP_LAYERS.find(l => l.id === activeMapLayer) || MAP_LAYERS[0];
 
   return (
     <div className="flex flex-col h-screen bg-white font-sans overflow-hidden" dir={isRtl?'rtl':'ltr'}>
 
+      {/* HOME */}
       {activeView==='home' && (
         <div className="flex-1 flex flex-col items-center justify-center p-6 bg-[url('https://images.unsplash.com/photo-1548777123-e216912df7d8?w=1200')] bg-cover bg-center relative text-white text-center">
           <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]"/>
@@ -261,6 +270,7 @@ export default function TiyulifyApp() {
         </div>
       )}
 
+      {/* QUIZ */}
       {activeView==='quiz' && (
         <div className="flex-1 flex flex-col items-center justify-start md:justify-center p-6 bg-gray-50 overflow-y-auto pt-20">
           <h2 className="text-3xl md:text-6xl font-black text-gray-800 mb-10 md:mb-16 text-center">{labels[activeLang].style}</h2>
@@ -279,6 +289,7 @@ export default function TiyulifyApp() {
         </div>
       )}
 
+      {/* MAP */}
       {activeView==='map' && (
         <div className="flex flex-col h-full relative">
           <header className="bg-white/95 backdrop-blur-md border-b-2 p-3 md:p-5 flex flex-col gap-3 md:gap-5 z-[2000] shadow-xl">
@@ -297,20 +308,17 @@ export default function TiyulifyApp() {
             </div>
 
             <div className="flex flex-col lg:flex-row gap-3 md:gap-6 w-full px-2">
-              {/* חיפוש גאוקודינג */}
+              {/* חיפוש */}
               <div className="flex-1 relative">
                 <div className="relative">
-                  <input type="text" placeholder={labels[activeLang].search} value={geoQuery}
-                    onChange={(e)=>handleGeoSearch(e.target.value)}
+                  <input type="text" placeholder={labels[activeLang].search} value={geoQuery} onChange={(e)=>handleGeoSearch(e.target.value)}
                     className="w-full bg-gray-50 border-2 border-gray-200 rounded-xl md:rounded-[1.5rem] py-2 md:py-4 px-10 md:px-14 focus:border-green-400 focus:bg-white outline-none transition-all text-gray-800 shadow-sm font-bold text-sm md:text-lg"/>
                   <span className={`absolute top-2.5 md:top-4 opacity-40 text-lg md:text-2xl pointer-events-none ${isRtl?'right-4':'left-4'}`}>{geoLoading?'⏳':'🔍'}</span>
-                  {geoQuery && (
-                    <button onClick={clearSearch} className={`absolute top-2 md:top-3 text-gray-400 hover:text-red-500 text-xl font-black px-2 ${isRtl?'left-2':'right-2'}`}>✕</button>
-                  )}
+                  {geoQuery && <button onClick={clearSearch} className={`absolute top-2 md:top-3 text-gray-400 hover:text-red-500 text-xl font-black px-2 ${isRtl?'left-2':'right-2'}`}>✕</button>}
                 </div>
                 {geoResults.length>0 && (
                   <div className="absolute top-full mt-2 w-full bg-white border-2 border-green-200 rounded-2xl shadow-2xl z-[9999] overflow-hidden">
-                    {geoResults.map((r)=>(
+                    {geoResults.map(r=>(
                       <button key={r.place_id} onClick={()=>handleSelectGeoResult(r)}
                         className="w-full text-right px-4 py-3 hover:bg-green-50 border-b border-gray-100 last:border-0 text-sm font-semibold text-gray-700 flex items-center gap-3 transition-colors">
                         <span className="text-green-500 text-lg shrink-0">📍</span>
@@ -323,9 +331,9 @@ export default function TiyulifyApp() {
                   <div className="absolute top-full mt-2 w-full bg-white border-2 border-gray-100 rounded-2xl shadow-xl z-[9999] p-4 text-center text-gray-400 font-semibold text-sm">{labels[activeLang].noResults}</div>
                 )}
               </div>
-
+              {/* פילטרים */}
               <div className="flex gap-2 overflow-x-auto no-scrollbar py-1">
-                <select value={regionFilter} onChange={(e)=>setRegionFilter(e.target.value)}
+                <select value={regionFilter} onChange={e=>setRegionFilter(e.target.value)}
                   className="bg-blue-100 text-blue-800 font-black px-4 py-2 md:px-8 md:py-4 rounded-xl md:rounded-[2rem] text-xs md:text-sm outline-none border-none cursor-pointer shadow-md hover:bg-blue-200">
                   {Object.entries(labels[activeLang].regions).map(([id,label]:any)=>(<option key={id} value={id}>{label}</option>))}
                 </select>
@@ -337,7 +345,7 @@ export default function TiyulifyApp() {
             </div>
           </header>
 
-          {(!isClientReady || !LeafletMapLib) ? (
+          {(!isClientReady||!LeafletMapLib) ? (
             <div className="flex-1 flex items-center justify-center bg-gray-50">
               <div className="text-center"><div className="text-6xl mb-4 animate-spin">🗺️</div><p className="text-gray-500 font-bold text-xl">{labels[activeLang].loading}</p></div>
             </div>
@@ -345,13 +353,14 @@ export default function TiyulifyApp() {
             const {MapContainer, TileLayer, Marker, Popup} = LeafletMapLib;
             return (
               <div className="flex-1 flex relative overflow-hidden">
+                {/* Sidebar */}
                 <aside className="w-[30rem] bg-white border-r overflow-y-auto hidden md:block p-8 shadow-2xl z-10">
                   <div className="flex justify-between items-center mb-10 text-gray-400 font-bold text-xs uppercase tracking-widest">
                     <span>{labels[activeLang].results} ({filteredItems.length})</span>
                     {userCoords && <span className="text-green-600">📍 ממוין לפי קרבה</span>}
                   </div>
                   <div className="space-y-8">
-                    {filteredItems.map((item: any)=>{
+                    {filteredItems.map((item:any)=>{
                       const d = userCoords ? calculateDistance(userCoords[0],userCoords[1],item.coords[0],item.coords[1]) : null;
                       return (
                         <div key={item.id} onClick={()=>flyToCoords(item.coords)}
@@ -369,7 +378,7 @@ export default function TiyulifyApp() {
 
                 <div className="flex-1 relative">
                   <MapContainer center={[32.0,34.9]} zoom={8} style={{height:'100%',width:'100%'}} ref={mapControl} zoomControl={false}>
-                    <TileLayer url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"/>
+                    <TileLayer key={activeMapLayer} url={currentLayer.url} attribution={currentLayer.attribution}/>
                     {userCoords && userRedMarker && (
                       <Marker position={userCoords} icon={userRedMarker}>
                         <Popup><div className="text-center font-black text-red-600 p-2 text-lg">📍 {labels[activeLang].here}</div></Popup>
@@ -379,54 +388,24 @@ export default function TiyulifyApp() {
                       <Marker position={searchMarker} icon={searchPinIcon}>
                         <Popup minWidth={340} maxWidth={400} className="square-modern-popup-container">
                           <div className="text-right font-sans p-1 overflow-hidden">
-                            {/* תמונת מפה מ-Mapbox Static API */}
                             <div className="w-full h-44 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden bg-gray-100 relative border-2 border-white">
-                              <img
-                                src={"https://staticmap.openstreetmap.de/staticmap.php?center=" + searchMarker[0] + "," + searchMarker[1] + "&zoom=14&size=600x300&maptype=mapnik"}
-                                alt={searchMarkerName}
-                                className="w-full h-full object-cover"
-                                onError={(e: any) => {
-                                  // fallback to OpenStreetMap static tile
-                                  e.target.src = `https://staticmap.openstreetmap.de/staticmap.php?center=${searchMarker[0]},${searchMarker[1]}&zoom=14&size=600x300&maptype=mapnik&markers=${searchMarker[0]},${searchMarker[1]},red-pushpin`;
-                                  e.target.onerror = (e2: any) => {
-                                    e2.target.parentElement.style.background = 'linear-gradient(135deg,#3b82f622,#3b82f644)';
-                                    e2.target.style.display='none';
-                                  };
-                                }}
-                              />
-                              <div className="absolute bottom-2 right-2 bg-blue-600 text-white text-[10px] font-black px-2 py-1 rounded-full shadow">
-                                🔍 חיפוש
-                              </div>
+                              <img src={`https://staticmap.openstreetmap.de/staticmap.php?center=${searchMarker[0]},${searchMarker[1]}&zoom=14&size=600x300&maptype=mapnik`}
+                                alt={searchMarkerName} className="w-full h-full object-cover"
+                                onError={(e:any)=>{ e.target.style.display='none'; e.target.parentElement.style.background='linear-gradient(135deg,#3b82f622,#3b82f644)'; }}/>
+                              <div className="absolute bottom-2 right-2 bg-blue-600 text-white text-[10px] font-black px-2 py-1 rounded-full shadow">🔍 חיפוש</div>
                             </div>
-                            <h4 className="font-black text-blue-900 text-2xl m-0 leading-none mb-3 px-1">
-                              📍 {searchMarkerName}
-                            </h4>
-                            {userCoords && (
-                              <div className="flex items-center gap-2 mb-4 bg-blue-50 inline-flex px-4 py-1.5 rounded-full border-2 border-blue-100 shadow-sm">
-                                <span className="text-xl">🚀</span>
-                                <p className="text-[14px] text-blue-700 font-black m-0">
-                                  {labels[activeLang].distLabel} {calculateDistance(userCoords[0], userCoords[1], searchMarker[0], searchMarker[1])} {labels[activeLang].km}
-                                </p>
-                              </div>
-                            )}
-                            <div className="border-t-2 border-gray-100 mt-2 pt-3 px-1">
-                              <p className="text-[14px] text-gray-500 font-semibold leading-relaxed">
-                                {activeLang==='he' ? 'מיקום שנמצא בחיפוש. לניווט לחצו על אחד מהכפתורים למטה.' :
-                                 activeLang==='ar' ? 'موقع تم العثور عليه بالبحث. اضغط على أحد الأزرار للتنقل.' :
-                                 activeLang==='ru' ? 'Место найдено через поиск. Нажмите кнопку для навигации.' :
-                                 'Location found via search. Press a button below to navigate.'}
-                              </p>
-                            </div>
+                            <h4 className="font-black text-blue-900 text-2xl m-0 leading-none mb-3 px-1">📍 {searchMarkerName}</h4>
+                            {userCoords && <div className="flex items-center gap-2 mb-4 bg-blue-50 inline-flex px-4 py-1.5 rounded-full border-2 border-blue-100 shadow-sm"><span className="text-xl">🚀</span><p className="text-[14px] text-blue-700 font-black m-0">{labels[activeLang].distLabel} {calculateDistance(userCoords[0],userCoords[1],searchMarker[0],searchMarker[1])} {labels[activeLang].km}</p></div>}
                             <div className="flex flex-wrap gap-3 mt-4 pb-2">
-                              <a href={`https://www.waze.com/ul?ll=${searchMarker[0]},${searchMarker[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-4 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95 transition-all">WAZE</a>
-                              <button onClick={()=>window.open(`https://wa.me/?text=${encodeURIComponent('Tiyulify: ' + searchMarkerName + '\nhttps://www.google.com/maps/search/?api=1&query=' + searchMarker[0] + ',' + searchMarker[1])}`,"_blank")} className="flex-1 bg-green-500 text-white text-center py-4 rounded-2xl text-[11px] font-black shadow-lg hover:bg-green-600 active:scale-95 transition-all">WhatsApp</button>
+                              <a href={`https://www.waze.com/ul?ll=${searchMarker[0]},${searchMarker[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-4 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95">WAZE</a>
+                              <button onClick={()=>window.open(`https://wa.me/?text=${encodeURIComponent('Tiyulify: '+searchMarkerName+'\nhttps://www.google.com/maps/search/?api=1&query='+searchMarker[0]+','+searchMarker[1])}`,'_blank')} className="flex-1 bg-green-500 text-white text-center py-4 rounded-2xl text-[11px] font-black shadow-lg active:scale-95">WhatsApp</button>
                               <a href={`https://www.google.com/maps/search/?api=1&query=${searchMarker[0]},${searchMarker[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-4 rounded-2xl text-[11px] font-black no-underline border-2 border-gray-200 hover:bg-gray-200 active:scale-95">GOOGLE</a>
                             </div>
                           </div>
                         </Popup>
                       </Marker>
                     )}
-                    {filteredItems.map((item: any)=>{
+                    {filteredItems.map((item:any)=>{
                       const pd = userCoords ? calculateDistance(userCoords[0],userCoords[1],item.coords[0],item.coords[1]) : null;
                       return (
                         <Marker key={item.id} position={item.coords}>
@@ -442,18 +421,13 @@ export default function TiyulifyApp() {
                                 )}
                               </div>
                               <h4 className="font-black text-green-900 text-3xl m-0 leading-none mb-3 px-1">{item.name[activeLang]||item.name.he}</h4>
-                              {pd && (
-                                <div className="flex items-center gap-2 mb-4 bg-green-50 inline-flex px-4 py-1.5 rounded-full border-2 border-green-100 shadow-sm">
-                                  <span className="text-xl">📍</span>
-                                  <p className="text-[14px] text-green-700 font-black m-0">{labels[activeLang].distLabel} {pd} {labels[activeLang].km}</p>
-                                </div>
-                              )}
+                              {pd && <div className="flex items-center gap-2 mb-4 bg-green-50 inline-flex px-4 py-1.5 rounded-full border-2 border-green-100 shadow-sm"><span className="text-xl">📍</span><p className="text-[14px] text-green-700 font-black m-0">{labels[activeLang].distLabel} {pd} {labels[activeLang].km}</p></div>}
                               <div className="max-h-40 overflow-y-auto no-scrollbar border-t-2 border-gray-100 mt-2 pt-4 px-1">
                                 <p className="text-[16px] text-gray-700 leading-relaxed font-semibold">{item.description[activeLang]||item.description.he}</p>
                               </div>
                               <div className="flex flex-wrap gap-3 mt-6 pb-2">
-                                <a href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-4 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95 transition-all">WAZE</a>
-                                <button onClick={()=>shareOnWhatsApp(item)} className="flex-1 bg-green-500 text-white text-center py-4 rounded-2xl text-[11px] font-black shadow-lg hover:bg-green-600 active:scale-95 transition-all">WhatsApp</button>
+                                <a href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-4 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95">WAZE</a>
+                                <button onClick={()=>shareOnWhatsApp(item)} className="flex-1 bg-green-500 text-white text-center py-4 rounded-2xl text-[11px] font-black shadow-lg hover:bg-green-600 active:scale-95">WhatsApp</button>
                                 <a href={`https://www.google.com/maps/search/?api=1&query=${item.coords[0]},${item.coords[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-4 rounded-2xl text-[11px] font-black no-underline border-2 border-gray-200 hover:bg-gray-200 active:scale-95">GOOGLE</a>
                               </div>
                             </div>
@@ -462,11 +436,32 @@ export default function TiyulifyApp() {
                       );
                     })}
                   </MapContainer>
+
+                  {/* ===== כפתורי שליטה ===== */}
                   <div className="absolute bottom-6 left-6 z-[2000] flex flex-col gap-4">
                     <button onClick={handleSurpriseMe} className="bg-green-600 text-white w-16 h-16 md:w-28 md:h-28 rounded-full shadow-2xl flex flex-col items-center justify-center text-[10px] md:text-xs font-black border-4 border-white hover:bg-green-700 transition-all transform hover:scale-110 active:scale-90">
                       <span className="text-2xl md:text-6xl mb-1">🎲</span>{labels[activeLang].surprise}
                     </button>
                     <button onClick={()=>setActiveView('home')} className="bg-white text-green-600 w-12 h-12 md:w-20 md:h-20 rounded-full shadow-2xl flex items-center justify-center text-3xl md:text-5xl border-2 md:border-4 border-green-600 hover:bg-green-50 transition-all transform hover:scale-110 active:scale-90">🏠</button>
+                  </div>
+
+                  {/* ===== בורר שכבות מפה ===== */}
+                  <div className="absolute bottom-6 right-6 z-[2000] flex flex-col items-end gap-2">
+                    {showLayerPicker && (
+                      <div className="bg-white rounded-2xl shadow-2xl border-2 border-gray-100 p-2 flex flex-col gap-1 mb-1">
+                        {MAP_LAYERS.map(layer=>(
+                          <button key={layer.id} onClick={()=>{setActiveMapLayer(layer.id);setShowLayerPicker(false);}}
+                            className={`px-4 py-2 rounded-xl text-xs font-black whitespace-nowrap transition-all ${activeMapLayer===layer.id?'bg-green-600 text-white':'bg-gray-50 text-gray-600 hover:bg-gray-100'}`}>
+                            {layer.label}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                    <button onClick={()=>setShowLayerPicker(p=>!p)}
+                      className="bg-white text-gray-700 w-12 h-12 md:w-16 md:h-16 rounded-full shadow-2xl flex items-center justify-center text-xl md:text-3xl border-2 border-gray-200 hover:bg-gray-50 transition-all transform hover:scale-110 active:scale-90 font-black"
+                      title={labels[activeLang].mapLayers}>
+                      🗂️
+                    </button>
                   </div>
                 </div>
               </div>
