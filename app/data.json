@@ -6401,5 +6401,225 @@
       "en": "A World Heritage site featuring prehistoric caves and hiking trails.",
       "ru": "Объект всемирного наследия с доисторическими пещерами и маршрутами."
     }
+  },
+  {
+    "id": "294",
+    "name": {
+      "he": "חוף עין בוקק - ים המלח",
+      "ar": "شاطئ عين بوقيق - البحر الميت",
+      "en": "Ein Bokek Beach - Dead Sea",
+      "ru": "Пляж Эйн-Бокек - Мертвое море"
+    },
+    "coords": [
+      31.196,
+      35.367
+    ],
+    "category": "beach",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Ein_Bokek_Beach.jpg/800px-Ein_Bokek_Beach.jpg",
+    "description": {
+      "he": "חוף רחצה ציבורי, פתוח ללא תשלום, עם שירותי הצלה, מקלחות וגישה נוחה.",
+      "ar": "شاطئ سباحة عام، مفتوح مجاناً، مع خدمات إنقاذ وحمامات ووصول سهل.",
+      "en": "Public beach, free entry, with lifeguard services, showers, and easy access.",
+      "ru": "Общественный пляж, бесплатный вход, услуги спасателей, души и удобный доступ."
+    }
+  },
+  {
+    "id": "295",
+    "name": {
+      "he": "חוף קליה - צפון ים המלח",
+      "ar": "شاطئ كاليا - شمال البحر الميت",
+      "en": "Kalia Beach - Northern Dead Sea",
+      "ru": "Пляж Калия - Северное Мертвое море"
+    },
+    "coords": [
+      31.758,
+      35.502
+    ],
+    "category": "beach",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Dead_Sea_Israel_2013.jpg/800px-Dead_Sea_Israel_2013.jpg",
+    "description": {
+      "he": "חוף מוסדר בצפון ים המלח הכולל בוץ טבעי, בר נמוך בעולם ושירותי תיירות.",
+      "ar": "شاطئ منظم في شمال البحر الميت يضم طيناً طبيعياً وأدنى بار في العالم.",
+      "en": "Regulated beach in the North Dead Sea featuring natural mud and the world's lowest bar.",
+      "ru": "Оборудованный пляж на севере Мертвого моря с лечебной грязью и самым низким баром в мире."
+    }
+  },
+  {
+    "id": "296",
+    "name": {
+      "he": "חוף חמי זוהר - ים המלח",
+      "ar": "شاطئ حمامات زوهر",
+      "en": "Hamei Zohar Beach",
+      "ru": "Пляж Хамей Зохар"
+    },
+    "coords": [
+      31.155,
+      35.363
+    ],
+    "category": "beach",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Dead_Sea_Salt_Crystals.jpg/800px-Dead_Sea_Salt_Crystals.jpg",
+    "description": {
+      "he": "חוף רחצה מוסדר בדרום ים המלח, כולל מתחם נפרד לציבור הדתי.",
+      "ar": "شاطئ منظم في جنوب البحر الميت، يضم قسماً منفصلاً للجمهور المتدين.",
+      "en": "Regulated beach in the Southern Dead Sea, including a segregated area for the religious public.",
+      "ru": "Оборудованный пляж на юге Мертвого моря, включая раздельную зону для религиозных посетителей."
+    }
+  },
+  {
+    "id": "297",
+    "name": {
+      "he": "חוף המגדלור - אילת",
+      "ar": "شاطئ المنارة - إيلات",
+      "en": "Migdalor Beach - Eilat",
+      "ru": "Пляж Мигдалор - Эйлат"
+    },
+    "coords": [
+      29.508,
+      34.922
+    ],
+    "category": "beach",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Eilat_beach.jpg/800px-Eilat_beach.jpg",
+    "description": {
+      "he": "חוף פתוח בדרום אילת, פופולרי לצלילה ושנרקול עם אווירה רגועה.",
+      "ar": "شاطئ مفتوح في جنوب إيلات، يشتهر بالغوص والسنوركل مع أجواء مريحة.",
+      "en": "Open beach in South Eilat, popular for diving and snorkeling with a relaxed vibe.",
+      "ru": "Открытый пляж на юге Эйлата, популярный для дайвинга и снорклинга."
+    }
+  },
+  {
+    "id": "298",
+    "name": {
+      "he": "חוף אלמוגים - שמורת טבע",
+      "ar": "شاطئ المرجان - محمية طبيعية",
+      "en": "Coral Beach Nature Reserve",
+      "ru": "Коралловый пляж - заповедник"
+    },
+    "coords": [
+      29.514,
+      34.927
+    ],
+    "category": "beach",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Coral_Beach_Eilat.jpg/800px-Coral_Beach_Eilat.jpg",
+    "description": {
+      "he": "שמורת טבע ימית המאפשרת צפייה בשוניות אלמוגים מרהיבות דרך גשרים ושבילים.",
+      "ar": "محمية طبيعية بحرية تتيح مشاهدة الشعاب المرجانية المذهلة عبر جسور ومسارات.",
+      "en": "Marine nature reserve allowing observation of spectacular coral reefs via bridges and paths.",
+      "ru": "Морской заповедник, позволяющий наблюдать за коралловыми рифами со специальных мостиков."
+    }
+  },
+  {
+    "id": "299",
+    "name": {
+      "he": "החוף של מוש - אילת",
+      "ar": "شاطئ موش - إيلات",
+      "en": "Mosh's Beach - Eilat",
+      "ru": "Пляж Моша - Эйлат"
+    },
+    "coords": [
+      29.539,
+      34.945
+    ],
+    "category": "beach",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "חוף אקולוגי בסגנון סיני עם פינות ישיבה נמוכות, אוכל צמחוני ואווירה ייחודית.",
+      "ar": "شاطئ بيئي على طراز سيناء مع جلسات أرضية، طعام نباتي وأجواء فريدة.",
+      "en": "Ecological Sinai-style beach with floor seating, vegetarian food, and a unique atmosphere.",
+      "ru": "Экологичный пляж в стиле Синая с низкими сиденьями и вегетарианской кухней."
+    }
+  },
+  {
+    "id": "300",
+    "name": {
+      "he": "חוף חנניה - אילת",
+      "ar": "شاطئ حنانيا - إيلات",
+      "en": "Hananya Beach - Eilat",
+      "ru": "Пляж Ханания - Эйлат"
+    },
+    "coords": [
+      29.551,
+      34.962
+    ],
+    "category": "beach",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Tiberias_Promenade.jpg/800px-Tiberias_Promenade.jpg",
+    "description": {
+      "he": "חוף ציבורי מוכרז במרכז המפרץ, מציע שירותי הצלה וספורט ימי מגוון.",
+      "ar": "شاطئ عام معترف به في وسط الخليج، يقدم خدمات إنقاذ ورياضات مائية متنوعة.",
+      "en": "Declared public beach in the center of the bay, offering lifeguard services and various water sports.",
+      "ru": "Официальный общественный пляж в центре залива с водными видами спорта."
+    }
+  },
+  {
+    "id": "301",
+    "name": {
+      "he": "חוף הנסיכה - אילת",
+      "ar": "شاطئ البرنسيس - إيلات",
+      "en": "Princess Beach - Eilat",
+      "ru": "Пляж Принцесса - Эйлат"
+    },
+    "coords": [
+      29.497,
+      34.911
+    ],
+    "category": "beach",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kinneret_view_North.jpg/800px-Kinneret_view_North.jpg",
+    "description": {
+      "he": "החוף הדרומי ביותר באילת, סמוך למעבר טאבה, מושלם לשנרקל שקט.",
+      "ar": "أقصى شاطئ جنوبي في إيلات، بالقرب من معبر طابا، مثالي للسنوركل الهادئ.",
+      "en": "The southernmost beach in Eilat, near Taba crossing, perfect for quiet snorkeling.",
+      "ru": "Самый южный пляж Эйлата, рядом с границей Таба, идеален для тихого снорклинга."
+    }
+  },
+  {
+    "id": "302",
+    "name": {
+      "he": "חוף דולפין ריף",
+      "ar": "شاطئ دولفين ريف",
+      "en": "Dolphin Reef Beach",
+      "ru": "Дельфиний риф"
+    },
+    "coords": [
+      29.526,
+      34.935
+    ],
+    "category": "beach",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Dolphins_at_the_Eilat_Dolphin_Reef.jpg/800px-Dolphins_at_the_Eilat_Dolphin_Reef.jpg",
+    "description": {
+      "he": "חוף פרטי המאפשר צפייה ושחייה לצד דולפינים בסביבתם הטבעית (בתשלום).",
+      "ar": "شاطئ خاص يتيح مشاهدة والسباحة بجانب الدلافين في بيئتها الطبيعية (برسوم).",
+      "en": "Private beach allowing observation and swimming alongside dolphins in their natural habitat (fee applies).",
+      "ru": "Частный пляж, где можно наблюдать за дельфинами и плавать рядом с ними (платно)."
+    }
+  },
+  {
+    "id": "303",
+    "name": {
+      "he": "חוף נווה מדבר - ים המלח",
+      "ar": "شاطئ واحة الصحراء",
+      "en": "Neve Midbar Beach",
+      "ru": "Пляж Неве Мидбар"
+    },
+    "coords": [
+      31.765,
+      35.503
+    ],
+    "category": "beach",
+    "region": "south",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "חוף מוסדר בצפון ים המלח הכולל בריכות שחייה, מדשאות ואזורי פיקניק.",
+      "ar": "شاطئ منظم في شمال البحر الميت يضم برك سباحة ومساحات خضراء ومناطق نزهة.",
+      "en": "Regulated beach in the North Dead Sea featuring swimming pools, lawns, and picnic areas.",
+      "ru": "Оборудованный пляж на севере Мертвого моря с бассейнами, газонами и зонами для пикника."
+    }
   }
 ]
