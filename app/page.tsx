@@ -237,6 +237,7 @@ export default function TiyulifyApp() {
   const [regionFilter, setRegionFilter] = useState('all');
   const [activeMapLayer, setActiveMapLayer] = useState('standard');
   const [showLayerPicker, setShowLayerPicker] = useState(false);
+  const [showSidebar, setShowSidebar] = useState(false);
   const [geoQuery, setGeoQuery] = useState('');
   const [geoResults, setGeoResults] = useState<GeoResult[]>([]);
   const [geoLoading, setGeoLoading] = useState(false);
@@ -515,7 +516,14 @@ export default function TiyulifyApp() {
             return (
               <div className="flex-1 flex relative overflow-hidden">
                 {/* Sidebar */}
-                <aside className="w-[30rem] bg-white border-r overflow-y-auto hidden md:block p-8 shadow-2xl z-10">
+                {/* כפתור פתיחת סרגל */}
+                <button onClick={()=>setShowSidebar(s=>!s)}
+                  className="hidden md:flex absolute top-4 left-4 z-[1500] bg-white border border-gray-200 rounded-xl shadow-lg w-10 h-10 items-center justify-center hover:bg-gray-50 transition-all"
+                  title="רשימת מקומות">
+                  <span className="text-gray-600 text-lg">{showSidebar ? '✕' : '☰'}</span>
+                </button>
+
+                <aside className={`w-[30rem] bg-white border-r overflow-y-auto p-8 shadow-2xl z-10 transition-all duration-300 hidden md:block ${showSidebar ? 'md:block' : 'md:hidden'}`}>
                   <div className="flex justify-between items-center mb-10 text-gray-400 font-bold text-xs uppercase tracking-widest">
                     <span>{labels[activeLang].results} ({filteredItems.length})</span>
                     {userCoords && <span className="text-green-600">📍 ממוין לפי קרבה</span>}
