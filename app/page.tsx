@@ -222,39 +222,39 @@ export default function TiyulifyApp() {
 
   const labels: any = {
     he: {
-      search:"חפש כל מקום בישראל...",results:"תוצאות",surprise:"תפתיע אותי",welcome:"לאן נטייל היום?",
+      search:"חפש כל מקום בישראל...",results:"תוצאות",surprise:"הצעה שלי",welcome:"לאן נטייל היום?",
       start:"בואו נתחיל",back:"חזרה",style:"מה הסגנון שלכם?",distText:'ק"מ ממך',distLabel:"מרחק:",
       home:"בית",here:"המיקום שלך",share:"שתף ב-WhatsApp",km:'ק"מ',loading:"טוען מפה...",noResults:"לא נמצאו תוצאות",
       mapLayers:"שכבות מפה",
       regions:{all:"כל הארץ",north:"צפון",center:"מרכז",south:"דרום"},
-      categories:{all:"הכל",water:"מים ומעיינות",nature:"פארקים וטבע",history:"היסטוריה",sleep:"לינה",
+      categories:{all:"הכל",water:"מים ומעיינות",nature:"פארקים וטבע",history:"היסטוריה ודת",sleep:"לינה",
         food:"אוכל",bike:"אופניים",hiking:"הליכה",promenade:"טיילות",beach:"חופים",river:"נחלים"}
     },
     en: {
-      search:"Search any place in Israel...",results:"Results",surprise:"Surprise Me",welcome:"Where to today?",
+      search:"Search any place in Israel...",results:"Results",surprise:"My Pick",welcome:"Where to today?",
       start:"Let's Begin",back:"Go Back",style:"What's your style?",distText:"km away",distLabel:"Distance:",
       home:"Home",here:"You are here",share:"Share on WhatsApp",km:"km",loading:"Loading map...",noResults:"No results found",
       mapLayers:"Map Layers",
       regions:{all:"All Israel",north:"North",center:"Center",south:"South"},
-      categories:{all:"All",water:"Water & Springs",nature:"Parks & Nature",history:"History",sleep:"Camping",
+      categories:{all:"All",water:"Water & Springs",nature:"Parks & Nature",history:"History & Religion",sleep:"Camping",
         food:"Food",bike:"Cycling",hiking:"Hiking",promenade:"Promenades",beach:"Beaches",river:"Rivers"}
     },
     ar: {
-      search:"ابحث عن أي مكان في إسرائيل...",results:"نتائج",surprise:"فاجئني",welcome:"أين نذهب اليوم؟",
+      search:"ابحث عن أي مكان في إسرائيل...",results:"نتائج",surprise:"اقتراحي",welcome:"أين نذهب اليوم؟",
       start:"لنبدأ",back:"رجوع",style:"ما هو أسلوبك؟",distText:"كم منك",distLabel:"المسافة:",
       home:"الرئيسية",here:"أنت هنا",share:"مشاركة واتساب",km:"كم",loading:"جارٍ التحميل...",noResults:"لا توجد نتائج",
       mapLayers:"طبقات الخريطة",
       regions:{all:"كل البلاد",north:"الشمال",center:"الوسط",south:"الجنوب"},
-      categories:{all:"الكل",water:"مياه وينابيع",nature:"منتزهات وطبيعة",history:"تاريخ وتراث",sleep:"إقامة وتخييم",
+      categories:{all:"الكل",water:"مياه وينابيع",nature:"منتزهات وطبيعة",history:"تاريخ ودين",sleep:"إقامة وتخييم",
         food:"طعام ومطاعم",bike:"مسارات الدراجات",hiking:"مسارات المشي",promenade:"ممشى سياحي",beach:"شواطئ البحر",river:"أنهار وجداول"}
     },
     ru: {
-      search:"Поиск любого места в Израиле...",results:"Результаты",surprise:"Удиви меня",welcome:"Куда поедем?",
+      search:"Поиск любого места в Израиле...",results:"Результаты",surprise:"Мой выбор",welcome:"Куда поедем?",
       start:"Поехали",back:"Назад",style:"Какой стиль?",distText:"км от вас",distLabel:"Расстояние:",
       home:"Домой",here:"Вы здесь",share:"Поделиться WhatsApp",km:"км",loading:"Загрузка карты...",noResults:"Ничего не найдено",
       mapLayers:"Слои карты",
       regions:{all:"Весь Израиль",north:"Север",center:"Центр",south:"Юг"},
-      categories:{all:"Все",water:"Вода и источники",nature:"Парки и природа",history:"История",sleep:"Жилье",
+      categories:{all:"Все",water:"Вода и источники",nature:"Парки и природа",history:"История и религия",sleep:"Жилье",
         food:"Еда",bike:"Велосипед",hiking:"Пешие тропы",promenade:"Променады",beach:"Пляжи",river:"Реки"}
     }
   };
@@ -381,7 +381,7 @@ export default function TiyulifyApp() {
             <p className="text-lg md:text-3xl font-light mb-12 md:mb-16 opacity-95 drop-shadow-lg italic">{labels[activeLang].welcome}</p>
             <div className="flex flex-col gap-5 w-64 md:w-80 mx-auto">
               <button onClick={()=>setActiveView('quiz')} className="bg-green-500 hover:bg-green-600 py-4 md:py-6 rounded-2xl md:rounded-3xl font-bold text-xl md:text-3xl shadow-2xl transition-all transform hover:scale-105 active:scale-95">{labels[activeLang].start}</button>
-              <button onClick={handleSurpriseMe} className="bg-white/20 hover:bg-white/30 backdrop-blur-md border-2 border-white/50 py-4 md:py-5 rounded-2xl md:rounded-3xl font-bold text-lg md:text-xl shadow-xl transition-all">🎲 {labels[activeLang].surprise}</button>
+              <button onClick={handleSurpriseMe} className="bg-white/20 hover:bg-white/30 backdrop-blur-md border-2 border-white/50 py-4 md:py-5 rounded-2xl md:rounded-3xl font-bold text-lg md:text-xl shadow-xl transition-all">💡 {labels[activeLang].surprise}</button>
             </div>
             <div className="mt-16 md:mt-24 flex justify-center gap-3 md:gap-4 flex-wrap">
               {['he','ar','en','ru'].map(l=>(

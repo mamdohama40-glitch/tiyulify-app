@@ -7941,5 +7941,753 @@
       "en": "Modern accommodation at the foot of Masada, including a pool and easy access for sunrise hikes.",
       "ru": "Современный хостел у подножия Масады, с бассейном и удобным доступом к горе."
     }
+  },
+  {
+    "id": "364",
+    "name": {
+      "he": "מסגד אל-אקצא",
+      "ar": "المسجد الأقصى",
+      "en": "Al-Aqsa Mosque",
+      "ru": "Мечеть Аль-Акса"
+    },
+    "coords": [
+      31.776,
+      35.235
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Al-Aqsa_Mosque_2013.jpg/800px-Al-Aqsa_Mosque_2013.jpg",
+    "description": {
+      "he": "אחד המקומות הקדושים ביותר לאסלאם, ממוקם בדרום הר הבית.",
+      "ar": "من أقدس المواقع في الإسلام، يقع في جنوب الحرم القدسي الشريف.",
+      "en": "One of the holiest sites in Islam, located on the southern part of the Temple Mount.",
+      "ru": "Одна из главных святынь ислама на Храмовой горе."
+    }
+  },
+  {
+    "id": "365",
+    "name": {
+      "he": "כיפת הסלע",
+      "ar": "قبة الصخرة",
+      "en": "Dome of the Rock",
+      "ru": "Купол Скалы"
+    },
+    "coords": [
+      31.778,
+      35.235
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Jerusalem_Dome_of_the_rock_BW_1.JPG/800px-Jerusalem_Dome_of_the_rock_BW_1.JPG",
+    "description": {
+      "he": "מבנה מונומנטלי מוסלמי בולט בהר הבית עם כיפת הזהב המפורסמת.",
+      "ar": "معلم إسلامي بارز في الحرم القدسي الشريف بقبته الذهبية الشهيرة.",
+      "en": "A prominent Islamic monumental shrine on the Temple Mount with its famous golden dome.",
+      "ru": "Монументальное исламское сооружение со знаменитым золотым куполом."
+    }
+  },
+  {
+    "id": "367",
+    "name": {
+      "he": "מסגד סידנא עלי - הרצליה",
+      "ar": "مسجد سيدنا علي",
+      "en": "Sidna Ali Mosque",
+      "ru": "Мечеть Сидна Али"
+    },
+    "coords": [
+      32.191,
+      34.806
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Sidna_Ali_Mosque.jpg/800px-Sidna_Ali_Mosque.jpg",
+    "description": {
+      "he": "מסגד היסטורי השוכן על מצוק חוף הים של נוף ים, אתר עלייה לרגל.",
+      "ar": "مسجد تاريخي يقع على جرف شاطئ البحر في نوف يام.",
+      "en": "A historic mosque situated on a cliff overlooking the sea, a pilgrimage site.",
+      "ru": "Историческая мечеть на скале над морем."
+    }
+  },
+  {
+    "id": "368",
+    "name": {
+      "he": "המסגד הגדול (אל-עומרי) - טבריה",
+      "ar": "المسجد العمري - طبريا",
+      "en": "Al-Omari Mosque - Tiberias",
+      "ru": "Мечеть Аль-Омари - Тверия"
+    },
+    "coords": [
+      32.788,
+      35.541
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Tiberias_Mosque.jpg/800px-Tiberias_Mosque.jpg",
+    "description": {
+      "he": "מסגד עתיק בלב העיר העתיקה של טבריה שנבנה בתקופה העות'מאנית.",
+      "ar": "مسجد قديم في قلب مدينة طبريا القديمة بني في العهد العثماني.",
+      "en": "An ancient mosque in the heart of Tiberias' Old City, built during the Ottoman period.",
+      "ru": "Старинная мечеть в центре Старого города Тверии."
+    }
+  },
+  {
+    "id": "369",
+    "name": {
+      "he": "מסגד אל-ג'רינה - חיפה",
+      "ar": "جامع الجرينة",
+      "en": "Al-Jarina Mosque - Haifa",
+      "ru": "Мечеть Аль-Джарина"
+    },
+    "coords": [
+      32.82,
+      34.999
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Al-Jarina_Mosque_Haifa.jpg/800px-Al-Jarina_Mosque_Haifa.jpg",
+    "description": {
+      "he": "מסגד ותיק בעיר התחתית של חיפה עם מגדל שעון מרשים.",
+      "ar": "مسجد قديم في مدينة حيفا السفلى ببرج ساعة رائع.",
+      "en": "A veteran mosque in Haifa's Lower City with an impressive clock tower.",
+      "ru": "Старинная мечеть в Нижней Хайфе с часовой башней."
+    }
+  },
+  {
+    "id": "370",
+    "name": {
+      "he": "מסגד מחמודייה - יפו",
+      "ar": "جامع المحمودية - يافا",
+      "en": "Mahmoudiya Mosque - Jaffa",
+      "ru": "Мечеть Махмудия - Яффо"
+    },
+    "coords": [
+      32.055,
+      34.753
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Mahmoudiya_Mosque_Jaffa.jpg/800px-Mahmoudiya_Mosque_Jaffa.jpg",
+    "description": {
+      "he": "המסגד הגדול והחשוב ביפו, ממוקם בסמוך למגדל השעון.",
+      "ar": "أكبر وأهم مسجد في يافا، يقع بجوار برج الساعة.",
+      "en": "The largest and most important mosque in Jaffa, near the Clock Tower.",
+      "ru": "Самая большая мечеть в Яффо рядом с Часовой башней."
+    }
+  },
+  {
+    "id": "371",
+    "name": {
+      "he": "כנסיית הבשורה - נצרת",
+      "ar": "كنيسة البشارة",
+      "en": "Basilica of the Annunciation",
+      "ru": "Базилика Благовещения"
+    },
+    "coords": [
+      32.702,
+      35.297
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Nazareth_Basilica.jpg/800px-Nazareth_Basilica.jpg",
+    "description": {
+      "he": "אחת הכנסיות החשובות בעולם, מציינת את המקום בו התבשרה מרים.",
+      "ar": "من أهم الكنائس في العالم.",
+      "en": "One of the world's most important churches, marking the site of the Annunciation to Mary.",
+      "ru": "Одна из важнейших церквей мира."
+    }
+  },
+  {
+    "id": "372",
+    "name": {
+      "he": "כנסיית המולד - בית לחם",
+      "ar": "كنيسة المهد",
+      "en": "Church of the Nativity",
+      "ru": "Храм Рождества Христова"
+    },
+    "coords": [
+      31.704,
+      35.207
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Church_of_the_Nativity.jpg/800px-Church_of_the_Nativity.jpg",
+    "description": {
+      "he": "הכנסייה המסמנת את מקום הולדתו המסורתי של ישו.",
+      "ar": "الكنيسة التي تحدد مكان ميلاد يسوع التقليدي.",
+      "en": "The church marking the traditional birthplace of Jesus.",
+      "ru": "Храм над пещерой, где родился Иисус Христос."
+    }
+  },
+  {
+    "id": "373",
+    "name": {
+      "he": "כנסיית הקבר - ירושלים",
+      "ar": "كنيسة القيامة",
+      "en": "Church of the Holy Sepulchre",
+      "ru": "Храм Гроба Господня"
+    },
+    "coords": [
+      31.778,
+      35.229
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Church_of_the_Holy_Sepulchre_Jerusalem.jpg/800px-Church_of_the_Holy_Sepulchre_Jerusalem.jpg",
+    "description": {
+      "he": "האתר הקדוש ביותר לנצרות, המקום בו נצלב ונקבר ישו.",
+      "ar": "أقدس موقع في المسيحية.",
+      "en": "The holiest site in Christianity, where Jesus was crucified and buried.",
+      "ru": "Главная святыня христианского мира."
+    }
+  },
+  {
+    "id": "374",
+    "name": {
+      "he": "מנזר סטלה מאריס - חיפה",
+      "ar": "دير ستلا ماريس",
+      "en": "Stella Maris Monastery",
+      "ru": "Монастырь Стелла Марис"
+    },
+    "coords": [
+      32.829,
+      34.97
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Stella_Maris_Monastery.jpg/800px-Stella_Maris_Monastery.jpg",
+    "description": {
+      "he": "מנזר כרמליתי המוקדש לאליהו הנביא, צופה על מפרץ חיפה.",
+      "ar": "دير كرملي مكرس للنبي إلياس.",
+      "en": "A Carmelite monastery dedicated to the Prophet Elijah, overlooking Haifa Bay.",
+      "ru": "Кармелитский монастырь с видом на залив."
+    }
+  },
+  {
+    "id": "375",
+    "name": {
+      "he": "הכותל המערבי",
+      "ar": "حائط البراق",
+      "en": "The Western Wall",
+      "ru": "Стена Плача"
+    },
+    "coords": [
+      31.776,
+      35.234
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Western_Wall_Jerusalem.jpg/800px-Western_Wall_Jerusalem.jpg",
+    "description": {
+      "he": "שריד של חומת הר הבית, האתר הקדוש ביותר לתפילה ביהדות.",
+      "ar": "بقايا جدار الحرم القدسي، أقدس موقع للصلاة في اليهودية.",
+      "en": "A remnant of the Temple Mount wall, the holiest site for Jewish prayer.",
+      "ru": "Величайшая святыня иудаизма."
+    }
+  },
+  {
+    "id": "376",
+    "name": {
+      "he": "מערת המכפלה - חברון",
+      "ar": "الحرم الإبراهيمي",
+      "en": "Cave of the Patriarchs",
+      "ru": "Пещера Патриархов"
+    },
+    "coords": [
+      31.524,
+      35.11
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Cave_of_the_Patriarchs.jpg/800px-Cave_of_the_Patriarchs.jpg",
+    "description": {
+      "he": "אתר קבורת האבות והאימהות, קדוש ליהדות ולאסלאם.",
+      "ar": "موقع دفن الأنبياء وزوجاتهم، مقدس في اليهودية والإسلام.",
+      "en": "Burial site of the patriarchs and matriarchs, sacred to both Judaism and Islam.",
+      "ru": "Склеп патриархов, святыня для иудеев и мусульман."
+    }
+  },
+  {
+    "id": "377",
+    "name": {
+      "he": "הגנים הבהאיים - חיפה",
+      "ar": "الحدائق البهائية",
+      "en": "Baha'i Gardens - Haifa",
+      "ru": "Бахайские сады - Хайфа"
+    },
+    "coords": [
+      32.812,
+      34.987
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Bahai_Gardens_Haifa.jpg/800px-Bahai_Gardens_Haifa.jpg",
+    "description": {
+      "he": "המרכז הרוחני של הדת הבהאאית, גנים תלויים מרהיבים על הר הכרמל.",
+      "ar": "المركز الروحي للديانة البهائية.",
+      "en": "The spiritual center of the Baha'i faith, spectacular hanging gardens on Mount Carmel.",
+      "ru": "Всемирный центр религии Бахаи на горе Кармель."
+    }
+  },
+  {
+    "id": "378",
+    "name": {
+      "he": "מקדש אל-באהג'ה - עכו",
+      "ar": "قصر البهجة",
+      "en": "Shrine of Baha'u'llah",
+      "ru": "Усыпальница Бахауллы"
+    },
+    "coords": [
+      32.943,
+      35.092
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Mansion_of_Bahji.jpg/800px-Mansion_of_Bahji.jpg",
+    "description": {
+      "he": "המקום הקדוש ביותר לבהאאים, מקום קבורתו של מייסד הדת.",
+      "ar": "أقدس مكان للبهائيين.",
+      "en": "The holiest site for Baha'is, burial place of Baha'u'llah.",
+      "ru": "Самое святое место для последователей Бахаи."
+    }
+  },
+  {
+    "id": "379",
+    "name": {
+      "he": "קבר הרשב\"י - מירון",
+      "ar": "قبر شمعون بار يوحاي",
+      "en": "Tomb of Rabbi Shimon bar Yochai",
+      "ru": "Могила Рабби Шимона бар Иохая"
+    },
+    "coords": [
+      32.98,
+      35.441
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Meron_Tomb.jpg/800px-Meron_Tomb.jpg",
+    "description": {
+      "he": "אתר עלייה לרגל המרכזי בגליל, מקום קבורתו של רבי שמעון בר יוחאי.",
+      "ar": "موقع حج مركزي في الجليل.",
+      "en": "Major pilgrimage site in Galilee, burial place of Rabbi Shimon bar Yochai.",
+      "ru": "Место паломничества в Галилее, могила автора Зоара."
+    }
+  },
+  {
+    "id": "380",
+    "name": {
+      "he": "קבר הרמב\"ם - טבריה",
+      "ar": "قبر موسى بن ميمون",
+      "en": "Tomb of Maimonides",
+      "ru": "Могила Маймонида"
+    },
+    "coords": [
+      32.789,
+      35.535
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Maimonides_Tomb.jpg/800px-Maimonides_Tomb.jpg",
+    "description": {
+      "he": "מקום קבורתו של אחד מגדולי פוסקי ההלכה והפילוסופים היהודים.",
+      "ar": "مكان دفن أحد كبار الفقهاء والفلاسفة اليهود.",
+      "en": "Burial place of one of the greatest Jewish scholars and philosophers.",
+      "ru": "Место захоронения великого философа Рамбама."
+    }
+  },
+  {
+    "id": "381",
+    "name": {
+      "he": "מסגד הים - יפו",
+      "ar": "مسجد البحر",
+      "en": "Sea Mosque - Jaffa",
+      "ru": "Морская мечеть - Яффо"
+    },
+    "coords": [
+      32.056,
+      34.75
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Al-Bahr_Mosque_Jaffa.jpg/800px-Al-Bahr_Mosque_Jaffa.jpg",
+    "description": {
+      "he": "מסגד עתיק הממוקם על קו המים בנמל יפו העתיק.",
+      "ar": "مسجد قديم يقع على شاطئ البحر في ميناء يافا القديم.",
+      "en": "An ancient mosque on the waterfront of Old Jaffa Port.",
+      "ru": "Старинная мечеть на берегу в старом порту Яффо."
+    }
+  },
+  {
+    "id": "382",
+    "name": {
+      "he": "כנסיית הר האושר",
+      "ar": "كنيسة جبل التطويبات",
+      "en": "Church of the Beatitudes",
+      "ru": "Церковь Нагорной проповеди"
+    },
+    "coords": [
+      32.88,
+      35.549
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Church_of_the_Beatitudes.jpg/800px-Church_of_the_Beatitudes.jpg",
+    "description": {
+      "he": "כנסייה יפהפייה הצופה על הכנרת, האתר בו נשא ישו את דרשת ההר.",
+      "ar": "كنيسة جميلة تطل على بحيرة طبريا.",
+      "en": "A beautiful church overlooking the Sea of Galilee, where Jesus delivered the Sermon on the Mount.",
+      "ru": "Церковь на месте Нагорной проповеди с видом на Кинерет."
+    }
+  },
+  {
+    "id": "383",
+    "name": {
+      "he": "כנסיית הביקור - עין כרם",
+      "ar": "كنيسة الزيارة",
+      "en": "Church of the Visitation",
+      "ru": "Церковь Посещения"
+    },
+    "coords": [
+      31.766,
+      35.158
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Church_of_the_Visitation.jpg/800px-Church_of_the_Visitation.jpg",
+    "description": {
+      "he": "כנסייה בירושלים המציינת את ביקור מרים אצל אלישבע.",
+      "ar": "كنيسة في القدس تخلد ذكرى زيارة مريم لأليصابات.",
+      "en": "A church in Jerusalem commemorating the visit of Mary to Elizabeth.",
+      "ru": "Церковь в память о встрече Марии и Елизаветы."
+    }
+  },
+  {
+    "id": "384",
+    "name": {
+      "he": "קבר דוד המלך",
+      "ar": "قبر النبي داود",
+      "en": "King David's Tomb",
+      "ru": "Гробница царя Давида"
+    },
+    "coords": [
+      31.772,
+      35.228
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/King_David_Tomb.jpg/800px-King_David_Tomb.jpg",
+    "description": {
+      "he": "מבנה על הר ציון המזוהה כמקום קבורתו של דוד המלך.",
+      "ar": "مبنى على جبل صهيون يشتهر بأنه مكان دفن الملك داود.",
+      "en": "A structure on Mt. Zion identified as the burial place of King David.",
+      "ru": "Почитаемая гробница царя Давида на горе Сион."
+    }
+  },
+  {
+    "id": "385",
+    "name": {
+      "he": "כנסיית סטלה מאריס",
+      "ar": "كنيسة ستلا ماريس",
+      "en": "Stella Maris Church",
+      "ru": "Церковь Стелла Марис"
+    },
+    "coords": [
+      32.83,
+      34.971
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Stella_Maris_Interior.jpg/800px-Stella_Maris_Interior.jpg",
+    "description": {
+      "he": "כנסייה כרמליתית מפוארת המכילה מערה המזוהה עם אליהו הנביא.",
+      "ar": "كنيسة كرملية فاخرة تحتوي على مغارة مرتبطة بالنبي إلياس.",
+      "en": "A magnificent Carmelite church containing a cave associated with the Prophet Elijah.",
+      "ru": "Великолепная церковь кармелитов с пещерой пророка Илии."
+    }
+  },
+  {
+    "id": "386",
+    "name": {
+      "he": "בית הכנסת אברהם אבינו - חברון",
+      "ar": "كنيس إبراهيم الخليل",
+      "en": "Avraham Avinu Synagogue",
+      "ru": "Синагога Авраам Авину"
+    },
+    "coords": [
+      31.523,
+      35.107
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Avraham_Avinu_Synagogue.jpg/800px-Avraham_Avinu_Synagogue.jpg",
+    "description": {
+      "he": "בית כנסת היסטורי וחשוב ברובע היהודי העתיק בחברון.",
+      "ar": "كنيس تاريخي ومهم في الحي اليهودي القديم في الخليل.",
+      "en": "An important historical synagogue in the old Jewish quarter of Hebron.",
+      "ru": "Историческая синагога в еврейском квартале Хеврона."
+    }
+  },
+  {
+    "id": "387",
+    "name": {
+      "he": "מסגד אל-איסתקלאל - חיפה",
+      "ar": "جامع الاستقلال",
+      "en": "Istiklal Mosque",
+      "ru": "Мечеть Истикляль"
+    },
+    "coords": [
+      32.818,
+      35.002
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Istiklal_Mosque_Haifa.jpg/800px-Istiklal_Mosque_Haifa.jpg",
+    "description": {
+      "he": "המסגד הגדול ביותר בחיפה.",
+      "ar": "أكبر مسجد في حيفا.",
+      "en": "The largest mosque in Haifa.",
+      "ru": "Самая большая мечеть в Хайфе."
+    }
+  },
+  {
+    "id": "388",
+    "name": {
+      "he": "מנזר המצלבה - ירושלים",
+      "ar": "دير الصليب",
+      "en": "Monastery of the Cross",
+      "ru": "Монастырь Креста"
+    },
+    "coords": [
+      31.772,
+      35.208
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Monastery_of_the_Cross.jpg/800px-Monastery_of_the_Cross.jpg",
+    "description": {
+      "he": "מנזר מבוצר בעמק המצלבה, לפי המסורת ממנו נלקח העץ לצלב של ישו.",
+      "ar": "دير محصن يقع في وادي الصليب.",
+      "en": "A fortified monastery where, according to tradition, the tree for Jesus' cross was taken.",
+      "ru": "Укрепленный монастырь на месте, где росло дерево для креста."
+    }
+  },
+  {
+    "id": "389",
+    "name": {
+      "he": "קבר רחל - בית לחם",
+      "ar": "قبر راحيل",
+      "en": "Rachel's Tomb",
+      "ru": "Гробница Рахили"
+    },
+    "coords": [
+      31.72,
+      35.202
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Rachel_Tomb_2010.jpg/800px-Rachel_Tomb_2010.jpg",
+    "description": {
+      "he": "מקום קבורתה המסורתי של רחל אמנו, אתר תפילה מרכזי.",
+      "ar": "مكان دفن راحيل، موقع صلاة مركزي.",
+      "en": "The traditional burial place of the matriarch Rachel.",
+      "ru": "Традиционное место захоронения праматери Рахили."
+    }
+  },
+  {
+    "id": "390",
+    "name": {
+      "he": "בית הכנסת האר\"י הספרדי - צפת",
+      "ar": "كنيس الأري",
+      "en": "Ari Synagogue - Safed",
+      "ru": "Синагога Ари - Цфат"
+    },
+    "coords": [
+      32.969,
+      35.488
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Ari_Synagogue_Safed.jpg/800px-Ari_Synagogue_Safed.jpg",
+    "description": {
+      "he": "בית הכנסת העתיק ביותר בצפת, מקום תפילתו של האר\"י הקדוש.",
+      "ar": "أقدم كنيس في صفد.",
+      "en": "The oldest synagogue in Safed, prayer place of the holy Ari.",
+      "ru": "Старейшая синагога в Цфате, связанная с великим каббалистом Ари."
+    }
+  },
+  {
+    "id": "391",
+    "name": {
+      "he": "מסגד אל-עבאס - חיפה",
+      "ar": "مسجد العباس",
+      "en": "Al-Abbas Mosque",
+      "ru": "Мечеть Аль-Аббас"
+    },
+    "coords": [
+      32.815,
+      34.985
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "מסגד ותיק השוכן בשכונת עבאס בחיפה.",
+      "ar": "مسجد قديم يقع في حي العباس في حيفا.",
+      "en": "A veteran mosque in the Abbas neighborhood of Haifa.",
+      "ru": "Мечеть в районе Аббас, Хайфа."
+    }
+  },
+  {
+    "id": "392",
+    "name": {
+      "he": "כנסיית כל העמים - גת שמנים",
+      "ar": "كنيسة كل الأمم",
+      "en": "Church of All Nations",
+      "ru": "Церковь Всех Наций"
+    },
+    "coords": [
+      31.779,
+      35.24
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Church_of_All_Nations.jpg/800px-Church_of_All_Nations.jpg",
+    "description": {
+      "he": "כנסייה קתולית בהר הזיתים, מציינת את המקום בו התפלל ישו.",
+      "ar": "كنيسة كاثوليكية في جبل الزيتون.",
+      "en": "A Catholic church on the Mount of Olives, marking where Jesus prayed before his arrest.",
+      "ru": "Церковь в Гефсиманском саду на месте моления о чаше."
+    }
+  },
+  {
+    "id": "393",
+    "name": {
+      "he": "מערת אליהו הנביא - חיפה",
+      "ar": "مغارة النبي إلياس",
+      "en": "Cave of Elijah",
+      "ru": "Пещера пророка Илии"
+    },
+    "coords": [
+      32.83,
+      34.968
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Elijah_Cave.jpg/800px-Elijah_Cave.jpg",
+    "description": {
+      "he": "מערה קדושה ליהדות, לאסלאם ולנצרות, בה הסתתר אליהו הנביא.",
+      "ar": "مغارة مقدسة لليهود والمسلمين والمسيحيين.",
+      "en": "A sacred cave for Jews, Muslims, and Christians, where Elijah is said to have hidden.",
+      "ru": "Священная пещера, где скрывался пророк Илия."
+    }
+  },
+  {
+    "id": "394",
+    "name": {
+      "he": "קבר חבקוק הנביא",
+      "ar": "قبر النبي حبقوق",
+      "en": "Tomb of Habakkuk",
+      "ru": "Могила пророка Аввакума"
+    },
+    "coords": [
+      32.883,
+      35.416
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "אתר קדוש בגליל המזוהה כמקום קבורתו של חבקוק הנביא.",
+      "ar": "موقع مقدس في الجليل يشتهر بأنه مكان دفن النبي حبقوق.",
+      "en": "A sacred site in Galilee identified as the burial place of the prophet Habakkuk.",
+      "ru": "Святое место в Галилее, могила пророка Аввакума."
+    }
+  },
+  {
+    "id": "395",
+    "name": {
+      "he": "מסגד אל-לבבידי - עכו",
+      "ar": "جامع اللبابيدي",
+      "en": "Al-Lababidi Mosque",
+      "ru": "Мечеть Аль-Лабабиди"
+    },
+    "coords": [
+      32.928,
+      35.08
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Acre_Mosque.jpg/800px-Acre_Mosque.jpg",
+    "description": {
+      "he": "מסגד יפהפה מחוץ לחומות העיר העתיקה של עכו.",
+      "ar": "مسجد جميل خارج أسوار مدينة عكا القديمة.",
+      "en": "A beautiful mosque outside the walls of the Old City of Acre.",
+      "ru": "Красивая мечеть за стенами Старого города Акко."
+    }
+  },
+  {
+    "id": "396",
+    "name": {
+      "he": "כנסיית דומינוס פלוויט",
+      "ar": "كنيسة دومينوس فليفيت",
+      "en": "Dominus Flevit Church",
+      "ru": "Церковь Доминус Флевит"
+    },
+    "coords": [
+      31.777,
+      35.241
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Dominus_Flevit.jpg/800px-Dominus_Flevit.jpg",
+    "description": {
+      "he": "כנסייה בצורת דמעה על הר הזיתים, במקום בו בכה ישו על ירושלים.",
+      "ar": "كنيسة على جبل الزيتون حيث بكى يسوع على القدس.",
+      "en": "A tear-shaped church on the Mount of Olives, where Jesus wept over Jerusalem.",
+      "ru": "Церковь в форме слезы на месте, где Иисус оплакивал Иерусалим."
+    }
+  },
+  {
+    "id": "397",
+    "name": {
+      "he": "קבר שמואל הנביא (נבי סמואל)",
+      "ar": "النبي صموئيل",
+      "en": "Tomb of Samuel",
+      "ru": "Гробница пророка Самуила"
+    },
+    "coords": [
+      31.832,
+      35.18
+    ],
+    "category": "history",
+    "region": "center",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Nebi_Samwil.jpg/800px-Nebi_Samwil.jpg",
+    "description": {
+      "he": "אתר קדוש המשמש כמסגד וכבית כנסת, תצפית מרהיבה על ירושלים.",
+      "ar": "موقع مقدس يستخدم كمسجد وكنيس.",
+      "en": "A sacred site functioning as both a mosque and a synagogue.",
+      "ru": "Святое место, где находятся и мечеть, и синагога."
+    }
+  },
+  {
+    "id": "398",
+    "name": {
+      "he": "מסגד אל-אביאד - נצרת",
+      "ar": "الجامع الأبيض - الناصرة",
+      "en": "Al-Abyad Mosque - Nazareth",
+      "ru": "Белая мечеть - Назарет"
+    },
+    "coords": [
+      32.704,
+      35.298
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/White_Mosque_Nazareth.jpg/800px-White_Mosque_Nazareth.jpg",
+    "description": {
+      "he": "המסגד הוותיק ביותר בנצרת, סמל לשלום בין הדתות.",
+      "ar": "أقدم مسجد في الناصرة، رمز للسلام بين الأديان.",
+      "en": "The oldest mosque in Nazareth, a symbol of interfaith peace.",
+      "ru": "Старейшая мечеть Назарета, символ мира между общинами."
+    }
   }
 ]
