@@ -8909,5 +8909,225 @@
       "en": "One of the most beautiful streams in Carmel, also known as 'The Lost Stream'.",
       "ru": "Один из красивейших ручьев Кармеля, прозванный «затерянным ручьем»."
     }
+  },
+  {
+    "id": "409",
+    "name": {
+      "he": "גן האם - מרכז הכרמל",
+      "ar": "حديقة الأم - مركز الكرمل",
+      "en": "Gan HaEm - Carmel Center",
+      "ru": "Ган ха-Эм - Центр Кармеля"
+    },
+    "coords": [
+      32.804,
+      34.986
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Gan_HaEm_Haifa.jpg/800px-Gan_HaEm_Haifa.jpg",
+    "description": {
+      "he": "הגן המרכזי והוותיק בחיפה, מארח הופעות ואירועים, ובו נמצא גן החיות הלימודי.",
+      "ar": "الحديقة المركزية والأقدم في حيفا، تستضيف الحفلات والفعاليات وتضم حديقة حيوان تعليمية.",
+      "en": "Haifa's central and oldest park, hosting concerts and events, and housing the Educational Zoo.",
+      "ru": "Центральный и старейший парк Хайфы с зоопарком и концертами."
+    }
+  },
+  {
+    "id": "410",
+    "name": {
+      "he": "פארק הכט",
+      "ar": "منتزه هكت",
+      "en": "Hecht Park",
+      "ru": "Парк Хехт"
+    },
+    "coords": [
+      32.816,
+      34.956
+    ],
+    "category": "promenade",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Hecht_Park_Haifa.jpg/800px-Hecht_Park_Haifa.jpg",
+    "description": {
+      "he": "פארק לינארי רחב ידיים לאורך החוף עם מסלולי הליכה, אופניים ומתקני ספורט.",
+      "ar": "منتزه طولي واسع يمتد على طول الشاطئ مع مسارات للمشي وركوب الدراجات.",
+      "en": "A vast linear park along the coast with walking and cycling paths and sports facilities.",
+      "ru": "Обширный прибрежный парк с прогулочными и велосипедными дорожками."
+    }
+  },
+  {
+    "id": "411",
+    "name": {
+      "he": "טיילת החוף (טיילת שקמונה)",
+      "ar": "ممشى الشاطئ (شكمونا)",
+      "en": "Beach Promenade (Shikmona)",
+      "ru": "Приморский променад (Шикмона)"
+    },
+    "coords": [
+      32.824,
+      34.953
+    ],
+    "category": "promenade",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Eilat_beach.jpg/800px-Eilat_beach.jpg",
+    "description": {
+      "he": "טיילת מרהיבה לאורך הים המקשרת בין חופי חיפה הדרומיים למכון לחקר ימים ואגמים.",
+      "ar": "ممشى رائع على طول البحر يربط بين شواطئ حيفا الجنوبية ومعهد أبحاث البحار.",
+      "en": "A stunning seaside promenade connecting Haifa's southern beaches with the Oceanographic Research Institute.",
+      "ru": "Красивая набережная вдоль моря, соединяющая южные пляжи Хайфы с институтом океанографии."
+    }
+  },
+  {
+    "id": "412",
+    "name": {
+      "he": "גן העצמאות - חיפה",
+      "ar": "حديقة الاستقلال - حيفا",
+      "en": "Independence Garden - Haifa",
+      "ru": "Парк Независимости - Хайфа"
+    },
+    "coords": [
+      32.818,
+      35.002
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Istiklal_Mosque_Haifa.jpg/800px-Istiklal_Mosque_Haifa.jpg",
+    "description": {
+      "he": "גן ציבורי בלב שכונת הדר המשקיף על הנמל והעיר התחתית.",
+      "ar": "حديقة عامة في قلب حي الهدار تطل على الميناء والمدينة السفلى.",
+      "en": "A public garden in the heart of the Hadar neighborhood overlooking the harbor and lower city.",
+      "ru": "Общественный сад в районе Адар с видом на порт и Нижний город."
+    }
+  },
+  {
+    "id": "413",
+    "name": {
+      "he": "טיילת לואי",
+      "ar": "ممشى لوي",
+      "en": "Louis Promenade",
+      "ru": "Променад Луи"
+    },
+    "coords": [
+      32.809,
+      34.984
+    ],
+    "category": "promenade",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "אחת הטיילות היפות בישראל, מציעה תצפית פנורמית מרהיבה על מפרץ חיפה והגליל.",
+      "ar": "من أجمل المماشى في إسرائيل، تقدم إطلالة بانورامية رائعة على خليج حيفا والجليل.",
+      "en": "One of Israel's most beautiful promenades, offering a spectacular panoramic view of Haifa Bay and the Galilee.",
+      "ru": "Один из красивейших променадов Израиля с панорамным видом на Хайфский залив."
+    }
+  },
+  {
+    "id": "414",
+    "name": {
+      "he": "גן בנימין",
+      "ar": "حديقة بنيامين",
+      "en": "Binyamin Garden",
+      "ru": "Парк Биньямин"
+    },
+    "coords": [
+      32.81,
+      35.0
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "הגן הציבורי הראשון שהוקם בחיפה, נמצא בשכונת הדר וכולל מבנה תיאטרון היסטורי.",
+      "ar": "أول حديقة عامة أنشئت في حيفا، تقع في حي الهدار وتضم مبنى مسرح تاريخي.",
+      "en": "The first public garden established in Haifa, featuring a historic theater building.",
+      "ru": "Первый общественный сад Хайфы с историческим зданием театра."
+    }
+  },
+  {
+    "id": "415",
+    "name": {
+      "he": "פארק הקישון",
+      "ar": "منتزه كيشون",
+      "en": "Kishon Park",
+      "ru": "Парк Кишон"
+    },
+    "coords": [
+      32.813,
+      35.035
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק ירוק בגדת נחל הקישון ליד מעגן הדיג, פינת חמד פחות מוכרת.",
+      "ar": "منتزه أخضر على ضفة نهر المقطع بالقرب من مرسى الصيد.",
+      "en": "A green park on the banks of the Kishon River near the fishing dock, a lesser-known gem.",
+      "ru": "Зеленый парк на берегу реки Кишон рядом с рыбацкой пристанью."
+    }
+  },
+  {
+    "id": "416",
+    "name": {
+      "he": "גן מניה שוחט",
+      "ar": "حديقة مانيا شوحيط",
+      "en": "Mania Shochat Garden",
+      "ru": "Парк Маня Шохат"
+    },
+    "coords": [
+      32.805,
+      34.985
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Gan_HaEm_Haifa.jpg/800px-Gan_HaEm_Haifa.jpg",
+    "description": {
+      "he": "גן שקט ונעים במרכז הכרמל, משמש כמקום מפגש רגוע בלב האזור התוסס.",
+      "ar": "حديقة هادئة وجميلة في مركز الكرمل.",
+      "en": "A quiet and pleasant garden in the Carmel Center, serving as a calm meeting spot.",
+      "ru": "Тихий и приятный сад в Центре Кармеля."
+    }
+  },
+  {
+    "id": "417",
+    "name": {
+      "he": "טיילת בת גלים",
+      "ar": "ممشى بات جاليم",
+      "en": "Bat Galim Promenade",
+      "ru": "Набережная Бат-Галим"
+    },
+    "coords": [
+      32.833,
+      34.985
+    ],
+    "category": "promenade",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Eilat_beach.jpg/800px-Eilat_beach.jpg",
+    "description": {
+      "he": "טיילת ותיקה ואהובה בשכונת בת גלים, צמודה לקו המים ומלאה בבתי קפה.",
+      "ar": "ممشى قديم ومحبوب في حي بات جاليم، يقع مباشرة على خط المياه ومليء بالمقاهي.",
+      "en": "A veteran and beloved promenade in Bat Galim, right on the waterfront and full of cafes.",
+      "ru": "Старая и любимая набережная в районе Бат-Галим со множеством кафе."
+    }
+  },
+  {
+    "id": "418",
+    "name": {
+      "he": "פארק דאון טאון (העיר התחתית)",
+      "ar": "منتزه داون تاون",
+      "en": "Downtown Park",
+      "ru": "Парк Даунтаун"
+    },
+    "coords": [
+      32.818,
+      35.001
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Al-Jarina_Mosque_Haifa.jpg/800px-Al-Jarina_Mosque_Haifa.jpg",
+    "description": {
+      "he": "מרחב ירוק חדש יחסית בעיר התחתית, המשלב אדריכלות מודרנית וצמחייה.",
+      "ar": "مساحة خضراء جديدة نسبياً في المدينة السفلى، تجمع بين العمارة الحديثة والنباتات.",
+      "en": "A relatively new green space in the Lower City, combining modern architecture and vegetation.",
+      "ru": "Относительно новая зеленая зона в Нижнем городе."
+    }
   }
 ]
