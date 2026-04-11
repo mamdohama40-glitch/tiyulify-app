@@ -13285,5 +13285,845 @@
       "en": "One of the largest and strongest Crusader fortresses, situated on a coastal promontory south of Haifa.",
       "ru": "Одна из крупнейших и мощнейших крепостей крестоносцев, расположенная на морском мысе к югу от Хайфы."
     }
+  },
+  {
+    "id": "608",
+    "name": {
+      "he": "הר בנטל",
+      "ar": "جبل بنطل",
+      "en": "Mount Bental",
+      "ru": "Гора Бенталь"
+    },
+    "coords": [
+      33.1265,
+      35.8194
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Mount_Bental_Israel.jpg/800px-Mount_Bental_Israel.jpg",
+    "description": {
+      "he": "מבט פנורמי על עמק קוניטרה הסורי, החרמון ורמת הגולן.",
+      "ar": "مطل بانورامي على سهل القنيطرة السوري، جبل الشيخ وهضبة الجولان.",
+      "en": "Panoramic view of the Syrian Quneitra Valley, Mt. Hermon, and the Golan Heights.",
+      "ru": "Панорамный вид на сирийскую долину Кунейтра, Хермон и Голанские высоты."
+    }
+  },
+  {
+    "id": "609",
+    "name": {
+      "he": "מצפה לשלום (כפר חרוב)",
+      "ar": "مطل السلام (كفار حروب)",
+      "en": "Mitzpe Hashalom",
+      "ru": "Мицпе ха-Шалом"
+    },
+    "coords": [
+      32.7486,
+      35.6565
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נוף עוצר נשימה של כל הכנרת, טבריה והרי הגליל התחתון.",
+      "ar": "إطلالة خلابة على بحيرة طبريا بأكملها ومدينة طبريا وجبال الجليل الأسفل.",
+      "en": "Breathtaking view of the entire Sea of Galilee, Tiberias, and the Lower Galilee mountains.",
+      "ru": "Потрясающий вид на все Тивериадское озеро, Тверию и горы Нижней Галилеи."
+    }
+  },
+  {
+    "id": "610",
+    "name": {
+      "he": "קרן נפתלי",
+      "ar": "قرن نفتالي",
+      "en": "Keren Naftali",
+      "ru": "Керен Нафтали"
+    },
+    "coords": [
+      33.0784,
+      35.5458
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית גבוהה על עמק החולה, החרמון ומאגרי המים של העמק.",
+      "ar": "مطل مرتفع على سهل الحولة وجبل الشيخ وخزانات المياه في السهل.",
+      "en": "High lookout over the Hula Valley, Mt. Hermon, and the valley's water reservoirs.",
+      "ru": "Высокая смотровая площадка на долину Хула, Хермон и водохранилища."
+    }
+  },
+  {
+    "id": "611",
+    "name": {
+      "he": "הר אדיר",
+      "ar": "جبل أدير",
+      "en": "Mount Adir",
+      "ru": "Гора Адир"
+    },
+    "coords": [
+      33.0378,
+      35.3618
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מרפסת עץ הצופה על דרום לבנון, הר מירון ועמק חירם.",
+      "ar": "شرفة خشبية تطل على جنوب لبنان، جبل الجرمق وسهل حيرام.",
+      "en": "Wooden balcony overlooking Southern Lebanon, Mt. Meron, and the Hiram Valley.",
+      "ru": "Деревянная терраса с видом на Южный Ливан, гору Мерон и долину Хирам."
+    }
+  },
+  {
+    "id": "612",
+    "name": {
+      "he": "מצפה נמרוד (ראש פינה)",
+      "ar": "مطل نمرود (روش بينا)",
+      "en": "Nimrod Lookout",
+      "ru": "Смотровая площадка Нимрод"
+    },
+    "coords": [
+      32.9723,
+      35.5369
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית פסטורלית על עמק החולה, הכנרת והרי הגולן.",
+      "ar": "مطل ريفي على سهل الحولة وبحيرة طبريا وجبال الجولان.",
+      "en": "Pastoral lookout over the Hula Valley, Sea of Galilee, and the Golan Heights.",
+      "ru": "Пасторальный вид на долину Хула, Кинерет и Голанские высоты."
+    }
+  },
+  {
+    "id": "613",
+    "name": {
+      "he": "טיילת ארמון הנציב (ירושלים)",
+      "ar": "متنزه قصر المندوب السامي",
+      "en": "Haas Promenade",
+      "ru": "Променад Армон ха-Нацив"
+    },
+    "coords": [
+      31.7538,
+      35.2355
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Armon_Hanatziv_Promenade_view.jpg/800px-Armon_Hanatziv_Promenade_view.jpg",
+    "description": {
+      "he": "התצפית הקלאסית על העיר העתיקה, הר הבית ומדבר יהודה.",
+      "ar": "المطل الكلاسيكي على البلدة القديمة، جبل الهيكل وصحراء يهودا.",
+      "en": "The classic lookout over the Old City, Temple Mount, and the Judean Desert.",
+      "ru": "Классический вид на Старый город, Храмовую гору и Иудейскую пустыню."
+    }
+  },
+  {
+    "id": "614",
+    "name": {
+      "he": "מצפור המרפסות (מעלה אדומים)",
+      "ar": "مطل الشرفات (معاليه أدوميم)",
+      "en": "The Balconies Lookout",
+      "ru": "Смотровая площадка Ха-Мирпасот"
+    },
+    "coords": [
+      31.7821,
+      35.3134
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נוף מדברי פתוח של צפון מדבר יהודה והרי מואב.",
+      "ar": "إطلالة صحراوية مفتوحة على شمال صحراء يهودا وجبال موآب.",
+      "en": "Open desert view of the northern Judean Desert and the Moab Mountains.",
+      "ru": "Открытый вид на север Иудейской пустыни и горы Моав."
+    }
+  },
+  {
+    "id": "615",
+    "name": {
+      "he": "מצפה עזריאלי (תל אביב)",
+      "ar": "مرصد عزرائيلي (تل أبيب)",
+      "en": "Azrieli Observatory",
+      "ru": "Обсерватория Азриэли"
+    },
+    "coords": [
+      32.0744,
+      34.7921
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "קו הרקיע של גוש דן, הים התיכון והרי שומרון במזרח.",
+      "ar": "أفق غوش دان، البحر الأبيض المتوسط وجبال السامرة في الشرق.",
+      "en": "The Gush Dan skyline, the Mediterranean Sea, and the Samarian mountains to the east.",
+      "ru": "Линия горизонта Гуш-Дана, Средиземное море и горы Самарии на востоке."
+    }
+  },
+  {
+    "id": "616",
+    "name": {
+      "he": "תל יפו (גן הפסגות)",
+      "ar": "تل يافا (حديقة القمم)",
+      "en": "Tel Jaffa (Peak Park)",
+      "ru": "Тель-Яффо (Ган ха-Писга)"
+    },
+    "coords": [
+      32.0552,
+      34.7523
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "קו החוף של תל אביב וצפון מישור החוף.",
+      "ar": "خط ساحل تل أبيب وشمال السهل الساحلي.",
+      "en": "The Tel Aviv coastline and the northern Coastal Plain.",
+      "ru": "Береговая линия Тель-Авива и северная часть Прибрежной равнины."
+    }
+  },
+  {
+    "id": "617",
+    "name": {
+      "he": "מצפה ויקר (עמק חפר)",
+      "ar": "مطل فيكر (وادي حفر)",
+      "en": "Viker Lookout",
+      "ru": "Смотровая площадка Викер"
+    },
+    "coords": [
+      32.3551,
+      34.9127
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מאגר מים גדול, עופות מים (שקנאים בעונה) ומרחבי השרון.",
+      "ar": "خزان مياه كبير، طيور مائية (بجع في الموسم) ومساحات منطقة الشارون.",
+      "en": "A large water reservoir, waterfowl (pelicans in season), and the Sharon region plains.",
+      "ru": "Большое водохранилище, водоплавающие птицы (пеликаны в сезон) и просторы Шарона."
+    }
+  },
+  {
+    "id": "618",
+    "name": {
+      "he": "מצפה רמון (טיילת המצוק)",
+      "ar": "متنزه מצפה رمون",
+      "en": "Mitzpe Ramon Promenade",
+      "ru": "Променад Мицпе-Рамон"
+    },
+    "coords": [
+      30.6121,
+      34.8028
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mitzpe_Ramon_Crater.jpg/800px-Mitzpe_Ramon_Crater.jpg",
+    "description": {
+      "he": "המכתש הגדול בעולם במלוא תפארתו, כולל 'המנסרה' ופסגות המכתש.",
+      "ar": "أكبر فوهة بركانية في العالم بكل جمالها، بما في ذلك 'المغسلة' وقمم الفوهة.",
+      "en": "The world's largest erosion crater in all its glory, including 'The Carpentry' and crater peaks.",
+      "ru": "Самый большой эрозионный кратер в мире, включая «Призму» и вершины кратера."
+    }
+  },
+  {
+    "id": "619",
+    "name": {
+      "he": "מצוקי דרגות",
+      "ar": "منحدرات درجات",
+      "en": "Metzoke Dragot",
+      "ru": "Мецоке Драгот"
+    },
+    "coords": [
+      31.5898,
+      35.3942
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "ים המלח בשיא גובהו, הרי מואב וקניון נחל דרגה.",
+      "ar": "البحر الميت في أقصى ارتفاعه، جبال موآب ووادي درجات.",
+      "en": "The Dead Sea at its highest elevation, the Moab Mountains, and the Nahal Darga canyon.",
+      "ru": "Мертвое море, горы Моав и каньон ручья Дарга."
+    }
+  },
+  {
+    "id": "620",
+    "name": {
+      "he": "הר יואש (הרי אילת)",
+      "ar": "جبل يواش (جبال إيلات)",
+      "en": "Mount Yoash",
+      "ru": "Гора Йоаш"
+    },
+    "coords": [
+      29.5857,
+      34.8872
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מפגש הגבולות של ישראל, ירדן, מצרים וערב הסעודית על הים האדום.",
+      "ar": "نقطة التقاء حدود إسرائيل والأردن ومصر والسعودية على البحر الأحمر.",
+      "en": "Meeting point of the borders of Israel, Jordan, Egypt, and Saudi Arabia on the Red Sea.",
+      "ru": "Стык границ Израиля, Иордании, Египта и Саудовской Аравии на Красном море."
+    }
+  },
+  {
+    "id": "621",
+    "name": {
+      "he": "תל ערד",
+      "ar": "تل عراد",
+      "en": "Tel Arad",
+      "ru": "Тель-Арад"
+    },
+    "coords": [
+      31.2809,
+      35.1252
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בקעת ערד, המצודה העתיקה ומרחבי המדבר המזרחי.",
+      "ar": "سهل عراد، القلعة القديمة ومساحات الصحراء الشرقية.",
+      "en": "Arad Valley, the ancient fortress, and the Eastern Desert expanses.",
+      "ru": "Долина Арад, древняя крепость и просторы Восточной пустыни."
+    }
+  },
+  {
+    "id": "622",
+    "name": {
+      "he": "מצפור עין עבדת",
+      "ar": "مطل عين عبدة",
+      "en": "Ein Avdat Lookout",
+      "ru": "Смотровая площадка Эйн-Авдат"
+    },
+    "coords": [
+      30.8256,
+      34.7735
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ein_Avdat_Canyon.jpg/800px-Ein_Avdat_Canyon.jpg",
+    "description": {
+      "he": "קניון נחל צין העמוק והמרהיב מלמעלה.",
+      "ar": "وادي الزين العميق والرائع من الأعلى.",
+      "en": "The deep and spectacular Nahal Tzin canyon from above.",
+      "ru": "Глубокий и живописный каньон ручья Цин сверху."
+    }
+  },
+  {
+    "id": "623",
+    "name": {
+      "he": "טיילת לואי (מרכז הכרמל)",
+      "ar": "متنزه لويس (مركز الكرمل)",
+      "en": "Louis Promenade",
+      "ru": "Променад Луи"
+    },
+    "coords": [
+      32.8105,
+      34.9855
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Louis_Promenade_Haifa.JPG/800px-Louis_Promenade_Haifa.JPG",
+    "description": {
+      "he": "המבט הקלאסי על מפרץ חיפה, הגנים הבהאיים, עכו וראש הנקרה.",
+      "ar": "المطל الكلاسيكي على خليج حيفا، الحدائق البهائية، عكا ورأس الناقورة.",
+      "en": "The classic view of Haifa Bay, Bahá'í Gardens, Akko, and Rosh HaNikra.",
+      "ru": "Классический вид на Хайфский залив, Бахайские сады, Акко и Рош-ха-Никра."
+    }
+  },
+  {
+    "id": "624",
+    "name": {
+      "he": "סטלה מאריס",
+      "ar": "ستيلا ماريس",
+      "en": "Stella Maris",
+      "ru": "Стелла Марис"
+    },
+    "coords": [
+      32.8273,
+      34.9698
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נוף פתוח לים התיכון, הנמל הצבאי והמסחרי וקו החוף הצפוני.",
+      "ar": "إطلالة مفتوحة على البحر المتوسط، الميناء العسكري والتجاري وخط الساحل الشمالي.",
+      "en": "Open view of the Mediterranean, the military and commercial port, and the northern coastline.",
+      "ru": "Открытый вид на Средиземное море, военный и торговый порт и северное побережье."
+    }
+  },
+  {
+    "id": "625",
+    "name": {
+      "he": "מצפור דמון (עוספיא)",
+      "ar": "مطل دمون (عسفيا)",
+      "en": "Damon Lookout",
+      "ru": "Смотровая площадка Дамон"
+    },
+    "coords": [
+      32.7231,
+      35.0354
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מבט פנורמי על יערות הכרמל, עמק יזרעאל והרי הגליל.",
+      "ar": "مطل بانورامي على غابات الكرمل، مرج ابن عامر وجبال الجليل.",
+      "en": "Panoramic view of the Carmel forests, Jezreel Valley, and Galilee mountains.",
+      "ru": "Панорамный вид на леса Кармель, Изреельскую долину и горы Галилеи."
+    }
+  },
+  {
+    "id": "626",
+    "name": {
+      "he": "מצפור השלום (חיפה)",
+      "ar": "مطل السلام (حيفا)",
+      "en": "Peace Lookout",
+      "ru": "Смотровая площадка ха-Шалом"
+    },
+    "coords": [
+      32.8123,
+      34.9868
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מבט פנורמי על הגנים הבהאיים מלמעלה, המושבה הגרמנית ומפרץ חיפה.",
+      "ar": "مطل بانورامي رائع على الحدائق البهائية من الأعلى، والمستعمرة الألمانية وخليج حيفا.",
+      "en": "Panoramic view of the Bahá'í Gardens from above, the German Colony, and Haifa Bay.",
+      "ru": "Панорамный вид на Бахайские сады сверху, Немецкую колонию и Хайфский залив."
+    }
+  },
+  {
+    "id": "627",
+    "name": {
+      "he": "מצפור התמונות (אוניברסיטת חיפה)",
+      "ar": "مطل الصور",
+      "en": "Picture Lookout",
+      "ru": "Картинная смотровая площадка"
+    },
+    "coords": [
+      32.7621,
+      35.0185
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית על המדרונות המזרחיים של הכרמל, נשר ועמק יזרעאל. רואים את החרמון ביום טוב.",
+      "ar": "مطل على المنحدرات الشرقية للكرمل، نيشر ومرج ابن عامر. يمكن رؤية جبل الشيخ في الأيام الصافية.",
+      "en": "Lookout over the eastern Carmel slopes, Nesher, and Jezreel Valley. Mt. Hermon is visible on clear days.",
+      "ru": "Вид на восточные склоны Кармеля, Нешер и Изреельскую долину. В ясные дни виден Хермон."
+    }
+  },
+  {
+    "id": "628",
+    "name": {
+      "he": "מצפור גן הפסלים",
+      "ar": "مطل حديقة التماثيل",
+      "en": "Sculpture Garden Lookout",
+      "ru": "Смотровая площадка Сада скульптур"
+    },
+    "coords": [
+      32.8139,
+      34.9802
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שילוב של אמנות עם מבט ישיר על המושבה הגרמנית והנמל.",
+      "ar": "مزيج من الفن مع إطلالة مباشرة على المستعمرة الألمانية والميناء.",
+      "en": "A combination of art with a direct view of the German Colony and the port.",
+      "ru": "Сочетание искусства с прямым видом на Немецкую колонию и порт."
+    }
+  },
+  {
+    "id": "629",
+    "name": {
+      "he": "תצפית מגדל אשכול",
+      "ar": "مطل برج أشكول",
+      "en": "Eshkol Tower Observatory",
+      "ru": "Обсерватория башни Эшколь"
+    },
+    "coords": [
+      32.7624,
+      35.0175
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית של 360 מעלות מקומה 30 על כל צפון ישראל.",
+      "ar": "مطل 360 درجة من الطابق 30 على كل شمال إسرائيل.",
+      "en": "A 360-degree view from the 30th floor over all of Northern Israel.",
+      "ru": "360-градусный обзор с 30-го этажа на весь север Израиля."
+    }
+  },
+  {
+    "id": "630",
+    "name": {
+      "he": "מצפור אורי (רמת אלון)",
+      "ar": "مطل أوري",
+      "en": "Uri Lookout",
+      "ru": "Смотровая площадка Ури"
+    },
+    "coords": [
+      32.7758,
+      35.0145
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית הצופה על מפרץ חיפה, אזור הקריות ועמק זבולון.",
+      "ar": "مطل يطل على خليج حيفا، منطقة الكريوت وسهل زبولون.",
+      "en": "Lookout overlooking Haifa Bay, the Krayot area, and the Zevulun Valley.",
+      "ru": "Смотровая площадка с видом на Хайфский залив, Крайот и долину Зевулун."
+    }
+  },
+  {
+    "id": "631",
+    "name": {
+      "he": "מצפור סביוני הכרמל",
+      "ar": "مطل سفيوني هكرمل",
+      "en": "Savyoney HaCarmel Lookout",
+      "ru": "Смотровая площадка Савьоней ха-Кармель"
+    },
+    "coords": [
+      32.7712,
+      34.9961
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מבט דרומה ומערבה לעבר טירת כרמל וחופי הים הדרומיים של חיפה.",
+      "ar": "مطل جنوباً وغرباً نحو طيرة الكرمل وشواطئ حيفا الجنوبية.",
+      "en": "View south and west toward Tirat Carmel and Haifa's southern beaches.",
+      "ru": "Вид на юг и запад в сторону Тират-Кармель и южных пляжей Хайфы."
+    }
+  },
+  {
+    "id": "632",
+    "name": {
+      "he": "מצפור הכרמל (חורשת הארבעים)",
+      "ar": "مطل الكرمل (حرش الأربعين)",
+      "en": "Carmel Lookout (Grove of 40)",
+      "ru": "Смотровая площадка Кармель (Хуршат ха-Арбаим)"
+    },
+    "coords": [
+      32.7562,
+      35.0321
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נוף פראי של מצוקי הכרמל הנופלים לכיוון המפרץ ועמק זבולון.",
+      "ar": "إطلالة برية على منحدرات الكرمل التي تنحدر نحو الخليج وسهل زبولون.",
+      "en": "Wild view of the Carmel cliffs descending toward the bay and Zevulun Valley.",
+      "ru": "Дикий вид на скалы Кармеля, спускающиеся к заливу и долине Зевулун."
+    }
+  },
+  {
+    "id": "633",
+    "name": {
+      "he": "מצפור ברניקי (טבריה)",
+      "ar": "مطل برنيكي (طبريا)",
+      "en": "Berenice Lookout",
+      "ru": "Смотровая площадка Береники"
+    },
+    "coords": [
+      32.7788,
+      35.5398
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מבט מגובה רב על הכנרת כולה, הרי הגולן והעיר טבריה.",
+      "ar": "إطلالة من مكان مرتفع على بحيرة طبريا بأكملها وجبال الجولان ومدينة طبريا.",
+      "en": "View from high altitude over the entire Sea of Galilee, Golan Heights, and Tiberias.",
+      "ru": "Вид с высоты на Кинерет, Голанские высоты и Тверию."
+    }
+  },
+  {
+    "id": "634",
+    "name": {
+      "he": "הר ארבל",
+      "ar": "جبل أربيل",
+      "en": "Mount Arbel",
+      "ru": "Гора Арбель"
+    },
+    "coords": [
+      32.8242,
+      35.5036
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מצוק אנכי הצופה על בקעת גינוסר, הכנרת, רמת הגולן והחרמון.",
+      "ar": "جرف عمودي يطل على سهل غنوسار وبحيرة طبريا وهضبة الجولان وجبل الشيخ.",
+      "en": "A vertical cliff overlooking the Ginosar Valley, Sea of Galilee, Golan Heights, and Mt. Hermon.",
+      "ru": "Вертикальная скала с видом на долину Гиносар, Кинерет, Голаны и Хермон."
+    }
+  },
+  {
+    "id": "635",
+    "name": {
+      "he": "קרני חיטין",
+      "ar": "قرون حطين",
+      "en": "Horns of Hattin",
+      "ru": "Карней Хиттин"
+    },
+    "coords": [
+      32.7994,
+      35.4597
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית פנורמית על הגליל התחתון, בקעת ארבל והכנרת.",
+      "ar": "مطل بانورامي على الجليل الأسفل وسهل أربيل وبحيرة طبريا.",
+      "en": "Panoramic lookout over the Lower Galilee, Arbel Valley, and the Sea of Galilee.",
+      "ru": "Панорамный вид на Нижнюю Галилею, долину Арбель и Кинерет."
+    }
+  },
+  {
+    "id": "636",
+    "name": {
+      "he": "הר תבור (מרפסת כנסיית ההשתנות)",
+      "ar": "جبل الطور",
+      "en": "Mount Tabor",
+      "ru": "Гора Фавор"
+    },
+    "coords": [
+      32.6865,
+      35.3915
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mount_Tabor_Israel.JPG/800px-Mount_Tabor_Israel.JPG",
+    "description": {
+      "he": "תצפית 'מעוף הציפור' על עמק יזרעאל, הרי נצרת והר הגלבוע.",
+      "ar": "إطلالة 'عين الطائر' على مرج ابن عامر وجبال الناصرة وجبل فقوعة (جلبوع).",
+      "en": "A 'bird's eye view' over the Jezreel Valley, Nazareth mountains, and Mt. Gilboa.",
+      "ru": "Вид с высоты птичьего полета на Изреельскую долину, горы Назарета и Гильбоа."
+    }
+  },
+  {
+    "id": "637",
+    "name": {
+      "he": "הר הקפיצה (נצרת)",
+      "ar": "جبل القفزة",
+      "en": "Mount Precipice",
+      "ru": "Гора Свержения"
+    },
+    "coords": [
+      32.6811,
+      35.3005
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נוף מרהיב לעבר עמק יזרעאל, הר תבור, הרי השומרון והר הכרמל.",
+      "ar": "إطلالة رائعة على مرج ابن عامر وجبل الطور وجبال السامرة وجبل الكرمل.",
+      "en": "Spectacular view toward the Jezreel Valley, Mt. Tabor, Samaria mountains, and Mt. Carmel.",
+      "ru": "Великолепный вид на Изреельскую долину, Фавор, горы Самарии и Кармель."
+    }
+  },
+  {
+    "id": "638",
+    "name": {
+      "he": "מנזר סנט גבריאל (נוף הגליל)",
+      "ar": "دير القديس جبرائيل",
+      "en": "St. Gabriel Monastery",
+      "ru": "Монастырь Св. Гавриила"
+    },
+    "coords": [
+      32.7056,
+      35.2982
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית על העיר העתיקה של נצרת ועל כנסיית הבשורה.",
+      "ar": "مطل على بلدة الناصرة القديمة وكنيسة البشارة.",
+      "en": "Lookout over the Old City of Nazareth and the Basilica of the Annunciation.",
+      "ru": "Смотровая площадка на Старый город Назарета и базилику Благовещения."
+    }
+  },
+  {
+    "id": "639",
+    "name": {
+      "he": "מצוקי כורכר (חוף השרון)",
+      "ar": "منحدرات كركار (شاطئ الشارون)",
+      "en": "Kurkar Cliffs (Hof HaSharon)",
+      "ru": "Скалы Куркар (Хоф ха-Шарон)"
+    },
+    "coords": [
+      32.2281,
+      34.8142
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית מגובה המצוק על הים התיכון, קו החוף הפראי ושקיעות.",
+      "ar": "مطل من ارتفاع الجرف على البحر المتوسط وخط الساحل البري والغروب.",
+      "en": "Lookout from the cliff top over the Mediterranean, the wild coastline, and sunsets.",
+      "ru": "Вид с вершины скалы на Средиземное море, дикий пляж и закаты."
+    }
+  },
+  {
+    "id": "640",
+    "name": {
+      "he": "תל דור",
+      "ar": "تل دور",
+      "en": "Tel Dor",
+      "ru": "Тель-Дор"
+    },
+    "coords": [
+      32.6186,
+      34.9169
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מפרצי ים טבעיים, איים קטנים מול החוף ושרידי עיר נמל עתיקה.",
+      "ar": "خلجان بحرية طبيعية، جزر صغيرة أمام الساحل وبقايا مدينة ميناء قديمة.",
+      "en": "Natural sea bays, small islets offshore, and remains of an ancient port city.",
+      "ru": "Естественные морские бухты, маленькие островки и руины древнего портового города."
+    }
+  },
+  {
+    "id": "641",
+    "name": {
+      "he": "תל אפק (מגדל צדק)",
+      "ar": "تل فيق (مجدل صادق)",
+      "en": "Tel Afek (Migdal Tzedek)",
+      "ru": "Тель-Афек (Мигдаль Цедек)"
+    },
+    "coords": [
+      32.1052,
+      34.9304
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית על כל גוש דן והמרכז ממבצר עתיק על הגבעה.",
+      "ar": "مطل على منطقة غوش دان والمركز من قلعة قديمة على التلة.",
+      "en": "Lookout over the entire Gush Dan and Center region from an ancient fortress on the hill.",
+      "ru": "Вид на весь Гуш-Дан и центр страны с древней крепости на холме."
+    }
+  },
+  {
+    "id": "642",
+    "name": {
+      "he": "חולות ניצנים (תצפית הרכס)",
+      "ar": "كثبان نيتسانيم",
+      "en": "Nitzanim Sands Lookout",
+      "ru": "Пески Ницаним"
+    },
+    "coords": [
+      31.7454,
+      34.6125
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "דיונות חול עצומות, בריכות מים וקו החוף בין אשדוד לאשקלון.",
+      "ar": "كثبان رملية ضخمة، برك مياه وخط الساحل بين أسدود وعسقلان.",
+      "en": "Vast sand dunes, water pools, and the coastline between Ashdod and Ashkelon.",
+      "ru": "Огромные песчаные дюны, водоемы и береговая линия между Ашдодом и Ашкелоном."
+    }
+  },
+  {
+    "id": "643",
+    "name": {
+      "he": "מצפור יערות הכרמל",
+      "ar": "مطل غابات الكرمل",
+      "en": "Carmel Forest Lookout",
+      "ru": "Смотровая площадка лесов Кармель"
+    },
+    "coords": [
+      32.7423,
+      35.0152
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית על מרחבי היער הירוקים והים התיכון מהרכס.",
+      "ar": "مطل على مساحات الغابة الخضراء والبحر المتوسط من السلسلة الجبلية.",
+      "en": "Lookout over green forest expanses and the Mediterranean Sea from the ridge.",
+      "ru": "Вид на зеленые лесные просторы и Средиземное море с хребта."
+    }
+  },
+  {
+    "id": "644",
+    "name": {
+      "he": "מצפור האוניברסיטה (חיפה)",
+      "ar": "مطل الجامعة (حيفا)",
+      "en": "University Lookout",
+      "ru": "Университетская смотровая площадка"
+    },
+    "coords": [
+      32.7635,
+      35.0168
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית הצופה על הגליל והעמקים מהנקודה הגבוהה בחיפה.",
+      "ar": "مطل يطل على الجليل والسهول من أعلى نقطة في حيفا.",
+      "en": "Lookout overlooking the Galilee and valleys from the highest point in Haifa.",
+      "ru": "Смотровая площадка с видом на Галилею и долины с самой высокой точки Хайфы."
+    }
+  },
+  {
+    "id": "645",
+    "name": {
+      "he": "תצפית הר תבור - מזרח",
+      "ar": "مطل جبل الطور - شرق",
+      "en": "Mt. Tabor East Lookout",
+      "ru": "Восточная смотровая площадка Фавора"
+    },
+    "coords": [
+      32.6872,
+      35.3935
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מבט לעבר הרי הגלעד בירדן ובקעת הירדן.",
+      "ar": "إطلالة نحو جبال جلعاد في الأردن وغور الأردن.",
+      "en": "View toward the Gilead Mountains in Jordan and the Jordan Valley.",
+      "ru": "Вид на Галаадские горы в Иордании и Иорданскую долину."
+    }
+  },
+  {
+    "id": "646",
+    "name": {
+      "he": "מצפור המוביל",
+      "ar": "مطل هموביל",
+      "en": "HaMovil Lookout",
+      "ru": "Смотровая площадка Ха-Мовиль"
+    },
+    "coords": [
+      32.7612,
+      35.2345
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית על מאגר אשכול וצומת המוביל.",
+      "ar": "مطل على خزان أشكول ومفرق هموביل.",
+      "en": "Lookout over the Eshkol Reservoir and HaMovil Junction.",
+      "ru": "Вид на водохранилище Эшколь и перекресток Ха-Мовиль."
+    }
+  },
+  {
+    "id": "647",
+    "name": {
+      "he": "מצפור גן המושבה",
+      "ar": "مطل حديقة المستعمرة",
+      "en": "Colony Garden Lookout",
+      "ru": "Смотровая площадка Сада колонии"
+    },
+    "coords": [
+      32.8152,
+      34.9815
+    ],
+    "category": "viewpoint",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מבט קרוב על המושבה הגרמנית וסימטריה של הגנים הבהאיים.",
+      "ar": "إطلالة قريبة على المستعمرة الألمانية وتماثل الحدائق البهائية.",
+      "en": "Close view of the German Colony and the symmetry of the Bahá'í Gardens.",
+      "ru": "Близкий вид на Немецкую колонию и симметрию Бахайских садов."
+    }
   }
 ]

@@ -103,11 +103,11 @@ function UserPhotos({ item }: { item: any }) {
   const catColor: Record<string,string> = {
     water:'#3b82f6',nature:'#22c55e',history:'#a16207',sleep:'#8b5cf6',
     accommodation:'#8b5cf6',food:'#f97316',bike:'#ef4444',hiking:'#84cc16',
-    promenade:'#06b6d4',beach:'#0ea5e9',river:'#6366f1',park:'#10b981',cafe:'#92400e',default:'#6b7280'
+    promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e',default:'#6b7280'
   };
   const catEmoji: Record<string,string> = {
     water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-    food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',river:'🌊',park:'🌳',cafe:'☕',default:'📍'
+    food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',default:'📍'
   };
   const color = catColor[item.category] || catColor.default;
   const emoji = catEmoji[item.category] || catEmoji.default;
@@ -166,11 +166,11 @@ function UserPhotos({ item }: { item: any }) {
 const CAT_COLOR: Record<string,string> = {
   water:'#3b82f6',nature:'#22c55e',history:'#a16207',sleep:'#8b5cf6',
   accommodation:'#8b5cf6',food:'#f97316',bike:'#ef4444',hiking:'#84cc16',
-  promenade:'#06b6d4',beach:'#0ea5e9',river:'#6366f1',park:'#10b981',cafe:'#92400e',default:'#6b7280'
+  promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e',default:'#6b7280'
 };
 const CAT_EMOJI: Record<string,string> = {
   water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-  food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',river:'🌊',park:'🌳',cafe:'☕',default:'📍'
+  food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',default:'📍'
 };
 
 function SmartImage({ item, className }: { item: any; className?: string }) {
@@ -301,8 +301,8 @@ export default function TiyulifyApp() {
       mapLayers:"שכבות מפה",
       undecided:"לא החלטתי, הראה הכל",
       regions:{all:"כל הארץ",north:"צפון",center:"מרכז",south:"דרום"},
-      categories:{all:"הכל",water:"מים ומעיינות",nature:"פארקים וטבע",history:"היסטוריה ודת",sleep:"לינה",
-        food:"אוכל",bike:"אופניים",hiking:"הליכה",promenade:"טיילות",beach:"חופים",river:"נחלים"}
+      categories:{all:"הכל",water:"מעיינות ונחלים",nature:"פארקים וטבע",history:"היסטוריה ודת",sleep:"לינה",
+        food:"אוכל",bike:"אופניים",hiking:"הליכה",promenade:"טיילות",beach:"חופים",viewpoint:"תצפיות ונופים"}
     },
     en: {
       search:"Search any place in Israel...",results:"Results",surprise:"My Pick",welcome:"Where to today?",
@@ -311,8 +311,8 @@ export default function TiyulifyApp() {
       mapLayers:"Map Layers",
       undecided:"Show me everything",
       regions:{all:"All Israel",north:"North",center:"Center",south:"South"},
-      categories:{all:"All",water:"Water & Springs",nature:"Parks & Nature",history:"History & Religion",sleep:"Camping",
-        food:"Food",bike:"Cycling",hiking:"Hiking",promenade:"Promenades",beach:"Beaches",river:"Rivers"}
+      categories:{all:"All",water:"Springs & Streams",nature:"Parks & Nature",history:"History & Religion",sleep:"Camping",
+        food:"Food",bike:"Cycling",hiking:"Hiking",promenade:"Promenades",beach:"Beaches",viewpoint:"Viewpoints"}
     },
     ar: {
       search:"ابحث عن أي مكان في إسرائيل...",results:"نتائج",surprise:"اقتراحي",welcome:"أين نذهب اليوم؟",
@@ -321,8 +321,8 @@ export default function TiyulifyApp() {
       mapLayers:"طبقات الخريطة",
       undecided:"لم أقرر، أرني الكل",
       regions:{all:"كل البلاد",north:"الشمال",center:"الوسط",south:"الجنوب"},
-      categories:{all:"الكل",water:"مياه وينابيع",nature:"منتزهات وطبيعة",history:"تاريخ ودين",sleep:"إقامة وتخييم",
-        food:"طعام ومطاعم",bike:"مسارات الدراجات",hiking:"مسارات المشي",promenade:"ممشى سياحي",beach:"شواطئ البحر",river:"أنهار وجداول"}
+      categories:{all:"الكل",water:"ينابيع وأنهار",nature:"منتزهات وطبيعة",history:"تاريخ ودين",sleep:"إقامة وتخييم",
+        food:"طعام ومطاعم",bike:"مسارات الدراجات",hiking:"مسارات المشي",promenade:"ممشى سياحي",beach:"شواطئ البحر",viewpoint:"مناظر ومطلات"}
     },
     ru: {
       search:"Поиск любого места в Израиле...",results:"Результаты",surprise:"Мой выбор",welcome:"Куда поедем?",
@@ -331,8 +331,8 @@ export default function TiyulifyApp() {
       mapLayers:"Слои карты",
       undecided:"Не решил, показать всё",
       regions:{all:"Весь Израиль",north:"Север",center:"Центр",south:"Юг"},
-      categories:{all:"Все",water:"Вода и источники",nature:"Парки и природа",history:"История и религия",sleep:"Жилье",
-        food:"Еда",bike:"Велосипед",hiking:"Пешие тропы",promenade:"Променады",beach:"Пляжи",river:"Реки"}
+      categories:{all:"Все",water:"Источники и реки",nature:"Парки и природа",history:"История и религия",sleep:"Жилье",
+        food:"Еда",bike:"Велосипед",hiking:"Пешие тропы",promenade:"Променады",beach:"Пляжи",viewpoint:"Смотровые площадки"}
     }
   };
 
@@ -621,7 +621,7 @@ export default function TiyulifyApp() {
                       const pd = userCoords ? calculateDistance(userCoords[0],userCoords[1],item.coords[0],item.coords[1]) : null;
                       const catEmoji: Record<string,string> = {
                         water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-                        food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',river:'🌊',park:'🌳',cafe:'☕'
+                        food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕'
                       };
                       const emoji = catEmoji[item.category] || '📍';
                       const emojiIcon = LeafletMapLib && new (require('leaflet').DivIcon)({
