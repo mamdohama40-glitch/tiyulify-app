@@ -11483,5 +11483,885 @@
       "en": "A bountiful spring serving as one of the main starting points for hiking the stream.",
       "ru": "Обильный источник, одна из главных точек входа на маршрут по Кзиву."
     }
+  },
+  {
+    "id": "526",
+    "name": {
+      "he": "שמורת הר עצמון - יודפת",
+      "ar": "محمية جبل تلمود - يودفات",
+      "en": "Mount Atzmon - Yodfat Reserve",
+      "ru": "Заповедник Хар Ацмон"
+    },
+    "coords": [
+      32.835,
+      35.275
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסלול המשלב את תל יודפת המקראי עם תצפית פנורמית מפסגת הר עצמון.",
+      "ar": "مسار يجمع بين تل يودفات التاريخي وإطلالة بانورامية من قمة جبل عزمون.",
+      "en": "A trail combining the biblical Tel Yodfat with a panoramic view from Mt. Atzmon.",
+      "ru": "Маршрут, сочетающий Тель-Йодфат и панорамный вид с горы Ацмон."
+    }
+  },
+  {
+    "id": "527",
+    "name": {
+      "he": "יער ציפורי",
+      "ar": "غابة صفورية",
+      "en": "Tzipori Forest",
+      "ru": "Лес Циппори"
+    },
+    "coords": [
+      32.755,
+      35.255
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "יער רחב ידיים עם שבילי אופניים, פינות פיקניק ומסלולי הליכה סמוך לציפורי.",
+      "ar": "غابة واسعة تضم مسارات للدراجات وزوايا للتنزه بالقرب من صفورية.",
+      "en": "A vast forest with cycling trails, picnic spots, and hiking paths near Tzipori.",
+      "ru": "Обширный лес с велодорожками и зонами для пикника."
+    }
+  },
+  {
+    "id": "528",
+    "name": {
+      "he": "גן לאומי ציפורי",
+      "ar": "حديقة صفورية الوطنية",
+      "en": "Tzipori National Park",
+      "ru": "Национальный парк Циппори"
+    },
+    "coords": [
+      32.752,
+      35.281
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "עיר עתיקה המפורסמת ברצפות פסיפס מרהיבות ומערכת מים קדומה.",
+      "ar": "مدينة قديمة تشتهر بأرضيات الفسيفساء الرائعة ونظام المياه القديم.",
+      "en": "An ancient city famous for its spectacular mosaics and ancient water system.",
+      "ru": "Древний город с великолепными мозаиками («Мона Лиза Галилеи»)."
+    }
+  },
+  {
+    "id": "529",
+    "name": {
+      "he": "שמורת נחל צלמון",
+      "ar": "محمية وادي سلامة",
+      "en": "Nahal Tzalmon Reserve",
+      "ru": "Заповедник Нахаль Цальмон"
+    },
+    "coords": [
+      32.895,
+      35.402
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסלול טיול קליל לצד נחל זורם, טחנות קמח עתיקות ובוסתנים.",
+      "ar": "مسار نزهة سهل بجانب وادي جارٍ وطواحين قمح قديمة وبساتين.",
+      "en": "An easy hiking trail along a flowing stream, ancient flour mills, and orchards.",
+      "ru": "Легкий маршрут вдоль ручья со старыми мельницами."
+    }
+  },
+  {
+    "id": "530",
+    "name": {
+      "he": "תל יודפת",
+      "ar": "تل يودفات",
+      "en": "Tel Yodfat",
+      "ru": "Тель-Йодфат"
+    },
+    "coords": [
+      32.831,
+      35.278
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שרידי עיר יהודית מתקופת המרד הגדול, כולל בורות מים ומערות מגורים.",
+      "ar": "بقايا مدينة يهودية من فترة الثورة الكبرى.",
+      "en": "Remains of a Jewish city from the Great Revolt, including cisterns and caves.",
+      "ru": "Руины еврейского города времен Великого восстания."
+    }
+  },
+  {
+    "id": "531",
+    "name": {
+      "he": "נחל יודפת",
+      "ar": "وادي يودفات",
+      "en": "Nahal Yodfat",
+      "ru": "Нахаль Йодфат"
+    },
+    "coords": [
+      32.838,
+      35.272
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל אכזב יפהפה המתחתר בתוך חורש ים תיכוני עשיר.",
+      "ar": "وادي جميل محاط بأحراش متوسطية غنية.",
+      "en": "A beautiful seasonal stream carved into rich Mediterranean woodland.",
+      "ru": "Живописное пересыхающее русло в средиземноморском лесу."
+    }
+  },
+  {
+    "id": "532",
+    "name": {
+      "he": "שמורת הר שכניה",
+      "ar": "محمية جبل شخنيا",
+      "en": "Mount Shekhanya Reserve",
+      "ru": "Заповедник Хар Шехания"
+    },
+    "coords": [
+      32.845,
+      35.235
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסלול הליכה נופי על מצוקי רכס שכניה המשקיף אל עבר עמק זבולון.",
+      "ar": "مسار مشي على منحدرات سلسلة جبال شخنيا يطل على مرج زبولون.",
+      "en": "A scenic hiking trail on the Shekhanya ridge overlooking the Zevulun Valley.",
+      "ru": "Панорамный маршрут по хребту Шехания с видом на долину Зевулун."
+    }
+  },
+  {
+    "id": "533",
+    "name": {
+      "he": "נחל חילזון",
+      "ar": "وادي حلزون",
+      "en": "Nahal Hilazon",
+      "ru": "Нахаль Хилазон"
+    },
+    "coords": [
+      32.915,
+      35.25
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל המנקז את בקעת סח'נין, מציע מסלול הליכה פראי וקניוני בחלקו.",
+      "ar": "وادي يصرف مياه سهل سخنين، يوفر مسار مشي بري وأخدودي جزئياً.",
+      "en": "A stream draining the Sakhnin Valley, offering a wild and partially canyon-like trail.",
+      "ru": "Река долины Сахнин с диким каньонообразным маршрутом."
+    }
+  },
+  {
+    "id": "534",
+    "name": {
+      "he": "פארק אל-מוטראן",
+      "ar": "منتزه المطران - مجد الكروم",
+      "en": "Al-Mutran Park",
+      "ru": "Парк Аль-Мутран"
+    },
+    "coords": [
+      32.92,
+      35.22
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "פארק ובוסתן מטופח המציע תצפית רחבה על בקעת בית כרם.",
+      "ar": "منتزه وبستان مرتب يوفر إطلالة واسعة على سهل الشاغور.",
+      "en": "A well-kept park and orchard offering a wide view of the Beit Kerem Valley.",
+      "ru": "Ухоженный парк с панорамным видом на долину Бейт-Керем."
+    }
+  },
+  {
+    "id": "535",
+    "name": {
+      "he": "שמורת הר גמל",
+      "ar": "محمية جبل الجمل",
+      "en": "Mount Gamal Reserve",
+      "ru": "Заповедник Хар Гамаль"
+    },
+    "coords": [
+      32.928,
+      35.205
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "הר בעל צורה ייחודית המזכירה דבשת גמל, עם תצפיות לעבר הים התיכון.",
+      "ar": "جبل ذو شكل فريد يشبه سنام الجمل، مع إطلالات على البحر الأبيض المتوسط.",
+      "en": "A mountain resembling a camel's hump, offering views toward the Mediterranean.",
+      "ru": "Гора, напоминающая горб верблюда, с видом на море."
+    }
+  },
+  {
+    "id": "536",
+    "name": {
+      "he": "בקעת נטופה",
+      "ar": "سهل البطوف",
+      "en": "Beit Netofa Valley",
+      "ru": "Долина Бейт-Нетофа"
+    },
+    "coords": [
+      32.81,
+      35.335
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "בקעה חקלאית רחבת ידיים, מרהיבה במיוחד בחורף כשהיא מוצפת חלקית.",
+      "ar": "سهل زراعي واسع، رائع الجمال خاصة في الشتاء.",
+      "en": "A vast agricultural valley, especially spectacular in winter when partially flooded.",
+      "ru": "Обширная долина, особенно красивая зимой."
+    }
+  },
+  {
+    "id": "537",
+    "name": {
+      "he": "עינות ציפורי",
+      "ar": "عيون صفورية",
+      "en": "Ein Tzipori",
+      "ru": "Эйн-Циппори"
+    },
+    "coords": [
+      32.748,
+      35.265
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "קבוצת מעיינות הנובעים בנחל ציפורי, אזור פופולרי להליכה במים.",
+      "ar": "مجموعة من الينابيع التي تنبع في وادي صفورية.",
+      "en": "A group of springs flowing into the Tzipori Stream, popular for wading.",
+      "ru": "Группа источников в русле ручья Циппори."
+    }
+  },
+  {
+    "id": "538",
+    "name": {
+      "he": "טחנת הנזירים - נחל ציפורי",
+      "ar": "طاحونة الرهبان",
+      "en": "Monks' Mill - Tzipori Stream",
+      "ru": "Мельница монахов"
+    },
+    "coords": [
+      32.765,
+      35.175
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מבנה טחנת קמח עתיק ומרשים לצד זרימת הנחל.",
+      "ar": "مبنى طاحونة قمح قديم ومثير للإعجاب بجانب جريان الوادي.",
+      "en": "An impressive ancient flour mill building alongside the stream's flow.",
+      "ru": "Старинное здание водяной мельницы у ручья."
+    }
+  },
+  {
+    "id": "539",
+    "name": {
+      "he": "מסעדת חלב ודבש - יודפת",
+      "ar": "مطعم حليب وعسل - يودفات",
+      "en": "Milk and Honey Restaurant",
+      "ru": "Ресторан Халав у-Дваш"
+    },
+    "coords": [
+      32.833,
+      35.272
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "בית קפה ומסעדה חלבית בלב מתחם התיירות ביודפת, עם נוף להר עצמון.",
+      "ar": "مقهى ومطعم ألبان في قلب مجمع يودفات السياحي.",
+      "en": "A café and dairy restaurant in the Yodfat tourism complex, with a view of Mt. Atzmon.",
+      "ru": "Молочный ресторан в туристическом комплексе Йодфат."
+    }
+  },
+  {
+    "id": "540",
+    "name": {
+      "he": "מסעדת עזבה - ראמה",
+      "ar": "مطعم عزبة - الرامة",
+      "en": "Ezba Restaurant - Rama",
+      "ru": "Ресторан Эзба - Рама"
+    },
+    "coords": [
+      32.938,
+      35.385
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסעדה ערבית גלילית מסורתית הידועה באוכל ביתי ואיכותי.",
+      "ar": "مطعم عربي جليلي تقليدي يشتهر بالمأكولات البيتية عالية الجودة.",
+      "en": "A traditional Galilean Arabic restaurant known for high-quality home-cooked food.",
+      "ru": "Традиционный арабский галилейский ресторан с домашней кухней."
+    }
+  },
+  {
+    "id": "541",
+    "name": {
+      "he": "קפה יודפת",
+      "ar": "مقهى يودفات",
+      "en": "Yodfat Cafe",
+      "ru": "Кафе Йодфат"
+    },
+    "coords": [
+      32.832,
+      35.271
+    ],
+    "category": "cafe",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "בית קפה כפרי עם אווירה רגועה ותפריט עונתי מול הנוף.",
+      "ar": "مقهى ريفي يتميز بأجواء هادئة وقائمة طعام موسمية.",
+      "en": "A rustic café with a relaxed atmosphere and seasonal menu facing the view.",
+      "ru": "Сельское кафе с расслабленной атмосферой и сезонным меню."
+    }
+  },
+  {
+    "id": "542",
+    "name": {
+      "he": "פארק הגליל - כרמיאל",
+      "ar": "منتزه الجليل - كرميئيل",
+      "en": "HaGalil Park (Karmiel)",
+      "ru": "Парк Ха-Галиль (Кармиэль)"
+    },
+    "coords": [
+      32.915,
+      35.295
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "פארק עירוני גדול ומטופח שנבנה על שטח מחצבה ישנה.",
+      "ar": "منتزه بلدي كبير ومرتب بني على مساحة مقلع قديم.",
+      "en": "A large, well-maintained municipal park built on an old quarry site.",
+      "ru": "Большой городской парк на месте бывшего карьера."
+    }
+  },
+  {
+    "id": "543",
+    "name": {
+      "he": "שמורת נחל אבליים",
+      "ar": "محمية وادي ابلين",
+      "en": "Nahal Evlayim Reserve",
+      "ru": "Заповедник Нахаль Эвлайим"
+    },
+    "coords": [
+      32.825,
+      35.215
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל זורם בחלקו עם חורש אלונים ומרבדי פריחה בעונה.",
+      "ar": "وادي يجري جزئياً يضم أحراش بلوط وسجاداً من الأزهار في الموسم.",
+      "en": "A partially flowing stream with oak woodland and flower carpets in season.",
+      "ru": "Частично пересыхающий ручей с дубовым лесом и весенним цветением."
+    }
+  },
+  {
+    "id": "544",
+    "name": {
+      "he": "מערת נטיפים - יודפת",
+      "ar": "مغارة الصواعد - يودفات",
+      "en": "Stalactite Cave - Yodfat",
+      "ru": "Сталактитовая пещера Йодфат"
+    },
+    "coords": [
+      32.837,
+      35.279
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מערה קטנה ויפה עם תצורות נטיפים הנמצאת בקרבת מסלול יודפת.",
+      "ar": "مغارة صغيرة وجميلة تضم تكوينات من الصواعد.",
+      "en": "A small and beautiful cave with stalactite formations near the Yodfat trail.",
+      "ru": "Небольшая пещера со сталактитами рядом с маршрутом Йодфат."
+    }
+  },
+  {
+    "id": "545",
+    "name": {
+      "he": "קניון דבאח - דיר אל אסד",
+      "ar": "مجمع ذباح - دير الأسد",
+      "en": "Dabbah Complex",
+      "ru": "Торговый центр Даббах"
+    },
+    "coords": [
+      32.918,
+      35.235
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מתחם קניות ומסעדות בשרים מפורסם בצפון.",
+      "ar": "مجمع تجاري ومطاعم لحوم مشهور في الشمال.",
+      "en": "A famous shopping and meat restaurant complex in the north.",
+      "ru": "Знаменитый торговый и гастрономический центр на севере."
+    }
+  },
+  {
+    "id": "546",
+    "name": {
+      "he": "שמורת הר טורעאן",
+      "ar": "محمية جبل طرعان",
+      "en": "Mount Tur'an Reserve",
+      "ru": "Заповедник Хар Туран"
+    },
+    "coords": [
+      32.785,
+      35.365
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "תצפית מרהיבה מפסגת ההר על בקעת נטופה ובקעת תרעאן.",
+      "ar": "إطلالة رائعة من قمة الجبل على سهل البطوف وسهل طرعان.",
+      "en": "A spectacular view from the summit over the Beit Netofa and Tur'an valleys.",
+      "ru": "Вид с вершины на долины Бейт-Нетофа и Туран."
+    }
+  },
+  {
+    "id": "547",
+    "name": {
+      "he": "מסעדת אל-עאדי - סח'נין",
+      "ar": "مطعم العادي - سخنين",
+      "en": "Al-Aadi Restaurant",
+      "ru": "Ресторан Аль-Аади"
+    },
+    "coords": [
+      32.862,
+      35.305
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסעדה מזרחית פופולרית המגישה חומוס ובשרים איכותיים.",
+      "ar": "مطعم شرقي مشهور يقدم الحمص واللحوم عالية الجودة.",
+      "en": "A popular oriental restaurant serving hummus and high-quality meats.",
+      "ru": "Популярный восточный ресторан (хумус и мясо)."
+    }
+  },
+  {
+    "id": "548",
+    "name": {
+      "he": "שביל נוף רכס יודפת",
+      "ar": "مسار يودفات للمناظر الطبيعية",
+      "en": "Yodfat Ridge Scenic Trail",
+      "ru": "Тропа хребта Йодфат"
+    },
+    "coords": [
+      32.84,
+      35.265
+    ],
+    "category": "hiking",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שביל הליכה נוח לאורך הרכס עם תצפיות רחבות לכל עבר.",
+      "ar": "مسار مشي مريح على طول السلسلة الجبلية مع إطلالات واسعة.",
+      "en": "A comfortable hiking trail along the ridge with wide views in every direction.",
+      "ru": "Удобная тропа вдоль хребта с панорамными видами."
+    }
+  },
+  {
+    "id": "549",
+    "name": {
+      "he": "מסעדת תנורין - מגדל",
+      "ar": "مطعم تنورين - مجدال",
+      "en": "Tanureen Restaurant",
+      "ru": "Ресторан Танурин"
+    },
+    "coords": [
+      32.835,
+      35.505
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסעדה לבנונית משובחת על כביש 90, סמוך לחיבור עם כביש 77.",
+      "ar": "مطعم لبناني فاخر على شارع 90.",
+      "en": "A fine Lebanese restaurant on Highway 90, near the junction with Highway 77.",
+      "ru": "Изысканный ливанский ресторан на трассе 90."
+    }
+  },
+  {
+    "id": "550",
+    "name": {
+      "he": "עין נטופה",
+      "ar": "عين البطوف",
+      "en": "Ein Netofa",
+      "ru": "Эйн-Нетофа"
+    },
+    "coords": [
+      32.815,
+      35.385
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מעיין קטן בתוך מערה במורדות הצפוניים של רכס טורעאן.",
+      "ar": "ينبوع صغير داخل مغارة في المنحدرات الشمالية لسلسلة جبال طرعان.",
+      "en": "A small spring inside a cave on the northern slopes of the Tur'an ridge.",
+      "ru": "Маленький источник в пещере на склонах хребта Туран."
+    }
+  },
+  {
+    "id": "551",
+    "name": {
+      "he": "יער קריית אתא (מזרחי)",
+      "ar": "غابة كريات آتا",
+      "en": "Kiryat Ata Forest",
+      "ru": "Лес Кирьят-Ата"
+    },
+    "coords": [
+      32.81,
+      35.15
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "יער עם דרכי נוף וחניוני יום לאורך כביש 79.",
+      "ar": "غابة تضم طرقاً للمناظر الطبيعية ومواقف للتنزه على طول شارع 79.",
+      "en": "A forest with scenic roads and day camps along Highway 79.",
+      "ru": "Лес с живописными дорогами вдоль трассы 79."
+    }
+  },
+  {
+    "id": "552",
+    "name": {
+      "he": "מסעדת סאמר - עראבה",
+      "ar": "مطعم سامر - عرابة",
+      "en": "Samer Restaurant",
+      "ru": "Ресторан Самер"
+    },
+    "coords": [
+      32.855,
+      35.335
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסעדה מזרחית וותיקה ומוערכת בעראבה.",
+      "ar": "مطعم شرقي قديم ومقدر في عرابة.",
+      "en": "A long-standing and well-regarded oriental restaurant in Arraba.",
+      "ru": "Старый и уважаемый восточный ресторан в Аррабе."
+    }
+  },
+  {
+    "id": "553",
+    "name": {
+      "he": "תל חנתון",
+      "ar": "تل حناتون",
+      "en": "Tel Hannathon",
+      "ru": "Тель-Ханнатон"
+    },
+    "coords": [
+      32.795,
+      35.245
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "תל מקראי המשקיף על צומת המוביל ובקעת בית נטופה.",
+      "ar": "تل توراتي يطل على مفرق هموביل وسهل البطوف.",
+      "en": "A biblical tel overlooking the HaMovil junction and the Beit Netofa Valley.",
+      "ru": "Библейский курган с видом на перекресток Ха-Мовиль."
+    }
+  },
+  {
+    "id": "554",
+    "name": {
+      "he": "יער לביא",
+      "ar": "غابة لافي",
+      "en": "Lavi Forest",
+      "ru": "Лес Лави"
+    },
+    "coords": [
+      32.79,
+      35.425
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "יער קק\"ל גדול סמוך לצומת גולני, עם שפע חניוני פיקניק.",
+      "ar": "غابة للصندوق القومي اليهودي بالقرب من مفرق جولاني.",
+      "en": "A large KKL forest near Golani Junction, with plenty of picnic sites.",
+      "ru": "Большой лес возле перекрестка Голани с зонами для пикника."
+    }
+  },
+  {
+    "id": "555",
+    "name": {
+      "he": "מסעדת אבו רמי - ראמה",
+      "ar": "مطعم ابو رامي - الرامة",
+      "en": "Abu Rami Restaurant",
+      "ru": "Ресторан Абу Рами"
+    },
+    "coords": [
+      32.935,
+      35.388
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסעדה מזרחית קלאסית המתמחה במנות בשר וסלטים גליליים.",
+      "ar": "مطعم شرقي كلاسيكي يتخصص في أطباق اللحوم والسلطات الجليلية.",
+      "en": "A classic oriental restaurant specializing in meat dishes and Galilean salads.",
+      "ru": "Классический восточный ресторан (мясо и галилейские салаты)."
+    }
+  },
+  {
+    "id": "556",
+    "name": {
+      "he": "שמורת הר מירון - חלק דרומי",
+      "ar": "محمية جبل الجرمق - القسم الجنوبي",
+      "en": "Mount Meron Reserve - South",
+      "ru": "Заповедник Мерон - юг"
+    },
+    "coords": [
+      32.955,
+      35.395
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "המדרונות הדרומיים של רכס המירון היורדים לעבר כביש 85.",
+      "ar": "المنحدرات الجنوبية لسلسلة جبال الجرمق باتجاه شارع 85.",
+      "en": "The southern slopes of the Meron ridge descending toward Highway 85.",
+      "ru": "Южные склоны хребта Мерон к трассе 85."
+    }
+  },
+  {
+    "id": "557",
+    "name": {
+      "he": "עין מורן - יודפת",
+      "ar": "عين موران",
+      "en": "Ein Moran",
+      "ru": "Эйн-Моран"
+    },
+    "coords": [
+      32.842,
+      35.268
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מעיין קטן ופסטורלי בתוך ערוץ נחל יודפת.",
+      "ar": "ينبوع صغير وهادئ داخل مجرى وادي يودفات.",
+      "en": "A small and pastoral spring within the Nahal Yodfat channel.",
+      "ru": "Маленький пасторальный источник в русле ручья Йодфат."
+    }
+  },
+  {
+    "id": "558",
+    "name": {
+      "he": "מסעדת אל-ראודה - כפר מנדא",
+      "ar": "مطعم الروضة - كفر مندا",
+      "en": "Al-Rawda Restaurant",
+      "ru": "Ресторан Аль-Рауда"
+    },
+    "coords": [
+      32.812,
+      35.275
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסעדה מזרחית אותנטית בכפר מנדא.",
+      "ar": "مطعم شرقي أصيل في كفر مندا.",
+      "en": "An authentic oriental restaurant in Kafr Manda.",
+      "ru": "Аутентичный восточный ресторан в Кафр-Манде."
+    }
+  },
+  {
+    "id": "559",
+    "name": {
+      "he": "יער הסוללים",
+      "ar": "غابة هسولليم",
+      "en": "HaSolelim Forest",
+      "ru": "Лес Ха-Солелим"
+    },
+    "coords": [
+      32.775,
+      35.235
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "יער אלונים יפהפה עם שבילי הליכה נגישים סמוך לצומת המוביל.",
+      "ar": "غابة بلوط جميلة تضم مسارات مشي ميسرة بالقرب من مفرق هموביل.",
+      "en": "A beautiful oak forest with accessible hiking trails near HaMovil junction.",
+      "ru": "Дубовый лес с доступными тропами возле перекрестка Ха-Мовиль."
+    }
+  },
+  {
+    "id": "560",
+    "name": {
+      "he": "בית קפה אל-פנאר - ראמה",
+      "ar": "مقهى الفنار - الرامة",
+      "en": "Al-Fanar Cafe",
+      "ru": "Кафе Аль-Фанар"
+    },
+    "coords": [
+      32.937,
+      35.392
+    ],
+    "category": "cafe",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "בית קפה מודרני בראמה המציע קינוחים ושתייה חמה באווירה נעימה.",
+      "ar": "مقهى حديث في الرامة يقدم الحلويات والمشروبات الساخنة.",
+      "en": "A modern café in Rama offering desserts and hot drinks in a pleasant atmosphere.",
+      "ru": "Современное кафе в Раме (десерты и уютная атмосфера)."
+    }
+  },
+  {
+    "id": "561",
+    "name": {
+      "he": "שמורת הר חזון",
+      "ar": "محمية جبل حزور",
+      "en": "Mount Hazon Reserve",
+      "ru": "Заповедник Хар Хазон"
+    },
+    "coords": [
+      32.905,
+      35.415
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "פסגה המשקיפה על הגליל העליון והתחתון כאחד.",
+      "ar": "قمة تطل على الجليل الأعلى والجليل الأسفل معاً.",
+      "en": "A summit overlooking both the Upper and Lower Galilee.",
+      "ru": "Вершина с видом на Верхнюю и Нижнюю Галилею."
+    }
+  },
+  {
+    "id": "562",
+    "name": {
+      "he": "נחל יודפת - הקניון הקטן",
+      "ar": "وادي يودفات - الأخدود الصغير",
+      "en": "Nahal Yodfat - Small Canyon",
+      "ru": "Нахаль Йодфат - Малый каньон"
+    },
+    "coords": [
+      32.836,
+      35.262
+    ],
+    "category": "hiking",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "חלק אתגרי בנחל יודפת הכולל מעבר בין סלעים גדולים.",
+      "ar": "قسم مليء بالتحديات في وادي يودفات.",
+      "en": "A challenging section of Nahal Yodfat involving passage between large rocks.",
+      "ru": "Сложный участок ручья Йодфат с крупными валунами."
+    }
+  },
+  {
+    "id": "563",
+    "name": {
+      "he": "מסעדת אל-סולטאן - מג'ד אל כרום",
+      "ar": "مطعم السلطان - مجد الكروم",
+      "en": "Al-Sultan Restaurant",
+      "ru": "Ресторан Аль-Султан"
+    },
+    "coords": [
+      32.922,
+      35.215
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסעדה מזרחית ידועה על כביש 85 המגישה אוכל גלילי אותנטי.",
+      "ar": "مطعم شرقي مشهور على شارع 85 يقدم مأكولات جليلية أصيلة.",
+      "en": "A well-known oriental restaurant on Highway 85 serving authentic Galilean food.",
+      "ru": "Известный восточный ресторан на трассе 85."
+    }
+  },
+  {
+    "id": "564",
+    "name": {
+      "he": "יער יודפת",
+      "ar": "غابة يودفات",
+      "en": "Yodfat Forest",
+      "ru": "Лес Йодфат"
+    },
+    "coords": [
+      32.845,
+      35.285
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "יער המקיף את היישוב והתל, עם מסלולי הליכה מוצלים.",
+      "ar": "غابة تحيط بالمستوطنة والتل، تضم مسارات مشي مظللة.",
+      "en": "A forest surrounding the settlement and the Tel, with shaded hiking trails.",
+      "ru": "Лес вокруг поселения Йодфат с тенистыми тропами."
+    }
+  },
+  {
+    "id": "565",
+    "name": {
+      "he": "תצפית צומת גולני",
+      "ar": "مطلة مفرق جولاني",
+      "en": "Golani Junction Lookout",
+      "ru": "Смотровая площадка Голани"
+    },
+    "coords": [
+      32.778,
+      35.412
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נקודת תצפית ואתר הנצחה של חטיבת גולני.",
+      "ar": "نقطة مراقبة وموقع تذكاري للواء جولاني.",
+      "en": "A lookout point and memorial site for the Golani Brigade.",
+      "ru": "Смотровая площадка и мемориал бригады Голани."
+    }
   }
 ]
