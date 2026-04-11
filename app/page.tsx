@@ -508,7 +508,7 @@ export default function TiyulifyApp() {
                     )}
                     {searchMarker && searchPinIcon && (
                       <Marker position={searchMarker} icon={searchPinIcon}>
-                        <Popup minWidth={340} maxWidth={400} className="square-modern-popup-container">
+                        <Popup minWidth={260} maxWidth={300} className="square-modern-popup-container">
                           <div className="text-right font-sans p-1 overflow-hidden">
                             <div className="w-full h-44 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden bg-gray-100 relative border-2 border-white">
                               <img src={`https://staticmap.openstreetmap.de/staticmap.php?center=${searchMarker[0]},${searchMarker[1]}&zoom=14&size=600x300&maptype=mapnik`}
@@ -543,15 +543,15 @@ export default function TiyulifyApp() {
                       });
                       return (
                         <Marker key={item.id} position={item.coords} icon={emojiIcon}>
-                          <Popup minWidth={340} maxWidth={400} className="square-modern-popup-container">
+                          <Popup minWidth={260} maxWidth={300} className="square-modern-popup-container">
                             <div className="text-right font-sans p-1 overflow-hidden">
                               <UserPhotos item={item} />
-                              <h4 className="font-black text-green-900 text-3xl m-0 leading-none mb-3 px-1">{item.name[activeLang]||item.name.he}</h4>
+                              <h4 className="font-black text-green-900 text-xl md:text-3xl m-0 leading-none mb-2 px-1">{item.name[activeLang]||item.name.he}</h4>
                               {pd && <div className="flex items-center gap-2 mb-4 bg-green-50 inline-flex px-4 py-1.5 rounded-full border-2 border-green-100 shadow-sm"><span className="text-xl">📍</span><p className="text-[14px] text-green-700 font-black m-0">{labels[activeLang].distLabel} {pd} {labels[activeLang].km}</p></div>}
                               <div className="max-h-40 overflow-y-auto no-scrollbar border-t-2 border-gray-100 mt-2 pt-4 px-1">
-                                <p className="text-[16px] text-gray-700 leading-relaxed font-semibold">{item.description[activeLang]||item.description.he}</p>
+                                <p className="text-[13px] md:text-[16px] text-gray-700 leading-relaxed font-semibold">{item.description[activeLang]||item.description.he}</p>
                               </div>
-                              <div className="flex flex-wrap gap-3 mt-6 pb-2">
+                              <div className="flex flex-wrap gap-2 mt-3 pb-1">
                                 <a href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-4 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95">WAZE</a>
                                 <button onClick={()=>shareOnWhatsApp(item)} className="flex-1 bg-green-500 text-white text-center py-4 rounded-2xl text-[11px] font-black shadow-lg hover:bg-green-600 active:scale-95">WhatsApp</button>
                                 <a href={`https://www.google.com/maps/search/?api=1&query=${item.coords[0]},${item.coords[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-4 rounded-2xl text-[11px] font-black no-underline border-2 border-gray-200 hover:bg-gray-200 active:scale-95">GOOGLE</a>
@@ -600,7 +600,7 @@ export default function TiyulifyApp() {
         .leaflet-marker-icon{margin-top:-34px!important;margin-left:-12px!important}
         .no-scrollbar::-webkit-scrollbar{display:none}
         .leaflet-popup-content-wrapper{border-radius:2.5rem!important;overflow:hidden!important;padding:0!important;box-shadow:0 45px 90px -15px rgba(0,0,0,.45)!important}
-        .leaflet-popup-content{margin:0!important;padding:16px!important;width:400px!important}
+        .leaflet-popup-content{margin:0!important;padding:10px!important;width:280px!important}
         @media(max-width:768px){.leaflet-popup-content{width:300px!important;padding:12px!important}}
         .leaflet-popup-tip-container{display:none}
         .square-modern-popup-container iframe{pointer-events:auto!important;border-radius:2rem!important}
