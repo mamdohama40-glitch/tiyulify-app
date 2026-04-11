@@ -13243,5 +13243,47 @@
       "en": "A challenging trail including waterfalls and views of the Hula Valley.",
       "ru": "Сложный маршрут с водопадами и видом на долину Хула."
     }
+  },
+  {
+    "id": "606",
+    "name": {
+      "he": "מצודת שפרעם (מצודת דאהר אל-עומר)",
+      "ar": "قلعة شفاعمرو (قلعة الظاهر عمر)",
+      "en": "Shefa-'Amr Castle",
+      "ru": "Крепость Шефарам"
+    },
+    "coords": [
+      32.8058,
+      35.17
+    ],
+    "category": "history",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מבנה היסטורי מרשים מהמאה ה-18, המהווה את אחד מסמלי העיר שפרעם והגליל.",
+      "ar": "واحدة من أهم وأبرز المعالم التاريخية في مدينة شفاعمرو والجليل، وهي شاهد حي على تاريخ المنطقة في القرن الثامن عشر.",
+      "en": "An important 18th-century historical landmark in Shefa-'Amr, serving as a testament to the region's history.",
+      "ru": "Важная историческая достопримечательность XVIII века в Шефараме, свидетельствующая об истории региона."
+    }
+  },
+  {
+    "id": "607",
+    "name": {
+      "he": "מבצר עתלית (מבצר הצליינים)",
+      "ar": "قلعة عتليت (قلعة الحجاج)",
+      "en": "Atlit Castle (Château Pèlerin)",
+      "ru": "Крепость Атлит"
+    },
+    "coords": [
+      32.705306,
+      34.933944
+    ],
+    "category": "history",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "אחד המבצרים הצלבניים החזקים והגדולים ביותר, השוכן על לשון יבשה בים מדרום לחיפה.",
+      "ar": "واحدة من أضخم وأقوى القلاع الصليبية، تقع على الساحل جنوب مدينة حيفا فوق لسان بحري يمتد داخل البحر المتوسط.",
+      "en": "One of the largest and strongest Crusader fortresses, situated on a coastal promontory south of Haifa.",
+      "ru": "Одна из крупнейших и мощнейших крепостей крестоносцев, расположенная на морском мысе к югу от Хайфы."
+    }
   }
 ]
