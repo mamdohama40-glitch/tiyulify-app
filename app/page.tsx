@@ -90,23 +90,52 @@ function UserPhotos({ item }: { item: any }) {
   }, [item.id, refresh]);
 
   // כל התמונות: תמונת ברירת המחדל + תמונות משתמשים
-  const defaultImg = item.image || '';
   const userImgs = photos.map(p => ({
     url: supabase.storage.from('place-photos').getPublicUrl(p.file_path).data.publicUrl,
     name: p.uploader_name,
     date: new Date(p.taken_at).toLocaleDateString('he-IL'),
     isUser: true,
   }));
-  const allImgs = [{ url: defaultImg, name: '', date: '', isUser: false }, ...userImgs];
-  const current = allImgs[idx] || allImgs[0];
+  const allImgs = userImgs;
+  const current = allImgs[idx] || null;
   const total = allImgs.length;
 
+  const catColor: Record<string,string> = {
+    water:'#3b82f6',nature:'#22c55e',history:'#a16207',sleep:'#8b5cf6',
+    accommodation:'#8b5cf6',food:'#f97316',bike:'#ef4444',hiking:'#84cc16',
+    promenade:'#06b6d4',beach:'#0ea5e9',river:'#6366f1',park:'#10b981',cafe:'#92400e',default:'#6b7280'
+  };
+  const catEmoji: Record<string,string> = {
+    water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
+    food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',river:'🌊',park:'🌳',cafe:'☕',default:'📍'
+  };
+  const color = catColor[item.category] || catColor.default;
+  const emoji = catEmoji[item.category] || catEmoji.default;
+
+  if (total === 0) return (
+    <div className="relative w-full h-32 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden border-2 border-white flex flex-col items-center justify-center gap-2"
+      style={{background:`linear-gradient(135deg,${color}22,${color}44)`}}>
+      <span style={{fontSize:'3rem'}}>{emoji}</span>
+      <label className="bg-green-500 text-white text-[11px] font-black px-3 py-1.5 rounded-full cursor-pointer hover:bg-green-600 shadow">
+        📷 הוסף תמונה ראשונה!
+        <input type="file" accept="image/*" capture="environment" className="hidden" onChange={async e => {
+          const file = e.target.files?.[0]; if (!file) return;
+          const ext = file.name.split('.').pop();
+          const fileName = `${item.id}/${Date.now()}.${ext}`;
+          await supabase.storage.from('place-photos').upload(fileName, file, { upsert: true });
+          await supabase.from('place_photos').insert({ place_id: item.id, file_path: fileName, uploader_name: 'מבקר', taken_at: new Date().toISOString() });
+          setRefresh(r => r+1);
+        }} />
+      </label>
+    </div>
+  );
+
   return (
-    <div className="relative w-full h-44 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden bg-gray-100 border-2 border-white">
-      <img src={current.url} alt="" className="w-full h-full object-cover"/>
-      {current.isUser && (
+    <div className="relative w-full h-32 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden bg-gray-100 border-2 border-white">
+      <img src={current!.url} alt="" className="w-full h-full object-cover"/>
+      {current!.isUser && (
         <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-[10px] text-center py-1 px-2">
-          📸 {current.name} · {current.date}
+          📸 {current!.name} · {current!.date}
         </div>
       )}
       {total > 1 && (
