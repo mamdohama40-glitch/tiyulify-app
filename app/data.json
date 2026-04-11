@@ -9723,5 +9723,885 @@
       "en": "A small, shaded grove in the area between Beit Oren and Isfiya.",
       "ru": "Небольшая тенистая роща между Бейт-Ореном и Усфией."
     }
+  },
+  {
+    "id": "446",
+    "name": {
+      "he": "פארק נחל באר שבע",
+      "ar": "منتزه وادي بئر السبع",
+      "en": "Be'er Sheva River Park",
+      "ru": "Парк Нахаль Беэр-Шева"
+    },
+    "coords": [
+      31.233,
+      34.815
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "פארק מטרופוליני ענק הכולל אגם מלאכותי, אמפי-תיאטרון וטיילות לאורך הנחל.",
+      "ar": "منتزه ضخم يضم بحيرة اصطناعية ومسرحاً وممرات مشي على طول الوادي.",
+      "en": "A huge metropolitan park featuring an artificial lake, amphitheater, and riverfront promenades.",
+      "ru": "Огромный городской парк с искусственным озером и амфитеатром."
+    }
+  },
+  {
+    "id": "447",
+    "name": {
+      "he": "הגן הבוטני באר שבע",
+      "ar": "الحديقة النباتية بئر السبع",
+      "en": "Be'er Sheva Botanical Garden",
+      "ru": "Ботанический сад Беэр-Шевы"
+    },
+    "coords": [
+      31.261,
+      34.782
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "גן בוטני המציג צמחיית מדבר מגוונת מרחבי העולם.",
+      "ar": "حديقة نباتية تعرض نباتات صحراوية متنوعة.",
+      "en": "A botanical garden showcasing diverse desert flora from around the world.",
+      "ru": "Ботанический сад с коллекцией пустынных растений."
+    }
+  },
+  {
+    "id": "448",
+    "name": {
+      "he": "פארק קרסו למדע",
+      "ar": "منتزه كراسو للعلوم",
+      "en": "Carasso Science Park",
+      "ru": "Научный парк Карассо"
+    },
+    "coords": [
+      31.243,
+      34.786
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "מוזיאון מדע אינטראקטיבי בעיר העתיקה של באר שבע.",
+      "ar": "متحف علوم تفاعلي في مدينة بئر السبع القديمة.",
+      "en": "An interactive science museum in the Old City of Be'er Sheva.",
+      "ru": "Интерактивный научный музей в Старом городе Беэр-Шевы."
+    }
+  },
+  {
+    "id": "449",
+    "name": {
+      "he": "שמורת פורה",
+      "ar": "محمية بورا",
+      "en": "Pura Nature Reserve",
+      "ru": "Заповедник Пура"
+    },
+    "coords": [
+      31.492,
+      34.782
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "שמורה בצפון הנגב המפורסמת בפריחת הכלניות המרהיבה שלה בחורף.",
+      "ar": "محمية في شمال النقب تشتهر بزهور الشقائق الرائعة في الشتاء.",
+      "en": "A northern Negev reserve famous for its spectacular anemone blooms in winter.",
+      "ru": "Заповедник в северном Негеве, знаменитый цветением анемонов."
+    }
+  },
+  {
+    "id": "450",
+    "name": {
+      "he": "גן לאומי תל באר שבע",
+      "ar": "تل بئر السبع",
+      "en": "Tel Be'er Sheva National Park",
+      "ru": "Национальный парк Тель-Беэр-Шева"
+    },
+    "coords": [
+      31.245,
+      34.841
+    ],
+    "category": "history",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "אתר מורשת עולמית המציג עיר מקראית מתוכננת עם מערכת מים קדומה.",
+      "ar": "موقع للتراث العالمي يعرض مدينة توراتية مخططة مع نظام مياه قديم.",
+      "en": "A UNESCO World Heritage site featuring a biblical planned city with an ancient water system.",
+      "ru": "Объект ЮНЕСКО — библейский город с древней водной системой."
+    }
+  },
+  {
+    "id": "451",
+    "name": {
+      "he": "פארק אשכול (גן לאומי הבשור)",
+      "ar": "منتزه أشكول",
+      "en": "Eshkol Park (Besor National Park)",
+      "ru": "Парк Эшколь"
+    },
+    "coords": [
+      31.278,
+      34.485
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "נווה מדבר ירוק עם מעיינות חמים, מדשאות ואתר קמפינג.",
+      "ar": "واحة خضراء بها ينابيع حارة ومساحات عشبية وموقع تخييم.",
+      "en": "A green desert oasis with warm springs, lawns, and a camping site.",
+      "ru": "Оазис с термальными источниками и зоной для кемпинга."
+    }
+  },
+  {
+    "id": "452",
+    "name": {
+      "he": "שמורת המכתש הגדול (מכתש ירוחם)",
+      "ar": "فوهة يروحام",
+      "en": "The Large Crater (Yeruham Crater)",
+      "ru": "Большой кратер (Махтеш Йерухам)"
+    },
+    "coords": [
+      30.933,
+      34.95
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "מכתש אירוזי מרהיב עם חולות צבעוניים ומסלולי טיול גאולוגיים.",
+      "ar": "فوهة جيولوجية مذهلة برمال ملونة ومسارات رحلات جيولوجية.",
+      "en": "A spectacular erosional crater with colored sands and geological hiking trails.",
+      "ru": "Эрозионный кратер с цветными песками и геологическими тропами."
+    }
+  },
+  {
+    "id": "453",
+    "name": {
+      "he": "פארק ירוחם",
+      "ar": "منتزه يروحام",
+      "en": "Yeruham Park",
+      "ru": "Парк Йерухам"
+    },
+    "coords": [
+      31.0,
+      34.912
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "יער רחב ידיים סביב אגם ירוחם, המציע פיקניקים וצפרות.",
+      "ar": "غابة واسعة حول بحيرة يروحام، توفر أماكن للتنزه ومراقبة الطيور.",
+      "en": "A vast forest around Yeruham Lake, offering picnics and birdwatching.",
+      "ru": "Большой лес вокруг озера Йерухам."
+    }
+  },
+  {
+    "id": "454",
+    "name": {
+      "he": "שמורת עין עבדת",
+      "ar": "محمية عين عبدات",
+      "en": "Ein Avdat Nature Reserve",
+      "ru": "Заповедник Эйн-Авдат"
+    },
+    "coords": [
+      30.825,
+      34.764
+    ],
+    "category": "water",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "קניון עמוק בנחל צין עם מפל מרהיב ובריכות מים טבעיות.",
+      "ar": "أخدود عميق في وادي تسين مع شلال رائع وبرك مياه طبيعية.",
+      "en": "A deep canyon in the Zin Stream with a spectacular waterfall and natural pools.",
+      "ru": "Глубокий каньон с водопадом и природными бассейнами."
+    }
+  },
+  {
+    "id": "455",
+    "name": {
+      "he": "מכתש רמון",
+      "ar": "فوهة رامون",
+      "en": "Ramon Crater",
+      "ru": "Махтеш Рамон"
+    },
+    "coords": [
+      30.605,
+      34.805
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "המכתש האירוזי הגדול בעולם, אתר טבע ייחודי עם אינספור מסלולי טיול.",
+      "ar": "أكبر فوهة جيولوجية في العالم، موقع طبيعي فريد يضم مسارات لا حصر لها.",
+      "en": "The world's largest erosional crater, a unique natural site with countless trails.",
+      "ru": "Самый большой эрозионный кратер в мире."
+    }
+  },
+  {
+    "id": "456",
+    "name": {
+      "he": "גן לאומי עבדת",
+      "ar": "مدينة عبدات النبطية",
+      "en": "Avdat National Park",
+      "ru": "Национальный парк Авдат"
+    },
+    "coords": [
+      30.794,
+      34.771
+    ],
+    "category": "history",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "שרידי עיר נבטית עתיקה על דרך הבשמים.",
+      "ar": "بقايا مدينة نبطية قديمة على طريق البخور.",
+      "en": "Remains of an ancient Nabataean city on the Incense Route.",
+      "ru": "Руины набатейского города на Дороге благовоний."
+    }
+  },
+  {
+    "id": "457",
+    "name": {
+      "he": "נחל צין",
+      "ar": "وادي تسين",
+      "en": "Zin Stream",
+      "ru": "Нахаль Цин"
+    },
+    "coords": [
+      30.85,
+      34.8
+    ],
+    "category": "water",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "מהנחלים הגדולים והחשובים בנגב, מציע מסלולי ג'יפים והליכה אתגריים.",
+      "ar": "من أكبر وأهم الأودية في النقب، يوفر مسارات للجيب والمشي.",
+      "en": "One of the largest streams in the Negev, offering Jeep and hiking trails.",
+      "ru": "Одна из крупнейших рек Негева."
+    }
+  },
+  {
+    "id": "458",
+    "name": {
+      "he": "בורות לוץ",
+      "ar": "آبار لوتس",
+      "en": "Lotz Cisterns",
+      "ru": "Ямы Лоц"
+    },
+    "coords": [
+      30.518,
+      34.614
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "מפעל מים קדום בנגב הגבוה, המצטיין בפריחה מרהיבה באביב.",
+      "ar": "منشأة مياه قديمة في مرتفعات النقب، تتميز بزهور رائعة في الربيع.",
+      "en": "Ancient water cisterns in the high Negev, featuring spectacular spring blossoms.",
+      "ru": "Древние водосборники в горах Негева с весенним цветением."
+    }
+  },
+  {
+    "id": "459",
+    "name": {
+      "he": "חולות כסוי",
+      "ar": "كثبان كسوي الرملية",
+      "en": "Kasuy Sand Dunes",
+      "ru": "Дюны Касуй"
+    },
+    "coords": [
+      29.98,
+      34.965
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "דיונות חול דק וזהוב בדרום הנגב, גן עדן לילדים ולצילומים.",
+      "ar": "كثبان رملية ناعمة وذهبية في جنوب النقب.",
+      "en": "Fine golden sand dunes in the southern Negev, a paradise for photography.",
+      "ru": "Золотистые песчаные дюны на юге Негева."
+    }
+  },
+  {
+    "id": "460",
+    "name": {
+      "he": "הקניון האדום",
+      "ar": "الأخدود الأحمر",
+      "en": "The Red Canyon",
+      "ru": "Красный каньон"
+    },
+    "coords": [
+      29.67,
+      34.885
+    ],
+    "category": "hiking",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "מסלול הליכה בתוך נקיק סלע חול אדום ומרהיב ביופיו.",
+      "ar": "مسار مشي داخل أخدود من الحجر الرملي الأحمر الرائع.",
+      "en": "A hiking trail inside a stunning red sandstone canyon.",
+      "ru": "Маршрут по живописному каньону из красного песчаника."
+    }
+  },
+  {
+    "id": "461",
+    "name": {
+      "he": "פארק תמנע",
+      "ar": "منتزه تمنع",
+      "en": "Timna Park",
+      "ru": "Парк Тимна"
+    },
+    "coords": [
+      29.785,
+      34.925
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "פארק גאולוגי והיסטורי הכולל את עמודי שלמה ומכרי נחושת קדומים.",
+      "ar": "منتزه جيولوجي وتاريخي يضم أعمدة سليمان ومناجم نحاس قديمة.",
+      "en": "A geological and historical park featuring Solomon's Pillars and ancient copper mines.",
+      "ru": "Геологический и исторический парк со Столбами Соломона."
+    }
+  },
+  {
+    "id": "462",
+    "name": {
+      "he": "נחל דוד",
+      "ar": "وادي داود",
+      "en": "Nahal David",
+      "ru": "Нахаль Давид"
+    },
+    "coords": [
+      31.464,
+      35.394
+    ],
+    "category": "water",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "מסלול מים פופולרי בשמורת עין גדי, הכולל מפלים ובריכות.",
+      "ar": "مسار مائي مشهور في محمية عين جدي، يضم شلالات وبركاً.",
+      "en": "A popular water trail in the Ein Gedi reserve, featuring waterfalls and pools.",
+      "ru": "Популярный водный маршрут в заповеднике Эйн-Геди."
+    }
+  },
+  {
+    "id": "463",
+    "name": {
+      "he": "נחל ערוגות",
+      "ar": "وادي عروغوت",
+      "en": "Nahal Arugot",
+      "ru": "Нахаль Аругот"
+    },
+    "coords": [
+      31.458,
+      35.385
+    ],
+    "category": "water",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "מסלול מים זורמים לאורך כל השנה בשמורת עין גדי.",
+      "ar": "مسار مياه جارية طوال العام في محمية عين جدي.",
+      "en": "A year-round flowing water trail in the Ein Gedi reserve.",
+      "ru": "Круглогодичный водный маршрут в Эйн-Геди."
+    }
+  },
+  {
+    "id": "464",
+    "name": {
+      "he": "הר סדום",
+      "ar": "جبل سدوم",
+      "en": "Mount Sodom",
+      "ru": "Гора Содом"
+    },
+    "coords": [
+      31.066,
+      35.383
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "הר העשוי כולו מלח עם מערות ותצורות סלע ייחודיות.",
+      "ar": "جبل مصنوع بالكامل من الملح مع كهوف وتكوينات صخرية فريدة.",
+      "en": "A mountain made entirely of salt with unique caves and rock formations.",
+      "ru": "Гора, полностью состоящая из соли."
+    }
+  },
+  {
+    "id": "465",
+    "name": {
+      "he": "נחל פארן",
+      "ar": "وادي فاران",
+      "en": "Paran Stream",
+      "ru": "Нахаль Паран"
+    },
+    "coords": [
+      30.345,
+      35.0
+    ],
+    "category": "water",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "הנחל הארוך ביותר בישראל, מציע נופי מדבר פראיים.",
+      "ar": "أطول وادي في إسرائيل، يوفر مناظر صحراوية برية.",
+      "en": "The longest ephemeral stream in Israel, offering wild desert landscapes.",
+      "ru": "Самое длинное пересыхающее русло в Израиле."
+    }
+  },
+  {
+    "id": "466",
+    "name": {
+      "he": "שמורת שיזף",
+      "ar": "محمية شيزاف",
+      "en": "Sheizaf Nature Reserve",
+      "ru": "Заповедник Шейзаф"
+    },
+    "coords": [
+      30.73,
+      35.26
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "שמורה בערבה המגנה על עצי השיטה ובעלי החיים.",
+      "ar": "محمية في وادي عربة تحمي أشجار السنط والحيوانات البرية.",
+      "en": "A reserve in the Arava protecting acacia trees and local wildlife.",
+      "ru": "Заповедник в Араве, охраняющий акации и дикую природу."
+    }
+  },
+  {
+    "id": "467",
+    "name": {
+      "he": "נחל נקרות",
+      "ar": "وادي نكروت",
+      "en": "Nahal Nekarot",
+      "ru": "Нахаль Некарот"
+    },
+    "coords": [
+      30.585,
+      34.885
+    ],
+    "category": "water",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "נחל קניוני מרשים החוצה את מכתש רמון.",
+      "ar": "وادي أخدودي مثير للإعجاب يقطع فوهة رامون.",
+      "en": "An impressive canyon stream crossing the Ramon Crater.",
+      "ru": "Впечатляющий каньон, пересекающий Махтеш Рамон."
+    }
+  },
+  {
+    "id": "468",
+    "name": {
+      "he": "עין יורקעם",
+      "ar": "عين يوركم",
+      "en": "Ein Yorkeam",
+      "ru": "Эйн-Йоркеам"
+    },
+    "coords": [
+      30.938,
+      35.002
+    ],
+    "category": "water",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "גב מים עמוק ומרשים בנחל חתירה, מתמלא לאחר הגשמים.",
+      "ar": "بركة مياه عميقة ومثيرة للإعجاب في وادي حتيرة.",
+      "en": "An impressive deep water cistern in the Hatira Stream, fills after rains.",
+      "ru": "Глубокий природный бассейн в русле ручья Хатира."
+    }
+  },
+  {
+    "id": "469",
+    "name": {
+      "he": "נחל גוב",
+      "ar": "وادي جوب",
+      "en": "Nahal Gov",
+      "ru": "Нахаль Гов"
+    },
+    "coords": [
+      30.925,
+      35.135
+    ],
+    "category": "hiking",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "נקיק צר ואתגרי הכולל ירידה בסולמות וחבלים.",
+      "ar": "أخدود ضيق ومليء بالتحديات يتضمن النزول بالسلالم والحبال.",
+      "en": "A narrow, challenging canyon involving descents with ladders and ropes.",
+      "ru": "Узкий каньон с лестницами и канатами для спуска."
+    }
+  },
+  {
+    "id": "470",
+    "name": {
+      "he": "נחל ברק",
+      "ar": "وادي باراك",
+      "en": "Nahal Barak",
+      "ru": "Нахаль Барак"
+    },
+    "coords": [
+      30.435,
+      35.15
+    ],
+    "category": "hiking",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "קניון לבן ומרהיב עם גבי מים וסולמות.",
+      "ar": "أخدود أبيض رائع يضم برك مياه وسلالم.",
+      "en": "A spectacular white canyon with water cisterns and ladders.",
+      "ru": "Белый каньон с природными бассейнами и лестницами."
+    }
+  },
+  {
+    "id": "471",
+    "name": {
+      "he": "מעלה עקרבים",
+      "ar": "طريق العقارب",
+      "en": "Scorpions Pass",
+      "ru": "Маале-Акрабим"
+    },
+    "coords": [
+      30.91,
+      35.12
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "דרך מפותלת והיסטורית עם תצפיות מרהיבות על הערבה.",
+      "ar": "طريق متعرج وتاريخي مع إطلالات رائعة على وادي عربة.",
+      "en": "A historic, winding road with spectacular views of the Arava.",
+      "ru": "Исторический серпантин с видами на долину Арава."
+    }
+  },
+  {
+    "id": "472",
+    "name": {
+      "he": "פארק ספיר",
+      "ar": "منتزه سبير",
+      "en": "Sapir Park",
+      "ru": "Парк Сапир"
+    },
+    "coords": [
+      30.605,
+      35.185
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "פארק נווה מדבר בערבה עם אגם קטן ומדשאות.",
+      "ar": "منتزه واحة في وادي عربة يضم بحيرة صغيرة ومساحات عشبية.",
+      "en": "An oasis park in the Arava with a small lake and lawns.",
+      "ru": "Парк-оазис в Араве с небольшим озером."
+    }
+  },
+  {
+    "id": "473",
+    "name": {
+      "he": "נחל הבשור",
+      "ar": "وادي غزة (البشور)",
+      "en": "Besor Stream",
+      "ru": "Нахаль Ха-Бесор"
+    },
+    "coords": [
+      31.3,
+      34.5
+    ],
+    "category": "water",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "נחל איתן בחלקו עם גשר חבלים תלוי וארוך.",
+      "ar": "وادي يضم جسراً معلقاً طويلاً.",
+      "en": "A partially perennial stream featuring a long hanging rope bridge.",
+      "ru": "Река с длинным подвесным мостом."
+    }
+  },
+  {
+    "id": "474",
+    "name": {
+      "he": "שמורת חולות עגור",
+      "ar": "محمية رمال عجور",
+      "en": "Agur Sands Nature Reserve",
+      "ru": "Заповедник Холот Агур"
+    },
+    "coords": [
+      30.985,
+      34.385
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "מרחבי חולות בתוליים במערב הנגב.",
+      "ar": "مساحات رملية بكر في غرب النقب.",
+      "en": "Pristine sand expanses in the western Negev.",
+      "ru": "Девственные пески в западном Негеве."
+    }
+  },
+  {
+    "id": "475",
+    "name": {
+      "he": "נחל ממשית",
+      "ar": "وادي ممشيت",
+      "en": "Mamshit Stream",
+      "ru": "Нахаль Мамшит"
+    },
+    "coords": [
+      31.025,
+      35.07
+    ],
+    "category": "water",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "נחל העובר סמוך לעיר הנבטית ממשית וכולל סכרים עתיקים.",
+      "ar": "وادي يمر بالقرب من مدينة ممشيت النبطية ويضم سدوداً قديمة.",
+      "en": "A stream passing near the Nabataean city of Mamshit with ancient dams.",
+      "ru": "Ручей рядом с набатейским городом Мамшит."
+    }
+  },
+  {
+    "id": "476",
+    "name": {
+      "he": "עין עקבים",
+      "ar": "عين عكافيم",
+      "en": "Ein Akev",
+      "ru": "Эйн-Акев"
+    },
+    "coords": [
+      30.82,
+      34.805
+    ],
+    "category": "water",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "מעיין מים קרים הנובע כל השנה בלב המדבר.",
+      "ar": "ينبوع مياه باردة يتدفق طوال العام في قلب الصحراء.",
+      "en": "A perennial cold water spring in the heart of the desert.",
+      "ru": "Холодный источник, бьющий круглый год в пустыне."
+    }
+  },
+  {
+    "id": "477",
+    "name": {
+      "he": "המנסרה - מכתש רמון",
+      "ar": "المغسلة - فوهة رامون",
+      "en": "The Carpentry Shop - Ramon Crater",
+      "ru": "«Пилорама» - Махтеш Рамон"
+    },
+    "coords": [
+      30.62,
+      34.845
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "תופעה גאולוגית של סלעי קוורציט בצורת מנסרות.",
+      "ar": "ظاهرة جيولوجية لصخور الكوارتزيت على شكل مواشور.",
+      "en": "A geological phenomenon of quartzite rocks in the shape of prisms.",
+      "ru": "Геологический феномен: скалы из кварцита в форме призм."
+    }
+  },
+  {
+    "id": "478",
+    "name": {
+      "he": "הר ארדון",
+      "ar": "جبل أردون",
+      "en": "Mount Ardon",
+      "ru": "Гора Ардон"
+    },
+    "coords": [
+      30.63,
+      34.955
+    ],
+    "category": "hiking",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "פסגה בתוך מכתש רמון המציעה תצפית פנורמית עוצרת נשימה.",
+      "ar": "قمة داخل فوهة رامون توفر إطلالة بانورامية خلابة.",
+      "en": "A summit inside the Ramon Crater offering a breathtaking panoramic view.",
+      "ru": "Вершина в Махтеш Рамон с панорамным видом."
+    }
+  },
+  {
+    "id": "479",
+    "name": {
+      "he": "נחל חווארים",
+      "ar": "وادي حواريم",
+      "en": "Nahal Havarim",
+      "ru": "Нахаль Хаварим"
+    },
+    "coords": [
+      30.84,
+      34.78
+    ],
+    "category": "hiking",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "מסלול הליכה לילי פופולרי תחת אור הירח בסלע החוואר הלבן.",
+      "ar": "مسار مشي ليلي مشهور تحت ضوء القمر في صخور الحوار الأبيض.",
+      "en": "A popular moonlit night hike trail in the white marl rock.",
+      "ru": "Популярный маршрут для ночных прогулок при луне."
+    }
+  },
+  {
+    "id": "480",
+    "name": {
+      "he": "עין גדי - בית הכנסת העתיק",
+      "ar": "عين جدي - الكنيس القديم",
+      "en": "Ein Gedi - Ancient Synagogue",
+      "ru": "Эйн-Геди - Древняя синагога"
+    },
+    "coords": [
+      31.465,
+      35.39
+    ],
+    "category": "history",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "שרידי בית כנסת עם רצפת פסיפס מרשימה מהתקופה הביזנטית.",
+      "ar": "بقايا كنيس مع أرضية فسيفساء رائعة من العصر البيزنطي.",
+      "en": "Remains of a synagogue with an impressive mosaic floor from the Byzantine period.",
+      "ru": "Руины синагоги с мозаичным полом византийского периода."
+    }
+  },
+  {
+    "id": "481",
+    "name": {
+      "he": "חורבת חלוצה",
+      "ar": "خربة الخلصة",
+      "en": "Halutza Ruins",
+      "ru": "Руины Халуцы"
+    },
+    "coords": [
+      31.096,
+      34.482
+    ],
+    "category": "history",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "שרידי עיר נבטית וביזנטית חשובה בחולות הנגב המערבי.",
+      "ar": "بقايا مدينة نبطية وبيزنطية مهمة في رمال غرب النقب.",
+      "en": "Remains of an important Nabataean and Byzantine city in the western Negev sands.",
+      "ru": "Руины набатейского и византийского города в песках Негева."
+    }
+  },
+  {
+    "id": "482",
+    "name": {
+      "he": "שבטה - גן לאומי",
+      "ar": "شبطا",
+      "en": "Shivta National Park",
+      "ru": "Национальный парк Шивта"
+    },
+    "coords": [
+      30.88,
+      34.63
+    ],
+    "category": "history",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "עיר ביזנטית השמורה היטב במדבר.",
+      "ar": "مدينة بيزنطية محفوظة جيداً في الصحراء.",
+      "en": "A well-preserved Byzantine city in the desert.",
+      "ru": "Хорошо сохранившийся византийский город в пустыне."
+    }
+  },
+  {
+    "id": "483",
+    "name": {
+      "he": "נחל אבוב",
+      "ar": "وادي أبوف",
+      "en": "Nahal Abuv",
+      "ru": "Нахאль Авув"
+    },
+    "coords": [
+      31.215,
+      35.215
+    ],
+    "category": "water",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "נחל ליד ערד המציע תצפיות נוף למדבר יהודה.",
+      "ar": "وادي بالقرب من عراد يوفر إطلالات على صحراء يهودا.",
+      "en": "A stream near Arad offering views of the Judean Desert.",
+      "ru": "Ручей возле Арада с видами на Иудейскую пустыню."
+    }
+  },
+  {
+    "id": "484",
+    "name": {
+      "he": "פארק ערד",
+      "ar": "منتزه عراد",
+      "en": "Arad Park",
+      "ru": "Парк Арад"
+    },
+    "coords": [
+      31.265,
+      35.195
+    ],
+    "category": "park",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "יער אורנים נטוע בשולי העיר ערד, המקום המושלם לפיקניק.",
+      "ar": "غابة صنوبر مزروعة في أطراف مدينة عراد.",
+      "en": "A planted pine forest on the fringes of Arad, the perfect picnic spot.",
+      "ru": "Сосновый лес на окраине Арада."
+    }
+  },
+  {
+    "id": "485",
+    "name": {
+      "he": "נחל קינה",
+      "ar": "وادي قينة",
+      "en": "Nahal Kina",
+      "ru": "Нахאль Кина"
+    },
+    "coords": [
+      31.205,
+      35.155
+    ],
+    "category": "water",
+    "region": "south",
+    "image": "",
+    "description": {
+      "he": "מסלול מדברי יפהפה הכולל גב מים עמוק.",
+      "ar": "مسار صحراوي جميل يضم بركة مياه عميقة.",
+      "en": "A beautiful desert trail featuring a deep water cistern.",
+      "ru": "Живописный пустынный маршрут с глубоким водоемом."
+    }
   }
 ]
