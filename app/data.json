@@ -8689,5 +8689,225 @@
       "en": "The oldest mosque in Nazareth, a symbol of interfaith peace.",
       "ru": "Старейшая мечеть Назарета, символ мира между общинами."
     }
+  },
+  {
+    "id": "399",
+    "name": {
+      "he": "נחל גלים",
+      "ar": "وادي جاليم",
+      "en": "Nahal Galim",
+      "ru": "Нахаль Галим"
+    },
+    "coords": [
+      32.758,
+      34.965
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "נחל מרכזי בכרמל העובר בקניון עמוק ומרשים עם תצפיות נוף לים.",
+      "ar": "وادي مركزي في الكرمل يمر عبر أخدود عميق مع إطلالات على البحر.",
+      "en": "A central stream in Mount Carmel passing through a deep canyon with sea views.",
+      "ru": "Центральный ручей на Кармеле, проходящий через глубокий каньон с видом на море."
+    }
+  },
+  {
+    "id": "400",
+    "name": {
+      "he": "שמורת נחל מערות",
+      "ar": "محمية وادي المغارات",
+      "en": "Nahal Me'arot Nature Reserve",
+      "ru": "Заповедник Нахаль Меарот"
+    },
+    "coords": [
+      32.67,
+      34.965
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Nahal_Me%27arot_Caves.jpg/800px-Nahal_Me%27arot_Caves.jpg",
+    "description": {
+      "he": "אתר מורשת עולמית של אונסק\"ו הכולל מערות פרהיסטוריות מרשימות במצוקי הכרמל.",
+      "ar": "موقع للتراث العالمي لليونسكو يضم كهوفاً مذهلة من عصور ما قبل التاريخ.",
+      "en": "A UNESCO World Heritage site featuring impressive prehistoric caves in the Carmel cliffs.",
+      "ru": "Объект всемирного наследия ЮНЕСКО с доисторическими пещерами в скалах Кармеля."
+    }
+  },
+  {
+    "id": "401",
+    "name": {
+      "he": "נחל לוטם",
+      "ar": "وادي لوتم",
+      "en": "Nahal Lotem",
+      "ru": "Нахаль Лотем"
+    },
+    "coords": [
+      32.81,
+      34.975
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "ואדי עירוני ירוק בחיפה המקשר בין מרכז הכרמל לשכונות התחתונות.",
+      "ar": "وادي حضري أخضر في حيفا يربط بين مركز الكرمل والأحياء السفلية.",
+      "en": "A green urban valley in Haifa connecting the Carmel Center with the lower neighborhoods.",
+      "ru": "Зеленый городской ручей в Хайфе, соединяющий центр Кармеля с нижними районами."
+    }
+  },
+  {
+    "id": "402",
+    "name": {
+      "he": "פארק נשר - הגשרים התלויים",
+      "ar": "منتزه نيشر - الجسور المعلقة",
+      "en": "Nesher Park - Hanging Bridges",
+      "ru": "Парк Нешер - Подвесные мосты"
+    },
+    "coords": [
+      32.748,
+      35.045
+    ],
+    "category": "hiking",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Nesher_Hanging_Bridge.jpg/800px-Nesher_Hanging_Bridge.jpg",
+    "description": {
+      "he": "מסלול הליכה פופולרי הכולל שני גשרים תלויים ארוכים מעל ואדי עמוק.",
+      "ar": "مسار مشي مشهور يضم جسرين معلقين طويلين فوق وادٍ عميق.",
+      "en": "A popular hiking trail featuring two long hanging bridges over a deep valley.",
+      "ru": "Популярный маршрут с двумя длинными подвесными мостами над глубоким оврагом."
+    }
+  },
+  {
+    "id": "403",
+    "name": {
+      "he": "שוויצריה הקטנה",
+      "ar": "سويسرا الصغيرة",
+      "en": "Little Switzerland",
+      "ru": "Маленькая Швейцария"
+    },
+    "coords": [
+      32.742,
+      35.018
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "לב שמורת הכרמל, אזור המאופיין בחורש ים-תיכוני סבוך וצוקים תלולים.",
+      "ar": "قلب محمية الكرمل، منطقة تتميز بغابات البحر الأبيض المتوسط الكثيفة.",
+      "en": "The heart of the Carmel Reserve, characterized by dense Mediterranean woodland and steep cliffs.",
+      "ru": "Сердце заповедника Кармель с густыми средиземноморскими лесами."
+    }
+  },
+  {
+    "id": "404",
+    "name": {
+      "he": "נחל יגור",
+      "ar": "وادي ياجور",
+      "en": "Nahal Yagur",
+      "ru": "Нахаль Ягур"
+    },
+    "coords": [
+      32.735,
+      35.065
+    ],
+    "category": "hiking",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול אתגרי ותלול היורד מפסגת הכרמל אל קיבוץ יגור דרך מפלי סלע.",
+      "ar": "مسار مليء بالتحديات ينحدر من قمة الكرمل إلى كيبوتس ياجور عبر شلالات صخرية.",
+      "en": "A steep and challenging trail descending from the Carmel summit to Kibbutz Yagur via rock falls.",
+      "ru": "Сложный маршрут, спускающийся с вершины Кармеля к кибуцу Ягур."
+    }
+  },
+  {
+    "id": "405",
+    "name": {
+      "he": "חוות משמר הכרמל",
+      "ar": "مزرعة مشمار هكرمل",
+      "en": "Mishmar HaCarmel Farm",
+      "ru": "Ферма Мишмар ха-Кармель"
+    },
+    "coords": [
+      32.723,
+      35.004
+    ],
+    "category": "sleep",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "מתחם אירוח ולינת שטח בלב פארק הכרמל, הכולל חאן, חושות ואתר קמפינג.",
+      "ar": "مجمع للضيافة والتخييم في قلب منتزه الكرمل.",
+      "en": "A hospitality and outdoor lodging complex in the heart of Carmel Park, including a khan and camping site.",
+      "ru": "Комплекс для отдыха и кемпинга в сердце парка Кармель."
+    }
+  },
+  {
+    "id": "406",
+    "name": {
+      "he": "נחל שיח",
+      "ar": "وادي السيح",
+      "en": "Nahal Siah",
+      "ru": "Нахаль Сиах"
+    },
+    "coords": [
+      32.795,
+      34.962
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "ואדי קסום עם מעיינות שכבה, בוסתנים ושרידי מנזר כרמליתי עתיק.",
+      "ar": "وادي ساحر به ينابيع وبساتين وبقايا دير كرملي قديم.",
+      "en": "A magical valley with natural springs, orchards, and remnants of an ancient Carmelite monastery.",
+      "ru": "Волшебная долина с родниками, садами и руинами древнего монастыря."
+    }
+  },
+  {
+    "id": "407",
+    "name": {
+      "he": "שמורת הר כרמל (חי בר)",
+      "ar": "محمية جبل الكرمل (حي بر)",
+      "en": "Mount Carmel Hai-Bar Nature Reserve",
+      "ru": "Заповедник Хай-Бар Кармель"
+    },
+    "coords": [
+      32.748,
+      35.012
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שמורה המוקדשת להשבת חיות בר שנכחדו אל הטבע, כגון יחמורים ונסרים.",
+      "ar": "محمية مخصصة لإعادة الحياة البرية المنقرضة إلى الطبيعة.",
+      "en": "A reserve dedicated to reintroducing extinct wildlife to nature, such as fallow deer and vultures.",
+      "ru": "Заповедник по возвращению в природу вымерших видов животных."
+    }
+  },
+  {
+    "id": "408",
+    "name": {
+      "he": "נחל כלח",
+      "ar": "وادي كلخ",
+      "en": "Nahal Kelach",
+      "ru": "Нахаль Келах"
+    },
+    "coords": [
+      32.752,
+      35.015
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מהנחלים היפים בכרמל, המכונה גם 'הנחל האבוד' בשל צמחייתו הסבוכה.",
+      "ar": "من أجمل الأودية في الكرمل، ويلقب بـ 'الوادي المفقود'.",
+      "en": "One of the most beautiful streams in Carmel, also known as 'The Lost Stream'.",
+      "ru": "Один из красивейших ручьев Кармеля, прозванный «затерянным ручьем»."
+    }
   }
 ]
