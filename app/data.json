@@ -14125,5 +14125,320 @@
       "en": "Close view of the German Colony and the symmetry of the Bahá'í Gardens.",
       "ru": "Близкий вид на Немецкую колонию и симметрию Бахайских садов."
     }
+  },
+  {
+    "id": "648",
+    "name": {
+      "he": "הספארי - המרכז הזואולוגי רמת גן",
+      "ar": "سفاري رمات غان",
+      "en": "Ramat Gan Safari",
+      "ru": "Сафари в Рамат-Гане"
+    },
+    "coords": [
+      32.0456,
+      34.8252
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שילוב של שטח נסיעה פתוח עם חיות אפריקאיות וגן חיות מסורתי מודרני.",
+      "ar": "مزيج من منطقة قيادة مفتوحة مع حيوانات أفريقية وحديقة حيوان تقليدية حديثة.",
+      "en": "A combination of an open drive-through area with African animals and a modern traditional zoo.",
+      "ru": "Сочетание открытого африканского сафари и современного зоопарка."
+    }
+  },
+  {
+    "id": "649",
+    "name": {
+      "he": "גן החיות התנ\"כי",
+      "ar": "حديقة الحيوان الكتابية",
+      "en": "Jerusalem Biblical Zoo",
+      "ru": "Иерусалимский библейский зоопарк"
+    },
+    "coords": [
+      31.7483,
+      35.1764
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מתמקד בבעלי חיים המוזכרים בתנ\"ך ובבעלי חיים בסכנת הכחדה, נחשב לאחד היפים בעולם.",
+      "ar": "تركز على الحيوانات المذكورة في الكتاب المقدس والحيوانات المهددة بالانقراض.",
+      "en": "Focuses on animals mentioned in the Bible and endangered species, considered one of the world's most beautiful zoos.",
+      "ru": "Специализируется на библейских животных и видах под угрозой исчезновения."
+    }
+  },
+  {
+    "id": "650",
+    "name": {
+      "he": "אקווריום ישראל",
+      "ar": "أكواريوم إسرائيل",
+      "en": "Israel Aquarium",
+      "ru": "Аквариум Израиля"
+    },
+    "coords": [
+      31.746,
+      35.1721
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מתמקד בעולם התת-ימי של הים התיכון וים סוף, ממוקם סמוך לגן החיות התנ\"כי.",
+      "ar": "يركز على العالم تحت الماء في البحر الأبيض المتوسط والبحر الأحمر.",
+      "en": "Focuses on the underwater world of the Mediterranean and Red Seas, located near the Biblical Zoo.",
+      "ru": "Посвящен подводному миру Средиземного и Красного морей."
+    }
+  },
+  {
+    "id": "651",
+    "name": {
+      "he": "חי-פארק (קריית מוצקין)",
+      "ar": "حي بارك (كريات موتسكين)",
+      "en": "Hai-Park Kiryat Motzkin",
+      "ru": "Хай-Парк Кирьят Моцкин"
+    },
+    "coords": [
+      32.8465,
+      35.0805
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן חיות מודרני עם מתחמי ענק, פינגווינים, קופים וגמלים.",
+      "ar": "حديقة حيوان حديثة تضم مجمعات ضخمة، بطاريق، قرود وجمال.",
+      "en": "A modern zoo with large enclosures, penguins, monkeys, and camels.",
+      "ru": "Современный зоопарк с вольерами, пингвинами, обезьянами и верблюдами."
+    }
+  },
+  {
+    "id": "652",
+    "name": {
+      "he": "גן החיות הלימודי חיפה",
+      "ar": "حديقة الحيوان التعليمية حيفا",
+      "en": "Haifa Educational Zoo",
+      "ru": "Хайфский зоопарк"
+    },
+    "coords": [
+      32.8101,
+      34.9861
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "ממוקם על צלע ההר במרכז הכרמל, משקיף לנחל לוטם.",
+      "ar": "تقع على سفوح الجبل في مركز الكرمل، وتطل على وادي لوطم.",
+      "en": "Located on the slopes of Mt. Carmel, overlooking the Lotem Stream.",
+      "ru": "Зоопарк на склоне горы Кармель с видом на ручей Лотем."
+    }
+  },
+  {
+    "id": "653",
+    "name": {
+      "he": "חי-נגב (רביבים)",
+      "ar": "حي نيغف (ربيفيم)",
+      "en": "Hai-Negev",
+      "ru": "Хай-Негев"
+    },
+    "coords": [
+      31.0485,
+      34.7214
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן חיות אקולוגי הכולל בנייה בבוץ וחיות מדבריות בקיבוץ רביבים.",
+      "ar": "حديقة حيوان بيئية تتميز بالبناء الطيني والحيوانات الصحراوية في كيبوتس ربيفيم.",
+      "en": "An ecological zoo featuring mud construction and desert animals in Kibbutz Revivim.",
+      "ru": "Экологический зоопарк с постройками из глины и пустынными животными."
+    }
+  },
+  {
+    "id": "654",
+    "name": {
+      "he": "חי-בר יטבתה",
+      "ar": "حي بار يطفتاتا",
+      "en": "Hai-Bar Yotvata",
+      "ru": "Хай-Бар Йотвата"
+    },
+    "coords": [
+      29.8922,
+      35.0441
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שמורת טבע לנסיעה ברכב, מתמקדת בהשבת חיות המקרא לטבע.",
+      "ar": "محمية طبيعية للقيادة بالسيارة، تركز على إعادة حيوانات الكتاب المقدس إلى الطبيعة.",
+      "en": "A drive-through nature reserve focusing on reintroducing biblical animals to the wild.",
+      "ru": "Заповедник для проезда на авто, специализирующийся на библейских животных."
+    }
+  },
+  {
+    "id": "655",
+    "name": {
+      "he": "נגב-ZOO (באר שבע)",
+      "ar": "حديقة حيوان النقب (بئر السبع)",
+      "en": "Negev Zoo",
+      "ru": "Зоопарк Негева"
+    },
+    "coords": [
+      31.2586,
+      34.7431
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן החיות הגדול בנגב, עם מעל 150 מינים של יונקים, זוחלים ועופות.",
+      "ar": "أكبر حديقة حيوان في النقب، تضم أكثر من 150 نوعاً من الثدييات والزواحف والطيور.",
+      "en": "The largest zoo in the Negev, with over 150 species of mammals, reptiles, and birds.",
+      "ru": "Крупнейший зоопарк в Негеве, более 150 видов животных."
+    }
+  },
+  {
+    "id": "656",
+    "name": {
+      "he": "חוות האנטילופות (מרכז זוחלים)",
+      "ar": "مزرعة الانبيلوب (مركز الزواحف)",
+      "en": "Antelope Farm",
+      "ru": "Ферма антилоп"
+    },
+    "coords": [
+      30.5512,
+      35.1785
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סיור ספארי בערבה ומתחם זוחלים גדול במושב צופר.",
+      "ar": "جولة سفاري في العربة ومجمع كبير للزواحف في موشاف تسوفر.",
+      "en": "Safari tour in the Arava and a large reptile complex in Moshav Tzofar.",
+      "ru": "Сафари-тур в Араве и большой террариум в мошаве Цофар."
+    }
+  },
+  {
+    "id": "657",
+    "name": {
+      "he": "פארק אוטופיה",
+      "ar": "حديقة يوتوبيا",
+      "en": "Utopia Park",
+      "ru": "Парк Утопия"
+    },
+    "coords": [
+      32.3556,
+      35.0169
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן בוטני וסחלבים הכולל אוסף תוכים, חיות משק ופינת ליטוף.",
+      "ar": "حديقة نباتية وبساتين تضم مجموعة من الببغاوات وحيوانات المزرعة وركن للمس الحيوانات.",
+      "en": "A botanical and orchid garden including parrots, farm animals, and a petting corner.",
+      "ru": "Ботанический сад с коллекцией попугаев и домашними животными."
+    }
+  },
+  {
+    "id": "658",
+    "name": {
+      "he": "אגמון החולה - פארק הצפרות",
+      "ar": "أجمون الحولة - منتزه الطيور",
+      "en": "Agamon HaHula - Bird Island",
+      "ru": "Агмон ха-Хула - Парк птиц"
+    },
+    "coords": [
+      33.1062,
+      35.6125
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מרכז צפרות בינלאומי לצפייה בציפורים נודדות בעמק החולה.",
+      "ar": "مركز دولي لمراقبة الطيور المهاجرة في سهل الحولة.",
+      "en": "An international birdwatching center for migrating birds in the Hula Valley.",
+      "ru": "Международный центр наблюдения за перелетными птицами в долине Хула."
+    }
+  },
+  {
+    "id": "659",
+    "name": {
+      "he": "חוות התנינים (קרוקולוקו)",
+      "ar": "مزرعة التماسيح (كروكولوكو)",
+      "en": "Crocoloco Crocodile Farm",
+      "ru": "Ферма крокодилов Кроколоко"
+    },
+    "coords": [
+      30.7936,
+      35.2536
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סיור מודרך בין מאות תנינים בערבה, בעיר אובות.",
+      "ar": "جولة إرشادية بين مئات التماسيح في العربة، في عير أوفوت.",
+      "en": "Guided tour among hundreds of crocodiles in the Arava, at Ir Ovot.",
+      "ru": "Экскурсия среди сотен крокодилов в Араве."
+    }
+  },
+  {
+    "id": "660",
+    "name": {
+      "he": "גשר הצבים (נחל אלכסנדר)",
+      "ar": "جسر السلاحف (وادي اسكندر)",
+      "en": "Turtle Bridge (Alexander Stream)",
+      "ru": "Черепаший мост (Нахаль Александр)"
+    },
+    "coords": [
+      32.3853,
+      34.8913
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נקודת תצפית בטבע על הצב הרך הגדול בנחל אלכסנדר.",
+      "ar": "نقطة مراقبة في الطبيعة للسلاحف ذات القشرة الناعمة الكبيرة في وادي اسكندر.",
+      "en": "A natural observation point for large softshell turtles in the Alexander Stream.",
+      "ru": "Место наблюдения за гигантскими мягкотелыми черепахами в природе."
+    }
+  },
+  {
+    "id": "661",
+    "name": {
+      "he": "חי-בר כרמל",
+      "ar": "حي بار الكرمل",
+      "en": "Hai-Bar Carmel",
+      "ru": "Хай-Бар Кармель"
+    },
+    "coords": [
+      32.7561,
+      35.0135
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שמורת טבע לגידול והשבת נשרים, איילים ויחמורים לטבע בכרמל.",
+      "ar": "محمية طبيعية لتربية وإعادة النسور والغزلان والأيائل إلى الطبيعة في الكرمل.",
+      "en": "A nature reserve for breeding and reintroducing vultures, deer, and fallow deer to the Carmel.",
+      "ru": "Заповедник для разведения и выпуска в природу грифов и оленей."
+    }
+  },
+  {
+    "id": "662",
+    "name": {
+      "he": "גן גורו",
+      "ar": "غان غورو",
+      "en": "Gan Garoo",
+      "ru": "Ган Гуру"
+    },
+    "coords": [
+      32.5028,
+      35.4475
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק אוסטרלי ייחודי המאפשר האכלה חופשית של קנגורו וצפייה בחיות אוסטרליות.",
+      "ar": "منتزه أسترالي فريد يتيح إطعام الكنغر بحرية ومراقبة الحيوانات الأسترالية.",
+      "en": "A unique Australian park allowing free feeding of kangaroos and viewing Australian animals.",
+      "ru": "Уникальный австралийский парк: кормление кенгуру и экзотические животные."
+    }
   }
 ]
