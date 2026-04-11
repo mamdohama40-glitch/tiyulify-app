@@ -9283,5 +9283,445 @@
       "en": "A coastal nature reserve with rocky reefs and small pools, a unique natural gem.",
       "ru": "Прибрежный заповедник с рифами и лагунами, уникальное природное место."
     }
+  },
+  {
+    "id": "426",
+    "name": {
+      "he": "חורשת הארבעים",
+      "ar": "حرش الأربعين",
+      "en": "The Grove of Forty",
+      "ru": "Роща Сорока"
+    },
+    "coords": [
+      32.756,
+      35.02
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mount_Carmel_View.jpg/800px-Mount_Carmel_View.jpg",
+    "description": {
+      "he": "חורשת אלונים עתיקה ומרשימה הנחשבת לאתר קדוש, עם תצפיות מרהיבות למפרץ חיפה.",
+      "ar": "حرش بلوط قديم يعتبر موقعاً مقدساً مع إطلالات رائعة على خليج حيفا.",
+      "en": "An ancient oak grove considered a sacred site, with spectacular views of Haifa Bay.",
+      "ru": "Древняя дубовая роща с видом на Хайфский залив."
+    }
+  },
+  {
+    "id": "427",
+    "name": {
+      "he": "חורשת הרקפות",
+      "ar": "حرش الركفوت",
+      "en": "Cyclamen Grove",
+      "ru": "Роща Цикламенов"
+    },
+    "coords": [
+      32.744,
+      35.035
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חורשה קסומה ליד דלית אל-כרמל הידועה בפריחה צפופה של רקפות בחורף.",
+      "ar": "حرش ساحر بالقرب من دالية الكرمل يشتهر بكثافة زهور الركفوت في الشتاء.",
+      "en": "A magical grove near Daliyat al-Karmel known for dense cyclamen blooms in winter.",
+      "ru": "Волшебная роща, известная обильным цветением цикламенов зимой."
+    }
+  },
+  {
+    "id": "428",
+    "name": {
+      "he": "יער עופר",
+      "ar": "غابة عوفر",
+      "en": "Ofer Forest",
+      "ru": "Лес Офер"
+    },
+    "coords": [
+      32.628,
+      34.964
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יער אורנים רחב ידיים בדרום הכרמל עם מסלולי רכיבת אופניים ומצפה נוף.",
+      "ar": "غابة صنوبر واسعة في جنوب الكرمل مع مسارات لركوب الدراجات.",
+      "en": "A vast pine forest in southern Carmel with cycling trails and a scenic lookout.",
+      "ru": "Обширный сосновый лес с велосипедными трассами и смотровой площадкой."
+    }
+  },
+  {
+    "id": "429",
+    "name": {
+      "he": "יער בית אורן",
+      "ar": "غابة بيت أورن",
+      "en": "Beit Oren Forest",
+      "ru": "Лес Бейт-Орен"
+    },
+    "coords": [
+      32.73,
+      35.008
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חלק מרכזי בפארק הכרמל המקיף את קיבוץ בית אורן, מוקד לטיולים ורכיבת סוסים.",
+      "ar": "جزء مركزي من منتزه الكرמل يحيط بكيبوتس بيت أورن.",
+      "en": "A central part of Carmel Park surrounding Kibbutz Beit Oren, a hub for hiking and horseback riding.",
+      "ru": "Центральная часть парка Кармель вокруг кибуца Бейт-Орен."
+    }
+  },
+  {
+    "id": "430",
+    "name": {
+      "he": "חורשת הצנחנים",
+      "ar": "حرش المظليين",
+      "en": "Paratroopers Grove",
+      "ru": "Роща Парашютистов"
+    },
+    "coords": [
+      32.715,
+      34.954
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חורשה מוצלת ליד נחל צביה בשיפולי הכרמל המערביים, מקום פופולרי לפיקניקים.",
+      "ar": "حرش مظلل بالقرب من وادي تسفيا، مكان مشهور للنزهات.",
+      "en": "A shaded grove near Nahal Tzvia on the western Carmel slopes, a popular picnic spot.",
+      "ru": "Тенистая роща на западных склонах Кармеля, популярное место для пикников."
+    }
+  },
+  {
+    "id": "431",
+    "name": {
+      "he": "יערות מנשה",
+      "ar": "غابات منشيه",
+      "en": "Menashe Forests",
+      "ru": "Леса Менаше"
+    },
+    "coords": [
+      32.585,
+      35.05
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "רצף יערות המחבר בין הכרמל לרמות מנשה, אזור טיולים פתוח ורחב.",
+      "ar": "سلسلة من الغابات تربط بين الكרمל ومرتفعات منشيه.",
+      "en": "A sequence of forests connecting the Carmel to the Menashe Heights, a vast open hiking area.",
+      "ru": "Лесной массив, соединяющий Кармель с высотами Менаше."
+    }
+  },
+  {
+    "id": "432",
+    "name": {
+      "he": "חורשת האורנים - אוניברסיטת חיפה",
+      "ar": "حرش الصنوبر - جامعة حيفا",
+      "en": "Pine Grove - Haifa University",
+      "ru": "Сосновая роща - Хайфский университет"
+    },
+    "coords": [
+      32.762,
+      35.015
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חורשה סבוכה הגובלת בקמפוס האוניברסיטה, מציעה שקט ומסלולי הליכה קצרים.",
+      "ar": "حرش كثيف يحد حرم الجامعة، يوفر الهدوء ومسارات مشي قصيرة.",
+      "en": "A dense grove bordering the university campus, offering quiet and short hiking trails.",
+      "ru": "Густая роща на границе университетского кампуса."
+    }
+  },
+  {
+    "id": "433",
+    "name": {
+      "he": "יער הרקפות (כרמל מזרחי)",
+      "ar": "غابة الركفوت",
+      "en": "Cyclamen Forest (East Carmel)",
+      "ru": "Лес Цикламенов"
+    },
+    "coords": [
+      32.675,
+      35.15
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יער בשוליים המזרחיים של הכרמל הפורח בשטיחי רקפות בתחילת השנה.",
+      "ar": "غابة في الأطراف الشرقية للكرمل تزدهر بسجاد من الركفوت.",
+      "en": "A forest on the eastern fringes of Carmel blooming with carpets of cyclamen early in the year.",
+      "ru": "Лес на восточных окраинах Кармеля с коврами из цикламенов."
+    }
+  },
+  {
+    "id": "434",
+    "name": {
+      "he": "חניון האגם - יער הכרמל",
+      "ar": "موقف البحيرة",
+      "en": "The Lake Grove",
+      "ru": "Озерная роща"
+    },
+    "coords": [
+      32.725,
+      34.995
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חורשת אורנים סביב אגם עונתי בנחל אורן, אחד המוקדים האהובים למשפחות.",
+      "ar": "حرش صنوبر حول بحيرة موسمية في وادي أورن، أحد المواقع المفضلة للعائلات.",
+      "en": "A pine grove around a seasonal lake in Nahal Oren, one of the most loved spots for families.",
+      "ru": "Сосновая роща вокруг сезонного озера, любимое место для семей."
+    }
+  },
+  {
+    "id": "435",
+    "name": {
+      "he": "חורשת המוחרקה",
+      "ar": "حرش المحرقة",
+      "en": "Muhraqa Grove",
+      "ru": "Роща Мухрака"
+    },
+    "coords": [
+      32.674,
+      35.084
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חורשה המקיפה את מנזר המוחרקה בנקודה הדרומית והגבוהה ביותר בכרמל.",
+      "ar": "حرش يحيط بدير المحرقة في النقطة الجنوبية والأعلى في الكرמل.",
+      "en": "A grove surrounding the Muhraqa monastery at the southernmost and highest point of Carmel.",
+      "ru": "Роща вокруг монастыря Мухрака на самой высокой точке Кармеля."
+    }
+  },
+  {
+    "id": "436",
+    "name": {
+      "he": "יער שוקף",
+      "ar": "غابة شوكيف",
+      "en": "Shoqef Forest",
+      "ru": "Лес Шокеф"
+    },
+    "coords": [
+      32.71,
+      35.025
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יער עבות סביב הר שוקף, מציע מסלולי טיול בין עצי אלון ואלה.",
+      "ar": "غابة كثيفة حول جبل شوكيف، تقدم مسارات للرحلات.",
+      "en": "A thick forest around Mount Shoqef, offering hiking trails among oak and terebinth trees.",
+      "ru": "Густой лес с тропами среди дубов."
+    }
+  },
+  {
+    "id": "437",
+    "name": {
+      "he": "חורשת גבעת ההגנה",
+      "ar": "حرش تل الدفاع",
+      "en": "Hahagana Hill Grove",
+      "ru": "Роща Гиват ха-Хагана"
+    },
+    "coords": [
+      32.75,
+      35.028
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חורשה שקטה הצופה אל מפרץ חיפה והעמקים.",
+      "ar": "حرش هادئ يطل على خليج حيفا والوديان.",
+      "en": "A quiet grove overlooking Haifa Bay and the valleys.",
+      "ru": "Тихая роща с видом на Хайфский залив."
+    }
+  },
+  {
+    "id": "438",
+    "name": {
+      "he": "יער קלא פריה",
+      "ar": "غابة قلاع فريه",
+      "en": "Qala Farih Forest",
+      "ru": "Лес Кала-Фарих"
+    },
+    "coords": [
+      32.74,
+      35.05
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אזור מיוער סמוך לעוספיא המשלב נוף טבעי עם קרבה למקומות יישוב.",
+      "ar": "منطقة حرجية بالقرب من عسفيا تجمع بين المناظر الطبيعية والقرب من المناطق السكنية.",
+      "en": "A forested area near Isfiya combining natural scenery with proximity to residential areas.",
+      "ru": "Лесной массив возле Усфии."
+    }
+  },
+  {
+    "id": "439",
+    "name": {
+      "he": "חורשת רקפת",
+      "ar": "حرش الركفت",
+      "en": "Rakefet Grove",
+      "ru": "Роща Ракефет"
+    },
+    "coords": [
+      32.685,
+      35.09
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חורשה אינטימית בשיפולים המזרחיים של הכרמל.",
+      "ar": "حرش حميم في المنحدرات الشرقية للكرمל.",
+      "en": "An intimate grove on the eastern slopes of Carmel.",
+      "ru": "Уютная роща на восточных склонах Кармеля."
+    }
+  },
+  {
+    "id": "440",
+    "name": {
+      "he": "יער אלון",
+      "ar": "غابة البلوط",
+      "en": "Elon Forest",
+      "ru": "Дубовый лес"
+    },
+    "coords": [
+      32.72,
+      35.03
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חורש אלונים טבעי ומרשים בלב הכרמל.",
+      "ar": "حرش بلوط طبيعي ومثير للإعجاب في قلب الكרמל.",
+      "en": "An impressive natural oak woodland in the heart of Carmel.",
+      "ru": "Впечатляющий дубовый лес в сердце Кармеля."
+    }
+  },
+  {
+    "id": "441",
+    "name": {
+      "he": "חורשת הארזים - הכרמל",
+      "ar": "حرش الأرز",
+      "en": "Cedar Grove - Carmel",
+      "ru": "Кедровая роща - Кармель"
+    },
+    "coords": [
+      32.745,
+      35.01
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חורשה קטנה וייחודית של עצי ארז שנשתלו בכרמל.",
+      "ar": "حرش صغير وفريد من أشجار الأرز التي زرعت في الكרמל.",
+      "en": "A small, unique grove of cedar trees planted in the Carmel.",
+      "ru": "Небольшая уникальная роща кедров на Кармеле."
+    }
+  },
+  {
+    "id": "442",
+    "name": {
+      "he": "יער חוף הכרמל",
+      "ar": "غابة ساحل الكרמل",
+      "en": "Carmel Coast Forest",
+      "ru": "Прибрежный лес Кармеля"
+    },
+    "coords": [
+      32.65,
+      34.95
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יער המשתרע על המורדות המערביים, נושק לים התיכון.",
+      "ar": "غابة تمتد على المنحدرات الغربية وتطل على البحر الأبيض المتوسط.",
+      "en": "A forest spanning the western slopes, bordering the Mediterranean Sea.",
+      "ru": "Лес на западных склонах, выходящий к Средиземному морю."
+    }
+  },
+  {
+    "id": "443",
+    "name": {
+      "he": "חורשת נוף הכרמל",
+      "ar": "حرش نوف هكرמל",
+      "en": "Nof HaCarmel Grove",
+      "ru": "Роща Ноф ха-Кармель"
+    },
+    "coords": [
+      32.76,
+      35.03
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חורשה פסטורלית ליד נקודת תצפית מרכזית לכיוון העמקים.",
+      "ar": "حرش ريفي بالقرب من نقطة مراقبة مركزية باتجاه الوديان.",
+      "en": "A pastoral grove near a central lookout point toward the valleys.",
+      "ru": "Пасторальная роща возле смотровой площадки."
+    }
+  },
+  {
+    "id": "444",
+    "name": {
+      "he": "יער רכס אצבע",
+      "ar": "غابة إصبع",
+      "en": "Etzba Ridge Forest",
+      "ru": "Лес хребта Эцба"
+    },
+    "coords": [
+      32.705,
+      34.975
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אזור מיוער במצוקים שמעל נחל אורן, כולל את מערת אצבע.",
+      "ar": "منطقة حرجية في المنحدرات فوق وادي أورن، تضم مغارة إصبع.",
+      "en": "A forested area on the cliffs above Nahal Oren, including the Etzba Cave.",
+      "ru": "Лесистая местность с пещерой Эцба."
+    }
+  },
+  {
+    "id": "445",
+    "name": {
+      "he": "חורשת האיילה",
+      "ar": "حرش الأيلة",
+      "en": "Deer Grove",
+      "ru": "Оленья роща"
+    },
+    "coords": [
+      32.73,
+      35.015
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חורשה קטנה ומוצלת באזור שבין בית אורן לעוספיא.",
+      "ar": "حرش صغير ومظلل في المنطقة بين بيت أورن وعسفيا.",
+      "en": "A small, shaded grove in the area between Beit Oren and Isfiya.",
+      "ru": "Небольшая тенистая роща между Бейт-Ореном и Усфией."
+    }
   }
 ]
