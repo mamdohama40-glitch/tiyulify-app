@@ -9111,23 +9111,23 @@
   {
     "id": "418",
     "name": {
-      "he": "פארק דאון טאון (העיר התחתית)",
-      "ar": "منتزه داون تاون",
-      "en": "Downtown Park",
-      "ru": "Парк Даунтаун"
+      "he": "חומוס אבו שאקר - העיר התחתית",
+      "ar": "حمص أبو شاكر - المدينة السفلى",
+      "en": "Abu Shaker Hummus - Lower City",
+      "ru": "Хумус Абу Шакер - Нижний город"
     },
     "coords": [
-      32.8193,
-      34.9982
+      32.8175,
+      35.0008
     ],
-    "category": "park",
+    "category": "food",
     "region": "north",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Al-Jarina_Mosque_Haifa.jpg/800px-Al-Jarina_Mosque_Haifa.jpg",
+    "image": "",
     "description": {
-      "he": "מרחב ירוק חדש יחסית בעיר התחתית, המשלב אדריכלות מודרנית וצמחייה.",
-      "ar": "مساحة خضراء جديدة نسبياً في المدينة السفلى، تجمع بين العمارة الحديثة والنباتات.",
-      "en": "A relatively new green space in the Lower City, combining modern architecture and vegetation.",
-      "ru": "Относительно новая зеленая зона в Нижнем городе."
+      "he": "מוסד חומוס ותיק ומפורסם בעיר התחתית של חיפה.",
+      "ar": "مطعم حمص قديم ومشهور في المدينة السفلى بحيفا.",
+      "en": "A veteran and famous hummus institution in Haifa's Lower City.",
+      "ru": "Знаменитый хумусный ресторан в Нижнем городе Хайфы."
     }
   },
   {
