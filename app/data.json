@@ -12363,5 +12363,885 @@
       "en": "A lookout point and memorial site for the Golani Brigade.",
       "ru": "Смотровая площадка и мемориал бригады Голани."
     }
+  },
+  {
+    "id": "566",
+    "name": {
+      "he": "נחל כזיב - עין חרדלית",
+      "ar": "وادي القرن - عين هردلية",
+      "en": "Nahal Kziv - Ein Hardalit",
+      "ru": "Нахаль Кзив - Эйн Хардалит"
+    },
+    "coords": [
+      33.045,
+      35.152
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסלול מים פופולרי ונגיש בתוך ערוץ הנחל, מתאים מאוד למשפחות.",
+      "ar": "مسار مائي مشهور وسهل الوصول في مجرى الوادي، مناسب جداً للعائلات.",
+      "en": "A popular and accessible water trail, very family-friendly.",
+      "ru": "Популярный водный маршрут для семей."
+    }
+  },
+  {
+    "id": "567",
+    "name": {
+      "he": "מבצר המונפורט",
+      "ar": "قلعة القرين - مونفورت",
+      "en": "Montfort Castle",
+      "ru": "Крепость Монфор"
+    },
+    "coords": [
+      33.044,
+      35.226
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שרידי מבצר צלבני מרשים המשקיף על נחל כזיב מראש שלוחה הררית.",
+      "ar": "بقايا قلعة صليبية رائعة تطل على وادي القرن.",
+      "en": "Impressive Crusader fortress remains overlooking Nahal Kziv.",
+      "ru": "Руины крепости крестоносцев с видом на ручей Кзив."
+    }
+  },
+  {
+    "id": "568",
+    "name": {
+      "he": "מערת הקשת",
+      "ar": "مغارة القوس",
+      "en": "Keshet Cave",
+      "ru": "Пещера Кешет"
+    },
+    "coords": [
+      33.068,
+      35.195
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "קשת סלע טבעית מרהיבה עם תצפית פנורמית לים התיכון.",
+      "ar": "قوس صخري طبيعي رائع مع إطلالة بانورامية على البحر المتوسط.",
+      "en": "A spectacular natural rock arch with panoramic Mediterranean views.",
+      "ru": "Природная каменная арка с видом на Средиземное море."
+    }
+  },
+  {
+    "id": "569",
+    "name": {
+      "he": "שמורת נחל בצת",
+      "ar": "محمية وادي البصة",
+      "en": "Nahal Betzet Reserve",
+      "ru": "Заповедник Нахаль Бецет"
+    },
+    "coords": [
+      33.075,
+      35.215
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסלול הליכה בתוך חורש עבות לצד ערוץ הנחל, הכולל את עיינות כרכרה.",
+      "ar": "مسار مشي داخل أحراش كثيفة بجانب مجرى الوادي.",
+      "en": "A hiking trail through dense woodland along the stream, including the Karkara springs.",
+      "ru": "Маршрут в густом лесу с источниками Каркара."
+    }
+  },
+  {
+    "id": "570",
+    "name": {
+      "he": "פארק גורן",
+      "ar": "منتزه غورين",
+      "en": "Goren Park",
+      "ru": "Парк Горен"
+    },
+    "coords": [
+      33.055,
+      35.21
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "פארק רחב ידיים עם תצפיות מרהיבות על המונפורט, חניוני פיקניק ושבילי טיול.",
+      "ar": "منتزه واسع يضم إطلالات رائعة على قلعة مونفورت.",
+      "en": "A vast park with stunning Montfort views, picnic areas, and hiking trails.",
+      "ru": "Обширный парк с видом на Монфор, местами для пикника."
+    }
+  },
+  {
+    "id": "571",
+    "name": {
+      "he": "נחל שרך",
+      "ar": "وادي شرخ",
+      "en": "Nahal Serach",
+      "ru": "Нахаль Шерах"
+    },
+    "coords": [
+      33.078,
+      35.228
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסלול מוצל בחורש ים תיכוני המשלב ביקור במערת שרך.",
+      "ar": "مسار مظلل في أحراش متوسطية يجمع بين زيارة مغارة شرخ.",
+      "en": "A shaded trail in Mediterranean woodland including a visit to Serach stalactite cave.",
+      "ru": "Тенистый маршрут с посещением пещеры Шерах."
+    }
+  },
+  {
+    "id": "572",
+    "name": {
+      "he": "עין טמיר - נחל כזיב",
+      "ar": "عين تمير - وادي القرن",
+      "en": "Ein Tamir - Nahal Kziv",
+      "ru": "Эйн Тамир - Нахаль Кзив"
+    },
+    "coords": [
+      33.042,
+      35.245
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מעיין הנובע מתוך נקבה בסלע, אחד המקומות היפים בנחל כזיב.",
+      "ar": "ينبوع ينبع من داخل نفق في الصخر، أحد أجمل المواقع في وادي القرن.",
+      "en": "A spring flowing from a rock tunnel, one of the most beautiful spots in Nahal Kziv.",
+      "ru": "Источник из скального туннеля, красивейшее место на Кзиве."
+    }
+  },
+  {
+    "id": "573",
+    "name": {
+      "he": "שמורת נחל געתון",
+      "ar": "محمية وادي الجعتون",
+      "en": "Nahal Ga'aton Reserve",
+      "ru": "Заповедник Нахаль Гаатон"
+    },
+    "coords": [
+      33.01,
+      35.185
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מקורות הנחל מזרחית לנהריה, עם שרידי חווה חקלאית עתיקה.",
+      "ar": "منابع الوادي شرق نهاريا، مع بقايا مزرعة زراعية قديمة.",
+      "en": "The stream's sources east of Nahariya, with remains of an ancient farm.",
+      "ru": "Истоки ручья к востоку от Нагарии с руинами древней фермы."
+    }
+  },
+  {
+    "id": "574",
+    "name": {
+      "he": "פארק הסלעים - כיסרא",
+      "ar": "منتزه الصخور - كسرى",
+      "en": "Rocks Park - Kisra",
+      "ru": "Парк скал - Кисра"
+    },
+    "coords": [
+      32.985,
+      35.315
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "תופעת טבע ייחודית של סלעי גיר ענקיים בתצורות פיסוליות בלב יער אלונים.",
+      "ar": "ظاهرة طبيعية فريدة لصخور كلسية ضخمة في قلب غابة بلوط.",
+      "en": "A unique natural phenomenon of giant limestone rocks in sculptural formations within an oak forest.",
+      "ru": "Уникальные известняковые скалы причудливых форм в дубовом лесу."
+    }
+  },
+  {
+    "id": "575",
+    "name": {
+      "he": "אגם מונפורט",
+      "ar": "بحيرة مونفورت - معلوت",
+      "en": "Monfort Lake",
+      "ru": "Озеро Монфор"
+    },
+    "coords": [
+      33.008,
+      35.295
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "אגם מלאכותי במעלות תרשיחא המציע שיט בסירות, החלקה על הקרח ופיקניק.",
+      "ar": "بحيرة اصطناعية في معلوت ترشيحا توفر ركوب القوارب والتزلج على الجليد.",
+      "en": "An artificial lake offering boating, ice skating, and picnic areas.",
+      "ru": "Искусственное озеро: лодки, каток и отдых."
+    }
+  },
+  {
+    "id": "576",
+    "name": {
+      "he": "מסעדת אדלינה - קיבוץ כברי",
+      "ar": "مطعم أدلينا - كابري",
+      "en": "Adelina Restaurant",
+      "ru": "Ресторан Аделина"
+    },
+    "coords": [
+      33.022,
+      35.145
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסעדת שף ים תיכונית איכותית במבנה אבן יפהפה בקיבוץ כברי.",
+      "ar": "مطعم شيف متوسطي عالي الجودة في مبنى حجري جميل في كيبوتس كابري.",
+      "en": "A high-quality Mediterranean chef restaurant in a beautiful stone building in Kibbutz Kabri.",
+      "ru": "Средиземноморский ресторан в каменном здании кибуца Кабри."
+    }
+  },
+  {
+    "id": "577",
+    "name": {
+      "he": "מסעדת חלומי - מעלות",
+      "ar": "مطعم حلومي - معلوت",
+      "en": "Haloumi Restaurant",
+      "ru": "Ресторан Халуми"
+    },
+    "coords": [
+      33.012,
+      35.292
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "בית קפה ומסעדה איטלקית חלבית פופולרית סמוך לאגם מונפורט.",
+      "ar": "مقهى ومطعم إيطالي ألبان مشهور بالقرب من بحيرة مونفورت.",
+      "en": "A popular Italian dairy café and restaurant near Lake Monfort.",
+      "ru": "Популярное итальянское молочное кафе рядом с озером Монфор."
+    }
+  },
+  {
+    "id": "578",
+    "name": {
+      "he": "שמורת הר מירון",
+      "ar": "محمية جبل الجرمق",
+      "en": "Mount Meron Reserve",
+      "ru": "Заповедник горы Мерон"
+    },
+    "coords": [
+      32.998,
+      35.412
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שמורת הטבע הגדולה בגליל, מציעה מגוון מסלולים ותצפיות פנורמיות.",
+      "ar": "أكبر محمية طبيعية في الجليل، توفر مسارات متنوعة وإطلالات بانورامية.",
+      "en": "The largest nature reserve in the Galilee with various trails and panoramic views.",
+      "ru": "Крупнейший заповедник Галилеи."
+    }
+  },
+  {
+    "id": "579",
+    "name": {
+      "he": "שביל נורמן - כפר ורדים",
+      "ar": "مسار نورمان - كفر فراديم",
+      "en": "Norman Trail",
+      "ru": "Тропа Нормана"
+    },
+    "coords": [
+      32.988,
+      35.265
+    ],
+    "category": "hiking",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסלול הליכה קסום ביער סמוך לכפר ורדים, הכולל 'בתי גמדים' ופינות חמד.",
+      "ar": "مسار مشي ساحر في الغابة بالقرب من كفر فراديم.",
+      "en": "A magical forest trail near Kfar Vradim, including 'gnome houses' and charming corners.",
+      "ru": "Сказочная лесная тропа с «домиками гномов»."
+    }
+  },
+  {
+    "id": "580",
+    "name": {
+      "he": "עין מירב - מעלות",
+      "ar": "عين ميراف - معلوت",
+      "en": "Ein Merav",
+      "ru": "Эйн Мейрав"
+    },
+    "coords": [
+      33.02,
+      35.285
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מעיין מטופח עם פינת ישיבה בתוך העיר מעלות, נקודת עצירה נעימה.",
+      "ar": "ينبوع مرتب مع منطقة جلوس داخل مدينة معلوت.",
+      "en": "A well-kept spring with a seating area within the city of Ma'alot.",
+      "ru": "Благоустроенный источник с зоной отдыха в Маалот."
+    }
+  },
+  {
+    "id": "581",
+    "name": {
+      "he": "מסעדת מורגנפלד - לימן",
+      "ar": "مطعم مورغنفيلد - ليمان",
+      "en": "Morgenfeld Restaurant",
+      "ru": "Ресторан Моргенфельд"
+    },
+    "coords": [
+      33.058,
+      35.112
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסעדת בשרים דרום אמריקאית הידועה באווירה כפרית במושב לימן.",
+      "ar": "مطعم لحوم أمريكي جنوبي يشتهر بأجوائه الريفية في موشاف ليمان.",
+      "en": "A South American meat restaurant known for its rustic atmosphere in Moshav Liman.",
+      "ru": "Южноамериканский мясной ресторан в мошаве Лиман."
+    }
+  },
+  {
+    "id": "582",
+    "name": {
+      "he": "פארק נחל נהריה",
+      "ar": "منتزه وادي نهاريا",
+      "en": "Nahariya River Park",
+      "ru": "Парк реки Нагария"
+    },
+    "coords": [
+      33.005,
+      35.102
+    ],
+    "category": "promenade",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "טיילת מטופחת לאורך נחל הגעתון הזורם במרכז נהריה עד הים.",
+      "ar": "متنزه مرتب على طول وادي الجعتون الذي يجري في وسط نهاريا حتى البحر.",
+      "en": "A well-kept promenade along the Ga'aton River through central Nahariya to the sea.",
+      "ru": "Набережная вдоль реки Гаатон в центре Нагарии до моря."
+    }
+  },
+  {
+    "id": "583",
+    "name": {
+      "he": "מצוקי רכס הסולם",
+      "ar": "محمية جروف رأس الناقورة",
+      "en": "Rosh HaNikra Ridge Cliffs",
+      "ru": "Заповедник скал Рош-ха-Никра"
+    },
+    "coords": [
+      33.085,
+      35.115
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מצוקי הגיר הלבנים היורדים לים בגבול לבנון, תצפית מרהיבה.",
+      "ar": "المنحدرات الكلسية البيضاء التي تنحدر إلى البحر عند الحدود اللبنانية.",
+      "en": "White limestone cliffs descending to the sea at the Lebanese border.",
+      "ru": "Белые скалы на границе с Ливаном."
+    }
+  },
+  {
+    "id": "584",
+    "name": {
+      "he": "מסעדת אל-ליאלי - תרשיחא",
+      "ar": "مطعم الليالي - ترشيحا",
+      "en": "Al-Layali Restaurant",
+      "ru": "Ресторан Аль-Лияли"
+    },
+    "coords": [
+      33.003,
+      35.268
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסעדה מזרחית אותנטית בלב הכפר תרשיחא, חוויה גלילית אמיתית.",
+      "ar": "مطعم شرقي أصيل في قلب قرية ترشيحا.",
+      "en": "An authentic oriental restaurant in the heart of Tarshiha.",
+      "ru": "Аутентичный восточный ресторан в Таршихе."
+    }
+  },
+  {
+    "id": "585",
+    "name": {
+      "he": "שביל פסגת הר מירון",
+      "ar": "مسار قمة جبل الجرمق",
+      "en": "Mt. Meron Summit Trail",
+      "ru": "Тропа на вершину Мерона"
+    },
+    "coords": [
+      32.997,
+      35.415
+    ],
+    "category": "hiking",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסלול מעגלי קל יחסית המציע תצפיות לכל כיווני הגליל והלבנון.",
+      "ar": "مسار دائري سهل نسبياً يوفر إطلالات في جميع اتجاهات الجليل ولبنان.",
+      "en": "A relatively easy circular trail with views in all directions over the Galilee and Lebanon.",
+      "ru": "Легкий кольцевой маршрут с видами на всю Галилею."
+    }
+  },
+  {
+    "id": "586",
+    "name": {
+      "he": "נחל מורן",
+      "ar": "وادي موران",
+      "en": "Nahal Moran",
+      "ru": "Нахаль Моран"
+    },
+    "coords": [
+      33.005,
+      35.385
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסלול הליכה ירוק ויפה היורד ממורדות המירון לכיוון נחל כזיב.",
+      "ar": "مسار مشي أخضر وجميل ينحدر من منحدرات الجرمق باتجاه وادي القرن.",
+      "en": "A beautiful green hiking trail descending from the Meron slopes toward Nahal Kziv.",
+      "ru": "Зеленый маршрут, спускающийся от Мерона к ручью Кзив."
+    }
+  },
+  {
+    "id": "587",
+    "name": {
+      "he": "נחל נריה",
+      "ar": "وادي نيريه",
+      "en": "Nahal Neria",
+      "ru": "Нахаль Нерия"
+    },
+    "coords": [
+      33.012,
+      35.392
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל המשכי לנחל מורן, מציע הליכה בחורש ים תיכוני מוצל.",
+      "ar": "وادي مكمل لوادي موران، يوفر المشي داخل أحراش متوسطية مظللة.",
+      "en": "A continuation of Nahal Moran offering a hike in shaded Mediterranean woodland.",
+      "ru": "Продолжение ручья Моран в тенистом лесу."
+    }
+  },
+  {
+    "id": "588",
+    "name": {
+      "he": "ביסטרו 899 - אילון",
+      "ar": "بيسترو 899 - ايلون",
+      "en": "Bistro 899",
+      "ru": "Бистро 899"
+    },
+    "coords": [
+      33.062,
+      35.218
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "ביסטרו כפרי המגיש מנות עונתיות בקיבוץ אילון.",
+      "ar": "بيسترو ريفي يقدم أطباقاً موسمية في كيبوتس ايلون.",
+      "en": "A rustic bistro serving seasonal dishes in Kibbutz Eilon.",
+      "ru": "Сельское бистро с сезонными блюдами в кибуце Эйлон."
+    }
+  },
+  {
+    "id": "589",
+    "name": {
+      "he": "עין חותם",
+      "ar": "عين حوتم",
+      "en": "Ein Hotam",
+      "ru": "Эйн Хотам"
+    },
+    "coords": [
+      32.992,
+      35.352
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מעיין הנובע מתוך מבנה אבן עתיק סמוך לכפר בית ג'ן, מקום קסום ומרגיע.",
+      "ar": "ينبوع ينبع من داخل مبنى حجري قديم بالقرب من بيت جن.",
+      "en": "A spring flowing from an ancient stone building near Beit Jann.",
+      "ru": "Источник в старинном каменном здании возле Бейт-Джана."
+    }
+  },
+  {
+    "id": "590",
+    "name": {
+      "he": "שמורת הר מירון - עין הזקן",
+      "ar": "محمية جبل الجرمق - عين الزقن",
+      "en": "Mt. Meron - Ein HaZaken",
+      "ru": "Мерон - Эйн ха-Закен"
+    },
+    "coords": [
+      32.985,
+      35.405
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שתי בריכות עתיקות האוגרות מי גשמים בלב השמורה, אזור פריחה מדהים.",
+      "ar": "بركتان قديمتان تجمعان مياه الأمطار في قلب المحمية.",
+      "en": "Two ancient pools collecting rainwater in the reserve, an amazing blooming area.",
+      "ru": "Два древних бассейна в заповеднике — зона потрясающего цветения."
+    }
+  },
+  {
+    "id": "591",
+    "name": {
+      "he": "מסעדת הבית - עין אל אסד",
+      "ar": "مطعم البيت - عين الأسد",
+      "en": "The House Restaurant",
+      "ru": "Ресторан Ха-Байт"
+    },
+    "coords": [
+      32.932,
+      35.395
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסעדה דרוזית ביתית עם נוף פנורמי לכנרת והרי הגליל.",
+      "ar": "مطعم درزي بيتي مع إطلالة بانورامية على بحيرة طبريا وجبال الجليل.",
+      "en": "A home-style Druze restaurant with panoramic views of the Sea of Galilee.",
+      "ru": "Домашний друзский ресторан с видом на Кинерет."
+    }
+  },
+  {
+    "id": "592",
+    "name": {
+      "he": "שביל הפסגה בהר אדיר",
+      "ar": "مسار قمة جبل أدير",
+      "en": "Mt. Adir Summit Trail",
+      "ru": "Тропа вершины Хар Адир"
+    },
+    "coords": [
+      33.035,
+      35.362
+    ],
+    "category": "hiking",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מצפור מרשים לזכר חללי מלחמת לבנון השנייה עם תצפית עומק לתוך לבנון.",
+      "ar": "مطلة رائعة تخليداً لذكرى ضحايا حرب لبنان الثانية.",
+      "en": "An impressive lookout with a deep view into Lebanon, in memory of war casualties.",
+      "ru": "Мемориальная площадка с видом на Ливан."
+    }
+  },
+  {
+    "id": "593",
+    "name": {
+      "he": "נחל פקיעין",
+      "ar": "وادي البقيعة",
+      "en": "Nahal Pki'in",
+      "ru": "Нахаль Пкиин"
+    },
+    "coords": [
+      32.982,
+      35.335
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "ערוץ נחל יפהפה העובר סמוך לכפר העתיק פקיעין.",
+      "ar": "مجرى وادي جميل يمر بالقرب من قرية البقيعة القديمة.",
+      "en": "A beautiful stream channel passing near the ancient village of Pki'in.",
+      "ru": "Живописное русло ручья рядом с деревней Пкиин."
+    }
+  },
+  {
+    "id": "594",
+    "name": {
+      "he": "בית קפה בוזה - תרשיחא",
+      "ar": "بوظة - ترشيحا",
+      "en": "Buza Ice Cream & Cafe",
+      "ru": "Кафе Буза"
+    },
+    "coords": [
+      33.004,
+      35.265
+    ],
+    "category": "cafe",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "גלידריית בוטיק ובית קפה מפורסם הידוע בשילובים מיוחדים.",
+      "ar": "متجر آيس كريم ومقهى مشهور معروف بخلطاته الخاصة.",
+      "en": "A boutique ice cream parlor and famous café known for unique combinations.",
+      "ru": "Знаменитое кафе и крафтовое мороженое в Таршихе."
+    }
+  },
+  {
+    "id": "595",
+    "name": {
+      "he": "חורבת דנעילה",
+      "ar": "خربة دنيلا",
+      "en": "Danila Ruins",
+      "ru": "Руины Данила"
+    },
+    "coords": [
+      33.065,
+      35.242
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שרידי יישוב עתיק ובית בד בלב חורש מוצל סמוך לנחל שרך.",
+      "ar": "بقايا مستوطنة قديمة ومعصرة زيتون في قلب أحراش مظللة.",
+      "en": "Remains of an ancient settlement and olive press in shaded woodland near Nahal Serach.",
+      "ru": "Руины древнего поселения и маслобойни в тенистом лесу."
+    }
+  },
+  {
+    "id": "596",
+    "name": {
+      "he": "שמורת הר מירון - חורבת חממה",
+      "ar": "محمية جبل الجرمق - خربة حمامة",
+      "en": "Mt. Meron - Hurvat Hamama",
+      "ru": "Мерон - Хурват Хамама"
+    },
+    "coords": [
+      33.012,
+      35.398
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נקודת מוצא למסלולים רבים במירון, עם חניון יום מסודר.",
+      "ar": "نقطة انطلاق للعديد من المسارات في الجرמق، مع موقف منظم.",
+      "en": "A starting point for many trails in Meron, with an organized day camp.",
+      "ru": "Точка старта маршрутов на Мероне с зоной отдыха."
+    }
+  },
+  {
+    "id": "597",
+    "name": {
+      "he": "מסעדת מעיין פקיעין",
+      "ar": "مطعم عين البقيعة",
+      "en": "Pki'in Spring Restaurant",
+      "ru": "Ресторан Мааян Пкиин"
+    },
+    "coords": [
+      32.978,
+      35.332
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסעדה מזרחית הממוקמת סמוך למעיין ההיסטורי במרכז פקיעין.",
+      "ar": "مطعم شرقي يقع بالقرب من الينبوع التاريخي في وسط البقيعة.",
+      "en": "An oriental restaurant near the historical spring in central Pki'in.",
+      "ru": "Восточный ресторан у исторического источника в Пкиине."
+    }
+  },
+  {
+    "id": "598",
+    "name": {
+      "he": "פארק צבאים - מעלות",
+      "ar": "منتزه الغزلان - معلوت",
+      "en": "Deer Park - Ma'alot",
+      "ru": "Парк оленей - Маалот"
+    },
+    "coords": [
+      33.015,
+      35.282
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "פארק עירוני עם מתקני משחק ותצפית לעבר הרי הגליל.",
+      "ar": "منتزه بلدي يضم ألعاباً وإطلالة على جبال الجليل.",
+      "en": "A municipal park with play facilities and a view toward the Galilee mountains.",
+      "ru": "Городской парк с игровыми площадками и видом на горы."
+    }
+  },
+  {
+    "id": "599",
+    "name": {
+      "he": "נחל מורן ועין מורן",
+      "ar": "وادي موران وعين موران",
+      "en": "Nahal & Ein Moran",
+      "ru": "Ручей и источник Моран"
+    },
+    "coords": [
+      33.008,
+      35.378
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שילוב של מסלול הליכה ירוק ומעיין קטן הזורם רוב השנה.",
+      "ar": "مزيج من مسار مشي أخضر وينبوع صغير يجري معظم أيام السنة.",
+      "en": "A combination of a green hiking trail and a small spring that flows most of the year.",
+      "ru": "Зеленый маршрут с источником, текущим почти круглый год."
+    }
+  },
+  {
+    "id": "600",
+    "name": {
+      "he": "מסעדת אל-ערישה - ירכא",
+      "ar": "مطعم العريشة - يركا",
+      "en": "Al-Arisha Restaurant",
+      "ru": "Ресторан Аль-Ариша"
+    },
+    "coords": [
+      32.955,
+      35.188
+    ],
+    "category": "food",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסעדה מזרחית פופולרית בירכא המגישה בשרים וסלטים טריים.",
+      "ar": "مطعم شرقي مشهور في يركا يقدم اللحوم والسلطات الطازجة.",
+      "en": "A popular oriental restaurant in Yirka serving fresh meats and salads.",
+      "ru": "Популярный восточный ресторан в Йирке."
+    }
+  },
+  {
+    "id": "601",
+    "name": {
+      "he": "שמורת נחל בית העמק",
+      "ar": "محمية وادي بيت هعيمك",
+      "en": "Nahal Beit HaEmek Reserve",
+      "ru": "Заповедник Нахаль Бейт-ха-Эмек"
+    },
+    "coords": [
+      32.965,
+      35.245
+    ],
+    "category": "hiking",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל קניוני עם מצוקים מרשימים ואתרי טיפוס.",
+      "ar": "وادي أخدودي يضم منحدرات رائعة ومواقع للتسلق.",
+      "en": "A canyon stream with impressive cliffs and climbing sites.",
+      "ru": "Каньонообразный ручей со скалами для скалолазания."
+    }
+  },
+  {
+    "id": "602",
+    "name": {
+      "he": "פארק תפן - גן הפסלים",
+      "ar": "حديقة التماثيل - تفن",
+      "en": "Tefen Sculpture Garden",
+      "ru": "Сад скульптур в Тефене"
+    },
+    "coords": [
+      32.978,
+      35.275
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שילוב ייחודי של תעשייה, אמנות וטבע עם עשרות פסלי חוץ.",
+      "ar": "مزيج فريد من الصناعة والفن والطبيعة مع عشرات التماثيل الخارجية.",
+      "en": "A unique combination of industry, art, and nature with dozens of outdoor sculptures.",
+      "ru": "Сочетание индустрии, искусства и природы (скульптуры под открытым небом)."
+    }
+  },
+  {
+    "id": "603",
+    "name": {
+      "he": "בית קפה נואלה - מעלות",
+      "ar": "مقهى نوالا - معلوت",
+      "en": "Noalla Cafe",
+      "ru": "Кафе Ноалла"
+    },
+    "coords": [
+      33.008,
+      35.272
+    ],
+    "category": "cafe",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "בית קפה וקונדיטוריה בלב תרשיחא עם מאפים בעבודת יד.",
+      "ar": "مقهى ومخبز في قلب ترشيحا يقدم معجنات مصنوعة يدوياً.",
+      "en": "A café and patisserie in Tarshiha with handmade pastries.",
+      "ru": "Кафе-кондитерская в центре Таршихи."
+    }
+  },
+  {
+    "id": "604",
+    "name": {
+      "he": "עין דבשה",
+      "ar": "عين دبشة",
+      "en": "Ein Devasha",
+      "ru": "Эйн Девша"
+    },
+    "coords": [
+      33.058,
+      35.325
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מעיין קטן ופסטורלי סמוך לקיבוץ גונן.",
+      "ar": "ينبوع صغير وهادئ بالقرب من كيبوتس غونين.",
+      "en": "A small and pastoral spring near Kibbutz Gonen.",
+      "ru": "Маленький пасторальный источник."
+    }
+  },
+  {
+    "id": "605",
+    "name": {
+      "he": "נחל עורבים",
+      "ar": "وادي الغربان",
+      "en": "Nahal Orvim",
+      "ru": "Нахаль Орвим"
+    },
+    "coords": [
+      33.072,
+      35.355
+    ],
+    "category": "hiking",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסלול אתגרי הכולל מפלים ותצפיות על עמק החולה.",
+      "ar": "مسار مليء بالتحديات يضم شلالات وإطلالات على سهل الحولة.",
+      "en": "A challenging trail including waterfalls and views of the Hula Valley.",
+      "ru": "Сложный маршрут с водопадами и видом на долину Хула."
+    }
   }
 ]
