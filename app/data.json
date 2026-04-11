@@ -9129,5 +9129,159 @@
       "en": "A relatively new green space in the Lower City, combining modern architecture and vegetation.",
       "ru": "Относительно новая зеленая зона в Нижнем городе."
     }
+  },
+  {
+    "id": "419",
+    "name": {
+      "he": "חוף דדו - חיפה",
+      "ar": "شاطئ دادو - حيفا",
+      "en": "Dado Beach - Haifa",
+      "ru": "Пляж Дадо - Хайфа"
+    },
+    "coords": [
+      32.793,
+      34.954
+    ],
+    "category": "beach",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Eilat_beach.jpg/800px-Eilat_beach.jpg",
+    "description": {
+      "he": "חוף הרחצה המרכזי והארוך בדרום חיפה, הכולל טיילת רחבה, מסעדות ונגישות מלאה.",
+      "ar": "شاطئ الاستحمام المركزي والطويل في جنوب حيفا، ويضم ممشى واسعاً ومطاعم.",
+      "en": "The main and longest beach in southern Haifa, featuring a wide promenade, restaurants, and full accessibility.",
+      "ru": "Главный и самый протяженный пляж на юге Хайфы с широкой набережной и ресторанами."
+    }
+  },
+  {
+    "id": "420",
+    "name": {
+      "he": "חוף הסטודנטים - חיפה",
+      "ar": "شاطئ الطلاب - حيفا",
+      "en": "Students Beach - Haifa",
+      "ru": "Студенческий пляж - Хайфа"
+    },
+    "coords": [
+      32.788,
+      34.956
+    ],
+    "category": "beach",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "חוף פתוח ופופולרי בקרב צעירים וגולשים, ממוקם בדרום העיר.",
+      "ar": "شاطئ مفتوح وشعبي بين الشباب وراكبي الأمواج.",
+      "en": "An open beach popular among young people and surfers, located in the south of the city.",
+      "ru": "Открытый пляж, популярный среди молодежи и серферов."
+    }
+  },
+  {
+    "id": "421",
+    "name": {
+      "he": "חוף בת גלים - חיפה",
+      "ar": "شاطئ بات جاليم - حيفا",
+      "en": "Bat Galim Beach - Haifa",
+      "ru": "Пляж Бат-Галим - Хайфа"
+    },
+    "coords": [
+      32.833,
+      34.985
+    ],
+    "category": "beach",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Eilat_beach.jpg/800px-Eilat_beach.jpg",
+    "description": {
+      "he": "חוף ייחודי בשכונת בת גלים, פופולרי לגלישת רוח וקייט בשל תנאי הים.",
+      "ar": "شاطئ فريد يقع في حي بات جاليم، يحظى بشعبية لركوب الأمواج الشراعية.",
+      "en": "A unique beach in Bat Galim, very popular for windsurfing and kitesurfing.",
+      "ru": "Уникальный пляж в Бат-Галим, популярный для виндсерфинга и кайтсерфинга."
+    }
+  },
+  {
+    "id": "422",
+    "name": {
+      "he": "החוף השקט - חיפה",
+      "ar": "الشاطئ الهادئ - حيفا",
+      "en": "The Quiet Beach - Haifa",
+      "ru": "Тихий пляж - Хайфа"
+    },
+    "coords": [
+      32.831,
+      34.989
+    ],
+    "category": "beach",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Eilat_beach.jpg/800px-Eilat_beach.jpg",
+    "description": {
+      "he": "חוף מוגן בתוך המפרץ עם מים שקטים מאוד, משמש גם לרחצה נפרדת.",
+      "ar": "شاطئ محمي داخل الخليج بمياه هادئة جداً، يستخدم أيضاً للاستحمام المنفصل.",
+      "en": "A sheltered beach within the bay with very calm waters, also used for separate bathing.",
+      "ru": "Защищенный пляж в заливе с очень спокойной водой и раздельным купанием."
+    }
+  },
+  {
+    "id": "423",
+    "name": {
+      "he": "חוף ארגמן - עכו",
+      "ar": "شاطئ أرجامان - عكا",
+      "en": "Argaman Beach - Acre",
+      "ru": "Пляж Аргаман - Акко"
+    },
+    "coords": [
+      32.915,
+      35.078
+    ],
+    "category": "beach",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Eilat_beach.jpg/800px-Eilat_beach.jpg",
+    "description": {
+      "he": "חוף הרחצה המרכזי והמוכרז של עכו, המציע תצפית מרהיבה על חומות העיר העתיקה.",
+      "ar": "شاطئ الاستحمام المركزي والمعلن في عكا، ويقدم إطلالة رائعة على أسوار المدينة القديمة.",
+      "en": "Acre's main official beach, offering a spectacular view of the Old City walls.",
+      "ru": "Главный официальный пляж Акко с видом на стены Старого города."
+    }
+  },
+  {
+    "id": "424",
+    "name": {
+      "he": "חוף התמרים - עכו",
+      "ar": "شاطئ النخيل - عكا",
+      "en": "Palm Beach - Acre",
+      "ru": "Пляж Тамарим - Акко"
+    },
+    "coords": [
+      32.913,
+      35.08
+    ],
+    "category": "beach",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "חוף הממוקם בסמוך למלון חוף התמרים, מצויד במדשאות ומתקני נופש.",
+      "ar": "شاطئ يقع بالقرب من فندق هوف هتاماريم، مجهز بمساحات خضراء ومرافق ترفيهية.",
+      "en": "A beach near the Palm Beach Hotel, equipped with lawns and recreational facilities.",
+      "ru": "Пляж рядом с отелем Palm Beach с газонами и зонами отдыха."
+    }
+  },
+  {
+    "id": "425",
+    "name": {
+      "he": "חוף שקמונה - חיפה",
+      "ar": "شاطئ شكمونا - حيفا",
+      "en": "Shikmona Beach - Haifa",
+      "ru": "Пляж Шикмона - Хайфа"
+    },
+    "coords": [
+      32.825,
+      34.954
+    ],
+    "category": "beach",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Neve_Yam_Beach.jpg/800px-Neve_Yam_Beach.jpg",
+    "description": {
+      "he": "שמורת טבע חופית עם ריפים של סלעים ובריכות קטנות, פנינת טבע ייחודית.",
+      "ar": "محمية طبيعية ساحلية بها شعاب صخرية وبرك صغيرة، جوهرة طبيعية فريدة.",
+      "en": "A coastal nature reserve with rocky reefs and small pools, a unique natural gem.",
+      "ru": "Прибрежный заповедник с рифами и лагунами, уникальное природное место."
+    }
   }
 ]
