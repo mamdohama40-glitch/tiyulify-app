@@ -113,7 +113,7 @@ function UserPhotos({ item }: { item: any }) {
   const emoji = catEmoji[item.category] || catEmoji.default;
 
   if (total === 0) return (
-    <div className="relative w-full h-32 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden border-2 border-white flex flex-col items-center justify-center gap-2"
+    <div className="relative w-full h-28 mb-2 shadow-xl rounded-[1.5rem] overflow-hidden border-2 border-white flex flex-col items-center justify-center gap-2"
       style={{background:`linear-gradient(135deg,${color}22,${color}44)`}}>
       <span style={{fontSize:'3rem'}}>{emoji}</span>
       <label className="bg-green-500 text-white text-[11px] font-black px-3 py-1.5 rounded-full cursor-pointer hover:bg-green-600 shadow">
@@ -131,7 +131,7 @@ function UserPhotos({ item }: { item: any }) {
   );
 
   return (
-    <div className="relative w-full h-32 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden bg-gray-100 border-2 border-white">
+    <div className="relative w-full h-28 mb-2 shadow-xl rounded-[1.5rem] overflow-hidden bg-gray-100 border-2 border-white">
       <img src={current!.url} alt="" className="w-full h-full object-cover"/>
       {current!.isUser && (
         <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-[10px] text-center py-1 px-2">
@@ -212,6 +212,49 @@ function SmartImage({ item, className }: { item: any; className?: string }) {
       if (status==='img' && !isWiki) setStatus('wiki');
       else setStatus('icon');
     }}/>
+  );
+}
+
+
+// === Compact expandable popup ===
+function CompactPopup({ item, pd, activeLang, labels, shareOnWhatsApp }: { item: any; pd: string|null; activeLang: string; labels: any; shareOnWhatsApp: (i:any)=>void }) {
+  const [expanded, setExpanded] = React.useState(false);
+  return (
+    <div className="text-right font-sans p-1 overflow-hidden">
+      <UserPhotos item={item} />
+      <h4 className="font-bold text-green-900 text-sm m-0 leading-snug mb-1 px-1">
+        {item.name[activeLang]||item.name.he}
+      </h4>
+      <p className="text-[12px] text-gray-600 leading-relaxed px-1 mb-2 line-clamp-2">
+        {item.description[activeLang]||item.description.he}
+      </p>
+      {pd && (
+        <button
+          onClick={() => setExpanded(e => !e)}
+          className="flex items-center gap-1.5 mb-1 bg-green-50 hover:bg-green-100 active:scale-95 transition-all px-3 py-1.5 rounded-full border border-green-200 shadow-sm cursor-pointer"
+        >
+          <span className="text-base">📍</span>
+          <span className="text-[12px] text-green-700 font-black">{pd} {labels[activeLang].km}</span>
+          <span className="text-[10px] text-green-500 mr-1">{expanded ? "▲" : "▼"}</span>
+        </button>
+      )}
+      {expanded && (
+        <div className="flex flex-wrap gap-2 mt-2 pb-1 animate-fadeIn">
+          <a href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} target="_blank"
+            className="flex-1 bg-blue-600 text-white text-center py-3 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95">
+            WAZE
+          </a>
+          <button onClick={()=>shareOnWhatsApp(item)}
+            className="flex-1 bg-green-500 text-white text-center py-3 rounded-2xl text-[11px] font-black shadow-lg hover:bg-green-600 active:scale-95">
+            WhatsApp
+          </button>
+          <a href={`https://www.google.com/maps/search/?api=1&query=${item.coords[0]},${item.coords[1]}`} target="_blank"
+            className="flex-1 bg-gray-100 text-gray-700 text-center py-3 rounded-2xl text-[11px] font-black no-underline border border-gray-200 hover:bg-gray-200 active:scale-95">
+            GOOGLE
+          </a>
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -590,20 +633,8 @@ export default function TiyulifyApp() {
                       });
                       return (
                         <Marker key={item.id} position={item.coords} icon={emojiIcon}>
-                          <Popup minWidth={260} maxWidth={300} className="square-modern-popup-container">
-                            <div className="text-right font-sans p-1 overflow-hidden">
-                              <UserPhotos item={item} />
-                              <h4 className="font-black text-green-900 text-xl md:text-3xl m-0 leading-none mb-2 px-1">{item.name[activeLang]||item.name.he}</h4>
-                              {pd && <div className="flex items-center gap-2 mb-4 bg-green-50 inline-flex px-4 py-1.5 rounded-full border-2 border-green-100 shadow-sm"><span className="text-xl">📍</span><p className="text-[14px] text-green-700 font-black m-0">{labels[activeLang].distLabel} {pd} {labels[activeLang].km}</p></div>}
-                              <div className="max-h-40 overflow-y-auto no-scrollbar border-t-2 border-gray-100 mt-2 pt-4 px-1">
-                                <p className="text-[13px] md:text-[16px] text-gray-700 leading-relaxed font-semibold">{item.description[activeLang]||item.description.he}</p>
-                              </div>
-                              <div className="flex flex-wrap gap-2 mt-3 pb-1">
-                                <a href={`https://www.waze.com/ul?ll=${item.coords[0]},${item.coords[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-4 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95">WAZE</a>
-                                <button onClick={()=>shareOnWhatsApp(item)} className="flex-1 bg-green-500 text-white text-center py-4 rounded-2xl text-[11px] font-black shadow-lg hover:bg-green-600 active:scale-95">WhatsApp</button>
-                                <a href={`https://www.google.com/maps/search/?api=1&query=${item.coords[0]},${item.coords[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-4 rounded-2xl text-[11px] font-black no-underline border-2 border-gray-200 hover:bg-gray-200 active:scale-95">GOOGLE</a>
-                              </div>
-                            </div>
+                          <Popup minWidth={240} maxWidth={270} className="square-modern-popup-container">
+                            <CompactPopup item={item} pd={pd} activeLang={activeLang} labels={labels} shareOnWhatsApp={shareOnWhatsApp} />
                           </Popup>
                         </Marker>
                       );
@@ -647,8 +678,9 @@ export default function TiyulifyApp() {
         .leaflet-marker-icon{margin-top:-34px!important;margin-left:-12px!important}
         .no-scrollbar::-webkit-scrollbar{display:none}
         .leaflet-popup-content-wrapper{border-radius:2.5rem!important;overflow:hidden!important;padding:0!important;box-shadow:0 45px 90px -15px rgba(0,0,0,.45)!important}
-        .leaflet-popup-content{margin:0!important;padding:10px!important;width:280px!important}
-        @media(max-width:768px){.leaflet-popup-content{width:300px!important;padding:12px!important}}
+        .leaflet-popup-content{margin:0!important;padding:10px!important;width:260px!important}
+        @media(max-width:768px){.leaflet-popup-content{width:260px!important;padding:10px!important}}
+        .line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
         .leaflet-popup-tip-container{display:none}
         .square-modern-popup-container iframe{pointer-events:auto!important;border-radius:2rem!important}
         @keyframes fadeIn{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
