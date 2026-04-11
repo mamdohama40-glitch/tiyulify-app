@@ -10603,5 +10603,885 @@
       "en": "A beautiful desert trail featuring a deep water cistern.",
       "ru": "Живописный пустынный маршрут с глубоким водоемом."
     }
+  },
+  {
+    "id": "486",
+    "name": {
+      "he": "שמורת נחל כזיב",
+      "ar": "محمية وادي القرن",
+      "en": "Nahal Kziv Nature Reserve",
+      "ru": "Заповедник Нахаль Кзив"
+    },
+    "coords": [
+      33.042,
+      35.21
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל איתן הזורם כל השנה בלב חורש ים תיכוני, עם עין טמיר ומבצר המונפור.",
+      "ar": "وادي دائم الجريان طوال العام في قلب الأحراش المتوسطية.",
+      "en": "A perennial stream in Mediterranean woodland, featuring Ein Tamir and Montfort Castle.",
+      "ru": "Полноводный ручей в средиземноморских лесах с крепостью Монфор."
+    }
+  },
+  {
+    "id": "487",
+    "name": {
+      "he": "שמורת הר מירון",
+      "ar": "محمية جبل الجرمق",
+      "en": "Mount Meron Nature Reserve",
+      "ru": "Заповедник горы Мерон"
+    },
+    "coords": [
+      32.992,
+      35.412
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שמורת החורש הגדולה בישראל, הכוללת את פסגת המירון ומסלול הפסגה המפורסם.",
+      "ar": "أكبر محمية للأحراش في إسرائيل، تضم قمة الجرمق ومسار القمة المشهور.",
+      "en": "The largest woodland reserve in Israel, including the Meron summit and famous summit trail.",
+      "ru": "Крупнейший лесной заповедник Израиля."
+    }
+  },
+  {
+    "id": "488",
+    "name": {
+      "he": "ראש הנקרה",
+      "ar": "رأس الناقورة",
+      "en": "Rosh Hanikra",
+      "ru": "Рош-ха-Никра"
+    },
+    "coords": [
+      33.093,
+      35.105
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נקרות ימיות מרהיבות בסלע גיר לבן על קו הגבול עם לבנון.",
+      "ar": "مغارات بحرية رائعة في الصخور الكلسية البيضاء على خط الحدود مع لبنان.",
+      "en": "Spectacular sea grottoes in white chalk cliffs on the border with Lebanon.",
+      "ru": "Морские гроты в белых скалах на границе с Ливаном."
+    }
+  },
+  {
+    "id": "489",
+    "name": {
+      "he": "נחל בצת",
+      "ar": "وادي البصة",
+      "en": "Nahal Betzet",
+      "ru": "Нахаль Бецет"
+    },
+    "coords": [
+      33.075,
+      35.15
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל עם צמחיית נחלים עבותה ועצי דולב מרשימים, סמוך לגבול הצפון.",
+      "ar": "وادي ذو غطاء نباتي كثيف وأشجار دلب مثيرة للإعجاب.",
+      "en": "A stream with dense riparian vegetation and impressive plane trees near the northern border.",
+      "ru": "Ручей с густой растительностью и платанами у северной границы."
+    }
+  },
+  {
+    "id": "490",
+    "name": {
+      "he": "מבצר המונפור",
+      "ar": "قلعة مونفور",
+      "en": "Montfort Castle",
+      "ru": "Крепость Монфор"
+    },
+    "coords": [
+      33.044,
+      35.226
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שרידי מבצר צלבני מרשים על שלוחה מעל נחל כזיב.",
+      "ar": "بقايا قلعة صليبية رائعة على منحدر يطل على وادي القرن.",
+      "en": "Remains of an impressive Crusader fortress on a ridge above Nahal Kziv.",
+      "ru": "Руины крепости крестоносцев над ручьем Кзив."
+    }
+  },
+  {
+    "id": "491",
+    "name": {
+      "he": "פארק גורן",
+      "ar": "منتزه غورن",
+      "en": "Goren Park",
+      "ru": "Парк Горен"
+    },
+    "coords": [
+      33.048,
+      35.215
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "פארק רחב ידיים עם תצפיות מרהיבות למבצר המונפור ונחל כזיב.",
+      "ar": "منتزه واسع مع إطلالات رائعة على قلعة مونفور ووادي القرن.",
+      "en": "A vast park with stunning views of Montfort Castle and Nahal Kziv.",
+      "ru": "Обширный парк со смотровыми площадками на крепость Монфор."
+    }
+  },
+  {
+    "id": "492",
+    "name": {
+      "he": "נחל שרך",
+      "ar": "وادي شرك",
+      "en": "Nahal Sarach",
+      "ru": "Нахаль Шарах"
+    },
+    "coords": [
+      33.065,
+      35.175
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסלול מוצל בתוך חורש סבוך המוביל למערת שרך ולנחל בצת.",
+      "ar": "مسار مظلل داخل أحراش كثيفة يؤدي إلى مغارة شرك ووادي البصة.",
+      "en": "A shaded trail through dense woodland leading to Sarach Cave and Nahal Betzet.",
+      "ru": "Тенистый маршрут через густой лес к пещере Шарах."
+    }
+  },
+  {
+    "id": "493",
+    "name": {
+      "he": "מערת קשת",
+      "ar": "مغارة القوس",
+      "en": "Keshet Cave",
+      "ru": "Пещера Кешет"
+    },
+    "coords": [
+      33.067,
+      35.198
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "קשת סלע טבעית גדולה ומרשימה המשקיפה על הגליל המערבי.",
+      "ar": "قوس صخري طبيعي كبير ومثير للإعجاب يطل على الجليل الغربي.",
+      "en": "A large and impressive natural rock arch overlooking the Western Galilee.",
+      "ru": "Природная каменная арка с панорамным видом на Галилею."
+    }
+  },
+  {
+    "id": "494",
+    "name": {
+      "he": "נחל עייון",
+      "ar": "وادي عيون",
+      "en": "Ayoun Stream",
+      "ru": "Нахаль Аюн"
+    },
+    "coords": [
+      33.265,
+      35.58
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שמורה הכוללת ארבעה מפלים מרשימים (מפל התנור) סמוך למטולה.",
+      "ar": "محمية تضم أربعة شلالات رائعة بالقرب من المطلة.",
+      "en": "A reserve featuring four impressive waterfalls (the Tanur waterfall) near Metula.",
+      "ru": "Заповедник с четырьмя водопадами возле Метулы."
+    }
+  },
+  {
+    "id": "495",
+    "name": {
+      "he": "שמורת תל דן",
+      "ar": "تل القاضي",
+      "en": "Tel Dan Nature Reserve",
+      "ru": "Заповедник Тель-Дан"
+    },
+    "coords": [
+      33.248,
+      35.652
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שילוב של טבע פראי, פלגי מים שוצפים ועיר מקראית חשובה.",
+      "ar": "مزيج من الطبيعة البرية والجداول الجارية ومدينة توراتية مهمة.",
+      "en": "A combination of wild nature, rushing streams, and an important biblical city.",
+      "ru": "Заповедник с бурными ручьями и руинами города Дан."
+    }
+  },
+  {
+    "id": "496",
+    "name": {
+      "he": "שמורת נחל שניר (חצבאני)",
+      "ar": "وادي الحصباني",
+      "en": "Nahal Snir Nature Reserve",
+      "ru": "Заповедник Нахаль Снир"
+    },
+    "coords": [
+      33.22,
+      35.615
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "הארוך מבין מקורות הירדן, מציע הליכה במים וצמחיית נחלים עשירה.",
+      "ar": "أطول منابع نهر الأردن، يوفر المشي في المياه وغطاء نباتي غني.",
+      "en": "The longest of the Jordan's tributaries, offering wading and rich riparian vegetation.",
+      "ru": "Самый длинный из истоков Иордана с водным маршрутом."
+    }
+  },
+  {
+    "id": "497",
+    "name": {
+      "he": "נחל גוש חלב",
+      "ar": "وادي الجش",
+      "en": "Nahal Gush Halav",
+      "ru": "Нахаль Гуш Халав"
+    },
+    "coords": [
+      33.02,
+      35.45
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מסלול ירוק העובר בין כפר ג'ש לאגם גוש חלב.",
+      "ar": "مسار أخضر يمر بين قرية الجش وبحيرة الجش.",
+      "en": "A green trail passing between Jish village and the Gush Halav lake.",
+      "ru": "Зеленый маршрут между деревней Джиш и озером Гуш Халав."
+    }
+  },
+  {
+    "id": "498",
+    "name": {
+      "he": "שמורת החולה",
+      "ar": "محمية الحولة",
+      "en": "Hula Nature Reserve",
+      "ru": "Заповедник Хула"
+    },
+    "coords": [
+      33.062,
+      35.605
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שמורת הטבע הראשונה בישראל, מוקד עולמי לצפרות ובעלי חיים של ביצה.",
+      "ar": "أول محمية طبيعية في إسرائيل، مركز عالمي لمراقبة الطيور.",
+      "en": "The first nature reserve in Israel, a world center for birdwatching and wetland wildlife.",
+      "ru": "Первый заповедник Израиля, место стоянки перелетных птиц."
+    }
+  },
+  {
+    "id": "499",
+    "name": {
+      "he": "אגמון החולה",
+      "ar": "بحيرة الحولة",
+      "en": "Agamon HaHula",
+      "ru": "Агмон ха-Хула"
+    },
+    "coords": [
+      33.1,
+      35.615
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "פארק צפרות ותיירות אקולוגית מהחשובים בעולם, מציע סיורי רכב וצפרות.",
+      "ar": "منتزه لمراقبة الطيور والسياحة البيئية، يقدم جولات بالعربات.",
+      "en": "One of the world's most important birdwatching and eco-tourism parks.",
+      "ru": "Эко-парк, знаменитый тысячами журавлей в сезон миграции."
+    }
+  },
+  {
+    "id": "500",
+    "name": {
+      "he": "נחל דישון",
+      "ar": "وادي ديشون",
+      "en": "Nahal Dishon",
+      "ru": "Нахаль Дишон"
+    },
+    "coords": [
+      33.07,
+      35.53
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "אחד הנחלים הגדולים בגליל העליון, המציע מסלול הליכה וג'יפים נופי.",
+      "ar": "من أكبر الأودية في الجليل الأعلى، يوفر مسارات مشي وجولات جيب.",
+      "en": "One of the largest streams in the Upper Galilee, offering scenic hiking and Jeep trails.",
+      "ru": "Одна из самых больших рек в Верхней Галилее."
+    }
+  },
+  {
+    "id": "501",
+    "name": {
+      "he": "שמורת הבניאס (נחל חרמון)",
+      "ar": "بانياس (وادي هرمون)",
+      "en": "Banias (Hermon Stream) Reserve",
+      "ru": "Заповедник Баниас"
+    },
+    "coords": [
+      33.245,
+      35.69
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שמורה המשלבת מפלים שוצפים, שביל תלוי ומקדשים עתיקים.",
+      "ar": "محمية تجمع بين الشلالات المتدفقة ومسار معلق ومعابد قديمة.",
+      "en": "A reserve combining rushing waterfalls, a suspended trail, and ancient temples.",
+      "ru": "Заповедник с водопадом, подвесным мостом и античными руинами."
+    }
+  },
+  {
+    "id": "502",
+    "name": {
+      "he": "נחל עמוד (צפון)",
+      "ar": "وادي عمود",
+      "en": "Nahal Amud (North)",
+      "ru": "Нахаль Амуд (север)"
+    },
+    "coords": [
+      32.99,
+      35.485
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל איתן הזורם בעמק עמוק ומוצל, עם טחנות קמח ובריכות מים.",
+      "ar": "وادي دائم الجريان في عمق أخدود مظلل، مع طواحين قمح وبرك مياه.",
+      "en": "A perennial stream in a deep shaded valley, with flour mills and water pools.",
+      "ru": "Живописная река в глубоком каньоне с водяными мельницами."
+    }
+  },
+  {
+    "id": "503",
+    "name": {
+      "he": "יער ברעם",
+      "ar": "غابة برعام",
+      "en": "Bar'am Forest",
+      "ru": "Лес Барам"
+    },
+    "coords": [
+      33.055,
+      35.415
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "חורש אלונים עתיק ומרשים המשרה אווירה של יער אירופאי.",
+      "ar": "أحراش بلوط قديمة ومثيرة للإعجاب تعطي جو الغابات الأوروبية.",
+      "en": "An ancient oak woodland with an atmosphere of a European forest.",
+      "ru": "Древний дубовый лес, напоминающий европейские леса."
+    }
+  },
+  {
+    "id": "504",
+    "name": {
+      "he": "גן לאומי ברעם",
+      "ar": "كنيس برعام القديم",
+      "en": "Bar'am National Park",
+      "ru": "Национальный парк Барам"
+    },
+    "coords": [
+      33.058,
+      35.412
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שרידי בית כנסת עתיק ומפואר מהתקופה הרומית-ביזנטית.",
+      "ar": "بقايا كنيس قديم وفخم من العصر الروماني البيزنطي.",
+      "en": "Remains of a magnificent ancient synagogue from the Roman-Byzantine period.",
+      "ru": "Руины великолепной синагоги римско-византийского периода."
+    }
+  },
+  {
+    "id": "505",
+    "name": {
+      "he": "מבצר יחיעם",
+      "ar": "قلعة جدين (يحيعام)",
+      "en": "Yehi'am Fortress",
+      "ru": "Крепость Йехиам"
+    },
+    "coords": [
+      32.994,
+      35.222
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מבצר צלבני ואוטומני משוקם המציע תצפיות מרהיבות.",
+      "ar": "قلعة صليبية وعثمانية مرممة توفر إطلالات رائعة.",
+      "en": "A restored Crusader and Ottoman fortress offering spectacular views.",
+      "ru": "Восстановленная крепость времен крестоносцев и османов."
+    }
+  },
+  {
+    "id": "506",
+    "name": {
+      "he": "נחל מורן",
+      "ar": "وادي موران",
+      "en": "Nahal Moran",
+      "ru": "Нахаль Моран"
+    },
+    "coords": [
+      33.008,
+      35.395
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל יפהפה בשיפולי המירון המציע הליכה בחורש מוצל.",
+      "ar": "وادي جميل في منحدرات الجرمق يوفر مشياً في أحراش مظللة.",
+      "en": "A beautiful stream on the Meron slopes offering a shaded woodland hike.",
+      "ru": "Красивый ручей на склонах Мерона в тенистом лесу."
+    }
+  },
+  {
+    "id": "507",
+    "name": {
+      "he": "נחל נריה",
+      "ar": "وادي نيريا",
+      "en": "Nahal Neria",
+      "ru": "Нахаль Нерия"
+    },
+    "coords": [
+      33.012,
+      35.385
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל סמוך לנחל מורן, המאופיין בחורש ים תיכוני סבוך וירוק.",
+      "ar": "وادي بالقرب من وادي موران، يتميز بأحراش متوسطية كثيفة وخضراء.",
+      "en": "A stream adjacent to Nahal Moran, characterized by dense Mediterranean woodland.",
+      "ru": "Ручей рядом с Нахаль Моран в густом зеленом лесу."
+    }
+  },
+  {
+    "id": "508",
+    "name": {
+      "he": "נחל צלמון (צפון)",
+      "ar": "وادي سلامة",
+      "en": "Nahal Tzalmon (North)",
+      "ru": "Нахаль Цальмон (север)"
+    },
+    "coords": [
+      32.905,
+      35.405
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל הזורם כל השנה עם טחנות קמח עתיקות ובוסתנים.",
+      "ar": "وادي يجري طوال العام مع طواحين قمح قديمة وبساتين.",
+      "en": "A perennial stream with ancient flour mills and orchards.",
+      "ru": "Река с круглогодичным течением и старыми мельницами."
+    }
+  },
+  {
+    "id": "509",
+    "name": {
+      "he": "שמורת הר אדיר",
+      "ar": "جبل أدير",
+      "en": "Mount Adir Reserve",
+      "ru": "Заповедник горы Адир"
+    },
+    "coords": [
+      33.045,
+      35.365
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "תצפית מרהיבה על גבול לבנון ומרחבי הגליל העליון.",
+      "ar": "إطلالة رائعة على الحدود اللبنانية ومساحات الجليل الأعلى.",
+      "en": "A spectacular lookout over the Lebanese border and the Upper Galilee.",
+      "ru": "Смотровая площадка на границе с Ливаном."
+    }
+  },
+  {
+    "id": "510",
+    "name": {
+      "he": "נחל געתון",
+      "ar": "وادي جعتون",
+      "en": "Nahal Ga'aton",
+      "ru": "Нахаль Гаатон"
+    },
+    "coords": [
+      33.005,
+      35.15
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל המנקז את אזור מעלות לעיר נהריה, עם מסלול יפה ליד חורבת געתון.",
+      "ar": "وادي يصرف منطقة معالوت إلى مدينة نهاريا.",
+      "en": "A stream draining the Ma'alot area to Nahariya, with a trail near Ga'aton Ruins.",
+      "ru": "Ручей, текущий от Маалот к Нагарии."
+    }
+  },
+  {
+    "id": "511",
+    "name": {
+      "he": "חורבת געתון",
+      "ar": "خربة جعتون",
+      "en": "Ga'aton Ruins",
+      "ru": "Руины Гаатон"
+    },
+    "coords": [
+      33.01,
+      35.16
+    ],
+    "category": "history",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שרידי אחוזה פיאודלית מוקפת בוסתנים ועצי אקליפטוס.",
+      "ar": "بقايا قصر إقطاعي محاط بالبساتين وأشجار الكينا.",
+      "en": "Remains of a feudal estate surrounded by orchards and eucalyptus trees.",
+      "ru": "Руины поместья, окруженные садами и эвкалиптами."
+    }
+  },
+  {
+    "id": "512",
+    "name": {
+      "he": "פארק אדמית",
+      "ar": "منتزه أدميت",
+      "en": "Adamit Park",
+      "ru": "Парк Адамит"
+    },
+    "coords": [
+      33.072,
+      35.205
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "פארק קק\"ל על רמת אדמית, מוקד יציאה למערת קשת.",
+      "ar": "منتزه للصندوق القومي اليهودي على هضبة أدميت، نقطة انطلاق لمغارة القوس.",
+      "en": "A KKL park on the Adamit Plateau, the starting point for Keshet Cave.",
+      "ru": "Парк на плато Адамит, откуда начинается путь к пещере Кешет."
+    }
+  },
+  {
+    "id": "513",
+    "name": {
+      "he": "מערת עלמה",
+      "ar": "مغارة علما",
+      "en": "Alma Cave",
+      "ru": "Пещера Альма"
+    },
+    "coords": [
+      33.045,
+      35.5
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מערת נטיפים עמוקה ומאתגרת במזרח הגליל העליון.",
+      "ar": "مغارة صواعد وهوابط عميقة ومليئة بالتحديات في شرق الجليل الأعلى.",
+      "en": "A deep and challenging stalactite cave in the eastern Upper Galilee.",
+      "ru": "Глубокая сталактитовая пещера для любителей экстрима."
+    }
+  },
+  {
+    "id": "514",
+    "name": {
+      "he": "נחל צבעון",
+      "ar": "وادي تسيفعون",
+      "en": "Nahal Tziv'on",
+      "ru": "Нахאль Цивон"
+    },
+    "coords": [
+      33.025,
+      35.41
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל בלב הגליל העליון המפורסם בפריחת סחלבים נדירה בחורף.",
+      "ar": "وادي في قلب الجليل الأعلى يشتهر بزهور السحلبيات النادرة في الشتاء.",
+      "en": "A stream famous for rare orchid blooms in winter.",
+      "ru": "Ручей, известный редкими орхидеями зимой."
+    }
+  },
+  {
+    "id": "515",
+    "name": {
+      "he": "שמורת הר חירם",
+      "ar": "محمية جبل حيرام",
+      "en": "Mount Hiram Reserve",
+      "ru": "Заповедник горы Хирам"
+    },
+    "coords": [
+      33.03,
+      35.375
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "אזור הררי מיוער ופראי מצפון לכביש 89.",
+      "ar": "منطقة جبلية غابية وبرية شمال شارع 89.",
+      "en": "A wild, forested mountain area north of Highway 89.",
+      "ru": "Дикий лесной горный район к северу от трассы 89."
+    }
+  },
+  {
+    "id": "516",
+    "name": {
+      "he": "עין חרדלית",
+      "ar": "عين خردليت",
+      "en": "Ein Hardalit",
+      "ru": "Эйн-Хардалит"
+    },
+    "coords": [
+      33.04,
+      35.17
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "חלק נגיש ופופולרי של נחל כזיב עם מים רדודים ומתוקים.",
+      "ar": "جزء سهل الوصول ومشهور من وادي القرن بمياه ضحلة وعذبة.",
+      "en": "An accessible and popular part of Nahal Kziv with shallow fresh water.",
+      "ru": "Доступная часть ручья Кзив с мелкой пресной водой."
+    }
+  },
+  {
+    "id": "517",
+    "name": {
+      "he": "נחל פער",
+      "ar": "وادي فعر",
+      "en": "Nahal Pa'ar",
+      "ru": "Нахаль Паар"
+    },
+    "coords": [
+      33.035,
+      35.39
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שמורה הכוללת בולען (פונור) מרשים המבלע את מי הגשמים.",
+      "ar": "محمية تضم بالوعة طبيعية مثيرة للإعجاب تبتلع مياه الأمطار.",
+      "en": "A reserve featuring an impressive sinkhole (ponor) that absorbs rainwater.",
+      "ru": "Заповедник с природной воронкой, поглощающей дождевую воду."
+    }
+  },
+  {
+    "id": "518",
+    "name": {
+      "he": "שמורת הר מירון - עין חוממה",
+      "ar": "عين حميمة",
+      "en": "Ein Humema - Mount Meron",
+      "ru": "Эйн-Хумема - Гора Мерон"
+    },
+    "coords": [
+      33.002,
+      35.405
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מעיין קטן בנקודת היציאה למסלולים רבים במירון.",
+      "ar": "ينبوع صغير عند نقطة الانطلاق لمسارات عديدة في الجرمق.",
+      "en": "A small spring at the starting point for many trails in the Meron area.",
+      "ru": "Маленький источник в начальной точке маршрутов на Мероне."
+    }
+  },
+  {
+    "id": "519",
+    "name": {
+      "he": "יער חניתה",
+      "ar": "غابة حنيتا",
+      "en": "Hanita Forest",
+      "ru": "Лес Ханита"
+    },
+    "coords": [
+      33.085,
+      35.145
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "יער נטוע של קק\"ל על גבול לבנון, עם חניוני פיקניק ומסלולי הליכה.",
+      "ar": "غابة مزروعة للصندوق القومي اليهودي على الحدود اللبنانية.",
+      "en": "A KKL forest on the Lebanese border, with picnic sites and hiking trails.",
+      "ru": "Лес на границе с Ливаном с площадками для пикников."
+    }
+  },
+  {
+    "id": "520",
+    "name": {
+      "he": "נחל אדמית",
+      "ar": "وادي أدميت",
+      "en": "Nahal Adamit",
+      "ru": "Нахаль Адамит"
+    },
+    "coords": [
+      33.078,
+      35.215
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל יפהפה היורד מרמת אדמית לכיוון נחל בצת.",
+      "ar": "وادي جميل ينحدر من هضبة أدميت باتجاه وادي البصة.",
+      "en": "A beautiful stream descending from the Adamit Plateau toward Nahal Betzet.",
+      "ru": "Ручей, спускающийся с плато Адамит к Нахаль Бецет."
+    }
+  },
+  {
+    "id": "521",
+    "name": {
+      "he": "עין אימפריה",
+      "ar": "عين إمبراطورية",
+      "en": "Ein Imperia",
+      "ru": "Эйн-Империя"
+    },
+    "coords": [
+      33.038,
+      35.185
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מעיין ופינת חמד בנחל כזיב.",
+      "ar": "ينبوع وزاوية جميلة في وادي القرن.",
+      "en": "A spring and a charming spot in Nahal Kziv.",
+      "ru": "Источник и живописный уголок на ручье Кзив."
+    }
+  },
+  {
+    "id": "522",
+    "name": {
+      "he": "שמורת הר סאסא",
+      "ar": "جبل ساسا",
+      "en": "Mount Sasa Reserve",
+      "ru": "Заповедник горы Саса"
+    },
+    "coords": [
+      33.028,
+      35.392
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שמורה המגינה על החורש הים תיכוני סביב הר סאסא.",
+      "ar": "محمية تحمي الأحراش المتوسطية حول جبل ساسا.",
+      "en": "A reserve protecting the Mediterranean woodland around Mount Sasa.",
+      "ru": "Заповедник, охраняющий средиземноморский лес вокруг горы Саса."
+    }
+  },
+  {
+    "id": "523",
+    "name": {
+      "he": "נחל בית העמק (חלק עליון)",
+      "ar": "وادي بيت جن",
+      "en": "Nahal Beit HaEmek (Upper)",
+      "ru": "Нахаль Бейт-ха-Эмек"
+    },
+    "coords": [
+      32.965,
+      35.305
+    ],
+    "category": "hiking",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "נחל קניוני עם צוקים מרשימים באזור שבין כפר ורדים לבית ג'ן.",
+      "ar": "وادي أخدودي مع منحدرات مثيرة للإعجاب بين كفار فراديم وبيت جن.",
+      "en": "A canyon stream with impressive cliffs between Kfar Vradim and Beit Jann.",
+      "ru": "Каньонообразный ручей с отвесными скалами."
+    }
+  },
+  {
+    "id": "524",
+    "name": {
+      "he": "שמורת הר שפר",
+      "ar": "جبل شفر",
+      "en": "Mount Shefer Reserve",
+      "ru": "Заповедник горы Шефер"
+    },
+    "coords": [
+      32.935,
+      35.435
+    ],
+    "category": "park",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "שמורה המציעה מסלולי הליכה בתוך חורש ירוק עד.",
+      "ar": "محمية توفر مسارات مشي داخل أحراش دائمة الخضرة.",
+      "en": "A reserve offering hiking trails within evergreen woodland.",
+      "ru": "Заповедник с пешими тропами в вечнозеленом лесу."
+    }
+  },
+  {
+    "id": "525",
+    "name": {
+      "he": "נחל כזיב - עין זיו",
+      "ar": "عين زيف - وادي القرن",
+      "en": "Ein Ziv - Nahal Kziv",
+      "ru": "Эйн-Зив - Нахаль Кзив"
+    },
+    "coords": [
+      33.045,
+      35.245
+    ],
+    "category": "water",
+    "region": "north",
+    "image": "",
+    "description": {
+      "he": "מעיין שופע המהווה את אחת מנקודות היציאה המרכזיות לטיול בנחל.",
+      "ar": "ينبوع غزير يمثل إحدى نقاط الانطلاق المركزية للرحلات في الوادي.",
+      "en": "A bountiful spring serving as one of the main starting points for hiking the stream.",
+      "ru": "Обильный источник, одна из главных точек входа на маршрут по Кзиву."
+    }
   }
 ]
