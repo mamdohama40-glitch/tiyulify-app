@@ -126,12 +126,12 @@ function UserPhotos({ item }: { item: any }) {
 
   const catColor: Record<string,string> = {
     water:'#3b82f6',nature:'#22c55e',history:'#a16207',sleep:'#8b5cf6',
-    accommodation:'#8b5cf6',food:'#f97316',bike:'#ef4444',hiking:'#84cc16',
+    accommodation:'#8b5cf6',food:'#f97316',bike:'#ef4444',hiking:'#84cc16',attractions:'#f59e0b',
     promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e',default:'#6b7280'
   };
   const catEmoji: Record<string,string> = {
     water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-    food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',default:'📍'
+    food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',attractions:'🎡',default:'📍'
   };
   const color = catColor[item.category] || catColor.default;
   const emoji = catEmoji[item.category] || catEmoji.default;
@@ -202,12 +202,12 @@ function UserPhotos({ item }: { item: any }) {
 // === SmartImage: תמונה חכמה עם fallback ===
 const CAT_COLOR: Record<string,string> = {
   water:'#3b82f6',nature:'#22c55e',history:'#a16207',sleep:'#8b5cf6',
-  accommodation:'#8b5cf6',food:'#f97316',bike:'#ef4444',hiking:'#84cc16',
+  accommodation:'#8b5cf6',food:'#f97316',bike:'#ef4444',hiking:'#84cc16',attractions:'#f59e0b',
   promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e',default:'#6b7280'
 };
 const CAT_EMOJI: Record<string,string> = {
   water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-  food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',default:'📍'
+  food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',attractions:'🎡',default:'📍'
 };
 
 function SmartImage({ item, className }: { item: any; className?: string }) {
@@ -339,7 +339,7 @@ export default function TiyulifyApp() {
       undecided:"לא החלטתי, הראה הכל",
       regions:{all:"כל הארץ",north:"צפון",center:"מרכז",south:"דרום"},
       categories:{all:"הכל",water:"מעיינות ונחלים",nature:"פארקים וטבע",history:"היסטוריה ודת",sleep:"לינה",
-        food:"אוכל",bike:"אופניים",hiking:"הליכה",promenade:"טיילות",beach:"חופים",viewpoint:"תצפיות ונופים"}
+        food:"אוכל",bike:"אופניים",hiking:"הליכה",promenade:"טיילות",beach:"חופים",viewpoint:"תצפיות ונופים",attractions:"אטרקציות"}
     },
     en: {
       search:"Search any place in Israel...",results:"Results",surprise:"My Pick",welcome:"Where to today?",
@@ -349,7 +349,7 @@ export default function TiyulifyApp() {
       undecided:"Show me everything",
       regions:{all:"All Israel",north:"North",center:"Center",south:"South"},
       categories:{all:"All",water:"Springs & Streams",nature:"Parks & Nature",history:"History & Religion",sleep:"Camping",
-        food:"Food",bike:"Cycling",hiking:"Hiking",promenade:"Promenades",beach:"Beaches",viewpoint:"Viewpoints"}
+        food:"Food",bike:"Cycling",hiking:"Hiking",promenade:"Promenades",beach:"Beaches",viewpoint:"Viewpoints",attractions:"Attractions"}
     },
     ar: {
       search:"ابحث عن أي مكان في إسرائيل...",results:"نتائج",surprise:"اقتراحي",welcome:"أين نذهب اليوم؟",
@@ -359,7 +359,7 @@ export default function TiyulifyApp() {
       undecided:"لم أقرر، أرني الكل",
       regions:{all:"كل البلاد",north:"الشمال",center:"الوسط",south:"الجنوب"},
       categories:{all:"الكل",water:"ينابيع وأنهار",nature:"منتزهات وطبيعة",history:"تاريخ ودين",sleep:"إقامة وتخييم",
-        food:"طعام ومطاعم",bike:"مسارات الدراجات",hiking:"مسارات المشي",promenade:"ممشى سياحي",beach:"شواطئ البحر",viewpoint:"مناظر ومطلات"}
+        food:"طعام ومطاعم",bike:"مسارات الدراجات",hiking:"مسارات المشي",promenade:"ممشى سياحي",beach:"شواطئ البحر",viewpoint:"مناظر ومطلات",attractions:"معالم سياحية"}
     },
     ru: {
       search:"Поиск любого места в Израиле...",results:"Результаты",surprise:"Мой выбор",welcome:"Куда поедем?",
@@ -369,7 +369,7 @@ export default function TiyulifyApp() {
       undecided:"Не решил, показать всё",
       regions:{all:"Весь Израиль",north:"Север",center:"Центр",south:"Юг"},
       categories:{all:"Все",water:"Источники и реки",nature:"Парки и природа",history:"История и религия",sleep:"Жилье",
-        food:"Еда",bike:"Велосипед",hiking:"Пешие тропы",promenade:"Променады",beach:"Пляжи",viewpoint:"Смотровые площадки"}
+        food:"Еда",bike:"Велосипед",hiking:"Пешие тропы",promenade:"Променады",beach:"Пляжи",viewpoint:"Смотровые площадки",attractions:"Аттракционы"}
     }
   };
 
@@ -515,7 +515,7 @@ export default function TiyulifyApp() {
               <button key={id} onClick={()=>{setCategoryFilter(id);setActiveView('map');}}
                 className="aspect-square flex flex-col items-center justify-center gap-3 md:gap-6 bg-white hover:bg-green-50 rounded-2xl md:rounded-[3rem] shadow-xl border-2 md:border-4 border-transparent hover:border-green-400 transition-all group p-4">
                 <span className="text-4xl md:text-7xl group-hover:scale-125 transition-transform duration-500">
-                  {id==='water'?'💦':id==='nature'?'🏞️':id==='history'?'🏰':id==='sleep'?'🏕️':id==='food'?'🍕':id==='bike'?'🚲':id==='hiking'?'🥾':id==='promenade'?'🚶‍♂️':id==='beach'?'🏖️':'🌊'}
+                  {id==='water'?'💦':id==='nature'?'🏞️':id==='history'?'🏰':id==='sleep'?'🏕️':id==='food'?'🍕':id==='bike'?'🚲':id==='hiking'?'🥾':id==='promenade'?'🚶‍♂️':id==='beach'?'🏖️':id==='attractions'?'🎡':'🌊'}
                 </span>
                 <span className="font-black text-gray-700 text-center text-[10px] md:text-lg leading-tight uppercase tracking-tight">{label}</span>
               </button>
@@ -752,7 +752,7 @@ export default function TiyulifyApp() {
                       const pd = userCoords ? calculateDistance(userCoords[0],userCoords[1],item.coords[0],item.coords[1]) : null;
                       const catEmoji: Record<string,string> = {
                         water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-                        food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕'
+                        food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡'
                       };
                       const emoji = catEmoji[item.category] || '📍';
                       const emojiIcon = LeafletMapLib && new (require('leaflet').DivIcon)({
