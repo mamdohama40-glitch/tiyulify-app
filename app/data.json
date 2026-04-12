@@ -16708,5 +16708,845 @@
       "en": "A quality Turkish meat restaurant located in Ramat Yishai.",
       "ru": "Качественный турецкий мясной ресторан в Рамат-Йишай."
     }
+  },
+  {
+    "id": "771",
+    "name": {
+      "he": "מסעדת דקס (Decks)",
+      "ar": "مطعم ديكس",
+      "en": "Decks Restaurant",
+      "ru": "Ресторан Декс"
+    },
+    "coords": [
+      32.7915,
+      35.5422
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת בשרים יוקרתית על המזח בטבריה, ידועה בשיטת צלייה ייחודית על עצי זית.",
+      "ar": "مطعم لحوم فاخر على الرصيف في طبريا، مشهور بطريقة الشواء الفريدة على خشب الزيتون.",
+      "en": "A luxury meat restaurant on the Tiberias pier, known for unique grilling on olive wood.",
+      "ru": "Роскошный мясной ресторан на пирсе Тверии."
+    }
+  },
+  {
+    "id": "772",
+    "name": {
+      "he": "מסעדת אביב",
+      "ar": "مطعم أبيب",
+      "en": "Aviv Restaurant",
+      "ru": "Ресторан Авив"
+    },
+    "coords": [
+      32.7888,
+      35.5411
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת דגים ובשרים ותיקה בטיילת טבריה עם נוף פנורמי לכנרת.",
+      "ar": "مطعم أسماك ولحوم عريق على كورنيش طبريا مع إطلالة بانورامية على بحيرة طبريا.",
+      "en": "A veteran fish and meat restaurant on the Tiberias promenade with panoramic views of the Sea of Galilee.",
+      "ru": "Ветеранский рыбный ресторан на набережной Тверии."
+    }
+  },
+  {
+    "id": "773",
+    "name": {
+      "he": "קפה גרג (מתחם ביג פוריה)",
+      "ar": "كافيه غريج بوريا",
+      "en": "Greg Cafe Poria",
+      "ru": "Грег Кафе Пория"
+    },
+    "coords": [
+      32.7588,
+      35.5244
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של הרשת במתחם הקניות פוריה, מקום פופולרי לארוחות בוקר ופגישות.",
+      "ar": "فرع من السلسلة في مجمع التسوق بوريا، مكان شعبي لوجبات الإفطار والاجتماعات.",
+      "en": "A chain branch in the Poria shopping complex, popular for breakfasts and meetings.",
+      "ru": "Сеть Грег в торговом комплексе Пория."
+    }
+  },
+  {
+    "id": "774",
+    "name": {
+      "he": "מסעדת תשרין (נצרת)",
+      "ar": "مطعم تشرين",
+      "en": "Tishreen Nazareth",
+      "ru": "Тишрин Назарет"
+    },
+    "coords": [
+      32.7055,
+      35.2977
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מוערכת בנצרת המשלבת מטבח ערבי מסורתי עם טכניקות מודרניות.",
+      "ar": "مطعم مرموق في الناصرة يجمع بين المطبخ العربي التقليدي والتقنيات الحديثة.",
+      "en": "A well-regarded Nazareth restaurant combining traditional Arabic cuisine with modern techniques.",
+      "ru": "Уважаемый ресторан в Назарете с традиционной арабской кухней."
+    }
+  },
+  {
+    "id": "775",
+    "name": {
+      "he": "מסעדת צל תמר",
+      "ar": "مطعم ظل النخيل",
+      "en": "Tzel Tamar",
+      "ru": "Цель Тамар"
+    },
+    "coords": [
+      32.6788,
+      35.5811
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה כפרית קסומה באשדות יעקב איחוד, מוקפת צמחייה טרופית ומים.",
+      "ar": "مطعم ريفي ساحر في أشدوت يعقوف إيحود، محاط بنباتات استوائية ومياه.",
+      "en": "A charming rural restaurant in Ashdot Ya'akov Ihud, surrounded by tropical vegetation and water.",
+      "ru": "Очаровательный деревенский ресторан в Ашдот-Яаков."
+    }
+  },
+  {
+    "id": "776",
+    "name": {
+      "he": "מסעדת אנגוס (Angus) מגדל",
+      "ar": "مطعم أنغوس مجدل",
+      "en": "Angus Meat Migdal",
+      "ru": "Ангус Мидгаль"
+    },
+    "coords": [
+      32.8211,
+      35.5122
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת בשרים איכותית המבוססת על גידול עצמי במתחם מגדל.",
+      "ar": "مطعم لحوم راقٍ يعتمد على الإنتاج الذاتي في مجمع مجدل.",
+      "en": "A quality meat restaurant based on self-raising in the Migdal complex.",
+      "ru": "Качественный мясной ресторан с собственным производством в Мидгаль."
+    }
+  },
+  {
+    "id": "777",
+    "name": {
+      "he": "קפה מנדרין (טבריה)",
+      "ar": "كافيه ماندرين طبريا",
+      "en": "Mandarin Cafe Tiberias",
+      "ru": "Мандарин Тверия"
+    },
+    "coords": [
+      32.7933,
+      35.5355
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה איכותי הממוקם במלון סטאי או בקרבת הטיילת.",
+      "ar": "مقهى راقٍ يقع في فندق ستاي أو بالقرب من الكورنيش.",
+      "en": "A quality cafe located in the Stay Hotel or near the promenade.",
+      "ru": "Качественное кафе у набережной Тверии."
+    }
+  },
+  {
+    "id": "778",
+    "name": {
+      "he": "מסעדת אל רדא (Al-Rida)",
+      "ar": "الرضا",
+      "en": "Al-Rida Nazareth",
+      "ru": "Аль-Рида Назарет"
+    },
+    "coords": [
+      32.7044,
+      35.2988
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה הממוקמת במבנה עתיק בנצרת, ידועה במנות שף יצירתיות ואווירה בוהמית.",
+      "ar": "مطعم في مبنى قديم في الناصرة، مشهور بأطباق الشيف الإبداعية والأجواء البوهيمية.",
+      "en": "A restaurant in an ancient building in Nazareth, known for creative chef dishes and bohemian atmosphere.",
+      "ru": "Ресторан в старинном здании Назарета с богемной атмосферой."
+    }
+  },
+  {
+    "id": "779",
+    "name": {
+      "he": "מסעדת 1910",
+      "ar": "مطعم 1910",
+      "en": "1910 Restaurant",
+      "ru": "Ресторан 1910"
+    },
+    "coords": [
+      32.6755,
+      35.5788
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה איטלקית מעולה הממוקמת במבנה היסטורי משוחזר בקיבוץ דגניה א'.",
+      "ar": "مطعم إيطالي ممتاز في مبنى تاريخي مرمم في كيبوتس دغانيا أ.",
+      "en": "An excellent Italian restaurant in a restored historic building at Kibbutz Degania Alef.",
+      "ru": "Отличный итальянский ресторан в историческом здании кибуца Дгания-Алеф."
+    }
+  },
+  {
+    "id": "780",
+    "name": {
+      "he": "מסעדת חוות התבלינים בגלבוע",
+      "ar": "مزرعة التوابل جلبوع",
+      "en": "Spice Farm Gilboa",
+      "ru": "Ферма специй Гильбоа"
+    },
+    "coords": [
+      32.5311,
+      35.3455
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה הצופה לנוף עוצר נשימה של עמק חרוד, מגישה אוכל כפרי עשיר.",
+      "ar": "مطعم يطل على منظر خلاب لوادي حارود، يقدم طعاماً ريفياً غنياً.",
+      "en": "A restaurant overlooking the breathtaking landscape of Harod Valley, serving rich rural food.",
+      "ru": "Ресторан с видом на долину Харод."
+    }
+  },
+  {
+    "id": "781",
+    "name": {
+      "he": "קפה קפה (קניון הבזלת בית שאן)",
+      "ar": "كافيه كافيه بيت شيان",
+      "en": "Cafe Cafe Beit Shean",
+      "ru": "Кафе Кафе Бейт-Шеан"
+    },
+    "coords": [
+      32.4988,
+      35.4922
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף הרשת המשרת את תושבי עמק המעיינות והסביבה.",
+      "ar": "فرع السلسلة الذي يخدم سكان وادي المياه والمنطقة المحيطة.",
+      "en": "The chain branch serving the residents of the Springs Valley and surroundings.",
+      "ru": "Сеть для жителей долины Источников."
+    }
+  },
+  {
+    "id": "782",
+    "name": {
+      "he": "מסעדת רוברטה וינצ'י",
+      "ar": "مطعم روبرتا فينشي",
+      "en": "Roberta Vinci",
+      "ru": "Роберта Винчи"
+    },
+    "coords": [
+      32.6911,
+      35.1955
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה איטלקית משובחת הממוקמת במושבה כרכור.",
+      "ar": "مطعم إيطالي راقٍ في مستعمرة كركور.",
+      "en": "An excellent Italian restaurant in the Karkur moshava.",
+      "ru": "Превосходный итальянский ресторан в Каркуре."
+    }
+  },
+  {
+    "id": "783",
+    "name": {
+      "he": "מסעדת מגדלנה (Magdalena)",
+      "ar": "مجدلة",
+      "en": "Magdalena Restaurant",
+      "ru": "Магдалена"
+    },
+    "coords": [
+      32.8255,
+      35.5144
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת שף של יוסף חנא בצומת מגדל, נחשבת לאחת הטובות בצפון.",
+      "ar": "مطعم شيف يوسف حنا عند تقاطع مجدل، يعتبر من أفضل المطاعم في الشمال.",
+      "en": "Chef Yossef Hanna's restaurant at Migdal junction, considered one of the best in the north.",
+      "ru": "Ресторан шефа Йосефа Ханна на развязке Мидгаль."
+    }
+  },
+  {
+    "id": "784",
+    "name": {
+      "he": "ארומה (צומת צמח)",
+      "ar": "أروما",
+      "en": "Aroma Espresso Bar Zemach",
+      "ru": "Арома Зэмах"
+    },
+    "coords": [
+      32.7055,
+      35.5844
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נקודת עצירה מרכזית למטיילים סביב הכנרת במתחם מול כנרת.",
+      "ar": "محطة توقف مركزية للمتنزهين حول بحيرة طبريا في مجمع مول كنيرت.",
+      "en": "A central stop for Sea of Galilee area travelers in the Mol Kinneret complex.",
+      "ru": "Центральная остановка для путешественников вокруг Кинерета."
+    }
+  },
+  {
+    "id": "785",
+    "name": {
+      "he": "מסעדת קימל בגלבוע",
+      "ar": "مطعم كيميل جلبوع",
+      "en": "Kimmel Gilboa",
+      "ru": "Кимель Гильбоа"
+    },
+    "coords": [
+      32.5322,
+      35.3477
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת שף כפרית במרומי הגלבוע עם נוף לעמק.",
+      "ar": "مطعم شيف ريفي على قمم جلبوع مع إطلالة على الوادي.",
+      "en": "A rural chef restaurant at the heights of Gilboa with valley views.",
+      "ru": "Сельский ресторан шефа на высотах Гильбоа с видом на долину."
+    }
+  },
+  {
+    "id": "786",
+    "name": {
+      "he": "מסעדת קזבלנקה (טבריה)",
+      "ar": "كازابلانكا",
+      "en": "Casablanca Tiberias",
+      "ru": "Касабланка Тверия"
+    },
+    "coords": [
+      32.7877,
+      35.5405
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מזרחית אותנטית בלב העיר טבריה.",
+      "ar": "مطعم شرقي أصيل في قلب مدينة طبريا.",
+      "en": "An authentic Middle Eastern restaurant in the heart of Tiberias.",
+      "ru": "Аутентичный восточный ресторан в центре Тверии."
+    }
+  },
+  {
+    "id": "787",
+    "name": {
+      "he": "קפה פלוס (עין חרוד)",
+      "ar": "كافيه بلوس",
+      "en": "Cafe Plus Ein Harod",
+      "ru": "Кафе Плюс Эйн-Харод"
+    },
+    "coords": [
+      32.5511,
+      35.3855
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה וגלריה הממוקם בקיבוץ עין חרוד איחוד.",
+      "ar": "مقهى وغاليري في كيبوتس عين حارود إيحود.",
+      "en": "A cafe and gallery located in Kibbutz Ein Harod Ihud.",
+      "ru": "Кафе и галерея в кибуце Эйн-Харод-Ихуд."
+    }
+  },
+  {
+    "id": "788",
+    "name": {
+      "he": "מסעדת עין כמוס (כפר קנא)",
+      "ar": "عين كموس",
+      "en": "Ein Kamus Kfar Kanna",
+      "ru": "Эйн Камус Кфар-Кана"
+    },
+    "coords": [
+      32.7444,
+      35.3355
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מזרחית פופולרית על הציר הראשי של כפר קנא.",
+      "ar": "مطعم شرقي شعبي على المحور الرئيسي لكفر كنا.",
+      "en": "A popular Middle Eastern restaurant on the main axis of Kafr Kanna.",
+      "ru": "Популярный восточный ресторан в Кафр-Кане."
+    }
+  },
+  {
+    "id": "789",
+    "name": {
+      "he": "מסעדת סהרה (תבור)",
+      "ar": "صحارى",
+      "en": "Sahara Tabor",
+      "ru": "Сахара Табор"
+    },
+    "coords": [
+      32.6844,
+      35.3922
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מזרחית גדולה ומרשימה למרגלות הר תבור.",
+      "ar": "مطعم شرقي كبير ومثير للإعجاب عند سفح جبل الطور.",
+      "en": "A large and impressive Middle Eastern restaurant at the foot of Mount Tabor.",
+      "ru": "Большой восточный ресторан у подножия горы Тавор."
+    }
+  },
+  {
+    "id": "790",
+    "name": {
+      "he": "גלידריה גולדה (בית שאן)",
+      "ar": "غولدا للآيس كريم",
+      "en": "Golda Beit Shean",
+      "ru": "Голда Бейт-Шеан"
+    },
+    "coords": [
+      32.4977,
+      35.4911
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של רשת הגלידריות הפופולרית במתחם הקניות בעיר.",
+      "ar": "فرع من سلسلة المثلجات الشعبية في مجمع التسوق.",
+      "en": "A branch of the popular ice cream chain in the city shopping complex.",
+      "ru": "Филиал популярной сети мороженого в Бейт-Шеане."
+    }
+  },
+  {
+    "id": "791",
+    "name": {
+      "he": "מסעדת לוטוס (טבריה)",
+      "ar": "مطعم لوتس",
+      "en": "Lotus Restaurant Tiberias",
+      "ru": "Лотус Тверия"
+    },
+    "coords": [
+      32.7955,
+      35.5344
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה אסייתית המציעה מבחר סושי ומנות ווק בטבריה.",
+      "ar": "مطعم آسيوي يقدم تشكيلة من السوشي وأطباق الووك في طبريا.",
+      "en": "An Asian restaurant offering a selection of sushi and wok dishes in Tiberias.",
+      "ru": "Азиатский ресторан с суши и вок в Тверии."
+    }
+  },
+  {
+    "id": "792",
+    "name": {
+      "he": "מסעדת שיבולים (רמת ישי/עמק)",
+      "ar": "مطعم شيبوليم",
+      "en": "Shibolet Restaurant",
+      "ru": "Шиболет"
+    },
+    "coords": [
+      32.7066,
+      35.1633
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מאפייה ובית קפה עם דגש על לחמים בריאים ותוצרת מקומית.",
+      "ar": "مخبز ومقهى مع التركيز على الخبز الصحي والمنتجات المحلية.",
+      "en": "A bakery and cafe focusing on healthy breads and local produce.",
+      "ru": "Пекарня и кафе со здоровым хлебом и местными продуктами."
+    }
+  },
+  {
+    "id": "793",
+    "name": {
+      "he": "ביסטרו מיכאל",
+      "ar": "بيسترو ميخائيل",
+      "en": "Michael Bistro",
+      "ru": "Бистро Михаэль"
+    },
+    "coords": [
+      32.6211,
+      35.1522
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "ביסטרו שף איכותי הממוקם במושב לימן.",
+      "ar": "بيسترو شيف راقٍ في موشاف ليمان.",
+      "en": "A quality chef bistro located in Moshav Liman.",
+      "ru": "Качественный бистро-шеф в мошаве Лиман."
+    }
+  },
+  {
+    "id": "794",
+    "name": {
+      "he": "מסעדת סודפה (נצרת)",
+      "ar": "صدفة الناصرة",
+      "en": "Sudfeh Nazareth",
+      "ru": "Судфех Назарет"
+    },
+    "coords": [
+      32.7033,
+      35.2955
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מעוצבת בנצרת המציעה חוויה קולינרית ערבית-בינלאומית.",
+      "ar": "مطعم مصمم في الناصرة يقدم تجربة طهي عربية-دولية.",
+      "en": "A designed restaurant in Nazareth offering an Arab-international culinary experience.",
+      "ru": "Стильный ресторан в Назарете с арабско-международной кухней."
+    }
+  },
+  {
+    "id": "795",
+    "name": {
+      "he": "מסעדת תנור חטב (כפר כמא)",
+      "ar": "تنور الحطب",
+      "en": "Tanur Hatab Kfar Kama",
+      "ru": "Тануф Хатав Кфар-Кама"
+    },
+    "coords": [
+      32.6711,
+      35.4422
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה צ'רקסית אותנטית בכפר כמא, חוויה תרבותית וקולינרית.",
+      "ar": "مطعم شركسي أصيل في كفر كما، تجربة ثقافية وطهوية.",
+      "en": "An authentic Circassian restaurant in Kafr Kama, a cultural and culinary experience.",
+      "ru": "Аутентичный черкесский ресторан в Кафр-Каме."
+    }
+  },
+  {
+    "id": "796",
+    "name": {
+      "he": "קפה גרג (קניון מול כנרת)",
+      "ar": "كافيه غريج مول كنيرت",
+      "en": "Greg Zemach Mall",
+      "ru": "Грег Молл Кинерет"
+    },
+    "coords": [
+      32.7044,
+      35.5833
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף רחב ידיים עם נוף לדרום הכנרת.",
+      "ar": "فرع واسع مع إطلالة على جنوب بحيرة طبريا.",
+      "en": "A spacious branch with views of the southern Sea of Galilee.",
+      "ru": "Просторный филиал с видом на южный Кинерет."
+    }
+  },
+  {
+    "id": "797",
+    "name": {
+      "he": "מסעדת אל חיר (אילניה)",
+      "ar": "الخير",
+      "en": "Al-Kheir Ilaniya",
+      "ru": "Аль-Хейр Иланья"
+    },
+    "coords": [
+      32.7533,
+      35.4055
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מזרחית פופולרית בצומת גולני/אילניה.",
+      "ar": "مطعم شرقي شعبي في تقاطع غولاني/إيلانيا.",
+      "en": "A popular Middle Eastern restaurant at the Golani/Ilaniya junction.",
+      "ru": "Популярный восточный ресторан на развязке Голани/Иланья."
+    }
+  },
+  {
+    "id": "798",
+    "name": {
+      "he": "מסעדת הדג והרשת",
+      "ar": "مطعم السمكة والشبكة",
+      "en": "The Fish and the Net",
+      "ru": "Рыба и Сеть"
+    },
+    "coords": [
+      32.7905,
+      35.5415
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת דגים טריים הממוקמת בטיילת טבריה.",
+      "ar": "مطعم أسماك طازجة على كورنيش طبريا.",
+      "en": "A fresh fish restaurant located on the Tiberias promenade.",
+      "ru": "Ресторан свежей рыбы на набережной Тверии."
+    }
+  },
+  {
+    "id": "799",
+    "name": {
+      "he": "מסעדת מעיין חרוד",
+      "ar": "مطعم معين حارود",
+      "en": "Ma'ayan Harod Restaurant",
+      "ru": "Ресторан Маайан-Харод"
+    },
+    "coords": [
+      32.5488,
+      35.3588
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה בשרית המשרתת את המבקרים בפארק הלאומי ובאזור.",
+      "ar": "مطعم لحوم يخدم زوار المتنزه الوطني والمنطقة.",
+      "en": "A meat restaurant serving visitors to the national park and area.",
+      "ru": "Мясной ресторан для посетителей национального парка."
+    }
+  },
+  {
+    "id": "800",
+    "name": {
+      "he": "בורגרים (בית שאן)",
+      "ar": "برغريم بيت شيان",
+      "en": "Burgerim Beit Shean",
+      "ru": "Бургерим Бейт-Шеан"
+    },
+    "coords": [
+      32.5011,
+      35.4955
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של רשת המיני-המבורגרים במרכז העיר.",
+      "ar": "فرع من سلسلة البرغر المصغر في وسط المدينة.",
+      "en": "A mini-burger chain branch in the city center.",
+      "ru": "Сеть мини-бургеров в центре Бейт-Шеана."
+    }
+  },
+  {
+    "id": "801",
+    "name": {
+      "he": "מסעדת אל שיח' (נצרת)",
+      "ar": "الشيخ",
+      "en": "Al-Sheikh Nazareth",
+      "ru": "Аль-Шейх Назарет"
+    },
+    "coords": [
+      32.7066,
+      35.3011
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מזרחית ותיקה ומוערכת הידועה בסלטים והבשרים שלה.",
+      "ar": "مطعم شرقي عريق ومحترم مشهور بسلطاته ولحومه.",
+      "en": "A veteran and respected Middle Eastern restaurant known for its salads and meats.",
+      "ru": "Ветеранский восточный ресторан, известный салатами и мясом."
+    }
+  },
+  {
+    "id": "802",
+    "name": {
+      "he": "קפה אל פיירו (עפולה)",
+      "ar": "كافيه إل فييرو",
+      "en": "El Fiero Cafe Afula",
+      "ru": "Эль Фьеро Афула"
+    },
+    "coords": [
+      32.6077,
+      35.2911
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ומסעדה איטלקית פופולרית במרכז עפולה.",
+      "ar": "مقهى ومطعم إيطالي شعبي في وسط عفولة.",
+      "en": "A popular Italian cafe and restaurant in central Afula.",
+      "ru": "Популярное итальянское кафе в центре Афулы."
+    }
+  },
+  {
+    "id": "803",
+    "name": {
+      "he": "מסעדת חומוס סעיד (עפולה)",
+      "ar": "حمص سعيد عفولة",
+      "en": "Hummus Said Afula",
+      "ru": "Хумус Саид Афула"
+    },
+    "coords": [
+      32.6088,
+      35.2888
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של החומוס המפורסם המשרת את תושבי העמק.",
+      "ar": "فرع من الحمص المشهور يخدم سكان الوادي.",
+      "en": "A branch of the famous hummus serving the valley residents.",
+      "ru": "Филиал знаменитого хумуса для жителей долины."
+    }
+  },
+  {
+    "id": "804",
+    "name": {
+      "he": "מסעדת גילבוע (Gilboa)",
+      "ar": "مطعم جلبوع",
+      "en": "Gilboa Restaurant",
+      "ru": "Ресторан Гильбоа"
+    },
+    "coords": [
+      32.5015,
+      35.4988
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מזרחית ותיקה בבית שאן, מוסד קולינרי מקומי.",
+      "ar": "مطعم شرقي عريق في بيت شيان، مؤسسة طهو محلية.",
+      "en": "A veteran Middle Eastern restaurant in Beit Shean, a local culinary institution.",
+      "ru": "Ветеранский восточный ресторан в Бейт-Шеане."
+    }
+  },
+  {
+    "id": "805",
+    "name": {
+      "he": "לנדוור (צמח)",
+      "ar": "لاندوور",
+      "en": "Landwer Cafe Zemach",
+      "ru": "Ландвер Зэмах"
+    },
+    "coords": [
+      32.7033,
+      35.5855
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה מרשת לנדוור במתחם הקניות בצמח.",
+      "ar": "مقهى من سلسلة لاندوور في مجمع التسوق في تسماح.",
+      "en": "A Landwer chain cafe in the Zemach shopping complex.",
+      "ru": "Кафе Ландвер в торговом комплексе Зэмах."
+    }
+  },
+  {
+    "id": "806",
+    "name": {
+      "he": "מסעדת הרמיטאז' (טבריה)",
+      "ar": "مطعم هيرميتاج",
+      "en": "Hermitage Tiberias",
+      "ru": "Эрмитаж Тверия"
+    },
+    "coords": [
+      32.7922,
+      35.5388
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת יוקרה במבנה אבן משוחזר המשקיף לכנרת.",
+      "ar": "مطعم فاخر في مبنى حجري مرمم يطل على بحيرة طبريا.",
+      "en": "A luxury restaurant in a restored stone building overlooking the Sea of Galilee.",
+      "ru": "Роскошный ресторан в восстановленном каменном здании с видом на Кинерет."
+    }
+  },
+  {
+    "id": "807",
+    "name": {
+      "he": "מסעדת מקום בלב (עפולה)",
+      "ar": "مكان في القلب",
+      "en": "Makom Balev Afula",
+      "ru": "Маком Балев Афула"
+    },
+    "coords": [
+      32.6122,
+      35.2955
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה בשרית כשרה המציעה תפריט עשיר לארוחות צהריים וערב.",
+      "ar": "مطعم لحوم كوشر يقدم قائمة غنية لوجبات الغداء والعشاء.",
+      "en": "A kosher meat restaurant offering a rich menu for lunch and dinner.",
+      "ru": "Кошерный мясной ресторан с богатым меню."
+    }
+  },
+  {
+    "id": "808",
+    "name": {
+      "he": "קפה יערה (קיבוץ גשר)",
+      "ar": "كافيه يعارا",
+      "en": "Yaara Cafe Gesher",
+      "ru": "Кафе Яара Гешер"
+    },
+    "coords": [
+      32.6188,
+      35.5488
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ופונדק דרכים באתר ההיסטורי נהריים בגשר.",
+      "ar": "مقهى وفندق طريق في الموقع التاريخي نهريم في جسر.",
+      "en": "A cafe and roadside inn at the historic Naharayim site in Gesher.",
+      "ru": "Кафе и придорожная гостиница на историческом месте Нахараим."
+    }
+  },
+  {
+    "id": "809",
+    "name": {
+      "he": "מסעדת דוניה (Donya)",
+      "ar": "دنيا",
+      "en": "Donya Nazareth",
+      "ru": "Донья Назарет"
+    },
+    "coords": [
+      32.7111,
+      35.3122
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת שף מודרנית בנצרת עם נוף מרהיב לעיר העתיקה.",
+      "ar": "مطعم شيف عصري في الناصرة مع منظر رائع للمدينة القديمة.",
+      "en": "A modern chef restaurant in Nazareth with breathtaking views of the old city.",
+      "ru": "Современный ресторан шефа в Назарете с видом на старый город."
+    }
+  },
+  {
+    "id": "810",
+    "name": {
+      "he": "ג'קו דגים (טבריה)",
+      "ar": "جاكو سيفود",
+      "en": "Jacko Seafood Tiberias",
+      "ru": "Джако Морепродукты Тверия"
+    },
+    "coords": [
+      32.7866,
+      35.5422
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת דגים ופירות ים ותיקה ומוכרת בטיילת.",
+      "ar": "مطعم أسماك ومأكولات بحرية عريق ومعروف على الكورنيش.",
+      "en": "A veteran and well-known fish and seafood restaurant on the promenade.",
+      "ru": "Ветеранский ресторан морепродуктов на набережной Тверии."
+    }
   }
 ]
