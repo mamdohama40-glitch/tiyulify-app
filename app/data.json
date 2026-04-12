@@ -14986,5 +14986,47 @@
       "en": "A modern cafe in Tamra offering a wide range of desserts, ice cream, drinks, and light meals.",
       "ru": "Современное кафе в Тамре с большим выбором десертов, мороженого и легких блюд."
     }
+  },
+  {
+    "id": "689",
+    "name": {
+      "he": "גני טמרה (Tamra Gardens)",
+      "ar": "حدائق طمرة",
+      "en": "Tamra Gardens",
+      "ru": "Сады Тамра"
+    },
+    "coords": [
+      32.8521,
+      35.1855
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק אירועים וגנים רחבי ידיים בטמרה, המשמשים לאירועים תחת כיפת השמיים וכוללים פינות ישיבה וצמחייה עשירה.",
+      "ar": "منتزه للمناسبات وحدائق واسعة في طمرة، تستخدم للمناسبات في الهواء الطلق وتضم زوايا للجلوس ونباتات غنية.",
+      "en": "A spacious event park and gardens in Tamra, used for outdoor events and featuring seating areas and lush vegetation.",
+      "ru": "Просторный парк и сады в Тамре для проведения мероприятий на открытом воздухе."
+    }
+  },
+  {
+    "id": "690",
+    "name": {
+      "he": "מסעדת ואולמי הגליל (טמרה)",
+      "ar": "مطعم وقاعات الجليل",
+      "en": "Al-Galil Restaurant & Halls",
+      "ru": "Ресторан и залы Аль-Галиль"
+    },
+    "coords": [
+      32.8545,
+      35.1742
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מתחם ותיק ומוכר בטמרה המשלב מסעדה מזרחית אותנטית ואולמות לאירועים ושמחות.",
+      "ar": "مجمع عريق ومعروف في طمرة يجمع بين مطعم شرقي أصيل وقاعات للمناسبات والأفراح.",
+      "en": "A well-known veteran complex in Tamra combining an authentic Middle Eastern restaurant and event halls for celebrations.",
+      "ru": "Известный комплекс в Тамре, включающий аутентичный восточный ресторан и залы для торжеств."
+    }
   }
 ]
