@@ -303,7 +303,41 @@ const MAP_LAYERS = [
   { id:'dark',      label:'🌙 כהה',    url:'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', attribution:'©CARTO' },
 ];
 
-export default function TiyulifyApp() {
+export default 
+function MapClickHandler({ mapRef }: { mapRef: any }) {
+  const { useMapEvents } = require('react-leaflet');
+  useMapEvents({
+    click: async (e: any) => {
+      const { lat, lng } = e.latlng;
+      try {
+        const res = await fetch(
+          `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&accept-language=he`
+        );
+        const d = await res.json();
+        const name = d?.name || d?.display_name?.split(',')[0] || `${lat.toFixed(4)}, ${lng.toFixed(4)}`;
+        if (mapRef.current) {
+          const L = require('leaflet');
+          L.popup()
+            .setLatLng([lat, lng])
+            .setContent(`<div dir="rtl" style="min-width:210px;font-family:Arial;padding:4px">
+              <b style="font-size:14px;color:#166534;display:block;margin-bottom:4px">${name}</b>
+              <small style="color:#6b7280;display:block;margin-bottom:8px;line-height:1.4">${(d?.display_name||'').split(',').slice(0,3).join(', ')}</small>
+              <div style="display:flex;gap:6px">
+                <a href="https://www.waze.com/ul?ll=${lat},${lng}&navigate=yes" target="_blank"
+                  style="flex:1;background:#2563eb;color:white;text-align:center;padding:6px;border-radius:8px;text-decoration:none;font-size:12px;font-weight:bold">WAZE</a>
+                <a href="https://www.google.com/maps?q=${lat},${lng}" target="_blank"
+                  style="flex:1;background:#f3f4f6;color:#374151;text-align:center;padding:6px;border-radius:8px;text-decoration:none;font-size:12px;font-weight:bold">Google</a>
+              </div>
+            </div>`)
+            .openOn(mapRef.current);
+        }
+      } catch(err) { console.error(err); }
+    }
+  });
+  return null;
+}
+
+function TiyulifyApp() {
   const [isClientReady, setIsClientReady] = useState(false);
 
   useEffect(() => {
@@ -626,27 +660,7 @@ export default function TiyulifyApp() {
                 </aside>
 
                 <div className="flex-1 relative">
-                  <MapContainer center={[32.0,34.9]} zoom={8} style={{height:'100%',width:'100%'}} ref={mapControl} zoomControl={false}
-                    eventHandlers={{
-                      click: async (e: any) => {
-                        const {lat, lng} = e.latlng;
-                        const res = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&accept-language=he`);
-                        const d = await res.json();
-                        const name = d?.name || d?.display_name?.split(',')[0] || `${lat.toFixed(4)}, ${lng.toFixed(4)}`;
-                        if (mapControl.current) {
-                          const L = (await import('leaflet')).default;
-                          L.popup()
-                            .setLatLng([lat, lng])
-                            .setContent(`<div dir="rtl" style="min-width:200px;font-family:Arial">
-                              <b style="font-size:14px;color:#166534">${name}</b><br/>
-                              <small style="color:#6b7280">${d?.display_name || ''}</small><br/><br/>
-                              <a href="https://www.waze.com/ul?ll=${lat},${lng}&navigate=yes" target="_blank" style="background:#2563eb;color:white;padding:5px 10px;border-radius:8px;text-decoration:none;font-size:12px;margin-left:6px">WAZE</a>
-                              <a href="https://www.google.com/maps?q=${lat},${lng}" target="_blank" style="background:#f3f4f6;color:#374151;padding:5px 10px;border-radius:8px;text-decoration:none;font-size:12px">Google</a>
-                            </div>`)
-                            .openOn(mapControl.current);
-                        }
-                      }
-                    }}>
+                  <MapContainer center={[32.0,34.9]} zoom={8} style={{height:'100%',width:'100%'}} ref={mapControl} zoomControl={false}>
                     <TileLayer key={activeMapLayer} url={currentLayer.url} attribution={currentLayer.attribution}/>
                     {userCoords && userRedMarker && (
                       <Marker position={userCoords} icon={userRedMarker}>
