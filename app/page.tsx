@@ -303,43 +303,7 @@ const MAP_LAYERS = [
   { id:'dark',      label:'🌙 כהה',    url:'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', attribution:'©CARTO' },
 ];
 
-export default 
-function MapClickHandler({ mapRef }: { mapRef: any }) {
-  const { useMapEvents } = require('react-leaflet');
-  useMapEvents({
-    click: async (e: any) => {
-      if (typeof window === 'undefined') return;
-      const { lat, lng } = e.latlng;
-      try {
-        const res = await fetch(
-          `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&accept-language=he`
-        );
-        const d = await res.json();
-        const name = d?.name || d?.display_name?.split(',')[0] || '';
-        const addr = (d?.display_name||'').split(',').slice(0,3).join(', ');
-        import('leaflet').then(({ default: L }) => {
-          if (!mapRef.current) return;
-          L.popup()
-            .setLatLng([lat, lng])
-            .setContent(`<div dir="rtl" style="min-width:210px;font-family:Arial;padding:4px">
-              <b style="font-size:14px;color:#166534;display:block;margin-bottom:4px">${name}</b>
-              <small style="color:#6b7280;display:block;margin-bottom:8px">${addr}</small>
-              <div style="display:flex;gap:6px">
-                <a href="https://www.waze.com/ul?ll=${lat},${lng}&navigate=yes" target="_blank"
-                  style="flex:1;background:#2563eb;color:white;text-align:center;padding:6px;border-radius:8px;text-decoration:none;font-size:12px;font-weight:bold">WAZE</a>
-                <a href="https://www.google.com/maps?q=${lat},${lng}" target="_blank"
-                  style="flex:1;background:#f3f4f6;color:#374151;text-align:center;padding:6px;border-radius:8px;text-decoration:none;font-size:12px;font-weight:bold">Google</a>
-              </div>
-            </div>`)
-            .openOn(mapRef.current);
-        });
-      } catch(err) { console.error(err); }
-    }
-  });
-  return null;
-}
-
-function TiyulifyApp() {
+export default function TiyulifyApp() {
   const [isClientReady, setIsClientReady] = useState(false);
 
   useEffect(() => {
