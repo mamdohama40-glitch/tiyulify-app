@@ -14734,5 +14734,257 @@
       "en": "A circular hiking trail starting from the Ras Ali entrance, passing through the Alil Mill and Tel Hali with panoramic views.",
       "ru": "Круговой маршрут от Рас-Али через мельницу Алиль и Тель-Хали с панорамным видом на изгиб ручья."
     }
+  },
+  {
+    "id": "677",
+    "name": {
+      "he": "טופלו (Topelo)",
+      "ar": "توبيلو",
+      "en": "Topelo Caffe",
+      "ru": "Топело Кафе"
+    },
+    "coords": [
+      32.9995,
+      35.2691
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ייחודי במעלות תרשיחא המציע תפריט ללא גלוטן, מנות טבעוניות ואווירה גלילית רגועה.",
+      "ar": "مقهى فريد في معلوت ترشيحا يقدم قائمة خالية من الغلوتين وأطباق نباتية وأجواء جليلية هادئة.",
+      "en": "A unique cafe in Ma'alot Tarshiha offering a gluten-free menu, vegan dishes, and a relaxed Galilean atmosphere.",
+      "ru": "Уникальное кафе в Маалот-Таршихе с безглютеновым меню, веганскими блюдами и спокойной атмосферой."
+    }
+  },
+  {
+    "id": "678",
+    "name": {
+      "he": "ברוסקטה קפה (Bruschetta)",
+      "ar": "بروسكيتا كافيه",
+      "en": "Bruschetta Caffe",
+      "ru": "Брускетта Кафе"
+    },
+    "coords": [
+      33.0012,
+      35.2685
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה מקסים במעלות תרשיחא הידוע בשירות מצוין ובמנות איטלקיות וים-תיכוניות טריות.",
+      "ar": "مقهى ساحر في معلوت ترشيحا يشتهر بالخدمة الممتازة والأطباق الإيطالية والمتوسطية الطازجة.",
+      "en": "A charming cafe in Ma'alot Tarshiha known for excellent service and fresh Italian and Mediterranean dishes.",
+      "ru": "Очаровательное кафе в Маалот-Таршихе, известное отличным сервисом и свежими блюдами."
+    }
+  },
+  {
+    "id": "679",
+    "name": {
+      "he": "קפה 24 (עראבה)",
+      "ar": "قهوة 24",
+      "en": "Cafe 24 Araba",
+      "ru": "Кафе 24 Арраба"
+    },
+    "coords": [
+      32.855,
+      35.334
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ומרכז חברתי פופולרי בעראבה הפתוח 24/7 ומציע מקום מפגש תוסס עם קפה ואוכל קל.",
+      "ar": "مقهى ومركز اجتماعي شعبي في عرابة يفتح أبوابه على مدار الساعة طوال أيام الأسبوع.",
+      "en": "A popular cafe and social hub in Arraba open 24/7, offering a vibrant meeting spot with coffee and light food.",
+      "ru": "Популярное кафе в Аррабе, работающее круглосуточно, отличное место для встреч за кофе."
+    }
+  },
+  {
+    "id": "680",
+    "name": {
+      "he": "גרין קפה (Green Cafe)",
+      "ar": "جرين كافيه",
+      "en": "Green Cafe Sakhnin",
+      "ru": "Грин Кафе Сахнин"
+    },
+    "coords": [
+      32.862,
+      35.301
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה מודרני בסח'נין המציע מגוון קינוחים, ארוחות בוקר ומשקאות חמים וקרים באווירה נעימה.",
+      "ar": "مقهى حديث في سخنين يقدم مجموعة متنوعة من الحلويات ووجبات الإفطار والمشروبات.",
+      "en": "A modern cafe in Sakhnin offering a variety of desserts, breakfasts, and hot and cold drinks.",
+      "ru": "Современное кафе в Сахнине с широким выбором десертов, завтраков и напитков."
+    }
+  },
+  {
+    "id": "681",
+    "name": {
+      "he": "מסעדת אולדן (Olden)",
+      "ar": "مطعم أولدن",
+      "en": "Olden Restaurant",
+      "ru": "Ресторан Олден"
+    },
+    "coords": [
+      32.805,
+      35.171
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה ים-תיכונית מוערכת בשפרעם המציעה מנות בשריות וסלטים באווירה מסורתית ומקצועית.",
+      "ar": "مطعم متوسطي مرموق في شفاعمرو يقدم أطباق اللحوم والسلطات في أجواء تقليدية.",
+      "en": "A highly regarded Mediterranean restaurant in Shafa-Amr offering meat dishes and salads.",
+      "ru": "Превосходный средиземноморский ресторан в Шфараме с мясными блюдами и салатами."
+    }
+  },
+  {
+    "id": "682",
+    "name": {
+      "he": "קופי הוד (Coffee HOOD)",
+      "ar": "كوفي هود",
+      "en": "Coffee HOOD Carmiel",
+      "ru": "Кофе Худ Кармиэль"
+    },
+    "coords": [
+      32.9122,
+      35.2954
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה שכונתי ואיכותי בכרמיאל המציע קפה מובחר, מאפים טריים ושירות מחויך.",
+      "ar": "مقهى حي عالي الجودة في كرميئيل يقدم قهوة فاخرة ومعجنات طازجة وخدمة مبتسمة.",
+      "en": "A high-quality neighborhood cafe in Carmiel offering specialty coffee, fresh pastries, and friendly service.",
+      "ru": "Качественная кофейня в Кармиэле с отличным кофе и свежей выпечкой."
+    }
+  },
+  {
+    "id": "683",
+    "name": {
+      "he": "מסעדת ויסט האוס (West House)",
+      "ar": "مطعم ويست هاوس",
+      "en": "West House Restaurant",
+      "ru": "Ресторан Вест Хаус"
+    },
+    "coords": [
+      32.8581,
+      35.1708
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מודרנית בכניסה לטמרה המציעה תפריט עשיר הכולל בשרים, פירות ים, פסטות וקינוחים באווירה יוקרתית.",
+      "ar": "مطعم عصري عند مدخل طمرة يقدم قائمة غنية تشمل اللحوم والمأكولات البحرية والباستا والحلويات.",
+      "en": "A modern restaurant at the entrance to Tamra offering a rich menu of meats, seafood, pasta, and desserts.",
+      "ru": "Современный ресторан на въезде в Тамру с богатым меню: мясо, морепродукты, паста и десерты."
+    }
+  },
+  {
+    "id": "684",
+    "name": {
+      "he": "מסעדת אלמאס (Elmass)",
+      "ar": "مطعم الماس",
+      "en": "Elmass Restaurant",
+      "ru": "Ресторан Эльмас"
+    },
+    "coords": [
+      32.8565,
+      35.1781
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מוערכת בטמרה המתמחה במטבח ערבי מסורתי, בשרים על האש וסלטים טריים.",
+      "ar": "مطعم مرموق في طمرة متخصص في المطبخ العربي التقليدي والمشاوي والسلطات الطازجة.",
+      "en": "A well-regarded restaurant in Tamra specializing in traditional Arabic cuisine, grilled meats, and fresh salads.",
+      "ru": "Известный ресторан в Тамре, специализирующийся на традиционной арабской кухне и гриле."
+    }
+  },
+  {
+    "id": "685",
+    "name": {
+      "he": "מסעדת גרנאדה (Granada)",
+      "ar": "مطعم غرناطة",
+      "en": "Granada Restaurant",
+      "ru": "Ресторан Гранада"
+    },
+    "coords": [
+      32.9486,
+      35.1638
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אחת המסעדות המפורסמות בכפר יאסיף, המציעה חוויה קולינרית ים-תיכונית עם דגש על אירוח לבבי ומנות נדיבות.",
+      "ar": "أحد أشهر مطاعم كفر ياسيف، يقدم تجربة طهي متوسطية مع التركيز على حسن الضيافة.",
+      "en": "One of the most famous restaurants in Kafr Yasif, offering a Mediterranean culinary experience with generous portions.",
+      "ru": "Один из самых известных ресторанов в Кафр-Ясифе, предлагающий средиземноморскую кухню."
+    }
+  },
+  {
+    "id": "686",
+    "name": {
+      "he": "אולמי אלדהוד (Halls Dahud)",
+      "ar": "قاعات داوود",
+      "en": "Dahud Halls & Restaurant",
+      "ru": "Ресторан Дауд"
+    },
+    "coords": [
+      32.9477,
+      35.1659
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה ואולם אירועים ותיק בכפר יאסיף הידוע במנות הבשר והסלטים המגוונים שלו.",
+      "ar": "مطعم وقاعة أفراح عريقة في كفر ياسيف تشتهر بأطباق اللحوم والسلطات المتنوعة.",
+      "en": "A long-standing restaurant and event hall in Kafr Yasif known for its meat dishes and variety of salads.",
+      "ru": "Старейший ресторан в Кафр-Ясифе, известный своими мясными блюдами и закусками."
+    }
+  },
+  {
+    "id": "687",
+    "name": {
+      "he": "בית קפה אבו אלעבוד",
+      "ar": "مقهى أبو العبود",
+      "en": "Abu Al-Aboud Cafe",
+      "ru": "Кафе Абу Аль-Абуд"
+    },
+    "coords": [
+      32.8651,
+      35.2857
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ומסעדה פופולרית בסח'נין המהווה מקום מפגש חברתי ומגישה אוכל מזרחי ואיטלקי.",
+      "ar": "مقهى ومطعم شعبي في سخنين يعتبر ملتقى اجتماعياً ويقدم مأكولات شرقية وإيطالية.",
+      "en": "A popular cafe and restaurant in Sakhnin serving as a social hub and offering Middle Eastern and Italian food.",
+      "ru": "Популярное кафе и ресторан в Сахнине, место встреч с восточной и итальянской кухней."
+    }
+  },
+  {
+    "id": "688",
+    "name": {
+      "he": "ונילה טמרה (Vanilla)",
+      "ar": "فانيلا طمرة",
+      "en": "Vanilla Tamra",
+      "ru": "Ванилла Тамра"
+    },
+    "coords": [
+      32.8567,
+      35.1766
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה מודרני בטמרה המציע מגוון רחב של קינוחים, גלידות, משקאות חמים וארוחות קלות.",
+      "ar": "مقهى عصري في طمرة يقدم مجموعة واسعة من الحلويات والآيس كريم والمشروبات والوجبات الخفيفة.",
+      "en": "A modern cafe in Tamra offering a wide range of desserts, ice cream, drinks, and light meals.",
+      "ru": "Современное кафе в Тамре с большим выбором десертов, мороженого и легких блюд."
+    }
   }
 ]
