@@ -14440,5 +14440,215 @@
       "en": "A unique Australian park allowing free feeding of kangaroos and viewing Australian animals.",
       "ru": "Уникальный австралийский парк: кормление кенгуру и экзотические животные."
     }
+  },
+  {
+    "id": "663",
+    "name": {
+      "he": "טיילת מצפור השלום - כפר ע'ג'ר",
+      "ar": "مطل قرية الغجر",
+      "en": "Ghajar Village Lookout",
+      "ru": "Смотровая площадка деревни Гаджар"
+    },
+    "coords": [
+      33.2721,
+      35.6115
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית ייחודית מהכפר ע'ג'ר הצופה אל נהר הווזאני והגבול בין ישראל ללבנון.",
+      "ar": "مطل فريد من قرية الغجر يطل على نهر الوزاني والحدود بين إسرائيل ولبنان.",
+      "en": "A unique lookout from Ghajar village overlooking the Wazzani River and the Israel-Lebanon border.",
+      "ru": "Уникальная площадка в деревне Гаджар с видом на реку Ваззани и границу."
+    }
+  },
+  {
+    "id": "664",
+    "name": {
+      "he": "מצפור בניה (תל פאחר)",
+      "ar": "مطل بنيا (تل الفخار)",
+      "en": "Bnyia Lookout (Tel Faher)",
+      "ru": "Смотровая площадка Бния"
+    },
+    "coords": [
+      33.2268,
+      35.7061
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית על עמק החולה וגבול הלבנון מאתר מורשת קרב היסטורי.",
+      "ar": "مطل على سهل الحولة والحدود اللبنانية من موقع معركة تاريخي.",
+      "en": "Lookout over the Hula Valley and Lebanese border from a historical heritage site.",
+      "ru": "Вид на долину Хула и ливанскую границу с места исторических боев."
+    }
+  },
+  {
+    "id": "665",
+    "name": {
+      "he": "מצפור מלכיה",
+      "ar": "مطل مالكية",
+      "en": "Malkiya Lookout",
+      "ru": "Смотровая площадка Малкия"
+    },
+    "coords": [
+      33.0991,
+      35.5121
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית מרהיבה על הרי הלבנון והכפרים בדרום לבנון ממש מקו הגבול.",
+      "ar": "إطلالة رائعة على جبال لبنان والقرى في جنوب لبنان من خط الحدود مباشرة.",
+      "en": "Spectacular view of the Lebanese mountains and southern Lebanese villages directly from the border.",
+      "ru": "Захватывающий вид на горы и деревни Южного Ливана прямо с границы."
+    }
+  },
+  {
+    "id": "666",
+    "name": {
+      "he": "מצפור אביבים",
+      "ar": "مطل أفيفيم",
+      "en": "Avivim Lookout",
+      "ru": "Смотровая площадка Авивим"
+    },
+    "coords": [
+      33.0845,
+      35.4802
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית סמוכה ליישוב אביבים הצופה אל עבר הכפר הלבנוני מארון א-ראס.",
+      "ar": "مطل بالقرب من مستوطنة أفيفيم يطل على قرية مارون الرأس اللبنانية.",
+      "en": "Lookout near Avivim overlooking the Lebanese village of Maroun al-Ras.",
+      "ru": "Площадка рядом с Авивим с видом на ливанскую деревню Марун-аль-Рас."
+    }
+  },
+  {
+    "id": "667",
+    "name": {
+      "he": "מצפה דדו (מטולה)",
+      "ar": "مطل دادو (مطلة)",
+      "en": "Dado Lookout (Metula)",
+      "ru": "Смотровая площадка Дадо"
+    },
+    "coords": [
+      33.2792,
+      35.5702
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפית פנורמית ממטולה על עמק עיון, הרי הלבנון והר החרמון.",
+      "ar": "مطل بانورامي من المطلة على مرج عيون وجبال لبنان وجبل الشيخ.",
+      "en": "Panoramic view from Metula over the Ayun Valley, Lebanese mountains, and Mt. Hermon.",
+      "ru": "Панорамный вид из Метулы на долину Аюн, ливанские горы и Хермон."
+    }
+  },
+  {
+    "id": "668",
+    "name": {
+      "he": "ראש הנקרה - תצפית המצוק",
+      "ar": "رأس الناقورة",
+      "en": "Rosh HaNikra Cliffs",
+      "ru": "Рош-ха-Никра"
+    },
+    "coords": [
+      33.0936,
+      35.1052
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "הנקודה המערבית ביותר בגבול הצפון, תצפית על הים וקו הגבול הימי עם לבנון.",
+      "ar": "أقصى نقطة غربية على الحدود الشمالية، مطل على البحر والحدود البحرية مع لبنان.",
+      "en": "The westernmost point on the northern border, overlooking the sea and the maritime border with Lebanon.",
+      "ru": "Самая западная точка северной границы, вид на море и морскую границу."
+    }
+  },
+  {
+    "id": "669",
+    "name": {
+      "he": "קיאקי כפר בלום",
+      "ar": "كاياك كفار بلوم",
+      "en": "Kfar Blum Kayaks",
+      "ru": "Каяки Кфар-Блюм"
+    },
+    "coords": [
+      33.1752,
+      35.6085
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שיט קיאקים ורפטינג במסלולים המשלבים את נהר החצבני והירדן.",
+      "ar": "تجديف بالكاياك والقوارب المطاطية في مسارات تجمع بين نهري الحاصباني والأردن.",
+      "en": "Kayaking and rafting in routes combining the Hatzbani and Jordan Rivers.",
+      "ru": "Каякинг и рафтинг по рекам Хацбани и Иордан."
+    }
+  },
+  {
+    "id": "670",
+    "name": {
+      "he": "קיאקי הגושרים",
+      "ar": "كاياك هغوشريم",
+      "en": "HaGoshrim Kayaks",
+      "ru": "Каяки Ха-Гошрим"
+    },
+    "coords": [
+      33.2205,
+      35.6201
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שיט קיאקים במימיו הצוננים של נהר החצבני בתוך טבע פראי.",
+      "ar": "تجديف بالكاياك في مياه نهر الحاصباني الباردة وسط الطبيعة الخلابة.",
+      "en": "Kayaking in the cool waters of the Hatzbani River amidst wild nature.",
+      "ru": "Сплав на каяках по прохладным водам реки Хацбани."
+    }
+  },
+  {
+    "id": "671",
+    "name": {
+      "he": "רפטינג נהר הירדן",
+      "ar": "تجديف نهر الأردن",
+      "en": "Jordan River Rafting",
+      "ru": "Рафтинг на реке Иордан"
+    },
+    "coords": [
+      33.0085,
+      35.6265
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שיט בירדן ההררי, סמוך לגשר בנות יעקב, כולל מסלולים אתגריים.",
+      "ar": "تجديف في نهر الأردن الجبلي، بالقرب من جسر بنات يعقوب، مع مسارات مليئة بالتحدي.",
+      "en": "Rafting in the mountainous Jordan River near Bnot Ya'akov Bridge, featuring adventurous routes.",
+      "ru": "Сплав по горному Иордану рядом с мостом Бнот-Яаков."
+    }
+  },
+  {
+    "id": "672",
+    "name": {
+      "he": "קיאקי מעיין הגושרים (חניון מעיין)",
+      "ar": "كاياك معيان هغوشريم",
+      "en": "Ma'ayan HaGoshrim Kayaks",
+      "ru": "Каяки Мааян Ха-Гошрим"
+    },
+    "coords": [
+      33.2145,
+      35.6152
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול שיט פסטורלי ורגוע בנחל שניר (חצבני).",
+      "ar": "مسار تجديف هادئ وجميل في نهر الحاصباني.",
+      "en": "A pastoral and calm kayaking route in the Snir (Hatzbani) Stream.",
+      "ru": "Спокойный пасторальный маршрут для каяков по ручью Снир."
+    }
   }
 ]
