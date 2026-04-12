@@ -20068,5 +20068,1685 @@
       "en": "A chain branch in the Grand Canyon mall in Beer Sheva.",
       "ru": "Филиал сети в торговом центре Гранд-Каньон в Беэр-Шеве."
     }
+  },
+  {
+    "id": "931",
+    "name": {
+      "he": "הספארי ברמת גן",
+      "ar": "سفاري رمات غان",
+      "en": "Ramat Gan Safari",
+      "ru": "Сафари в Рамат-Гане"
+    },
+    "coords": [
+      32.0456,
+      34.8234
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן חיות וספארי פתוח הגדול ביותר בישראל.",
+      "ar": "أكبر حديقة حيوانات وسفاري مفتوح في إسرائيل.",
+      "en": "The largest zoo and drive-through safari in Israel.",
+      "ru": "Крупнейший зоопарк и сафари в Израиле."
+    }
+  },
+  {
+    "id": "932",
+    "name": {
+      "he": "מדעטק חיפה",
+      "ar": "مدعتك حيفا",
+      "en": "Madatech Haifa",
+      "ru": "Мадатек Хайфа"
+    },
+    "coords": [
+      32.8099,
+      34.9961
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "המוזיאון הלאומי למדע, טכנולוגיה וחלל.",
+      "ar": "المتحف الوطني للعلوم والتكنولوجيا والفضاء.",
+      "en": "National Museum of Science, Technology and Space.",
+      "ru": "Национальный музей науки, технологий и космоса."
+    }
+  },
+  {
+    "id": "933",
+    "name": {
+      "he": "מצפה התת ימי באילת",
+      "ar": "المرصد البحري إيلات",
+      "en": "Underwater Observatory Park",
+      "ru": "Подводная обсерватория Эйлат"
+    },
+    "coords": [
+      29.5042,
+      34.9174
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "צפייה בחיים הימיים של מפרץ אילת דרך חלונות ענק תחת המים.",
+      "ar": "مشاهدة الحياة البحرية في خليج إيلات من خلال نوافذ ضخمة تحت الماء.",
+      "en": "Viewing Red Sea marine life through underwater windows.",
+      "ru": "Наблюдение за морской жизнью Красного моря через подводные окна."
+    }
+  },
+  {
+    "id": "934",
+    "name": {
+      "he": "מוזיאון ישראל",
+      "ar": "متحف إسرائيل",
+      "en": "Israel Museum",
+      "ru": "Музей Израиля"
+    },
+    "coords": [
+      31.7722,
+      35.2045
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "המוסד התרבותי הגדול בישראל, כולל את היכל הספר.",
+      "ar": "أكبر مؤسسة ثقافية في إسرائيل تضم هيكل الكتاب.",
+      "en": "Israel's largest cultural institution, including the Shrine of the Book.",
+      "ru": "Крупнейшее культурное учреждение Израиля."
+    }
+  },
+  {
+    "id": "935",
+    "name": {
+      "he": "פארק המים שפיים",
+      "ar": "منتزه شفايم المائي",
+      "en": "Shefayim Water Park",
+      "ru": "Аквапарк Шефаим"
+    },
+    "coords": [
+      32.2272,
+      34.8197
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק המים הגדול והוותיק בישראל עם מגוון מגלשות.",
+      "ar": "أكبر وأقدم منتزه مائي في إسرائيل.",
+      "en": "Israel's largest water park with various slides.",
+      "ru": "Крупнейший аквапарк Израиля."
+    }
+  },
+  {
+    "id": "936",
+    "name": {
+      "he": "ראש הנקרה",
+      "ar": "رأس الناقورة",
+      "en": "Rosh HaNikra",
+      "ru": "Рош-ха-Никра"
+    },
+    "coords": [
+      33.0936,
+      35.1044
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נקרות ימיות מרהיבות ורכבל בנקודה הצפונית ביותר בחוף.",
+      "ar": "كهوف بحرية رائعة وتلفريك عند أقصى نقطة شمالية على الساحل.",
+      "en": "Stunning sea grottoes and cable car at the northern coast.",
+      "ru": "Морские гроты и канатная дорога на севере побережья."
+    }
+  },
+  {
+    "id": "937",
+    "name": {
+      "he": "גן החיות התנכ\"י",
+      "ar": "حديقة الحيوان الكتابية",
+      "en": "Biblical Zoo",
+      "ru": "Библейский зоопарк"
+    },
+    "coords": [
+      31.7455,
+      35.1761
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן חיות בירושלים המציג חיות המוזכרות בתנ\"ך.",
+      "ar": "حديقة حيوانات في القدس تعرض الحيوانات المذكورة في الكتاب المقدس.",
+      "en": "Jerusalem zoo featuring animals mentioned in the Bible.",
+      "ru": "Иерусалимский зоопарк с библейскими животными."
+    }
+  },
+  {
+    "id": "938",
+    "name": {
+      "he": "לונה פארק תל אביב",
+      "ar": "لونا بارك تل أبيب",
+      "en": "Luna Park Tel Aviv",
+      "ru": "Луна-парк Тель-Авив"
+    },
+    "coords": [
+      32.1085,
+      34.8146
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק השעשועים הגדול במרכז הארץ.",
+      "ar": "أكبر ملاهي في وسط البلاد.",
+      "en": "The largest amusement park in central Israel.",
+      "ru": "Крупнейший парк аттракционов в центре страны."
+    }
+  },
+  {
+    "id": "939",
+    "name": {
+      "he": "מיני ישראל",
+      "ar": "ميني إسرائيل",
+      "en": "Mini Israel",
+      "ru": "Мини-Израиль"
+    },
+    "coords": [
+      31.8419,
+      34.9658
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק מיניאטורות המציג דגמים של אתרים חשובים בישראל.",
+      "ar": "منتزه المجسمات المصغرة للمواقع المهمة في إسرائيل.",
+      "en": "Miniature park featuring models of important Israeli sites.",
+      "ru": "Парк миниатюр с моделями израильских достопримечательностей."
+    }
+  },
+  {
+    "id": "940",
+    "name": {
+      "he": "אקווריום ישראל",
+      "ar": "أكواريوم إسرائيل",
+      "en": "Israel Aquarium",
+      "ru": "Аквариум Израиля"
+    },
+    "coords": [
+      31.7441,
+      35.1725
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "האקווריום הראשון בישראל המוקדש לסביבה הימית בישראל.",
+      "ar": "أول أكواريوم في إسرائيل مخصص للبيئة البحرية المحلية.",
+      "en": "Israel's first aquarium dedicated to the local marine environment.",
+      "ru": "Первый аквариум Израиля, посвящённый местной морской среде."
+    }
+  },
+  {
+    "id": "941",
+    "name": {
+      "he": "צוק מנרה",
+      "ar": "منارة كليف",
+      "en": "Manara Cliff",
+      "ru": "Цук Манара"
+    },
+    "coords": [
+      33.2017,
+      35.5802
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "רכבל ארוך, מגלשות הרים ופעילויות אקסטרים בצפון.",
+      "ar": "تلفريك طويل ومنحدرات جبلية وأنشطة متطرفة في الشمال.",
+      "en": "Long cable car, mountain slides and extreme activities.",
+      "ru": "Длинная канатная дорога, горные горки и экстрим."
+    }
+  },
+  {
+    "id": "942",
+    "name": {
+      "he": "יד ושם",
+      "ar": "ياد فاشيم",
+      "en": "Yad Vashem",
+      "ru": "Яд Вашем"
+    },
+    "coords": [
+      31.7741,
+      35.1755
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "המרכז הבינלאומי להנצחת השואה.",
+      "ar": "مركز إحياء ذكرى الهولوكوست العالمي.",
+      "en": "The World Holocaust Remembrance Center.",
+      "ru": "Мировой центр памяти Холокоста."
+    }
+  },
+  {
+    "id": "943",
+    "name": {
+      "he": "פארק הירקון",
+      "ar": "منتزه اليركون",
+      "en": "Yarkon Park",
+      "ru": "Парк Яркон"
+    },
+    "coords": [
+      32.1006,
+      34.8044
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "הריאה הירוקה של תל אביב, כולל שיט בסירות וגנים בוטניים.",
+      "ar": "الرئة الخضراء لتل أبيب مع قوارب وحدائق نباتية.",
+      "en": "Tel Aviv's largest park with boat rentals and botanical gardens.",
+      "ru": "Лёгкие Тель-Авива с лодками и ботаническим садом."
+    }
+  },
+  {
+    "id": "944",
+    "name": {
+      "he": "פארק תמנע",
+      "ar": "حديقة تمنة",
+      "en": "Timna Park",
+      "ru": "Парк Тимна"
+    },
+    "coords": [
+      29.7877,
+      34.9288
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אתר היסטורי וגיאולוגי בערבה הכולל את עמודי שלמה.",
+      "ar": "موقع تاريخي وجيولوجي في العربة يضم أعمدة سليمان.",
+      "en": "Historical and geological site featuring Solomon's Pillars.",
+      "ru": "Исторический и геологический парк со столбами Соломона."
+    }
+  },
+  {
+    "id": "945",
+    "name": {
+      "he": "מוזיאון הילדים חולון",
+      "ar": "متحف الأطفال حولون",
+      "en": "Holon Children's Museum",
+      "ru": "Детский музей Холона"
+    },
+    "coords": [
+      32.0125,
+      34.7933
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוויה אינטראקטיבית לילדים הכוללת את תערוכת 'דיאלוג בחשיכה'.",
+      "ar": "تجربة تفاعلية للأطفال تتضمن معرض 'حوار في الظلام'.",
+      "en": "Interactive children's museum featuring 'Dialogue in the Dark'.",
+      "ru": "Интерактивный детский музей с 'Диалогом в темноте'."
+    }
+  },
+  {
+    "id": "946",
+    "name": {
+      "he": "עין גדי",
+      "ar": "عين جدي",
+      "en": "Ein Gedi",
+      "ru": "Эйн-Геди"
+    },
+    "coords": [
+      31.4656,
+      35.3917
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נווה מדבר עם מסלולי טיול, מפלים ויעלים.",
+      "ar": "واحة صحراوية بمسارات للمشي وشلالات ووعول.",
+      "en": "Oasis with hiking trails, waterfalls, and wild ibex.",
+      "ru": "Оазис с тропами, водопадами и горными козлами."
+    }
+  },
+  {
+    "id": "947",
+    "name": {
+      "he": "הגן הבוטני ירושלים",
+      "ar": "الحديقة النباتية القدس",
+      "en": "Jerusalem Botanical Gardens",
+      "ru": "Ботанический сад Иерусалима"
+    },
+    "coords": [
+      31.7678,
+      35.2011
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אוסף צמחים מכל העולם בלב ירושלים.",
+      "ar": "مجموعة نباتات من جميع أنحاء العالم في قلب القدس.",
+      "en": "Plant collection from across the globe in Jerusalem.",
+      "ru": "Коллекция растений со всего мира в Иерусалиме."
+    }
+  },
+  {
+    "id": "948",
+    "name": {
+      "he": "גן השלושה (סחנה)",
+      "ar": "حديقة السخنة",
+      "en": "Gan HaShlosha",
+      "ru": "Ган-ха-Шлоша"
+    },
+    "coords": [
+      32.5056,
+      35.4452
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בריכות מים טבעיות חמות כל השנה בעמק המעיינות.",
+      "ar": "برك مائية دافئة طبيعية مفتوحة على مدار السنة في وادي الينابيع.",
+      "en": "Natural warm water pools open year-round.",
+      "ru": "Природные тёплые бассейны открыты круглый год."
+    }
+  },
+  {
+    "id": "949",
+    "name": {
+      "he": "חמת גדר",
+      "ar": "حمة جادر",
+      "en": "Hamat Gader",
+      "ru": "Хамат-Гадер"
+    },
+    "coords": [
+      32.6836,
+      35.6653
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מעיינות חמים תרמו-מינרליים וחוות תנינים.",
+      "ar": "ينابيع حرارية معدنية ومزرعة تماسيح.",
+      "en": "Thermo-mineral hot springs and a crocodile farm.",
+      "ru": "Термоминеральные горячие источники и крокодиловая ферма."
+    }
+  },
+  {
+    "id": "950",
+    "name": {
+      "he": "מוזיאון תל אביב לאמנות",
+      "ar": "متحف تل أبيب للفنون",
+      "en": "Tel Aviv Museum of Art",
+      "ru": "Тель-Авивский музей искусств"
+    },
+    "coords": [
+      32.0775,
+      34.7861
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מוזיאון מוביל לאמנות מודרנית ועכשווית.",
+      "ar": "متحف رائد للفن الحديث والمعاصر.",
+      "en": "Leading museum for modern and contemporary art.",
+      "ru": "Ведущий музей современного искусства."
+    }
+  },
+  {
+    "id": "951",
+    "name": {
+      "he": "פארק רעננה",
+      "ar": "منتزه رعنانا",
+      "en": "Ra'anana Park",
+      "ru": "Парк Раананы"
+    },
+    "coords": [
+      32.1895,
+      34.8566
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק עירוני הכולל אגם, פינת חי ומגרשי משחקים.",
+      "ar": "منتزه حضري يضم بحيرة وحديقة حيوانات ومناطق لعب.",
+      "en": "Urban park with a lake, petting zoo and playgrounds.",
+      "ru": "Городской парк с озером, мини-зоопарком и площадками."
+    }
+  },
+  {
+    "id": "952",
+    "name": {
+      "he": "צפת - העיר העתיקה",
+      "ar": "صفد القديمة",
+      "en": "Safed Old City",
+      "ru": "Старый город Цфат"
+    },
+    "coords": [
+      32.9696,
+      35.4901
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "רובע האמנים ובתי כנסת עתיקים בעיר הקבלה.",
+      "ar": "حي الفنانين والكُنس القديمة في مدينة القبالة.",
+      "en": "Artist colony and ancient synagogues in the city of Kabbalah.",
+      "ru": "Квартал художников и синагоги в городе Кабалы."
+    }
+  },
+  {
+    "id": "953",
+    "name": {
+      "he": "המצפה בכפר תבור",
+      "ar": "متحف المرزبان",
+      "en": "Kfar Tavor Marzipan Museum",
+      "ru": "Музей марципана"
+    },
+    "coords": [
+      32.6865,
+      35.4211
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מוזיאון המרציפן הכולל סדנאות יצירה לילדים.",
+      "ar": "متحف المرزبان مع ورش عمل للأطفال.",
+      "en": "Marzipan museum with workshops for kids.",
+      "ru": "Музей марципана с мастер-классами для детей."
+    }
+  },
+  {
+    "id": "954",
+    "name": {
+      "he": "אתר החרמון",
+      "ar": "جبل الشيخ",
+      "en": "Mount Hermon",
+      "ru": "Гора Хермон"
+    },
+    "coords": [
+      33.2989,
+      35.7702
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אתר הסקי היחיד בישראל, פעיל גם בקיץ.",
+      "ar": "منتجع التزلج الوحيد في إسرائيل، نشط أيضاً في الصيف.",
+      "en": "Israel's only ski resort, active also in summer.",
+      "ru": "Единственный горнолыжный курорт Израиля."
+    }
+  },
+  {
+    "id": "955",
+    "name": {
+      "he": "גן הנדיב (זכרון יעקב)",
+      "ar": "رمات هنديف",
+      "en": "Ramat Hanadiv",
+      "ru": "Рамат-ха-Надив"
+    },
+    "coords": [
+      32.5485,
+      34.9455
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גנים מרהיבים לזכרו של הברון רוטשילד.",
+      "ar": "حدائق رائعة تكريماً للبارون روتشيلد.",
+      "en": "Beautiful memorial gardens for Baron Rothschild.",
+      "ru": "Великолепные мемориальные сады барона Ротшильда."
+    }
+  },
+  {
+    "id": "956",
+    "name": {
+      "he": "פארק המים ימית 2000",
+      "ar": "ياميت 2000",
+      "en": "Yamit 2000",
+      "ru": "Ямит 2000"
+    },
+    "coords": [
+      31.9881,
+      34.7922
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק מים וספא בחולון.",
+      "ar": "منتزه مائي وسبا في حولون.",
+      "en": "Water park and spa in Holon.",
+      "ru": "Аквапарк и спа в Холоне."
+    }
+  },
+  {
+    "id": "957",
+    "name": {
+      "he": "מוזיאון מגדל דוד",
+      "ar": "متحف قلعة داود",
+      "en": "Tower of David Museum",
+      "ru": "Музей Башня Давида"
+    },
+    "coords": [
+      31.7762,
+      35.2281
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מוזיאון לתולדות ירושלים במצודה עתיקה.",
+      "ar": "متحف تاريخ القدس في قلعة قديمة.",
+      "en": "Jerusalem history museum in an ancient citadel.",
+      "ru": "Музей истории Иерусалима в древней цитадели."
+    }
+  },
+  {
+    "id": "958",
+    "name": {
+      "he": "קיאקי הגושרים",
+      "ar": "كاياك هغوشريم",
+      "en": "Hagoshrim Kayaks",
+      "ru": "Каяки Ха-Гошрим"
+    },
+    "coords": [
+      33.2201,
+      35.6185
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שיט קיאקים ורפטינג בנהר החצבני.",
+      "ar": "كاياك وتجديف في نهر الحاصباني.",
+      "en": "Kayaking and rafting in the Hasbani River.",
+      "ru": "Каякинг и рафтинг на реке Хасбани."
+    }
+  },
+  {
+    "id": "959",
+    "name": {
+      "he": "מנהרות הכותל",
+      "ar": "أنفاق حائط المبكى",
+      "en": "Western Wall Tunnels",
+      "ru": "Туннели Западной стены"
+    },
+    "coords": [
+      31.7772,
+      35.2339
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סיור תת-קרקעי לאורך הכותל המערבי.",
+      "ar": "جولة تحت الأرض على طول حائط المبكى.",
+      "en": "Underground tour along the Western Wall.",
+      "ru": "Подземный тур вдоль Западной стены."
+    }
+  },
+  {
+    "id": "960",
+    "name": {
+      "he": "פארק הרצליה",
+      "ar": "منتزه هرتسليا",
+      "en": "Herzliya Park",
+      "ru": "Парк Герцлии"
+    },
+    "coords": [
+      32.1725,
+      34.8311
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק רחב ידיים עם מתקני הרפתקאות ואגם.",
+      "ar": "منتزه واسع مع مرافق مغامرات وبحيرة.",
+      "en": "Spacious park with adventure facilities and a lake.",
+      "ru": "Просторный парк с аттракционами и озером."
+    }
+  },
+  {
+    "id": "961",
+    "name": {
+      "he": "מערת הנטיפים",
+      "ar": "كهف الشموع",
+      "en": "Stalactite Cave",
+      "ru": "Сталактитовая пещера"
+    },
+    "coords": [
+      31.7539,
+      35.0169
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מערת אבשלום המרהיבה ליד בית שמש.",
+      "ar": "كهف أبشالوم الرائع بالقرب من بيت شيمش.",
+      "en": "The spectacular Avshalom Cave near Beit Shemesh.",
+      "ru": "Пещера Авшалом рядом с Бейт-Шемешем."
+    }
+  },
+  {
+    "id": "962",
+    "name": {
+      "he": "אגמון החולה",
+      "ar": "بحيرة الحولة",
+      "en": "Agamon HaHula",
+      "ru": "Агамон Ха-Хула"
+    },
+    "coords": [
+      33.1111,
+      35.6111
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אתר צפרות וטבע מהחשובים בעולם.",
+      "ar": "موقع مراقبة طيور وطبيعة من أهم المواقع في العالم.",
+      "en": "World-class birdwatching and nature site.",
+      "ru": "Один из лучших в мире природных заповедников для наблюдения за птицами."
+    }
+  },
+  {
+    "id": "963",
+    "name": {
+      "he": "מוזיאון העיצוב חולון",
+      "ar": "متحف التصميم حولون",
+      "en": "Design Museum Holon",
+      "ru": "Музей дизайна в Холоне"
+    },
+    "coords": [
+      32.0122,
+      34.7875
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מוזיאון המוקדש כולו לעיצוב, תוכנן ע\"י רון ארד.",
+      "ar": "متحف مخصص للتصميم، صممه رون أراد.",
+      "en": "Museum dedicated to design, designed by Ron Arad.",
+      "ru": "Музей дизайна, спроектированный Роном Арадом."
+    }
+  },
+  {
+    "id": "964",
+    "name": {
+      "he": "פארק האקסטרים עכו",
+      "ar": "منتزه الإكستريم عكا",
+      "en": "Extreme Park Acre",
+      "ru": "Экстрим-парк Акко"
+    },
+    "coords": [
+      32.9272,
+      35.0888
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "קירות טיפוס, אומגה ומתקני גובה.",
+      "ar": "جدران تسلق وأوميغا ومنشآت ارتفاع.",
+      "en": "Climbing walls, zipline, and high-rope facilities.",
+      "ru": "Скалодром, зиплайн и верёвочный парк."
+    }
+  },
+  {
+    "id": "965",
+    "name": {
+      "he": "מוזיאון ארץ ישראל",
+      "ar": "متحف أرض إسرائيل",
+      "en": "Eretz Israel Museum",
+      "ru": "Музей Эрец-Исраэль"
+    },
+    "coords": [
+      32.1028,
+      34.7936
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מוזיאון רב-תחומי ברמת אביב המשלב ארכיאולוגיה ותרבות.",
+      "ar": "متحف متعدد التخصصات في رمات أبيب يجمع الآثار والثقافة.",
+      "en": "Multidisciplinary museum in Tel Aviv combining archaeology and culture.",
+      "ru": "Многопрофильный музей в Рамат-Авиве."
+    }
+  },
+  {
+    "id": "966",
+    "name": {
+      "he": "חוף דור - נחשולים",
+      "ar": "شاطئ دور",
+      "en": "Dor Beach",
+      "ru": "Пляж Дор"
+    },
+    "coords": [
+      32.6106,
+      34.9192
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף מרהיב עם לגונות טבעיות ואיים.",
+      "ar": "شاطئ رائع مع بحيرات طبيعية وجزر.",
+      "en": "Beautiful beach with natural lagoons and islands.",
+      "ru": "Красивый пляж с естественными лагунами и островами."
+    }
+  },
+  {
+    "id": "967",
+    "name": {
+      "he": "דיאלוג בחשיכה",
+      "ar": "حوار في الظلام",
+      "en": "Dialogue in the Dark",
+      "ru": "Диалог в темноте"
+    },
+    "coords": [
+      32.0125,
+      34.7933
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סיור מודרך ע\"י עיוורים המדמה חיים ללא מאור עיניים.",
+      "ar": "جولة بقيادة المكفوفين تحاكي الحياة بدون بصر.",
+      "en": "Guided tour by blind people simulating life without sight.",
+      "ru": "Экскурсия слепых, имитирующая жизнь без зрения."
+    }
+  },
+  {
+    "id": "968",
+    "name": {
+      "he": "עיר המלכים (זכרון)",
+      "ar": "مدينة الملوك",
+      "en": "Kings City",
+      "ru": "Город королей"
+    },
+    "coords": [
+      29.5539,
+      34.9655
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק שעשועים היסטורי בהשראת התנ\"ך.",
+      "ar": "منتزه ترفيهي تاريخي مستوحى من الكتاب المقدس.",
+      "en": "Biblical themed amusement park.",
+      "ru": "Исторический парк аттракционов в библейском стиле."
+    }
+  },
+  {
+    "id": "969",
+    "name": {
+      "he": "עין הוד",
+      "ar": "عين حوض",
+      "en": "Ein Hod Artist Village",
+      "ru": "Деревня художников Эйн-Ход"
+    },
+    "coords": [
+      32.7011,
+      34.9814
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר אמנים ייחודי על הכרמל עם גלריות וסדנאות.",
+      "ar": "قرية فنانين فريدة على الكرمل مع معارض وورش عمل.",
+      "en": "Unique artist village on Mount Carmel with galleries and workshops.",
+      "ru": "Уникальная деревня художников на Кармеле."
+    }
+  },
+  {
+    "id": "970",
+    "name": {
+      "he": "חוות האנטילופות",
+      "ar": "مزرعة الظباء",
+      "en": "Antelope Farm",
+      "ru": "Ферма антилоп"
+    },
+    "coords": [
+      30.6855,
+      35.2211
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סיור ספארי עצמאי וצפייה בחיות בר בערבה.",
+      "ar": "جولة سفاري مستقلة ومشاهدة الحيوانات البرية في العربة.",
+      "en": "Self-drive safari and wildlife viewing in the Arava.",
+      "ru": "Самостоятельное сафари и наблюдение за дикими животными."
+    }
+  },
+  {
+    "id": "971",
+    "name": {
+      "he": "מרכז המבקרים במכתש רמון",
+      "ar": "مركز زوار متسبي رمون",
+      "en": "Ramon Crater Visitors Center",
+      "ru": "Центр посетителей Махтеш Рамон"
+    },
+    "coords": [
+      30.6083,
+      34.8039
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "למידה על המכתש וסיפורו של אילן רמון.",
+      "ar": "التعرف على المكتيش وقصة إيلان رامون.",
+      "en": "Learning about the crater and Ilan Ramon's story.",
+      "ru": "Знакомство с кратером и историей Илана Рамона."
+    }
+  },
+  {
+    "id": "972",
+    "name": {
+      "he": "הגן הבוטני באילת",
+      "ar": "الحديقة النباتية إيلات",
+      "en": "Eilat Botanical Garden",
+      "ru": "Ботанический сад Эйлата"
+    },
+    "coords": [
+      29.5772,
+      34.9644
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן קסום בלב המדבר עם צמחייה טרופית.",
+      "ar": "حديقة ساحرة في قلب الصحراء مع نباتات استوائية.",
+      "en": "Magical desert garden with tropical plants.",
+      "ru": "Волшебный пустынный сад с тропическими растениями."
+    }
+  },
+  {
+    "id": "973",
+    "name": {
+      "he": "פארק אריאל שרון",
+      "ar": "منتزه أرييل شارون",
+      "en": "Ariel Sharon Park",
+      "ru": "Парк Ариэля Шарона"
+    },
+    "coords": [
+      32.0258,
+      34.8258
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שיקום סביבתי של 'חירייה' והפיכתה לפארק.",
+      "ar": "إعادة تأهيل بيئية لـ'حيريا' وتحويلها إلى منتزه.",
+      "en": "Environmental rehabilitation of 'Hiriya' turned into a park.",
+      "ru": "Экологическая реабилитация 'Хирии', превращённой в парк."
+    }
+  },
+  {
+    "id": "974",
+    "name": {
+      "he": "מוזיאון הימי הלאומי",
+      "ar": "المتحف البحري الوطني",
+      "en": "National Maritime Museum",
+      "ru": "Национальный морской музей"
+    },
+    "coords": [
+      32.8294,
+      34.9708
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "היסטוריה של הספנות והארכיאולוגיה הימית.",
+      "ar": "تاريخ الملاحة والآثار البحرية.",
+      "en": "History of shipping and maritime archaeology.",
+      "ru": "История мореплавания и морская археология."
+    }
+  },
+  {
+    "id": "975",
+    "name": {
+      "he": "המצפה האסטרונומי בגבעתיים",
+      "ar": "مرصد جفعتايم",
+      "en": "Givatayim Observatory",
+      "ru": "Обсерватория Гиватаима"
+    },
+    "coords": [
+      32.0678,
+      34.8152
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפיות כוכבים והרצאות אסטרונומיה.",
+      "ar": "رصد النجوم ومحاضرات علم الفلك.",
+      "en": "Star gazing and astronomy lectures.",
+      "ru": "Наблюдение за звёздами и лекции по астрономии."
+    }
+  },
+  {
+    "id": "976",
+    "name": {
+      "he": "חוות התוכים",
+      "ar": "مزرعة الببغاوات",
+      "en": "Parrot Farm",
+      "ru": "Попугайная ферма"
+    },
+    "coords": [
+      31.8152,
+      34.7885
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פינת חי אינטראקטיבית עם עשרות סוגי תוכים.",
+      "ar": "حديقة حيوانات تفاعلية مع عشرات أنواع الببغاوات.",
+      "en": "Interactive petting zoo with dozens of parrot species.",
+      "ru": "Интерактивный контактный зоопарк с десятками видов попугаев."
+    }
+  },
+  {
+    "id": "977",
+    "name": {
+      "he": "נחל דן",
+      "ar": "تل القاضي",
+      "en": "Tel Dan Nature Reserve",
+      "ru": "Тель-Дан"
+    },
+    "coords": [
+      33.2486,
+      35.6522
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שמורה מרהיבה עם מים זורמים ושרידים ארכיאולוגיים.",
+      "ar": "محمية طبيعية رائعة بمياه جارية وآثار أثرية.",
+      "en": "Stunning nature reserve with flowing water and ancient ruins.",
+      "ru": "Потрясающий заповедник с текущей водой и древними руинами."
+    }
+  },
+  {
+    "id": "978",
+    "name": {
+      "he": "חי פארק קרית מוצקין",
+      "ar": "حي بارك",
+      "en": "Hai Park Kiryat Motzkin",
+      "ru": "Хай-парк Кирьят-Моцкин"
+    },
+    "coords": [
+      32.8422,
+      35.0811
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן חיות ופארק רחב ידיים בצפון.",
+      "ar": "حديقة حيوانات ومنتزه واسع في الشمال.",
+      "en": "Zoo and spacious park in northern Israel.",
+      "ru": "Зоопарк и просторный парк на севере Израиля."
+    }
+  },
+  {
+    "id": "979",
+    "name": {
+      "he": "מוזיאון הרצליה לאמנות",
+      "ar": "متحف هرتسليا للفن",
+      "en": "Herzliya Museum of Contemporary Art",
+      "ru": "Герцлийский музей современного искусства"
+    },
+    "coords": [
+      32.1644,
+      34.8422
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אמנות עכשווית ישראלית ובינלאומית.",
+      "ar": "فن معاصر إسرائيلي ودولي.",
+      "en": "Israeli and international contemporary art.",
+      "ru": "Израильское и международное современное искусство."
+    }
+  },
+  {
+    "id": "980",
+    "name": {
+      "he": "פארק לכיש אשדוד",
+      "ar": "منتزه لكيش",
+      "en": "Lachish Park Ashdod",
+      "ru": "Парк Лахиш Ашдод"
+    },
+    "coords": [
+      31.8155,
+      34.6488
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת לאורך הנחל ופינת חי.",
+      "ar": "ممشى على طول النهر وحديقة حيوانات.",
+      "en": "Promenade along the river and a petting zoo.",
+      "ru": "Набережная вдоль реки и контактный зоопарк."
+    }
+  },
+  {
+    "id": "981",
+    "name": {
+      "he": "שמורת טבע נחל עיון",
+      "ar": "وادي عيون",
+      "en": "Nahal Iyon Nature Reserve",
+      "ru": "Нахаль-Аюн"
+    },
+    "coords": [
+      33.2678,
+      35.5811
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול הליכה עם ארבעה מפלים מרשימים.",
+      "ar": "مسار مشي مع أربعة شلالات مثيرة للإعجاب.",
+      "en": "Hiking trail featuring four impressive waterfalls.",
+      "ru": "Пешеходный маршрут с четырьмя впечатляющими водопадами."
+    }
+  },
+  {
+    "id": "982",
+    "name": {
+      "he": "ריף הדולפינים",
+      "ar": "شاطئ الدولفين",
+      "en": "Dolphin Reef",
+      "ru": "Дельфиний риф"
+    },
+    "coords": [
+      29.5255,
+      34.9355
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "צפייה ושחייה עם דולפינים בסביבה טבעית.",
+      "ar": "مراقبة والسباحة مع الدلافين في بيئتها الطبيعية.",
+      "en": "Observing and swimming with dolphins in their natural habitat.",
+      "ru": "Наблюдение и плавание с дельфинами в естественной среде."
+    }
+  },
+  {
+    "id": "983",
+    "name": {
+      "he": "מוזיאון המדע בירושלים",
+      "ar": "متحف بلومفيلد للعلوم",
+      "en": "Bloomfield Science Museum",
+      "ru": "Научный музей Блумфилда"
+    },
+    "coords": [
+      31.7778,
+      35.1988
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מוזיאון מדע אינטראקטיבי מוביל.",
+      "ar": "متحف علوم تفاعلي رائد.",
+      "en": "Leading interactive science museum.",
+      "ru": "Ведущий интерактивный научный музей."
+    }
+  },
+  {
+    "id": "984",
+    "name": {
+      "he": "פארק נאות קדומים",
+      "ar": "نئوت كدوميم",
+      "en": "Neot Kedumim",
+      "ru": "Неот Кедумим"
+    },
+    "coords": [
+      31.9455,
+      34.9722
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "השמורה הלאומית של טבע הארץ בתנ\"ך.",
+      "ar": "المحمية الوطنية لطبيعة البلاد في الكتاب المقدس.",
+      "en": "The Biblical Landscape Reserve in Israel.",
+      "ru": "Национальный заповедник библейского пейзажа."
+    }
+  },
+  {
+    "id": "985",
+    "name": {
+      "he": "מוזיאון חיל האוויר",
+      "ar": "متحف سلاح الجو",
+      "en": "Israeli Air Force Museum",
+      "ru": "Музей ВВС Израиля"
+    },
+    "coords": [
+      31.2355,
+      34.6922
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצוגת מטוסים היסטוריים בחצרים.",
+      "ar": "عرض طائرات تاريخية في قاعدة حتسريم.",
+      "en": "Display of historical aircraft at Hatzerim base.",
+      "ru": "Экспозиция исторических самолётов на базе Хацерим."
+    }
+  },
+  {
+    "id": "986",
+    "name": {
+      "he": "פארק הסלעים בכיסרא",
+      "ar": "منتزه الصخور كسرى",
+      "en": "Kisra Rocks Park",
+      "ru": "Парк скал Кисра"
+    },
+    "coords": [
+      32.9722,
+      35.3311
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצורות סלע טבעיות מרהיבות בגליל.",
+      "ar": "تشكيلات صخرية طبيعية رائعة في الجليل.",
+      "en": "Stunning natural rock formations in Galilee.",
+      "ru": "Потрясающие природные скальные образования в Галилее."
+    }
+  },
+  {
+    "id": "987",
+    "name": {
+      "he": "עיר דוד",
+      "ar": "مدينة داود",
+      "en": "City of David",
+      "ru": "Город Давида"
+    },
+    "coords": [
+      31.7733,
+      35.2355
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "האתר הארכיאולוגי של ירושלים הקדומה.",
+      "ar": "الموقع الأثري لمدينة القدس القديمة.",
+      "en": "Archaeological site of ancient Jerusalem.",
+      "ru": "Археологический памятник древнего Иерусалима."
+    }
+  },
+  {
+    "id": "988",
+    "name": {
+      "he": "פארק השעשועים 'סופרלנד'",
+      "ar": "سوبرلاند",
+      "en": "Superland",
+      "ru": "Суперленд"
+    },
+    "coords": [
+      31.9855,
+      34.7422
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק שעשועים גדול בראשון לציון.",
+      "ar": "منتزه ترفيهي كبير في ريشون لتسيون.",
+      "en": "Large amusement park in Rishon LeZion.",
+      "ru": "Большой парк аттракционов в Ришон-ле-Ционе."
+    }
+  },
+  {
+    "id": "989",
+    "name": {
+      "he": "אוטופיה - פארק הסחלבים",
+      "ar": "منتزه يوتوبيا",
+      "en": "Utopia Orchid Park",
+      "ru": "Парк орхидей Утопия"
+    },
+    "coords": [
+      32.3355,
+      34.9922
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן בוטני טרופי עם אלפי סחלבים.",
+      "ar": "حديقة نباتية استوائية مع آلاف السحالب.",
+      "en": "Tropical botanical garden with thousands of orchids.",
+      "ru": "Тропический ботанический сад с тысячами орхидей."
+    }
+  },
+  {
+    "id": "990",
+    "name": {
+      "he": "המצפה האסטרונומי בערבה",
+      "ar": "مرصد العربة",
+      "en": "Arava Observatory",
+      "ru": "Обсерватория Аравы"
+    },
+    "coords": [
+      30.9311,
+      35.1522
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תצפיות שמיים עמוקות באזור ללא זיהום אור.",
+      "ar": "مراقبة السماء العميقة في منطقة منخفضة التلوث الضوئي.",
+      "en": "Deep sky viewing in a low light pollution area.",
+      "ru": "Наблюдение за глубоким небом в зоне с низким световым загрязнением."
+    }
+  },
+  {
+    "id": "991",
+    "name": {
+      "he": "מוזיאון האשליות",
+      "ar": "متحف الأوهام",
+      "en": "Museum of Illusions",
+      "ru": "Музей иллюзий"
+    },
+    "coords": [
+      32.1022,
+      34.7811
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תערוכות אינטראקטיביות המתגרות בחושים.",
+      "ar": "معارض تفاعلية تتحدى الحواس.",
+      "en": "Interactive exhibits challenging the senses.",
+      "ru": "Интерактивные экспозиции, бросающие вызов чувствам."
+    }
+  },
+  {
+    "id": "992",
+    "name": {
+      "he": "פארק הקרח אילת",
+      "ar": "آيس مول إيلات",
+      "en": "Ice Mall Eilat",
+      "ru": "Айс Молл Эйлат"
+    },
+    "coords": [
+      29.5544,
+      34.9622
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מרכז קניות הכולל משטח החלקה על הקרח ענק.",
+      "ar": "مركز تسوق يضم مضمار تزلج على الجليد ضخم.",
+      "en": "Shopping mall featuring a massive ice skating rink.",
+      "ru": "Торговый центр с огромным катком."
+    }
+  },
+  {
+    "id": "993",
+    "name": {
+      "he": "שמורת טבע תל אפק",
+      "ar": "تل فيق",
+      "en": "Tel Afek Nature Reserve",
+      "ru": "Тель-Афек"
+    },
+    "coords": [
+      32.1044,
+      34.9311
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מבצר אנטיפטריס ובריכות שכשוך.",
+      "ar": "قلعة أنتيباتريس وبرك الخوض.",
+      "en": "Antipatris Fort and wading pools.",
+      "ru": "Форт Антипатрис и лягушатник."
+    }
+  },
+  {
+    "id": "994",
+    "name": {
+      "he": "מנהרות הכרמל - מרכז מבקרים",
+      "ar": "مركز زوار أنفاق الكرمل",
+      "en": "Carmel Tunnels Visitor Center",
+      "ru": "Центр посетителей туннелей Кармель"
+    },
+    "coords": [
+      32.7911,
+      35.0122
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "הסבר על הפרויקט ההנדסי הגדול בחיפה.",
+      "ar": "شرح المشروع الهندسي الكبير في حيفا.",
+      "en": "Explanation of Haifa's major engineering project.",
+      "ru": "Объяснение крупного инженерного проекта Хайфы."
+    }
+  },
+  {
+    "id": "995",
+    "name": {
+      "he": "פארק הדינוזאורים",
+      "ar": "منتزه الديناصورات",
+      "en": "Dinosaur Park",
+      "ru": "Парк динозавров"
+    },
+    "coords": [
+      31.8122,
+      34.6511
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תערוכת דגמי דינוזאורים בגודל מלא.",
+      "ar": "معرض نماذج ديناصورات بالحجم الطبيعي.",
+      "en": "Full-size dinosaur model exhibition.",
+      "ru": "Выставка полноразмерных моделей динозавров."
+    }
+  },
+  {
+    "id": "996",
+    "name": {
+      "he": "שוק מחנה יהודה - סיורי טעימות",
+      "ar": "سوق محاني يهودا",
+      "en": "Mahane Yehuda Market Tours",
+      "ru": "Рынок Махане Иегуда"
+    },
+    "coords": [
+      31.7852,
+      35.2122
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוויה קולינרית בשוק המפורסם בירושלים.",
+      "ar": "تجربة طهو في السوق المشهور في القدس.",
+      "en": "Culinary experience in Jerusalem's famous market.",
+      "ru": "Кулинарный опыт на знаменитом рынке Иерусалима."
+    }
+  },
+  {
+    "id": "997",
+    "name": {
+      "he": "יער האיילים",
+      "ar": "غابة الأيائل",
+      "en": "Deer Forest",
+      "ru": "Олений лес"
+    },
+    "coords": [
+      33.2111,
+      35.7822
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "צפייה באיילים ופעילויות לילדים בגולן.",
+      "ar": "مراقبة الغزلان وأنشطة للأطفال في الجولان.",
+      "en": "Deer viewing and kids activities in the Golan.",
+      "ru": "Наблюдение за оленями и детские активности на Голанах."
+    }
+  },
+  {
+    "id": "998",
+    "name": {
+      "he": "מוזיאון רמת גן לאמנות",
+      "ar": "متحف رمات غان للفن",
+      "en": "Ramat Gan Museum of Art",
+      "ru": "Музей изобразительных искусств Рамат-Гана"
+    },
+    "coords": [
+      32.0811,
+      34.8255
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אמנות ישראלית עכשווית.",
+      "ar": "فن إسرائيلي معاصر.",
+      "en": "Contemporary Israeli art.",
+      "ru": "Современное израильское искусство."
+    }
+  },
+  {
+    "id": "999",
+    "name": {
+      "he": "פארק הגולף בקיסריה",
+      "ar": "نادي غولف قيسارية",
+      "en": "Caesarea Golf Club",
+      "ru": "Гольф-клуб Кесарии"
+    },
+    "coords": [
+      32.5122,
+      34.9011
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מגרש הגולף הבינלאומי היחיד בישראל.",
+      "ar": "ملعب الغولف الدولي الوحيد في إسرائيل.",
+      "en": "Israel's only international golf course.",
+      "ru": "Единственное международное поле для гольфа в Израиле."
+    }
+  },
+  {
+    "id": "1000",
+    "name": {
+      "he": "מוזיאון הטרקטור",
+      "ar": "متحف الجرار",
+      "en": "Tractor Museum",
+      "ru": "Музей тракторов"
+    },
+    "coords": [
+      32.3522,
+      34.9122
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אוסף טרקטורים ומיכון חקלאי היסטורי בעין ורד.",
+      "ar": "مجموعة جرارات وميكنة زراعية تاريخية في عين وارد.",
+      "en": "Collection of historical tractors and farm machinery.",
+      "ru": "Коллекция исторических тракторов и сельхозтехники."
+    }
+  },
+  {
+    "id": "1001",
+    "name": {
+      "he": "פארק נחל חדרה",
+      "ar": "منتزه وادي الخضيرة",
+      "en": "Hadera River Park",
+      "ru": "Парк Нахаль Хадера"
+    },
+    "coords": [
+      32.4722,
+      34.8811
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק פסטורלי וצפייה בכרישים בחורף.",
+      "ar": "منتزه ريفي ومشاهدة القروش في الشتاء.",
+      "en": "Pastoral park and shark viewing in winter.",
+      "ru": "Пасторальный парк и наблюдение за акулами зимой."
+    }
+  },
+  {
+    "id": "1002",
+    "name": {
+      "he": "מוזיאון המכוניות - תפן",
+      "ar": "متحف السيارات",
+      "en": "Tefen Car Museum",
+      "ru": "Автомобильный музей Тефен"
+    },
+    "coords": [
+      32.9811,
+      35.2822
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אוסף מכוניות קלאסיות בגליל.",
+      "ar": "مجموعة سيارات كلاسيكية في الجليل.",
+      "en": "Collection of classic cars in Galilee.",
+      "ru": "Коллекция классических автомобилей в Галилее."
+    }
+  },
+  {
+    "id": "1003",
+    "name": {
+      "he": "שביל הקליפות - נמל תל אביב",
+      "ar": "ميناء تل أبيب",
+      "en": "Tel Aviv Port",
+      "ru": "Порт Тель-Авива"
+    },
+    "coords": [
+      32.0972,
+      34.7733
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מרכז בילוי, קניות ומתקני משחקים על הים.",
+      "ar": "مركز ترفيه وتسوق ومناطق لعب على البحر.",
+      "en": "Leisure, shopping, and playground center by the sea.",
+      "ru": "Развлекательный и торговый центр у моря."
+    }
+  },
+  {
+    "id": "1004",
+    "name": {
+      "he": "מעלית הזמן ירושלים",
+      "ar": "مصعد الزمن القدس",
+      "en": "Time Elevator Jerusalem",
+      "ru": "Лифт времени Иерусалим"
+    },
+    "coords": [
+      31.7811,
+      35.2211
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוויה אינטראקטיבית רב-חושית על תולדות ירושלים.",
+      "ar": "تجربة تفاعلية متعددة الحواس عن تاريخ القدس.",
+      "en": "Multi-sensory experience of Jerusalem's history.",
+      "ru": "Мультисенсорный опыт истории Иерусалима."
+    }
+  },
+  {
+    "id": "1005",
+    "name": {
+      "he": "פארק השעשועים 'מג'יק קאס'",
+      "ar": "ماجيك كاس",
+      "en": "Magic Kass",
+      "ru": "Мэджик Касс"
+    },
+    "coords": [
+      31.7911,
+      35.3122
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק שעשועים מקורה הגדול בישראל.",
+      "ar": "أكبر منتزه ترفيهي مغطى في إسرائيل.",
+      "en": "Israel's largest indoor amusement park.",
+      "ru": "Крупнейший крытый парк аттракционов Израиля."
+    }
+  },
+  {
+    "id": "1006",
+    "name": {
+      "he": "מוזיאון יאנקה קופלה",
+      "ar": "متحف يانكا كوبالا",
+      "en": "Yanka Kupala Museum",
+      "ru": "Музей Янки Купалы"
+    },
+    "coords": [
+      32.7522,
+      35.2511
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מוזיאון תרבותי בגליל.",
+      "ar": "متحف ثقافي في الجليل.",
+      "en": "Cultural museum in Galilee.",
+      "ru": "Культурный музей в Галилее."
+    }
+  },
+  {
+    "id": "1007",
+    "name": {
+      "he": "פארק המזרקות אשדוד",
+      "ar": "منتزه النافورات",
+      "en": "Ashdod Fountain Park",
+      "ru": "Парк фонтанов Ашдод"
+    },
+    "coords": [
+      31.7911,
+      34.6311
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מופע מזרקות מוזיקלי וצבעוני.",
+      "ar": "عرض نافورات موسيقية وملونة.",
+      "en": "Musical and colorful fountain show.",
+      "ru": "Музыкальное и красочное шоу фонтанов."
+    }
+  },
+  {
+    "id": "1008",
+    "name": {
+      "he": "יד מרדכי - חוויה קיבוצית",
+      "ar": "ياد مردخاي",
+      "en": "Yad Mordechai Experience",
+      "ru": "Яд-Мордехай"
+    },
+    "coords": [
+      31.5878,
+      34.5588
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "למידה על דבורים, דבש והיסטוריה קיבוצית.",
+      "ar": "تعلم عن النحل والعسل وتاريخ الكيبوتس.",
+      "en": "Learning about bees, honey, and kibbutz history.",
+      "ru": "Знакомство с пчёлами, мёдом и историей кибуца."
+    }
+  },
+  {
+    "id": "1009",
+    "name": {
+      "he": "מוזיאון הסובלנות",
+      "ar": "متحف التسامح",
+      "en": "Museum of Tolerance",
+      "ru": "Музей толерантности"
+    },
+    "coords": [
+      31.7811,
+      35.2222
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מוזיאון המוקדש לסובלנות ודו-קיום בירושלים.",
+      "ar": "متحف مخصص للتسامح والتعايش في القدس.",
+      "en": "Museum dedicated to tolerance and coexistence.",
+      "ru": "Музей, посвящённый толерантности и сосуществованию."
+    }
+  },
+  {
+    "id": "1010",
+    "name": {
+      "he": "פונדק יטבתה - מרכז מבקרים",
+      "ar": "مركز زوار يطباتا",
+      "en": "Yotvata Visitor Center",
+      "ru": "Центр посетителей Йотвата"
+    },
+    "coords": [
+      29.8944,
+      35.0611
+    ],
+    "category": "attractions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חשיפה לתהליך ייצור החלב וההתיישבות בערבה.",
+      "ar": "التعرف على عملية إنتاج الألبان والاستيطان في العربة.",
+      "en": "Process of dairy production and Arava settlement.",
+      "ru": "Знакомство с производством молока и освоением Аравы."
+    }
   }
 ]
