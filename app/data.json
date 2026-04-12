@@ -18388,5 +18388,845 @@
       "en": "A vegetarian/vegan restaurant in Moshav Amirim, known for its healthy atmosphere.",
       "ru": "Вегетарианский/веганский ресторан в мошаве Амирим."
     }
+  },
+  {
+    "id": "851",
+    "name": {
+      "he": "סינגל בארי",
+      "ar": "مسار بئيري",
+      "en": "Be'eri Singletrack",
+      "ru": "Синглтрек Беэри"
+    },
+    "coords": [
+      31.4245,
+      34.4922
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אחד ממסלולי האופניים המפורסמים בארץ, המציע פריחת כלניות מרהיבה בחורף ורכיבה זורמת בין בתרונות.",
+      "ar": "أحد أشهر مسارات الدراجات في البلاد، يقدم إزهار الشقائق الرائع في الشتاء وركوباً سلساً بين الوديان.",
+      "en": "One of the most famous cycling trails in Israel, offering stunning anemone blooms in winter and flowing riding between ravines.",
+      "ru": "Один из самых известных велосипедных маршрутов Израиля."
+    }
+  },
+  {
+    "id": "852",
+    "name": {
+      "he": "סינגל ריש לקיש",
+      "ar": "مسار ريش لاكيش",
+      "en": "Resh Lakish Singletrack",
+      "ru": "Синглтрек Реш-Лакиш"
+    },
+    "coords": [
+      32.7655,
+      35.2644
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול רכיבה יפהפה בגליל התחתון העובר ביערות אלונים ומשקיף על בקעת בית נטופה.",
+      "ar": "مسار ركوب جميل في الجليل السفلي يمر عبر غابات الألون ويطل على سهل بيت نطوفة.",
+      "en": "A beautiful cycling trail in Lower Galilee passing through oak forests with views of Beit Netofa Valley.",
+      "ru": "Красивый маршрут в Нижней Галилее через дубовые леса."
+    }
+  },
+  {
+    "id": "853",
+    "name": {
+      "he": "שביל סובב כנרת",
+      "ar": "مسار حول بحيرة طبريا",
+      "en": "Sea of Galilee Loop",
+      "ru": "Кольцевой маршрут вокруг Кинерета"
+    },
+    "coords": [
+      32.8111,
+      35.5922
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול המקיף את האגם הלאומי ומציע עצירות בחופים ונקודות תצפית ייחודיות.",
+      "ar": "مسار يحيط ببحيرة طبريا ويقدم توقفات على الشواطئ ونقاط مراقبة فريدة.",
+      "en": "A trail circling the national lake offering beach stops and unique viewpoints.",
+      "ru": "Маршрут вокруг Кинерета с остановками на пляжах."
+    }
+  },
+  {
+    "id": "854",
+    "name": {
+      "he": "סינגל עדולם",
+      "ar": "مسار عدولام",
+      "en": "Adulam Singletrack",
+      "ru": "Синглтрек Адулам"
+    },
+    "coords": [
+      31.6544,
+      34.9455
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול קלאסי בשפלת יהודה העובר בין אתרים ארכיאולוגיים ונוף גבעות ירוק.",
+      "ar": "مسار كلاسيكي في شفيلة يهودا يمر بين المواقع الأثرية ومناظر التلال الخضراء.",
+      "en": "A classic trail in the Judean Lowlands passing between archaeological sites and green hill scenery.",
+      "ru": "Классический маршрут в Шефеле через археологические объекты."
+    }
+  },
+  {
+    "id": "855",
+    "name": {
+      "he": "סינגל משמר העמק",
+      "ar": "مسار مشمار هاعيمك",
+      "en": "Mishmar HaEmek Singletrack",
+      "ru": "Синглтрек Мишмар-ха-Эмек"
+    },
+    "coords": [
+      32.6122,
+      35.1388
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול זורם ומהנה ביערות מנשה, מתאים למגוון רמות רכיבה.",
+      "ar": "مسار سلس وممتع في غابات منشه، مناسب لمستويات ركوب متعددة.",
+      "en": "A flowing and enjoyable trail in Menashe forests, suitable for various riding levels.",
+      "ru": "Плавный маршрут в лесах Менаше для разных уровней."
+    }
+  },
+  {
+    "id": "856",
+    "name": {
+      "he": "שביל האופניים לאורך הירקון",
+      "ar": "مسار الدراجات على طول نهر اليركون",
+      "en": "Yarkon River Trail",
+      "ru": "Маршрут вдоль Яркона"
+    },
+    "coords": [
+      32.0988,
+      34.8122
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול שטוח ונוח המחבר בין לב תל אביב למקורות הירקון ליד ראש העין.",
+      "ar": "مسار مسطح ومريح يربط وسط تل أبيب بمنابع نهر اليركون بالقرب من راس العين.",
+      "en": "A flat and convenient trail connecting central Tel Aviv to the Yarkon sources near Rosh HaAyin.",
+      "ru": "Плоский маршрут от центра Тель-Авива до истоков Яркона."
+    }
+  },
+  {
+    "id": "857",
+    "name": {
+      "he": "סינגל ערד-מצדה",
+      "ar": "مسار عراد-مسادا",
+      "en": "Arad to Masada Trail",
+      "ru": "Маршрут Арад-Масада"
+    },
+    "coords": [
+      31.2655,
+      35.3211
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול מדברי מאתגר עם ירידות טכניות ונוף פראי של מדבר יהודה.",
+      "ar": "مسار صحراوي تحدي مع نزولات تقنية ومنظر بري لصحراء يهودا.",
+      "en": "A challenging desert trail with technical descents and wild Judean Desert scenery.",
+      "ru": "Сложный пустынный маршрут с техническими спусками."
+    }
+  },
+  {
+    "id": "858",
+    "name": {
+      "he": "סינגל חרובית",
+      "ar": "مسار خروبيت",
+      "en": "Haruvit Singletrack",
+      "ru": "Синглтрек Харувит"
+    },
+    "coords": [
+      31.7455,
+      34.8522
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק אופניים נגיש בשפלה המציע מסלולים מותאמים גם לאופני יד.",
+      "ar": "حديقة دراجات في الشفيلة تقدم مسارات مكيفة أيضاً لدراجات اليد.",
+      "en": "An accessible bike park in the Lowlands offering trails adapted also for handcycles.",
+      "ru": "Доступный велопарк в Шефеле с адаптированными маршрутами."
+    }
+  },
+  {
+    "id": "859",
+    "name": {
+      "he": "שביל אופניים סובב אילת",
+      "ar": "مسار الدراجات حول إيلات",
+      "en": "Eilat Cycling Trail",
+      "ru": "Велосипедный маршрут вокруг Эйлата"
+    },
+    "coords": [
+      29.5611,
+      34.9511
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול מדברי המקיף את העיר הדרומית וצופה אל הרי אדום ומפרץ אילת.",
+      "ar": "مسار صحراوي يحيط بالمدينة الجنوبية ويطل على جبال أدوم وخليج إيلات.",
+      "en": "A desert trail circling the southern city with views of the Edom Mountains and Gulf of Eilat.",
+      "ru": "Пустынный маршрут вокруг Эйлата с видом на залив."
+    }
+  },
+  {
+    "id": "860",
+    "name": {
+      "he": "סינגל עין השופט",
+      "ar": "مسار عين هاشوفيت",
+      "en": "Ein HaShofet Singletrack",
+      "ru": "Синглтрек Эйн-ха-Шофет"
+    },
+    "coords": [
+      32.5955,
+      35.0988
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "רכיבה ביער עבות עם קטעים מוצלים רבים, מושלם לימי הקיץ החמים.",
+      "ar": "ركوب في غابة كثيفة مع أجزاء مظللة كثيرة، مثالي لأيام الصيف الحارة.",
+      "en": "Riding in a dense forest with many shaded sections, perfect for hot summer days.",
+      "ru": "Езда в густом лесу с тенью, идеально для жарких дней."
+    }
+  },
+  {
+    "id": "861",
+    "name": {
+      "he": "סינגל בן שמן",
+      "ar": "مسار بن شيمن",
+      "en": "Ben Shemen Singletrack",
+      "ru": "Синглтрек Бен-Шемен"
+    },
+    "coords": [
+      31.9488,
+      34.9311
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מרכז הרכיבה הגדול והפופולרי בישראל, מציע עשרות קילומטרים של סינגלים בדרגות קושי שונות.",
+      "ar": "مركز الركوب الأكبر والأشهر في إسرائيل، يقدم عشرات الكيلومترات من المسارات بدرجات صعوبة مختلفة.",
+      "en": "Israel's largest and most popular cycling center, offering dozens of kilometers of singletracks at various difficulty levels.",
+      "ru": "Крупнейший велоцентр Израиля с десятками километров маршрутов."
+    }
+  },
+  {
+    "id": "862",
+    "name": {
+      "he": "שביל ישראל לאופניים: מצפה רמון - עזוז",
+      "ar": "مسار إسرائيل للدراجات",
+      "en": "Israel Bike Trail: Mitzpe Ramon",
+      "ru": "Велотропа Израиля: Мицпе-Рамон"
+    },
+    "coords": [
+      30.6122,
+      34.7955
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מקטע מדברי עוצר נשימה העובר על שפת מכתש רמון.",
+      "ar": "قطعة صحراوية آسرة تمر على حافة مكتيش رامون.",
+      "en": "A breathtaking desert section passing along the rim of Makhtesh Ramon.",
+      "ru": "Захватывающий пустынный участок вдоль края кратера Рамон."
+    }
+  },
+  {
+    "id": "863",
+    "name": {
+      "he": "סינגל קנה",
+      "ar": "مسار كانا",
+      "en": "Kana Singletrack",
+      "ru": "Синглтрек Кана"
+    },
+    "coords": [
+      32.7488,
+      35.3344
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול מעגלי בהרי נצרת העובר ביער צ'רצ'יל ומשקיף לעמק יזרעאל.",
+      "ar": "مسار دائري في جبال الناصرة يمر عبر غابة تشيرتشيل ويطل على وادي يزرعيل.",
+      "en": "A circular trail in the Nazareth hills passing through Churchill Forest with views of the Jezreel Valley.",
+      "ru": "Круговой маршрут в горах Назарета через лес Черчилля."
+    }
+  },
+  {
+    "id": "864",
+    "name": {
+      "he": "שביל האופניים בנחל שורק",
+      "ar": "مسار الدراجات في نحل شوريك",
+      "en": "Nahal Sorek Trail",
+      "ru": "Маршрут по Нахаль-Шорек"
+    },
+    "coords": [
+      31.7822,
+      34.9855
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול רכיבה נינוח לאורך ערוץ הנחל הירוק בהרי ירושלים.",
+      "ar": "مسار ركوب هادئ على طول قناة النهر الأخضر في جبال القدس.",
+      "en": "A relaxed cycling trail along the green stream channel in the Jerusalem hills.",
+      "ru": "Спокойный маршрут вдоль зелёного ручья в Иерусалимских горах."
+    }
+  },
+  {
+    "id": "865",
+    "name": {
+      "he": "סינגל אלון",
+      "ar": "مسار ألون",
+      "en": "Alon Singletrack",
+      "ru": "Синглтрек Алон"
+    },
+    "coords": [
+      32.7211,
+      35.0122
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול ביערות הכרמל המציע שילוב של קטעים טכניים ונופים לים התיכון.",
+      "ar": "مسار في غابات الكرمل يقدم مزيجاً من الأجزاء التقنية والمناظر المطلة على البحر المتوسط.",
+      "en": "A trail in the Carmel forests offering technical sections and Mediterranean Sea views.",
+      "ru": "Маршрут в лесах Кармеля с техническими участками и видом на море."
+    }
+  },
+  {
+    "id": "866",
+    "name": {
+      "he": "סינגל גלבוע",
+      "ar": "مسار جلبوع",
+      "en": "Gilboa Singletrack",
+      "ru": "Синглтрек Гильбоа"
+    },
+    "coords": [
+      32.5255,
+      35.3811
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "רכיבה על רכס הגלבוע עם תצפיות מרהיבות על עמק חרוד ועמק המעיינות.",
+      "ar": "ركوب على سلسلة جلبوع مع مناظر رائعة لوادي حارود ووادي المياه.",
+      "en": "Riding on the Gilboa ridge with breathtaking views of Harod Valley and Springs Valley.",
+      "ru": "Езда по хребту Гильбоа с видом на долины Харод и Источников."
+    }
+  },
+  {
+    "id": "867",
+    "name": {
+      "he": "שביל אופניים פארק אריאל שרון",
+      "ar": "مسار دراجات حديقة أريئيل شارون",
+      "en": "Ariel Sharon Park Trail",
+      "ru": "Маршрут парка Ариэль Шарон"
+    },
+    "coords": [
+      32.0288,
+      34.8211
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול היקפי בפארק המציע נוף אורבני וטבע משוקם בלב המטרופולין.",
+      "ar": "مسار محيطي في الحديقة يقدم منظراً حضرياً وطبيعة منتعشة في قلب المطروبول.",
+      "en": "A perimeter trail in the park offering urban scenery and restored nature in the heart of the metropolis.",
+      "ru": "Маршрут в парке с городскими пейзажами и восстановленной природой."
+    }
+  },
+  {
+    "id": "868",
+    "name": {
+      "he": "סינגל המלכים (יער המלאכים)",
+      "ar": "مسار الملائكة",
+      "en": "HaMalachim Singletrack",
+      "ru": "Синглтрек ха-Малахим"
+    },
+    "coords": [
+      31.6211,
+      34.8455
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול קצר ומהנה בדרום השפלה, מתאים מאוד למשפחות ורוכבים מתחילים.",
+      "ar": "مسار قصير وممتع في جنوب الشفيلة، مناسب جداً للعائلات والراكبين المبتدئين.",
+      "en": "A short and fun trail in southern Lowlands, very suitable for families and beginner riders.",
+      "ru": "Короткий и весёлый маршрут в южной Шефеле для семей и начинающих."
+    }
+  },
+  {
+    "id": "869",
+    "name": {
+      "he": "סינגל ביריה",
+      "ar": "مسار بيريا",
+      "en": "Birya Singletrack",
+      "ru": "Синглтрек Бирья"
+    },
+    "coords": [
+      32.9811,
+      35.5122
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול ביער הגדול בגליל העליון, המציע אוויר הרים צלול ונוף לעמק החולה.",
+      "ar": "مسار في الغابة الكبيرة في الجليل الأعلى، يقدم هواء جبلياً صافياً ومنظراً لوادي الحولة.",
+      "en": "A trail in the large forest in Upper Galilee, offering clear mountain air and views of the Hula Valley.",
+      "ru": "Маршрут в большом лесу Верхней Галилеи с видом на долину Хула."
+    }
+  },
+  {
+    "id": "870",
+    "name": {
+      "he": "שביל אופניים נמל תל אביב - הרצליה",
+      "ar": "مسار دراجات ميناء تل أبيب - هرتسليا",
+      "en": "Tel Aviv - Herzliya Trail",
+      "ru": "Маршрут Тель-Авив - Герцлия"
+    },
+    "coords": [
+      32.1455,
+      34.7922
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "רכיבה לאורך קו החוף, על מצוקי הכורכר וליד הים.",
+      "ar": "ركوب على طول خط الساحل، على منحدرات الكركر وبالقرب من البحر.",
+      "en": "Riding along the coastline, on the kurkar cliffs and by the sea.",
+      "ru": "Езда вдоль побережья по скалам куркара у моря."
+    }
+  },
+  {
+    "id": "871",
+    "name": {
+      "he": "סינגל צובה",
+      "ar": "مسار تسوبا",
+      "en": "Tzuba Singletrack",
+      "ru": "Синглтрек Цуба"
+    },
+    "coords": [
+      31.7855,
+      35.1211
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול הררי מאתגר בהרי ירושלים הכולל טיפוסים משמעותיים ונוף טרסות.",
+      "ar": "مسار جبلي تحدي في جبال القدس يشمل صعوداً كبيراً ومنظر المدرجات.",
+      "en": "A challenging mountain trail in the Jerusalem hills with significant climbs and terrace scenery.",
+      "ru": "Сложный горный маршрут в Иерусалимских горах с крутыми подъёмами."
+    }
+  },
+  {
+    "id": "872",
+    "name": {
+      "he": "סינגל גברעם",
+      "ar": "مسار غفرام",
+      "en": "Gvaram Singletrack",
+      "ru": "Синглтрек Гварам"
+    },
+    "coords": [
+      31.5922,
+      34.6111
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול רכיבה זורם בנגב הצפוני, מפורסם בפריחה ובקטעי 'רולר קוסטר' מהנים.",
+      "ar": "مسار ركوب سلس في النقب الشمالي، مشهور بالإزهار وأجزاء 'رولر كوستر' الممتعة.",
+      "en": "A flowing cycling trail in the northern Negev, famous for blooms and enjoyable 'roller coaster' sections.",
+      "ru": "Плавный маршрут в северном Негеве с цветением и горками."
+    }
+  },
+  {
+    "id": "873",
+    "name": {
+      "he": "שביל המצוק (נתניה)",
+      "ar": "مسار المنحدر نتانيا",
+      "en": "Netanya Cliff Trail",
+      "ru": "Маршрут по скалам Нетании"
+    },
+    "coords": [
+      32.3111,
+      34.8455
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול עירוני-טבעי מעל מצוקי הים של נתניה עם נוף פתוח לכחול.",
+      "ar": "مسار حضري-طبيعي فوق منحدرات البحر في نتانيا مع منظر مفتوح للأزرق.",
+      "en": "An urban-natural trail above Netanya's sea cliffs with open views to the blue horizon.",
+      "ru": "Городско-природный маршрут над морскими скалами Нетании."
+    }
+  },
+  {
+    "id": "874",
+    "name": {
+      "he": "סינגל יער שגב",
+      "ar": "مسار غابة شيغف",
+      "en": "Segev Forest Singletrack",
+      "ru": "Синглтрек лес Шегев"
+    },
+    "coords": [
+      32.8922,
+      35.2411
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול טכני ומהנה בגליל המערבי העובר בתוך יער אורנים צפוף.",
+      "ar": "مسار تقني وممتع في الجليل الغربي يمر عبر غابة صنوبر كثيفة.",
+      "en": "A technical and enjoyable trail in Western Galilee passing through a dense pine forest.",
+      "ru": "Технический маршрут в Западной Галилее через густой сосновый лес."
+    }
+  },
+  {
+    "id": "875",
+    "name": {
+      "he": "סינגל להב",
+      "ar": "مسار لاهف",
+      "en": "Lahav Singletrack",
+      "ru": "Синглтрек Лахав"
+    },
+    "coords": [
+      31.3811,
+      34.8722
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "רכיבה ביער להב בדרום, המציעה שילוב של אתרי מורשת וטבע מדברי מיוער.",
+      "ar": "ركوب في غابة لاهف في الجنوب، يقدم مزيجاً من مواقع التراث والطبيعة الصحراوية المشجرة.",
+      "en": "Riding in Lahav Forest in the south, offering a combination of heritage sites and forested desert nature.",
+      "ru": "Езда в лесу Лахав на юге с объектами наследия."
+    }
+  },
+  {
+    "id": "876",
+    "name": {
+      "he": "שביל האופניים באילנות",
+      "ar": "مسار الدراجات في إيلانوت",
+      "en": "Ilanot Cycling Trail",
+      "ru": "Велосипедный маршрут Иланот"
+    },
+    "coords": [
+      32.2922,
+      34.8911
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול נוח בתוך הארבורטום (גן בוטני של עצים) בשרון.",
+      "ar": "مسار مريح داخل الأربوريتوم (حديقة نباتية للأشجار) في الشارون.",
+      "en": "A comfortable trail inside the arboretum (botanical tree garden) in the Sharon.",
+      "ru": "Удобный маршрут в арборетуме Шарона."
+    }
+  },
+  {
+    "id": "877",
+    "name": {
+      "he": "סינגל שוקדה",
+      "ar": "مسار شوكيدا",
+      "en": "Shokeda Singletrack",
+      "ru": "Синглтрек Шокеда"
+    },
+    "coords": [
+      31.4511,
+      34.5422
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול פופולרי בדרום האדום, ידוע במרבדי הכלניות המרהיבים.",
+      "ar": "مسار شعبي في الجنوب الأحمر، مشهور بسجادات الشقائق الرائعة.",
+      "en": "A popular trail in the southern red region, known for breathtaking anemone carpets.",
+      "ru": "Популярный маршрут на юге, известный коврами анемонов."
+    }
+  },
+  {
+    "id": "878",
+    "name": {
+      "he": "סינגל כברי",
+      "ar": "مسار كابري",
+      "en": "Kabri Singletrack",
+      "ru": "Синглтрек Кабри"
+    },
+    "coords": [
+      33.0211,
+      35.1588
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול בגליל המערבי העובר ליד נחלים זורמים ומטעי אבוקדו.",
+      "ar": "مسار في الجليل الغربي يمر بالقرب من أنهار جارية ومزارع الأفوكادو.",
+      "en": "A trail in Western Galilee passing near flowing streams and avocado groves.",
+      "ru": "Маршрут в Западной Галилее рядом с ручьями и авокадовыми садами."
+    }
+  },
+  {
+    "id": "879",
+    "name": {
+      "he": "שביל סובב עמק חרוד",
+      "ar": "مسار حول وادي حارود",
+      "en": "Harod Valley Trail",
+      "ru": "Маршрут долины Харод"
+    },
+    "coords": [
+      32.5511,
+      35.4122
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול שטוח ונינוח בין בריכות דגים ושדות חקלאיים למרגלות הגלבוע.",
+      "ar": "مسار مسطح وهادئ بين برك الأسماك والحقول الزراعية عند سفح جلبوع.",
+      "en": "A flat and leisurely trail between fish ponds and agricultural fields at the foot of Gilboa.",
+      "ru": "Плоский маршрут между рыбными прудами и полями у подножия Гильбоа."
+    }
+  },
+  {
+    "id": "880",
+    "name": {
+      "he": "סינגל חגית",
+      "ar": "مسار حاجيت",
+      "en": "Hagit Singletrack",
+      "ru": "Синглтрек Хагит"
+    },
+    "coords": [
+      32.6111,
+      35.0122
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול סלעי ומאתגר באזור רמות מנשה, מתאים לרוכבים מנוסים.",
+      "ar": "مسار صخري وتحدي في منطقة رامون منشه، مناسب للراكبين ذوي الخبرة.",
+      "en": "A rocky and challenging trail in the Ramat Menashe area, suitable for experienced riders.",
+      "ru": "Скалистый сложный маршрут в Рамат-Менаше для опытных велосипедистов."
+    }
+  },
+  {
+    "id": "881",
+    "name": {
+      "he": "סינגל יתיר",
+      "ar": "مسار يعتير",
+      "en": "Yatir Singletrack",
+      "ru": "Синглтрек Ятир"
+    },
+    "coords": [
+      31.3411,
+      35.0522
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "רכיבה ביער הנטוע הגדול בישראל, המציע שילוב נדיר של יער וספר מדבר.",
+      "ar": "ركوب في أكبر غابة مزروعة في إسرائيل، يقدم مزيجاً نادراً من الغابة وحافة الصحراء.",
+      "en": "Riding in Israel's largest planted forest, offering a rare combination of forest and desert edge.",
+      "ru": "Езда в крупнейшем посаженном лесу Израиля на краю пустыни."
+    }
+  },
+  {
+    "id": "882",
+    "name": {
+      "he": "שביל הטבעת (ירושלים)",
+      "ar": "مسار الحلقة القدس",
+      "en": "Jerusalem Ring Trail",
+      "ru": "Кольцевой маршрут Иерусалима"
+    },
+    "coords": [
+      31.7766,
+      35.2111
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול המקיף את עיר הבירה ומחבר בין פארקים ועמקים היסטוריים.",
+      "ar": "مسار يحيط بالعاصمة ويربط بين الحدائق والأودية التاريخية.",
+      "en": "A trail circling the capital city connecting parks and historical valleys.",
+      "ru": "Маршрут вокруг столицы через парки и исторические долины."
+    }
+  },
+  {
+    "id": "883",
+    "name": {
+      "he": "סינגל צור הדסה",
+      "ar": "مسار تسور هاداسا",
+      "en": "Tzur Hadassah Singletrack",
+      "ru": "Синглтрек Цур-Хадасса"
+    },
+    "coords": [
+      31.7122,
+      35.0922
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול הררי עם נופים פתוחים להרי חברון ושפלת יהודה.",
+      "ar": "مسار جبلي مع مناظر مفتوحة لجبال الخليل وشفيلة يهودا.",
+      "en": "A mountain trail with open views of the Hebron hills and Judean Lowlands.",
+      "ru": "Горный маршрут с видом на Хевронские горы и Шефелу."
+    }
+  },
+  {
+    "id": "884",
+    "name": {
+      "he": "שביל האופניים בנחל אלכסנדר",
+      "ar": "مسار الدراجات في نحل ألكسندر",
+      "en": "Alexander River Trail",
+      "ru": "Маршрут вдоль реки Александр"
+    },
+    "coords": [
+      32.3911,
+      34.8822
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול משפחתי רגוע לאורך הנחל, המפורסם בצבים הרכים שבו.",
+      "ar": "مسار عائلي هادئ على طول النهر، المشهور بالسلاحف الناعمة فيه.",
+      "en": "A calm family trail along the river, famous for its softshell turtles.",
+      "ru": "Спокойный семейный маршрут вдоль реки с мягкотелыми черепахами."
+    }
+  },
+  {
+    "id": "885",
+    "name": {
+      "he": "סינגל כרמי יוסף",
+      "ar": "مسار كرمي يوسف",
+      "en": "Karmei Yosef Singletrack",
+      "ru": "Синглтрек Кармей-Йосеф"
+    },
+    "coords": [
+      31.8488,
+      34.9122
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אחד הסינגלים הוותיקים והטכניים בארץ, אהוב במיוחד על רוכבי אנדורו.",
+      "ar": "أحد أقدم المسارات وأكثرها تقنية في البلاد، محبوب بشكل خاص من راكبي الإندورو.",
+      "en": "One of the oldest and most technical singletracks in Israel, especially loved by enduro riders.",
+      "ru": "Один из старейших и технических маршрутов Израиля для эндуро."
+    }
+  },
+  {
+    "id": "886",
+    "name": {
+      "he": "סינגל קצרין",
+      "ar": "مسار قصرين",
+      "en": "Katzrin Singletrack",
+      "ru": "Синглтрек Кацрин"
+    },
+    "coords": [
+      32.9922,
+      35.6811
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול מעגלי מסביב לבירת הגולן, המשלב נוף בזלת ונחלים.",
+      "ar": "مسار دائري حول عاصمة الجولان، يجمع بين مناظر البازلت والأنهار.",
+      "en": "A circular trail around the Golan capital, combining basalt scenery and streams.",
+      "ru": "Круговой маршрут вокруг столицы Голан с базальтовыми пейзажами."
+    }
+  },
+  {
+    "id": "887",
+    "name": {
+      "he": "שביל אופניים פארק הרצליה",
+      "ar": "مسار دراجات حديقة هرتسليا",
+      "en": "Herzliya Park Trail",
+      "ru": "Велосипедный маршрут парка Герцлия"
+    },
+    "coords": [
+      32.1722,
+      34.8311
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול רכיבה עירוני בטיחותי ונוח בתוך הפארק המודרני.",
+      "ar": "مسار ركوب حضري آمن ومريح داخل الحديقة الحديثة.",
+      "en": "A safe and comfortable urban cycling trail inside the modern park.",
+      "ru": "Безопасный городской велосипедный маршрут в современном парке."
+    }
+  },
+  {
+    "id": "888",
+    "name": {
+      "he": "סינגל מורדות הכרמל",
+      "ar": "مسار منحدرات الكرمل",
+      "en": "Carmel Slopes Singletrack",
+      "ru": "Синглтрек склонов Кармеля"
+    },
+    "coords": [
+      32.7411,
+      34.9722
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "ירידות ארוכות ומהירות מהכרמל לכיוון מישור החוף.",
+      "ar": "نزولات طويلة وسريعة من الكرمل نحو السهل الساحلي.",
+      "en": "Long and fast descents from Carmel towards the coastal plain.",
+      "ru": "Длинные и быстрые спуски с Кармеля к прибрежной равнине."
+    }
+  },
+  {
+    "id": "889",
+    "name": {
+      "he": "סינגל הרי נפתלי",
+      "ar": "مسار جبال نفتالي",
+      "en": "Naftali Mountains Singletrack",
+      "ru": "Синглтрек гор Нафтали"
+    },
+    "coords": [
+      33.2211,
+      35.5522
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול מאתגר באצבע הגליל עם תצפית פנורמית על עמק החולה והחרמון.",
+      "ar": "مسار تحدي في إصبع الجليل مع إطلالة بانورامية على وادي الحولة وجبل الشيخ.",
+      "en": "A challenging trail in the Galilee Panhandle with panoramic views of the Hula Valley and Hermon.",
+      "ru": "Сложный маршрут в Галилейской панели с видом на Хулу и Хермон."
+    }
+  },
+  {
+    "id": "890",
+    "name": {
+      "he": "שביל האופניים סובב באר שבע",
+      "ar": "مسار الدراجات حول بئر السبع",
+      "en": "Beer Sheva Loop Trail",
+      "ru": "Кольцевой маршрут Беэр-Шевы"
+    },
+    "coords": [
+      31.2511,
+      34.7922
+    ],
+    "category": "cycling",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול המקיף את בירת הנגב ומחבר בין אתרי מורשת ופארקים חדשים.",
+      "ar": "مسار يحيط بعاصمة النقب ويربط بين مواقع التراث والحدائق الجديدة.",
+      "en": "A trail circling the Negev capital connecting heritage sites and new parks.",
+      "ru": "Маршрут вокруг столицы Негева через объекты наследия и новые парки."
+    }
   }
 ]
