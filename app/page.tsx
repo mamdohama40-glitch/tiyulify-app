@@ -157,6 +157,11 @@ function UserPhotos({ item }: { item: any }) {
   return (
     <div className="relative w-full h-28 mb-2 shadow-xl rounded-[1.5rem] overflow-hidden bg-gray-100 border-2 border-white">
       <img src={current!.url} alt="" className="w-full h-full object-cover"/>
+        <button
+          onMouseDown={e => { e.stopPropagation(); e.preventDefault(); openLightbox(current!.url, current!.isUser ? current!.name : ''); }}
+          onTouchStart={e => { e.stopPropagation(); openLightbox(current!.url, current!.isUser ? current!.name : ''); }}
+          style={{position:'absolute',top:'8px',left:'8px',background:'rgba(0,0,0,0.6)',color:'white',fontSize:'11px',padding:'3px 8px',borderRadius:'12px',border:'none',cursor:'pointer',zIndex:1000}}
+        >🔍 הגדל</button>
       {current!.isUser && (
         <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-[10px] text-center py-1 px-2">
           📸 {current!.name} · {current!.date}
