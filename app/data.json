@@ -14654,64 +14654,85 @@
   {
     "id": "673",
     "name": {
-      "he": "טחנת הנזירים (טחנת עליל) - נחל ציפורי",
-      "ar": "طاحونة الرهبان - وادي صفورية",
-      "en": "Monks' Mill (Alil Mill)",
-      "ru": "Мельница монахов (Мельница Алиль)"
+      "he": "טחנות עליל (ראס עלי)",
+      "ar": "طواحين عليل",
+      "en": "Alil Flour Mill",
+      "ru": "Мельница Алиль"
     },
     "coords": [
-      32.7472,
-      35.1528
+      32.768794360188316,
+      35.15038200393705
     ],
     "category": "park",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
     "description": {
-      "he": "מבנה מרשים של טחנת קמח עתיקה מהתקופה העות'מאנית הממוקם על גדת נחל ציפורי.",
-      "ar": "بناء مثير للإعجاب لمطحنة دقيق قديمة من العصر العثماني تقع على ضفة وادي صفورية.",
-      "en": "An impressive Ottoman-era flour mill structure located on the banks of the Tzippori Stream.",
-      "ru": "Впечатляющее здание древней мукомольной мельницы османской эпохи на берегу ручья Циппори."
+      "he": "טחנת קמח עתיקה ומרשימה עם ארובה גבוהה, הממוקמת ב'פרסת' נחל ציפורי ליד הכפר ראס עלי.",
+      "ar": "طاحونة قمح قديمة ومثيرة للإعجاب ذات مدخنة عالية، تقع في 'حدوة حصان' وادي اسكندر بالقرب من قرية رأس علي.",
+      "en": "An impressive ancient flour mill with a high chimney, located at the Ras Ali bend of the Zipori Stream.",
+      "ru": "Впечатляющая древняя мельница с высокой трубой, расположенная на изгибе ручья Ципори."
     }
   },
   {
     "id": "674",
     "name": {
-      "he": "מסלול נחל ציפורי (טיילת הציפורי)",
-      "ar": "مسار وادي صفورية",
-      "en": "Tzippori Stream Trail",
-      "ru": "Маршрут ручья Циппори"
+      "he": "טחנת הנזירים",
+      "ar": "طاحونة الرهبان",
+      "en": "Monks' Mill",
+      "ru": "Мельница монахов"
     },
     "coords": [
-      32.7535,
-      35.1741
+      32.764554389836604,
+      35.15726200393717
     ],
     "category": "park",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
     "description": {
-      "he": "מסלול הליכה פסטורלי לצד נחל זורם, מעיינות ונוף כפרי גלילי.",
-      "ar": "مسار مشي ريفي بجانب وادٍ جارٍ وينابيع ومناظر طبيعية قروية في الجليل.",
-      "en": "A pastoral walking trail alongside a flowing stream, springs, and Galilean rural landscapes.",
-      "ru": "Пасторальный пешеходный маршрут вдоль проточного ручья, источников и сельских пейзажей Галилеи."
+      "he": "טחנת קמח עתיקה שנבנתה על ידי נזירים כרמליתים, מבנה אבן מרשים על גדות נחל ציפורי.",
+      "ar": "طاحونة قمح قديمة بناها الرهبان الكرمليون، وهي مبنى حجري مثير للإعجاب على ضفاف وادي اسكندر.",
+      "en": "An ancient flour mill built by Carmelite monks, an impressive stone structure on the banks of the Zipori Stream.",
+      "ru": "Старинная мельница, построенная монахами-кармелитами, каменное здание на берегу ручья."
     }
   },
   {
     "id": "675",
     "name": {
-      "he": "מסלול עגלי ראס עלי",
-      "ar": "مسار رأس علي",
-      "en": "Ras Ali Loop Trail",
-      "ru": "Круговой маршрут Рас-Али"
+      "he": "מסלול נחל ציפורי (מכעביה לראס עלי)",
+      "ar": "مسار وادي اسكندر",
+      "en": "Zipori Stream Trail",
+      "ru": "Тропа ручья Ципори"
     },
     "coords": [
-      32.7511,
-      35.1485
+      32.7665,
+      35.154
     ],
     "category": "park",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
     "description": {
-      "he": "מסלול מעגלי מרהיב המקיף את הכפר ראס עלי ועובר דרך נחל ציפורי וטחנת הנזירים.",
-      "ar": "مسار دائري رائع يحيط بقرية رأس علي ويمر عبر وادي صفورية وطاحونة الرهبان.",
-      "en": "A spectacular circular trail surrounding Ras Ali village, passing through Tzippori Stream and the Monks' Mill.",
-      "ru": "Живописный круговой маршрут вокруг деревни Рас-Али, проходящий через ручей Циппори и Мельницу монахов."
+      "he": "מסלול הליכה פסטורלי לאורך הנחל הכולל טיילת מונגשת, נופים ירוקים ומפגש עם טחנות קמח עתיקות.",
+      "ar": "مسار مشي رعوي على طول الوادي يتضمن ممشى ميسراً ومناظر خضراء ولقاء مع طواحين القمح القديمة.",
+      "en": "A pastoral hiking trail along the stream featuring an accessible promenade, green landscapes, and ancient flour mills.",
+      "ru": "Живописный маршрут вдоль ручья с благоустроенной дорожкой и видами на старые мельницы."
+    }
+  },
+  {
+    "id": "676",
+    "name": {
+      "he": "מסלול עגלי (מעגלי) ראס עלי",
+      "ar": "مسار رأس علي الدائري",
+      "en": "Ras Ali Circular Trail",
+      "ru": "Круговой маршрут Рас-Али"
+    },
+    "coords": [
+      32.771,
+      35.151
+    ],
+    "category": "park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול הליכה מעגלי היוצא ממבואת ראס עלי, עובר בטחנת עליל, תל חלי ומציע תצפית פנורמית על פרסת הנחל.",
+      "ar": "مسار مشي دائري يبدأ من مدخل رأس علي، يمر بطاحونة عليل وتل حلي ويقدم إطلالة بانورامية على حدوة الوادي.",
+      "en": "A circular hiking trail starting from the Ras Ali entrance, passing through the Alil Mill and Tel Hali with panoramic views.",
+      "ru": "Круговой маршрут от Рас-Али через мельницу Алиль и Тель-Хали с панорамным видом на изгиб ручья."
     }
   }
 ]
