@@ -15028,5 +15028,845 @@
       "en": "A well-known veteran complex in Tamra combining an authentic Middle Eastern restaurant and event halls for celebrations.",
       "ru": "Известный комплекс в Тамре, включающий аутентичный восточный ресторан и залы для торжеств."
     }
+  },
+  {
+    "id": "691",
+    "name": {
+      "he": "מסעדת תישרין (Tishreen)",
+      "ar": "مطعم تشرين",
+      "en": "Tishreen Restaurant",
+      "ru": "Ресторан Тишрин"
+    },
+    "coords": [
+      32.2285,
+      35.0089
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת שף מוערכת בטייבה המגישה מטבח ערבי מודרני עם נגיעות ים-תיכוניות.",
+      "ar": "مطعم شيف مرموق في طيبة يقدم مطبخاً عربياً عصرياً مع لمسات متوسطية.",
+      "en": "A highly regarded chef restaurant in Taibe serving modern Arabic cuisine with Mediterranean touches.",
+      "ru": "Известный ресторан в Тайбе с современной арабской кухней."
+    }
+  },
+  {
+    "id": "692",
+    "name": {
+      "he": "קפה גרניטה (Granita)",
+      "ar": "كافيه غرانيتا",
+      "en": "Granita Cafe",
+      "ru": "Кафе Гранита"
+    },
+    "coords": [
+      32.3214,
+      34.9812
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עגלת קפה ובית קפה משפחתי בלב הפארק בכפר יונה, מקום פסטורלי לארוחות בוקר.",
+      "ar": "عربة قهوة ومقهى عائلي في قلب الحديقة في كفر يونا، مكان ريفي لوجبات الإفطار.",
+      "en": "A coffee cart and family cafe in the heart of the park in Kfar Yona, a pastoral spot for breakfast.",
+      "ru": "Кофейная тележка и семейное кафе в парке в Кфар-Йоне."
+    }
+  },
+  {
+    "id": "693",
+    "name": {
+      "he": "מסעדת חנדלה (Hendale)",
+      "ar": "مطعم حنظلة",
+      "en": "Hendale Restaurant",
+      "ru": "Ресторан Хендале"
+    },
+    "coords": [
+      32.1745,
+      34.8812
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה כפרית ותיקה בגבעת ח\"ן, ידועה באווירה רגועה ותפריט מגוון לכל המשפחה.",
+      "ar": "مطعم ريفي عريق في جبعات حن، يشتهر بأجوائه الهادئة وقائمته المتنوعة للعائلة.",
+      "en": "A veteran rural restaurant in Givat Hen, known for its relaxed atmosphere and varied family menu.",
+      "ru": "Уютный сельский ресторан в Гиват-Хен с семейным меню."
+    }
+  },
+  {
+    "id": "694",
+    "name": {
+      "he": "ונילה באקה (Vanilla)",
+      "ar": "فانيلا باقة",
+      "en": "Vanilla Baqa",
+      "ru": "Ванилла Бака"
+    },
+    "coords": [
+      32.4231,
+      35.0354
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ופטיסרי פופולרי בבאקה אל-גרבייה המציע מבחר עשיר של קינוחים וקפה איכותי.",
+      "ar": "مقهى وحلواني شعبي في باقة الغربية يقدم تشكيلة غنية من الحلويات والقهوة الجيدة.",
+      "en": "A popular cafe and patisserie in Baqa al-Gharbiyye offering a rich selection of desserts and quality coffee.",
+      "ru": "Популярное кафе и кондитерская в Баке с большим выбором десертов."
+    }
+  },
+  {
+    "id": "695",
+    "name": {
+      "he": "מסעדת אג'נדה (Agenda)",
+      "ar": "مطعم أجندة",
+      "en": "Agenda Restaurant",
+      "ru": "Ресторан Аджента"
+    },
+    "coords": [
+      32.5021,
+      34.9215
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ומסעדה איטלקית-יפנית הממוקמת במחלף קיסריה, מקום מפגש מרכזי על כביש 2.",
+      "ar": "مقهى ومطعم إيطالي-ياباني عند تقاطع قيسارية، ملتقى مركزي على الطريق 2.",
+      "en": "An Italian-Japanese cafe and restaurant at Caesarea junction, a central meeting point on Route 2.",
+      "ru": "Итало-японское кафе и ресторан на развязке Кейсарии."
+    }
+  },
+  {
+    "id": "696",
+    "name": {
+      "he": "אלה פטיסרי (Ella)",
+      "ar": "إيلا باتيسيري",
+      "en": "Ella Patisserie",
+      "ru": "Кондитерская Элла"
+    },
+    "coords": [
+      32.3854,
+      34.9087
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "קונדיטוריה ובית קפה איכותי בפארק תעשיות עמק חפר, מפורסם במאפים הצרפתיים שלו.",
+      "ar": "حلواني ومقهى راقٍ في منطقة صناعية عمق حيفر، مشهور بمعجناته الفرنسية.",
+      "en": "A quality patisserie and cafe in Emek Hefer industrial park, famous for its French pastries.",
+      "ru": "Качественная кондитерская и кафе в Эмек-Хефер, известная французской выпечкой."
+    }
+  },
+  {
+    "id": "697",
+    "name": {
+      "he": "קפה גרג קניון לב חדרה",
+      "ar": "كافيه غريج حديرة",
+      "en": "Greg Cafe Hadera",
+      "ru": "Кафе Грег Хадера"
+    },
+    "coords": [
+      32.4367,
+      34.9198
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של הרשת הממוקם במרכז חדרה, מציע תפריט חלבי עשיר ואווירה קהילתית.",
+      "ar": "فرع من السلسلة في مركز حديرة، يقدم قائمة ألبان غنية وأجواء مجتمعية.",
+      "en": "A chain branch in Hadera center offering a rich dairy menu and community atmosphere.",
+      "ru": "Сеть Грег в центре Хадеры с богатым молочным меню."
+    }
+  },
+  {
+    "id": "698",
+    "name": {
+      "he": "מסעדת לה טוסקנה (La Toscana)",
+      "ar": "لا توسكانا",
+      "en": "La Toscana Raanana",
+      "ru": "Ла Тоскана Раанана"
+    },
+    "coords": [
+      32.1842,
+      34.8705
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה איטלקית כשרה ברעננה המציעה פסטות בעבודת יד ופיצות בתנור אבן.",
+      "ar": "مطعم إيطالي كوشر في رعنانا يقدم معكرونة يدوية وبيتزا بفرن حجري.",
+      "en": "A kosher Italian restaurant in Raanana offering handmade pasta and stone-oven pizzas.",
+      "ru": "Кошерный итальянский ресторан в Раанане с домашней пастой."
+    }
+  },
+  {
+    "id": "699",
+    "name": {
+      "he": "קפה ישראלה",
+      "ar": "كافيه إسرائيلا",
+      "en": "Israela Cafe",
+      "ru": "Кафе Исраэла"
+    },
+    "coords": [
+      32.1764,
+      34.9023
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה שכונתי נעים בכפר סבא המגיש אוכל ביתי ברוחב לב.",
+      "ar": "مقهى حي دافئ في كفار سابا يقدم طعاماً منزلياً بكرم.",
+      "en": "A pleasant neighborhood cafe in Kfar Saba serving home-style food with generosity.",
+      "ru": "Уютное кафе в Кфар-Сабе с домашней едой."
+    }
+  },
+  {
+    "id": "700",
+    "name": {
+      "he": "מסעדת דליקזן (Delikazan)",
+      "ar": "ديليكازان",
+      "en": "Delikazan",
+      "ru": "Деликазан"
+    },
+    "coords": [
+      32.1855,
+      34.8712
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת בשרים איכותית במרכז רעננה עם דגש על נתחים מובחרים.",
+      "ar": "مطعم لحوم فاخر في وسط رعنانا مع التركيز على القطع المختارة.",
+      "en": "A quality meat restaurant in central Raanana focusing on premium cuts.",
+      "ru": "Качественный мясной ресторан в центре Раананы."
+    }
+  },
+  {
+    "id": "701",
+    "name": {
+      "he": "ביפי רופין (BP Kosher)",
+      "ar": "بي بي روبين",
+      "en": "BP Ruppin",
+      "ru": "БП Руппин"
+    },
+    "coords": [
+      32.3512,
+      34.9123
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "דיינר בשרי כשר באזור צומת רופין, תחנת עצירה פופולרית לנוסעים בכביש 4.",
+      "ar": "دايتنر كوشر للحوم في منطقة تقاطع روبين، محطة توقف شعبية للمسافرين.",
+      "en": "A kosher meat diner near Ruppin junction, a popular stop for travelers on Route 4.",
+      "ru": "Кошерный мясной дайнер у развязки Руппин."
+    }
+  },
+  {
+    "id": "702",
+    "name": {
+      "he": "מסעדת באקארו (Buckaroo)",
+      "ar": "بوكارو",
+      "en": "Buckaroo",
+      "ru": "Букару"
+    },
+    "coords": [
+      32.1912,
+      34.8789
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת בשרים בסגנון דרום אמריקאי הממוקמת באזור התעשייה של רעננה.",
+      "ar": "مطعم لحوم على الطراز الأمريكي اللاتيني في منطقة صناعية رعنانا.",
+      "en": "A South American style meat restaurant in Raanana's industrial zone.",
+      "ru": "Южноамериканский мясной ресторан в промзоне Раананы."
+    }
+  },
+  {
+    "id": "703",
+    "name": {
+      "he": "Buy The Way",
+      "ar": "باي ذا واي",
+      "en": "Buy The Way",
+      "ru": "Бай зе Вэй"
+    },
+    "coords": [
+      32.1789,
+      34.8765
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ומסעדה בצומת רעננה הפתוח 24/7, נקודת עצירה ידועה בשרון.",
+      "ar": "مقهى ومطعم عند تقاطع رعنانا مفتوح 24/7، محطة توقف معروفة في الشارون.",
+      "en": "A cafe and restaurant at Raanana junction open 24/7, a well-known stop in the Sharon area.",
+      "ru": "Кафе и ресторан у перекрёстка Раананы, работающий круглосуточно."
+    }
+  },
+  {
+    "id": "704",
+    "name": {
+      "he": "נומילי פטיסרי",
+      "ar": "نوميلي باتيسيري",
+      "en": "Nomili Patisserie",
+      "ru": "Кондитерская Номили"
+    },
+    "coords": [
+      32.1755,
+      34.9088
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "קונדיטוריית בוטיק ובית קפה בכפר סבא, ידועה בלחמי המחמצת והקינוחים המוקפדים.",
+      "ar": "حلواني بوتيك ومقهى في كفار سابا، مشهور بخبز الخميرة والحلويات المتقنة.",
+      "en": "A boutique patisserie and cafe in Kfar Saba, known for sourdough breads and meticulous desserts.",
+      "ru": "Бутиковая кондитерская в Кфар-Сабе с хлебом на закваске."
+    }
+  },
+  {
+    "id": "705",
+    "name": {
+      "he": "מסעדת ג'מס רעננה (Jem's)",
+      "ar": "جيمس رعنانا",
+      "en": "Jem's Raanana",
+      "ru": "Джемс Раанана"
+    },
+    "coords": [
+      32.1899,
+      34.8745
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מבשלה ומסעדה המציעה בירה טרייה ואוכל פאבים איכותי באזור התעשייה.",
+      "ar": "مصنع جعة ومطعم يقدم بيرة طازجة وطعام حانات جيد في المنطقة الصناعية.",
+      "en": "A brewery and restaurant offering fresh beer and quality pub food in the industrial area.",
+      "ru": "Пивоварня и ресторан со свежим пивом в промзоне Раананы."
+    }
+  },
+  {
+    "id": "706",
+    "name": {
+      "he": "קפה פיינברג",
+      "ar": "كافيه فاينبرغ",
+      "en": "Feinberg Cafe",
+      "ru": "Кафе Файнберг"
+    },
+    "coords": [
+      32.4412,
+      34.9155
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה הממוקם במבנה היסטורי בחדרה, עם חצר ירוקה ואווירה נוסטלגית.",
+      "ar": "مقهى يقع في مبنى تاريخي في حديرة، مع فناء أخضر وأجواء نوستالجية.",
+      "en": "A cafe located in a historic building in Hadera, with a green courtyard and nostalgic atmosphere.",
+      "ru": "Кафе в историческом здании Хадеры с зелёным двориком."
+    }
+  },
+  {
+    "id": "707",
+    "name": {
+      "he": "מסעדת שגב (Meex)",
+      "ar": "مطعم شيغف",
+      "en": "Segev Meex",
+      "ru": "Ресторан Сегев"
+    },
+    "coords": [
+      32.1588,
+      34.8912
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת שף של שגב משה במתחם מיקס שרונים, חוויה קולינרית מודרנית.",
+      "ar": "مطعم شيف لشيغف موشيه في مجمع ميكس شارونيم، تجربة طهي عصرية.",
+      "en": "Chef Segev Moshe's restaurant in the Sharoni Mix complex, a modern culinary experience.",
+      "ru": "Ресторан шеф-повара Сегева Моше в комплексе Шарони Микс."
+    }
+  },
+  {
+    "id": "708",
+    "name": {
+      "he": "סנאבל באקה",
+      "ar": "سنابل باقة",
+      "en": "Sanabel Cafe",
+      "ru": "Санабель Бака"
+    },
+    "coords": [
+      32.4211,
+      35.0322
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מאפיית בוטיק ובית קפה בבאקה אל-גרבייה המשלבת מסורת ומודרניות.",
+      "ar": "مخبز بوتيك ومقهى في باقة الغربية يجمع بين التقليد والحداثة.",
+      "en": "A boutique bakery and cafe in Baqa al-Gharbiyye combining tradition and modernity.",
+      "ru": "Бутиковая пекарня и кафе в Баке, сочетающие традиции и современность."
+    }
+  },
+  {
+    "id": "709",
+    "name": {
+      "he": "קפה לנדוור מול החוף",
+      "ar": "لاندوور مول",
+      "en": "Landwer Mall",
+      "ru": "Ландвер Молл"
+    },
+    "coords": [
+      32.4288,
+      34.8899
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של רשת לנדוור במתחם מול החוף וילג', משקיף אל הים.",
+      "ar": "فرع من سلسلة لاندوور في مجمع مول هاحوف فيلاج، مطل على البحر.",
+      "en": "A Landwer chain branch in the Mall HaHof Village complex, overlooking the sea.",
+      "ru": "Кафе Ландвер в торговом центре Мол ха-Хоф с видом на море."
+    }
+  },
+  {
+    "id": "710",
+    "name": {
+      "he": "גבינות משק יעקבס",
+      "ar": "مزرعة يعكوبس",
+      "en": "Jacobs Farm",
+      "ru": "Ферма Якобс"
+    },
+    "coords": [
+      32.3788,
+      34.9144
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מחלבה ובית קפה בכפר הרא\"ה, המציע כריכים עם גבינות משק ומאפים טריים.",
+      "ar": "مزرعة ألبان ومقهى في كفار هاروئيه، يقدم سندويشات بجبن المزرعة ومعجنات طازجة.",
+      "en": "A dairy farm and cafe in Kfar HaRoe offering sandwiches with farm cheese and fresh pastries.",
+      "ru": "Молочная ферма и кафе в Кфар-ха-Роэ с фермерским сыром."
+    }
+  },
+  {
+    "id": "711",
+    "name": {
+      "he": "מסעדת ביסאן (Bisan)",
+      "ar": "مطعم بيسان",
+      "en": "Bisan Restaurant",
+      "ru": "Ресторан Бисан"
+    },
+    "coords": [
+      32.4155,
+      35.0388
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מזרחית אותנטית הממוקמת בכניסה לג'ת הסמוכה לבאקה.",
+      "ar": "مطعم شرقي أصيل يقع عند مدخل جت القريبة من باقة.",
+      "en": "An authentic Middle Eastern restaurant located at the entrance to Jatt near Baqa.",
+      "ru": "Аутентичный восточный ресторан у въезда в Джатт рядом с Бакой."
+    }
+  },
+  {
+    "id": "712",
+    "name": {
+      "he": "עגלת קפה הבאר",
+      "ar": "عربة قهوة البئر",
+      "en": "HaBeer Coffee Cart",
+      "ru": "Кофейная тележка ха-Беэр"
+    },
+    "coords": [
+      32.3766,
+      34.9133
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עגלת קפה פסטורלית בתוך משתלת הרא\"ה, חוויה כפרית שקטה.",
+      "ar": "عربة قهوة ريفية داخل مشتل هاروئيه، تجربة ريفية هادئة.",
+      "en": "A pastoral coffee cart inside the HaRoe nursery, a quiet rural experience.",
+      "ru": "Пасторальная кофейная тележка в питомнике ха-Роэ."
+    }
+  },
+  {
+    "id": "713",
+    "name": {
+      "he": "מסעדת ורונה (Verona)",
+      "ar": "مطعم فيرونا",
+      "en": "Verona Restaurant",
+      "ru": "Ресторан Верона"
+    },
+    "coords": [
+      32.4255,
+      35.0411
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה המציעה שילוב של מטבח איטלקי ומזרחי בבאקה אל-גרבייה.",
+      "ar": "مطعم يقدم مزيجاً من المطبخ الإيطالي والشرقي في باقة الغربية.",
+      "en": "A restaurant offering a blend of Italian and Middle Eastern cuisine in Baqa al-Gharbiyye.",
+      "ru": "Ресторан, сочетающий итальянскую и восточную кухню в Баке."
+    }
+  },
+  {
+    "id": "714",
+    "name": {
+      "he": "שרקפה (ShareCafe)",
+      "ar": "شير كافيه",
+      "en": "ShareCafe",
+      "ru": "ШэрКафе"
+    },
+    "coords": [
+      32.4511,
+      35.0122
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עגלת קפה חברתית בגבעת חביבה, מוקפת ירוק ושקט.",
+      "ar": "عربة قهوة اجتماعية في جبعات حبيبة، محاطة بالخضرة والهدوء.",
+      "en": "A social coffee cart in Givat Haviva, surrounded by greenery and quiet.",
+      "ru": "Социальная кофейная тележка в Гиват-Хавива среди зелени."
+    }
+  },
+  {
+    "id": "715",
+    "name": {
+      "he": "מסעדת מלך הגריל (Tayibe)",
+      "ar": "ملك الغريل",
+      "en": "King of Grill Taibe",
+      "ru": "Король Гриля Тайбе"
+    },
+    "coords": [
+      32.2244,
+      35.0066
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת בשרים על האש פופולרית בטייבה, ידועה במנות נדיבות.",
+      "ar": "مطعم مشاوي شعبي في طيبة، مشهور بحصصه السخية.",
+      "en": "A popular grill restaurant in Taibe, known for its generous portions.",
+      "ru": "Популярный ресторан-гриль в Тайбе с щедрыми порциями."
+    }
+  },
+  {
+    "id": "716",
+    "name": {
+      "he": "שואו קפה אור עקיבא",
+      "ar": "شو كافيه",
+      "en": "Show Cafe",
+      "ru": "Шоу Кафе"
+    },
+    "coords": [
+      32.4911,
+      34.9155
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה נעים בקניון אורות המציע ארוחות בוקר וקינוחים.",
+      "ar": "مقهى لطيف في كانيون أورות يقدم وجبات إفطار وحلويات.",
+      "en": "A pleasant cafe in the Orot mall offering breakfasts and desserts.",
+      "ru": "Приятное кафе в торговом центре Орот с завтраками и десертами."
+    }
+  },
+  {
+    "id": "717",
+    "name": {
+      "he": "מסעדת אל-נורא",
+      "ar": "مطعم نورا",
+      "en": "Al-Nora Restaurant",
+      "ru": "Ресторан Аль-Нора"
+    },
+    "coords": [
+      32.42,
+      35.0344
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה משפחתית המציעה תבשילים ביתיים ומנות מסורתיות בבאקה.",
+      "ar": "مطعم عائلي يقدم أطباقاً منزلية وأكلات تقليدية في باقة.",
+      "en": "A family restaurant offering home-cooked dishes and traditional meals in Baqa.",
+      "ru": "Семейный ресторан с домашней и традиционной едой в Баке."
+    }
+  },
+  {
+    "id": "718",
+    "name": {
+      "he": "הפוכות - עגלת קפה",
+      "ar": "عربة قهوة هافوخوت",
+      "en": "Hafuchot Coffee Cart",
+      "ru": "Кофейная тележка Хафухот"
+    },
+    "coords": [
+      32.3611,
+      34.8988
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עגלת קפה קסומה במושב חיבת ציון שבעמק חפר.",
+      "ar": "عربة قهوة ساحرة في موشاف حيبات تسيون في وادي حيفر.",
+      "en": "A charming coffee cart in Moshav Hibat Tzion in the Hefer Valley.",
+      "ru": "Очаровательная кофейная тележка в мошаве Хибат-Цион."
+    }
+  },
+  {
+    "id": "719",
+    "name": {
+      "he": "מסעדת ניהון נובה",
+      "ar": "مطعم نيهون نوفا",
+      "en": "Nihon Nuova",
+      "ru": "Нихон Нуова"
+    },
+    "coords": [
+      32.158,
+      34.892
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה אסייתית מודרנית במתחם שרונים, עיצוב וטעם ייחודיים.",
+      "ar": "مطعم آسيوي عصري في مجمع شارونيم بتصميم ونكهة فريدة.",
+      "en": "A modern Asian restaurant in the Sharonim complex with unique design and flavors.",
+      "ru": "Современный азиатский ресторан в комплексе Шароним."
+    }
+  },
+  {
+    "id": "720",
+    "name": {
+      "he": "קפה גרג ג'ת",
+      "ar": "كافيه غريج جت",
+      "en": "Greg Cafe Jatt",
+      "ru": "Кафе Грег Джатт"
+    },
+    "coords": [
+      32.4144,
+      35.0366
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של הרשת המשרת את תושבי אזור המשולש הצפוני.",
+      "ar": "فرع من السلسلة يخدم سكان منطقة المثلث الشمالي.",
+      "en": "A chain branch serving the residents of the northern Triangle area.",
+      "ru": "Сеть Грег для жителей северного Треугольника."
+    }
+  },
+  {
+    "id": "721",
+    "name": {
+      "he": "מסעדת סלטה (Salata)",
+      "ar": "مطعم سلاتا",
+      "en": "Salata Raanana",
+      "ru": "Салата Раанана"
+    },
+    "coords": [
+      32.1811,
+      34.8722
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת דגים ובית קפה ברעננה המציעה תפריט בריא וטרי.",
+      "ar": "مطعم أسماك ومقهى في رعنانا يقدم قائمة صحية وطازجة.",
+      "en": "A fish restaurant and cafe in Raanana offering a healthy and fresh menu.",
+      "ru": "Рыбный ресторан и кафе в Раанане со свежим и здоровым меню."
+    }
+  },
+  {
+    "id": "722",
+    "name": {
+      "he": "Star Box Coffee",
+      "ar": "ستار بوكس",
+      "en": "Star Box Coffee",
+      "ru": "Стар Бокс Кофе"
+    },
+    "coords": [
+      32.4222,
+      35.0377
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה מודרני בבאקה בסגנון רשתות בינלאומיות.",
+      "ar": "مقهى عصري في باقة على غرار السلاسل الدولية.",
+      "en": "A modern cafe in Baqa in the style of international chains.",
+      "ru": "Современное кафе в Баке в стиле международных сетей."
+    }
+  },
+  {
+    "id": "723",
+    "name": {
+      "he": "סנדביץ' בר קפה אור עקיבא",
+      "ar": "ساندويتش بار",
+      "en": "Sandwich Bar Or Akiva",
+      "ru": "Сэндвич Бар Ор Акива"
+    },
+    "coords": [
+      32.4888,
+      34.9122
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת אוכל ביתי ובית קפה ותיק במרכז העיר.",
+      "ar": "مطعم طعام منزلي ومقهى عريق في وسط المدينة.",
+      "en": "A home-style food restaurant and veteran cafe in the city center.",
+      "ru": "Ресторан домашней еды и ветеранское кафе в центре города."
+    }
+  },
+  {
+    "id": "724",
+    "name": {
+      "he": "מסעדת ג'דודנא (Jdodna)",
+      "ar": "جدودنا",
+      "en": "Jdodna Restaurant",
+      "ru": "Ресторан Дждодна"
+    },
+    "coords": [
+      32.4188,
+      35.0399
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה המעוצבת בסגנון עתיק ומגישה אוכל פלסטיני מסורתי.",
+      "ar": "مطعم مصمم بأسلوب قديم يقدم الطعام الفلسطيني التقليدي.",
+      "en": "A restaurant designed in an antique style serving traditional Palestinian food.",
+      "ru": "Ресторан в старинном стиле с традиционной палестинской кухней."
+    }
+  },
+  {
+    "id": "725",
+    "name": {
+      "he": "קפה הצבי",
+      "ar": "كافيه هاتسفي",
+      "en": "Zvi Cafe",
+      "ru": "Кафе ха-Цви"
+    },
+    "coords": [
+      32.4844,
+      34.9722
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה הממוקם באורוות האמנים בפרדס חנה, אווירה בוהמית ייחודית.",
+      "ar": "مقهى يقع في إسطبلات الفنانين في برديس حنا، بأجواء بوهيمية فريدة.",
+      "en": "A cafe located in the artists' stables in Pardes Hannah, with a unique bohemian atmosphere.",
+      "ru": "Кафе в конюшнях художников в Пардес-Ханне с богемной атмосферой."
+    }
+  },
+  {
+    "id": "726",
+    "name": {
+      "he": "מסעדת אבו פאוזי (Kalansua)",
+      "ar": "أبو فوزي",
+      "en": "Abu Fauzi Restaurant",
+      "ru": "Ресторан Абу Фаузи"
+    },
+    "coords": [
+      32.2855,
+      34.9911
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת חומוס ובשרים מפורסמת בקלנסווה, תחנת חובה לאוהבי חומוס.",
+      "ar": "مطعم حمص ولحوم مشهور في قلنسوة، محطة إلزامية لمحبي الحمص.",
+      "en": "A famous hummus and meat restaurant in Qalansawe, a must-stop for hummus lovers.",
+      "ru": "Известный ресторан хумуса и мяса в Каланасве."
+    }
+  },
+  {
+    "id": "727",
+    "name": {
+      "he": "דאלי עוגה ולחם",
+      "ar": "دالي للكعك والخبز",
+      "en": "Dali Bakery",
+      "ru": "Пекарня Дали"
+    },
+    "coords": [
+      32.4922,
+      34.9144
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מאפייה ובית קפה איכותי באור עקיבא המציע לחמים ומאפים בעבודת יד.",
+      "ar": "مخبز ومقهى راقٍ في أور عقيبا يقدم خبزاً ومعجنات يدوية.",
+      "en": "A quality bakery and cafe in Or Akiva offering handmade breads and pastries.",
+      "ru": "Качественная пекарня и кафе в Ор-Акива с ручной выпечкой."
+    }
+  },
+  {
+    "id": "728",
+    "name": {
+      "he": "מסעדת מקום של בשר (שרונים)",
+      "ar": "مكان للحوم",
+      "en": "Meat Place Sharonim",
+      "ru": "Мясное место Шароним"
+    },
+    "coords": [
+      32.1595,
+      34.8915
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של מוסד הבשרים הידוע מנווה צדק בתוך מתחם שרונים.",
+      "ar": "فرع من مؤسسة اللحوم المعروفة من نيفي تسيدك داخل مجمع شارونيم.",
+      "en": "A branch of the famous meat institution from Neve Tzedek inside the Sharonim complex.",
+      "ru": "Филиал известного мясного заведения из Неве-Цедек в комплексе Шароним."
+    }
+  },
+  {
+    "id": "729",
+    "name": {
+      "he": "קפה גרג קניון אורות",
+      "ar": "كافيه غريج أورות",
+      "en": "Greg Or Akiva",
+      "ru": "Грег Ор Акива"
+    },
+    "coords": [
+      32.4915,
+      34.9166
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נקודת מפגש פופולרית באור עקיבא לארוחות קלות וקפה.",
+      "ar": "نقطة لقاء شعبية في أور عقيبا للوجبات الخفيفة والقهوة.",
+      "en": "A popular meeting point in Or Akiva for light meals and coffee.",
+      "ru": "Популярное место встреч в Ор-Акива для лёгких блюд и кофе."
+    }
+  },
+  {
+    "id": "730",
+    "name": {
+      "he": "מסעדת אבו אליאס",
+      "ar": "أبو إلياس",
+      "en": "Abu Elias Restaurant",
+      "ru": "Ресторан Абу Элиас"
+    },
+    "coords": [
+      32.2311,
+      35.0122
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת בשרים וסלטים ותיקה בטייבה, ידועה באירוח לבבי.",
+      "ar": "مطعم لحوم وسلطات عريق في طيبة، مشهور بضيافته الحارة.",
+      "en": "A veteran meat and salads restaurant in Taibe, known for its warm hospitality.",
+      "ru": "Ветеранский мясной ресторан в Тайбе с тёплым гостеприимством."
+    }
   }
 ]
