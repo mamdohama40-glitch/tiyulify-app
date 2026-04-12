@@ -15868,5 +15868,845 @@
       "en": "A veteran meat and salads restaurant in Taibe, known for its warm hospitality.",
       "ru": "Ветеранский мясной ресторан в Тайбе с тёплым гостеприимством."
     }
+  },
+  {
+    "id": "731",
+    "name": {
+      "he": "סינטה בר (Sinta Bar)",
+      "ar": "سينتا بار",
+      "en": "Sinta Bar Haifa",
+      "ru": "Синта Бар Хайфа"
+    },
+    "coords": [
+      32.7895,
+      34.9912
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מוסד קולינרי חיפאי ידוע המציע מטבח בשרי איכותי ואווירה אורבנית בשדרות מוריה.",
+      "ar": "مؤسسة طهي حيفاوية معروفة تقدم مطبخاً لحمياً راقياً وأجواء حضرية.",
+      "en": "A well-known Haifa culinary institution offering quality meat cuisine and urban atmosphere.",
+      "ru": "Известное кулинарное заведение Хайфы с мясной кухней."
+    }
+  },
+  {
+    "id": "732",
+    "name": {
+      "he": "טאנטי באצ'י (Tanti Baci)",
+      "ar": "تانتي باتشي",
+      "en": "Tanti Baci",
+      "ru": "Танти Бачи"
+    },
+    "coords": [
+      32.7122,
+      35.1245
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה איטלקית משפחתית ואיכותית בקריית טבעון, ידועה בפסטות טריות ופיצות מצוינות.",
+      "ar": "مطعم إيطالي عائلي راقٍ في كريات تبعون، مشهور بالمعكرونة الطازجة والبيتزا الممتازة.",
+      "en": "A quality family Italian restaurant in Kiryat Tivon, known for fresh pasta and excellent pizzas.",
+      "ru": "Семейный итальянский ресторан в Кирьят-Тивоне."
+    }
+  },
+  {
+    "id": "733",
+    "name": {
+      "he": "נדב קינוחים",
+      "ar": "ندف للحلويات",
+      "en": "Nadav Desserts",
+      "ru": "Надав Десерты"
+    },
+    "coords": [
+      32.7055,
+      35.1588
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה וקונדיטוריה מפורסמת באזור התעשייה רמת ישי, יעד חובה לאוהבי פטיסרי.",
+      "ar": "مقهى وحلواني مشهور في منطقة رمات يشاي الصناعية، وجهة لا غنى عنها لمحبي الحلويات.",
+      "en": "A famous cafe and patisserie in Ramat Yishai industrial area, a must for pastry lovers.",
+      "ru": "Знаменитое кафе и кондитерская в Рамат-Йишай."
+    }
+  },
+  {
+    "id": "734",
+    "name": {
+      "he": "מסעדת לימוזין (Limousine)",
+      "ar": "مطعم ليموزين",
+      "en": "Limousine Steakhouse",
+      "ru": "Лимузин Стейкхаус"
+    },
+    "coords": [
+      32.7042,
+      35.1611
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת בשרים ואיטליז ברמת ישי, מהמובילות והוותיקות בצפון.",
+      "ar": "مطعم لحوم وجزارة في رمات يشاي، من أبرز المطاعم وأعرقها في الشمال.",
+      "en": "A meat restaurant and butcher shop in Ramat Yishai, one of the north's leading and oldest.",
+      "ru": "Мясной ресторан в Рамат-Йишай, один из лучших на севере."
+    }
+  },
+  {
+    "id": "735",
+    "name": {
+      "he": "קפה לואיז (Cafe Louise)",
+      "ar": "كافيه لويز",
+      "en": "Cafe Louise Haifa",
+      "ru": "Кафе Луиз Хайфа"
+    },
+    "coords": [
+      32.7888,
+      34.9922
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה המתמחה באוכל בריא, טבעי ואורגני בכרמל.",
+      "ar": "مقهى متخصص في الطعام الصحي والطبيعي والعضوي في الكرمل.",
+      "en": "A cafe specializing in healthy, natural and organic food in the Carmel.",
+      "ru": "Кафе со здоровой и органической едой на Кармеле."
+    }
+  },
+  {
+    "id": "736",
+    "name": {
+      "he": "מסעדת תנורין (Tanureen)",
+      "ar": "مطعم تنورين",
+      "en": "Tanureen Restaurant",
+      "ru": "Ресторан Тануриин"
+    },
+    "coords": [
+      32.7511,
+      35.1955
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מזרחית גלילית משובחת הממוקמת סמוך למחלף המוביל.",
+      "ar": "مطعم شرقي جليلي ممتاز يقع بالقرب من التقاطع الرئيسي.",
+      "en": "An excellent Galilean Middle Eastern restaurant located near the main junction.",
+      "ru": "Превосходный галилейский восточный ресторан."
+    }
+  },
+  {
+    "id": "737",
+    "name": {
+      "he": "מסעדת רולא (Rola)",
+      "ar": "مطعم رولا",
+      "en": "Rola Haifa",
+      "ru": "Ресторан Рола Хайфа"
+    },
+    "coords": [
+      32.8188,
+      34.9966
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מטבח לבנטיני מודרני בנמל חיפה, המציע פרשנות איכותית למנות מסורתיות.",
+      "ar": "مطبخ ليفانتي عصري في ميناء حيفا يقدم تفسيراً راقياً للأطباق التقليدية.",
+      "en": "A modern Levantine kitchen in Haifa port offering quality interpretation of traditional dishes.",
+      "ru": "Современная левантийская кухня в порту Хайфы."
+    }
+  },
+  {
+    "id": "738",
+    "name": {
+      "he": "קפה פיינברג (נשר)",
+      "ar": "كافيه فاينبرغ نيشر",
+      "en": "Feinberg Cafe Nesher",
+      "ru": "Кафе Файнберг Нешер"
+    },
+    "coords": [
+      32.7612,
+      35.0412
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה מקסים בנשר המציע ארוחות בוקר עשירות ואווירה ביתית.",
+      "ar": "مقهى ساحر في نيشر يقدم وجبات إفطار غنية وأجواء منزلية.",
+      "en": "A charming cafe in Nesher offering rich breakfasts and a homely atmosphere.",
+      "ru": "Уютное кафе в Нешере с богатыми завтраками."
+    }
+  },
+  {
+    "id": "739",
+    "name": {
+      "he": "מסעדת בלאק (Black) רמת ישי",
+      "ar": "بلاك بار رمات يشاي",
+      "en": "Black Bar 'n' Burger",
+      "ru": "Блэк Бар Рамат-Йишай"
+    },
+    "coords": [
+      32.7066,
+      35.1622
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של רשת ההמבורגרים הממוקם במרכז הבילוי של רמת ישי.",
+      "ar": "فرع من سلسلة البرغر في مركز الترفيه في رمات يشاي.",
+      "en": "A burger chain branch located in Ramat Yishai's entertainment center.",
+      "ru": "Бургер-сеть в развлекательном центре Рамат-Йишай."
+    }
+  },
+  {
+    "id": "740",
+    "name": {
+      "he": "מסעדת מעיין הבירה",
+      "ar": "مطعم معين هبيرا",
+      "en": "Maayan HaBira",
+      "ru": "Маайан ха-Бира"
+    },
+    "coords": [
+      32.8195,
+      34.9988
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מוסד חיפאי ותיק בעיר התחתית, ידוע בבשרים מעושנים, בירה קרה ואווירה נוסטלגית.",
+      "ar": "مؤسسة حيفاوية عريقة في المدينة السفلى، مشهورة باللحوم المدخنة والبيرة الباردة.",
+      "en": "A veteran Haifa institution in the lower city, known for smoked meats, cold beer and nostalgic atmosphere.",
+      "ru": "Ветеранское заведение Хайфы с копчёным мясом и пивом."
+    }
+  },
+  {
+    "id": "741",
+    "name": {
+      "he": "לחם ארז (רמת ישי)",
+      "ar": "لحم إيرز",
+      "en": "Lehem Erez Ramat Yishai",
+      "ru": "Лехем Эрез Рамат-Йишай"
+    },
+    "coords": [
+      32.7048,
+      35.1599
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ומאפייה המציעה לחמי מחמצת, גבינות ותפריט חלבי איכותי.",
+      "ar": "مقهى ومخبز يقدم خبز الخميرة والجبن وقائمة ألبان راقية.",
+      "en": "A cafe and bakery offering sourdough breads, cheeses, and quality dairy menu.",
+      "ru": "Кафе и пекарня с хлебом на закваске и молочным меню."
+    }
+  },
+  {
+    "id": "742",
+    "name": {
+      "he": "מסעדת דוזאן (Douzan)",
+      "ar": "دوزان",
+      "en": "Douzan Haifa",
+      "ru": "Дузан Хайфа"
+    },
+    "coords": [
+      32.8222,
+      34.9933
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה הממוקמת במבנה טמפלרי בשדרה הגרמנית, משלבת מטבח ערבי ואירופאי.",
+      "ar": "مطعم في مبنى معبدي في الحي الألماني يجمع بين المطبخ العربي والأوروبي.",
+      "en": "A restaurant in a Templar building in the German Colony, combining Arabic and European cuisine.",
+      "ru": "Ресторан в темплерском здании в Немецкой колонии."
+    }
+  },
+  {
+    "id": "743",
+    "name": {
+      "he": "אלטנו (Alteno)",
+      "ar": "ألتينو",
+      "en": "Alteno Nesher",
+      "ru": "Альтено Нешер"
+    },
+    "coords": [
+      32.7644,
+      35.0388
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה איטלקית מודרנית במתחם ספייס בנשר.",
+      "ar": "مطعم إيطالي عصري في مجمع سبيس في نيشر.",
+      "en": "A modern Italian restaurant in the Space complex in Nesher.",
+      "ru": "Современный итальянский ресторан в комплексе Спейс в Нешере."
+    }
+  },
+  {
+    "id": "744",
+    "name": {
+      "he": "קפה קפה (קניון עמקים)",
+      "ar": "كافيه كافيه",
+      "en": "Cafe Cafe Nesher",
+      "ru": "Кафе Кафе Нешер"
+    },
+    "coords": [
+      32.7622,
+      35.0355
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של הרשת הממוקם בנשר, מקום נוח לפגישות וארוחות קלות.",
+      "ar": "فرع من السلسلة في نيشر، مكان مناسب للاجتماعات والوجبات الخفيفة.",
+      "en": "A chain branch in Nesher, a convenient place for meetings and light meals.",
+      "ru": "Сеть в Нешере для встреч и лёгких блюд."
+    }
+  },
+  {
+    "id": "745",
+    "name": {
+      "he": "מסעדת קלודין",
+      "ar": "مطعم كلودين",
+      "en": "Claudine Ramat Yishai",
+      "ru": "Клодин Рамат-Йишай"
+    },
+    "coords": [
+      32.7051,
+      35.1633
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת שף בשרית כשרה ברמת ישי המציעה חוויה קולינרית אלגנטית.",
+      "ar": "مطعم شيف لحوم كوشر في رمات يشاي يقدم تجربة طهي أنيقة.",
+      "en": "A kosher chef meat restaurant in Ramat Yishai offering an elegant culinary experience.",
+      "ru": "Кошерный ресторан шефа в Рамат-Йишай."
+    }
+  },
+  {
+    "id": "746",
+    "name": {
+      "he": "שפר בר (Sheffer Bar)",
+      "ar": "شيفر بار",
+      "en": "Sheffer Bar",
+      "ru": "Шефер Бар"
+    },
+    "coords": [
+      32.7111,
+      35.1211
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גסטרו-פאב בקריית טבעון המציע אוכל מצוין לצד מגוון בירות.",
+      "ar": "غاستروبوب في كريات تبعون يقدم طعاماً ممتازاً مع مجموعة من البيرة.",
+      "en": "A gastropub in Kiryat Tivon offering excellent food alongside a variety of beers.",
+      "ru": "Гастропаб в Кирьят-Тивоне с отличной едой и пивом."
+    }
+  },
+  {
+    "id": "747",
+    "name": {
+      "he": "מסעדת פטוש (Fatoush)",
+      "ar": "فتوش",
+      "en": "Fatoush Haifa",
+      "ru": "Фатуш Хайфа"
+    },
+    "coords": [
+      32.8211,
+      34.9944
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה וגלריה בשדרה הגרמנית, ידועה בעיצוב ייחודי ובאוכל לבנטיני עשיר.",
+      "ar": "مطعم وغاليري في الحي الألماني، مشهور بتصميمه الفريد وطعامه الليفانتي الغني.",
+      "en": "A restaurant and gallery in the German Colony, known for unique design and rich Levantine food.",
+      "ru": "Ресторан-галерея в Немецкой колонии с левантийской кухней."
+    }
+  },
+  {
+    "id": "748",
+    "name": {
+      "he": "קפה מנדרין (Mandarin)",
+      "ar": "كافيه ماندرين",
+      "en": "Mandarin Haifa",
+      "ru": "Мандарин Хайфа"
+    },
+    "coords": [
+      32.7877,
+      34.9944
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "רשת בתי קפה חיפאית איכותית, סניף מרכז הכרמל הוא מהפופולריים שבהם.",
+      "ar": "سلسلة مقاهي حيفاوية راقية، وفرع مركز الكرمل من أشهرها.",
+      "en": "A quality Haifa cafe chain, the Carmel Center branch being one of the most popular.",
+      "ru": "Качественная сеть кафе Хайфы, ветвь в центре Кармеля."
+    }
+  },
+  {
+    "id": "749",
+    "name": {
+      "he": "מסעדת ויוינו (Vivino)",
+      "ar": "فيفينو",
+      "en": "Vivino Haifa",
+      "ru": "Вивино Хайфа"
+    },
+    "coords": [
+      32.7911,
+      35.0322
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "איטלקית תוססת עם טאבון עצים הממוקמת במבואות הדרומיים של חיפה.",
+      "ar": "مطعم إيطالي نابض مع فرن حطب يقع في المداخل الجنوبية لحيفا.",
+      "en": "A vibrant Italian restaurant with wood-fired oven in the southern approaches of Haifa.",
+      "ru": "Живой итальянский ресторан с дровяной печью на юге Хайфы."
+    }
+  },
+  {
+    "id": "750",
+    "name": {
+      "he": "מסעדת בשרים בכפר (Bsarim Baka)",
+      "ar": "لحوم في القرية",
+      "en": "Bsarim Baka Restaurant",
+      "ru": "Ресторан Бсарим Бака"
+    },
+    "coords": [
+      32.7488,
+      35.2511
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת בשרים אותנטית בכפר זרזיר המציעה חוויה בדואית גלילית.",
+      "ar": "مطعم لحوم أصيل في كفر زريق يقدم تجربة بدوية جليلية.",
+      "en": "An authentic meat restaurant in Kafr Zreiq offering a Bedouin Galilean experience.",
+      "ru": "Аутентичный мясной ресторан в Кафр-Зрейк с бедуинским опытом."
+    }
+  },
+  {
+    "id": "751",
+    "name": {
+      "he": "קפה עלית (צומת השומרים)",
+      "ar": "كافيه عليت",
+      "en": "Elite Coffee",
+      "ru": "Элит Кофе"
+    },
+    "coords": [
+      32.7011,
+      35.1288
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נקודת עצירה פופולרית לקפה ומאפה בצומת המרכזי ליד טבעון.",
+      "ar": "محطة توقف شعبية للقهوة والمعجنات عند التقاطع المركزي بالقرب من تبعون.",
+      "en": "A popular coffee and pastry stop at the central junction near Tivon.",
+      "ru": "Популярная кофейная остановка у центральной развязки рядом с Тивоном."
+    }
+  },
+  {
+    "id": "752",
+    "name": {
+      "he": "מסעדת מוזה (Muza)",
+      "ar": "مطعم موزا",
+      "en": "Muza Ramat Yishai",
+      "ru": "Муза Рамат-Йишай"
+    },
+    "coords": [
+      32.7077,
+      35.1644
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בר-מסעדה ותיק ברמת ישי המציע הופעות חיות ותפריט מגוון.",
+      "ar": "بار ومطعم عريق في رمات يشاي يقدم عروضاً حية وقائمة متنوعة.",
+      "en": "A veteran bar-restaurant in Ramat Yishai offering live performances and a varied menu.",
+      "ru": "Ветеранский бар-ресторан в Рамат-Йишай с живыми выступлениями."
+    }
+  },
+  {
+    "id": "753",
+    "name": {
+      "he": "שווארמה אמיל",
+      "ar": "شاورما إميل",
+      "en": "Shawarma Emil",
+      "ru": "Шаурма Эмиль"
+    },
+    "coords": [
+      32.8177,
+      35.0011
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "השווארמה המיתולוגית של חיפה בעיר התחתית.",
+      "ar": "الشاورما الأسطورية في حيفا في المدينة السفلى.",
+      "en": "Haifa's legendary shawarma in the lower city.",
+      "ru": "Легендарная шаурма Хайфы в нижнем городе."
+    }
+  },
+  {
+    "id": "754",
+    "name": {
+      "he": "מסעדת צ'וביז (Chubby's)",
+      "ar": "تشوبيز",
+      "en": "Chubby's Ramat Yishai",
+      "ru": "Чаббис Рамат-Йишай"
+    },
+    "coords": [
+      32.7059,
+      35.1605
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "דיינר המבורגרים איכותי ומעוצב ברמת ישי.",
+      "ar": "دايتنر برغر راقٍ ومصمم في رمات يشاي.",
+      "en": "A quality designed burger diner in Ramat Yishai.",
+      "ru": "Качественный бургер-дайнер в Рамат-Йишай."
+    }
+  },
+  {
+    "id": "755",
+    "name": {
+      "he": "קפה תות (Cafe Tut)",
+      "ar": "كافيه توت",
+      "en": "Cafe Tut",
+      "ru": "Кафе Тут"
+    },
+    "coords": [
+      32.7133,
+      35.1233
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ופטיסרי קטן ואיכותי בלב קריית טבעון.",
+      "ar": "مقهى وحلواني صغير وراقٍ في قلب كريات تبعون.",
+      "en": "A small quality cafe and patisserie in the heart of Kiryat Tivon.",
+      "ru": "Маленькое качественное кафе и кондитерская в центре Кирьят-Тивона."
+    }
+  },
+  {
+    "id": "756",
+    "name": {
+      "he": "מסעדת יוניק (Unique)",
+      "ar": "يونيك",
+      "en": "Unique Restaurant",
+      "ru": "Юник Ресторан"
+    },
+    "coords": [
+      32.7844,
+      35.1822
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מודרנית בכפר מנדא המציעה מגוון סגנונות בישול.",
+      "ar": "مطعم عصري في كفر مندا يقدم مجموعة متنوعة من أساليب الطبخ.",
+      "en": "A modern restaurant in Kafr Manda offering a variety of cooking styles.",
+      "ru": "Современный ресторан в Кафр-Манде с разнообразной кухней."
+    }
+  },
+  {
+    "id": "757",
+    "name": {
+      "he": "בורגר סאלון (Burger Saloon)",
+      "ar": "بورغر سالون",
+      "en": "Burger Saloon",
+      "ru": "Бургер Салун"
+    },
+    "coords": [
+      32.7022,
+      35.1311
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף הדגל של הרשת הממוקם בצומת השומרים, בשר טרי מהחווה.",
+      "ar": "الفرع الرئيسي للسلسلة في تقاطع השومרים، لحم طازج من المزرعة.",
+      "en": "The flagship branch of the chain at Hashomerim junction, fresh meat from the farm.",
+      "ru": "Флагманский филиал сети на развязке Хашомрим."
+    }
+  },
+  {
+    "id": "758",
+    "name": {
+      "he": "מסעדת אל-ראנצ'ו (El Rancho)",
+      "ar": "إل رانشو",
+      "en": "El Rancho Haifa",
+      "ru": "Эль Ранчо Хайфа"
+    },
+    "coords": [
+      32.8233,
+      34.9922
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת בשרים דרום אמריקאית וותיקה במושבה הגרמנית.",
+      "ar": "مطعم لحوم أمريكي لاتيني عريق في الحي الألماني.",
+      "en": "A veteran South American meat restaurant in the German Colony.",
+      "ru": "Ветеранский южноамериканский мясной ресторан в Немецкой колонии."
+    }
+  },
+  {
+    "id": "759",
+    "name": {
+      "he": "פסטה בסטה (Pasta Basta)",
+      "ar": "باستا باستا",
+      "en": "Pasta Basta Haifa",
+      "ru": "Паста Баста Хайфа"
+    },
+    "coords": [
+      32.8199,
+      34.9977
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פסטה טרייה בעבודת יד בשוק הטורקי בחיפה.",
+      "ar": "معكرونة طازجة يدوية في السوق التركي في حيفا.",
+      "en": "Handmade fresh pasta in Haifa's Turkish market.",
+      "ru": "Домашняя паста на турецком рынке Хайфы."
+    }
+  },
+  {
+    "id": "760",
+    "name": {
+      "he": "מסעדת קוזינה (Kuzina)",
+      "ar": "مطعم كوزينا",
+      "en": "Kuzina Nesher",
+      "ru": "Кузина Нешер"
+    },
+    "coords": [
+      32.7633,
+      35.0377
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה המגישה אוכל ביתי מגוון במתחם תל חנן.",
+      "ar": "مطعم يقدم طعاماً منزلياً متنوعاً في مجمع تل حنان.",
+      "en": "A restaurant serving varied home-style food in the Tel Hanan complex.",
+      "ru": "Ресторан с домашней едой в комплексе Тель-Ханан."
+    }
+  },
+  {
+    "id": "761",
+    "name": {
+      "he": "קפה גרג (בית שאן/חרוד)",
+      "ar": "كافيه غريج",
+      "en": "Greg Cafe Beit Shean",
+      "ru": "Грег Кафе Бейт-Шеан"
+    },
+    "coords": [
+      32.6211,
+      35.3822
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נקודת עצירה למטיילים בעמק סמוך לעין חרוד.",
+      "ar": "محطة توقف للمتنزهين في الوادي بالقرب من عين حارود.",
+      "en": "A stop for hikers in the valley near Ein Harod.",
+      "ru": "Остановка для путешественников в долине рядом с Эйн-Харод."
+    }
+  },
+  {
+    "id": "762",
+    "name": {
+      "he": "מסעדת אוריאלה",
+      "ar": "مطعم أوريالا",
+      "en": "Oriella Tivon",
+      "ru": "Ориэлла Тивон"
+    },
+    "coords": [
+      32.7125,
+      35.1222
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית אוכל מקומי בטבעון המבוסס על חומרי גלם עונתיים.",
+      "ar": "مطعم محلي في تبعون يعتمد على المواد الخام الموسمية.",
+      "en": "A local eatery in Tivon based on seasonal raw materials.",
+      "ru": "Местный ресторан в Тивоне с сезонными продуктами."
+    }
+  },
+  {
+    "id": "763",
+    "name": {
+      "he": "הקונדיטוריה של שני (Nesher)",
+      "ar": "حلواني شاني",
+      "en": "Shemo Bakery Nesher",
+      "ru": "Кондитерская Шани Нешер"
+    },
+    "coords": [
+      32.7655,
+      35.0399
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של הקונדיטוריה הידועה בנשר, מפורסמת בעוגות ומאפים.",
+      "ar": "فرع من الحلواني المعروف في نيشر، مشهور بالكعك والمعجنات.",
+      "en": "A branch of the well-known patisserie in Nesher, famous for cakes and pastries.",
+      "ru": "Филиал известной кондитерской в Нешере."
+    }
+  },
+  {
+    "id": "764",
+    "name": {
+      "he": "מסעדת צ'יז (Cheese)",
+      "ar": "مطعم تشيز",
+      "en": "Cheese Restaurant Beit Shearim",
+      "ru": "Ресторан Чиз Бейт-Шеарим"
+    },
+    "coords": [
+      32.7188,
+      35.2011
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה איטלקית כפרית במושב בית שערים, חוויה גלילית פסטורלית.",
+      "ar": "مطعم إيطالي ريفي في موشاف بيت شعريم، تجربة جليلية ريفية.",
+      "en": "A rural Italian restaurant in Moshav Beit Shearim, a pastoral Galilean experience.",
+      "ru": "Сельский итальянский ресторан в Бейт-Шеарим."
+    }
+  },
+  {
+    "id": "765",
+    "name": {
+      "he": "ביסטרו דה כרמל",
+      "ar": "بيسترو دي كرمل",
+      "en": "Bistro de Carmel Zichron",
+      "ru": "Бистро де Кармель Зихрон"
+    },
+    "coords": [
+      32.5711,
+      34.9511
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה הממוקמת ביקב כרמל בזכרון יעקב, שילוב של אוכל ויין.",
+      "ar": "مطعم يقع في كرمل وينري في زخرون يعقوف، يجمع بين الطعام والنبيذ.",
+      "en": "A restaurant located in Carmel Winery in Zichron Yaakov, combining food and wine.",
+      "ru": "Ресторан в винодельне Кармель в Зихрон-Яакове."
+    }
+  },
+  {
+    "id": "766",
+    "name": {
+      "he": "חומוס אבו שאקר",
+      "ar": "حمص أبو شاكر",
+      "en": "Abu Shaker Hummus",
+      "ru": "Хумус Абу Шакер"
+    },
+    "coords": [
+      32.8155,
+      34.9955
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אחד ממוסדות החומוס המוערכים ביותר בחיפה.",
+      "ar": "أحد أكثر مطاعم الحمص تقديراً في حيفا.",
+      "en": "One of the most highly regarded hummus institutions in Haifa.",
+      "ru": "Один из самых известных хумус-ресторанов Хайфы."
+    }
+  },
+  {
+    "id": "767",
+    "name": {
+      "he": "וופל בר (Waffle Bar) רמת ישי",
+      "ar": "وافل بار رمات يشاي",
+      "en": "Waffle Bar Ramat Yishai",
+      "ru": "Вафельный Бар Рамат-Йишай"
+    },
+    "coords": [
+      32.7088,
+      35.1655
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מקום בילוי פופולרי לקינוחים מתוקים וארוחות חלביות.",
+      "ar": "مكان ترفيه شعبي للحلويات الحلوة والوجبات الألبانية.",
+      "en": "A popular spot for sweet desserts and dairy meals.",
+      "ru": "Популярное место для сладких десертов и молочных блюд."
+    }
+  },
+  {
+    "id": "768",
+    "name": {
+      "he": "מסעדת סודפה (Sudfeh)",
+      "ar": "صدفة",
+      "en": "Sudfeh Haifa",
+      "ru": "Судфех Хайфа"
+    },
+    "coords": [
+      32.8215,
+      34.9935
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה ובר במושבה הגרמנית עם מרפסת המשקיפה לגנים הבהאיים.",
+      "ar": "مطعم وبار في الحي الألماني مع شرفة تطل على الحدائق البهائية.",
+      "en": "A restaurant and bar in the German Colony with a terrace overlooking the Bahai Gardens.",
+      "ru": "Ресторан и бар в Немецкой колонии с видом на сады Бахаи."
+    }
+  },
+  {
+    "id": "769",
+    "name": {
+      "he": "קפה בלומה (Bluma)",
+      "ar": "كافيه بلوما",
+      "en": "Bluma Cafe Tivon",
+      "ru": "Кафе Блума Тивон"
+    },
+    "coords": [
+      32.7155,
+      35.1266
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה קהילתי בטבעון המציע אווירה רגועה ואוכל טרי.",
+      "ar": "مقهى مجتمعي في تبعون يقدم أجواء هادئة وطعاماً طازجاً.",
+      "en": "A community cafe in Tivon offering a relaxed atmosphere and fresh food.",
+      "ru": "Общественное кафе в Тивоне с расслабленной атмосферой."
+    }
+  },
+  {
+    "id": "770",
+    "name": {
+      "he": "מסעדת איסקנדר (Iskender)",
+      "ar": "مطعم إسكندر",
+      "en": "Iskender Ramat Yishai",
+      "ru": "Искендер Рамат-Йишай"
+    },
+    "coords": [
+      32.7033,
+      35.1577
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה טורקית בשרית איכותית הממוקמת ברמת ישי.",
+      "ar": "مطعم تركي لحوم راقٍ في رمات يشاي.",
+      "en": "A quality Turkish meat restaurant located in Ramat Yishai.",
+      "ru": "Качественный турецкий мясной ресторан в Рамат-Йишай."
+    }
   }
 ]
