@@ -147,7 +147,7 @@ function UserPhotos({ item }: { item: any }) {
           const ext = file.name.split('.').pop();
           const fileName = `${item.id}/${Date.now()}.${ext}`;
           await supabase.storage.from('place-photos').upload(fileName, file, { upsert: true });
-          await supabase.from('place_photos').insert({ place_id: item.id, file_path: fileName, uploader_name: (document.querySelector('input[placeholder="השם שלך"]') as HTMLInputElement)?.value || 'אורח', taken_at: new Date().toISOString() });
+          await supabase.from('place_photos').insert({ place_id: item.id, file_path: fileName, uploader_name: prompt('מה השם שלך?') || 'אורח', taken_at: new Date().toISOString() });
           setRefresh(r => r+1);
         }} />
       </label>
@@ -183,7 +183,7 @@ function UserPhotos({ item }: { item: any }) {
           const ext = file.name.split('.').pop();
           const fileName = `${item.id}/${Date.now()}.${ext}`;
           await supabase.storage.from('place-photos').upload(fileName, file, { upsert: true });
-          await supabase.from('place_photos').insert({ place_id: item.id, file_path: fileName, uploader_name: (document.querySelector('input[placeholder="השם שלך"]') as HTMLInputElement)?.value || 'אורח', taken_at: new Date().toISOString() });
+          await supabase.from('place_photos').insert({ place_id: item.id, file_path: fileName, uploader_name: prompt('מה השם שלך?') || 'אורח', taken_at: new Date().toISOString() });
           setRefresh(r => r+1);
         }} />
       </label>
