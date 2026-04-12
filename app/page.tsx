@@ -13,6 +13,30 @@ import data from './data.json';
 type ViewState = 'home' | 'quiz' | 'map';
 interface GeoResult { display_name: string; lat: string; lon: string; place_id: number; }
 
+function openLightbox(url: string, name: string) {
+  const existing = document.getElementById('tiyulify-lightbox');
+  if (existing) existing.remove();
+  const el = document.createElement('div');
+  el.id = 'tiyulify-lightbox';
+  el.style.cssText = 'position:fixed;inset:0;z-index:99999;background:rgba(0,0,0,0.92);display:flex;flex-direction:column;align-items:center;justify-content:center;';
+  el.onclick = () => el.remove();
+  const img = document.createElement('img');
+  img.src = url;
+  img.style.cssText = 'max-width:95vw;max-height:85vh;object-fit:contain;border-radius:12px;';
+  img.onclick = (e: any) => e.stopPropagation();
+  const caption = document.createElement('div');
+  caption.textContent = name ? '📸 ' + name : '';
+  caption.style.cssText = 'color:white;margin-top:12px;font-size:14px;';
+  const btn = document.createElement('button');
+  btn.innerHTML = '&times;';
+  btn.style.cssText = 'position:absolute;top:16px;right:16px;color:white;font-size:32px;background:rgba(0,0,0,0.5);border:none;border-radius:50%;width:44px;height:44px;cursor:pointer;line-height:1;';
+  btn.onclick = (e: any) => { e.stopPropagation(); el.remove(); };
+  el.appendChild(img);
+  el.appendChild(caption);
+  el.appendChild(btn);
+  document.body.appendChild(el);
+}
+
 function calculateDistance(a: number, b: number, c: number, d: number): string {
   if (!a || !b || !c || !d) return "0.0";
   const R = 6371, dL = (c-a)*Math.PI/180, dLo = (d-b)*Math.PI/180;
