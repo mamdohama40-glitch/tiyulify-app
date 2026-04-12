@@ -19228,5 +19228,845 @@
       "en": "A trail circling the Negev capital connecting heritage sites and new parks.",
       "ru": "Маршрут вокруг столицы Негева через объекты наследия и новые парки."
     }
+  },
+  {
+    "id": "891",
+    "name": {
+      "he": "מסעדת יקוטה",
+      "ar": "مطعم ياكوتا",
+      "en": "Yakuta",
+      "ru": "Якута"
+    },
+    "coords": [
+      31.2411,
+      34.7955
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה מרוקאית אותנטית וותיקה בעיר העתיקה בבאר שבע.",
+      "ar": "مطعم مغربي أصيل وعريق في المدينة القديمة في بئر السبع.",
+      "en": "An authentic veteran Moroccan restaurant in the old city of Beer Sheva.",
+      "ru": "Аутентичный марокканский ресторан в старом городе Беэр-Шевы."
+    }
+  },
+  {
+    "id": "892",
+    "name": {
+      "he": "קפה לולה",
+      "ar": "كافيه لولا",
+      "en": "Lola Cafe",
+      "ru": "Кафе Лола"
+    },
+    "coords": [
+      31.2433,
+      34.7933
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה תרבותי וציורי הממוקם במבנה היסטורי בעיר העתיקה של באר שבע.",
+      "ar": "مقهى ثقافي وجميل في مبنى تاريخي في المدينة القديمة في بئر السبع.",
+      "en": "A cultural and picturesque cafe located in a historic building in Beer Sheva's old city.",
+      "ru": "Культурное кафе в историческом здании старого города Беэр-Шевы."
+    }
+  },
+  {
+    "id": "893",
+    "name": {
+      "he": "מסעדת כרמים (סגולה)",
+      "ar": "مطعم كراميم",
+      "en": "Cramim",
+      "ru": "Крамим"
+    },
+    "coords": [
+      31.2655,
+      34.8022
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת שף מוקפדת המציעה מטבח ישראלי מודרני באווירה כפרית.",
+      "ar": "مطعم شيف متقن يقدم مطبخاً إسرائيلياً عصرياً في أجواء ريفية.",
+      "en": "A meticulous chef restaurant offering modern Israeli cuisine in a rural atmosphere.",
+      "ru": "Тщательный ресторан шефа с современной израильской кухней."
+    }
+  },
+  {
+    "id": "894",
+    "name": {
+      "he": "המבשלה (ערד)",
+      "ar": "المصنع عراد",
+      "en": "The Brewery Arad",
+      "ru": "Пивоварня Арад"
+    },
+    "coords": [
+      31.2611,
+      35.2144
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פאב-מסעדה המגיש בירה מקומית המיוצרת בערד לצד תפריט בשרי עשיר.",
+      "ar": "بار-مطعم يقدم بيرة محلية مصنوعة في عراد مع قائمة لحوم غنية.",
+      "en": "A pub-restaurant serving locally brewed Arad beer alongside a rich meat menu.",
+      "ru": "Паб-ресторан с местным пивом Арада и мясным меню."
+    }
+  },
+  {
+    "id": "895",
+    "name": {
+      "he": "מסעדת המוזיאון (תל ערד)",
+      "ar": "مطعم المتحف",
+      "en": "The Museum Restaurant",
+      "ru": "Ресторан Музей"
+    },
+    "coords": [
+      31.2822,
+      35.1255
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אירוח בדואי מסורתי המציע מנות מהמטבח המדברי ליד האתר הארכיאולוגי.",
+      "ar": "ضيافة بدوية تقليدية تقدم أطباقاً من المطبخ الصحراوي بجوار الموقع الأثري.",
+      "en": "Traditional Bedouin hospitality offering desert cuisine dishes near the archaeological site.",
+      "ru": "Традиционное бедуинское гостеприимство с пустынной кухней."
+    }
+  },
+  {
+    "id": "896",
+    "name": {
+      "he": "קפה עזוז",
+      "ar": "كافيه عزوز",
+      "en": "Cafe Ezuz",
+      "ru": "Кафе Эзуз"
+    },
+    "coords": [
+      30.7955,
+      34.4655
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה מדברי מבודד וייחודי ביישוב המרוחק עזוז, על גבול סיני.",
+      "ar": "مقهى صحراوي معزول وفريد في مستوطنة عزوز النائية على حدود سيناء.",
+      "en": "An isolated and unique desert cafe in the remote settlement of Ezuz, on the Sinai border.",
+      "ru": "Изолированное уникальное пустынное кафе в отдалённом Эзузе у границы с Синаем."
+    }
+  },
+  {
+    "id": "897",
+    "name": {
+      "he": "מסעדת המצוק (מצפה רמון)",
+      "ar": "مطعم الصخرة مصبي رامون",
+      "en": "HaMtzok Restaurant",
+      "ru": "Ресторан ха-Мцок"
+    },
+    "coords": [
+      30.6111,
+      34.8022
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת ביסטרו הממוקמת על שפת מכתש רמון עם נוף פנורמי מדברי.",
+      "ar": "بيسترو يقع على حافة مكتيش رامون مع منظر صحراوي بانورامي.",
+      "en": "A bistro restaurant located on the rim of Makhtesh Ramon with panoramic desert views.",
+      "ru": "Бистро на краю кратера Рамон с панорамным пустынным видом."
+    }
+  },
+  {
+    "id": "898",
+    "name": {
+      "he": "מסעדת פנגיאה (מצפה רמון)",
+      "ar": "مطعم بانغيا",
+      "en": "Pangea",
+      "ru": "Пангея"
+    },
+    "coords": [
+      30.6122,
+      34.7988
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה אסיאתית מודרנית המשלבת חומרי גלם מקומיים במדבר.",
+      "ar": "مطعم آسيوي عصري يمزج بين المواد الخام المحلية في الصحراء.",
+      "en": "A modern Asian restaurant combining local desert ingredients.",
+      "ru": "Современный азиатский ресторан с местными пустынными продуктами."
+    }
+  },
+  {
+    "id": "899",
+    "name": {
+      "he": "מעדניית רוזמרין (מצפה רמון)",
+      "ar": "ديلي روزمارين",
+      "en": "Rosemarine Deli",
+      "ru": "Делю Розмарин"
+    },
+    "coords": [
+      30.6088,
+      34.7911
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית מאפה ומעדנייה המציעה כריכים איכותיים ומוצרים מהאזור.",
+      "ar": "مخبز وديلي يقدم سندويشات راقية ومنتجات من المنطقة.",
+      "en": "A bakery and deli offering quality sandwiches and regional products.",
+      "ru": "Пекарня и гастроном с качественными сэндвичами."
+    }
+  },
+  {
+    "id": "900",
+    "name": {
+      "he": "מסעדת טאג' מהאל (עין בוקק)",
+      "ar": "مطعم تاج محل",
+      "en": "Taj Mahal",
+      "ru": "Тадж-Махал"
+    },
+    "coords": [
+      31.1988,
+      35.3622
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה בסגנון אוהל אירוח מרוקאי בלב אזור המלונות של ים המלח.",
+      "ar": "مطعم على شكل خيمة ضيافة مغربية في قلب منطقة فنادق البحر الميت.",
+      "en": "A Moroccan hospitality tent-style restaurant in the heart of the Dead Sea hotel area.",
+      "ru": "Ресторан в марокканском стиле в зоне отелей Мёртвого моря."
+    }
+  },
+  {
+    "id": "901",
+    "name": {
+      "he": "מסעדת המנורה (עין בוקק)",
+      "ar": "مطعم المنورة",
+      "en": "The Menorah",
+      "ru": "Менора"
+    },
+    "coords": [
+      31.2011,
+      35.3611
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה בשרית כשרה המשרתת את נופשי ים המלח.",
+      "ar": "مطعم لحوم كوشر يخدم مصطافي البحر الميت.",
+      "en": "A kosher meat restaurant serving Dead Sea vacationers.",
+      "ru": "Кошерный мясной ресторан для отдыхающих на Мёртвом море."
+    }
+  },
+  {
+    "id": "902",
+    "name": {
+      "he": "ביסטרו 63 (מלון בראשית)",
+      "ar": "بيسترو 63",
+      "en": "Bistro 63",
+      "ru": "Бистро 63"
+    },
+    "coords": [
+      30.6077,
+      34.8055
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת יוקרה בלב המדבר עם נוף עוצר נשימה למכתש רמון.",
+      "ar": "مطعم فاخر في قلب الصحراء مع منظر آسر لمكتيش رامون.",
+      "en": "A luxury restaurant in the heart of the desert with breathtaking views of Makhtesh Ramon.",
+      "ru": "Роскошный ресторан в пустыне с видом на кратер Рамон."
+    }
+  },
+  {
+    "id": "903",
+    "name": {
+      "he": "מסעדת גמליא (עין יהב)",
+      "ar": "مطعم غمليا",
+      "en": "Gamalya",
+      "ru": "Гамалья"
+    },
+    "coords": [
+      30.6622,
+      35.1988
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מקום אירוח ומסעדה פשוטה וטובה בלב הערבה.",
+      "ar": "مكان ضيافة ومطعم بسيط وجيد في قلب العربة.",
+      "en": "A simple and good hospitality place and restaurant in the heart of the Arava.",
+      "ru": "Простое и хорошее место для гостей в центре Аравы."
+    }
+  },
+  {
+    "id": "904",
+    "name": {
+      "he": "פונדק נאות סמדר",
+      "ar": "نزل نيوت سمدار",
+      "en": "Neot Semadar Inn",
+      "ru": "Постоялый двор Неот-Смадар"
+    },
+    "coords": [
+      30.0511,
+      35.0288
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ומסעדה צמחונית המבוססת על תוצרת אורגנית של הקיבוץ.",
+      "ar": "مقهى ومطعم نباتي يعتمد على المنتجات العضوية للكيبوتس.",
+      "en": "A cafe and vegetarian restaurant based on the kibbutz's organic produce.",
+      "ru": "Кафе и вегетарианский ресторан на органических продуктах кибуца."
+    }
+  },
+  {
+    "id": "905",
+    "name": {
+      "he": "פונדק יטבתה",
+      "ar": "نزل يوتفاتا",
+      "en": "Yotvata Inn",
+      "ru": "Постоялый двор Йотвата"
+    },
+    "coords": [
+      29.8922,
+      35.0611
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "תחנת עצירה מפורסמת בדרך לאילת הידועה במשקאות החלב והגלידות.",
+      "ar": "محطة توقف مشهورة في طريق إيلات معروفة بمشروبات الألبان والآيس كريم.",
+      "en": "A famous stop on the way to Eilat, known for dairy drinks and ice creams.",
+      "ru": "Знаменитая остановка по дороге в Эйлат с молочными напитками и мороженым."
+    }
+  },
+  {
+    "id": "906",
+    "name": {
+      "he": "קפה ערבה (צוקים)",
+      "ar": "كافيه ألعرابا",
+      "en": "Araiva Cafe",
+      "ru": "Кафе Арава"
+    },
+    "coords": [
+      30.4855,
+      35.1588
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה וגלריה ביישוב התיירותי צוקים המציע אוכל ביתי ומאפים.",
+      "ar": "مقهى وغاليري في مستوطنة تسوكيم السياحية يقدم طعاماً منزلياً ومعجنات.",
+      "en": "A cafe and gallery in the tourist settlement of Tzukim offering home food and pastries.",
+      "ru": "Кафе и галерея в туристическом посёлке Цуким."
+    }
+  },
+  {
+    "id": "907",
+    "name": {
+      "he": "מסעדת הבוטקה (צוקים)",
+      "ar": "مطعم الكوخ",
+      "en": "The Hut",
+      "ru": "Хижина"
+    },
+    "coords": [
+      30.4866,
+      35.1611
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה בשרית קטנה ואיכותית בלב הערבה התיכונה.",
+      "ar": "مطعم لحوم صغير وراقٍ في قلب العربة الوسطى.",
+      "en": "A small quality meat restaurant in the heart of the central Arava.",
+      "ru": "Небольшой качественный мясной ресторан в центре Аравы."
+    }
+  },
+  {
+    "id": "908",
+    "name": {
+      "he": "מסעדת המחלבה (קיבוץ בארי)",
+      "ar": "مطعم المحلبة كيبوتس بئيري",
+      "en": "Beeri Dairy",
+      "ru": "Молочная Беэри"
+    },
+    "coords": [
+      31.4244,
+      34.4922
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה ובית קפה המבוססים על גבינות בוטיק המיוצרות במקום.",
+      "ar": "مطعم ومقهى يعتمدان على جبن البوتيك المصنوع محلياً.",
+      "en": "A restaurant and cafe based on boutique cheeses produced on site.",
+      "ru": "Ресторан и кафе на основе бутикового сыра местного производства."
+    }
+  },
+  {
+    "id": "909",
+    "name": {
+      "he": "מסעדת אדי'ס לודג' (אילת)",
+      "ar": "مطعم إدي لودج",
+      "en": "Eddie's Lodge Eilat",
+      "ru": "Эдди Лодж Эйлат"
+    },
+    "coords": [
+      29.5588,
+      34.9511
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אחת המסעדות הוותיקות והמוערכות באילת, ידועה במנות הסטייקים והדגים.",
+      "ar": "أحد أعرق المطاعم وأكثرها تقديراً في إيلات، مشهور بأطباق الستيك والأسماك.",
+      "en": "One of Eilat's oldest and most respected restaurants, known for steaks and fish.",
+      "ru": "Один из старейших ресторанов Эйлата со стейками и рыбой."
+    }
+  },
+  {
+    "id": "910",
+    "name": {
+      "he": "מסעדת המחבוא של אדי",
+      "ar": "مخبأ إدي",
+      "en": "Eddie's Hideaway",
+      "ru": "Убежище Эдди"
+    },
+    "coords": [
+      29.5544,
+      34.9488
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת שף אילתית קלאסית עם תפריט בינלאומי עשיר.",
+      "ar": "مطعم شيف إيلاتي كلاسيكي بقائمة دولية غنية.",
+      "en": "A classic Eilat chef restaurant with a rich international menu.",
+      "ru": "Классический ресторан шефа в Эйлате с богатым меню."
+    }
+  },
+  {
+    "id": "911",
+    "name": {
+      "he": "מסעדת פאגו פאגו (אילת)",
+      "ar": "مطعم باغو باغو",
+      "en": "Pago Pago",
+      "ru": "Пago Пago"
+    },
+    "coords": [
+      29.5522,
+      34.9622
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת דגים וסושי בר הממוקמת על המים בנמל אילת.",
+      "ar": "مطعم أسماك وسوشي بار يقع على المياه في ميناء إيلات.",
+      "en": "A fish restaurant and sushi bar located on the water in Eilat port.",
+      "ru": "Рыбный ресторан и суши-бар на воде в порту Эйлата."
+    }
+  },
+  {
+    "id": "912",
+    "name": {
+      "he": "מסעדת המפלט האחרון (אילת)",
+      "ar": "مطعم الملجأ الأخير",
+      "en": "The Last Refuge",
+      "ru": "Последнее убежище"
+    },
+    "coords": [
+      29.5055,
+      34.9255
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת דגים מיתולוגית הממוקמת בחוף הדרומי של אילת.",
+      "ar": "مطعم أسماك أسطوري يقع على الشاطئ الجنوبي لإيلات.",
+      "en": "A legendary fish restaurant located on Eilat's southern beach.",
+      "ru": "Легендарный рыбный ресторан на южном пляже Эйлата."
+    }
+  },
+  {
+    "id": "913",
+    "name": {
+      "he": "ברביס (אילת)",
+      "ar": "باربيس إيلات",
+      "en": "Barbis",
+      "ru": "Барбис Эйлат"
+    },
+    "coords": [
+      29.5577,
+      34.9544
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "דיינר אמריקאי פופולרי באילת הידוע בהמבורגרים מצוינים.",
+      "ar": "دايتنر أمريكي شعبي في إيلات مشهور بالبرغر الممتاز.",
+      "en": "A popular American diner in Eilat known for excellent burgers.",
+      "ru": "Популярный американский дайнер в Эйлате с отличными бургерами."
+    }
+  },
+  {
+    "id": "914",
+    "name": {
+      "he": "מסעדת לווייתן (אילת)",
+      "ar": "مطعم ليفياثان",
+      "en": "Leviathan",
+      "ru": "Левиафан Эйлат"
+    },
+    "coords": [
+      29.5499,
+      34.9611
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת שף מודרנית המציעה תפריט יצירתי בטיילת אילת.",
+      "ar": "مطعم شيف عصري يقدم قائمة إبداعية في كورنيش إيلات.",
+      "en": "A modern chef restaurant offering a creative menu on Eilat's promenade.",
+      "ru": "Современный ресторан шефа с творческим меню на набережной Эйлата."
+    }
+  },
+  {
+    "id": "915",
+    "name": {
+      "he": "קפה אופטימי (אילת)",
+      "ar": "كافيه أوبتيميست",
+      "en": "Cafe Optimist",
+      "ru": "Кафе Оптимист"
+    },
+    "coords": [
+      29.5511,
+      34.9588
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ומסעדה איטלקית נעימה בטיילת הצפונית של אילת.",
+      "ar": "مقهى ومطعم إيطالي لطيف في الكورنيش الشمالي لإيلات.",
+      "en": "A pleasant Italian cafe and restaurant on Eilat's northern promenade.",
+      "ru": "Приятное итальянское кафе на северной набережной Эйлата."
+    }
+  },
+  {
+    "id": "916",
+    "name": {
+      "he": "מסעדת פסטורי (אילת)",
+      "ar": "مطعم باستوري",
+      "en": "Pastory",
+      "ru": "Пасторий Эйлат"
+    },
+    "coords": [
+      29.5555,
+      34.9533
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה איטלקית קלאסית המעוצבת בסגנון טוסקני.",
+      "ar": "مطعم إيطالي كلاسيكي مصمم بأسلوب توسكاني.",
+      "en": "A classic Italian restaurant designed in Tuscan style.",
+      "ru": "Классический итальянский ресторан в тосканском стиле."
+    }
+  },
+  {
+    "id": "917",
+    "name": {
+      "he": "מסעדת המטבח של נורה (שגב שלום)",
+      "ar": "مطبخ نورة",
+      "en": "Nura's Kitchen",
+      "ru": "Кухня Нуры"
+    },
+    "coords": [
+      31.1922,
+      34.8311
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוויה קולינרית בדואית אותנטית המבוססת על בישול איטי ומסורתי.",
+      "ar": "تجربة طهو بدوية أصيلة تعتمد على الطبخ البطيء والتقليدي.",
+      "en": "An authentic Bedouin culinary experience based on slow and traditional cooking.",
+      "ru": "Аутентичный бедуинский кулинарный опыт с медленной готовкой."
+    }
+  },
+  {
+    "id": "918",
+    "name": {
+      "he": "מסעדת ספיריט (אילת)",
+      "ar": "مطعم سبيريت",
+      "en": "Spirit",
+      "ru": "Спирит Эйлат"
+    },
+    "coords": [
+      29.5515,
+      34.9625
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה בשרית יוקרתית הממוקמת בטיילת הרודס.",
+      "ar": "مطعم لحوم فاخر يقع في كورنيش هيروديس.",
+      "en": "A luxury meat restaurant located on the Herod's promenade.",
+      "ru": "Роскошный мясной ресторан на набережной Иродиона."
+    }
+  },
+  {
+    "id": "919",
+    "name": {
+      "he": "חומוס סעיד (באר שבע)",
+      "ar": "حمص سعيد بئر السبع",
+      "en": "Hummus Said Beer Sheva",
+      "ru": "Хумус Саид Беэр-Шева"
+    },
+    "coords": [
+      31.2422,
+      34.7944
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של החומוס המפורסם בלב העיר העתיקה בבאר שבע.",
+      "ar": "فرع من الحمص المشهور في قلب المدينة القديمة في بئر السبع.",
+      "en": "A branch of the famous hummus in the heart of Beer Sheva's old city.",
+      "ru": "Филиал знаменитого хумуса в старом городе Беэр-Шевы."
+    }
+  },
+  {
+    "id": "920",
+    "name": {
+      "he": "מסעדת קמפאי (באר שבע)",
+      "ar": "مطعم كامباي",
+      "en": "Kampai",
+      "ru": "Кампай Беэр-Шева"
+    },
+    "coords": [
+      31.2411,
+      34.8111
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת פיוז'ן אסייתית גדולה ופופולרית במרכז העיר.",
+      "ar": "مطعم فيوجن آسيوي كبير وشعبي في وسط المدينة.",
+      "en": "A large and popular Asian fusion restaurant in the city center.",
+      "ru": "Большой популярный азиатский фьюжн-ресторан в центре города."
+    }
+  },
+  {
+    "id": "921",
+    "name": {
+      "he": "בית קפה 99 (עין גדי)",
+      "ar": "كافيه 99 عين جدي",
+      "en": "Cafe 99 Ein Gedi",
+      "ru": "Кафе 99 Эйн-Геди"
+    },
+    "coords": [
+      31.4588,
+      35.3855
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה רגוע בקיבוץ עין גדי המשקיף אל ים המלח והרי מואב.",
+      "ar": "مقهى هادئ في كيبوتس عين جدي يطل على البحر الميت وجبال مؤاب.",
+      "en": "A peaceful cafe at Kibbutz Ein Gedi overlooking the Dead Sea and Moab mountains.",
+      "ru": "Спокойное кафе в кибуце Эйн-Геди с видом на Мёртвое море."
+    }
+  },
+  {
+    "id": "922",
+    "name": {
+      "he": "מסעדת באו (באר שבע)",
+      "ar": "مطعم باو",
+      "en": "Bao",
+      "ru": "Бао Беэр-Шева"
+    },
+    "coords": [
+      31.2522,
+      34.7955
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת סטריט פוד אסייתית המתמקדת בלחמניות באו מאודות.",
+      "ar": "مطعم طعام شارع آسيوي يركز على خبز الباو المطهو بالبخار.",
+      "en": "An Asian street food restaurant focusing on steamed bao buns.",
+      "ru": "Азиатский стрит-фуд ресторан с паровыми булочками бао."
+    }
+  },
+  {
+    "id": "923",
+    "name": {
+      "he": "מסעדת לה פנורמה (עין בוקק)",
+      "ar": "مطعم لا بانوراما",
+      "en": "La Panorama",
+      "ru": "Ла Панорама"
+    },
+    "coords": [
+      31.1955,
+      35.3633
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה המציעה תפריט ים תיכוני מול חופי ים המלח.",
+      "ar": "مطعم يقدم قائمة متوسطية مقابل شواطئ البحر الميت.",
+      "en": "A restaurant offering Mediterranean menu facing the Dead Sea shores.",
+      "ru": "Ресторан со средиземноморским меню у берегов Мёртвого моря."
+    }
+  },
+  {
+    "id": "924",
+    "name": {
+      "he": "מסעדת שף 'הקצה' (מצפה רמון)",
+      "ar": "مطعم هاكاتسي",
+      "en": "Hakatze",
+      "ru": "Хакаце"
+    },
+    "coords": [
+      30.6133,
+      34.8011
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אוכל ביתי מבושל בלב רובע דרכי הבשמים במצפה רמון.",
+      "ar": "طعام منزلي مطهو في قلب حي درب البخور في مصبي رامون.",
+      "en": "Home-cooked food in the heart of the Incense Route quarter in Mitzpe Ramon.",
+      "ru": "Домашняя еда в сердце квартала Пути благовоний."
+    }
+  },
+  {
+    "id": "925",
+    "name": {
+      "he": "קפה נטו (באר שבע)",
+      "ar": "كافيه نيتو",
+      "en": "Cafe Netto",
+      "ru": "Кафе Нетто"
+    },
+    "coords": [
+      31.2588,
+      34.8022
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף רשת בתי הקפה הממוקם בפארק ההייטק בבאר שבע.",
+      "ar": "فرع من سلسلة المقاهي في حديقة هاي-تك في بئر السبع.",
+      "en": "A cafe chain branch located in Beer Sheva's high-tech park.",
+      "ru": "Филиал сети кафе в технопарке Беэр-Шевы."
+    }
+  },
+  {
+    "id": "926",
+    "name": {
+      "he": "מסעדת קאזה דו ברזיל (אילת)",
+      "ar": "مطعم كازا دو برازيل",
+      "en": "Casa do Brasil",
+      "ru": "Каза до Бразил"
+    },
+    "coords": [
+      29.5566,
+      34.9522
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת בשרים בסגנון ברזילאי המגישה נתחים בשיטת 'אשקטו'.",
+      "ar": "مطعم لحوم برازيلي يقدم القطع بطريقة 'أشكتو'.",
+      "en": "A Brazilian-style meat restaurant serving cuts using the 'espeto' method.",
+      "ru": "Бразильский мясной ресторан в стиле эспето."
+    }
+  },
+  {
+    "id": "927",
+    "name": {
+      "he": "מסעדת מיקה (אילת)",
+      "ar": "مطعم ميكا",
+      "en": "Mika",
+      "ru": "Мика Эйлат"
+    },
+    "coords": [
+      29.5511,
+      34.9605
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדה אסייתית מגוונת במיקום מרכזי באזור המלונות.",
+      "ar": "مطعم آسيوي متنوع في موقع مركزي في منطقة الفنادق.",
+      "en": "A diverse Asian restaurant in a central location in the hotel area.",
+      "ru": "Разнообразный азиатский ресторан в центре гостиничной зоны."
+    }
+  },
+  {
+    "id": "928",
+    "name": {
+      "he": "מסעדת המזח (עין גב)",
+      "ar": "مطعم الرصيف",
+      "en": "HaMizah",
+      "ru": "ха-Мизах"
+    },
+    "coords": [
+      32.8122,
+      35.6388
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת דגים ובשרים על המזח בנמל עין גב.",
+      "ar": "مطعم أسماك ولحوم على الرصيف في ميناء عين جف.",
+      "en": "A fish and meat restaurant on the pier in Ein Gev harbor.",
+      "ru": "Рыбный и мясной ресторан на причале порта Эйн-Гев."
+    }
+  },
+  {
+    "id": "929",
+    "name": {
+      "he": "בורגרים (דימונה)",
+      "ar": "برغريم ديمونا",
+      "en": "Burgerim Dimona",
+      "ru": "Бургерим Димона"
+    },
+    "coords": [
+      31.0688,
+      35.0311
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסעדת המבורגרים מהירה במרכז המסחרי של דימונה.",
+      "ar": "مطعم برغر سريع في المركز التجاري في ديمونا.",
+      "en": "A fast burger restaurant in Dimona's commercial center.",
+      "ru": "Быстрый бургер-ресторан в торговом центре Димоны."
+    }
+  },
+  {
+    "id": "930",
+    "name": {
+      "he": "קפה קפה (באר שבע)",
+      "ar": "كافيه كافيه بئر السبع",
+      "en": "Cafe Cafe Beer Sheva",
+      "ru": "Кафе Кафе Беэр-Шева"
+    },
+    "coords": [
+      31.2511,
+      34.7822
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של הרשת בגרנד קניון בבאר שבע.",
+      "ar": "فرع من السلسلة في غراند كانيون في بئر السبع.",
+      "en": "A chain branch in the Grand Canyon mall in Beer Sheva.",
+      "ru": "Филиал сети в торговом центре Гранд-Каньон в Беэр-Шеве."
+    }
   }
 ]
