@@ -592,7 +592,7 @@ export default function TiyulifyApp() {
               <div className="text-center"><div className="text-6xl mb-4 animate-spin">🗺️</div><p className="text-gray-500 font-bold text-xl">{labels[activeLang].loading}</p></div>
             </div>
           ) : (()=>{
-            const {MapContainer, TileLayer, Marker, Popup} = LeafletMapLib;
+            const {MapContainer, TileLayer, Marker, Popup, useMapEvents} = LeafletMapLib;
             return (
               <div className="flex-1 flex relative overflow-hidden">
                 {/* Sidebar */}
