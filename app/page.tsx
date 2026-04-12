@@ -295,6 +295,69 @@ function CompactPopup({ item, pd, activeLang, labels, shareOnWhatsApp }: { item:
   );
 }
 
+
+// === לחיצה על המפה - מידע מ-OpenStreetMap ===
+function MapClickHandler({ activeLang, labels }: { activeLang: string; labels: any }) {
+  const [clickInfo, setClickInfo] = React.useState<any>(null);
+  const [loading, setLoading] = React.useState(false);
+
+  const { useMapEvents } = require('react-leaflet');
+
+  useMapEvents({
+    click: async (e: any) => {
+      const { lat, lng } = e.latlng;
+      setLoading(true);
+      setClickInfo(null);
+      try {
+        const res = await fetch(
+          `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&addressdetails=1&accept-language=he`,
+          { headers: { 'Accept-Language': 'he' } }
+        );
+        const data = await res.json();
+        setClickInfo({ lat, lng, data });
+      } catch(e) {
+        setClickInfo({ lat, lng, data: null });
+      }
+      setLoading(false);
+    }
+  });
+
+  if (!clickInfo && !loading) return null;
+
+  const d = clickInfo?.data;
+  const name = d?.name || d?.display_name?.split(',')[0] || 'מיקום לא ידוע';
+  const address = d?.display_name || '';
+  const type = d?.type || d?.category || '';
+  const lat = clickInfo?.lat?.toFixed(5);
+  const lng = clickInfo?.lng?.toFixed(5);
+
+  const { Popup } = require('react-leaflet');
+  const L = require('leaflet');
+
+  return clickInfo ? (
+    <Popup position={[clickInfo.lat, clickInfo.lng]} onClose={() => setClickInfo(null)}>
+      <div style={{direction:'rtl',minWidth:'220px',fontFamily:'Arial,sans-serif'}}>
+        {loading ? (
+          <div style={{textAlign:'center',padding:'10px'}}>⏳ טוען...</div>
+        ) : (
+          <>
+            <h4 style={{margin:'0 0 6px',fontSize:'15px',fontWeight:'bold',color:'#166534'}}>{name}</h4>
+            {type && <span style={{fontSize:'11px',background:'#dcfce7',color:'#166534',padding:'2px 8px',borderRadius:'12px',display:'inline-block',marginBottom:'8px'}}>{type}</span>}
+            <p style={{fontSize:'11px',color:'#6b7280',margin:'0 0 8px',lineHeight:'1.4'}}>{address}</p>
+            <p style={{fontSize:'10px',color:'#9ca3af',margin:'0 0 10px'}}>📍 {lat}, {lng}</p>
+            <div style={{display:'flex',gap:'6px',flexWrap:'wrap'}}>
+              <a href={`https://www.waze.com/ul?ll=${clickInfo.lat},${clickInfo.lng}&navigate=yes`} target="_blank"
+                style={{flex:1,background:'#2563eb',color:'white',textAlign:'center',padding:'6px',borderRadius:'8px',fontSize:'11px',fontWeight:'bold',textDecoration:'none'}}>WAZE</a>
+              <a href={`https://www.google.com/maps?q=${clickInfo.lat},${clickInfo.lng}`} target="_blank"
+                style={{flex:1,background:'#f3f4f6',color:'#374151',textAlign:'center',padding:'6px',borderRadius:'8px',fontSize:'11px',fontWeight:'bold',textDecoration:'none'}}>Google</a>
+            </div>
+          </>
+        )}
+      </div>
+    </Popup>
+  ) : null;
+}
+
 // === שכבות מפה ===
 const MAP_LAYERS = [
   { id:'standard',  label:'🗺️ רגיל',   url:'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', attribution:'©CARTO' },
@@ -609,6 +672,7 @@ export default function TiyulifyApp() {
                     {userCoords && <span className="text-green-600">📍 ממוין לפי קרבה</span>}
                   </div>
                   <div className="space-y-8">
+                    <MapClickHandler activeLang={activeLang} labels={labels} />
                     {filteredItems.map((item:any)=>{
                       const d = userCoords ? calculateDistance(userCoords[0],userCoords[1],item.coords[0],item.coords[1]) : null;
                       return (
@@ -654,6 +718,7 @@ export default function TiyulifyApp() {
                         </Popup>
                       </Marker>
                     )}
+                    <MapClickHandler activeLang={activeLang} labels={labels} />
                     {filteredItems.map((item:any)=>{
                       const pd = userCoords ? calculateDistance(userCoords[0],userCoords[1],item.coords[0],item.coords[1]) : null;
                       const catEmoji: Record<string,string> = {
