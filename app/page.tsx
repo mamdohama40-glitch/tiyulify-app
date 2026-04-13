@@ -211,6 +211,29 @@ const CAT_EMOJI: Record<string,string> = {
 };
 
 function SmartImage({ item, className }: { item: any; className?: string }) {
+  const color = CAT_COLOR[item.category] || CAT_COLOR.default;
+  const emoji = CAT_EMOJI[item.category] || CAT_EMOJI.default;
+  const img = item.image && item.image.trim() !== '' ? item.image.trim() : null;
+
+  if (!img) {
+    return (
+      <div className={className} style={{
+        background: `linear-gradient(135deg,${color}22,${color}44)`,
+        display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'8px',border:`2px solid ${color}33`
+      }}>
+        <span style={{fontSize:'2.5rem'}}>{emoji}</span>
+        <span style={{fontSize:'0.7rem',fontWeight:800,color,textAlign:'center',padding:'0 8px',opacity:0.8}}>{item.name?.he||item.name?.en||''}</span>
+      </div>
+    );
+  }
+
+  return (
+    <img src={img} className={className} alt={item.name?.he||item.name?.en||''}
+      style={{objectFit:'cover',width:'100%',height:'100%'}}
+      onError={(e:any)=>{ e.target.style.display='none'; }}
+    />
+  );
+}: { item: any; className?: string }) {
   const isWiki = (item.image||'').includes('wikimedia') || (item.image||'').includes('wikipedia');
   const [status, setStatus] = React.useState<'img'|'wiki'|'icon'>(isWiki ? 'img' : 'img');
   const [src, setSrc] = React.useState(item.image||'');
