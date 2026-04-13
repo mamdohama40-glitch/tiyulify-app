@@ -559,7 +559,6 @@ export default function TiyulifyApp() {
                   <img src="/Logo- Mamdoh1.gif" alt="Logo" className="w-10 h-10 md:w-16 md:h-16 rounded-full border-2 border-green-500 transition-transform duration-700 group-hover:rotate-[360deg] object-cover"/>
                 </a>
                 <h2 className="text-2xl md:text-5xl font-black text-green-700 cursor-pointer italic tracking-tight uppercase" onClick={()=>setActiveView('home')}>Tiyulify</h2>
-                <button onClick={()=>setActiveView('home')} className="md:hidden flex items-center justify-center w-9 h-9 rounded-xl bg-white border-2 border-green-500 shadow-sm active:scale-90 transition-all text-xl">🏠</button>
 
               </div>
               <div className="hidden md:flex gap-1 bg-gray-100 p-1 md:p-2 rounded-xl shadow-inner border border-gray-200">
@@ -806,10 +805,10 @@ export default function TiyulifyApp() {
 
                   {/* ===== כפתורי שליטה ===== */}
                   <div className="absolute bottom-6 left-6 z-[2000] flex flex-col gap-4">
-                    <button onClick={handleSurpriseMe} className="hidden md:flex bg-green-600 text-white w-28 h-28 rounded-full shadow-2xl flex-col items-center justify-center text-xs font-black border-4 border-white hover:bg-green-700 transition-all transform hover:scale-110 active:scale-90">
-                      <span className="text-6xl mb-1">🎲</span>{labels[activeLang].surprise}
+                    <button onClick={handleSurpriseMe} className="bg-green-600 text-white w-16 h-16 md:w-28 md:h-28 rounded-full shadow-2xl flex flex-col items-center justify-center text-[10px] md:text-xs font-black border-4 border-white hover:bg-green-700 transition-all transform hover:scale-110 active:scale-90">
+                      <span className="text-2xl md:text-6xl mb-1">🎲</span>{labels[activeLang].surprise}
                     </button>
-                    <button onClick={()=>setActiveView('home')} className="hidden md:flex bg-white text-green-600 w-20 h-20 rounded-full shadow-2xl items-center justify-center text-5xl border-4 border-green-600 hover:bg-green-50 transition-all transform hover:scale-110 active:scale-90">🏠</button>
+                    <button onClick={()=>setActiveView('home')} className="bg-white text-green-600 w-12 h-12 md:w-20 md:h-20 rounded-full shadow-2xl flex items-center justify-center text-3xl md:text-5xl border-2 md:border-4 border-green-600 hover:bg-green-50 transition-all transform hover:scale-110 active:scale-90">🏠</button>
                   </div>
 
                   {/* ===== בורר שכבות מפה ===== */}
