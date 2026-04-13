@@ -131,7 +131,7 @@ function UserPhotos({ item }: { item: any }) {
   };
   const catEmoji: Record<string,string> = {
     water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-    food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',attractions:'🎡',default:'📍'
+    food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',default:'📍'
   };
   const color = catColor[item.category] || catColor.default;
   const emoji = catEmoji[item.category] || catEmoji.default;
@@ -207,7 +207,7 @@ const CAT_COLOR: Record<string,string> = {
 };
 const CAT_EMOJI: Record<string,string> = {
   water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-  food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',attractions:'🎡',default:'📍'
+  food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',default:'📍'
 };
 
 function SmartImage({ item, className }: { item: any; className?: string }) {
@@ -589,8 +589,8 @@ export default function TiyulifyApp() {
                   const name = d?.name || d?.display_name?.split(',')[0] || `${lat.toFixed(4)}, ${lng.toFixed(4)}`;
                   const addr = (d?.display_name||'').split(',').slice(0,4).join(', ');
                   const type = d?.type || d?.category || '';
-                  const userLat = userLocation?.[0];
-                  const userLng = userLocation?.[1];
+                  const userLat = userCoords?.[0];
+                  const userLng = userCoords?.[1];
                   const dist = userLat && userLng ? calculateDistance(userLat, userLng, lat, lng) : null;
                   const L = (window as any).L || map;
                   const popup = (await import('leaflet')).default.popup()
@@ -708,8 +708,8 @@ export default function TiyulifyApp() {
                   const name = d?.name || d?.display_name?.split(',')[0] || `${lat.toFixed(4)}, ${lng.toFixed(4)}`;
                   const addr = (d?.display_name||'').split(',').slice(0,4).join(', ');
                   const type = d?.type || d?.category || '';
-                  const userLat = userLocation?.[0];
-                  const userLng = userLocation?.[1];
+                  const userLat = userCoords?.[0];
+                  const userLng = userCoords?.[1];
                   const dist = userLat && userLng ? calculateDistance(userLat, userLng, lat, lng) : null;
                   const L = (window as any).L || map;
                   const popup = (await import('leaflet')).default.popup()
