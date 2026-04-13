@@ -489,8 +489,8 @@ export default function TiyulifyApp() {
   const handleSelectGeoResult = (result: GeoResult) => {
     const coords: [number,number] = [parseFloat(result.lat), parseFloat(result.lon)];
     setSearchMarker(coords);
-    setSearchMarkerName(result.display_name.split(',')[0]);
-    setGeoQuery(result.display_name.split(',')[0]);
+    setSearchMarkerName(result.name || result.display_name.split(",")[0]);
+    setGeoQuery(result.name || result.display_name.split(",")[0]);
     setGeoResults([]);
     if (mapControl.current) mapControl.current.flyTo(coords, 15, {animate:true, duration:1.5});
   };
