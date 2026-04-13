@@ -480,7 +480,7 @@ export default function TiyulifyApp() {
       setGeoLoading(true);
       try {
         const lang = activeLang==='he'?'he':activeLang==='ar'?'ar':'en';
-        const r = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&countrycodes=il&limit=6&accept-language=${lang}`);
+        const r = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&limit=8&accept-language=${lang}&addressdetails=1`);
         setGeoResults(await r.json());
       } catch(e) {} finally { setGeoLoading(false); }
     }, 400);
@@ -674,7 +674,13 @@ export default function TiyulifyApp() {
                       <button key={r.place_id} onClick={()=>handleSelectGeoResult(r)}
                         className="w-full text-right px-4 py-3 hover:bg-green-50 border-b border-gray-100 last:border-0 text-sm font-semibold text-gray-700 flex items-center gap-3 transition-colors">
                         <span className="text-green-500 text-lg shrink-0">📍</span>
-                        <span className="truncate text-right flex-1">{r.display_name}</span>
+                        <span className="text-right flex-1 leading-tight" style={{fontSize:'0.82rem'}}>
+                        <span className="font-semibold block truncate">{r.display_name.split(',')[0]}</span>
+                        <span className="text-gray-500 block truncate text-xs">{r.display_name.split(',').slice(1,3).join(',')}</span>
+                        {r.address?.country_code === 'il' && userCoords && (
+                          <span className="text-green-600 block text-xs">{Math.round(Math.sqrt(Math.pow((parseFloat(r.lat)-userCoords[0])*111,2)+Math.pow((parseFloat(r.lon)-userCoords[1])*111,2)))} ק"מ</span>
+                        )}
+                      </span>
                       </button>
                     ))}
                   </div>
