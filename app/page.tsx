@@ -573,7 +573,7 @@ export default function TiyulifyApp() {
               </button>
             </div>
 
-            <div className={`flex-col lg:flex-row gap-3 md:gap-6 w-full px-2 overflow-hidden transition-all duration-700 ease-in-out md:flex md:max-h-96 md:opacity-100 ${showMobileHeader ? "flex max-h-96 opacity-100" : "max-h-0 opacity-0"}`}>
+            <div className={`flex-col lg:flex-row gap-3 md:gap-6 w-full px-2 md:flex overflow-hidden transition-all duration-700 ease-in-out ${showMobileHeader ? "flex max-h-96 opacity-100" : "hidden max-h-0 opacity-0"}`}>
               {/* חיפוש */}
               <div className="flex-1 relative" onClick={async (e: React.MouseEvent<HTMLDivElement>) => {
                 const map = mapControl.current;
