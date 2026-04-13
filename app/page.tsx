@@ -272,12 +272,12 @@ function CompactPopup({ item, pd, activeLang, labels, shareOnWhatsApp }: { item:
           )}
           {item.info.season && item.info.season !== 'all' && (
             <span className="text-[10px] bg-blue-50 text-blue-700 border border-blue-200 px-2 py-0.5 rounded-full font-bold">
-              {item.info.season==='summer'?'☀️ קיץ':item.info.season==='winter'?'❄️ חורף':item.info.season==='autumn'?'🍂 סתיו':item.info.season}
+              {item.info.season==='summer'?(activeLang==='ar'?'☀️ صيف':activeLang==='en'?'☀️ Summer':activeLang==='ru'?'☀️ Лето':'☀️ קיץ'):item.info.season==='winter'?(activeLang==='ar'?'❄️ شتاء':activeLang==='en'?'❄️ Winter':activeLang==='ru'?'❄️ Зима':'❄️ חורף'):item.info.season==='autumn'?(activeLang==='ar'?'🍂 خريف':activeLang==='en'?'🍂 Autumn':activeLang==='ru'?'🍂 Осень':'🍂 סתיו'):item.info.season}
             </span>
           )}
           {item.info.target && item.info.target !== 'all' && (
             <span className="text-[10px] bg-green-50 text-green-700 border border-green-200 px-2 py-0.5 rounded-full font-bold">
-              {item.info.target==='family'?'👨‍👩‍👧 משפחות':item.info.target==='adults'?'👤 מבוגרים':item.info.target==='kids'?'🧒 ילדים':item.info.target}
+              {item.info.target==='family'?(activeLang==='ar'?'👨‍👩‍👧 عائلات':activeLang==='en'?'👨‍👩‍👧 Families':activeLang==='ru'?'👨‍👩‍👧 Семьи':'👨‍👩‍👧 משפחות'):item.info.target==='adults'?(activeLang==='ar'?'👤 بالغون':activeLang==='en'?'👤 Adults':activeLang==='ru'?'👤 Взрослые':'👤 מבוגרים'):item.info.target==='kids'?(activeLang==='ar'?'🧒 أطفال':activeLang==='en'?'🧒 Kids':activeLang==='ru'?'🧒 Дети':'🧒 ילדים'):item.info.target}
             </span>
           )}
         </div>
