@@ -335,6 +335,7 @@ export default function TiyulifyApp() {
   const [activeMapLayer, setActiveMapLayer] = useState('standard');
   const [showLayerPicker, setShowLayerPicker] = useState(false);
   const [showSidebar, setShowSidebar] = useState(false);
+  const [showMobileHeader, setShowMobileHeader] = useState(false);
   const [geoQuery, setGeoQuery] = useState('');
   const [geoResults, setGeoResults] = useState<GeoResult[]>([]);
   const [geoLoading, setGeoLoading] = useState(false);
@@ -558,15 +559,23 @@ export default function TiyulifyApp() {
                   <img src="/Logo- Mamdoh1.gif" alt="Logo" className="w-10 h-10 md:w-16 md:h-16 rounded-full border-2 border-green-500 transition-transform duration-700 group-hover:rotate-[360deg] object-cover"/>
                 </a>
                 <h2 className="text-2xl md:text-5xl font-black text-green-700 cursor-pointer italic tracking-tight uppercase" onClick={()=>setActiveView('home')}>Tiyulify</h2>
+                <button onClick={()=>setShowMobileHeader(s=>!s)}
+                  className="md:hidden flex flex-col gap-[5px] justify-center items-center w-9 h-9 rounded-xl bg-gray-100 border border-gray-200 shadow-sm active:scale-90 transition-all">
+                  {showMobileHeader ? <span className="text-gray-600 text-lg font-black">✕</span> : (<><span className="w-5 h-0.5 bg-gray-600 rounded-full"/><span className="w-5 h-0.5 bg-gray-600 rounded-full"/><span className="w-3 h-0.5 bg-gray-600 rounded-full"/></>)}
+                </button>
               </div>
-              <div className="flex gap-1 bg-gray-100 p-1 md:p-2 rounded-xl shadow-inner border border-gray-200">
+              <div className="hidden md:flex gap-1 bg-gray-100 p-1 md:p-2 rounded-xl shadow-inner border border-gray-200">
                 {['he','ar','en','ru'].map(l=>(
                   <button key={l} onClick={()=>{setActiveLang(l);clearSearch();}} className={`px-2 py-1 md:px-4 md:py-2 rounded-lg text-[10px] md:text-xs font-bold transition-all ${activeLang===l?'bg-green-600 text-white shadow-md':'text-gray-400 hover:text-gray-600'}`}>{l.toUpperCase()}</button>
                 ))}
               </div>
+              <button className="md:hidden flex items-center justify-center bg-green-600 text-white font-black text-sm w-10 h-10 rounded-xl shadow-md active:scale-90 transition-all border-2 border-green-700"
+                onClick={()=>{const langs=['he','ar','en','ru'];setActiveLang(langs[(langs.indexOf(activeLang)+1)%langs.length]);clearSearch();}}>
+                {activeLang.toUpperCase()}
+              </button>
             </div>
 
-            <div className="flex flex-col lg:flex-row gap-3 md:gap-6 w-full px-2">
+            <div className={`flex-col lg:flex-row gap-3 md:gap-6 w-full px-2 md:flex ${showMobileHeader ? "flex" : "hidden"}`}>
               {/* חיפוש */}
               <div className="flex-1 relative" onClick={async (e: React.MouseEvent<HTMLDivElement>) => {
                 const map = mapControl.current;
