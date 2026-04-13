@@ -211,7 +211,8 @@ const CAT_EMOJI: Record<string,string> = {
 };
 
 function SidebarImage({ item, className }: { item: any; className?: string }) {
-  const [src, setSrc] = React.useState<string|null>(null);
+  const [photos, setPhotos] = React.useState<string[]>([]);
+  const [idx, setIdx] = React.useState(0);
   const color = CAT_COLOR[item.category] || CAT_COLOR.default;
   const emoji = CAT_EMOJI[item.category] || CAT_EMOJI.default;
 
@@ -220,16 +221,19 @@ function SidebarImage({ item, className }: { item: any; className?: string }) {
       .select('file_path')
       .eq('place_id', item.id)
       .order('taken_at', { ascending: false })
-      .limit(1)
       .then(({ data }) => {
         if (data && data.length > 0) {
-          const { data: urlData } = supabase.storage.from('place-photos').getPublicUrl(data[0].file_path);
-          setSrc(urlData?.publicUrl || null);
+          const urls = data.map((p:any) => {
+            const { data: u } = supabase.storage.from('place-photos').getPublicUrl(p.file_path);
+            return u?.publicUrl || '';
+          }).filter(Boolean);
+          setPhotos(urls);
+          setIdx(0);
         }
       });
   }, [item.id]);
 
-  if (!src) {
+  if (photos.length === 0) {
     return (
       <div className={className} style={{
         background: `linear-gradient(135deg,${color}22,${color}44)`,
@@ -241,7 +245,20 @@ function SidebarImage({ item, className }: { item: any; className?: string }) {
     );
   }
 
-  return <img src={src} className={className} alt={item.name?.he||''} style={{objectFit:'cover',width:'100%',height:'100%'}}/>;
+  return (
+    <div className={className} style={{position:'relative',overflow:'hidden',width:'100%',height:'100%',minHeight:'120px'}}>
+      <img src={photos[idx]} alt={item.name?.he||''} style={{objectFit:'cover',width:'100%',height:'100%'}}/>
+      {photos.length > 1 && (
+        <>
+          <button onClick={(e)=>{e.stopPropagation();setIdx((idx-1+photos.length)%photos.length);}}
+            style={{position:'absolute',left:4,top:'50%',transform:'translateY(-50%)',background:'rgba(0,0,0,0.5)',color:'white',border:'none',borderRadius:'50%',width:24,height:24,cursor:'pointer',fontSize:14,display:'flex',alignItems:'center',justifyContent:'center'}}>‹</button>
+          <button onClick={(e)=>{e.stopPropagation();setIdx((idx+1)%photos.length);}}
+            style={{position:'absolute',right:4,top:'50%',transform:'translateY(-50%)',background:'rgba(0,0,0,0.5)',color:'white',border:'none',borderRadius:'50%',width:24,height:24,cursor:'pointer',fontSize:14,display:'flex',alignItems:'center',justifyContent:'center'}}>›</button>
+          <div style={{position:'absolute',bottom:4,left:'50%',transform:'translateX(-50%)',background:'rgba(0,0,0,0.5)',color:'white',borderRadius:8,padding:'1px 6px',fontSize:11}}>{idx+1}/{photos.length}</div>
+        </>
+      )}
+    </div>
+  );
 }
 
 function SmartImage({ item, className }: { item: any; className?: string }) {
