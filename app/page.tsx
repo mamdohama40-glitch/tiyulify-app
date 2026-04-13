@@ -210,6 +210,40 @@ const CAT_EMOJI: Record<string,string> = {
   food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',default:'📍'
 };
 
+function SidebarImage({ item, className }: { item: any; className?: string }) {
+  const [src, setSrc] = React.useState<string|null>(null);
+  const color = CAT_COLOR[item.category] || CAT_COLOR.default;
+  const emoji = CAT_EMOJI[item.category] || CAT_EMOJI.default;
+
+  React.useEffect(() => {
+    supabase.from('place_photos')
+      .select('file_path')
+      .eq('place_id', item.id)
+      .order('taken_at', { ascending: false })
+      .limit(1)
+      .then(({ data }) => {
+        if (data && data.length > 0) {
+          const { data: urlData } = supabase.storage.from('place-photos').getPublicUrl(data[0].file_path);
+          setSrc(urlData?.publicUrl || null);
+        }
+      });
+  }, [item.id]);
+
+  if (!src) {
+    return (
+      <div className={className} style={{
+        background: `linear-gradient(135deg,${color}22,${color}44)`,
+        display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',
+        gap:'8px',border:`2px solid ${color}33`,width:'100%',height:'100%',minHeight:'120px'
+      }}>
+        <span style={{fontSize:'2.5rem'}}>{emoji}</span>
+      </div>
+    );
+  }
+
+  return <img src={src} className={className} alt={item.name?.he||''} style={{objectFit:'cover',width:'100%',height:'100%'}}/>;
+}
+
 function SmartImage({ item, className }: { item: any; className?: string }) {
   const color = CAT_COLOR[item.category] || CAT_COLOR.default;
   const emoji = CAT_EMOJI[item.category] || CAT_EMOJI.default;
@@ -682,7 +716,7 @@ export default function TiyulifyApp() {
                         <div key={item.id} onClick={()=>flyToCoords(item.coords)}
                           className="bg-gray-50 rounded-[3rem] p-5 shadow-sm hover:shadow-2xl cursor-pointer border-2 border-transparent hover:border-green-300 transition-all group overflow-hidden">
                           <div className="relative h-44 w-full mb-5 rounded-[2rem] overflow-hidden shadow-inner bg-gray-200">
-                            <SmartImage item={item} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"/>
+                            <SidebarImage item={item} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"/>
                           </div>
                           <h3 className="font-black text-gray-800 text-xl px-2 leading-tight">{item.name[activeLang]||item.name.he}</h3>
                           {d && <p className="text-[14px] text-green-600 font-black mt-3 px-2 flex items-center gap-1.5"><span className="text-lg">🚀</span> {d} {labels[activeLang].distText}</p>}
