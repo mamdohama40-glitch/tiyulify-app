@@ -559,10 +559,7 @@ export default function TiyulifyApp() {
                   <img src="/Logo- Mamdoh1.gif" alt="Logo" className="w-10 h-10 md:w-16 md:h-16 rounded-full border-2 border-green-500 transition-transform duration-700 group-hover:rotate-[360deg] object-cover"/>
                 </a>
                 <h2 className="text-2xl md:text-5xl font-black text-green-700 cursor-pointer italic tracking-tight uppercase" onClick={()=>setActiveView('home')}>Tiyulify</h2>
-                <button onClick={()=>setShowMobileHeader(s=>!s)}
-                  className="md:hidden flex flex-col gap-[5px] justify-center items-center w-9 h-9 rounded-xl bg-gray-100 border border-gray-200 shadow-sm active:scale-90 transition-all">
-                  {showMobileHeader ? <span className="text-gray-600 text-lg font-black">✕</span> : (<><span className="w-5 h-0.5 bg-gray-600 rounded-full"/><span className="w-5 h-0.5 bg-gray-600 rounded-full"/><span className="w-3 h-0.5 bg-gray-600 rounded-full"/></>)}
-                </button>
+
               </div>
               <div className="hidden md:flex gap-1 bg-gray-100 p-1 md:p-2 rounded-xl shadow-inner border border-gray-200">
                 {['he','ar','en','ru'].map(l=>(
@@ -575,7 +572,7 @@ export default function TiyulifyApp() {
               </button>
             </div>
 
-            <div className={`flex-col lg:flex-row gap-3 md:gap-6 w-full px-2 md:flex ${showMobileHeader ? "flex" : "hidden"}`}>
+            <div className={`flex-col lg:flex-row gap-3 md:gap-6 w-full px-2 md:flex overflow-hidden transition-all duration-300 ease-in-out ${showMobileHeader ? "flex max-h-96 opacity-100" : "hidden max-h-0 opacity-0"}`}>
               {/* חיפוש */}
               <div className="flex-1 relative" onClick={async (e: React.MouseEvent<HTMLDivElement>) => {
                 const map = mapControl.current;
@@ -648,6 +645,14 @@ export default function TiyulifyApp() {
                 ))}
               </div>
             </div>
+          {/* כפתור החלקה - תחתית ה-header, מובייל בלבד */}
+          <button
+            onClick={()=>setShowMobileHeader(s=>!s)}
+            className="md:hidden w-full flex flex-col items-center justify-center gap-[4px] py-1.5 bg-white border-b-2 border-gray-100 shadow-sm z-[1999] active:bg-gray-50 transition-all">
+            <span className={`block w-8 h-0.5 bg-gray-400 rounded-full transition-all duration-300 ${showMobileHeader ? 'rotate-45 translate-y-[7px]' : ''}`}/>
+            <span className={`block w-8 h-0.5 bg-gray-400 rounded-full transition-all duration-300 ${showMobileHeader ? 'opacity-0' : ''}`}/>
+            <span className={`block w-8 h-0.5 bg-gray-400 rounded-full transition-all duration-300 ${showMobileHeader ? '-rotate-45 -translate-y-[7px]' : ''}`}/>
+          </button>
           </header>
 
           {(!isClientReady||!LeafletMapLib) ? (
