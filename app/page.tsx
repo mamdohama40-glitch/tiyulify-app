@@ -572,7 +572,7 @@ export default function TiyulifyApp() {
               </button>
             </div>
 
-            <div className={`flex-col lg:flex-row gap-3 md:gap-6 w-full px-2 md:flex overflow-hidden transition-all duration-300 ease-in-out ${showMobileHeader ? "flex max-h-96 opacity-100" : "hidden max-h-0 opacity-0"}`}>
+            <div className={`flex-col lg:flex-row gap-3 md:gap-6 w-full px-2 md:flex overflow-hidden transition-all duration-700 ease-in-out ${showMobileHeader ? "flex max-h-96 opacity-100" : "hidden max-h-0 opacity-0"}`}>
               {/* חיפוש */}
               <div className="flex-1 relative" onClick={async (e: React.MouseEvent<HTMLDivElement>) => {
                 const map = mapControl.current;
@@ -649,9 +649,9 @@ export default function TiyulifyApp() {
           <button
             onClick={()=>setShowMobileHeader(s=>!s)}
             className="md:hidden w-full flex flex-col items-center justify-center gap-[4px] py-1.5 bg-white border-b-2 border-gray-100 shadow-sm z-[1999] active:bg-gray-50 transition-all">
-            <span className={`block w-8 h-0.5 bg-gray-400 rounded-full transition-all duration-300 ${showMobileHeader ? 'rotate-45 translate-y-[7px]' : ''}`}/>
-            <span className={`block w-8 h-0.5 bg-gray-400 rounded-full transition-all duration-300 ${showMobileHeader ? 'opacity-0' : ''}`}/>
-            <span className={`block w-8 h-0.5 bg-gray-400 rounded-full transition-all duration-300 ${showMobileHeader ? '-rotate-45 -translate-y-[7px]' : ''}`}/>
+            <span className="block w-8 h-0.5 bg-gray-400 rounded-full"/>
+            <span className="block w-6 h-0.5 bg-gray-400 rounded-full"/>
+            <span className="block w-4 h-0.5 bg-gray-400 rounded-full"/>
           </button>
           </header>
 
