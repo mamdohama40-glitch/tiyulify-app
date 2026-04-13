@@ -234,9 +234,6 @@ function SmartImage({ item, className }: { item: any; className?: string }) {
     />
   );
 
-  const color = CAT_COLOR[item.category] || CAT_COLOR.default;
-  const emoji = CAT_EMOJI[item.category] || CAT_EMOJI.default;
-
   if (status === 'icon') return (
     <div className={className} style={{
       background:`linear-gradient(135deg,${color}22,${color}44)`,
