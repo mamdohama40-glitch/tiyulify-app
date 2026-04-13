@@ -233,25 +233,6 @@ function SmartImage({ item, className }: { item: any; className?: string }) {
       onError={(e:any)=>{ e.target.style.display='none'; }}
     />
   );
-  const [status, setStatus] = React.useState<'img'|'wiki'|'icon'>(isWiki ? 'img' : 'img');
-  const [src, setSrc] = React.useState(item.image||'');
-
-  React.useEffect(() => {
-    // אם התמונה Unsplash — נסה Wikipedia תחילה
-    if (!isWiki && item.image && item.image.includes('unsplash')) {
-      const name = item.name?.he || item.name?.en || '';
-      if (!name) return;
-      const q = encodeURIComponent(name.split(' ').slice(0,3).join(' '));
-      fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${q}`)
-        .then(r => r.ok ? r.json() : null)
-        .then(d => {
-          const img = d?.thumbnail?.source;
-          if (img && img.includes('wikipedia')) setSrc(img);
-          // else keep original Unsplash
-        })
-        .catch(()=>{});
-    }
-  }, [item.id]);
 
   const color = CAT_COLOR[item.category] || CAT_COLOR.default;
   const emoji = CAT_EMOJI[item.category] || CAT_EMOJI.default;
