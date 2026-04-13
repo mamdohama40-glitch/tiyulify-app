@@ -265,6 +265,23 @@ function CompactPopup({ item, pd, activeLang, labels, shareOnWhatsApp }: { item:
       <p className="text-[12px] text-gray-600 leading-relaxed px-1 mb-2 line-clamp-2">
         {item.description[activeLang]||item.description.he}
       </p>
+      {item.info && (
+        <div className="flex flex-wrap gap-1 px-1 mb-2">
+          {item.info.hours && item.info.hours !== 'N/A' && (
+            <span className="text-[10px] bg-amber-50 text-amber-700 border border-amber-200 px-2 py-0.5 rounded-full font-bold">🕐 {item.info.hours}</span>
+          )}
+          {item.info.season && item.info.season !== 'all' && (
+            <span className="text-[10px] bg-blue-50 text-blue-700 border border-blue-200 px-2 py-0.5 rounded-full font-bold">
+              {item.info.season==='summer'?'☀️ קיץ':item.info.season==='winter'?'❄️ חורף':item.info.season==='autumn'?'🍂 סתיו':item.info.season}
+            </span>
+          )}
+          {item.info.target && item.info.target !== 'all' && (
+            <span className="text-[10px] bg-green-50 text-green-700 border border-green-200 px-2 py-0.5 rounded-full font-bold">
+              {item.info.target==='family'?'👨‍👩‍👧 משפחות':item.info.target==='adults'?'👤 מבוגרים':item.info.target==='kids'?'🧒 ילדים':item.info.target}
+            </span>
+          )}
+        </div>
+      )}
       {pd && (
         <button
           onClick={() => setExpanded(e => !e)}
