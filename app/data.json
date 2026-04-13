@@ -23828,5 +23828,1097 @@
       "en": "A short promenade connecting the neighborhood to Poleg Beach.",
       "ru": "Короткая набережная, соединяющая район с пляжем Полег."
     }
+  },
+  {
+    "id": "1091",
+    "name": {
+      "he": "נחל עדה",
+      "ar": "نهر عدا",
+      "en": "Ada Stream",
+      "ru": "Ручей Ада"
+    },
+    "coords": [
+      32.5028,
+      34.9315
+    ],
+    "category": "water",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נחל אכזב הזורם באזור אור עקיבא וקיסריה.",
+      "ar": "نهر موسمي يجري في منطقة أور عكيفا وقيسارية.",
+      "en": "A seasonal stream flowing in the Or Akiva and Caesarea area.",
+      "ru": "Сезонный ручей в районе Ор-Акивы и Кесарии."
+    }
+  },
+  {
+    "id": "1092",
+    "name": {
+      "he": "פארק שוסטרמן",
+      "ar": "منتزه شوسترمان",
+      "en": "Schusterman Park",
+      "ru": "Парк Шустерман"
+    },
+    "coords": [
+      32.4895,
+      34.9192
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק עירוני מטופח באור עקיבא הכולל מתקני משחקים.",
+      "ar": "منتزه حضري مرتب في أور عكيفا مع مرافق لعب.",
+      "en": "A well-maintained urban park in Or Akiva with playground facilities.",
+      "ru": "Ухоженный городской парк в Ор-Акиве с детскими площадками."
+    }
+  },
+  {
+    "id": "1093",
+    "name": {
+      "he": "שמורת ביצת זיתא",
+      "ar": "محمية مستنقع زيتا",
+      "en": "Zita Marsh Reserve",
+      "ru": "Болотный заповедник Зита"
+    },
+    "coords": [
+      32.4431,
+      34.9215
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שריד לביצות השרון ההיסטוריות עם צמחיית מים עשירה.",
+      "ar": "بقية من مستنقعات الشارون التاريخية مع نباتات مائية غنية.",
+      "en": "A remnant of the historical Sharon marshes with rich aquatic vegetation.",
+      "ru": "Остаток исторических болот Шарона с богатой водной растительностью."
+    }
+  },
+  {
+    "id": "1094",
+    "name": {
+      "he": "חוף מכמורת",
+      "ar": "شاطئ مخمورت",
+      "en": "Michmoret Beach",
+      "ru": "Пляж Михморет"
+    },
+    "coords": [
+      32.4042,
+      34.8655
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף רחצה פופולרי עם מפרץ רגוע המוגן ע\"י שובר גלים טבעי.",
+      "ar": "شاطئ سباحة شعبي مع خليج هادئ محمي بكاسر أمواج طبيعي.",
+      "en": "A popular beach with a calm bay protected by a natural breakwater.",
+      "ru": "Популярный пляж со спокойной бухтой, защищённой естественным волнорезом."
+    }
+  },
+  {
+    "id": "1095",
+    "name": {
+      "he": "גן לאומי אביחיל",
+      "ar": "حديقة أبيحايل الوطنية",
+      "en": "Avihayil National Park",
+      "ru": "Национальный парк Авихайль"
+    },
+    "coords": [
+      32.3582,
+      34.8641
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שמורת חולות נודדים וצמחיית כורכר צפונית לנתניה.",
+      "ar": "محمية كثبان رملية متحركة ونباتات كركر شمال نتانيا.",
+      "en": "Shifting sand dunes and sandstone vegetation reserve north of Netanya.",
+      "ru": "Заповедник передвижных дюн к северу от Нетании."
+    }
+  },
+  {
+    "id": "1096",
+    "name": {
+      "he": "טיילת ניצה צפון",
+      "ar": "كورنيش نيتسا شمال",
+      "en": "Nitza North Promenade",
+      "ru": "Северная набережная Ница"
+    },
+    "coords": [
+      32.3458,
+      34.8542
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת חופית בצפון נתניה המשקיפה על מצוקי הכורכר.",
+      "ar": "كورنيش ساحلي في شمال نتانيا يطل على منحدرات الكركر.",
+      "en": "Coastal promenade in north Netanya overlooking the sandstone cliffs.",
+      "ru": "Прибрежная набережная севера Нетании со скалами из ракушечника."
+    }
+  },
+  {
+    "id": "1097",
+    "name": {
+      "he": "קפה לנדוור פולג",
+      "ar": "كافيه لاندوور بولغ",
+      "en": "Landwer Cafe Poleg",
+      "ru": "Кафе Лэндвер Полег"
+    },
+    "coords": [
+      32.2785,
+      34.8612
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה פופולרי במתחם הקניות של דרום נתניה.",
+      "ar": "مقهى شعبي في منطقة التسوق بجنوب نتانيا.",
+      "en": "A popular cafe in the shopping district of south Netanya.",
+      "ru": "Популярное кафе в торговом районе южной Нетании."
+    }
+  },
+  {
+    "id": "1099",
+    "name": {
+      "he": "חוף נעורים",
+      "ar": "شاطئ نعوريم",
+      "en": "Na'urim Beach",
+      "ru": "Пляж Науурим"
+    },
+    "coords": [
+      32.3755,
+      34.8592
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף מבודד יחסית עם מצוקים גבוהים ואווירה שקטה.",
+      "ar": "شاطئ معزول نسبياً مع منحدرات عالية وأجواء هادئة.",
+      "en": "A relatively secluded beach with high cliffs and a quiet atmosphere.",
+      "ru": "Относительно уединённый пляж с высокими скалами и тихой атмосферой."
+    }
+  },
+  {
+    "id": "1100",
+    "name": {
+      "he": "נחל באקה",
+      "ar": "نهر باقة",
+      "en": "Baqa Stream",
+      "ru": "Ручей Бака"
+    },
+    "coords": [
+      32.4215,
+      34.9852
+    ],
+    "category": "water",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נחל אכזב המנקז את אזור גבעות השרון המזרחיות.",
+      "ar": "نهر موسمي يصرف منطقة تلال الشارون الشرقية.",
+      "en": "A seasonal stream draining the eastern Sharon hills area.",
+      "ru": "Сезонный ручей, дренирующий восточные холмы Шарона."
+    }
+  },
+  {
+    "id": "1101",
+    "name": {
+      "he": "יער קדימה",
+      "ar": "غابة قديمة",
+      "en": "Kadima Forest",
+      "ru": "Лес Кадима"
+    },
+    "coords": [
+      32.2851,
+      34.9085
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חורשת איקליפטוסים גדולה עם חניוני פיקניק.",
+      "ar": "غابة أوكالبتوس كبيرة مع مناطق نزهة.",
+      "en": "A large eucalyptus grove with picnic areas.",
+      "ru": "Большая эвкалиптовая роща с пикниковыми зонами."
+    }
+  },
+  {
+    "id": "1103",
+    "name": {
+      "he": "טיילת הרצליה",
+      "ar": "كورنيش هرتسليا",
+      "en": "Herzliya Promenade",
+      "ru": "Набережная Герцлии"
+    },
+    "coords": [
+      32.1655,
+      34.7958
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת לאורך המלונות והחופים של הרצליה פיתוח.",
+      "ar": "كورنيش على طول فنادق وشواطئ هرتسليا بيتواح.",
+      "en": "Promenade along the hotels and beaches of Herzliya Pituach.",
+      "ru": "Набережная вдоль отелей и пляжей Герцлии-Питуах."
+    }
+  },
+  {
+    "id": "1104",
+    "name": {
+      "he": "קפה נימרוד",
+      "ar": "كافيه نمرود",
+      "en": "Nimrod Cafe",
+      "ru": "Кафе Нимрод"
+    },
+    "coords": [
+      32.0965,
+      34.7731
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה וותיק בנמל תל אביב עם תצפית לים.",
+      "ar": "مقهى قديم في ميناء تل أبيب مع منظر للبحر.",
+      "en": "A long-standing cafe in the Tel Aviv Port with a sea view.",
+      "ru": "Давнее кафе в порту Тель-Авива с видом на море."
+    }
+  },
+  {
+    "id": "1107",
+    "name": {
+      "he": "גן לאומי ירקון - תל אפק",
+      "ar": "حديقة اليركون - تل أفيك الوطنية",
+      "en": "Yarkon - Tel Afek National Park",
+      "ru": "Нац. парк Яркон — Тель-Афек"
+    },
+    "coords": [
+      32.1051,
+      34.9312
+    ],
+    "category": "history",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מבצר אנטיפטריס ומקורות הירקון עם אגם ובריכות שכשוך.",
+      "ar": "قلعة أنتيباتريس ومنابع اليركون مع بحيرة وبرك للخوض.",
+      "en": "Antipatris Fortress and Yarkon springs with a lake and wading pools.",
+      "ru": "Крепость Антипатрис и истоки Яркона с озером и лягушатниками."
+    }
+  },
+  {
+    "id": "1108",
+    "name": {
+      "he": "חוף תל ברוך",
+      "ar": "شاطئ تل باروخ",
+      "en": "Tel Baruch Beach",
+      "ru": "Пляж Тель-Барух"
+    },
+    "coords": [
+      32.1152,
+      34.7781
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף רחצה מוסדר עם טיילת ארוכה ושטחים פתוחים.",
+      "ar": "شاطئ سباحة منظم مع كورنيش طويل ومساحات مفتوحة.",
+      "en": "An organized bathing beach with a long promenade and open areas.",
+      "ru": "Благоустроенный пляж с длинной набережной и открытыми территориями."
+    }
+  },
+  {
+    "id": "1109",
+    "name": {
+      "he": "פארק צ'ארלס קלור",
+      "ar": "منتزه تشارلز كلور",
+      "en": "Charles Clore Park",
+      "ru": "Парк Чарльза Клора"
+    },
+    "coords": [
+      32.0625,
+      34.7592
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק חופי המקשר בין תל אביב ליפו.",
+      "ar": "منتزه ساحلي يربط بين تل أبيب ويافا.",
+      "en": "A coastal park linking Tel Aviv and Jaffa.",
+      "ru": "Прибрежный парк, соединяющий Тель-Авив и Яффо."
+    }
+  },
+  {
+    "id": "1110",
+    "name": {
+      "he": "נחל קנה",
+      "ar": "نهر قانا",
+      "en": "Qanah Stream",
+      "ru": "Ручей Кана"
+    },
+    "coords": [
+      32.1215,
+      34.8852
+    ],
+    "category": "water",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יובל מרכזי של הירקון הזורם מאזור השומרון למרכז.",
+      "ar": "رافد رئيسي لليركون يجري من منطقة السامرة إلى الوسط.",
+      "en": "A major tributary of the Yarkon flowing from Samaria to the center.",
+      "ru": "Главный приток Яркона из Самарии в центр."
+    }
+  },
+  {
+    "id": "1111",
+    "name": {
+      "he": "טיילת חומות יפו",
+      "ar": "كورنيش أسوار يافا",
+      "en": "Jaffa Walls Promenade",
+      "ru": "Набережная стен Яффо"
+    },
+    "coords": [
+      32.0552,
+      34.7505
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול הליכה היסטורי סביב חומות יפו העתיקה.",
+      "ar": "مسار مشي تاريخي حول أسوار يافا القديمة.",
+      "en": "A historical walking path around the walls of Old Jaffa.",
+      "ru": "Исторический пешеходный маршрут вокруг стен Старого Яффо."
+    }
+  },
+  {
+    "id": "1112",
+    "name": {
+      "he": "שמורת חולות חולון",
+      "ar": "محمية رمال حولون",
+      "en": "Holon Sands Reserve",
+      "ru": "Заповедник песков Холона"
+    },
+    "coords": [
+      32.0015,
+      34.7852
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שריד אחרון לחולות הנודדים של פנים מישור החוף.",
+      "ar": "البقية الأخيرة للكثبان الرملية الداخلية للسهل الساحلي.",
+      "en": "The last remnant of the inland shifting dunes of the coastal plain.",
+      "ru": "Последний остаток внутренних передвижных дюн прибрежной равнины."
+    }
+  },
+  {
+    "id": "1113",
+    "name": {
+      "he": "פארק פרס חולון",
+      "ar": "منتزه بيريس حولون",
+      "en": "Peres Park Holon",
+      "ru": "Парк Переса Холон"
+    },
+    "coords": [
+      31.9952,
+      34.7951
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק רחב ידיים בחולון הכולל אגם ומוזיאון הילדים.",
+      "ar": "منتزه واسع في حولون يضم بحيرة ومتحف الأطفال.",
+      "en": "A vast park in Holon including a lake and the Children's Museum.",
+      "ru": "Большой парк в Холоне с озером и Детским музеем."
+    }
+  },
+  {
+    "id": "1115",
+    "name": {
+      "he": "גן לאומי נבי רובין",
+      "ar": "حديقة نبي روبين الوطنية",
+      "en": "Nabi Rubin National Park",
+      "ru": "Нац. парк Наби-Рубин"
+    },
+    "coords": [
+      31.9182,
+      34.7252
+    ],
+    "category": "history",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מתחם היסטורי על גדות נחל שורק בלב חולות פלמחים.",
+      "ar": "مجمع تاريخي على ضفاف نهر شوريك في قلب رمال بالماحيم.",
+      "en": "Historical complex on the banks of Sorek Stream in the Palmahim sands.",
+      "ru": "Исторический комплекс на берегах ручья Сорек в песках Палмахим."
+    }
+  },
+  {
+    "id": "1116",
+    "name": {
+      "he": "נחל שורק",
+      "ar": "نهر شوريك",
+      "en": "Sorek Stream",
+      "ru": "Ручей Шорек"
+    },
+    "coords": [
+      31.9215,
+      34.7552
+    ],
+    "category": "water",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אחד הנחלים הארוכים בארץ, הנשפך לים ליד פלמחים.",
+      "ar": "أحد أطول الأنهار في إسرائيل، يصب في البحر بالقرب من بالماحيم.",
+      "en": "One of the longest rivers in Israel, emptying into the sea near Palmahim.",
+      "ru": "Один из длиннейших ручьёв Израиля, впадающий в море у Палмахима."
+    }
+  },
+  {
+    "id": "1118",
+    "name": {
+      "he": "קפה בליקר סטריט",
+      "ar": "كافيه بليكر ستريت",
+      "en": "Bleecker Street Cafe",
+      "ru": "Кафе Бликер Стрит"
+    },
+    "coords": [
+      31.9812,
+      34.7552
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה וקונדיטוריה ברובע הבילויים של ראשל\"צ.",
+      "ar": "مقهى وحلويات في حي الترفيه بريشون لتسيون.",
+      "en": "Cafe and patisserie in the Rishon LeZion entertainment district.",
+      "ru": "Кафе и кондитерская в развлекательном квартале Ришон-ле-Циона."
+    }
+  },
+  {
+    "id": "1119",
+    "name": {
+      "he": "שמורת חולות ניצנים",
+      "ar": "محمية رمال نيتسانيم",
+      "en": "Nitzanim Sands Reserve",
+      "ru": "Заповедник песков Нитсаним"
+    },
+    "coords": [
+      31.7515,
+      34.6152
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "דיונות חול ענקיות ובריכות מים עונתיות בין אשדוד לאשקלון.",
+      "ar": "كثبان رملية ضخمة وبرك مياه موسمية بين أشدود وعسقلان.",
+      "en": "Giant sand dunes and seasonal water pools between Ashdod and Ashkelon.",
+      "ru": "Огромные дюны и сезонные водоёмы между Ашдодом и Ашкелоном."
+    }
+  },
+  {
+    "id": "1120",
+    "name": {
+      "he": "חוף ניצנים",
+      "ar": "شاطئ نيتسانيم",
+      "en": "Nitzanim Beach",
+      "ru": "Пляж Нитсаним"
+    },
+    "coords": [
+      31.7352,
+      34.5982
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף רחצה פראי ורחב הממוקם בלב שמורת החולות.",
+      "ar": "شاطئ سباحة بري وواسع في قلب محمية الرمال.",
+      "en": "A wide, wild bathing beach located in the heart of the sand reserve.",
+      "ru": "Широкий дикий пляж в сердце песчаного заповедника."
+    }
+  },
+  {
+    "id": "1121",
+    "name": {
+      "he": "פארק לכיש אשדוד",
+      "ar": "منتزه لكيش أشدود",
+      "en": "Lachish Park Ashdod",
+      "ru": "Парк Лахиш Ашдод"
+    },
+    "coords": [
+      31.8152,
+      34.6482
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק לאורך גדות נחל לכיש באשדוד הכולל פינת חי.",
+      "ar": "منتزه على طول ضفاف نهر لكيش في أشدود يضم ركن حيوانات.",
+      "en": "Park along the banks of Lachish Stream in Ashdod including a petting zoo.",
+      "ru": "Парк вдоль берегов ручья Лахиш в Ашдоде с контактным зоопарком."
+    }
+  },
+  {
+    "id": "1122",
+    "name": {
+      "he": "נחל לכיש",
+      "ar": "نهر لكيش",
+      "en": "Lachish Stream",
+      "ru": "Ручей Лахиш"
+    },
+    "coords": [
+      31.8212,
+      34.6552
+    ],
+    "category": "water",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נחל הזורם מדרום הר חברון ונשפך לים באשדוד.",
+      "ar": "نهر يجري من جنوب جبل الخليل ويصب في البحر في أشدود.",
+      "en": "A stream flowing from south Hebron hills and emptying into the sea at Ashdod.",
+      "ru": "Ручей из южных Хевронских гор, впадающий в море у Ашдода."
+    }
+  },
+  {
+    "id": "1123",
+    "name": {
+      "he": "גן לאומי אשקלון",
+      "ar": "حديقة عسقلان الوطنية",
+      "en": "Ashkelon National Park",
+      "ru": "Национальный парк Ашкелон"
+    },
+    "coords": [
+      31.6612,
+      34.5452
+    ],
+    "category": "history",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אתר היסטורי עם שער כנעני עתיק וחופים מרהיבים.",
+      "ar": "موقع تاريخي مع بوابة كنعانية قديمة وشواطئ رائعة.",
+      "en": "Historical site with an ancient Canaanite gate and spectacular beaches.",
+      "ru": "Исторический памятник с ханаанскими воротами и красивыми пляжами."
+    }
+  },
+  {
+    "id": "1124",
+    "name": {
+      "he": "טיילת בר כוכבא אשקלון",
+      "ar": "كورنيش بار كوخبا عسقلان",
+      "en": "Bar Kochba Promenade Ashkelon",
+      "ru": "Набережная Бар-Кохба Ашкелон"
+    },
+    "coords": [
+      31.6782,
+      34.5552
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "הטיילת המרכזית של אשקלון מעל קו המצוק.",
+      "ar": "الكورنيش المركزي لعسقلان فوق خط المنحدر.",
+      "en": "The central promenade of Ashkelon above the cliff line.",
+      "ru": "Центральная набережная Ашкелона над линией скал."
+    }
+  },
+  {
+    "id": "1125",
+    "name": {
+      "he": "חוף זיקים",
+      "ar": "شاطئ زيكيم",
+      "en": "Zikim Beach",
+      "ru": "Пляж Зиким"
+    },
+    "coords": [
+      31.6052,
+      34.4981
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "החוף הדרומי ביותר בישראל לפני רצועת עזה.",
+      "ar": "الشاطئ الأكثر جنوباً في إسرائيل قبل قطاع غزة.",
+      "en": "The southernmost beach in Israel before the Gaza Strip.",
+      "ru": "Самый южный пляж Израиля перед сектором Газа."
+    }
+  },
+  {
+    "id": "1126",
+    "name": {
+      "he": "שמורת כרמיה",
+      "ar": "محمية كارميا",
+      "en": "Karmiya Reserve",
+      "ru": "Заповедник Кармия"
+    },
+    "coords": [
+      31.5952,
+      34.5152
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שמורת חולות וצמחיית נחלים בשפך נחל שקמה.",
+      "ar": "محمية رمال ونباتات نهرية عند مصب نهر شكما.",
+      "en": "Sands and riparian vegetation reserve at the Shikma Stream estuary.",
+      "ru": "Заповедник дюн и речной растительности у устья ручья Шикма."
+    }
+  },
+  {
+    "id": "1127",
+    "name": {
+      "he": "נחל שקמה",
+      "ar": "نهر شكما",
+      "en": "Shikma Stream",
+      "ru": "Ручей Шикма"
+    },
+    "coords": [
+      31.5852,
+      34.5552
+    ],
+    "category": "water",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נחל הזורם בדרום מישור החוף ומסמן את גבול עוטף עזה.",
+      "ar": "نهر يجري في جنوب السهل الساحلي ويحدد حدود غلاف غزة.",
+      "en": "A stream flowing in the southern coastal plain, marking the Gaza envelope border.",
+      "ru": "Ручей на юге прибрежной равнины у границы «конверта Газы»."
+    }
+  },
+  {
+    "id": "1128",
+    "name": {
+      "he": "אגם זיקים",
+      "ar": "بحيرة زيكيم",
+      "en": "Zikim Lake",
+      "ru": "Озеро Зиким"
+    },
+    "coords": [
+      31.6112,
+      34.5115
+    ],
+    "category": "water",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מאגר מים עונתי המושך ציפורים רבות ליד קיבוץ זיקים.",
+      "ar": "خزان مياه موسمي يجذب طيوراً كثيرة بالقرب من كيبوتس زيكيم.",
+      "en": "A seasonal water reservoir attracting many birds near Kibbutz Zikim.",
+      "ru": "Сезонный водоём, привлекающий множество птиц у кибуца Зиким."
+    }
+  },
+  {
+    "id": "1129",
+    "name": {
+      "he": "נחל אבטליון",
+      "ar": "نهر أفتاليون",
+      "en": "Avtalyon Stream",
+      "ru": "Ручей Авталион"
+    },
+    "coords": [
+      31.7852,
+      34.6852
+    ],
+    "category": "water",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יובל של נחל לכיש הזורם באזור השפלה.",
+      "ar": "رافد نهر لكيش يجري في منطقة الشفيلة.",
+      "en": "A tributary of Lachish Stream flowing in the Shephelah area.",
+      "ru": "Приток ручья Лахиш в районе Шефелы."
+    }
+  },
+  {
+    "id": "1130",
+    "name": {
+      "he": "פארק אשדוד ים",
+      "ar": "منتزه أشدود يام",
+      "en": "Ashdod Yam Park",
+      "ru": "Парк Ашдод-Ям"
+    },
+    "coords": [
+      31.8015,
+      34.6352
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק עירוני גדול עם אגם מלאכותי ומזרקה מנגנת.",
+      "ar": "منتزه حضري كبير مع بحيرة اصطناعية ونافورة موسيقية.",
+      "en": "A large urban park with an artificial lake and a musical fountain.",
+      "ru": "Большой городской парк с искусственным озером и музыкальным фонтаном."
+    }
+  },
+  {
+    "id": "1131",
+    "name": {
+      "he": "שמורת נחל גמליאל",
+      "ar": "محمية نهر غمليئيل",
+      "en": "Gamliel Stream Reserve",
+      "ru": "Заповедник ручья Гамлиэль"
+    },
+    "coords": [
+      31.8552,
+      34.7852
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שמורה ירוקה סביב אגן נחל גמליאל.",
+      "ar": "محمية خضراء حول حوض نهر غمليئيل.",
+      "en": "A green reserve surrounding the Gamliel Stream basin.",
+      "ru": "Зелёный заповедник вокруг бассейна ручья Гамлиэль."
+    }
+  },
+  {
+    "id": "1132",
+    "name": {
+      "he": "גן לאומי תל צפית",
+      "ar": "حديقة تل تسافيت الوطنية",
+      "en": "Tel Tzafit National Park",
+      "ru": "Нац. парк Тель-Цафит"
+    },
+    "coords": [
+      31.7015,
+      34.8452
+    ],
+    "category": "history",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "זיהוי אפשרי לעיר הפלשתית גת, עם תצפית רחבה.",
+      "ar": "تحديد محتمل للمدينة الفلسطينية جت، مع منظر واسع.",
+      "en": "Possible identification of the Philistine city of Gath, with a wide view.",
+      "ru": "Возможная идентификация филистимского города Гата с широким обзором."
+    }
+  },
+  {
+    "id": "1133",
+    "name": {
+      "he": "נחל דליה",
+      "ar": "نهر داليا",
+      "en": "Dalia Stream",
+      "ru": "Ручей Далия"
+    },
+    "coords": [
+      32.5452,
+      34.9215
+    ],
+    "category": "water",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נחל איתן בחלקו הזורם מרמות מנשה לים.",
+      "ar": "نهر جزئياً دائم يجري من رامون منشه إلى البحر.",
+      "en": "A partly perennial stream flowing from Ramat Menashe to the sea.",
+      "ru": "Частично постоянный ручей из Рамат-Менаше к морю."
+    }
+  },
+  {
+    "id": "1134",
+    "name": {
+      "he": "חוף הקשתות אשדוד",
+      "ar": "شاطئ الأقواس أشدود",
+      "en": "Arches Beach Ashdod",
+      "ru": "Пляж Арок Ашдод"
+    },
+    "coords": [
+      31.7952,
+      34.6315
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף רחצה תוסס באשדוד הסמוך למרכזי קניות.",
+      "ar": "شاطئ سباحة نابض بالحياة في أشدود بالقرب من مراكز التسوق.",
+      "en": "A vibrant bathing beach in Ashdod near shopping centers.",
+      "ru": "Оживлённый пляж в Ашдоде рядом с торговыми центрами."
+    }
+  },
+  {
+    "id": "1135",
+    "name": {
+      "he": "פארק השרון",
+      "ar": "منتزه الشارون",
+      "en": "HaSharon Park",
+      "ru": "Парк Хашарон"
+    },
+    "coords": [
+      32.4152,
+      34.8952
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שטח פתוח נרחב בין חדרה לנתניה הכולל יערות ודיונות.",
+      "ar": "مساحة مفتوحة واسعة بين الخضيرة ونتانيا تضم غابات وكثبان.",
+      "en": "A vast open area between Hadera and Netanya including forests and dunes.",
+      "ru": "Обширная открытая территория между Хадерой и Нетанией с лесами и дюнами."
+    }
+  },
+  {
+    "id": "1136",
+    "name": {
+      "he": "שמורת פולג - ביצה",
+      "ar": "محمية بولغ - المستنقع",
+      "en": "Poleg Marsh Reserve",
+      "ru": "Болотный заповедник Полег"
+    },
+    "coords": [
+      32.2615,
+      34.8552
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שריד לביצות שהיו באזור אגן נחל פולג.",
+      "ar": "بقية من المستنقعات التي كانت في منطقة حوض نهر بولغ.",
+      "en": "A remnant of the marshes that existed in the Poleg Stream basin.",
+      "ru": "Остаток болот бассейна ручья Полег."
+    }
+  },
+  {
+    "id": "1137",
+    "name": {
+      "he": "נחל אלכסנדר - קטע איטליה",
+      "ar": "نهر الإسكندر - قطعة إيطاليا",
+      "en": "Alexander Stream - Italy Section",
+      "ru": "Река Александр — участок Италия"
+    },
+    "coords": [
+      32.3915,
+      34.9052
+    ],
+    "category": "water",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק משוקם על גדות הנחל עם מדשאות רחבות.",
+      "ar": "منتزه مرمم على ضفاف النهر مع مروج واسعة.",
+      "en": "Restored park on the stream banks with wide lawns.",
+      "ru": "Восстановленный парк на берегах ручья с широкими лужайками."
+    }
+  },
+  {
+    "id": "1138",
+    "name": {
+      "he": "טיילת המצוק אשקלון",
+      "ar": "كورنيش المنحدر عسقلان",
+      "en": "Ashkelon Cliff Promenade",
+      "ru": "Набережная скалы Ашкелона"
+    },
+    "coords": [
+      31.6912,
+      34.5615
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת הצפונית של אשקלון עם נוף לים הפתוח.",
+      "ar": "الكورنيش الشمالي لعسقلان مع منظر للبحر المفتوح.",
+      "en": "Northern promenade of Ashkelon with views of the open sea.",
+      "ru": "Северная набережная Ашкелона с видом на открытое море."
+    }
+  },
+  {
+    "id": "1139",
+    "name": {
+      "he": "קפה גרג יבנה",
+      "ar": "كافيه غريغ يفني",
+      "en": "Greg Cafe Yavne",
+      "ru": "Кафе Грег Явне"
+    },
+    "coords": [
+      31.8852,
+      34.7452
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה פופולרי במתחם הקניות של יבנה הירוקה.",
+      "ar": "مقهى شعبي في منطقة التسوق في يفني الخضراء.",
+      "en": "A popular cafe in the shopping district of green Yavne.",
+      "ru": "Популярное кафе в торговом районе зелёного Явне."
+    }
+  },
+  {
+    "id": "1140",
+    "name": {
+      "he": "שמורת חולות יבנה",
+      "ar": "محمية رمال يفني",
+      "en": "Yavne Sands Reserve",
+      "ru": "Заповедник песков Явне"
+    },
+    "coords": [
+      31.8715,
+      34.7115
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אזור דיונות חול טבעי מדרום לנחל שורק.",
+      "ar": "منطقة كثبان رملية طبيعية جنوب نهر شوريك.",
+      "en": "A natural sand dune area south of Sorek Stream.",
+      "ru": "Природные песчаные дюны к югу от ручья Шорек."
+    }
+  },
+  {
+    "id": "1141",
+    "name": {
+      "he": "נחל יבנה",
+      "ar": "نهر يفني",
+      "en": "Yavne Stream",
+      "ru": "Ручей Явне"
+    },
+    "coords": [
+      31.8752,
+      34.7352
+    ],
+    "category": "water",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נחל אכזב המנקז את אזור העיר יבנה.",
+      "ar": "نهر موسمي يصرف منطقة مدينة يفني.",
+      "en": "A seasonal stream draining the area of Yavne city.",
+      "ru": "Сезонный ручей, дренирующий район города Явне."
+    }
+  },
+  {
+    "id": "1142",
+    "name": {
+      "he": "פארק המדע רחובות",
+      "ar": "منتزه العلوم رحوفوت",
+      "en": "Rehovot Science Park",
+      "ru": "Научный парк Реховота"
+    },
+    "coords": [
+      31.9082,
+      34.8082
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מרכז תעסוקה ובילוי עם שטחים ירוקים ובתי קפה.",
+      "ar": "مركز توظيف وترفيه مع مساحات خضراء ومقاهي.",
+      "en": "An employment and entertainment center with green areas and cafes.",
+      "ru": "Деловой и развлекательный центр с зелёными зонами и кафе."
+    }
+  },
+  {
+    "id": "1143",
+    "name": {
+      "he": "חוף י\"א אשדוד",
+      "ar": "شاطئ ١١ أشدود",
+      "en": "11th Beach Ashdod",
+      "ru": "Пляж 11 Ашдод"
+    },
+    "coords": [
+      31.7815,
+      34.6252
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף רחצה דרומי באשדוד, פופולרי בקרב גולשים.",
+      "ar": "شاطئ سباحة جنوبي في أشدود، شعبي لدى المتزلجين.",
+      "en": "Southern bathing beach in Ashdod, popular among surfers.",
+      "ru": "Южный пляж Ашдода, популярен у серферов."
+    }
+  },
+  {
+    "id": "1144",
+    "name": {
+      "he": "גן לאומי תל אשדוד",
+      "ar": "حديقة تل أشدود الوطنية",
+      "en": "Tel Ashdod National Park",
+      "ru": "Нац. парк Тель-Ашдод"
+    },
+    "coords": [
+      31.7482,
+      34.6612
+    ],
+    "category": "history",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שרידי העיר אשדוד הפלישתית העתיקה.",
+      "ar": "آثار مدينة أشدود الفلستية القديمة.",
+      "en": "Ruins of the ancient Philistine city of Ashdod.",
+      "ru": "Руины древнего филистимского города Ашдод."
+    }
+  },
+  {
+    "id": "1145",
+    "name": {
+      "he": "נחל ברקאי",
+      "ar": "نهر بارقاي",
+      "en": "Barkai Stream",
+      "ru": "Ручей Баркай"
+    },
+    "coords": [
+      31.7852,
+      34.7552
+    ],
+    "category": "water",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יובל של נחל לכיש העובר באזור צומת מסמיה.",
+      "ar": "رافد نهر لكيش يمر في منطقة مفترق مسمية.",
+      "en": "A tributary of Lachish Stream passing through the Masmiya junction area.",
+      "ru": "Приток ручья Лахиш у перекрёстка Масмия."
+    }
+  },
+  {
+    "id": "1146",
+    "name": {
+      "he": "טיילת המרינה אשדוד",
+      "ar": "كورنيش مارينا أشدود",
+      "en": "Ashdod Marina Promenade",
+      "ru": "Набережная марины Ашдода"
+    },
+    "coords": [
+      31.8082,
+      34.6352
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת לאורך רציפי המרינה של אשדוד.",
+      "ar": "كورنيش على طول أرصفة مارينا أشدود.",
+      "en": "Promenade along the marina piers of Ashdod.",
+      "ru": "Набережная вдоль причалов марины Ашдода."
+    }
+  },
+  {
+    "id": "1147",
+    "name": {
+      "he": "קפה קפה גדרה",
+      "ar": "كافيه كافيه غيديرا",
+      "en": "Cafe Cafe Gedera",
+      "ru": "Кафе Кафе Гедера"
+    },
+    "coords": [
+      31.8115,
+      34.7815
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה וסניף רשת במרכז המושבה גדרה.",
+      "ar": "مقهى وفرع سلسلة في مركز مستعمرة غيديرا.",
+      "en": "A cafe and chain branch in the center of Gedera colony.",
+      "ru": "Кафе и филиал сети в центре колонии Гедера."
+    }
+  },
+  {
+    "id": "1148",
+    "name": {
+      "he": "שמורת שיטה מלבינה אשדוד",
+      "ar": "محمية الأكاسيا البيضاء أشدود",
+      "en": "White Acacia Reserve Ashdod",
+      "ru": "Заповедник белой акации Ашдода"
+    },
+    "coords": [
+      31.7652,
+      34.6552
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "ריכוז נדיר של עצי שיטה מלבינה בחולות אשדוד.",
+      "ar": "تركيز نادر من أشجار الأكاسيا البيضاء في رمال أشدود.",
+      "en": "A rare concentration of White Acacia trees in the Ashdod sands.",
+      "ru": "Редкое скопление белых акаций в песках Ашдода."
+    }
   }
 ]
