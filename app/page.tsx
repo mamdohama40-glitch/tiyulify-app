@@ -93,7 +93,7 @@ function PhotoUploader({ item, onPhotoAdded }: { item: any; onPhotoAdded: () => 
       />
       <label className={`flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-black cursor-pointer transition-all ${uploading ? 'bg-gray-200 text-gray-400' : 'bg-green-500 text-white hover:bg-green-600'}`}>
         {uploading ? '⏳ מעלה...' : '📷 הוסף תמונה שלך'}
-        <input type="file" accept="image/*" capture="environment" className="hidden" onChange={handleUpload} disabled={uploading} />
+        <input type="file" accept="image/*" className="hidden" onChange={handleUpload} disabled={uploading} />
       </label>
     </div>
   );
@@ -142,7 +142,7 @@ function UserPhotos({ item }: { item: any }) {
       <span style={{fontSize:'3rem'}}>{emoji}</span>
       <label className="bg-green-500 text-white text-[11px] font-black px-3 py-1.5 rounded-full cursor-pointer hover:bg-green-600 shadow">
         📷 הוסף תמונה ראשונה!
-        <input type="file" accept="image/*" capture="environment" className="hidden" onChange={async e => {
+        <input type="file" accept="image/*" className="hidden" onChange={async e => {
           const file = e.target.files?.[0]; if (!file) return;
           const ext = file.name.split('.').pop();
           const fileName = `${item.id}/${Date.now()}.${ext}`;
@@ -182,7 +182,7 @@ function UserPhotos({ item }: { item: any }) {
       )}
       <label className="absolute bottom-2 left-2 bg-green-500 text-white text-[10px] font-black px-2 py-1 rounded-full cursor-pointer hover:bg-green-600 shadow">
         📷+
-        <input type="file" accept="image/*" capture="environment" className="hidden" onChange={async e => {
+        <input type="file" accept="image/*" className="hidden" onChange={async e => {
           const file = e.target.files?.[0]; if (!file) return;
           const ext = file.name.split('.').pop();
           const fileName = `${item.id}/${Date.now()}.${ext}`;
