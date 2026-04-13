@@ -458,10 +458,7 @@ export default function TiyulifyApp() {
         matchesCat = true;
       } else if (categoryFilter === 'river') {
         // נחלים = water items עם נחל בשם
-        matchesCat = cat === 'water' && (nameHe.includes('נחל') || nameEn.includes('stream') || nameEn.includes('nahal') || nameEn.includes('river'));
-      } else if (categoryFilter === 'water') {
-        // מים = water items שאינם נחלים
-        matchesCat = cat === 'water' && !nameHe.includes('נחל') && !nameEn.includes('stream');
+        matchesCat = cat === 'water';
       } else if (categoryFilter === 'sleep') {
         matchesCat = cat === 'sleep' || cat === 'accommodation';
       } else if (categoryFilter === 'food') {
