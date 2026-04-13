@@ -22148,5 +22148,1685 @@
       "season": "all",
       "hours": "08:00-18:00"
     }
+  },
+  {
+    "id": "1011",
+    "name": {
+      "he": "גן לאומי קיסריה",
+      "ar": "حديقة قيسارية الوطنية",
+      "en": "Caesarea National Park",
+      "ru": "Национальный парк Кесария"
+    },
+    "coords": [
+      32.5,
+      34.892
+    ],
+    "category": "history",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיר נמל רומית עתיקה הכוללת תיאטרון, היפודרום ושרידים ארכיאולוגיים מרשימים על קו החוף.",
+      "ar": "مدينة ميناء رومانية قديمة تضم مسرحاً وهيبودروماً وآثاراً أثرية رائعة على الساحل.",
+      "en": "Ancient Roman port city featuring a theater, hippodrome, and impressive archaeological remains on the coastline.",
+      "ru": "Древний римский портовый город с театром, ипподромом и руинами на побережье."
+    }
+  },
+  {
+    "id": "1012",
+    "name": {
+      "he": "שמורת טבע נחל תנינים",
+      "ar": "محمية نهر التماسيح",
+      "en": "Nahal Taninim Nature Reserve",
+      "ru": "Заповедник Нахаль-Таниним"
+    },
+    "coords": [
+      32.54,
+      34.912
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שמורה המציגה סכר רומי משוחזר, טחנות קמח עתיקות ומסלול הליכה לצד נחל זורם.",
+      "ar": "محمية تعرض سداً رومانياً مرمماً وطواحين قمح قديمة ومسار مشي بجانب نهر جارٍ.",
+      "en": "A reserve showcasing a restored Roman dam, ancient flour mills, and a walking trail alongside a flowing stream.",
+      "ru": "Заповедник с восстановленной римской плотиной и тропой вдоль ручья."
+    }
+  },
+  {
+    "id": "1013",
+    "name": {
+      "he": "חוף האקוודוקט",
+      "ar": "شاطئ القناطر الرومانية",
+      "en": "Aqueduct Beach",
+      "ru": "Пляж Акведук"
+    },
+    "coords": [
+      32.518,
+      34.894
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף רחצה מפורסם בזכות אמת המים הרומית המרהיבה שנשתמרה לאורכו.",
+      "ar": "شاطئ مشهور بقناة المياه الرومانية الرائعة المحفوظة على طوله.",
+      "en": "A beach famous for the spectacular Roman aqueduct preserved along its length.",
+      "ru": "Пляж знаменит сохранившимся римским акведуком вдоль него."
+    }
+  },
+  {
+    "id": "1014",
+    "name": {
+      "he": "פארק נחל חדרה",
+      "ar": "منتزه نهر الخضيرة",
+      "en": "Hadera River Park",
+      "ru": "Парк реки Хадера"
+    },
+    "coords": [
+      32.47,
+      34.88
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק רחב ידיים במוצא הנחל לים, כולל מזרקה של מים חמים ותצפיות על ציפורים.",
+      "ar": "منتزه واسع عند مصب النهر مع نافورة مياه دافئة ومراقبة الطيور.",
+      "en": "A vast park at the river's outlet to the sea, including a warm water fountain and bird watching spots.",
+      "ru": "Большой парк у устья реки с наблюдением за птицами."
+    }
+  },
+  {
+    "id": "1015",
+    "name": {
+      "he": "טיילת המצוק נתניה",
+      "ar": "كورنيش المنحدر نتانيا",
+      "en": "Netanya Cliff Promenade",
+      "ru": "Набережная скалы Нетании"
+    },
+    "coords": [
+      32.33,
+      34.845
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת מרהיבה על ראש מצוק הכורכר הצופה אל הים התיכון.",
+      "ar": "كورنيش رائع على قمة منحدر الكركر يطل على البحر الأبيض المتوسط.",
+      "en": "A spectacular promenade on top of the sandstone cliff overlooking the Mediterranean Sea.",
+      "ru": "Впечатляющая набережная на вершине скалы с видом на Средиземное море."
+    }
+  },
+  {
+    "id": "1016",
+    "name": {
+      "he": "שמורת אירוס הארגמן",
+      "ar": "محمية سوسن الأرجواني",
+      "en": "Iris Reserve Netanya",
+      "ru": "Заповедник ириса Нетании"
+    },
+    "coords": [
+      32.285,
+      34.835
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אתר פריחה ייחודי של אירוס הארגמן הנדיר בחודשי החורף והאביב.",
+      "ar": "موقع تفتح فريد للسوسن الأرجواني النادر في أشهر الشتاء والربيع.",
+      "en": "A unique blooming site of the rare Coastal Iris during winter and spring months.",
+      "ru": "Уникальное место цветения редкого берегового ириса зимой и весной."
+    }
+  },
+  {
+    "id": "1017",
+    "name": {
+      "he": "שלוק קפה",
+      "ar": "كافيه شلوك",
+      "en": "Shluk Coffee",
+      "ru": "Кофейня Шлук"
+    },
+    "coords": [
+      32.331,
+      34.848
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה מקומי ונעים בקרבת הטיילת בנתניה.",
+      "ar": "مقهى محلي مريح بالقرب من الكورنيش في نتانيا.",
+      "en": "A cozy local cafe near the promenade in Netanya.",
+      "ru": "Уютная местная кофейня рядом с набережной Нетании."
+    }
+  },
+  {
+    "id": "1018",
+    "name": {
+      "he": "חוף סירונית",
+      "ar": "شاطئ سيرونيت",
+      "en": "Sironit Beach",
+      "ru": "Пляж Сиронит"
+    },
+    "coords": [
+      32.327,
+      34.844
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף הרחצה המרכזי של נתניה עם שובר גלים ומעלית לים.",
+      "ar": "شاطئ السباحة المركزي في نتانيا مع كاسر الأمواج ومصعد للبحر.",
+      "en": "Netanya's central bathing beach with a breakwater and a sea elevator.",
+      "ru": "Центральный пляж Нетании с волнорезом и лифтом к морю."
+    }
+  },
+  {
+    "id": "1019",
+    "name": {
+      "he": "שמורת נחל פולג",
+      "ar": "محمية نهر بولغ",
+      "en": "Poleg Stream Reserve",
+      "ru": "Заповедник ручья Полег"
+    },
+    "coords": [
+      32.268,
+      34.84
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אזור דיונות חול וצמחיית נחלים בנקודת המפגש של נחל פולג עם הים.",
+      "ar": "منطقة كثبان رملية ونباتات نهرية عند نقطة التقاء نهر بولغ بالبحر.",
+      "en": "An area of sand dunes and river vegetation at the meeting point of Poleg Stream and the sea.",
+      "ru": "Песчаные дюны и речная растительность у впадения ручья Полег в море."
+    }
+  },
+  {
+    "id": "1020",
+    "name": {
+      "he": "גן לאומי תל דור",
+      "ar": "حديقة تل دور الوطنية",
+      "en": "Tel Dor National Park",
+      "ru": "Национальный парк Тель-Дор"
+    },
+    "coords": [
+      32.615,
+      34.915
+    ],
+    "category": "history",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אתר ארכיאולוגי של עיר נמל קדומה עם מפרצים טבעיים מרהיבים.",
+      "ar": "موقع أثري لمدينة ميناء قديمة مع خلجان طبيعية رائعة.",
+      "en": "Archaeological site of an ancient port city with spectacular natural bays.",
+      "ru": "Археологический памятник древнего портового города с природными бухтами."
+    }
+  },
+  {
+    "id": "1021",
+    "name": {
+      "he": "חוף בית ינאי",
+      "ar": "شاطئ بيت يناي",
+      "en": "Beit Yanai Beach",
+      "ru": "Пляж Бейт-Янай"
+    },
+    "coords": [
+      32.398,
+      34.862
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אחד החופים היפים בישראל, פופולרי לגלישה ולפיקניקים.",
+      "ar": "أحد أجمل الشواطئ في إسرائيل، شعبي للتزلج والنزهات.",
+      "en": "One of Israel's most beautiful beaches, popular for surfing and picnics.",
+      "ru": "Один из красивейших пляжей Израиля, популярен для сёрфинга и пикников."
+    }
+  },
+  {
+    "id": "1022",
+    "name": {
+      "he": "שמורת נחל אלכסנדר",
+      "ar": "محمية نهر الإسكندر",
+      "en": "Alexander Stream Reserve",
+      "ru": "Заповедник реки Александр"
+    },
+    "coords": [
+      32.395,
+      34.87
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מסלול הליכה ורכיבה לצד הנחל, ביתם של הצבים הרכים הגדולים.",
+      "ar": "مسار مشي وركوب دراجات بجانب النهر، موطن السلاحف الناعمة الكبيرة.",
+      "en": "A walking and cycling trail along the stream, home to large soft-shelled turtles.",
+      "ru": "Тропа вдоль ручья с большими мягкотелыми черепахами."
+    }
+  },
+  {
+    "id": "1023",
+    "name": {
+      "he": "פארק אלונה",
+      "ar": "منتزه ألونا",
+      "en": "Alona Park",
+      "ru": "Парк Алона"
+    },
+    "coords": [
+      32.52,
+      34.98
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק הכולל נקבת מים עתיקה (מי קדם) מתקופה הרומית.",
+      "ar": "منتزه يضم نفقاً مائياً قديماً (مي كيدم) من العصر الروماني.",
+      "en": "Park featuring an ancient water tunnel (Mei Kedem) from the Roman period.",
+      "ru": "Парк с древним водным туннелем римского периода."
+    }
+  },
+  {
+    "id": "1024",
+    "name": {
+      "he": "טיילת ניצה",
+      "ar": "كورنيش نيتسا",
+      "en": "Nitza Promenade",
+      "ru": "Набережная Ница"
+    },
+    "coords": [
+      32.345,
+      34.855
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת צפונית בנתניה עם נוף פתוח לים ומתקני משחקים.",
+      "ar": "كورنيش شمالي في نتانيا مع منظر مفتوح للبحر وملاعب.",
+      "en": "Northern promenade in Netanya with an open sea view and playgrounds.",
+      "ru": "Северная набережная Нетании с открытым видом на море."
+    }
+  },
+  {
+    "id": "1025",
+    "name": {
+      "he": "קפה ניצה",
+      "ar": "كافيه نيتسا",
+      "en": "Cafe Nitza",
+      "ru": "Кафе Ница"
+    },
+    "coords": [
+      32.346,
+      34.856
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה וותיק הממוקם על הטיילת הצפונית.",
+      "ar": "مقهى قديم يقع على الكورنيش الشمالي.",
+      "en": "A long-standing cafe located on the northern promenade.",
+      "ru": "Давнее кафе на северной набережной."
+    }
+  },
+  {
+    "id": "1026",
+    "name": {
+      "he": "חוף פולג",
+      "ar": "شاطئ بولغ",
+      "en": "Poleg Beach",
+      "ru": "Пляж Полег"
+    },
+    "coords": [
+      32.275,
+      34.838
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף רחצה רחב בדרום נתניה, מוקד לספורט ימי.",
+      "ar": "شاطئ سباحة واسع في جنوب نتانيا، مركز للرياضات البحرية.",
+      "en": "A wide bathing beach in South Netanya, a hub for water sports.",
+      "ru": "Широкий пляж в южной Нетании, центр водных видов спорта."
+    }
+  },
+  {
+    "id": "1027",
+    "name": {
+      "he": "חורשת הסרגליים",
+      "ar": "حرش السرغاليم",
+      "en": "Sargalim Grove",
+      "ru": "Роща Саргалим"
+    },
+    "coords": [
+      32.31,
+      34.875
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יער קטן ונעים במזרח נתניה המתאים לטיולים קצרים.",
+      "ar": "غابة صغيرة وجميلة في شرق نتانيا مناسبة للنزهات القصيرة.",
+      "en": "A small, pleasant grove in East Netanya suitable for short walks.",
+      "ru": "Небольшая приятная роща в восточной Нетании для коротких прогулок."
+    }
+  },
+  {
+    "id": "1028",
+    "name": {
+      "he": "שמורת ביצת זיתא",
+      "ar": "محمية مستنقع زيتا",
+      "en": "Zita Marsh Reserve",
+      "ru": "Болотный заповедник Зита"
+    },
+    "coords": [
+      32.44,
+      34.92
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שריד לביצות השרון המקוריות עם צמחיית מים ייחודית.",
+      "ar": "بقية من مستنقعات الشارون الأصلية مع نباتات مائية فريدة.",
+      "en": "A remnant of the original Sharon marshes with unique aquatic vegetation.",
+      "ru": "Остаток оригинальных болот Шарона с уникальной водной растительностью."
+    }
+  },
+  {
+    "id": "1029",
+    "name": {
+      "he": "קפה במגרש הגולף קיסריה",
+      "ar": "كافيه ملعب الغولف قيسارية",
+      "en": "Caesarea Golf Cafe",
+      "ru": "Кафе гольф-клуба Кесарии"
+    },
+    "coords": [
+      32.505,
+      34.91
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה יוקרתי המשקיף על מדשאות הגולף של קיסריה.",
+      "ar": "مقهى فاخر يطل على ملاعب الغولف في قيسارية.",
+      "en": "An upscale cafe overlooking the golf greens of Caesarea.",
+      "ru": "Элитное кафе с видом на поля для гольфа Кесарии."
+    }
+  },
+  {
+    "id": "1030",
+    "name": {
+      "he": "נמל קיסריה",
+      "ar": "ميناء قيسارية",
+      "en": "Caesarea Harbor",
+      "ru": "Порт Кесарии"
+    },
+    "coords": [
+      32.502,
+      34.891
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מתחם בילוי היסטורי הכולל גלריות, מסעדות וטיילת על המים.",
+      "ar": "مجمع ترفيهي تاريخي يضم معارض ومطاعم وكورنيش على المياه.",
+      "en": "A historical entertainment complex featuring galleries, restaurants, and a waterfront promenade.",
+      "ru": "Исторический развлекательный комплекс с галереями и набережной."
+    }
+  },
+  {
+    "id": "1031",
+    "name": {
+      "he": "חוף נעורים",
+      "ar": "شاطئ نعوريم",
+      "en": "Naorim Beach",
+      "ru": "Пляж Наорим"
+    },
+    "coords": [
+      32.365,
+      34.858
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף מבודד יחסית צפונית לנתניה עם מצוקים גבוהים.",
+      "ar": "شاطئ معزول نسبياً شمال نتانيا مع منحدرات عالية.",
+      "en": "A relatively isolated beach north of Netanya with high cliffs.",
+      "ru": "Относительно уединённый пляж к северу от Нетании с высокими скалами."
+    }
+  },
+  {
+    "id": "1032",
+    "name": {
+      "he": "פארק השלולית נתניה",
+      "ar": "منتزه البركة الشتوية نتانيا",
+      "en": "Winter Pond Park Netanya",
+      "ru": "Парк зимнего пруда Нетании"
+    },
+    "coords": [
+      32.295,
+      34.845
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק עירוני סביב בריכת חורף טבעית, כולל מתקני שעשועים מעץ.",
+      "ar": "منتزه حضري حول بركة شتوية طبيعية مع مرافق لعب خشبية.",
+      "en": "An urban park around a natural winter pond, including wooden playground facilities.",
+      "ru": "Городской парк вокруг природного зимнего пруда с деревянными игровыми площадками."
+    }
+  },
+  {
+    "id": "1033",
+    "name": {
+      "he": "קפה לנדוור קיסריה",
+      "ar": "كافيه لاندوور قيسارية",
+      "en": "Landwer Cafe Caesarea",
+      "ru": "Кафе Лэндвер Кесария"
+    },
+    "coords": [
+      32.495,
+      34.935
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של הרשת הממוקם במרכז העסקים של קיסריה.",
+      "ar": "فرع من السلسلة في مركز الأعمال بقيسارية.",
+      "en": "A branch of the chain located in the Caesarea Business Park.",
+      "ru": "Филиал сети в бизнес-парке Кесарии."
+    }
+  },
+  {
+    "id": "1034",
+    "name": {
+      "he": "חוף צוקי ים",
+      "ar": "شاطئ تسوكي يام",
+      "en": "Zuki Yam Beach",
+      "ru": "Пляж Цуки-Ям"
+    },
+    "coords": [
+      32.378,
+      34.86
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף רחצה שקט המוקף במצוקי כורכר.",
+      "ar": "شاطئ سباحة هادئ محاط بمنحدرات الكركر.",
+      "en": "A quiet bathing beach surrounded by sandstone cliffs.",
+      "ru": "Тихий пляж, окружённый скалами из ракушечника."
+    }
+  },
+  {
+    "id": "1035",
+    "name": {
+      "he": "שמורת שער פולג",
+      "ar": "محمية شعار بولغ",
+      "en": "Sha'ar Poleg Reserve",
+      "ru": "Заповедник Шаар-Полег"
+    },
+    "coords": [
+      32.258,
+      34.855
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מעבר צר שנחצב ברכס הכורכר בעת העתיקה לניקוז הביצות.",
+      "ar": "ممر ضيق محفور في سلسلة الكركر في العصور القديمة لتصريف المستنقعات.",
+      "en": "A narrow passage carved into the sandstone ridge in ancient times to drain marshes.",
+      "ru": "Узкий проход в хребте, вырубленный в древности для осушения болот."
+    }
+  },
+  {
+    "id": "1036",
+    "name": {
+      "he": "גן הגיבורים נתניה",
+      "ar": "حديقة الأبطال نتانيا",
+      "en": "Heroes Garden Netanya",
+      "ru": "Сад Героев Нетании"
+    },
+    "coords": [
+      32.335,
+      34.852
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן ציבורי מטופח במרכז העיר נתניה.",
+      "ar": "حديقة عامة مرتبة في وسط مدينة نتانيا.",
+      "en": "A well-maintained public garden in central Netanya.",
+      "ru": "Ухоженный общественный сад в центре Нетании."
+    }
+  },
+  {
+    "id": "1037",
+    "name": {
+      "he": "טיילת המצוק חדרה",
+      "ar": "كورنيش المنحدر الخضيرة",
+      "en": "Hadera Cliff Promenade",
+      "ru": "Набережная скалы Хадеры"
+    },
+    "coords": [
+      32.45,
+      34.875
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת חדשה לאורך מצוקי הים של גבעת אולגה.",
+      "ar": "كورنيش جديد على طول منحدرات البحر في غفعات أولغا.",
+      "en": "A new promenade along the sea cliffs of Givat Olga.",
+      "ru": "Новая набережная вдоль морских скал Гиват-Ольги."
+    }
+  },
+  {
+    "id": "1038",
+    "name": {
+      "he": "קפה גרג יאכין",
+      "ar": "كافيه غريغ ياخين",
+      "en": "Greg Cafe Yachin",
+      "ru": "Кафе Грег Яхин"
+    },
+    "coords": [
+      32.278,
+      34.86
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה פופולרי במתחם הקניות יאכין סנטר פולג.",
+      "ar": "مقهى شعبي في مجمع التسوق ياخين سنتر بولغ.",
+      "en": "A popular cafe in the Yachin Center shopping complex, Poleg.",
+      "ru": "Популярное кафе в торговом комплексе Яхин Центр, Полег."
+    }
+  },
+  {
+    "id": "1039",
+    "name": {
+      "he": "חוף בלו ביי",
+      "ar": "شاطئ بلو باي",
+      "en": "Blue Bay Beach",
+      "ru": "Пляж Блу Бей"
+    },
+    "coords": [
+      32.355,
+      34.858
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף הרחצה הצפוני ביותר בנתניה, סמוך למלון בלו ביי.",
+      "ar": "الشاطئ الأكثر شمالاً في نتانيا بالقرب من فندق بلو باي.",
+      "en": "The northernmost bathing beach in Netanya, adjacent to the Blue Bay Hotel.",
+      "ru": "Самый северный пляж Нетании рядом с отелем Блу Бей."
+    }
+  },
+  {
+    "id": "1040",
+    "name": {
+      "he": "פארק הצבים",
+      "ar": "منتزه السلاحف",
+      "en": "Turtle Park",
+      "ru": "Парк черепах"
+    },
+    "coords": [
+      32.396,
+      34.872
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נקודת תצפית מוסדרת על הצבים הרכים בנחל אלכסנדר.",
+      "ar": "نقطة مراقبة منظمة للسلاحف الناعمة في نهر الإسكندر.",
+      "en": "An organized observation point for soft-shelled turtles in Alexander Stream.",
+      "ru": "Организованная смотровая площадка для черепах в реке Александр."
+    }
+  },
+  {
+    "id": "1041",
+    "name": {
+      "he": "טיילת שקד",
+      "ar": "كورنيش شاكيد",
+      "en": "Shaked Promenade",
+      "ru": "Набережная Шакед"
+    },
+    "coords": [
+      32.338,
+      34.85
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת ותיקה הכוללת אמפיתיאטרון פתוח מול הים.",
+      "ar": "كورنيش قديم يضم مدرجاً مفتوحاً أمام البحر.",
+      "en": "An established promenade featuring an open amphitheater facing the sea.",
+      "ru": "Старая набережная с открытым амфитеатром у моря."
+    }
+  },
+  {
+    "id": "1042",
+    "name": {
+      "he": "חוף מכמורת",
+      "ar": "شاطئ مخمورت",
+      "en": "Michmoret Beach",
+      "ru": "Пляж Михморет"
+    },
+    "coords": [
+      32.405,
+      34.865
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף רחצה עם מפרץ רגוע, פופולרי למשפחות.",
+      "ar": "شاطئ سباحة مع خليج هادئ، شعبي للعائلات.",
+      "en": "A bathing beach with a calm bay, popular for families.",
+      "ru": "Пляж со спокойной бухтой, популярен для семей."
+    }
+  },
+  {
+    "id": "1043",
+    "name": {
+      "he": "שמורת חרובי קיסריה",
+      "ar": "محمية خروب قيسارية",
+      "en": "Caesarea Carob Reserve",
+      "ru": "Заповедник рожковых деревьев Кесарии"
+    },
+    "coords": [
+      32.51,
+      34.905
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אזור דיונות עם עצי חרוב עתיקים וצמחיית חולות.",
+      "ar": "منطقة كثبان مع أشجار خروب قديمة ونباتات رملية.",
+      "en": "A dune area with ancient carob trees and sand vegetation.",
+      "ru": "Дюны с древними рожковыми деревьями и песчаной растительностью."
+    }
+  },
+  {
+    "id": "1044",
+    "name": {
+      "he": "קפה קפה נתניה",
+      "ar": "كافيه كافيه نتانيا",
+      "en": "Cafe Cafe Netanya",
+      "ru": "Кафе Кафе Нетания"
+    },
+    "coords": [
+      32.328,
+      34.85
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה במרכז העיר, סמוך לכיכר העצמאות.",
+      "ar": "مقهى في وسط المدينة بالقرب من ميدان الاستقلال.",
+      "en": "A cafe in the city center, near Independence Square.",
+      "ru": "Кафе в центре города рядом с площадью Независимости."
+    }
+  },
+  {
+    "id": "1045",
+    "name": {
+      "he": "פארק עיר ימים",
+      "ar": "منتزه عير يامين",
+      "en": "Ir Yamim Park",
+      "ru": "Парк Ир-Ямим"
+    },
+    "coords": [
+      32.288,
+      34.842
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק שכונתי מודרני בדרום נתניה עם שבילי הליכה.",
+      "ar": "منتزه حي حديث في جنوب نتانيا مع مسارات مشي.",
+      "en": "A modern neighborhood park in South Netanya with walking paths.",
+      "ru": "Современный районный парк в южной Нетании с дорожками."
+    }
+  },
+  {
+    "id": "1046",
+    "name": {
+      "he": "חוף הרצל נתניה",
+      "ar": "شاطئ هرتسل نتانيا",
+      "en": "Herzl Beach Netanya",
+      "ru": "Пляж Герцля Нетания"
+    },
+    "coords": [
+      32.33,
+      34.846
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "המשכו של רחוב הרצל המרכזי היורד אל הים.",
+      "ar": "امتداد شارع هرتسل المركزي النازل إلى البحر.",
+      "en": "The continuation of central Herzl Street descending to the sea.",
+      "ru": "Продолжение центральной улицы Герцля к морю."
+    }
+  },
+  {
+    "id": "1047",
+    "name": {
+      "he": "שמורת חוף השרון",
+      "ar": "محمية ساحل الشارون",
+      "en": "Hof Hasharon Reserve",
+      "ru": "Заповедник Хоф-ха-Шарон"
+    },
+    "coords": [
+      32.235,
+      34.825
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שמורה המשלבת מצוק כורכר, פריחת אביב ונוף מרהיב לים.",
+      "ar": "محمية تجمع منحدر الكركر وأزهار الربيع ومنظر رائع للبحر.",
+      "en": "A reserve combining sandstone cliffs, spring blooms, and spectacular sea views.",
+      "ru": "Заповедник с скалами, весенним цветением и видом на море."
+    }
+  },
+  {
+    "id": "1048",
+    "name": {
+      "he": "טיילת ראשונים נתניה",
+      "ar": "كورنيش ريشونيم نتانيا",
+      "en": "Rishonim Promenade Netanya",
+      "ru": "Набережная Ришоним Нетания"
+    },
+    "coords": [
+      32.328,
+      34.846
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת מרכזית בנתניה המחברת בין העיר לים דרך המעלית.",
+      "ar": "كورنيش مركزي في نتانيا يربط المدينة بالبحر عبر المصعد.",
+      "en": "Central promenade in Netanya connecting the city and the sea via the elevator.",
+      "ru": "Центральная набережная Нетании, соединяющая город с морем через лифт."
+    }
+  },
+  {
+    "id": "1049",
+    "name": {
+      "he": "בוטיק סנטרל נתניה",
+      "ar": "بوتيك سنترال نتانيا",
+      "en": "Boutique Central Netanya",
+      "ru": "Бутик Централ Нетания"
+    },
+    "coords": [
+      32.329,
+      34.852
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מאפייה ובית קפה איכותי בלב נתניה.",
+      "ar": "مخبز ومقهى راقٍ في قلب نتانيا.",
+      "en": "A quality bakery and cafe in the heart of Netanya.",
+      "ru": "Качественная пекарня и кафе в сердце Нетании."
+    }
+  },
+  {
+    "id": "1050",
+    "name": {
+      "he": "חוף המזח חדרה",
+      "ar": "شاطئ الرصيف الخضيرة",
+      "en": "The Pier Beach Hadera",
+      "ru": "Пляж Пирс Хадера"
+    },
+    "coords": [
+      32.472,
+      34.878
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף ליד תחנת הכוח בחדרה עם מזח דייגים וגולשים.",
+      "ar": "شاطئ بالقرب من محطة الطاقة في الخضيرة مع رصيف للصيادين والمتزلجين.",
+      "en": "Beach near the Hadera power plant with a pier for fishermen and surfers.",
+      "ru": "Пляж у электростанции Хадеры с пирсом для рыбаков и серферов."
+    }
+  },
+  {
+    "id": "1051",
+    "name": {
+      "he": "פארק היקבים בנימינה",
+      "ar": "منتزه المعاصر بنيامينا",
+      "en": "Wineries Park Binyamina",
+      "ru": "Парк виноделен Биньямина"
+    },
+    "coords": [
+      32.57,
+      34.95
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק בבנימינה הסמוכה לזכרון יעקב, אזור כרמים היסטורי.",
+      "ar": "منتزه في بنيامينا بالقرب من زخرون يعقوب، منطقة كروم تاريخية.",
+      "en": "A park in Binyamina near Zichron Ya'akov, a historical vineyard area.",
+      "ru": "Парк в Биньямине рядом с Зихрон-Яаковом, исторический виноградный регион."
+    }
+  },
+  {
+    "id": "1052",
+    "name": {
+      "he": "קפה עלית קיסריה",
+      "ar": "كافيه إليت قيسارية",
+      "en": "Elite Cafe Caesarea",
+      "ru": "Кафе Элит Кесария"
+    },
+    "coords": [
+      32.49,
+      34.93
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עמדת קפה פופולרית בפארק העסקים.",
+      "ar": "نقطة قهوة شعبية في منتزه الأعمال.",
+      "en": "A popular coffee stand in the Business Park.",
+      "ru": "Популярная кофейня в бизнес-парке."
+    }
+  },
+  {
+    "id": "1053",
+    "name": {
+      "he": "טיילת כרמל נתניה",
+      "ar": "كورنيش كرمل نتانيا",
+      "en": "Carmel Promenade Netanya",
+      "ru": "Набережная Кармель Нетания"
+    },
+    "coords": [
+      32.322,
+      34.843
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת הממשיכה דרומה לאורך מצוקי החוף בנתניה.",
+      "ar": "كورنيش يمتد جنوباً على طول منحدرات الساحل في نتانيا.",
+      "en": "A promenade continuing south along the coastal cliffs in Netanya.",
+      "ru": "Набережная на юг вдоль прибрежных скал Нетании."
+    }
+  },
+  {
+    "id": "1054",
+    "name": {
+      "he": "חוף גבעת אולגה חדרה",
+      "ar": "شاطئ غفعات أولغا الخضيرة",
+      "en": "Givat Olga Beach Hadera",
+      "ru": "Пляж Гиват-Ольга Хадера"
+    },
+    "coords": [
+      32.445,
+      34.872
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף הרחצה המרכזי של שכונת גבעת אולגה בחדרה.",
+      "ar": "شاطئ السباحة المركزي في حي غفعات أولغا في الخضيرة.",
+      "en": "The central bathing beach of the Givat Olga neighborhood in Hadera.",
+      "ru": "Центральный пляж района Гиват-Ольга в Хадере."
+    }
+  },
+  {
+    "id": "1055",
+    "name": {
+      "he": "שמורת אחו בנימינה",
+      "ar": "محمية مروج بنيامينا",
+      "en": "Binyamina Meadow Reserve",
+      "ru": "Заповедник лугов Биньямина"
+    },
+    "coords": [
+      32.535,
+      34.945
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שטח ביצתי עונתי עם צמחיית אחו נדירה.",
+      "ar": "منطقة رطبة موسمية مع نباتات مروج نادرة.",
+      "en": "A seasonal wetland area with rare meadow vegetation.",
+      "ru": "Сезонные водно-болотные угодья с редкой луговой растительностью."
+    }
+  },
+  {
+    "id": "1056",
+    "name": {
+      "he": "קפה בלה נתניה",
+      "ar": "كافيه بيلا نتانيا",
+      "en": "Bella Cafe Netanya",
+      "ru": "Кафе Белла Нетания"
+    },
+    "coords": [
+      32.332,
+      34.85
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה איטלקי קטן ואיכותי.",
+      "ar": "مقهى إيطالي صغير وراقٍ.",
+      "en": "A small and quality Italian cafe.",
+      "ru": "Небольшое качественное итальянское кафе."
+    }
+  },
+  {
+    "id": "1057",
+    "name": {
+      "he": "פארק החולות קיסריה",
+      "ar": "منتزه الرمال قيسارية",
+      "en": "Caesarea Sands Park",
+      "ru": "Парк песков Кесарии"
+    },
+    "coords": [
+      32.485,
+      34.895
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שטחים פתוחים של חולות נודדים מדרום ליישוב קיסריה.",
+      "ar": "مساحات مفتوحة من الرمال المتحركة جنوب مستوطنة قيسارية.",
+      "en": "Open areas of shifting sands south of the Caesarea settlement.",
+      "ru": "Открытые территории с передвижными песками к югу от Кесарии."
+    }
+  },
+  {
+    "id": "1058",
+    "name": {
+      "he": "חוף קרית צאנז נתניה",
+      "ar": "شاطئ كريات تسانز نتانيا",
+      "en": "Kiryat Sanz Beach Netanya",
+      "ru": "Пляж Кирьят-Цанз Нетания"
+    },
+    "coords": [
+      32.348,
+      34.855
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף רחצה נפרד לקהילה הדתית בנתניה.",
+      "ar": "شاطئ سباحة منفصل للمجتمع الديني في نتانيا.",
+      "en": "A gender-segregated bathing beach for the religious community in Netanya.",
+      "ru": "Раздельный пляж для религиозной общины Нетании."
+    }
+  },
+  {
+    "id": "1059",
+    "name": {
+      "he": "טיילת גלי ים נתניה",
+      "ar": "كورنيش غالي يام نتانيا",
+      "en": "Gali Yam Promenade Netanya",
+      "ru": "Набережная Гали-Ям Нетания"
+    },
+    "coords": [
+      32.315,
+      34.842
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת הכוללת פסלים סביבתיים מרהיבים מחומרים ממוחזרים.",
+      "ar": "كورنيش يضم منحوتات بيئية رائعة من مواد معادة التدوير.",
+      "en": "A promenade featuring spectacular environmental sculptures made from recycled materials.",
+      "ru": "Набережная с экологическими скульптурами из переработанных материалов."
+    }
+  },
+  {
+    "id": "1060",
+    "name": {
+      "he": "שמורת בריכת דורה נתניה",
+      "ar": "محمية بركة دورا نتانيا",
+      "en": "Dora Pond Reserve Netanya",
+      "ru": "Заповедник пруда Дора Нетания"
+    },
+    "coords": [
+      32.298,
+      34.848
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בריכת חורף טבעית המהווה מוקד לצפרות בלב נתניה.",
+      "ar": "بركة شتوية طبيعية تشكل مركزاً لمراقبة الطيور في قلب نتانيا.",
+      "en": "A natural winter pond that serves as a birdwatching hub in the heart of Netanya.",
+      "ru": "Природный зимний пруд — центр наблюдения за птицами в Нетании."
+    }
+  },
+  {
+    "id": "1061",
+    "name": {
+      "he": "ארקפה פולג",
+      "ar": "أركافيه بولغ",
+      "en": "Arcaffe Poleg",
+      "ru": "Аркаффе Полег"
+    },
+    "coords": [
+      32.275,
+      34.862
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "סניף של הרשת באזור התעשייה פולג.",
+      "ar": "فرع من السلسلة في منطقة صناعة بولغ.",
+      "en": "A branch of the chain in the Poleg industrial area.",
+      "ru": "Филиал сети в промышленной зоне Полег."
+    }
+  },
+  {
+    "id": "1062",
+    "name": {
+      "he": "חוף ארגמן נתניה",
+      "ar": "شاطئ أرغامان نتانيا",
+      "en": "Argaman Beach Netanya",
+      "ru": "Пляж Аргаман Нетания"
+    },
+    "coords": [
+      32.312,
+      34.84
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף שקט בדרום נתניה עם לגונות קטנות בין הסלעים.",
+      "ar": "شاطئ هادئ في جنوب نتانيا مع بحيرات صغيرة بين الصخور.",
+      "en": "A quiet beach in South Netanya with small lagoons among the rocks.",
+      "ru": "Тихий пляж в южной Нетании с лагунами среди скал."
+    }
+  },
+  {
+    "id": "1063",
+    "name": {
+      "he": "פארק אופניים נתניה",
+      "ar": "منتزه الدراجات نتانيا",
+      "en": "Netanya Bike Park",
+      "ru": "Велопарк Нетании"
+    },
+    "coords": [
+      32.29,
+      34.85
+    ],
+    "category": "bike",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מתחם רכיבה מקצועי הכולל מסלולי פאמפטרק.",
+      "ar": "مجمع ركوب احترافي يشمل مسارات بامبتراك.",
+      "en": "A professional cycling complex including pumptrack trails.",
+      "ru": "Профессиональный велокомплекс с памптрек-трассами."
+    }
+  },
+  {
+    "id": "1064",
+    "name": {
+      "he": "טיילת המעפילים נתניה",
+      "ar": "كورنيش المهاجرين نتانيا",
+      "en": "Ha'ma'apilim Promenade Netanya",
+      "ru": "Набережная ха-Маапилим Нетания"
+    },
+    "coords": [
+      32.342,
+      34.853
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת המוקדשת לנושא ההעפלה עם אנדרטאות ונוף לים.",
+      "ar": "كورنيش مكرس لموضوع الهجرة غير الشرعية مع نصب تذكارية ومنظر للبحر.",
+      "en": "A promenade dedicated to the Aliyah Bet with monuments and sea views.",
+      "ru": "Набережная, посвящённая нелегальной эмиграции, с монументами и видом на море."
+    }
+  },
+  {
+    "id": "1065",
+    "name": {
+      "he": "קפה נטו קיסריה",
+      "ar": "كافيه نيتو قيسارية",
+      "en": "Cafe Neto Caesarea",
+      "ru": "Кафе Нето Кесария"
+    },
+    "coords": [
+      32.498,
+      34.892
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה בנמל ההיסטורי של קיסריה.",
+      "ar": "مقهى في الميناء التاريخي لقيسارية.",
+      "en": "A cafe in the historical harbor of Caesarea.",
+      "ru": "Кафе в историческом порту Кесарии."
+    }
+  },
+  {
+    "id": "1066",
+    "name": {
+      "he": "חוף עב קאסי",
+      "ar": "شاطئ عب كاسي",
+      "en": "Ab Cassy Beach",
+      "ru": "Пляж Аб Касси"
+    },
+    "coords": [
+      32.385,
+      34.861
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף פראי צפונית למכמורת, פופולרי בקרב גולשי רוח.",
+      "ar": "شاطئ بري شمال مخمورت، شعبي لراكبي الرياح.",
+      "en": "A wild beach north of Michmoret, popular among windsurfers.",
+      "ru": "Дикий пляж к северу от Михморета, популярен у виндсёрферов."
+    }
+  },
+  {
+    "id": "1067",
+    "name": {
+      "he": "גן לאומי נחל אלכסנדר",
+      "ar": "حديقة نهر الإسكندر الوطنية",
+      "en": "Alexander Stream National Park",
+      "ru": "Нац. парк реки Александр"
+    },
+    "coords": [
+      32.39,
+      34.885
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק רחב ידיים המשתרע לאורך נחל אלכסנדר ועד לים.",
+      "ar": "منتزه واسع يمتد على طول نهر الإسكندر حتى البحر.",
+      "en": "A vast park stretching along Alexander Stream to the sea.",
+      "ru": "Большой парк вдоль реки Александр до моря."
+    }
+  },
+  {
+    "id": "1068",
+    "name": {
+      "he": "טיילת דנקנר נתניה",
+      "ar": "كورنيش دانكنر نتانيا",
+      "en": "Dankner Promenade Netanya",
+      "ru": "Набережная Данкнер Нетания"
+    },
+    "coords": [
+      32.325,
+      34.845
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת קצרה ומרכזית הצופה אל חוף סירונית.",
+      "ar": "كورنيش قصير ومركزي يطل على شاطئ سيرونيت.",
+      "en": "A short and central promenade overlooking Sironit Beach.",
+      "ru": "Короткая центральная набережная с видом на пляж Сиронит."
+    }
+  },
+  {
+    "id": "1069",
+    "name": {
+      "he": "קפה במרכז קיסריה",
+      "ar": "كافيه مركز قيسارية",
+      "en": "Caesarea Center Cafe",
+      "ru": "Кафе центра Кесарии"
+    },
+    "coords": [
+      32.515,
+      34.908
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה שכונתי במרכז המסחרי של היישוב קיסריה.",
+      "ar": "مقهى محلي في المركز التجاري لمستوطنة قيسارية.",
+      "en": "A neighborhood cafe in the commercial center of the Caesarea settlement.",
+      "ru": "Местное кафе в торговом центре Кесарии."
+    }
+  },
+  {
+    "id": "1070",
+    "name": {
+      "he": "חוף המפרץ קיסריה",
+      "ar": "شاطئ الخليج قيسارية",
+      "en": "The Bay Beach Caesarea",
+      "ru": "Пляж залива Кесарии"
+    },
+    "coords": [
+      32.48,
+      34.885
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מפרץ טבעי ומוגן דרומית לנמל קיסריה.",
+      "ar": "خليج طبيعي محمي جنوب ميناء قيسارية.",
+      "en": "A natural and protected bay south of Caesarea Harbor.",
+      "ru": "Природная защищённая бухта к югу от порта Кесарии."
+    }
+  },
+  {
+    "id": "1071",
+    "name": {
+      "he": "שמורת רכס הכורכר",
+      "ar": "محمية سلسلة الكركر",
+      "en": "Sandstone Ridge Reserve",
+      "ru": "Заповедник хребта ракушечника"
+    },
+    "coords": [
+      32.36,
+      34.865
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אזור משומר של רכסי כורכר חופיים עם צמחייה אנדמית.",
+      "ar": "منطقة محمية من سلاسل الكركر الساحلية مع نباتات مستوطنة.",
+      "en": "A preserved area of coastal sandstone ridges with endemic vegetation.",
+      "ru": "Охраняемая территория прибрежных хребтов с эндемичной растительностью."
+    }
+  },
+  {
+    "id": "1072",
+    "name": {
+      "he": "פארק המשחקים פולג",
+      "ar": "منتزه الملاعب بولغ",
+      "en": "Poleg Playground Park",
+      "ru": "Детский парк Полег"
+    },
+    "coords": [
+      32.272,
+      34.845
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן שעשועים גדול ומודרני בשכונת רמת פולג.",
+      "ar": "ملعب كبير وحديث في حي رمات بولغ.",
+      "en": "A large and modern playground in the Ramat Poleg neighborhood.",
+      "ru": "Большая современная детская площадка в районе Рамат-Полег."
+    }
+  },
+  {
+    "id": "1073",
+    "name": {
+      "he": "טיילת עיר ימים",
+      "ar": "كورنيش عير يامين",
+      "en": "Ir Yamim Promenade",
+      "ru": "Набережная Ир-Ямим"
+    },
+    "coords": [
+      32.282,
+      34.838
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת חדשה ומעוצבת לאורך קו החוף הדרומי של נתניה.",
+      "ar": "كورنيش جديد ومصمم على طول الساحل الجنوبي لنتانيا.",
+      "en": "A new and designed promenade along Netanya's southern coastline.",
+      "ru": "Новая дизайнерская набережная вдоль южного побережья Нетании."
+    }
+  },
+  {
+    "id": "1074",
+    "name": {
+      "he": "קפה ג'ו נתניה",
+      "ar": "كافيه جو نتانيا",
+      "en": "Joe Cafe Netanya",
+      "ru": "Кафе Джо Нетания"
+    },
+    "coords": [
+      32.33,
+      34.855
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה וותיק בכיכר העצמאות.",
+      "ar": "مقهى قديم في ميدان الاستقلال.",
+      "en": "A long-standing cafe in Independence Square.",
+      "ru": "Старое кафе на площади Независимости."
+    }
+  },
+  {
+    "id": "1075",
+    "name": {
+      "he": "חוף לגונה נתניה",
+      "ar": "شاطئ لاغونا نتانيا",
+      "en": "Lagoon Beach Netanya",
+      "ru": "Пляж Лагуна Нетания"
+    },
+    "coords": [
+      32.32,
+      34.84
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף רחצה דרומי עם לגונה רגועה המוגנת על ידי סלעים.",
+      "ar": "شاطئ سباحة جنوبي مع بحيرة هادئة محمية بالصخور.",
+      "en": "A southern bathing beach with a calm lagoon protected by rocks.",
+      "ru": "Южный пляж со спокойной лагуной, защищённой скалами."
+    }
+  },
+  {
+    "id": "1076",
+    "name": {
+      "he": "שמורת חרובי עמק חפר",
+      "ar": "محمية خروب وادي حيفر",
+      "en": "Emek Hefer Carob Reserve",
+      "ru": "Заповедник рожковых деревьев долины Хефер"
+    },
+    "coords": [
+      32.42,
+      34.9
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שמורת טבע קטנה המגנה על עצי חרוב עתיקים במישור החוף.",
+      "ar": "محمية طبيعية صغيرة تحمي أشجار خروب قديمة في السهل الساحلي.",
+      "en": "A small nature reserve protecting ancient carob trees on the coastal plain.",
+      "ru": "Небольшой заповедник с древними рожковыми деревьями на прибрежной равнине."
+    }
+  },
+  {
+    "id": "1077",
+    "name": {
+      "he": "פארק המדע נתניה",
+      "ar": "منتزه العلوم نتانيا",
+      "en": "Netanya Science Park",
+      "ru": "Научный парк Нетании"
+    },
+    "coords": [
+      32.28,
+      34.865
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק ירוק במרכז אזור ההייטק של פולג.",
+      "ar": "منتزه أخضر في قلب منطقة هاي-تك بولغ.",
+      "en": "A green park in the heart of the Poleg high-tech zone.",
+      "ru": "Зелёный парк в центре хайтек-зоны Полег."
+    }
+  },
+  {
+    "id": "1078",
+    "name": {
+      "he": "טיילת המלכים נתניה",
+      "ar": "كورنيش الملوك نتانيا",
+      "en": "Kings Promenade Netanya",
+      "ru": "Набережная Королей Нетания"
+    },
+    "coords": [
+      32.35,
+      34.858
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת מעל המצוק עם תצפיות פנורמיות לעבר הים.",
+      "ar": "كورنيش فوق المنحدر مع مناظر بانورامية نحو البحر.",
+      "en": "A promenade above the cliff with panoramic views of the sea.",
+      "ru": "Набережная над скалой с панорамным видом на море."
+    }
+  },
+  {
+    "id": "1079",
+    "name": {
+      "he": "קפה פולה נתניה",
+      "ar": "كافيه بولا نتانيا",
+      "en": "Pola Cafe Netanya",
+      "ru": "Кафе Пола Нетания"
+    },
+    "coords": [
+      32.276,
+      34.858
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה ומסעדה שכונתית פופולרית.",
+      "ar": "مقهى ومطعم حي شعبي.",
+      "en": "A popular neighborhood cafe and restaurant.",
+      "ru": "Популярное районное кафе и ресторан."
+    }
+  },
+  {
+    "id": "1080",
+    "name": {
+      "he": "חוף עונות נתניה",
+      "ar": "شاטئ عونوت نتانيا",
+      "en": "Onot Beach Netanya",
+      "ru": "Пляж Онот Нетания"
+    },
+    "coords": [
+      32.34,
+      34.85
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף רחצה צפוני הממוקם למרגלות מלון עונות.",
+      "ar": "شاطئ سباحة شمالي يقع عند سفح فندق عونوت.",
+      "en": "A northern bathing beach located at the foot of the Onot Hotel.",
+      "ru": "Северный пляж у подножия отеля Онот."
+    }
+  },
+  {
+    "id": "1081",
+    "name": {
+      "he": "גן אוליב נתניה",
+      "ar": "حديقة الزيتون نتانيا",
+      "en": "Olive Garden Netanya",
+      "ru": "Оливковый сад Нетании"
+    },
+    "coords": [
+      32.325,
+      34.858
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן ציבורי מטופח עם עצי זית עתיקים.",
+      "ar": "حديقة عامة مرتبة مع أشجار زيتون قديمة.",
+      "en": "A well-maintained public garden with ancient olive trees.",
+      "ru": "Ухоженный сад с древними оливковыми деревьями."
+    }
+  },
+  {
+    "id": "1082",
+    "name": {
+      "he": "שמורת ביצת נחל חדרה",
+      "ar": "محمية مستنقع نهر الخضيرة",
+      "en": "Hadera Stream Marsh Reserve",
+      "ru": "Болотный заповедник реки Хадера"
+    },
+    "coords": [
+      32.465,
+      34.89
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "ביצה משוקמת המהווה תחנת עצירה לציפורים נודדות.",
+      "ar": "مستنقع مرمم يشكل محطة توقف للطيور المهاجرة.",
+      "en": "A restored marsh that serves as a stopover for migratory birds.",
+      "ru": "Восстановленное болото — остановка для перелётных птиц."
+    }
+  },
+  {
+    "id": "1083",
+    "name": {
+      "he": "קפה בטיילת נתניה",
+      "ar": "كافيه الكورنيش نتانيا",
+      "en": "Netanya Promenade Cafe",
+      "ru": "Кафе набережной Нетании"
+    },
+    "coords": [
+      32.335,
+      34.848
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "בית קפה קטן ונינוח הצופה לים.",
+      "ar": "مقهى صغير ومريح يطل على البحر.",
+      "en": "A small and relaxed cafe overlooking the sea.",
+      "ru": "Небольшое уютное кафе с видом на море."
+    }
+  },
+  {
+    "id": "1084",
+    "name": {
+      "he": "חוף אמפי נתניה",
+      "ar": "شاطئ أمفي نتانيا",
+      "en": "Amphi Beach Netanya",
+      "ru": "Пляж Ампи Нетания"
+    },
+    "coords": [
+      32.336,
+      34.848
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף מתחת לאמפיתיאטרון העירוני, פופולרי לצעירים.",
+      "ar": "الشاطئ تحت المدرج البلدي، شعبي لدى الشباب.",
+      "en": "The beach below the municipal amphitheater, popular among young people.",
+      "ru": "Пляж под городским амфитеатром, популярен у молодёжи."
+    }
+  },
+  {
+    "id": "1085",
+    "name": {
+      "he": "פארק גשר הצבים",
+      "ar": "منتزه جسر السلاحف",
+      "en": "Turtle Bridge Park",
+      "ru": "Парк моста черепах"
+    },
+    "coords": [
+      32.394,
+      34.875
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מתחם פיקניק ותצפית על נחל אלכסנדר.",
+      "ar": "مجمع نزهة ومراقبة على نهر الإسكندر.",
+      "en": "A picnic and observation complex on Alexander Stream.",
+      "ru": "Зона для пикника и наблюдения на реке Александр."
+    }
+  },
+  {
+    "id": "1086",
+    "name": {
+      "he": "טיילת כביש החוף",
+      "ar": "كورنيش طريق الساحل",
+      "en": "Coastal Road Promenade",
+      "ru": "Набережная прибрежного шоссе"
+    },
+    "coords": [
+      32.4,
+      34.868
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת הליכה לצד כביש החוף באזור נחל אלכסנדר.",
+      "ar": "كورنيش للمشي بجانب طريق الساحل في منطقة نهر الإسكندر.",
+      "en": "A walking promenade alongside the coastal road in the Alexander Stream area.",
+      "ru": "Пешеходная набережная вдоль прибрежного шоссе у реки Александр."
+    }
+  },
+  {
+    "id": "1087",
+    "name": {
+      "he": "קפה עלית נתניה",
+      "ar": "كافيه إليت نتانيا",
+      "en": "Elite Cafe Netanya",
+      "ru": "Кафе Элит Нетания"
+    },
+    "coords": [
+      32.325,
+      34.865
+    ],
+    "category": "food",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נקודת קפה במרכז התעסוקה.",
+      "ar": "نقطة قهوة في مركز التوظيف.",
+      "en": "A coffee spot in the employment center.",
+      "ru": "Кофейня в центре занятости."
+    }
+  },
+  {
+    "id": "1088",
+    "name": {
+      "he": "חוף קרית ים צפון נתניה",
+      "ar": "شاطئ كريات يام شمال نتانيا",
+      "en": "North Netanya Beach",
+      "ru": "Северный пляж Нетании"
+    },
+    "coords": [
+      32.362,
+      34.859
+    ],
+    "category": "beach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חוף רחצה שקט צפונית לנתניה.",
+      "ar": "شاطئ سباحة هادئ شمال نتانيا.",
+      "en": "A quiet bathing beach north of Netanya.",
+      "ru": "Тихий пляж к северу от Нетании."
+    }
+  },
+  {
+    "id": "1089",
+    "name": {
+      "he": "פארק התותח נתניה",
+      "ar": "منتزه المدفع نتانيا",
+      "en": "Cannon Park Netanya",
+      "ru": "Парк Пушки Нетании"
+    },
+    "coords": [
+      32.338,
+      34.855
+    ],
+    "category": "nature",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן ציבורי עם תצוגה של תותח עתיק.",
+      "ar": "حديقة عامة مع عرض مدفع قديم.",
+      "en": "A public garden with an ancient cannon display.",
+      "ru": "Общественный сад с экспозицией старинной пушки."
+    }
+  },
+  {
+    "id": "1090",
+    "name": {
+      "he": "טיילת חוף פולג",
+      "ar": "كورنيش شاطئ بولغ",
+      "en": "Poleg Beach Promenade",
+      "ru": "Набережная пляжа Полег"
+    },
+    "coords": [
+      32.278,
+      34.84
+    ],
+    "category": "promenade",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "טיילת קצרה המחברת בין השכונה לחוף פולג.",
+      "ar": "كورنيش قصير يربط الحي بشاطئ بولغ.",
+      "en": "A short promenade connecting the neighborhood to Poleg Beach.",
+      "ru": "Короткая набережная, соединяющая район с пляжем Полег."
+    }
   }
 ]
