@@ -233,8 +233,6 @@ function SmartImage({ item, className }: { item: any; className?: string }) {
       onError={(e:any)=>{ e.target.style.display='none'; }}
     />
   );
-}: { item: any; className?: string }) {
-  const isWiki = (item.image||'').includes('wikimedia') || (item.image||'').includes('wikipedia');
   const [status, setStatus] = React.useState<'img'|'wiki'|'icon'>(isWiki ? 'img' : 'img');
   const [src, setSrc] = React.useState(item.image||'');
 
