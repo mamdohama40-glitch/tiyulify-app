@@ -585,7 +585,7 @@ export default function TiyulifyApp() {
                 const lat = point.lat;
                 const lng = point.lng;
                 try {
-                  const res = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&addressdetails=1&accept-language=he`);
+                  const res = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&addressdetails=1&accept-language=${activeLang === 'he' ? 'he' : activeLang === 'ar' ? 'ar' : activeLang === 'ru' ? 'ru' : 'en'}`);
                   const d = await res.json();
                   const name = d?.name || d?.display_name?.split(',')[0] || `${lat.toFixed(4)}, ${lng.toFixed(4)}`;
                   const addr = (d?.display_name||'').split(',').slice(0,4).join(', ');
@@ -709,7 +709,7 @@ export default function TiyulifyApp() {
                   // delay כדי לא לפעול בזום/גרירה
                   setTimeout(async () => {
                     try {
-                      const res = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&addressdetails=1&accept-language=he`);
+                      const res = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&addressdetails=1&accept-language=${activeLang === 'he' ? 'he' : activeLang === 'ar' ? 'ar' : activeLang === 'ru' ? 'ru' : 'en'}`);
                       const d = await res.json();
                       const name = d?.name || d?.display_name?.split(',')[0] || `${lat.toFixed(4)}, ${lng.toFixed(4)}`;
                       const addr = (d?.display_name||'').split(',').slice(0,4).join(', ');
