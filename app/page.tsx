@@ -694,44 +694,7 @@ export default function TiyulifyApp() {
                   </div>
                 </aside>
 
-                <div className="flex-1 relative" onClick={async (e: React.MouseEvent<HTMLDivElement>) => {
-                const map = mapControl.current;
-                if (!map) return;
-                const rect = (e.currentTarget as HTMLDivElement).getBoundingClientRect();
-                const x = e.clientX - rect.left;
-                const y = e.clientY - rect.top;
-                const point = map.containerPointToLatLng([x, y]);
-                const lat = point.lat;
-                const lng = point.lng;
-                try {
-                  const res = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&addressdetails=1&accept-language=he`);
-                  const d = await res.json();
-                  const name = d?.name || d?.display_name?.split(',')[0] || `${lat.toFixed(4)}, ${lng.toFixed(4)}`;
-                  const addr = (d?.display_name||'').split(',').slice(0,4).join(', ');
-                  const type = d?.type || d?.category || '';
-                  const userLat = userCoords?.[0];
-                  const userLng = userCoords?.[1];
-                  const dist = userLat && userLng ? calculateDistance(userLat, userLng, lat, lng) : null;
-                  const L = (window as any).L || map;
-                  const popup = (await import('leaflet')).default.popup()
-                    .setLatLng([lat, lng])
-                    .setContent(`<div dir="rtl" style="min-width:220px;font-family:Arial;padding:4px">
-                      <b style="font-size:15px;color:#166534;display:block;margin-bottom:4px">${name}</b>
-                      ${type ? `<span style="font-size:11px;background:#dcfce7;color:#166534;padding:2px 8px;border-radius:12px;display:inline-block;margin-bottom:6px">${type}</span>` : ''}
-                      <p style="font-size:11px;color:#6b7280;margin:0 0 4px;line-height:1.4">${addr}</p>
-                      ${dist ? `<p style="font-size:12px;color:#374151;margin:0 0 8px">📍 מרחק: <b>${dist} ק"מ</b></p>` : ''}
-                      <div style="display:flex;gap:6px;margin-top:8px">
-                        <a href="https://www.waze.com/ul?ll=${lat},${lng}&navigate=yes" target="_blank"
-                          style="flex:1;background:#2563eb;color:white;text-align:center;padding:7px;border-radius:8px;text-decoration:none;font-size:12px;font-weight:bold">WAZE</a>
-                        <a href="https://api.whatsapp.com/send?text=https://maps.google.com/?q=${lat},${lng}" target="_blank"
-                          style="flex:1;background:#25d366;color:white;text-align:center;padding:7px;border-radius:8px;text-decoration:none;font-size:12px;font-weight:bold">WhatsApp</a>
-                        <a href="https://www.google.com/maps?q=${lat},${lng}" target="_blank"
-                          style="flex:1;background:#f3f4f6;color:#374151;text-align:center;padding:7px;border-radius:8px;text-decoration:none;font-size:12px;font-weight:bold">Google</a>
-                      </div>
-                    </div>`);
-                  popup.openOn(map);
-                } catch(err) { console.error(err); }
-              }}>
+                <div className="flex-1 relative">
                   <MapContainer center={[32.0,34.9]} zoom={8} style={{height:'100%',width:'100%'}} ref={mapControl} zoomControl={false}
                     eventHandlers={{
                       click: async (e: any) => {
