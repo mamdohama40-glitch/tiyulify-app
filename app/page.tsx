@@ -677,9 +677,6 @@ export default function TiyulifyApp() {
                         <span className="text-right flex-1 leading-tight" style={{fontSize:'0.82rem'}}>
                         <span className="font-semibold block truncate">{r.display_name.split(',')[0]}</span>
                         <span className="text-gray-500 block truncate text-xs">{r.display_name.split(',').slice(1,3).join(',')}</span>
-                        {r.address?.country_code === 'il' && userCoords && (
-                          <span className="text-green-600 block text-xs">{Math.round(Math.sqrt(Math.pow((parseFloat(r.lat)-userCoords[0])*111,2)+Math.pow((parseFloat(r.lon)-userCoords[1])*111,2)))} ק"מ</span>
-                        )}
                       </span>
                       </button>
                     ))}
