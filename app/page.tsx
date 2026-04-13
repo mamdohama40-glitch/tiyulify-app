@@ -479,7 +479,7 @@ export default function TiyulifyApp() {
     geoDebounce.current = setTimeout(async () => {
       setGeoLoading(true);
       try {
-        const lang = activeLang==="he"?"he,en":activeLang==="ar"?"ar,en":activeLang==="ru"?"ru,en":"en";;
+        const lang = activeLang==="he"?"he,en":activeLang==="ar"?"ar,en":activeLang==="ru"?"ru,en":"en";
         const r = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&limit=8&accept-language=${lang}&addressdetails=1`);
         setGeoResults(await r.json());
       } catch(e) {} finally { setGeoLoading(false); }
