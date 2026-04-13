@@ -20088,6 +20088,11 @@
       "ar": "أكبر حديقة حيوانات وسفاري مفتوح في إسرائيل.",
       "en": "The largest zoo and drive-through safari in Israel.",
       "ru": "Крупнейший зоопарк и сафари в Израиле."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-17:00"
     }
   },
   {
@@ -20109,6 +20114,11 @@
       "ar": "المتحف الوطني للعلوم والتكنولوجيا والفضاء.",
       "en": "National Museum of Science, Technology and Space.",
       "ru": "Национальный музей науки, технологий и космоса."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-18:00"
     }
   },
   {
@@ -20130,6 +20140,11 @@
       "ar": "مشاهدة الحياة البحرية في خليج إيلات من خلال نوافذ ضخمة تحت الماء.",
       "en": "Viewing Red Sea marine life through underwater windows.",
       "ru": "Наблюдение за морской жизнью Красного моря через подводные окна."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-16:00"
     }
   },
   {
@@ -20151,6 +20166,11 @@
       "ar": "أكبر مؤسسة ثقافية في إسرائيل تضم هيكل الكتاب.",
       "en": "Israel's largest cultural institution, including the Shrine of the Book.",
       "ru": "Крупнейшее культурное учреждение Израиля."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "10:00-17:00"
     }
   },
   {
@@ -20172,6 +20192,11 @@
       "ar": "أكبر وأقدم منتزه مائي في إسرائيل.",
       "en": "Israel's largest water park with various slides.",
       "ru": "Крупнейший аквапарк Израиля."
+    },
+    "info": {
+      "target": "family",
+      "season": "summer",
+      "hours": "09:00-17:00"
     }
   },
   {
@@ -20193,6 +20218,11 @@
       "ar": "كهوف بحرية رائعة وتلفريك عند أقصى نقطة شمالية على الساحل.",
       "en": "Stunning sea grottoes and cable car at the northern coast.",
       "ru": "Морские гроты и канатная дорога на севере побережья."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "09:00-18:00"
     }
   },
   {
@@ -20214,6 +20244,11 @@
       "ar": "حديقة حيوانات في القدس تعرض الحيوانات المذكورة في الكتاب المقدس.",
       "en": "Jerusalem zoo featuring animals mentioned in the Bible.",
       "ru": "Иерусалимский зоопарк с библейскими животными."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-18:00"
     }
   },
   {
@@ -20235,6 +20270,11 @@
       "ar": "أكبر ملاهي في وسط البلاد.",
       "en": "The largest amusement park in central Israel.",
       "ru": "Крупнейший парк аттракционов в центре страны."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-20:00"
     }
   },
   {
@@ -20256,6 +20296,11 @@
       "ar": "منتزه المجسمات المصغرة للمواقع المهمة في إسرائيل.",
       "en": "Miniature park featuring models of important Israeli sites.",
       "ru": "Парк миниатюр с моделями израильских достопримечательностей."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-17:00"
     }
   },
   {
@@ -20277,6 +20322,11 @@
       "ar": "أول أكواريوم في إسرائيل مخصص للبيئة البحرية المحلية.",
       "en": "Israel's first aquarium dedicated to the local marine environment.",
       "ru": "Первый аквариум Израиля, посвящённый местной морской среде."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-17:00"
     }
   },
   {
@@ -20298,6 +20348,11 @@
       "ar": "تلفريك طويل ومنحدرات جبلية وأنشطة متطرفة في الشمال.",
       "en": "Long cable car, mountain slides and extreme activities.",
       "ru": "Длинная канатная дорога, горные горки и экстрим."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:30-17:00"
     }
   },
   {
@@ -20319,6 +20374,11 @@
       "ar": "مركز إحياء ذكرى الهولوكوست العالمي.",
       "en": "The World Holocaust Remembrance Center.",
       "ru": "Мировой центр памяти Холокоста."
+    },
+    "info": {
+      "target": "adults",
+      "season": "all",
+      "hours": "09:00-17:00"
     }
   },
   {
@@ -20340,6 +20400,11 @@
       "ar": "الرئة الخضراء لتل أبيب مع قوارب وحدائق نباتية.",
       "en": "Tel Aviv's largest park with boat rentals and botanical gardens.",
       "ru": "Лёгкие Тель-Авива с лодками и ботаническим садом."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
     }
   },
   {
@@ -20361,6 +20426,11 @@
       "ar": "موقع تاريخي وجيولوجي في العربة يضم أعمدة سليمان.",
       "en": "Historical and geological site featuring Solomon's Pillars.",
       "ru": "Исторический и геологический парк со столбами Соломона."
+    },
+    "info": {
+      "target": "family",
+      "season": "winter",
+      "hours": "08:00-16:00"
     }
   },
   {
@@ -20382,6 +20452,11 @@
       "ar": "تجربة تفاعلية للأطفال تتضمن معرض 'حوار في الظلام'.",
       "en": "Interactive children's museum featuring 'Dialogue in the Dark'.",
       "ru": "Интерактивный детский музей с 'Диалогом в темноте'."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-18:00"
     }
   },
   {
@@ -20403,6 +20478,11 @@
       "ar": "واحة صحراوية بمسارات للمشي وشلالات ووعول.",
       "en": "Oasis with hiking trails, waterfalls, and wild ibex.",
       "ru": "Оазис с тропами, водопадами и горными козлами."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:00-16:00"
     }
   },
   {
@@ -20424,6 +20504,11 @@
       "ar": "مجموعة نباتات من جميع أنحاء العالم في قلب القدس.",
       "en": "Plant collection from across the globe in Jerusalem.",
       "ru": "Коллекция растений со всего мира в Иерусалиме."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-17:00"
     }
   },
   {
@@ -20445,6 +20530,11 @@
       "ar": "برك مائية دافئة طبيعية مفتوحة على مدار السنة في وادي الينابيع.",
       "en": "Natural warm water pools open year-round.",
       "ru": "Природные тёплые бассейны открыты круглый год."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:00-16:00"
     }
   },
   {
@@ -20466,6 +20556,11 @@
       "ar": "ينابيع حرارية معدنية ومزرعة تماسيح.",
       "en": "Thermo-mineral hot springs and a crocodile farm.",
       "ru": "Термоминеральные горячие источники и крокодиловая ферма."
+    },
+    "info": {
+      "target": "family",
+      "season": "winter",
+      "hours": "09:00-17:00"
     }
   },
   {
@@ -20487,6 +20582,11 @@
       "ar": "متحف رائد للفن الحديث والمعاصر.",
       "en": "Leading museum for modern and contemporary art.",
       "ru": "Ведущий музей современного искусства."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "10:00-18:00"
     }
   },
   {
@@ -20508,6 +20608,11 @@
       "ar": "منتزه حضري يضم بحيرة وحديقة حيوانات ومناطق لعب.",
       "en": "Urban park with a lake, petting zoo and playgrounds.",
       "ru": "Городской парк с озером, мини-зоопарком и площадками."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:00-23:00"
     }
   },
   {
@@ -20529,6 +20634,11 @@
       "ar": "حي الفنانين والكُنس القديمة في مدينة القبالة.",
       "en": "Artist colony and ancient synagogues in the city of Kabbalah.",
       "ru": "Квартал художников и синагоги в городе Кабалы."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
     }
   },
   {
@@ -20550,6 +20660,11 @@
       "ar": "متحف المرزبان مع ورش عمل للأطفال.",
       "en": "Marzipan museum with workshops for kids.",
       "ru": "Музей марципана с мастер-классами для детей."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-17:00"
     }
   },
   {
@@ -20571,6 +20686,11 @@
       "ar": "منتجع التزلج الوحيد في إسرائيل، نشط أيضاً في الصيف.",
       "en": "Israel's only ski resort, active also in summer.",
       "ru": "Единственный горнолыжный курорт Израиля."
+    },
+    "info": {
+      "target": "family",
+      "season": "winter",
+      "hours": "08:00-16:00"
     }
   },
   {
@@ -20592,6 +20712,11 @@
       "ar": "حدائق رائعة تكريماً للبارون روتشيلد.",
       "en": "Beautiful memorial gardens for Baron Rothschild.",
       "ru": "Великолепные мемориальные сады барона Ротшильда."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:00-16:00"
     }
   },
   {
@@ -20613,6 +20738,11 @@
       "ar": "منتزه مائي وسبا في حولون.",
       "en": "Water park and spa in Holon.",
       "ru": "Аквапарк и спа в Холоне."
+    },
+    "info": {
+      "target": "family",
+      "season": "summer",
+      "hours": "09:00-17:00"
     }
   },
   {
@@ -20634,6 +20764,11 @@
       "ar": "متحف تاريخ القدس في قلعة قديمة.",
       "en": "Jerusalem history museum in an ancient citadel.",
       "ru": "Музей истории Иерусалима в древней цитадели."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "09:00-16:00"
     }
   },
   {
@@ -20655,6 +20790,11 @@
       "ar": "كاياك وتجديف في نهر الحاصباني.",
       "en": "Kayaking and rafting in the Hasbani River.",
       "ru": "Каякинг и рафтинг на реке Хасбани."
+    },
+    "info": {
+      "target": "family",
+      "season": "summer",
+      "hours": "09:30-15:30"
     }
   },
   {
@@ -20676,6 +20816,11 @@
       "ar": "جولة تحت الأرض على طول حائط المبكى.",
       "en": "Underground tour along the Western Wall.",
       "ru": "Подземный тур вдоль Западной стены."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "07:00-23:00"
     }
   },
   {
@@ -20697,6 +20842,11 @@
       "ar": "منتزه واسع مع مرافق مغامرات وبحيرة.",
       "en": "Spacious park with adventure facilities and a lake.",
       "ru": "Просторный парк с аттракционами и озером."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
     }
   },
   {
@@ -20718,6 +20868,11 @@
       "ar": "كهف أبشالوم الرائع بالقرب من بيت شيمش.",
       "en": "The spectacular Avshalom Cave near Beit Shemesh.",
       "ru": "Пещера Авшалом рядом с Бейт-Шемешем."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:00-16:00"
     }
   },
   {
@@ -20739,6 +20894,11 @@
       "ar": "موقع مراقبة طيور وطبيعة من أهم المواقع في العالم.",
       "en": "World-class birdwatching and nature site.",
       "ru": "Один из лучших в мире природных заповедников для наблюдения за птицами."
+    },
+    "info": {
+      "target": "family",
+      "season": "autumn",
+      "hours": "08:00-16:00"
     }
   },
   {
@@ -20760,6 +20920,11 @@
       "ar": "متحف مخصص للتصميم، صممه رون أراد.",
       "en": "Museum dedicated to design, designed by Ron Arad.",
       "ru": "Музей дизайна, спроектированный Роном Арадом."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "10:00-18:00"
     }
   },
   {
@@ -20781,6 +20946,11 @@
       "ar": "جدران تسلق وأوميغا ومنشآت ارتفاع.",
       "en": "Climbing walls, zipline, and high-rope facilities.",
       "ru": "Скалодром, зиплайн и верёвочный парк."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-18:00"
     }
   },
   {
@@ -20802,6 +20972,11 @@
       "ar": "متحف متعدد التخصصات في رمات أبيب يجمع الآثار والثقافة.",
       "en": "Multidisciplinary museum in Tel Aviv combining archaeology and culture.",
       "ru": "Многопрофильный музей в Рамат-Авиве."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-16:00"
     }
   },
   {
@@ -20823,6 +20998,11 @@
       "ar": "شاطئ رائع مع بحيرات طبيعية وجزر.",
       "en": "Beautiful beach with natural lagoons and islands.",
       "ru": "Красивый пляж с естественными лагунами и островами."
+    },
+    "info": {
+      "target": "family",
+      "season": "summer",
+      "hours": "24/7"
     }
   },
   {
@@ -20844,6 +21024,11 @@
       "ar": "جولة بقيادة المكفوفين تحاكي الحياة بدون بصر.",
       "en": "Guided tour by blind people simulating life without sight.",
       "ru": "Экскурсия слепых, имитирующая жизнь без зрения."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "09:00-18:00"
     }
   },
   {
@@ -20865,6 +21050,11 @@
       "ar": "منتزه ترفيهي تاريخي مستوحى من الكتاب المقدس.",
       "en": "Biblical themed amusement park.",
       "ru": "Исторический парк аттракционов в библейском стиле."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "N/A"
     }
   },
   {
@@ -20886,6 +21076,11 @@
       "ar": "قرية فنانين فريدة على الكرمل مع معارض وورش عمل.",
       "en": "Unique artist village on Mount Carmel with galleries and workshops.",
       "ru": "Уникальная деревня художников на Кармеле."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
     }
   },
   {
@@ -20907,6 +21102,11 @@
       "ar": "جولة سفاري مستقلة ومشاهدة الحيوانات البرية في العربة.",
       "en": "Self-drive safari and wildlife viewing in the Arava.",
       "ru": "Самостоятельное сафари и наблюдение за дикими животными."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-17:00"
     }
   },
   {
@@ -20928,6 +21128,11 @@
       "ar": "التعرف على المكتيش وقصة إيلان رامون.",
       "en": "Learning about the crater and Ilan Ramon's story.",
       "ru": "Знакомство с кратером и историей Илана Рамона."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:00-16:00"
     }
   },
   {
@@ -20949,6 +21154,11 @@
       "ar": "حديقة ساحرة في قلب الصحراء مع نباتات استوائية.",
       "en": "Magical desert garden with tropical plants.",
       "ru": "Волшебный пустынный сад с тропическими растениями."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:30-17:00"
     }
   },
   {
@@ -20970,6 +21180,11 @@
       "ar": "إعادة تأهيل بيئية لـ'حيريا' وتحويلها إلى منتزه.",
       "en": "Environmental rehabilitation of 'Hiriya' turned into a park.",
       "ru": "Экологическая реабилитация 'Хирии', превращённой в парк."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:00-18:00"
     }
   },
   {
@@ -20991,6 +21206,11 @@
       "ar": "تاريخ الملاحة والآثار البحرية.",
       "en": "History of shipping and maritime archaeology.",
       "ru": "История мореплавания и морская археология."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-16:00"
     }
   },
   {
@@ -21012,6 +21232,11 @@
       "ar": "رصد النجوم ومحاضرات علم الفلك.",
       "en": "Star gazing and astronomy lectures.",
       "ru": "Наблюдение за звёздами и лекции по астрономии."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "19:00-22:00"
     }
   },
   {
@@ -21033,6 +21258,11 @@
       "ar": "حديقة حيوانات تفاعلية مع عشرات أنواع الببغاوات.",
       "en": "Interactive petting zoo with dozens of parrot species.",
       "ru": "Интерактивный контактный зоопарк с десятками видов попугаев."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-16:00"
     }
   },
   {
@@ -21054,6 +21284,11 @@
       "ar": "محمية طبيعية رائعة بمياه جارية وآثار أثرية.",
       "en": "Stunning nature reserve with flowing water and ancient ruins.",
       "ru": "Потрясающий заповедник с текущей водой и древними руинами."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:00-16:00"
     }
   },
   {
@@ -21075,6 +21310,11 @@
       "ar": "حديقة حيوانات ومنتزه واسع في الشمال.",
       "en": "Zoo and spacious park in northern Israel.",
       "ru": "Зоопарк и просторный парк на севере Израиля."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-18:00"
     }
   },
   {
@@ -21096,6 +21336,11 @@
       "ar": "فن معاصر إسرائيلي ودولي.",
       "en": "Israeli and international contemporary art.",
       "ru": "Израильское и международное современное искусство."
+    },
+    "info": {
+      "target": "adults",
+      "season": "all",
+      "hours": "10:00-14:00"
     }
   },
   {
@@ -21117,6 +21362,11 @@
       "ar": "ممشى على طول النهر وحديقة حيوانات.",
       "en": "Promenade along the river and a petting zoo.",
       "ru": "Набережная вдоль реки и контактный зоопарк."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
     }
   },
   {
@@ -21138,6 +21388,11 @@
       "ar": "مسار مشي مع أربعة شلالات مثيرة للإعجاب.",
       "en": "Hiking trail featuring four impressive waterfalls.",
       "ru": "Пешеходный маршрут с четырьмя впечатляющими водопадами."
+    },
+    "info": {
+      "target": "family",
+      "season": "winter",
+      "hours": "08:00-16:00"
     }
   },
   {
@@ -21159,6 +21414,11 @@
       "ar": "مراقبة والسباحة مع الدلافين في بيئتها الطبيعية.",
       "en": "Observing and swimming with dolphins in their natural habitat.",
       "ru": "Наблюдение и плавание с дельфинами в естественной среде."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "09:00-16:30"
     }
   },
   {
@@ -21180,6 +21440,11 @@
       "ar": "متحف علوم تفاعلي رائد.",
       "en": "Leading interactive science museum.",
       "ru": "Ведущий интерактивный научный музей."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-18:00"
     }
   },
   {
@@ -21201,6 +21466,11 @@
       "ar": "المحمية الوطنية لطبيعة البلاد في الكتاب المقدس.",
       "en": "The Biblical Landscape Reserve in Israel.",
       "ru": "Национальный заповедник библейского пейзажа."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:30-16:00"
     }
   },
   {
@@ -21222,6 +21492,11 @@
       "ar": "عرض طائرات تاريخية في قاعدة حتسريم.",
       "en": "Display of historical aircraft at Hatzerim base.",
       "ru": "Экспозиция исторических самолётов на базе Хацерим."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:00-16:00"
     }
   },
   {
@@ -21243,6 +21518,11 @@
       "ar": "تشكيلات صخرية طبيعية رائعة في الجليل.",
       "en": "Stunning natural rock formations in Galilee.",
       "ru": "Потрясающие природные скальные образования в Галилее."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
     }
   },
   {
@@ -21264,6 +21544,11 @@
       "ar": "الموقع الأثري لمدينة القدس القديمة.",
       "en": "Archaeological site of ancient Jerusalem.",
       "ru": "Археологический памятник древнего Иерусалима."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "08:00-17:00"
     }
   },
   {
@@ -21285,6 +21570,11 @@
       "ar": "منتزه ترفيهي كبير في ريشون لتسيون.",
       "en": "Large amusement park in Rishon LeZion.",
       "ru": "Большой парк аттракционов в Ришон-ле-Ционе."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-19:00"
     }
   },
   {
@@ -21306,6 +21596,11 @@
       "ar": "حديقة نباتية استوائية مع آلاف السحالب.",
       "en": "Tropical botanical garden with thousands of orchids.",
       "ru": "Тропический ботанический сад с тысячами орхидей."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-17:00"
     }
   },
   {
@@ -21327,6 +21622,11 @@
       "ar": "مراقبة السماء العميقة في منطقة منخفضة التلوث الضوئي.",
       "en": "Deep sky viewing in a low light pollution area.",
       "ru": "Наблюдение за глубоким небом в зоне с низким световым загрязнением."
+    },
+    "info": {
+      "target": "all",
+      "season": "winter",
+      "hours": "20:00-23:00"
     }
   },
   {
@@ -21348,6 +21648,11 @@
       "ar": "معارض تفاعلية تتحدى الحواس.",
       "en": "Interactive exhibits challenging the senses.",
       "ru": "Интерактивные экспозиции, бросающие вызов чувствам."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-21:00"
     }
   },
   {
@@ -21369,6 +21674,11 @@
       "ar": "مركز تسوق يضم مضمار تزلج على الجليد ضخم.",
       "en": "Shopping mall featuring a massive ice skating rink.",
       "ru": "Торговый центр с огромным катком."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-23:00"
     }
   },
   {
@@ -21390,6 +21700,11 @@
       "ar": "قلعة أنتيباتريس وبرك الخوض.",
       "en": "Antipatris Fort and wading pools.",
       "ru": "Форт Антипатрис и лягушатник."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:00-16:00"
     }
   },
   {
@@ -21411,6 +21726,11 @@
       "ar": "شرح المشروع الهندسي الكبير في حيفا.",
       "en": "Explanation of Haifa's major engineering project.",
       "ru": "Объяснение крупного инженерного проекта Хайфы."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "09:00-15:00"
     }
   },
   {
@@ -21432,6 +21752,11 @@
       "ar": "معرض نماذج ديناصورات بالحجم الطبيعي.",
       "en": "Full-size dinosaur model exhibition.",
       "ru": "Выставка полноразмерных моделей динозавров."
+    },
+    "info": {
+      "target": "kids",
+      "season": "all",
+      "hours": "10:00-18:00"
     }
   },
   {
@@ -21453,6 +21778,11 @@
       "ar": "تجربة طهو في السوق المشهور في القدس.",
       "en": "Culinary experience in Jerusalem's famous market.",
       "ru": "Кулинарный опыт на знаменитом рынке Иерусалима."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "09:00-19:00"
     }
   },
   {
@@ -21474,6 +21804,11 @@
       "ar": "مراقبة الغزلان وأنشطة للأطفال في الجولان.",
       "en": "Deer viewing and kids activities in the Golan.",
       "ru": "Наблюдение за оленями и детские активности на Голанах."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-16:00"
     }
   },
   {
@@ -21495,6 +21830,11 @@
       "ar": "فن إسرائيلي معاصر.",
       "en": "Contemporary Israeli art.",
       "ru": "Современное израильское искусство."
+    },
+    "info": {
+      "target": "adults",
+      "season": "all",
+      "hours": "10:00-16:00"
     }
   },
   {
@@ -21516,6 +21856,11 @@
       "ar": "ملعب الغولف الدولي الوحيد في إسرائيل.",
       "en": "Israel's only international golf course.",
       "ru": "Единственное международное поле для гольфа в Израиле."
+    },
+    "info": {
+      "target": "adults",
+      "season": "all",
+      "hours": "07:00-19:00"
     }
   },
   {
@@ -21537,6 +21882,11 @@
       "ar": "مجموعة جرارات وميكنة زراعية تاريخية في عين وارد.",
       "en": "Collection of historical tractors and farm machinery.",
       "ru": "Коллекция исторических тракторов и сельхозтехники."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-13:00"
     }
   },
   {
@@ -21558,6 +21908,11 @@
       "ar": "منتزه ريفي ومشاهدة القروش في الشتاء.",
       "en": "Pastoral park and shark viewing in winter.",
       "ru": "Пасторальный парк и наблюдение за акулами зимой."
+    },
+    "info": {
+      "target": "family",
+      "season": "winter",
+      "hours": "24/7"
     }
   },
   {
@@ -21579,6 +21934,11 @@
       "ar": "مجموعة سيارات كلاسيكية في الجليل.",
       "en": "Collection of classic cars in Galilee.",
       "ru": "Коллекция классических автомобилей в Галилее."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-16:00"
     }
   },
   {
@@ -21600,6 +21960,11 @@
       "ar": "مركز ترفيه وتسوق ومناطق لعب على البحر.",
       "en": "Leisure, shopping, and playground center by the sea.",
       "ru": "Развлекательный и торговый центр у моря."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
     }
   },
   {
@@ -21621,6 +21986,11 @@
       "ar": "تجربة تفاعلية متعددة الحواس عن تاريخ القدس.",
       "en": "Multi-sensory experience of Jerusalem's history.",
       "ru": "Мультисенсорный опыт истории Иерусалима."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-17:00"
     }
   },
   {
@@ -21642,6 +22012,11 @@
       "ar": "أكبر منتزه ترفيهي مغطى في إسرائيل.",
       "en": "Israel's largest indoor amusement park.",
       "ru": "Крупнейший крытый парк аттракционов Израиля."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-20:00"
     }
   },
   {
@@ -21663,6 +22038,11 @@
       "ar": "متحف ثقافي في الجليل.",
       "en": "Cultural museum in Galilee.",
       "ru": "Культурный музей в Галилее."
+    },
+    "info": {
+      "target": "adults",
+      "season": "all",
+      "hours": "09:00-15:00"
     }
   },
   {
@@ -21684,6 +22064,11 @@
       "ar": "عرض نافورات موسيقية وملونة.",
       "en": "Musical and colorful fountain show.",
       "ru": "Музыкальное и красочное шоу фонтанов."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "20:00-21:00"
     }
   },
   {
@@ -21705,6 +22090,11 @@
       "ar": "تعلم عن النحل والعسل وتاريخ الكيبوتس.",
       "en": "Learning about bees, honey, and kibbutz history.",
       "ru": "Знакомство с пчёлами, мёдом и историей кибуца."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-16:00"
     }
   },
   {
@@ -21726,6 +22116,11 @@
       "ar": "متحف مخصص للتسامح والتعايش في القدس.",
       "en": "Museum dedicated to tolerance and coexistence.",
       "ru": "Музей, посвящённый толерантности и сосуществованию."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "10:00-18:00"
     }
   },
   {
@@ -21747,6 +22142,11 @@
       "ar": "التعرف على عملية إنتاج الألبان والاستيطان في العربة.",
       "en": "Process of dairy production and Arava settlement.",
       "ru": "Знакомство с производством молока и освоением Аравы."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:00-18:00"
     }
   }
 ]
