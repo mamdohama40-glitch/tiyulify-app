@@ -203,7 +203,7 @@ function UserPhotos({ item }: { item: any }) {
 const CAT_COLOR: Record<string,string> = {
   water:'#3b82f6',nature:'#22c55e',history:'#a16207',sleep:'#8b5cf6',
   accommodation:'#8b5cf6',food:'#f97316',bike:'#ef4444',hiking:'#84cc16',attractions:'#f59e0b',
-  promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e',default:'#6b7280'
+  promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e','לפני 1948':'#ca8a04',default:'#6b7280'
 };
 const CAT_EMOJI: Record<string,string> = {
   water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',

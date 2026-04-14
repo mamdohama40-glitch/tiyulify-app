@@ -7358,7 +7358,7 @@
     },
     "coords": [
       32.821,
-      35.0
+      35
     ],
     "category": "food",
     "region": "north",
@@ -9030,7 +9030,7 @@
     },
     "coords": [
       32.81,
-      35.0
+      35
     ],
     "category": "park",
     "region": "north",
@@ -9887,7 +9887,7 @@
       "ru": "Парк Йерухам"
     },
     "coords": [
-      31.0,
+      31,
       34.912
     ],
     "category": "park",
@@ -10152,7 +10152,7 @@
     },
     "coords": [
       30.345,
-      35.0
+      35
     ],
     "category": "water",
     "region": "south",
@@ -24919,6 +24919,1056 @@
       "ar": "تركيز نادر من أشجار الأكاسيا البيضاء في رمال أشدود.",
       "en": "A rare concentration of White Acacia trees in the Ashdod sands.",
       "ru": "Редкое скопление белых акаций в песках Ашдода."
+    }
+  },
+  {
+    "id": "1149",
+    "name": {
+      "he": "אבו זריק",
+      "ar": "أبو زريق",
+      "en": "Abu Zurayq",
+      "ru": "Абу-Зурайк"
+    },
+    "coords": [
+      32.613,
+      35.109
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום נמצא באזור צומת השופט.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة مفرق هاشوفيت.",
+      "en": "Former Palestinian village, currently located in the HaShofet junction area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе перекрестка Ха-Шофет."
+    }
+  },
+  {
+    "id": "1150",
+    "name": {
+      "he": "אבו שושה (חיפה)",
+      "ar": "أبو شوشة (حيفا)",
+      "en": "Abu Shusha (Haifa)",
+      "ru": "Абу-Шуша (Хайфа)"
+    },
+    "coords": [
+      32.601,
+      35.127
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור חיפה, על אדמותיו הוקם קיבוץ משמר העמק.",
+      "ar": "قرية في منطقة حيفا.",
+      "en": "Village in the Haifa area, Mishmar HaEmek was established on its lands.",
+      "ru": "Деревня в районе Хайфы."
+    }
+  },
+  {
+    "id": "1151",
+    "name": {
+      "he": "אבו שושה (רמלה)",
+      "ar": "أبو شوشة (الرملة)",
+      "en": "Abu Shusha (Ramla)",
+      "ru": "Абу-Шуша (Рамла)"
+    },
+    "coords": [
+      31.868,
+      34.919
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור רמלה, כיום באזור היישוב כרמי יוסף.",
+      "ar": "قرية في منطقة الرملة.",
+      "en": "Village in the Ramla area, currently in the Karmei Yosef area.",
+      "ru": "Деревня в районе Рамлы."
+    }
+  },
+  {
+    "id": "1152",
+    "name": {
+      "he": "אבו פלאח",
+      "ar": "أبو فلاح",
+      "en": "Abu Falah",
+      "ru": "Абу-Фалах"
+    },
+    "coords": [
+      32.261,
+      35.176
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב ששכן באזור שבי שומרון של היום.",
+      "ar": "قرية في منطقة شفي شومرون.",
+      "en": "Village formerly located in Shavei Shomron area.",
+      "ru": "Деревня в районе Шавей-Шомрон."
+    }
+  },
+  {
+    "id": "1153",
+    "name": {
+      "he": "אבו כשכ",
+      "ar": "أبو كشك",
+      "en": "Abu Kishk",
+      "ru": "Абу-Кишк"
+    },
+    "coords": [
+      32.144,
+      34.847
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ששכן באזור הרצליה ורמת השרון של היום.",
+      "ar": "قرية في منطقة هرتسليا.",
+      "en": "Village in the Herzliya and Ramat HaSharon area.",
+      "ru": "Деревня в районе Герцлии."
+    }
+  },
+  {
+    "id": "1154",
+    "name": {
+      "he": "איג׳זים",
+      "ar": "إجزم",
+      "en": "Ijzim",
+      "ru": "Иджзим"
+    },
+    "coords": [
+      32.628,
+      34.935
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בהר הכרמל, כיום באזור מושב עין איילה.",
+      "ar": "قرية في جبل الكرمل.",
+      "en": "Village on Mount Carmel, currently in the Ein Ayala area.",
+      "ru": "Деревня на горе Кармель."
+    }
+  },
+  {
+    "id": "1155",
+    "name": {
+      "he": "אג׳ליל א-שמאליה",
+      "ar": "أجليل الشمالية",
+      "en": "Ijlil al-Shamaliyya",
+      "ru": "Иджлиль-аш-Шамалия"
+    },
+    "coords": [
+      32.148,
+      34.811
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ששכן באזור גלילות של היום.",
+      "ar": "قرية في منطقة جليلوت.",
+      "en": "Village formerly located in the Glilot area.",
+      "ru": "Деревня в районе Глилот."
+    }
+  },
+  {
+    "id": "1156",
+    "name": {
+      "he": "אג׳ליל אל-קיבליה",
+      "ar": "أجليل القبلية",
+      "en": "Ijlil al-Qibliyya",
+      "ru": "Иджлиль-аль-Киблия"
+    },
+    "coords": [
+      32.141,
+      34.808
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר נוסף באזור גלילות המודרנית.",
+      "ar": "قرية في منطقة جليلوت.",
+      "en": "Another village in the modern Glilot area.",
+      "ru": "Еще одна деревня в районе Глилот."
+    }
+  },
+  {
+    "id": "1157",
+    "name": {
+      "he": "אדניבה",
+      "ar": "إدنيبة",
+      "en": "Idnibba",
+      "ru": "Иднибба"
+    },
+    "coords": [
+      31.761,
+      34.836
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור השפלה, על אדמותיו הוקם קיבוץ כפר מנחם.",
+      "ar": "قرية في السهل.",
+      "en": "Village in the Shephelah, Kfar Menachem was established on its lands.",
+      "ru": "Деревня в Шефеле."
+    }
+  },
+  {
+    "id": "1158",
+    "name": {
+      "he": "אד׳נבה",
+      "ar": "إذنبة",
+      "en": "Idhniba",
+      "ru": "Идниба"
+    },
+    "coords": [
+      31.791,
+      34.842
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב באזור המועצה האזורית מרחבים של היום.",
+      "ar": "قرية في منطقة ميرشافيم.",
+      "en": "Village in the Merhavim Regional Council area.",
+      "ru": "Деревня в районе Мерхавим."
+    }
+  },
+  {
+    "id": "1159",
+    "name": {
+      "he": "ארטין",
+      "ar": "إرطين",
+      "en": "Irtin",
+      "ru": "Иртин"
+    },
+    "coords": [
+      32.405,
+      35.035
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב באזור חריש של היום.",
+      "ar": "قرية في منطقة حريش.",
+      "en": "Village in the Harish area.",
+      "ru": "Деревня в районе Хариш."
+    }
+  },
+  {
+    "id": "1160",
+    "name": {
+      "he": "איסדוד",
+      "ar": "إسدود",
+      "en": "Isdud",
+      "ru": "Исдуд"
+    },
+    "coords": [
+      31.758,
+      34.646
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "העיירה ההיסטורית איסדוד, בסמוך לעיר אשדוד המודרנית.",
+      "ar": "بلدة إسدود التاريخية.",
+      "en": "The historical town of Isdud, near modern Ashdod.",
+      "ru": "Исторический город Исдуд."
+    }
+  },
+  {
+    "id": "1161",
+    "name": {
+      "he": "אכסאל",
+      "ar": "إكسال",
+      "en": "Iksal",
+      "ru": "Иксал"
+    },
+    "coords": [
+      32.684,
+      35.318
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור התבור, כיום יישוב ערבי באותו שם.",
+      "ar": "قرية في منطقة جبل طابور.",
+      "en": "Village in the Tabor area, currently an Arab town.",
+      "ru": "Деревня в районе Табора."
+    }
+  },
+  {
+    "id": "1162",
+    "name": {
+      "he": "אום א-זינאת",
+      "ar": "إم الزينات",
+      "en": "Umm al-Zinat",
+      "ru": "Умм-аз-Зинат"
+    },
+    "coords": [
+      32.645,
+      35.068
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בדרום הכרמל, כיום באזור המושב אליקים.",
+      "ar": "قرية في جنوب الكرمل.",
+      "en": "Village in southern Carmel, currently in the Eliyakim area.",
+      "ru": "Деревня на юге Кармеля."
+    }
+  },
+  {
+    "id": "1163",
+    "name": {
+      "he": "אום ח׳אלד",
+      "ar": "إم خالد",
+      "en": "Umm Khalid",
+      "ru": "Умм-Халид"
+    },
+    "coords": [
+      32.327,
+      34.861
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ששכן במרכז העיר נתניה של היום.",
+      "ar": "قرية في وسط نتانيا.",
+      "en": "Village in today s Netanya city center.",
+      "ru": "Деревня в центре Нетании."
+    }
+  },
+  {
+    "id": "1164",
+    "name": {
+      "he": "אנדור",
+      "ar": "إندور",
+      "en": "Indur",
+      "ru": "Индур"
+    },
+    "coords": [
+      32.636,
+      35.385
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור עמק יזרעאל, על אדמותיו הוקם קיבוץ דברת.",
+      "ar": "قرية في مرج ابن عامر.",
+      "en": "Village in the Jezreel Valley, Dovrat was established on its lands.",
+      "ru": "Деревня в Изреэльской долине."
+    }
+  },
+  {
+    "id": "1165",
+    "name": {
+      "he": "אנסאר",
+      "ar": "أنصار",
+      "en": "Ansar",
+      "ru": "Ансар"
+    },
+    "coords": [
+      32.065,
+      34.785
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב באזור המועצה האזורית דרום השרון של היום.",
+      "ar": "قرية في منطقة جنوب الشارون.",
+      "en": "Village in the Drom HaSharon area.",
+      "ru": "Деревня в районе Дром-ха-Шарон."
+    }
+  },
+  {
+    "id": "1166",
+    "name": {
+      "he": "אג׳ליל",
+      "ar": "إجليل",
+      "en": "Ijlil",
+      "ru": "Иджлиль"
+    },
+    "coords": [
+      32.145,
+      34.81
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שם כללי לאזור הכפרים אג׳ליל הממוקמים בצפון תל אביב.",
+      "ar": "اسم عام لمنطقة قرى إجليل.",
+      "en": "General name for the Ijlil villages north of Tel Aviv.",
+      "ru": "Общее название района деревень Иджлиль."
+    }
+  },
+  {
+    "id": "1167",
+    "name": {
+      "he": "אכסאל (נצרת)",
+      "ar": "إكسال (الناصرة)",
+      "en": "Iksal (Nazareth)",
+      "ru": "Иксал (Назарет)"
+    },
+    "coords": [
+      32.684,
+      35.318
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "היישוב איכסאל באזור נצרת.",
+      "ar": "بلدة إكسال في منطقة الناصرة.",
+      "en": "The town of Iksal in the Nazareth area.",
+      "ru": "Поселение Иксал в районе Назарета."
+    }
+  },
+  {
+    "id": "1168",
+    "name": {
+      "he": "אל-באולי",
+      "ar": "الباولي",
+      "en": "Al-Bawli",
+      "ru": "Аль-Баули"
+    },
+    "coords": [
+      32.965,
+      35.185
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב באזור המושב עין יעקב של היום.",
+      "ar": "قرية في منطقة عين يعقوب.",
+      "en": "Village in the Ein Yaakov area.",
+      "ru": "Деревня в районе Эйн-Яаков."
+    }
+  },
+  {
+    "id": "1169",
+    "name": {
+      "he": "אל-בירווה",
+      "ar": "البروة",
+      "en": "Al-Birwa",
+      "ru": "Аль-Бирва"
+    },
+    "coords": [
+      32.912,
+      35.185
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל המערבי, כיום באזור מושב אחיהוד.",
+      "ar": "قرية في الجليل الغربي.",
+      "en": "Village in the Western Galilee, currently in the Ahihud area.",
+      "ru": "Деревня в Западной Галилее."
+    }
+  },
+  {
+    "id": "1170",
+    "name": {
+      "he": "אל-בסה",
+      "ar": "البصة",
+      "en": "Al-Bassa",
+      "ru": "Аль-Басса"
+    },
+    "coords": [
+      33.076,
+      35.138
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיירה בגליל המערבי, כיום באזור שלומי.",
+      "ar": "بلدة في الجليل الغربي.",
+      "en": "Town in the Western Galilee, currently in the Shlomi area.",
+      "ru": "Городок в Западной Галилее."
+    }
+  },
+  {
+    "id": "1171",
+    "name": {
+      "he": "אל-בועיינה",
+      "ar": "البعينة",
+      "en": "Al-Buayna",
+      "ru": "Аль-Буайна"
+    },
+    "coords": [
+      32.812,
+      35.365
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל התחתון, כיום חלק מהיישוב בעיינה-נוג׳ידאת.",
+      "ar": "قرية في الجليل الأسفل.",
+      "en": "Village in the Lower Galilee, currently part of Buayna-Nujidat.",
+      "ru": "Деревня в Нижней Галилее."
+    }
+  },
+  {
+    "id": "1172",
+    "name": {
+      "he": "אל-בטאני א-שרקי",
+      "ar": "البطاني الشرقي",
+      "en": "Al-Battani al-Sharqi",
+      "ru": "Аль-Баттани-аш-Шарки"
+    },
+    "coords": [
+      31.731,
+      34.725
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור באר טוביה, כיום באזור היישוב ערוגות.",
+      "ar": "قرية في منطقة بئر طوبيا.",
+      "en": "Village in the Beer Tuvia area, currently in the Arugot area.",
+      "ru": "Деревня в районе Беэр-Тувия."
+    }
+  },
+  {
+    "id": "1173",
+    "name": {
+      "he": "אל-בטאני אל-ע׳רבי",
+      "ar": "البطاني الغربي",
+      "en": "Al-Battani al-Gharbi",
+      "ru": "Аль-Баттани-аль-Гарби"
+    },
+    "coords": [
+      31.725,
+      34.705
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור באר טוביה, כיום באזור היישוב בית עזרא.",
+      "ar": "قرية في منطقة بئر طوبيا.",
+      "en": "Village in the Beer Tuvia area, currently in the Beit Ezra area.",
+      "ru": "Деревня в районе Беэр-Тувия."
+    }
+  },
+  {
+    "id": "1174",
+    "name": {
+      "he": "אל-ביאר",
+      "ar": "البيار",
+      "en": "Al-Biyar",
+      "ru": "Аль-Бияр"
+    },
+    "coords": [
+      32.485,
+      35.035
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב באזור המועצה האזורית מנשה של היום.",
+      "ar": "قرية في منطقة منشيه.",
+      "en": "Village in the Menashe Regional Council area.",
+      "ru": "Деревня в районе Менаше."
+    }
+  },
+  {
+    "id": "1175",
+    "name": {
+      "he": "אל-בירה",
+      "ar": "البيرة",
+      "en": "Al-Bira",
+      "ru": "Аль-Бира"
+    },
+    "coords": [
+      32.585,
+      35.485
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור הגליל התחתון.",
+      "ar": "قرية في الجليل الأسفل.",
+      "en": "Village in the Lower Galilee area.",
+      "ru": "Деревня в Нижней Галилее."
+    }
+  },
+  {
+    "id": "1176",
+    "name": {
+      "he": "אל-בורייג׳",
+      "ar": "البريج",
+      "en": "Al-Burayj",
+      "ru": "Аль-Бурейдж"
+    },
+    "coords": [
+      31.765,
+      34.915
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור ירושלים.",
+      "ar": "قرية في منطقة القدس.",
+      "en": "Village in the Jerusalem area.",
+      "ru": "Деревня в районе Иерусалима."
+    }
+  },
+  {
+    "id": "1177",
+    "name": {
+      "he": "אל-בורכ",
+      "ar": "البرك",
+      "en": "Al-Burak",
+      "ru": "Аль-Бурак"
+    },
+    "coords": [
+      32.565,
+      35.125
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב באזור המועצה האזורית מגידו של היום.",
+      "ar": "قرية في منطقة مجيدو.",
+      "en": "Village in the Megiddo Regional Council area.",
+      "ru": "Деревня в районе Мегиддо."
+    }
+  },
+  {
+    "id": "1178",
+    "name": {
+      "he": "תבסר",
+      "ar": "تبصر",
+      "en": "Tabsur",
+      "ru": "Табсур"
+    },
+    "coords": [
+      32.191,
+      34.875
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בשרון, על אדמותיו הוקם היישוב בצרה.",
+      "ar": "قرية في الشارون.",
+      "en": "Village in the Sharon, Batzra was established on its lands.",
+      "ru": "Деревня в Шароне."
+    }
+  },
+  {
+    "id": "1179",
+    "name": {
+      "he": "תל א-סאפי",
+      "ar": "تل الصافي",
+      "en": "Tell es-Safi",
+      "ru": "Телль-эс-Сафи"
+    },
+    "coords": [
+      31.701,
+      34.845
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר היסטורי, כיום בתחום הגן הלאומי תל צפית.",
+      "ar": "قرية تاريخية.",
+      "en": "Historical village, currently within Tel Tzafit National Park.",
+      "ru": "Историческая деревня."
+    }
+  },
+  {
+    "id": "1180",
+    "name": {
+      "he": "תל א-שוך",
+      "ar": "تل الشوك",
+      "en": "Tell al-Shauk",
+      "ru": "Телль-аш-Шаук"
+    },
+    "coords": [
+      32.505,
+      35.455
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בעמק בית שאן.",
+      "ar": "قرية في سهل بيسان.",
+      "en": "Village in the Beit Shean Valley.",
+      "ru": "Деревня в долине Бейт-Шеан."
+    }
+  },
+  {
+    "id": "1181",
+    "name": {
+      "he": "תמרה",
+      "ar": "تمرة",
+      "en": "Tamra",
+      "ru": "Тамра"
+    },
+    "coords": [
+      32.855,
+      35.195
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל המערבי, כיום עיר ערבית באותו שם.",
+      "ar": "قرية في الجليل الغربي.",
+      "en": "Village in the Western Galilee, currently an Arab city.",
+      "ru": "Деревня в Западной Галилее."
+    }
+  },
+  {
+    "id": "1182",
+    "name": {
+      "he": "תמרה (יזרעאל)",
+      "ar": "تمرة (مرج ابن عامر)",
+      "en": "Tamra (Jezreel)",
+      "ru": "Тамра (Изреэль)"
+    },
+    "coords": [
+      32.625,
+      35.415
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב באזור המועצה האזורית גלבוע של היום.",
+      "ar": "قرية في منطقة جلبوع.",
+      "en": "Village in the Gilboa Regional Council area.",
+      "ru": "Деревня в районе Гильбоа."
+    }
+  },
+  {
+    "id": "1183",
+    "name": {
+      "he": "דניאל",
+      "ar": "دانيال",
+      "en": "Daniel",
+      "ru": "Даниэль"
+    },
+    "coords": [
+      31.931,
+      34.855
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב באזור כפר דניאל של היום.",
+      "ar": "قرية في منطقة كفار دانيال.",
+      "en": "Village in the Kfar Daniel area.",
+      "ru": "Деревня в районе Кфар-Даниэль."
+    }
+  },
+  {
+    "id": "1184",
+    "name": {
+      "he": "דייר אבאן",
+      "ar": "دير أبان",
+      "en": "Dayr Aban",
+      "ru": "Дайр-Абан"
+    },
+    "coords": [
+      31.741,
+      35.013
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור ירושלים, כיום באזור מושב מחסיה.",
+      "ar": "قرية في منطقة القدس.",
+      "en": "Village in the Jerusalem area, currently in the Mahseya area.",
+      "ru": "Деревня в районе Иерусалима."
+    }
+  },
+  {
+    "id": "1185",
+    "name": {
+      "he": "דייר אל-אסד",
+      "ar": "دير الأسد",
+      "en": "Dayr al-Asad",
+      "ru": "Дайр-аль-Асад"
+    },
+    "coords": [
+      32.915,
+      35.265
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל, כיום מועצה מקומית באותו שם.",
+      "ar": "قرية في الجليل.",
+      "en": "Village in the Galilee, currently a local council.",
+      "ru": "Деревня в Галилее."
+    }
+  },
+  {
+    "id": "1186",
+    "name": {
+      "he": "דייר אל-קיאסי",
+      "ar": "دير القاسي",
+      "en": "Dayr al-Qassi",
+      "ru": "Дайр-аль-Касси"
+    },
+    "coords": [
+      33.041,
+      35.341
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל העליון, כיום באזור המושב אלקוש.",
+      "ar": "قرية في الجليل الأعلى.",
+      "en": "Village in the Upper Galilee, currently in the Elkosh area.",
+      "ru": "Деревня в Верхней Галилее."
+    }
+  },
+  {
+    "id": "1187",
+    "name": {
+      "he": "דייר טריף",
+      "ar": "دير طريف",
+      "en": "Dayr Tarif",
+      "ru": "Дайр-Тариф"
+    },
+    "coords": [
+      31.955,
+      34.905
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בשפלה, כיום באזור היישוב בית עריף.",
+      "ar": "قرية في السهل.",
+      "en": "Village in the Shephelah, currently in the Beit Arif area.",
+      "ru": "Деревня в Шефеле."
+    }
+  },
+  {
+    "id": "1188",
+    "name": {
+      "he": "דלאתה",
+      "ar": "دلاتة",
+      "en": "Dalata",
+      "ru": "Далата"
+    },
+    "coords": [
+      33.005,
+      35.505
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל העליון, כיום באזור המושב דלתון.",
+      "ar": "قرية في الجليل الأعلى.",
+      "en": "Village in the Upper Galilee, currently in the Dalton area.",
+      "ru": "Деревня в Верхней Галилее."
+    }
+  },
+  {
+    "id": "1189",
+    "name": {
+      "he": "דליה א-רוחא",
+      "ar": "دالية الروحاء",
+      "en": "Daliyat al-Rawha",
+      "ru": "Далият-ар-Рауха"
+    },
+    "coords": [
+      32.585,
+      35.085
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ברמות מנשה, כיום באזור קיבוץ דליה.",
+      "ar": "قرية في مرتفعات منشيه.",
+      "en": "Village in Ramat Menashe, currently in the Kibbutz Dalia area.",
+      "ru": "Деревня в Рамат-Менаше."
+    }
+  },
+  {
+    "id": "1190",
+    "name": {
+      "he": "דן",
+      "ar": "دان",
+      "en": "Dan",
+      "ru": "Дан"
+    },
+    "coords": [
+      33.245,
+      35.655
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב באזור קיבוץ דן של היום.",
+      "ar": "قرية في منطقة كيبوتس دان.",
+      "en": "Village in the Kibbutz Dan area.",
+      "ru": "Деревня в районе кибуца Дан."
+    }
+  },
+  {
+    "id": "1191",
+    "name": {
+      "he": "ראש הנקרה",
+      "ar": "رأس الناقورة",
+      "en": "Ras al-Nakura",
+      "ru": "Рас-ан-Накура"
+    },
+    "coords": [
+      33.085,
+      35.105
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נקודת גבול ויישוב היסטורי, כיום קיבוץ ראש הנקרה.",
+      "ar": "نقطة حدودية وقرية تاريخية.",
+      "en": "Border point and historical village, currently Kibbutz Rosh HaNikra.",
+      "ru": "Пограничный пункт, ныне кибуц Рош-ха-Никра."
+    }
+  },
+  {
+    "id": "1192",
+    "name": {
+      "he": "רהט",
+      "ar": "رهط",
+      "en": "Rahat",
+      "ru": "Рахат"
+    },
+    "coords": [
+      31.395,
+      34.755
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב בדואי בנגב, כיום עיר ערבית.",
+      "ar": "تجمع بدوي في النقب.",
+      "en": "Bedouin settlement in the Negev, currently an Arab city.",
+      "ru": "Бедуинское поселение в Негеве."
+    }
+  },
+  {
+    "id": "1193",
+    "name": {
+      "he": "רומאנה",
+      "ar": "رومانه",
+      "en": "Rumana",
+      "ru": "Румана"
+    },
+    "coords": [
+      32.785,
+      35.325
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל התחתון.",
+      "ar": "قرية في الجليل الأسفل.",
+      "en": "Village in the Lower Galilee.",
+      "ru": "Деревня в Нижней Галилее."
+    }
+  },
+  {
+    "id": "1194",
+    "name": {
+      "he": "ריחאניה",
+      "ar": "الريحانية",
+      "en": "Rehaniya",
+      "ru": "Рейхания"
+    },
+    "coords": [
+      33.045,
+      35.495
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר צ׳רקסי בגליל העליון.",
+      "ar": "قرية شركسية في الجليل الأعلى.",
+      "en": "Circassian village in the Upper Galilee.",
+      "ru": "Черкесская деревня в Верхней Галилее."
+    }
+  },
+  {
+    "id": "1195",
+    "name": {
+      "he": "ריינה",
+      "ar": "الرينة",
+      "en": "Reineh",
+      "ru": "Рейна"
+    },
+    "coords": [
+      32.725,
+      35.315
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור נצרת.",
+      "ar": "قرية في منطقة الناصرة.",
+      "en": "Village in the Nazareth area.",
+      "ru": "Деревня в районе Назарета."
+    }
+  },
+  {
+    "id": "1196",
+    "name": {
+      "he": "זכרין",
+      "ar": "ذكرينا",
+      "en": "Dhikrin",
+      "ru": "Зикрин"
+    },
+    "coords": [
+      31.675,
+      34.865
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בשפלה, כיום באזור המושב בית ניר.",
+      "ar": "قرية في السهل.",
+      "en": "Village in the Shephelah, currently in the Beit Nir area.",
+      "ru": "Деревня в Шефеле."
+    }
+  },
+  {
+    "id": "1197",
+    "name": {
+      "he": "זיתא",
+      "ar": "زيتا",
+      "en": "Zayta",
+      "ru": "Зейта"
+    },
+    "coords": [
+      32.395,
+      35.015
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור חדרה, כיום באזור המושב שדה יצחק.",
+      "ar": "قرية في منطقة الخضيرة.",
+      "en": "Village in the Hadera area, currently in the Sde Yitzhak area.",
+      "ru": "Деревня в районе Хадеры."
+    }
+  },
+  {
+    "id": "1198",
+    "name": {
+      "he": "סאקיה",
+      "ar": "ساقية",
+      "en": "Saqiya",
+      "ru": "Сакия"
+    },
+    "coords": [
+      32.035,
+      34.835
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור בקעת אונו, כיום בתחום העיר אור יהודה.",
+      "ar": "قرية في منطقة وادي أونو.",
+      "en": "Village in the Ono Valley, currently within Or Yehuda city.",
+      "ru": "Деревня в долине Оно."
     }
   }
 ]
