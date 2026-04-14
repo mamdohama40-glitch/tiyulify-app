@@ -308,9 +308,9 @@ async function fetchWikiSummary(name: string, lang: string): Promise<string> {
   try {
     const l = lang==='he'?'he':lang==='ar'?'ar':lang==='ru'?'ru':'en';
     const r = await fetch(`https://${l}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(name)}`);
-    if (!r.ok) return '';
-    const d = await r.json();
-    return d.extract || '';
+    if (r.ok) { const d = await r.json(); if (d.extract && d.extract.length > 80) return d.extract; }
+    if (l !== 'en') { const r2 = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(name)}`); if (r2.ok) { const d2 = await r2.json(); return d2.extract || ''; } }
+    return '';
   } catch { return ''; }
 }
 
@@ -325,7 +325,7 @@ function CompactPopup({ item, pd, activeLang, labels, shareOnWhatsApp }: { item:
       <h4 className="font-bold text-green-900 text-sm m-0 leading-snug mb-1 px-1">
         {item.name[activeLang]||item.name.he}
       </h4>
-      <p className="text-[12px] text-gray-600 leading-relaxed px-1 mb-2 line-clamp-2">
+      <p className="text-[12px] text-gray-600 leading-relaxed px-1 mb-2 ">
         {item.description[activeLang]||item.description.he}
       </p>
       {wiki && <p className="text-[11px] text-gray-500 leading-relaxed px-1 mb-2 ">{wiki}</p>}
@@ -799,7 +799,7 @@ export default function TiyulifyApp() {
                               <span style={{fontSize:'3rem'}}>📍</span>
                             </div>
                             <h4 className="font-bold text-green-900 text-sm m-0 leading-snug mb-1 px-1">{searchMarkerName}</h4>
-                            <p className="text-[11px] text-gray-500 px-1 mb-2 line-clamp-2">{searchMarkerAddr || (searchMarker ? searchMarker[0].toFixed(4)+', '+searchMarker[1].toFixed(4) : '')}</p>
+                            <p className="text-[11px] text-gray-500 px-1 mb-2 ">{searchMarkerAddr || (searchMarker ? searchMarker[0].toFixed(4)+', '+searchMarker[1].toFixed(4) : '')}</p>
                             {userCoords && searchMarker && <div className="flex items-center gap-1.5 mb-2 bg-green-50 px-3 py-1.5 rounded-full border border-green-200 shadow-sm inline-flex"><span className="text-base">📍</span><span className="text-[12px] text-green-700 font-black">{calculateDistance(userCoords[0],userCoords[1],searchMarker[0],searchMarker[1])} {labels[activeLang].km}</span></div>}
                             <div className="flex flex-wrap gap-2 mt-2 pb-1">
                               <a href={`https://www.waze.com/ul?ll=${searchMarker[0]},${searchMarker[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-3 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95">WAZE</a>
@@ -873,7 +873,7 @@ export default function TiyulifyApp() {
         .leaflet-popup-content-wrapper{border-radius:2.5rem!important;overflow:hidden!important;padding:0!important;box-shadow:0 45px 90px -15px rgba(0,0,0,.45)!important}
         .leaflet-popup-content{margin:0!important;padding:10px!important;width:260px!important}
         @media(max-width:768px){.leaflet-popup-content{width:260px!important;padding:10px!important}}
-        .line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+        .{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
         .leaflet-popup-tip-container{display:none}
         .square-modern-popup-container iframe{pointer-events:auto!important;border-radius:2rem!important}
         @keyframes fadeIn{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
