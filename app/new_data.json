@@ -1,0 +1,902 @@
+[
+  {
+    "id": "1549",
+    "name": {
+      "he": "בית שמש / بيت شيمش",
+      "ar": "بيت شيمش",
+      "en": "Beit Shemesh",
+      "ru": "Бейт-Шемеш"
+    },
+    "coords": [31.745, 34.986],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר למרגלות הרי יהודה, הוקמה בשנת 1950 כמעברה והפכה לעיר מרכזית.",
+      "ar": "مدينة عند سفح جبال يهودا، تأسست عام 1950 كمخيم للمهاجرين وأصبحت مدينة مركزية.",
+      "en": "City at the foot of the Judean Hills, established in 1950 as a transit camp and became a major city.",
+      "ru": "Город у подножия Иудейских гор, основанный в 1950 году как лагерь для репатриантов."
+    }
+  },
+  {
+    "id": "1550",
+    "name": {
+      "he": "מבשרת ציון / مبشرت تسيون",
+      "ar": "مبشرت تسيون",
+      "en": "Mevaseret Zion",
+      "ru": "Мевасерет-Цион"
+    },
+    "coords": [31.801, 35.156],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית סמוכה לירושלים, הוקמה כאיחוד של היישובים מבשרת ירושלים ומעוז ציון.",
+      "ar": "مجلس محلي بالقرب من القدس، تأسس كاتحاد لمستوطنتي مبشرت يروشالايم ومعوز تسيون.",
+      "en": "Local council near Jerusalem, established as a union of Mevaseret Yerushalayim and Maoz Zion.",
+      "ru": "Местный совет рядом с Иерусалимом, созданный в результате объединения поселений Мевасерет-Йерушалаим и Маоз-Цион."
+    }
+  },
+  {
+    "id": "1551",
+    "name": {
+      "he": "אבו גוש / أبو غوش",
+      "ar": "أبو غوش",
+      "en": "Abu Ghosh",
+      "ru": "Абу-Гош"
+    },
+    "coords": [31.806, 35.108],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית ערבית בהרי ירושלים, ידועה בהיסטוריה שלה ובכנסיית המנזר הבנדיקטיני.",
+      "ar": "مجلس محلي عربي في جبال القدس، يشتهر بتاريخه وكنيسة الدير البندكتي.",
+      "en": "Arab local council in the Jerusalem Hills, known for its history and the Benedictine Monastery church.",
+      "ru": "Арабский местный совет в Иерусалимских горах, известный своей историей и церковью бенедиктинского монастыря."
+    }
+  },
+  {
+    "id": "1552",
+    "name": {
+      "he": "קריית יערים (טלז סטון) / كريات يعاريم",
+      "ar": "كريات يعاريم",
+      "en": "Kiryat Ye'arim",
+      "ru": "Кирьят-Йеарим"
+    },
+    "coords": [31.811, 35.101],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית חרדית סמוכה לאבו גוש, הוקמה בשנת 1973.",
+      "ar": "مجلس محلي أرثوذكسي متشدد بالقرب من أبو غوش، تأسس عام 1973.",
+      "en": "Haredi local council near Abu Ghosh, established in 1973.",
+      "ru": "Ультраортодоксальный местный совет рядом с Абу-Гош, основанный в 1973 году."
+    }
+  },
+  {
+    "id": "1553",
+    "name": {
+      "he": "גבעת זאב / غفعات زئيف",
+      "ar": "غفعات زئيف",
+      "en": "Givat Ze'ev",
+      "ru": "Гиват-Зеэв"
+    },
+    "coords": [31.861, 35.168],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "התנחלות ומועצה מקומית מצפון לירושלים, קרויה על שם זאב ז'בוטינסקי.",
+      "ar": "مستوطنة ومجلس محلي شمال القدس، سميت على اسم زئيف جابوتنسكي.",
+      "en": "Settlement and local council north of Jerusalem, named after Ze'ev Jabotinsky.",
+      "ru": "Поселение и местный совет к северу от Иерусалима, названный в честь Зеэва Жаботинского."
+    }
+  },
+  {
+    "id": "1554",
+    "name": {
+      "he": "מודיעין-מכבים-רעות / موديعين-مكابيم-ريعوت",
+      "ar": "موديعين-مكابيم-ريعوت",
+      "en": "Modi'in-Maccabim-Re'ut",
+      "ru": "Модиин-Маккабим-Реут"
+    },
+    "coords": [31.898, 35.011],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר מתוכננת בין ירושלים לתל אביב, הוקמה בשנות ה-90.",
+      "ar": "مدينة مخططة تقع بين القدس وتل أبيب، تأسست في التسعينيات.",
+      "en": "Planned city between Jerusalem and Tel Aviv, established in the 1990s.",
+      "ru": "Спланированный город между Иерусалимом и Тель-Авивом, основанный в 90-х годах."
+    }
+  },
+  {
+    "id": "1555",
+    "name": {
+      "he": "אלעד / ألعاد",
+      "ar": "ألعاد",
+      "en": "El'ad",
+      "ru": "Эльад"
+    },
+    "coords": [32.051, 34.951],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר חרדית מתוכננת במרכז הארץ, הוקמה בשנת 1998.",
+      "ar": "مدينة أرثوذكسية متشددة مخططة في وسط البلاد، تأسست عام 1998.",
+      "en": "Planned Haredi city in central Israel, established in 1998.",
+      "ru": "Спланированный ультраортодоксальный город в центре страны, основанный в 1998 году."
+    }
+  },
+  {
+    "id": "1556",
+    "name": {
+      "he": "שהם / شوهم",
+      "ar": "شوهم",
+      "en": "Shoham",
+      "ru": "Шохам"
+    },
+    "coords": [31.948, 34.945],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית באזור המרכז, ידועה באיכות החיים הגבוהה שלה.",
+      "ar": "مجلس محلي في المنطقة الوسطى، يشتهر بجودة الحياة العالية فيه.",
+      "en": "Local council in the central region, known for its high quality of life.",
+      "ru": "Местный совет в центральном регионе, известный своим высоким качеством жизни."
+    }
+  },
+  {
+    "id": "1557",
+    "name": {
+      "he": "ביתר עילית / بيتار عيليت",
+      "ar": "بيتار عيليت",
+      "en": "Beitar Illit",
+      "ru": "Бейтар-Илит"
+    },
+    "coords": [31.705, 35.111],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "התנחלות ועיר חרדית גדולה בהרי יהודה, הוקמה ב-1985.",
+      "ar": "مستوطنة ومدينة أرثوذكسية متشددة كبيرة في جبال يهودا، تأسست عام 1985.",
+      "en": "Large Haredi settlement and city in the Judean Hills, established in 1985.",
+      "ru": "Крупное ультраортодоксальное поселение и город в Иудейских горах, основанный в 1985 году."
+    }
+  },
+  {
+    "id": "1558",
+    "name": {
+      "he": "בית אל / بيت إيل",
+      "ar": "بيت إيل",
+      "en": "Beit El",
+      "ru": "Бейт-Эль"
+    },
+    "coords": [31.941, 35.228],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "התנחלות ומועצה מקומית בבנימין, מזוהה עם האתר המקראי בית אל.",
+      "ar": "مستوطنة ومجلس محلي في بنيامين، مرتبطة بموقع بيت إيل التوراتي.",
+      "en": "Settlement and local council in Benjamin, identified with the biblical site of Bethel.",
+      "ru": "Поселение и местный совет в Биньямине, отождествляемый с библейским Вефилем (Бейт-Эль)."
+    }
+  },
+  {
+    "id": "1559",
+    "name": {
+      "he": "אפרת / أفرات",
+      "ar": "أفرات",
+      "en": "Efrat",
+      "ru": "Эфрат"
+    },
+    "coords": [31.655, 35.151],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "התנחלות ומועצה מקומית בגוש עציון, הוקמה בשנת 1983.",
+      "ar": "مستوطنة ومجلس محلي في غوش عتصيون، تأسست عام 1983.",
+      "en": "Settlement and local council in Gush Etzion, established in 1983.",
+      "ru": "Поселение и местный совет в Гуш-Эционе, основанный в 1983 году."
+    }
+  },
+  {
+    "id": "1560",
+    "name": {
+      "he": "גוש עציון / غوش عتصيون",
+      "ar": "غوش عتصيون",
+      "en": "Gush Etzion",
+      "ru": "Гуш-Эцион"
+    },
+    "coords": [31.651, 35.125],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "גוש יישובים יהודיים שהוקם לפני 1948, חרב במלחמה ויושב מחדש לאחר 1967.",
+      "ar": "كتلة مستوطنات يهودية تأسست قبل عام 1948، دُمرت في الحرب وأعيد سكنها بعد عام 1967.",
+      "en": "A bloc of Jewish settlements established before 1948, destroyed in the war and resettled after 1967.",
+      "ru": "Блок еврейских поселений, основанный до 1948 года, разрушенный во время войны и вновь заселенный после 1967 года."
+    }
+  },
+  {
+    "id": "1561",
+    "name": {
+      "he": "קרית ארבע / كريات أربع",
+      "ar": "كريات أربع",
+      "en": "Kiryat Arba",
+      "ru": "Кирьят-Арба"
+    },
+    "coords": [31.528, 35.118],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "התנחלות ומועצה מקומית הסמוכה לעיר חברון, הוקמה ב-1968.",
+      "ar": "مستوطنة ومجلس محلي بالقرب من مدينة الخليل، تأسست عام 1968.",
+      "en": "Settlement and local council adjacent to the city of Hebron, established in 1968.",
+      "ru": "Поселение и местный совет, прилегающий к городу Хеврон, основанный в 1968 году."
+    }
+  },
+  {
+    "id": "1562",
+    "name": {
+      "he": "חברון (היישוב היהודי) / الخليل",
+      "ar": "الخليل",
+      "en": "Hebron (Jewish Community)",
+      "ru": "Хеврон (Еврейская община)"
+    },
+    "coords": [31.525, 35.102],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קהילה יהודית היסטורית באחת מארבע ערי הקודש, חודשה לאחר 1967.",
+      "ar": "مجتمع يهودي تاريخي في واحدة من مدن القداسة الأربع، تجدد بعد عام 1967.",
+      "en": "Historic Jewish community in one of the four holy cities, renewed after 1967.",
+      "ru": "Историческая еврейская община в одном из четырех святых городов, возрожденная после 1967 года."
+    }
+  },
+  {
+    "id": "1563",
+    "name": {
+      "he": "עין גדי / عين جدي",
+      "ar": "عين جدي",
+      "en": "Ein Gedi",
+      "ru": "Эйн-Геди"
+    },
+    "coords": [31.458, 35.388],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ לחופי ים המלח, הוקם בשנת 1953 כהיאחזות נח\"ל.",
+      "ar": "كيبوتس على شواطئ البحر الميت، تأسست عام 1953 كبؤرة استيطانية للناحال.",
+      "en": "Kibbutz on the shores of the Dead Sea, established in 1953 as a Nahal outpost.",
+      "ru": "Кибуц на берегу Мертвого моря, основанный в 1953 году как форпост Нахаль."
+    }
+  },
+  {
+    "id": "1564",
+    "name": {
+      "he": "ערד / عراد",
+      "ar": "عراد",
+      "en": "Arad",
+      "ru": "Арад"
+    },
+    "coords": [31.261, 35.215],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר במדבר יהודה, הוקמה בשנת 1962 כעיר מתוכננת.",
+      "ar": "مدينة في صحراء يهودا، تأسست عام 1962 كمدينة مخططة.",
+      "en": "City in the Judean Desert, established in 1962 as a planned city.",
+      "ru": "Город в Иудейской пустыне, основанный в 1962 году как спланированный город."
+    }
+  },
+  {
+    "id": "1565",
+    "name": {
+      "he": "דימונה / ديمونا",
+      "ar": "ديمونا",
+      "en": "Dimona",
+      "ru": "Димона"
+    },
+    "coords": [31.068, 35.035],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר בנגב המזרחי, הוקמה בשנת 1955 עבור עובדי מפעלי ים המלח.",
+      "ar": "مدينة في النقب الشرقي، تأسست عام 1955 لعمال مصانع البحر الميت.",
+      "en": "City in the eastern Negev, established in 1955 for workers of the Dead Sea Works.",
+      "ru": "Город в восточном Негеве, основанный в 1955 году для работников заводов Мертвого моря."
+    }
+  },
+  {
+    "id": "1566",
+    "name": {
+      "he": "ירוחם / يروحام",
+      "ar": "يروحام",
+      "en": "Yeruham",
+      "ru": "Йерухам"
+    },
+    "coords": [30.988, 34.921],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית בנגב, הוקמה בשנת 1951 כמעברה בשם 'כפר ירוחם'.",
+      "ar": "مجلس محلي في النقب، تأسس عام 1951 كمخيم للمهاجرين باسم 'كفار يروحام'.",
+      "en": "Local council in the Negev, established in 1951 as a transit camp named 'Kfar Yeruham'.",
+      "ru": "Местный совет в Негеве, основанный в 1951 году как лагерь для репатриантов под названием «Кфар-Йерухам»."
+    }
+  },
+  {
+    "id": "1567",
+    "name": {
+      "he": "מצפה רמון / متسبي رامون",
+      "ar": "متسبي رامون",
+      "en": "Mitzpe Ramon",
+      "ru": "Мицпе-Рамон"
+    },
+    "coords": [30.608, 34.801],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית על שפת מכתש רמון, הוקמה בשנת 1956.",
+      "ar": "مجلس محلي على حافة فوهة رامون، تأسس عام 1956.",
+      "en": "Local council on the edge of the Ramon Crater, established in 1956.",
+      "ru": "Местный совет на краю кратера Рамон, основанный в 1956 году."
+    }
+  },
+  {
+    "id": "1568",
+    "name": {
+      "he": "אילת / إيلات",
+      "ar": "إيلات",
+      "en": "Eilat",
+      "ru": "Эйлат"
+    },
+    "coords": [29.558, 34.951],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "העיר הדרומית ביותר בישראל, עיר נמל ותיירות לחופי הים האדום.",
+      "ar": "أقصى مدينة في جنوب إسرائيل، مدينة ميناء وسياحة على شواطئ البحر الأحمر.",
+      "en": "The southernmost city in Israel, a port and tourism city on the shores of the Red Sea.",
+      "ru": "Самый южный город Израиля, портовый и туристический город на берегу Красного моря."
+    }
+  },
+  {
+    "id": "1569",
+    "name": {
+      "he": "נהלל / نهلال",
+      "ar": "نهلال",
+      "en": "Nahalal",
+      "ru": "Нахалаль"
+    },
+    "coords": [32.691, 35.195],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושב העובדים הראשון בארץ, הוקם בשנת 1921 בעמק יזרעאל בתכנון מעגלי.",
+      "ar": "أول موشاف للعمال في البلاد، تأسس عام 1921 في مرج ابن عامر بتخطيط دائري.",
+      "en": "The first workers' moshav in Israel, established in 1921 in the Jezreel Valley with a circular layout.",
+      "ru": "Первый рабочий мошав в стране, основанный в 1921 году в Изреельской долине с круговой планировкой."
+    }
+  },
+  {
+    "id": "1570",
+    "name": {
+      "he": "דגניה א' / دغانيا أ",
+      "ar": "دغانيا أ",
+      "en": "Degania Alef",
+      "ru": "Дгания Алеф"
+    },
+    "coords": [32.708, 35.575],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "אם הקבוצות והקיבוצים, הוקמה בשנת 1910 על חוף הכנרת.",
+      "ar": "أم المجموعات والكيبوتسات، تأسست عام 1910 على شاطئ بحيرة طبريا.",
+      "en": "Mother of the Kibbutzim, established in 1910 on the shore of the Sea of Galilee.",
+      "ru": "Мать кибуцев, основанная в 1910 году на берегу Галилейского моря."
+    }
+  },
+  {
+    "id": "1571",
+    "name": {
+      "he": "כנרת (מושבה) / كينيرت",
+      "ar": "كينيرت",
+      "en": "Kinneret (Moshava)",
+      "ru": "Кинерет (Поселение)"
+    },
+    "coords": [32.725, 35.561],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושבה שהוקמה בשנת 1908 לחוף הכנרת על ידי חברת יק\"א.",
+      "ar": "مستوطنة تأسست عام 1908 على شاطئ بحيرة طبريا من قبل شركة ICA.",
+      "en": "Moshava established in 1908 on the shore of the Sea of Galilee by the ICA company.",
+      "ru": "Поселение, основанное в 1908 году на берегу Галилейского моря компанией ЕКО."
+    }
+  },
+  {
+    "id": "1572",
+    "name": {
+      "he": "עין חרוד / عين حرود",
+      "ar": "عين حرود",
+      "en": "Ein Harod",
+      "ru": "Эйн-Харод"
+    },
+    "coords": [32.548, 35.391],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בעמק יזרעאל, הוקם בשנת 1921 סמוך למעיין חרוד.",
+      "ar": "كيبوتس في مرج ابن عامر، تأسس عام 1921 بالقرب من عين حرود.",
+      "en": "Kibbutz in the Jezreel Valley, established in 1921 near the Harod Spring.",
+      "ru": "Кибуц в Изреельской долине, основанный в 1921 году рядом с источником Харод."
+    }
+  },
+  {
+    "id": "1573",
+    "name": {
+      "he": "תל יוסף / تل يوسف",
+      "ar": "تل يوسف",
+      "en": "Tel Yosef",
+      "ru": "Тель-Йосеф"
+    },
+    "coords": [32.551, 35.401],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בעמק חרוד, הוקם בשנת 1921 על ידי גדוד העבודה.",
+      "ar": "كيبوتس في سهل حرود، تأسس عام 1921 من قبل 'كتيبة العمل'.",
+      "en": "Kibbutz in the Harod Valley, established in 1921 by the 'Labor Battalion'.",
+      "ru": "Кибуц в долине Харод, основанный в 1921 году «Трудовым батальоном»."
+    }
+  },
+  {
+    "id": "1574",
+    "name": {
+      "he": "מזרע / مزراع",
+      "ar": "مزراع",
+      "en": "Mizra",
+      "ru": "Мизра"
+    },
+    "coords": [32.671, 35.295],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בעמק יזרעאל, הוקם בשנת 1923.",
+      "ar": "كيبوتس في مرج ابن عامر، تأسس عام 1923.",
+      "en": "Kibbutz in the Jezreel Valley, established in 1923.",
+      "ru": "Кибуц в Изреельской долине, основанный в 1923 году."
+    }
+  },
+  {
+    "id": "1575",
+    "name": {
+      "he": "כפר חסידים / كفار حسيديم",
+      "ar": "كفار حسيديم",
+      "en": "Kfar Hasidim",
+      "ru": "Кфар-Хасидим"
+    },
+    "coords": [32.748, 35.091],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושב בעמק זבולון, הוקם ב-1924 על ידי קבוצת חסידים מפולין.",
+      "ar": "موشاف في سهل زبولون، تأسس عام 1924 من قبل مجموعة من الحسيديم من بولندا.",
+      "en": "Moshav in the Zabulon Valley, established in 1924 by a group of Hasidim from Poland.",
+      "ru": "Мошав в долине Зевулун, основанный в 1924 году группой хасидов из Польши."
+    }
+  },
+  {
+    "id": "1576",
+    "name": {
+      "he": "כפר יהושע / كفار يهوشوع",
+      "ar": "كفار يهوشوع",
+      "en": "Kfar Yehoshua",
+      "ru": "Кфар-Иехошуа"
+    },
+    "coords": [32.681, 35.151],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושב עובדים בעמק יזרעאל, הוקם בשנת 1927.",
+      "ar": "موشاف للعمال في مرج ابن عامر، تأسس عام 1927.",
+      "en": "Workers' moshav in the Jezreel Valley, established in 1927.",
+      "ru": "Рабочий мошав в Изреельской долине, основанный в 1927 году."
+    }
+  },
+  {
+    "id": "1577",
+    "name": {
+      "he": "רמת הכובש / رمات هاكوفيش",
+      "ar": "رمات هاكوفيش",
+      "en": "Ramat HaKovesh",
+      "ru": "Рамат-ха-Ковеш"
+    },
+    "coords": [32.221, 34.921],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בשרון הצפוני, הוקם בשנת 1932.",
+      "ar": "كيبوتس في شمال شارون، تأسس عام 1932.",
+      "en": "Kibbutz in the northern Sharon, established in 1932.",
+      "ru": "Кибуц в северном Шароне, основанный в 1932 году."
+    }
+  },
+  {
+    "id": "1578",
+    "name": {
+      "he": "מגשימים / مغشيميم",
+      "ar": "مغشيميم",
+      "en": "Magshimim",
+      "ru": "Магшимим"
+    },
+    "coords": [32.068, 34.911],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושב בשרון הדרומי, הוקם בשנת 1949 על ידי חיילים משוחררים.",
+      "ar": "موشاف في جنوب شارون، تأسس عام 1949 من قبل جنود مسرحين.",
+      "en": "Moshav in the southern Sharon, established in 1949 by discharged soldiers.",
+      "ru": "Мошав в южном Шароне, основанный в 1949 году демобилизованными солдатами."
+    }
+  },
+  {
+    "id": "1579",
+    "name": {
+      "he": "ניר עם / نير عام",
+      "ar": "نير عام",
+      "en": "Nir Am",
+      "ru": "Нир-Ам"
+    },
+    "coords": [31.528, 34.585],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב הצפוני, הוקם בשנת 1943 ושימש כמרכז לאספקת מים ליישובי הנגב.",
+      "ar": "كيبوتس في شمال النقب، تأسس عام 1943 وكان مركزاً لتزويد المياه لمستوطنات النقب.",
+      "en": "Kibbutz in the northern Negev, established in 1943 and served as a water supply center for Negev settlements.",
+      "ru": "Кибуц в северном Негеве, основанный в 1943 году и служивший центром водоснабжения поселений Негева."
+    }
+  },
+  {
+    "id": "1580",
+    "name": {
+      "he": "יד מרדכי / ياد موردخاي",
+      "ar": "ياد موردخاي",
+      "en": "Yad Mordechai",
+      "ru": "Яд-Мордехай"
+    },
+    "coords": [31.585, 34.558],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ במישור החוף הדרומי, קרוי על שם מרדכי אנילביץ' ונודע בעמידתו במלחמת העצמאות.",
+      "ar": "كيبوتس في السهل الساحلي الجنوبي، سمي على اسم مردخاي أنيليفيتش واشتهر بصموده في حرب الاستقلال.",
+      "en": "Kibbutz in the southern coastal plain, named after Mordechai Anielewicz and known for its stand in the War of Independence.",
+      "ru": "Кибуц на южной прибрежной равнине, названный в честь Мордехая Анилевича и известный своей стойкостью в Войне за независимость."
+    }
+  },
+  {
+    "id": "1581",
+    "name": {
+      "he": "נגבה / نجبا",
+      "ar": "نجبا",
+      "en": "Negba",
+      "ru": "Негба"
+    },
+    "coords": [31.661, 34.678],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב הצפוני, הוקם בשנת 1939 כאחד מיישובי חומה ומגדל.",
+      "ar": "كيبوتس في شمال النقب، تأسس عام 1939 كواحد من مستوطنات السور والبرج.",
+      "en": "Kibbutz in the northern Negev, established in 1939 as one of the Tower and Stockade settlements.",
+      "ru": "Кибуц в северном Негеве, основанный в 1939 году как одно из поселений «Стена и башня»."
+    }
+  },
+  {
+    "id": "1582",
+    "name": {
+      "he": "באר טוביה / بئير طوفيا",
+      "ar": "بئير طوفيا",
+      "en": "Be'er Tuvia",
+      "ru": "Беэр-Тувия"
+    },
+    "coords": [31.738, 34.721],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושב ותיק בשפלת החוף, הוקם לראשונה ב-1887 ויושב מחדש ב-1930.",
+      "ar": "موشاف قديم في السهل الساحلي، تأسس لأول مرة عام 1887 وأعيد سكنه عام 1930.",
+      "en": "Veteran moshav in the coastal plain, first established in 1887 and resettled in 1930.",
+      "ru": "Старый мошав на прибрежной равнине, впервые основанный в 1887 году и вновь заселенный в 1930 году."
+    }
+  },
+  {
+    "id": "1583",
+    "name": {
+      "he": "כפר ורבורג / كفار فاربورغ",
+      "ar": "كفار فاربورغ",
+      "en": "Kfar Warburg",
+      "ru": "Кфар-Варбург"
+    },
+    "coords": [31.728, 34.741],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושב בשפלה הסמוך לקריית מלאכי, הוקם בשנת 1939.",
+      "ar": "موشاف في السهل بالقرب من كريات ملاخي، تأسس عام 1939.",
+      "en": "Moshav in the Shephelah near Kiryat Malakhi, established in 1939.",
+      "ru": "Мошав в Шфеле рядом с Кирьят-Малахи, основанный в 1939 году."
+    }
+  },
+  {
+    "id": "1584",
+    "name": {
+      "he": "קיבוץ בארי / كيبوتس بئيري",
+      "ar": "كيبوتس بئيري",
+      "en": "Be'eri",
+      "ru": "Беэри"
+    },
+    "coords": [31.425, 34.491],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב המערבי, הוקם במוצאי יום כיפור 1946 כאחד מ-11 הנקודות בנגב.",
+      "ar": "كيبوتس في غرب النقب، تأسس ليلة يوم الغفران عام 1946 كواحدة من النقاط الـ 11 في النقب.",
+      "en": "Kibbutz in the western Negev, established on the night after Yom Kippur 1946 as one of the 11 points in the Negev.",
+      "ru": "Кибуц в западном Негеве, основанный в ночь после Йом-Кипура 1946 года как один из 11 пунктов в Негеве."
+    }
+  },
+  {
+    "id": "1585",
+    "name": {
+      "he": "כפר עזה / كفار غزة",
+      "ar": "كفار غزة",
+      "en": "Kfar Aza",
+      "ru": "Кфар-Аза"
+    },
+    "coords": [31.485, 34.521],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב המערבי, הוקם בשנת 1951.",
+      "ar": "كيبوتس في غرب النقب، تأسس عام 1951.",
+      "en": "Kibbutz in the western Negev, established in 1951.",
+      "ru": "Кибуц в западном Негеве, основанный в 1951 году."
+    }
+  },
+  {
+    "id": "1586",
+    "name": {
+      "he": "ניר עוז / نير عوز",
+      "ar": "نير عوز",
+      "en": "Nir Oz",
+      "ru": "Нир-Оз"
+    },
+    "coords": [31.311, 34.401],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב המערבי, הוקם בשנת 1955 כהיאחזות נח\"ל.",
+      "ar": "كيبوتس في غرب النقب، تأسس عام 1955 كبؤرة استيطانية للناحال.",
+      "en": "Kibbutz in the western Negev, established in 1955 as a Nahal outpost.",
+      "ru": "Кибуц в западном Негеве, основанный в 1955 году как форпост Нахаль."
+    }
+  },
+  {
+    "id": "1587",
+    "name": {
+      "he": "נחל עוז / ناحل عوز",
+      "ar": "ناحل عوز",
+      "en": "Nahal Oz",
+      "ru": "Нахаль-Оз"
+    },
+    "coords": [31.471, 34.481],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "הקיבוץ הראשון שהוקם על ידי הנח\"ל בשנת 1951 מול רצועת עזה.",
+      "ar": "أول كيبوتس أسسه الناحال عام 1951 مقابل قطاع غزة.",
+      "en": "The first kibbutz established by the Nahal in 1951 facing the Gaza Strip.",
+      "ru": "Первый кибуц, основанный Нахалем в 1951 году напротив сектора Газа."
+    }
+  },
+  {
+    "id": "1588",
+    "name": {
+      "he": "נירים / نيريم",
+      "ar": "نيريم",
+      "en": "Nirim",
+      "ru": "Нирим"
+    },
+    "coords": [31.331, 34.421],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב המערבי, הוקם בשנת 1946 כאחד מ-11 הנקודות.",
+      "ar": "كيبوتس في غرب النقب، تأسس عام 1946 كواحدة من النقاط الـ 11.",
+      "en": "Kibbutz in the western Negev, established in 1946 as one of the 11 points.",
+      "ru": "Кибуц в западном Негеве, основанный в 1946 году как один из 11 пунктов."
+    }
+  },
+  {
+    "id": "1589",
+    "name": {
+      "he": "כרם שלום / كرم شالوم",
+      "ar": "كرم شالوم",
+      "en": "Kerem Shalom",
+      "ru": "Керем-Шалом"
+    },
+    "coords": [31.228, 34.285],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב המערבי, ממוקם בנקודת המפגש בין ישראל, מצרים ורצועת עזה.",
+      "ar": "كيبوتس في غرب النقب، يقع عند نقطة الالتقاء بين إسرائيل ومصر وقطاع غزة.",
+      "en": "Kibbutz in the western Negev, located at the meeting point between Israel, Egypt, and the Gaza Strip.",
+      "ru": "Кибуц в западном Негеве, расположенный на стыке границ Израиля, Египта и сектора Газа."
+    }
+  },
+  {
+    "id": "1590",
+    "name": {
+      "he": "כיסופים / كيسوفيم",
+      "ar": "كيسوفيم",
+      "en": "Kissufim",
+      "ru": "Киссуфим"
+    },
+    "coords": [31.371, 34.398],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב המערבי, הוקם בשנת 1951.",
+      "ar": "كيبوتس في غرب النقب، تأسس عام 1951.",
+      "en": "Kibbutz in the western Negev, established in 1951.",
+      "ru": "Кибуц в западном Негеве, основанный в 1951 году."
+    }
+  },
+  {
+    "id": "1591",
+    "name": {
+      "he": "חולית / حوليت",
+      "ar": "حوليت",
+      "en": "Holit",
+      "ru": "Холит"
+    },
+    "coords": [31.238, 34.331],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב המערבי, הוקם בשנת 1982 לאחר פינוי סיני.",
+      "ar": "كيبوتس في غرب النقب، تأسس عام 1982 بعد إخلاء سيناء.",
+      "en": "Kibbutz in the western Negev, established in 1982 after the evacuation of Sinai.",
+      "ru": "Кибуц в западном Негеве, основанный в 1982 году после эвакуации Синая."
+    }
+  },
+  {
+    "id": "1592",
+    "name": {
+      "he": "עין השלושה / عين هاشلوشا",
+      "ar": "عين هاشلوشا",
+      "en": "Ein HaShlosha",
+      "ru": "Эйн-ха-Шлоша"
+    },
+    "coords": [31.355, 34.425],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב המערבי, הוקם בשנת 1950 על ידי תנועת הנוער הציוני מאמריקה הלטינית.",
+      "ar": "كيبوتس في غرب النقب، تأسس عام 1950 من قبل حركة الشباب الصهيوني من أمريكا اللاتينية.",
+      "en": "Kibbutz in the western Negev, established in 1950 by the Zionist Youth movement from Latin America.",
+      "ru": "Кибуц в западном Негеве, основанный в 1950 году движением сионистской молодежи из Латинской Америки."
+    }
+  },
+  {
+    "id": "1593",
+    "name": {
+      "he": "מגן / ماغين",
+      "ar": "ماغين",
+      "en": "Magen",
+      "ru": "Маген"
+    },
+    "coords": [31.298, 34.431],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב המערבי, הוקם בשנת 1949 על ידי חברי תנועת השומר הצעיר מרומניה.",
+      "ar": "كيبوتس في غرب النقب، تأسس عام 1949 من قبل أعضاء حركة هاشومير هاتسعير من رومانيا.",
+      "en": "Kibbutz in the western Negev, established in 1949 by members of the Hashomer Hatzair movement from Romania.",
+      "ru": "Кибуц в западном Негеве, основанный в 1949 году членами движения «Ха-шомер ха-цаир» из Румынии."
+    }
+  },
+  {
+    "id": "1594",
+    "name": {
+      "he": "רעים / ريعيم",
+      "ar": "ريعيم",
+      "en": "Re'im",
+      "ru": "Реим"
+    },
+    "coords": [31.385, 34.458],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב המערבי, הוקם בשנת 1949 ונקרא בתחילה 'תל רעים'.",
+      "ar": "كيبوتس في غرب النقب، تأسس عام 1949 وكان يسمى في البداية 'تل ريعيم'.",
+      "en": "Kibbutz in the western Negev, established in 1949 and initially named 'Tel Re'im'.",
+      "ru": "Кибуц в западном Негеве, основанный в 1949 году и первоначально называвшийся «Тель-Реим»."
+    }
+  },
+  {
+    "id": "1595",
+    "name": {
+      "he": "סופה / سوفا",
+      "ar": "سوفا",
+      "en": "Sufa",
+      "ru": "Суфа"
+    },
+    "coords": [31.235, 34.345],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב המערבי, הוקם בשנת 1982 לאחר פינוי סיני.",
+      "ar": "كيبوتس في غرب النقب، تأسس عام 1982 بعد إخلاء سيناء.",
+      "en": "Kibbutz in the western Negev, established in 1982 after the evacuation of Sinai.",
+      "ru": "Кибуц в западном Негеве, основанный в 1982 году после эвакуации Синая."
+    }
+  },
+  {
+    "id": "1596",
+    "name": {
+      "he": "ניר יצחק / نير يتسحاق",
+      "ar": "نير يتسحاق",
+      "en": "Nir Yitzhak",
+      "ru": "Нир-Ицхак"
+    },
+    "coords": [31.221, 34.361],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב המערבי, הוקם בשנת 1946 ונקרא על שם יצחק שדה.",
+      "ar": "كيبوتس في غرب النقب، تأسس عام 1946 וسميت على اسم يتسحاق سديه.",
+      "en": "Kibbutz in the western Negev, established in 1946 and named after Yitzhak Sadeh.",
+      "ru": "Кибуц в западном Негеве, основанный в 1946 году и названный в честь Ицхака Саде."
+    }
+  },
+  {
+    "id": "1597",
+    "name": {
+      "he": "אורים / أوريم",
+      "ar": "أوريم",
+      "en": "Urim",
+      "ru": "Урим"
+    },
+    "coords": [31.315, 34.521],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב הצפוני, הוקם בשנת 1946 כאחד מ-11 הנקודות.",
+      "ar": "كيبوتس في شمال النقب، تأسس عام 1946 كواحدة من النقاط الـ 11.",
+      "en": "Kibbutz in the northern Negev, established in 1946 as one of the 11 points.",
+      "ru": "Кибуц в северном Негеве, основанный в 1946 году как один из 11 пунктов."
+    }
+  },
+  {
+    "id": "1598",
+    "name": {
+      "he": "רביבים / ربيبيم",
+      "ar": "ربيبيم",
+      "en": "Revivim",
+      "ru": "Ревивим"
+    },
+    "coords": [31.045, 34.721],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "קיבוץ בנגב, הוקם בשנת 1943 כאחד משלושת המצפים בנגב.",
+      "ar": "كيبوتس في النقب، تأسس عام 1943 كواحد من المراصد الثلاثة في النقب.",
+      "en": "Kibbutz in the Negev, established in 1943 as one of the three lookouts in the Negev.",
+      "ru": "Кибуц в Негеве, основанный в 1943 году как один из трех наблюдательных пунктов в Негеве."
+    }
+  }
+]
