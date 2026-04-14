@@ -27020,5 +27020,1055 @@
       "en": "Town in Samaria.",
       "ru": "Городок в Самарии."
     }
+  },
+  {
+    "id": "1249",
+    "name": {
+      "he": "ג׳בע (חיפה)",
+      "ar": "جبع",
+      "en": "Jaba",
+      "ru": "Джаба"
+    },
+    "coords": [
+      32.651,
+      34.935
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר למרגלות הכרמל, כיום באזור המושב גבע כרמל.",
+      "ar": "قرية عند سفح جبل الكرمل.",
+      "en": "Village at the foot of Mount Carmel, currently in the Geva Carmel area.",
+      "ru": "Деревня у подножия горы Кармель."
+    }
+  },
+  {
+    "id": "1250",
+    "name": {
+      "he": "עין ע׳זאל",
+      "ar": "عين غزال",
+      "en": "Ein Ghazal",
+      "ru": "Эйн-Газаль"
+    },
+    "coords": [
+      32.635,
+      34.932
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר למרגלות הכרמל, כיום באזור המושב עין איילה.",
+      "ar": "قرية عند سفح جبل الكرمل.",
+      "en": "Village at the foot of Mount Carmel, currently in the Ein Ayala area.",
+      "ru": "Деревня у подножия горы Кармель."
+    }
+  },
+  {
+    "id": "1251",
+    "name": {
+      "he": "אל-טירה (חיפה)",
+      "ar": "الطيرة",
+      "en": "Al-Tira",
+      "ru": "Аль-Тира"
+    },
+    "coords": [
+      32.761,
+      34.965
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיירה גדולה למרגלות הכרמל, כיום העיר טירת כרמל.",
+      "ar": "بلدة كبيرة عند سفح جبل الكرمل.",
+      "en": "Large town at the foot of Mount Carmel, now the city of Tirat Carmel.",
+      "ru": "Большой городок у подножия горы Кармель, ныне город Тират-Кармель."
+    }
+  },
+  {
+    "id": "1252",
+    "name": {
+      "he": "עין חוד",
+      "ar": "عين حوض",
+      "en": "Ein Hawd",
+      "ru": "Эйн-Ход"
+    },
+    "coords": [
+      32.701,
+      34.981
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר על הכרמל, הפך לכפר האמנים עין הוד.",
+      "ar": "قرية على جبل الكرمل، تحولت إلى قرية الفنانين عين هود.",
+      "en": "Village on Mount Carmel, became the Ein Hod artists village.",
+      "ru": "Деревня на горе Кармель, ставшая деревней художников Эйн-Ход."
+    }
+  },
+  {
+    "id": "1253",
+    "name": {
+      "he": "איג׳זים",
+      "ar": "إجزم",
+      "en": "Ijzim",
+      "ru": "Иджзим"
+    },
+    "coords": [
+      32.648,
+      34.958
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר גדול בכרמל, כיום באזור המושב כרם מהר״ל.",
+      "ar": "قرية كبيرة في الكرمل.",
+      "en": "Large village in Carmel, currently in the Kerem Maharal area.",
+      "ru": "Большая деревня на Кармеле."
+    }
+  },
+  {
+    "id": "1254",
+    "name": {
+      "he": "דאלית אל-רוחא",
+      "ar": "دالية الروحاء",
+      "en": "Daliyat al-Rawha",
+      "ru": "Далият-аль-Рауха"
+    },
+    "coords": [
+      32.585,
+      35.065
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור רמת מנשה, כיום באזור קיבוץ דליה.",
+      "ar": "قرية في منطقة مرتفعات منشيه.",
+      "en": "Village in the Ramat Menashe area, currently in the Kibbutz Dalia area.",
+      "ru": "Деревня в районе Рамат-Менаше."
+    }
+  },
+  {
+    "id": "1255",
+    "name": {
+      "he": "לג׳ון",
+      "ar": "اللجون",
+      "en": "Al-Lajjun",
+      "ru": "Аль-Ладжун"
+    },
+    "coords": [
+      32.581,
+      35.185
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר היסטורי סמוך לצומת מגידו, כיום באזור קיבוץ מגידו.",
+      "ar": "قرية تاريخية بالقرب من مفرق مجيدو.",
+      "en": "Historical village near Megiddo Junction, currently in the Kibbutz Megiddo area.",
+      "ru": "Историческая деревня рядом с перекрестком Мегиддо."
+    }
+  },
+  {
+    "id": "1256",
+    "name": {
+      "he": "זרין",
+      "ar": "زرعين",
+      "en": "Zirin",
+      "ru": "Зирин"
+    },
+    "coords": [
+      32.558,
+      35.321
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בעמק יזרעאל, כיום באזור קיבוץ יזרעאל.",
+      "ar": "قرية في مرج ابن عامر.",
+      "en": "Village in the Jezreel Valley, currently in the Kibbutz Yizreel area.",
+      "ru": "Деревня в Изреельской долине."
+    }
+  },
+  {
+    "id": "1257",
+    "name": {
+      "he": "אינדור",
+      "ar": "إندور",
+      "en": "Indur",
+      "ru": "Индур"
+    },
+    "coords": [
+      32.645,
+      35.375
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל התחתון המזוהה עם עין דור המקראית.",
+      "ar": "قرية في الجليل الأسفل مرتبطة بعين دور التوراتية.",
+      "en": "Lower Galilee village identified with biblical Ein Dor.",
+      "ru": "Деревня в Нижней Галилее, отождествляемая с библейским Аэндором."
+    }
+  },
+  {
+    "id": "1258",
+    "name": {
+      "he": "ניין",
+      "ar": "نين",
+      "en": "Nain",
+      "ru": "Наин"
+    },
+    "coords": [
+      32.631,
+      35.352
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ערבי בגליל התחתון, שמר על שמו ההיסטורי.",
+      "ar": "قرية عربية في الجليل الأسفل.",
+      "en": "Arab village in the Lower Galilee, preserved its historical name.",
+      "ru": "Арабская деревня в Нижней Галилее."
+    }
+  },
+  {
+    "id": "1259",
+    "name": {
+      "he": "אל-מנשייה (עכו)",
+      "ar": "المنشية",
+      "en": "Al-Manshiyya",
+      "ru": "Аль-Маншия"
+    },
+    "coords": [
+      32.935,
+      35.091
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר מצפון-מזרח לעכו, כיום באזור הקיבוצים שמרת ועין המפרץ.",
+      "ar": "قرية شمال شرق عكا.",
+      "en": "Village northeast of Acre, currently in the Shomrat and Ein Hamifratz area.",
+      "ru": "Деревня к северо-востоку от Акко."
+    }
+  },
+  {
+    "id": "1260",
+    "name": {
+      "he": "כויכאת",
+      "ar": "كويكات",
+      "en": "Kuwaykat",
+      "ru": "Кувейкат"
+    },
+    "coords": [
+      32.955,
+      35.145
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל המערבי, כיום באזור קיבוץ בית העמק.",
+      "ar": "قرية في الجليل الغربي.",
+      "en": "Village in the Western Galilee, currently in the Kibbutz Beit HaEmek area.",
+      "ru": "Деревня в Западной Галилее."
+    }
+  },
+  {
+    "id": "1261",
+    "name": {
+      "he": "אל-נאהר",
+      "ar": "النهر",
+      "en": "Al-Nahr",
+      "ru": "Аль-Нахр"
+    },
+    "coords": [
+      33.001,
+      35.115
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל המערבי, כיום באזור קיבוץ כברי.",
+      "ar": "قرية في الجليل الغربي.",
+      "en": "Village in the Western Galilee, currently in the Kibbutz Kabri area.",
+      "ru": "Деревня в Западной Галилее."
+    }
+  },
+  {
+    "id": "1262",
+    "name": {
+      "he": "אום אל-פרג׳",
+      "ar": "أم الفرج",
+      "en": "Umm al-Faraj",
+      "ru": "Умм-аль-Фарадж"
+    },
+    "coords": [
+      33.008,
+      35.121
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר קטן סמוך לאל-נאהר, כיום באזור קיבוץ כברי.",
+      "ar": "قرية صغيرة بالقرب من النهر.",
+      "en": "Small village near Al-Nahr, currently in the Kibbutz Kabri area.",
+      "ru": "Небольшая деревня рядом с Аль-Нахром."
+    }
+  },
+  {
+    "id": "1263",
+    "name": {
+      "he": "אל-בירווה",
+      "ar": "البروة",
+      "en": "Al-Birwa",
+      "ru": "Аль-Бирва"
+    },
+    "coords": [
+      32.915,
+      35.175
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל המערבי - מקום הולדתו של מחמוד דרוויש.",
+      "ar": "قرية في الجليل الغربي، مسقط رأس محمود درويش.",
+      "en": "Western Galilee village, birthplace of Mahmoud Darwish.",
+      "ru": "Деревня в Западной Галилее, родина Махмуда Дарвиша."
+    }
+  },
+  {
+    "id": "1264",
+    "name": {
+      "he": "אל-דאמון",
+      "ar": "الدامون",
+      "en": "Al-Damun",
+      "ru": "Аль-Дамун"
+    },
+    "coords": [
+      32.895,
+      35.165
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל המערבי, כיום באזור קיבוץ יסעור.",
+      "ar": "قرية في الجليل الغربي.",
+      "en": "Village in the Western Galilee, currently in the Kibbutz Yasur area.",
+      "ru": "Деревня в Западной Галилее."
+    }
+  },
+  {
+    "id": "1265",
+    "name": {
+      "he": "רואיס",
+      "ar": "رويس",
+      "en": "Al-Ruways",
+      "ru": "Ар-Рувейс"
+    },
+    "coords": [
+      32.885,
+      35.185
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר קטן בגליל המערבי.",
+      "ar": "قرية صغيرة في الجليل الغربي.",
+      "en": "Small village in the Western Galilee.",
+      "ru": "Небольшая деревня в Западной Галилее."
+    }
+  },
+  {
+    "id": "1266",
+    "name": {
+      "he": "מיהאר",
+      "ar": "ميعار",
+      "en": "Miar",
+      "ru": "Миар"
+    },
+    "coords": [
+      32.905,
+      35.215
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל, כיום באזור המושב יעד.",
+      "ar": "قرية في الجليل.",
+      "en": "Village in the Galilee, currently in the Moshav Yaad area.",
+      "ru": "Деревня в Галилее."
+    }
+  },
+  {
+    "id": "1267",
+    "name": {
+      "he": "סוחמאתא",
+      "ar": "سحماتا",
+      "en": "Suhmata",
+      "ru": "Сухмата"
+    },
+    "coords": [
+      32.991,
+      35.295
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל העליון, כיום באזור היישוב חוסן.",
+      "ar": "قرية في الجليل الأعلى.",
+      "en": "Village in the Upper Galilee, currently in the Hosen area.",
+      "ru": "Деревня в Верхней Галилее."
+    }
+  },
+  {
+    "id": "1268",
+    "name": {
+      "he": "תרשיחא",
+      "ar": "ترشيحا",
+      "en": "Tarshiha",
+      "ru": "Таршиха"
+    },
+    "coords": [
+      33.001,
+      35.265
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיירה עתיקה בגליל העליון, כיום חלק מהעיר מעלות-תרשיחא.",
+      "ar": "بلدة قديمة في الجليل الأعلى.",
+      "en": "Ancient town in the Upper Galilee, now part of Maalot-Tarshiha.",
+      "ru": "Древний городок в Верхней Галилее, ныне часть Маалот-Таршихи."
+    }
+  },
+  {
+    "id": "1269",
+    "name": {
+      "he": "אל-באסה",
+      "ar": "البصة",
+      "en": "Al-Bassa",
+      "ru": "Аль-Басса"
+    },
+    "coords": [
+      33.075,
+      35.125
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיירה גדולה בגליל המערבי, כיום באזור העיר שלומי.",
+      "ar": "بلدة كبيرة في الجليل الغربي.",
+      "en": "Large town in the Western Galilee, currently in the Shlomi area.",
+      "ru": "Большой городок в Западной Галилее."
+    }
+  },
+  {
+    "id": "1270",
+    "name": {
+      "he": "אקרית",
+      "ar": "إقرث",
+      "en": "Iqrit",
+      "ru": "Икрит"
+    },
+    "coords": [
+      33.076,
+      35.344
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר נוצרי בגליל העליון סמוך לגבול לבנון.",
+      "ar": "قرية مسيحية في الجليل الأعلى.",
+      "en": "Christian village in the Upper Galilee near the Lebanese border.",
+      "ru": "Христианская деревня в Верхней Галилее."
+    }
+  },
+  {
+    "id": "1271",
+    "name": {
+      "he": "כפר בירעם",
+      "ar": "كفر برعم",
+      "en": "Kafr Birim",
+      "ru": "Кафр-Бирим"
+    },
+    "coords": [
+      33.041,
+      35.415
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר נוצרי עתיק בגליל העליון, כיום גן לאומי.",
+      "ar": "قرية مسيحية قديمة في الجليل الأعلى.",
+      "en": "Ancient Christian village in the Upper Galilee, now a National Park.",
+      "ru": "Древняя христианская деревня в Верхней Галилее, ныне нацпарк."
+    }
+  },
+  {
+    "id": "1272",
+    "name": {
+      "he": "דישון",
+      "ar": "ديشون",
+      "en": "Dayshum",
+      "ru": "Дейшум"
+    },
+    "coords": [
+      33.081,
+      35.535
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל העליון, כיום המושב דישון.",
+      "ar": "قرية في الجليل الأعلى.",
+      "en": "Village in the Upper Galilee, currently Moshav Dishon.",
+      "ru": "Деревня в Верхней Галилее, ныне мошав Дишон."
+    }
+  },
+  {
+    "id": "1273",
+    "name": {
+      "he": "אל-מאלכיה",
+      "ar": "المالكية",
+      "en": "Al-Malkiyya",
+      "ru": "Аль-Маликия"
+    },
+    "coords": [
+      33.105,
+      35.515
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל העליון, כיום קיבוץ מלכיה.",
+      "ar": "قرية في الجليل الأعلى.",
+      "en": "Village in the Upper Galilee, currently Kibbutz Malkiya.",
+      "ru": "Деревня в Верхней Галилее, ныне кибуц Малкия."
+    }
+  },
+  {
+    "id": "1274",
+    "name": {
+      "he": "קדס",
+      "ar": "قدس",
+      "en": "Qadas",
+      "ru": "Кадас"
+    },
+    "coords": [
+      33.111,
+      35.545
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר סמוך לתל קדש המקראי, כיום באזור קיבוץ יפתח.",
+      "ar": "قرية بالقرب من تل قدس التوراتية.",
+      "en": "Village near biblical Tel Qadesh, currently in the Kibbutz Yiftah area.",
+      "ru": "Деревня рядом с библейским Тель-Кадешем."
+    }
+  },
+  {
+    "id": "1275",
+    "name": {
+      "he": "הונין",
+      "ar": "هونين",
+      "en": "Hunin",
+      "ru": "Хунин"
+    },
+    "coords": [
+      33.221,
+      35.545
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ומצודה בגליל העליון, כיום המושב מרגליות.",
+      "ar": "قرية وقلعة في الجليل الأعلى.",
+      "en": "Village and fortress in the Upper Galilee, currently Moshav Margaliot.",
+      "ru": "Деревня и крепость в Верхней Галилее, ныне мошав Маргалиот."
+    }
+  },
+  {
+    "id": "1276",
+    "name": {
+      "he": "נבי יושע",
+      "ar": "النبي يوشع",
+      "en": "Al-Nabi Yusha",
+      "ru": "Наби-Юша"
+    },
+    "coords": [
+      33.115,
+      35.555
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר קטן סמוך למצודת כ״ח.",
+      "ar": "قرية صغيرة بالقرب من قلعة كواخ.",
+      "en": "Small village near Koach Fortress.",
+      "ru": "Небольшая деревня рядом с крепостью Коах."
+    }
+  },
+  {
+    "id": "1277",
+    "name": {
+      "he": "ג׳אעונה",
+      "ar": "جاعونة",
+      "en": "Jauna",
+      "ru": "Джауна"
+    },
+    "coords": [
+      32.975,
+      35.545
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל העליון, כיום המושבה ראש פינה.",
+      "ar": "قرية في الجليل الأعلى.",
+      "en": "Village in the Upper Galilee, currently Rosh Pinna colony.",
+      "ru": "Деревня в Верхней Галилее, ныне поселение Рош-Пинна."
+    }
+  },
+  {
+    "id": "1278",
+    "name": {
+      "he": "פרדיה",
+      "ar": "الفراضية",
+      "en": "Al-Farradiyya",
+      "ru": "Аль-Фаррадия"
+    },
+    "coords": [
+      32.935,
+      35.435
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל, כיום באזור המושב שפר.",
+      "ar": "قرية في الجليل.",
+      "en": "Village in the Galilee, currently in the Shefer area.",
+      "ru": "Деревня в Галилее."
+    }
+  },
+  {
+    "id": "1279",
+    "name": {
+      "he": "ג׳ש / גוש חלב",
+      "ar": "الجش",
+      "en": "Jish",
+      "ru": "Джиш"
+    },
+    "coords": [
+      33.022,
+      35.448
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר נוצרי-מרוני ומוסלמי בגליל העליון, שומר על שמו ההיסטורי.",
+      "ar": "قرية مسيحية مارونية ومسلمة في الجليل الأعلى.",
+      "en": "Christian Maronite and Muslim village in the Upper Galilee.",
+      "ru": "Христианско-маронитская деревня в Верхней Галилее."
+    }
+  },
+  {
+    "id": "1280",
+    "name": {
+      "he": "עין זיתון",
+      "ar": "عين الزيتون",
+      "en": "Ein al-Zaytun",
+      "ru": "Эйн-аз-Зайтун"
+    },
+    "coords": [
+      32.985,
+      35.495
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר סמוך לצפת, כיום באזור היישוב עין זיתים.",
+      "ar": "قرية بالقرب من صفد.",
+      "en": "Village near Safed, currently in the Ein Zeitim area.",
+      "ru": "Деревня рядом с Цфатом."
+    }
+  },
+  {
+    "id": "1281",
+    "name": {
+      "he": "בירייה",
+      "ar": "بيريا",
+      "en": "Biriyya",
+      "ru": "Бирия"
+    },
+    "coords": [
+      32.981,
+      35.511
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר סמוך לצפת, כיום היישוב בירייה.",
+      "ar": "قرية بالقرب من صفد.",
+      "en": "Village near Safed, currently the Biriyya settlement.",
+      "ru": "Деревня рядом с Цфатом."
+    }
+  },
+  {
+    "id": "1282",
+    "name": {
+      "he": "עכברה",
+      "ar": "عكبرة",
+      "en": "Akbara",
+      "ru": "Акбара"
+    },
+    "coords": [
+      32.945,
+      35.505
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר מדרום לצפת, שומר על שמו כיום כשכונה של צפת.",
+      "ar": "قرية جنوب صفد.",
+      "en": "Village south of Safed, currently a neighborhood of Safed.",
+      "ru": "Деревня к югу от Цфата, ныне квартал Цфата."
+    }
+  },
+  {
+    "id": "1283",
+    "name": {
+      "he": "מירון",
+      "ar": "ميرون",
+      "en": "Meiron",
+      "ru": "Мейрон"
+    },
+    "coords": [
+      32.981,
+      35.438
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר עתיק בגליל, כיום המושב מירון.",
+      "ar": "قرية قديمة في الجليل.",
+      "en": "Ancient village in the Galilee, currently Moshav Meron.",
+      "ru": "Древняя деревня в Галилее, ныне мошав Мерон."
+    }
+  },
+  {
+    "id": "1284",
+    "name": {
+      "he": "אל-סמאקי",
+      "ar": "السمكية",
+      "en": "Al-Samakiyya",
+      "ru": "Аль-Самакия"
+    },
+    "coords": [
+      32.905,
+      35.545
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר על חוף הכנרת סמוך לכפר נחום.",
+      "ar": "قرية على ضفاف بحيرة طبريا.",
+      "en": "Village on the Sea of Galilee shore near Capernaum.",
+      "ru": "Деревня на берегу Галилейского моря."
+    }
+  },
+  {
+    "id": "1285",
+    "name": {
+      "he": "טבחה",
+      "ar": "الطابغة",
+      "en": "Tabgha",
+      "ru": "Табха"
+    },
+    "coords": [
+      32.875,
+      35.548
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אתר קדוש נוצרי וכפר לשעבר על שפת הכנרת.",
+      "ar": "موقع مسيحي مقدس وقرية سابقة على ضفاف بحيرة طبريا.",
+      "en": "Christian holy site and former village on the Sea of Galilee shore.",
+      "ru": "Христианская святыня и бывшая деревня на берегу Галилейского моря."
+    }
+  },
+  {
+    "id": "1286",
+    "name": {
+      "he": "אל-ח׳אלצה / קריית שמונה",
+      "ar": "الخالصة",
+      "en": "Al-Khalisa",
+      "ru": "Аль-Халиса"
+    },
+    "coords": [
+      33.208,
+      35.571
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיירה בעמק החולה, כיום העיר קריית שמונה.",
+      "ar": "بلدة في سهل الحولة، وهي اليوم مدينة كريات شمونة.",
+      "en": "Town in the Hula Valley, now the city of Kiryat Shmona.",
+      "ru": "Городок в долине Хула, ныне город Кирьят-Шмона."
+    }
+  },
+  {
+    "id": "1287",
+    "name": {
+      "he": "א-זוק אל-פוקאני",
+      "ar": "الزوق الفوقاني",
+      "en": "Al-Zuq al-Fawqani",
+      "ru": "Аз-Зук-аль-Фаукани"
+    },
+    "coords": [
+      33.235,
+      35.585
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באצבע הגליל, כיום באזור היישוב יובל.",
+      "ar": "قرية في إصبع الجليل.",
+      "en": "Village in the Galilee Panhandle, currently in the Yuval area.",
+      "ru": "Деревня в «Пальце Галилеи»."
+    }
+  },
+  {
+    "id": "1288",
+    "name": {
+      "he": "א-זוק א-תחתאני",
+      "ar": "الزوق التحتاني",
+      "en": "Al-Zuq al-Tahtani",
+      "ru": "Аз-Зук-ат-Тахтани"
+    },
+    "coords": [
+      33.225,
+      35.585
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באצבע הגליל, כיום באזור קיבוץ בית הלל.",
+      "ar": "قرية في إصبع الجليل.",
+      "en": "Village in the Galilee Panhandle, currently in the Beit Hillel area.",
+      "ru": "Деревня в «Пальце Галилеи»."
+    }
+  },
+  {
+    "id": "1289",
+    "name": {
+      "he": "אל-מנסורה",
+      "ar": "المنصورة",
+      "en": "Al-Mansura",
+      "ru": "Аль-Мансура"
+    },
+    "coords": [
+      33.245,
+      35.635
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בעמק החולה, כיום באזור קיבוץ הגושרים.",
+      "ar": "قرية في سهل الحولة.",
+      "en": "Village in the Hula Valley, currently in the HaGoshrim area.",
+      "ru": "Деревня в долине Хула."
+    }
+  },
+  {
+    "id": "1290",
+    "name": {
+      "he": "כראד אל-בקארה",
+      "ar": "كراد البقارة",
+      "en": "Kirad al-Baqqara",
+      "ru": "Кирад-аль-Баккара"
+    },
+    "coords": [
+      33.055,
+      35.615
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בעמק החולה, כיום באזור קיבוץ גדות.",
+      "ar": "قرية في سهل الحولة.",
+      "en": "Village in the Hula Valley, currently in the Gadot area.",
+      "ru": "Деревня в долине Хула."
+    }
+  },
+  {
+    "id": "1291",
+    "name": {
+      "he": "כראד אל-ע׳נאמה",
+      "ar": "كراد الغنامة",
+      "en": "Kirad al-Ghannama",
+      "ru": "Кирад-аль-Ганнама"
+    },
+    "coords": [
+      33.065,
+      35.615
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר סמוך לכראד אל-בקארה, כיום באזור קיבוץ איילת השחר.",
+      "ar": "قرية بالقرب من كراد البقارة.",
+      "en": "Village near Kirad al-Baqqara, currently in the Ayelet HaShahar area.",
+      "ru": "Деревня рядом с Кирад-аль-Баккарой."
+    }
+  },
+  {
+    "id": "1292",
+    "name": {
+      "he": "אל-עבאסייה",
+      "ar": "العباسية",
+      "en": "Al-Abbasiyya",
+      "ru": "Аль-Аббасия"
+    },
+    "coords": [
+      33.241,
+      35.655
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר באזור החרמון, כיום באזור קיבוץ דן.",
+      "ar": "قرية في منطقة جبل الشيخ.",
+      "en": "Village in the Hermon area, currently in the Kibbutz Dan area.",
+      "ru": "Деревня в районе Хермона."
+    }
+  },
+  {
+    "id": "1293",
+    "name": {
+      "he": "דיר אל-קאסי",
+      "ar": "دير القاسي",
+      "en": "Dayr al-Qasi",
+      "ru": "Дайр-аль-Каси"
+    },
+    "coords": [
+      33.045,
+      35.325
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בגליל העליון, כיום באזור המושב אלקוש.",
+      "ar": "قرية في الجليل الأعلى.",
+      "en": "Village in the Upper Galilee, currently in the Elkosh area.",
+      "ru": "Деревня в Верхней Галилее."
+    }
+  },
+  {
+    "id": "1294",
+    "name": {
+      "he": "כפר ענאן",
+      "ar": "كفر عنان",
+      "en": "Kafr Inan",
+      "ru": "Кафр-Инан"
+    },
+    "coords": [
+      32.915,
+      35.415
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר עתיק בגליל, כיום באזור המושב כפר חנניה.",
+      "ar": "قرية قديمة في الجليل.",
+      "en": "Ancient village in the Galilee, currently in the Kfar Hananya area.",
+      "ru": "Древняя деревня в Галилее."
+    }
+  },
+  {
+    "id": "1295",
+    "name": {
+      "he": "פאראד",
+      "ar": "فراض",
+      "en": "Farad",
+      "ru": "Фарад"
+    },
+    "coords": [
+      32.935,
+      35.425
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר סמוך לכפר ענאן.",
+      "ar": "قرية بالقرب من كفر عنان.",
+      "en": "Village near Kafr Inan.",
+      "ru": "Деревня рядом с Кафр-Инаном."
+    }
+  },
+  {
+    "id": "1296",
+    "name": {
+      "he": "שאעב",
+      "ar": "شعب",
+      "en": "Shaab",
+      "ru": "Шааб"
+    },
+    "coords": [
+      32.921,
+      35.255
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ערבי בגליל המערבי, שמר על שמו.",
+      "ar": "قرية عربية في الجليل الغربي.",
+      "en": "Arab village in the Western Galilee, preserved its name.",
+      "ru": "Арабская деревня в Западной Галилее."
+    }
+  },
+  {
+    "id": "1297",
+    "name": {
+      "he": "כפר כנא",
+      "ar": "كفر كنا",
+      "en": "Kafr Kanna",
+      "ru": "Кафр-Кана"
+    },
+    "coords": [
+      32.745,
+      35.335
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיירה עתיקה בגליל, אתר קדוש לנצרות.",
+      "ar": "بلدة قديمة في الجليل، موقع مقدس للمسيحية.",
+      "en": "Ancient town in the Galilee, a holy site for Christianity.",
+      "ru": "Древний городок в Галилее, святыня христианства."
+    }
+  },
+  {
+    "id": "1298",
+    "name": {
+      "he": "משהד",
+      "ar": "مشهد",
+      "en": "Mashhad",
+      "ru": "Машхад"
+    },
+    "coords": [
+      32.741,
+      35.321
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ערבי בגליל התחתון סמוך לכפר כנא.",
+      "ar": "قرية عربية في الجليل الأسفل.",
+      "en": "Arab village in the Lower Galilee near Kafr Kanna.",
+      "ru": "Арабская деревня в Нижней Галилее."
+    }
   }
 ]
