@@ -779,18 +779,16 @@ export default function TiyulifyApp() {
                       <Marker position={searchMarker} icon={searchPinIcon}>
                         <Popup minWidth={260} maxWidth={300} className="square-modern-popup-container">
                           <div className="text-right font-sans p-1 overflow-hidden">
-                            <div className="w-full h-44 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden bg-gray-100 relative border-2 border-white">
-                              <img src={`https://staticmap.openstreetmap.de/staticmap.php?center=${searchMarker[0]},${searchMarker[1]}&zoom=14&size=600x300&maptype=mapnik`}
-                                alt={searchMarkerName} className="w-full h-full object-cover"
-                                onError={(e:any)=>{ e.target.style.display='none'; e.target.parentElement.style.background='linear-gradient(135deg,#3b82f622,#3b82f644)'; }}/>
-                              <div className="absolute bottom-2 right-2 bg-blue-600 text-white text-[10px] font-black px-2 py-1 rounded-full shadow">🔍 חיפוש</div>
+                            <div className="w-full h-28 mb-2 shadow-xl rounded-[1.5rem] overflow-hidden border-2 border-white flex items-center justify-center" style={{background:'linear-gradient(135deg,#3b82f622,#3b82f644)'}}>
+                              <span style={{fontSize:'3rem'}}>📍</span>
                             </div>
-                            <h4 className="font-black text-blue-900 text-2xl m-0 leading-none mb-3 px-1">📍 {searchMarkerName}</h4>
-                            {userCoords && searchMarker && (() => { const isIsrael = searchMarker[0]>29.5&&searchMarker[0]<33.3&&searchMarker[1]>34.2&&searchMarker[1]<35.9; return isIsrael ? <div className="flex items-center gap-2 mb-4 bg-blue-50 inline-flex px-4 py-1.5 rounded-full border-2 border-blue-100 shadow-sm"><span className="text-xl">🚀</span><p className="text-[14px] text-blue-700 font-black m-0">{labels[activeLang].distLabel} {calculateDistance(userCoords[0],userCoords[1],searchMarker[0],searchMarker[1])} {labels[activeLang].km}</p></div> : null; })()} 
-                            <div className="flex flex-wrap gap-3 mt-4 pb-2">
-                              <a href={`https://www.waze.com/ul?ll=${searchMarker[0]},${searchMarker[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-4 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95">WAZE</a>
-                              <button onClick={()=>window.open(`https://wa.me/?text=${encodeURIComponent('Tiyulify: '+searchMarkerName+'\nhttps://www.google.com/maps/search/?api=1&query='+searchMarker[0]+','+searchMarker[1])}`,'_blank')} className="flex-1 bg-green-500 text-white text-center py-4 rounded-2xl text-[11px] font-black shadow-lg active:scale-95">WhatsApp</button>
-                              <a href={`https://www.google.com/maps/search/?api=1&query=${searchMarker[0]},${searchMarker[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-4 rounded-2xl text-[11px] font-black no-underline border-2 border-gray-200 hover:bg-gray-200 active:scale-95">GOOGLE</a>
+                            <h4 className="font-bold text-green-900 text-sm m-0 leading-snug mb-1 px-1">{searchMarkerName}</h4>
+                            <p className="text-[12px] text-gray-500 px-1 mb-2">{searchMarker ? searchMarker[0].toFixed(4)+', '+searchMarker[1].toFixed(4) : ''}</p>
+                            {userCoords && searchMarker && (() => { const isIL=searchMarker[0]>29.5&&searchMarker[0]<33.3&&searchMarker[1]>34.2&&searchMarker[1]<35.9; return (<button className="flex items-center gap-1.5 mb-1 bg-green-50 px-3 py-1.5 rounded-full border border-green-200 shadow-sm"><span className="text-base">📍</span><span className="text-[12px] text-green-700 font-black">{calculateDistance(userCoords[0],userCoords[1],searchMarker[0],searchMarker[1])} {labels[activeLang].km}</span></button>); })()}
+                            <div className="flex flex-wrap gap-2 mt-2 pb-1">
+                              <a href={`https://www.waze.com/ul?ll=${searchMarker[0]},${searchMarker[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-3 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95">WAZE</a>
+                              <button onClick={()=>window.open(`https://wa.me/?text=${encodeURIComponent('Tiyulify: '+searchMarkerName+'\nhttps://www.google.com/maps/search/?api=1&query='+searchMarker[0]+','+searchMarker[1])}`,'_blank')} className="flex-1 bg-green-500 text-white text-center py-3 rounded-2xl text-[11px] font-black shadow-lg active:scale-95">WhatsApp</button>
+                              <a href={`https://www.google.com/maps/search/?api=1&query=${searchMarker[0]},${searchMarker[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-3 rounded-2xl text-[11px] font-black no-underline border border-gray-200 hover:bg-gray-200 active:scale-95">GOOGLE</a>
                             </div>
                           </div>
                         </Popup>
