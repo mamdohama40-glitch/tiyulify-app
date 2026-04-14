@@ -424,7 +424,7 @@ export default function TiyulifyApp() {
       undecided:"לא החלטתי",
       regions:{all:"כל הארץ",north:"צפון",center:"מרכז",south:"דרום"},
       categories:{all:"הכל",water:"מעיינות ונחלים",nature:"פארקים וטבע",history:"היסטוריה ודת",sleep:"לינה",
-        food:"אוכל",bike:"אופניים",hiking:"הליכה",promenade:"טיילות",beach:"חופים",viewpoint:"תצפיות ונופים",attractions:"אטרקציות"}
+        food:"אוכל",bike:"אופניים",hiking:"הליכה",promenade:"טיילות",beach:"חופים",viewpoint:"תצפיות ונופים",attractions:"אטרקציות",'לפני 1948':"לפני 1948"}
     },
     en: {
       search:"Search any place in Israel...",results:"Results",surprise:"My Pick",welcome:"Where to today?",
@@ -434,7 +434,7 @@ export default function TiyulifyApp() {
       undecided:"Undecided",
       regions:{all:"All Israel",north:"North",center:"Center",south:"South"},
       categories:{all:"All",water:"Springs & Streams",nature:"Parks & Nature",history:"History & Religion",sleep:"Camping",
-        food:"Food",bike:"Cycling",hiking:"Hiking",promenade:"Promenades",beach:"Beaches",viewpoint:"Viewpoints",attractions:"Attractions"}
+        food:"Food",bike:"Cycling",hiking:"Hiking",promenade:"Promenades",beach:"Beaches",viewpoint:"Viewpoints",attractions:"Attractions",'לפני 1948':"Pre-1948 Villages"}
     },
     ar: {
       search:"ابحث عن أي مكان في إسرائيل...",results:"نتائج",surprise:"اقتراحي",welcome:"أين نذهب اليوم؟",
@@ -444,7 +444,7 @@ export default function TiyulifyApp() {
       undecided:"لم أقرر",
       regions:{all:"كل البلاد",north:"الشمال",center:"الوسط",south:"الجنوب"},
       categories:{all:"الكل",water:"ينابيع وأنهار",nature:"منتزهات وطبيعة",history:"تاريخ ودين",sleep:"إقامة وتخييم",
-        food:"طعام ومطاعم",bike:"مسارات الدراجات",hiking:"مسارات المشي",promenade:"ممشى سياحي",beach:"شواطئ البحر",viewpoint:"مناظر ومطلات",attractions:"معالم سياحية"}
+        food:"طعام ومطاعم",bike:"مسارات الدراجات",hiking:"مسارات المشي",promenade:"ممشى سياحي",beach:"شواطئ البحر",viewpoint:"مناظر ومطلات",attractions:"معالم سياحية",'לפני 1948':"قرى ما قبل 1948"}
     },
     ru: {
       search:"Поиск любого места в Израиле...",results:"Результаты",surprise:"Мой выбор",welcome:"Куда поедем?",
@@ -454,7 +454,7 @@ export default function TiyulifyApp() {
       undecided:"Не решил",
       regions:{all:"Весь Израиль",north:"Север",center:"Центр",south:"Юг"},
       categories:{all:"Все",water:"Источники и реки",nature:"Парки и природа",history:"История и религия",sleep:"Жилье",
-        food:"Еда",bike:"Велосипед",hiking:"Пешие тропы",promenade:"Променады",beach:"Пляжи",viewpoint:"Смотровые площадки",attractions:"Аттракционы"}
+        food:"Еда",bike:"Велосипед",hiking:"Пешие тропы",promenade:"Променады",beach:"Пляжи",viewpoint:"Смотровые площадки",attractions:"Аттракционы",'לפני 1948':"Деревни до 1948"}
     }
   };
 
@@ -531,6 +531,8 @@ export default function TiyulifyApp() {
         matchesCat = cat === 'food' || cat === 'cafe';
       } else if (categoryFilter === 'nature') {
         matchesCat = cat === 'nature' || cat === 'park';
+      } else if (categoryFilter === 'לפני 1948') {
+        matchesCat = cat === 'לפני 1948';
       } else {
         matchesCat = cat === categoryFilter;
       }
@@ -598,7 +600,7 @@ export default function TiyulifyApp() {
               <button key={id} onClick={()=>{setCategoryFilter(id);setActiveView('map');}}
                 className="aspect-square flex flex-col items-center justify-center gap-3 md:gap-6 bg-white hover:bg-green-50 rounded-2xl md:rounded-[3rem] shadow-xl border-2 md:border-4 border-transparent hover:border-green-400 transition-all group p-4">
                 <span className="text-4xl md:text-7xl group-hover:scale-125 transition-transform duration-500">
-                  {id==='water'?'💦':id==='nature'?'🏞️':id==='history'?'🏰':id==='sleep'?'🏕️':id==='food'?'🍕':id==='bike'?'🚲':id==='hiking'?'🥾':id==='promenade'?'🚶‍♂️':id==='beach'?'🏖️':id==='attractions'?'🎡':'🌊'}
+                  {id==='water'?'💦':id==='nature'?'🏞️':id==='history'?'🏰':id==='sleep'?'🏕️':id==='food'?'🍕':id==='bike'?'🚲':id==='hiking'?'🥾':id==='promenade'?'🚶‍♂️':id==='beach'?'🏖️':id==='attractions'?'🎡':id==='לפני 1948'?'🕌':'🌊'}
                 </span>
                 <span className="font-black text-gray-700 text-center text-[10px] md:text-lg leading-tight uppercase tracking-tight">{label}</span>
               </button>
