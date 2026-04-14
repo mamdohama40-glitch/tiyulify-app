@@ -31220,5 +31220,887 @@
       "en": "Bedouin settlement in the Lower Galilee.",
       "ru": "Бедуинское поселение в Нижней Галилее."
     }
+  },
+  {
+    "id": "1449",
+    "name": {
+      "he": "סלאמה (משגב)",
+      "ar": "سلامة",
+      "en": "Salama (Misgav)",
+      "ru": "Салама (Мисгав)"
+    },
+    "coords": [
+      32.895,
+      35.385
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב בדואי בגליל התחתון, חלק מהמועצה האזורית משגב.",
+      "ar": "قرية بدوية في الجليل الأسفل.",
+      "en": "Bedouin village in the Lower Galilee, part of the Misgav Regional Council.",
+      "ru": "Бедуинская деревня в Нижней Галилее."
+    }
+  },
+  {
+    "id": "1450",
+    "name": {
+      "he": "כמאנה (הר כמון)",
+      "ar": "كمانة",
+      "en": "Kamana",
+      "ru": "Камана"
+    },
+    "coords": [
+      32.915,
+      35.335
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב בדואי על הר כמון, הוכר רשמית בשנות ה-90.",
+      "ar": "قرية بدوية على جبل كمون.",
+      "en": "Bedouin village on Mount Kamon, officially recognized in the 1990s.",
+      "ru": "Бедуинская деревня на горе Камон."
+    }
+  },
+  {
+    "id": "1451",
+    "name": {
+      "he": "ראס אל-עין (סואעד)",
+      "ar": "رأس العين",
+      "en": "Ras al-Ein (Sawaed)",
+      "ru": "Рас-аль-Айн (Саваэд)"
+    },
+    "coords": [
+      32.885,
+      35.345
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב בדואי קטן בגליל, תושביו משבט סואעד.",
+      "ar": "قرية بدوية صغيرة في الجليل.",
+      "en": "Small Bedouin village in the Galilee, its residents are from the Sawaed tribe.",
+      "ru": "Небольшое бедуинское поселение в Галилее."
+    }
+  },
+  {
+    "id": "1452",
+    "name": {
+      "he": "ערב אל-נעים",
+      "ar": "عرب النعيم",
+      "en": "Arab al-Naim",
+      "ru": "Араб-аль-Наим"
+    },
+    "coords": [
+      32.891,
+      35.295
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב בדואי בגליל, הוכר רשמית בסוף שנות ה-90.",
+      "ar": "قرية بدوية في الجليل.",
+      "en": "Bedouin village in the Galilee, officially recognized in the late 1990s.",
+      "ru": "Бедуинское поселение в Галилее."
+    }
+  },
+  {
+    "id": "1453",
+    "name": {
+      "he": "ואדי אל-חמאם (ארבל)",
+      "ar": "وادي الحمام",
+      "en": "Wadi al-Hamam (Arbel)",
+      "ru": "Вади-аль-Хамам (Арбель)"
+    },
+    "coords": [
+      32.825,
+      35.495
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר בדואי למרגלות מצוק הארבל.",
+      "ar": "قرية بدوية عند سفح جرف الأربيل.",
+      "en": "Bedouin village at the foot of the Arbel cliff.",
+      "ru": "Бедуинская деревня у подножия скалы Арбель."
+    }
+  },
+  {
+    "id": "1454",
+    "name": {
+      "he": "עוזייר (בית נטופה)",
+      "ar": "عزير",
+      "en": "Uzeir (Beit Netofa)",
+      "ru": "Узейр (Бейт-Нетофа)"
+    },
+    "coords": [
+      32.805,
+      35.341
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ערבי בגליל התחתון, סמוך לבקעת בית נטופה.",
+      "ar": "قرية عربية في الجليل الأسفل.",
+      "en": "Arab village in the Lower Galilee, near the Beit Netofa valley.",
+      "ru": "Арабская деревня в Нижней Галилее."
+    }
+  },
+  {
+    "id": "1455",
+    "name": {
+      "he": "רומאנה (משנה)",
+      "ar": "رومنة",
+      "en": "Rumana (Mishnaic)",
+      "ru": "Румана (мишнаическая)"
+    },
+    "coords": [
+      32.801,
+      35.331
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ערבי בגליל התחתון, מזוהה עם רומא מתקופת המשנה.",
+      "ar": "قرية عربية في الجليل الأسفل.",
+      "en": "Arab village in the Lower Galilee, identified with Ruma from the Mishnaic period.",
+      "ru": "Арабская деревня в Нижней Галилее."
+    }
+  },
+  {
+    "id": "1456",
+    "name": {
+      "he": "רומת אל-הייב (שבט)",
+      "ar": "رومة الهيب",
+      "en": "Rumat al-Heib (tribe)",
+      "ru": "Румат-аль-Хейб (племя)"
+    },
+    "coords": [
+      32.808,
+      35.315
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב בדואי בגליל התחתון, שייך לשבט אל-הייב.",
+      "ar": "بلدة بدوية في الجليل الأسفل.",
+      "en": "Bedouin settlement in the Lower Galilee, belonging to the Al-Heib tribe.",
+      "ru": "Бедуинское поселение в Нижней Галилее."
+    }
+  },
+  {
+    "id": "1457",
+    "name": {
+      "he": "אבו גוש (קרית יערים)",
+      "ar": "أبو غوش",
+      "en": "Abu Ghosh (Kiriath-jearim)",
+      "ru": "Абу-Гош (Кириаф-Иарим)"
+    },
+    "coords": [
+      31.805,
+      35.108
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מועצה מקומית ערבית בהרי ירושלים, מזוהה עם קרית יערים המקראית.",
+      "ar": "مجلس محلي عربي في جبال القدس.",
+      "en": "Arab local council in the Jerusalem hills, identified with biblical Kiriath-jearim.",
+      "ru": "Арабский местный совет в Иерусалимских горах."
+    }
+  },
+  {
+    "id": "1458",
+    "name": {
+      "he": "עין נקובא (1962)",
+      "ar": "عين نقوبا",
+      "en": "Ein Naqquba (1962)",
+      "ru": "Эйн-Накуба (1962)"
+    },
+    "coords": [
+      31.795,
+      35.121
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ערבי בהרי ירושלים, הוקם בשנת 1962 על ידי פליטי הכפר בית נקובא.",
+      "ar": "قرية عربية في جبال القدس.",
+      "en": "Arab village in the Jerusalem hills, established in 1962 by refugees from Beit Naqquba.",
+      "ru": "Арабская деревня в Иерусалимских горах."
+    }
+  },
+  {
+    "id": "1459",
+    "name": {
+      "he": "עין ראפה (מוקדמת)",
+      "ar": "عين رافة",
+      "en": "Ein Rafa (early 20th c.)",
+      "ru": "Эйн-Рафа (нач. XX в.)"
+    },
+    "coords": [
+      31.791,
+      35.115
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ערבי בהרי ירושלים, הוקם בתחילת המאה ה-20.",
+      "ar": "قرية عربية في جبال القدس.",
+      "en": "Arab village in the Jerusalem hills, established in the early 20th century.",
+      "ru": "Арабская деревня в Иерусалимских горах."
+    }
+  },
+  {
+    "id": "1460",
+    "name": {
+      "he": "פוריידיס (כרמל)",
+      "ar": "الفريديس",
+      "en": "Fureidis (Carmel)",
+      "ru": "Фурейдис (Кармель)"
+    },
+    "coords": [
+      32.595,
+      34.921
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מועצה מקומית ערבית למרגלות הכרמל.",
+      "ar": "مجلس محلي عربي عند سفح جبل الكرمل.",
+      "en": "Arab local council at the foot of Mount Carmel.",
+      "ru": "Арабский местный совет у подножия горы Кармель."
+    }
+  },
+  {
+    "id": "1461",
+    "name": {
+      "he": "ג׳יסר א-זרקא (חוף)",
+      "ar": "جسر الزرقاء",
+      "en": "Jisr az-Zarka (coast)",
+      "ru": "Джиср-эз-Зарка (побережье)"
+    },
+    "coords": [
+      32.535,
+      34.908
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "היישוב הערבי היחיד בישראל השוכן לחוף הים התיכון.",
+      "ar": "البلدة العربية الوحيدة في إسرائيل على ساحل البحر الأبيض المتوسط.",
+      "en": "The only Arab settlement in Israel located on the Mediterranean coast.",
+      "ru": "Единственное арабское поселение в Израиле на Средиземноморском побережье."
+    }
+  },
+  {
+    "id": "1462",
+    "name": {
+      "he": "מעלויה (ואדי עארה)",
+      "ar": "معاوية",
+      "en": "Muawiya (Wadi Ara)",
+      "ru": "Муавия (Вади-Ара)"
+    },
+    "coords": [
+      32.525,
+      35.085
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ערבי באזור נחל עירון.",
+      "ar": "قرية عربية في منطقة وادي عارة.",
+      "en": "Arab village in the Wadi Ara region.",
+      "ru": "Арабская деревня в районе Вади-Ара."
+    }
+  },
+  {
+    "id": "1463",
+    "name": {
+      "he": "ברטעה (חצוי)",
+      "ar": "برطعة",
+      "en": "Bartaa (split)",
+      "ru": "Бартаа (разделённый)"
+    },
+    "coords": [
+      32.455,
+      35.095
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר חצוי בין ישראל לרשות הפלסטינית.",
+      "ar": "قرية مقسمة بين إسرائيل والسلطة الفلسطينية.",
+      "en": "Village split between Israel and the Palestinian Authority.",
+      "ru": "Деревня, разделённая между Израилем и Палестинской автономией."
+    }
+  },
+  {
+    "id": "1464",
+    "name": {
+      "he": "עין אל-סהלה",
+      "ar": "عين السهلة",
+      "en": "Ein al-Sahala",
+      "ru": "Эйн-аль-Сахла"
+    },
+    "coords": [
+      32.475,
+      35.075
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ערבי קטן ברכס אמיר סמוך לוואדי עארה.",
+      "ar": "قرية عربية صغيرة في سلسلة جبال أمير.",
+      "en": "Small Arab village in the Amir ridge near Wadi Ara.",
+      "ru": "Небольшая арабская деревня на хребте Амир."
+    }
+  },
+  {
+    "id": "1465",
+    "name": {
+      "he": "עריאן",
+      "ar": "العريان",
+      "en": "Al-Arian",
+      "ru": "Аль-Ариан"
+    },
+    "coords": [
+      32.511,
+      35.065
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ערבי קטן באזור ואדי עארה.",
+      "ar": "قرية عربية صغيرة في منطقة وادي عارة.",
+      "en": "Small Arab village in the Wadi Ara region.",
+      "ru": "Небольшая арабская деревня в районе Вади-Ара."
+    }
+  },
+  {
+    "id": "1466",
+    "name": {
+      "he": "נצרת",
+      "ar": "الناصرة",
+      "en": "Nazareth",
+      "ru": "Назарет"
+    },
+    "coords": [
+      32.701,
+      35.301
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיר ערבית מרכזית בגליל, בעלת חשיבות דתית והיסטורית עולמית.",
+      "ar": "مدينة عربية مركزية في الجليل.",
+      "en": "Major Arab city in the Galilee, with global religious and historical significance.",
+      "ru": "Крупный арабский город в Галилее с мировым значением."
+    }
+  },
+  {
+    "id": "1467",
+    "name": {
+      "he": "שפרעם (סנהדרין)",
+      "ar": "شفا عمرو",
+      "en": "Shefa-Amr (Sanhedrin)",
+      "ru": "Шефарам (Синедрион)"
+    },
+    "coords": [
+      32.805,
+      35.171
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיר מעורבת עתיקה בגליל, שימשה כמקום מושב הסנהדרין.",
+      "ar": "مدينة مختلطة قديمة في الجليل.",
+      "en": "Ancient mixed city in the Galilee, served as the seat of the Sanhedrin.",
+      "ru": "Древний смешанный город в Галилее."
+    }
+  },
+  {
+    "id": "1468",
+    "name": {
+      "he": "טמרה (גליל תחתון)",
+      "ar": "طمرة",
+      "en": "Tamra (Lower Galilee)",
+      "ru": "Тамра (Нижняя Галилея)"
+    },
+    "coords": [
+      32.855,
+      35.198
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיר ערבית בגליל התחתון.",
+      "ar": "مدينة عربية في الجليل الأسفل.",
+      "en": "Arab city in the Lower Galilee.",
+      "ru": "Арабский город в Нижней Галилее."
+    }
+  },
+  {
+    "id": "1469",
+    "name": {
+      "he": "כאבול (כבול מקראית)",
+      "ar": "كابول",
+      "en": "Kabul (biblical Cabul)",
+      "ru": "Кабул (библейский)"
+    },
+    "coords": [
+      32.868,
+      35.211
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיירה ערבית בגליל המערבי, מזוהה עם כבול המקראית.",
+      "ar": "بلدة عربية في الجليل الغربي.",
+      "en": "Arab town in the Western Galilee, identified with biblical Cabul.",
+      "ru": "Арабский городок в Западной Галилее."
+    }
+  },
+  {
+    "id": "1470",
+    "name": {
+      "he": "אעבלין (מרים בווארדי)",
+      "ar": "إعبلين",
+      "en": "Ibillin (Mariam Baouardy)",
+      "ru": "Ибелин (Мария Баоварди)"
+    },
+    "coords": [
+      32.821,
+      35.191
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיירה ערבית בגליל, מקום הולדתה של הקדושה מרים בווארדי.",
+      "ar": "بلدة عربية في الجليل.",
+      "en": "Arab town in the Galilee, birthplace of Saint Mariam Baouardy.",
+      "ru": "Арабский городок в Галилее, место рождения святой Марии Баоварди."
+    }
+  },
+  {
+    "id": "1471",
+    "name": {
+      "he": "כפר יאסיף (תרבות)",
+      "ar": "كفر ياسيف",
+      "en": "Kafr Yasif (culture)",
+      "ru": "Кафр-Ясиф (культурный)"
+    },
+    "coords": [
+      32.955,
+      35.161
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מרכז תרבותי וחינוכי חשוב בגליל המערבי.",
+      "ar": "مركز ثقافي وتعليمي مهم في الجليل الغربي.",
+      "en": "Important cultural and educational center in the Western Galilee.",
+      "ru": "Важный культурный и образовательный центр в Западной Галилее."
+    }
+  },
+  {
+    "id": "1472",
+    "name": {
+      "he": "ירכא (מסחרי)",
+      "ar": "يركا",
+      "en": "Yarka (commercial)",
+      "ru": "Ярка (торговая)"
+    },
+    "coords": [
+      32.961,
+      35.201
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מרכז מסחרי וכלכלי בולט של העדה הדרוזית בגליל.",
+      "ar": "مركز تجاري واقتصادي بارز للطائفة الدرزية.",
+      "en": "Prominent commercial and economic center of the Druze community in the Galilee.",
+      "ru": "Известный торговый и экономический центр друзской общины."
+    }
+  },
+  {
+    "id": "1473",
+    "name": {
+      "he": "כסרא (כיסרא-סמיע)",
+      "ar": "كسرى",
+      "en": "Kisra (Kisra-Sumei)",
+      "ru": "Кисра (Кисра-Сумей)"
+    },
+    "coords": [
+      32.971,
+      35.315
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר דרוזי עתיק בגליל העליון, חלק מכיסרא-סמיע.",
+      "ar": "قرية درزية قديمة في الجليل الأعلى.",
+      "en": "Ancient Druze village in the Upper Galilee, part of Kisra-Sumei.",
+      "ru": "Древняя друзская деревня в Верхней Галилее."
+    }
+  },
+  {
+    "id": "1474",
+    "name": {
+      "he": "סמיע (כיסרא-סמיע)",
+      "ar": "سميع",
+      "en": "Sumei (Kisra-Sumei)",
+      "ru": "Сумей (Кисра-Сумей)"
+    },
+    "coords": [
+      32.978,
+      35.295
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר דרוזי בגליל העליון, חלק מכיסרא-סמיע.",
+      "ar": "قرية درزية في الجليل الأعلى.",
+      "en": "Druze village in the Upper Galilee, part of Kisra-Sumei.",
+      "ru": "Друзская деревня в Верхней Галилее."
+    }
+  },
+  {
+    "id": "1475",
+    "name": {
+      "he": "ינוח (מקראי)",
+      "ar": "يانوح",
+      "en": "Yanuh (biblical)",
+      "ru": "Янух (библейский)"
+    },
+    "coords": [
+      32.985,
+      35.241
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר דרוזי עתיק, מזוהה עם יישוב מתקופת המקרא.",
+      "ar": "قرية درزية قديمة.",
+      "en": "Ancient Druze village, identified with a settlement from the biblical period.",
+      "ru": "Древняя друзская деревня."
+    }
+  },
+  {
+    "id": "1476",
+    "name": {
+      "he": "ג׳ת (ינוח-ג׳ת)",
+      "ar": "جت",
+      "en": "Jat (Yanuh-Jat)",
+      "ru": "Джат (Янух-Джат)"
+    },
+    "coords": [
+      32.975,
+      35.221
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר דרוזי בגליל המערבי, חלק מינוח-ג׳ת.",
+      "ar": "قرية درزية في الجليل الغربي.",
+      "en": "Druze village in the Western Galilee, part of Yanuh-Jat.",
+      "ru": "Друзская деревня в Западной Галилее."
+    }
+  },
+  {
+    "id": "1478",
+    "name": {
+      "he": "מעלות-תרשיחא",
+      "ar": "معالوت ترشيحا",
+      "en": "Maalot-Tarshiha",
+      "ru": "Маалот-Таршиха"
+    },
+    "coords": [
+      33.015,
+      35.265
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיר מעורבת המשלבת את הכפר הערבי הוותיק תרשיחא והעיר היהודית מעלות.",
+      "ar": "مدينة مختلطة تجمع ترشيحا ومعالوت.",
+      "en": "Mixed city combining the ancient Arab village of Tarshiha and the Jewish city of Maalot.",
+      "ru": "Смешанный город, объединяющий Таршиху и Маалот."
+    }
+  },
+  {
+    "id": "1479",
+    "name": {
+      "he": "תרשיחא (עתיקה)",
+      "ar": "ترشيحا",
+      "en": "Tarshiha (ancient)",
+      "ru": "Таршиха (древняя)"
+    },
+    "coords": [
+      33.011,
+      35.255
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ערבי עתיק ומרכזי בגליל העליון.",
+      "ar": "قرية عربية قديمة في الجليل الأعلى.",
+      "en": "Ancient and central Arab village in the Upper Galilee.",
+      "ru": "Древняя арабская деревня в Верхней Галилее."
+    }
+  },
+  {
+    "id": "1480",
+    "name": {
+      "he": "סוחמאתא (1948)",
+      "ar": "سحماثا",
+      "en": "Suhmata (1948)",
+      "ru": "Сухмата (1948)"
+    },
+    "coords": [
+      33.001,
+      35.285
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ערבי שננטש ב-1948, שרידיו נמצאים סמוך לצומת חוסן.",
+      "ar": "قرية عربية مهجرة عام 1948.",
+      "en": "Arab village depopulated in 1948, its remains near the Hosen junction.",
+      "ru": "Арабская деревня, покинутая в 1948 году."
+    }
+  },
+  {
+    "id": "1482",
+    "name": {
+      "he": "עין חוד (מקורית)",
+      "ar": "عين حوض",
+      "en": "Ein Hawd (original)",
+      "ru": "Эйн-Хауд (оригинальная)"
+    },
+    "coords": [
+      32.708,
+      34.991
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר ערבי שהוקם מחדש על ידי תושבי עין חוד המקורית, הוכר ב-1992.",
+      "ar": "قرية عربية أعاد سكان عين حوض الأصليون بناؤها.",
+      "en": "Arab village rebuilt by the original residents of Ein Hawd, recognized in 1992.",
+      "ru": "Арабская деревня, отстроенная оригинальными жителями Эйн-Хауда."
+    }
+  },
+  {
+    "id": "1485",
+    "name": {
+      "he": "בית שאן (עתיקה)",
+      "ar": "بيسان",
+      "en": "Beit Shean (ancient)",
+      "ru": "Бейт-Шеан (древний)"
+    },
+    "coords": [
+      32.495,
+      35.498
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיר עתיקה ומרכזית בעמק בית שאן, מיושבת ברציפות אלפי שנים.",
+      "ar": "مدينة قديمة ومركزية في سهل بيسان.",
+      "en": "Ancient and central city in the Beit Shean Valley, continuously inhabited for thousands of years.",
+      "ru": "Древний город в долине Бейт-Шеан."
+    }
+  },
+  {
+    "id": "1486",
+    "name": {
+      "he": "טבריה (ים כנרת)",
+      "ar": "طبريا",
+      "en": "Tiberias (Sea of Galilee)",
+      "ru": "Тверия (Галилейское море)"
+    },
+    "coords": [
+      32.788,
+      35.535
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אחת מארבע ערי הקודש ביהדות, שוכנת לחוף הכנרת.",
+      "ar": "واحدة من المدن الأربع المقدسة في اليهودية.",
+      "en": "One of the four holy cities in Judaism, located on the shore of the Sea of Galilee.",
+      "ru": "Один из четырёх святых городов иудаизма."
+    }
+  },
+  {
+    "id": "1487",
+    "name": {
+      "he": "צפת (קבלה)",
+      "ar": "صفد",
+      "en": "Safed (Kabbalah)",
+      "ru": "Цфат (Каббала)"
+    },
+    "coords": [
+      32.965,
+      35.495
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עיר הקודש והקבלה בגליל העליון.",
+      "ar": "مدينة القداسة والقبالة في الجليل الأعلى.",
+      "en": "City of holiness and Kabbalah in the Upper Galilee.",
+      "ru": "Город святости и Каббалы в Верхней Галилее."
+    }
+  },
+  {
+    "id": "1492",
+    "name": {
+      "he": "יבנאל (1901)",
+      "ar": "يفنيئيل",
+      "en": "Yavneel (1901)",
+      "ru": "Явнеэль (1901)"
+    },
+    "coords": [
+      32.708,
+      35.501
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מושבה ותיקה בגליל התחתון, הוקמה בשנת 1901.",
+      "ar": "مستوطنة قديمة في الجليل الأسفل.",
+      "en": "Veteran moshava in the Lower Galilee, established in 1901.",
+      "ru": "Старое поселение в Нижней Галилее."
+    }
+  },
+  {
+    "id": "1493",
+    "name": {
+      "he": "מגדל (1910)",
+      "ar": "مجدل",
+      "en": "Migdal (1910)",
+      "ru": "Мигдаль (1910)"
+    },
+    "coords": [
+      32.825,
+      35.511
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מושבה לחוף הכנרת, הוקמה בשנת 1910.",
+      "ar": "مستوطنة على ساحل بحيرة طبريا.",
+      "en": "Moshava on the shore of the Sea of Galilee, established in 1910.",
+      "ru": "Поселение на берегу Галилейского моря."
+    }
+  },
+  {
+    "id": "1494",
+    "name": {
+      "he": "ראש פינה (1882)",
+      "ar": "روش بينا",
+      "en": "Rosh Pinna (1882)",
+      "ru": "Рош-Пинна (1882)"
+    },
+    "coords": [
+      32.968,
+      35.541
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אם המושבות בגליל, הוקמה בשנת 1882.",
+      "ar": "أم المستوطنات في الجليل.",
+      "en": "Mother of the Galilee colonies, established in 1882.",
+      "ru": "Мать поселений Галилеи."
+    }
+  },
+  {
+    "id": "1495",
+    "name": {
+      "he": "מטולה (1896)",
+      "ar": "مطلة",
+      "en": "Metula (1896)",
+      "ru": "Метула (1896)"
+    },
+    "coords": [
+      33.285,
+      35.581
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "המושבה הצפונית ביותר בישראל, הוקמה בשנת 1896.",
+      "ar": "أقصى مستوطنة في شمال إسرائيل.",
+      "en": "The northernmost moshava in Israel, established in 1896.",
+      "ru": "Самое северное поселение в Израиле."
+    }
+  },
+  {
+    "id": "1496",
+    "name": {
+      "he": "יסוד המעלה (1883)",
+      "ar": "يسود هماعلاه",
+      "en": "Yesud HaMaala (1883)",
+      "ru": "Йесуд-ха-Маала (1883)"
+    },
+    "coords": [
+      33.058,
+      35.605
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מושבה ותיקה בעמק החולה, הוקמה בשנת 1883.",
+      "ar": "مستوطنة قديمة في سهل الحولة.",
+      "en": "Veteran moshava in the Hula Valley, established in 1883.",
+      "ru": "Старое поселение в долине Хула."
+    }
+  },
+  {
+    "id": "1497",
+    "name": {
+      "he": "משמר הירדן (הרוס)",
+      "ar": "مشمار هيردين",
+      "en": "Mishmar HaYarden (destroyed)",
+      "ru": "Мишмар-ха-Ярден (разрушен)"
+    },
+    "coords": [
+      33.011,
+      35.618
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מושבה שנהרסה במלחמת העצמאות, כיום אתר הנצחה.",
+      "ar": "مستوطنة دُمرت في حرب 1948.",
+      "en": "Moshava destroyed in the 1948 war, now a memorial site.",
+      "ru": "Поселение, разрушенное в войне 1948 года, ныне мемориал."
+    }
+  },
+  {
+    "id": "1498",
+    "name": {
+      "he": "כפר תבור (1901)",
+      "ar": "كفر تافور",
+      "en": "Kfar Tavor (1901)",
+      "ru": "Кфар-Тавор (1901)"
+    },
+    "coords": [
+      32.685,
+      35.421
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מושבה ותיקה למרגלות הר תבור, הוקמה בשנת 1901.",
+      "ar": "مستوطنة قديمة عند سفح جبل الطور.",
+      "en": "Veteran moshava at the foot of Mount Tabor, established in 1901.",
+      "ru": "Старое поселение у подножия горы Фавор."
+    }
   }
 ]
