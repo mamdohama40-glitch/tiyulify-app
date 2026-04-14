@@ -32102,5 +32102,1055 @@
       "en": "Veteran moshava at the foot of Mount Tabor, established in 1901.",
       "ru": "Старое поселение у подножия горы Фавор."
     }
+  },
+  {
+    "id": "1499",
+    "name": {
+      "he": "זכרון יעקב / זכרון יעקב",
+      "ar": "زخرون يعكوف",
+      "en": "Zichron Ya'akov",
+      "ru": "Зихрон-Яаков"
+    },
+    "coords": [
+      32.571,
+      34.951
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושבה היסטורית על רכס הכרמל, הוקמה בשנת 1882 בסיוע הברון רוטשילד.",
+      "ar": "مستوطنة تاريخية على سلسلة جبال الكرمل، تأسست عام 1882 بمساعدة البارون روتشيلد.",
+      "en": "Historic moshava on the Carmel ridge, established in 1882 with the help of Baron Rothschild.",
+      "ru": "Историческое поселение на хребте Кармель, основанное в 1882 году при помощи барона Ротшильда."
+    }
+  },
+  {
+    "id": "1500",
+    "name": {
+      "he": "בנימינה / בנימינה",
+      "ar": "بنيامينا",
+      "en": "Binyamina",
+      "ru": "Биньямина"
+    },
+    "coords": [
+      32.515,
+      34.948
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושבה שנוסדה ב-1922 על ידי בני המושבות הוותיקות, קרויה על שם הברון בנימין דה רוטשילד.",
+      "ar": "مستوطنة تأسست عام 1922 من قبل أبناء المستوطنات القديمة، سميت على اسم البارون بنيامين دي روتشيلد.",
+      "en": "Moshava founded in 1922 by descendants of the veteran colonies, named after Baron Benjamin de Rothschild.",
+      "ru": "Поселение, основанное в 1922 году выходцами из старых мошавот, названное в честь барона Биньямина де Ротшильда."
+    }
+  },
+  {
+    "id": "1501",
+    "name": {
+      "he": "גבעת עדה / גבעת עדה",
+      "ar": "غفعات عادة",
+      "en": "Givat Ada",
+      "ru": "Гиват-Ада"
+    },
+    "coords": [
+      32.518,
+      35.008
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושבה חקלאית שהוקמה ב-1903, כיום חלק מהמועצה המקומית בנימינה-גבעת עדה.",
+      "ar": "مستوطنة زراعية تأسست عام 1903، واليوم هي جزء من مجلس بنيامينا-غفعات عادة المحلي.",
+      "en": "Agricultural moshava established in 1903, currently part of the Binyamina-Givat Ada local council.",
+      "ru": "Сельскохозяйственное поселение, основанное в 1903 году, ныне часть местного совета Биньямина-Гиват-Ада."
+    }
+  },
+  {
+    "id": "1502",
+    "name": {
+      "he": "ג'ת (משולש) / جت",
+      "ar": "جت",
+      "en": "Jatt (Triangle)",
+      "ru": "Джат"
+    },
+    "coords": [
+      32.395,
+      35.038
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית ערבית במשולש, מזוהה עם יישוב קדום בשם גת.",
+      "ar": "مجلس محلي عربي في المثلث، مرتبط بمستوطنة قديمة تسمى جت.",
+      "en": "Arab local council in the Triangle, identified with an ancient settlement named Gath.",
+      "ru": "Арабский местный совет в Треугольнике, отождествляемый с древним поселением Гат."
+    }
+  },
+  {
+    "id": "1503",
+    "name": {
+      "he": "באקה אל-גרבייה / باقة الغربية",
+      "ar": "باقة الغربية",
+      "en": "Baqa al-Gharbiyye",
+      "ru": "Бака-аль-Гарбия"
+    },
+    "coords": [
+      32.421,
+      35.035
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר ערבית מרכזית במשולש הצפוני, שוכנת סמוך לקו התפר.",
+      "ar": "مدينة عربية مركزية في المثلث الشمالي، تقع بالقرب من خط التماس.",
+      "en": "Major Arab city in the Northern Triangle, located near the Seam Line.",
+      "ru": "Крупный арабский город в Северном Треугольнике, расположенный у линии разделения."
+    }
+  },
+  {
+    "id": "1504",
+    "name": {
+      "he": "זמר / زيمر",
+      "ar": "زيمر",
+      "en": "Zemer",
+      "ru": "Земер"
+    },
+    "coords": [
+      32.365,
+      35.031
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית המאחדת ארבעה כפרים ערביים ותיקים בשרון.",
+      "ar": "مجلس محلي يضم أربع قرى عربية قديمة في سهل شارون.",
+      "en": "Local council uniting four veteran Arab villages in the Sharon.",
+      "ru": "Местный совет, объединяющий четыре старые арабские деревни в Шароне."
+    }
+  },
+  {
+    "id": "1505",
+    "name": {
+      "he": "קלאנסווה / قلنسوة",
+      "ar": "قلنسوة",
+      "en": "Qalansawe",
+      "ru": "Калансуа"
+    },
+    "coords": [
+      32.288,
+      35.028
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר ערבית בשרון, קיימת מהתקופה הממלוכית.",
+      "ar": "مدينة عربية في سهل شارون، موجودة منذ العصر المماليك.",
+      "en": "Arab city in the Sharon, exists since the Mamluk period.",
+      "ru": "Арабский город в Шароне, существующий со времен мамлюков."
+    }
+  },
+  {
+    "id": "1506",
+    "name": {
+      "he": "טייבה / الطيبة",
+      "ar": "الطيبة",
+      "en": "Tayibe",
+      "ru": "Тайбе"
+    },
+    "coords": [
+      32.261,
+      35.011
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר ערבית גדולה במשולש, בעלת היסטוריה ארוכה כמרכז חקלאי.",
+      "ar": "مدينة عربية كبيرة في المثلث، لها تاريخ طويل كمركز زراعي.",
+      "en": "Large Arab city in the Triangle, with a long history as an agricultural center.",
+      "ru": "Крупный арабский город в Треугольнике, с долгой историей сельскохозяйственного центра."
+    }
+  },
+  {
+    "id": "1507",
+    "name": {
+      "he": "טירה / الطيرة",
+      "ar": "الطيرة",
+      "en": "Tira",
+      "ru": "Тира"
+    },
+    "coords": [
+      32.235,
+      34.948
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר ערבית במרכז הארץ, ידועה בשווקיה ובחיי המסחר.",
+      "ar": "مدينة عربية في وسط البلاد، تشتهر بأسواقها وحياتها التجارية.",
+      "en": "Arab city in central Israel, known for its markets and commercial life.",
+      "ru": "Арабский город в центре страны, известный своими рынками и торговой жизнью."
+    }
+  },
+  {
+    "id": "1508",
+    "name": {
+      "he": "כפר קאסם / كفر قاسم",
+      "ar": "كفر قاسم",
+      "en": "Kafr Qasim",
+      "ru": "Кафр-Касем"
+    },
+    "coords": [
+      32.115,
+      34.975
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר ערבית השוכנת על גבעה הצופה על גוש דן.",
+      "ar": "مدينة عربية تقع على تلة تطل على منطقة غوش دان.",
+      "en": "Arab city situated on a hill overlooking the Gush Dan area.",
+      "ru": "Арабский город, расположенный на холме с видом на Гуш-Дан."
+    }
+  },
+  {
+    "id": "1509",
+    "name": {
+      "he": "כפר ברא / كفر برا",
+      "ar": "كفر برا",
+      "en": "Kafr Bara",
+      "ru": "Кафр-Бара"
+    },
+    "coords": [
+      32.128,
+      34.961
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית ערבית קטנה בשרון הדרומי.",
+      "ar": "مجلس محلي عربي صغير في جنوب سهل شارون.",
+      "en": "Small Arab local council in the southern Sharon.",
+      "ru": "Небольшой арабский местный совет в южном Шароне."
+    }
+  },
+  {
+    "id": "1510",
+    "name": {
+      "he": "ג'לג'וליה / جلجولية",
+      "ar": "جلجولية",
+      "en": "Jaljuliya",
+      "ru": "Джальджулия"
+    },
+    "coords": [
+      32.155,
+      34.951
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית ערבית בשרון, ממוקמת על דרך הים ההיסטורית.",
+      "ar": "مجلس محلي عربي في سهل شارون، يقع على طريق البحر التاريخي.",
+      "en": "Arab local council in the Sharon, located on the historic Via Maris.",
+      "ru": "Арабский местный совет в Шароне, расположенный на историческом морском пути (Виа Марис)."
+    }
+  },
+  {
+    "id": "1511",
+    "name": {
+      "he": "נתניה / נתניה",
+      "ar": "نتانيا",
+      "en": "Netanya",
+      "ru": "Нетания"
+    },
+    "coords": [
+      32.328,
+      34.851
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר חוף גדולה בשרון, הוקמה בשנת 1929 כמושבה חקלאית.",
+      "ar": "مدينة ساحلية كبيرة في سهل شارون، تأسست عام 1929 كمستوطنة زراعية.",
+      "en": "Major coastal city in the Sharon, established in 1929 as an agricultural moshava.",
+      "ru": "Крупный прибрежный город в Шароне, основанный в 1929 году как сельскохозяйственное поселение."
+    }
+  },
+  {
+    "id": "1512",
+    "name": {
+      "he": "חדרה / חדרה",
+      "ar": "الخضيرة",
+      "en": "Hadera",
+      "ru": "Хадера"
+    },
+    "coords": [
+      32.435,
+      34.915
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר בשרון הצפוני, הוקמה בשנת 1891 כמושבת עלייה ראשונה.",
+      "ar": "مدينة في شمال شارون، تأسست عام 1891 كمستوطنة في الهجرة الأولى.",
+      "en": "City in the northern Sharon, established in 1891 as a First Aliyah moshava.",
+      "ru": "Город в северном Шароне, основанный в 1891 году как поселение Первой алии."
+    }
+  },
+  {
+    "id": "1513",
+    "name": {
+      "he": "כפר סבא / כפר סבא",
+      "ar": "كفار سابا",
+      "en": "Kfar Saba",
+      "ru": "Кфар-Сава"
+    },
+    "coords": [
+      32.175,
+      34.908
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר מרכזית בשרון, הוקמה בשנת 1903 כמושבה חקלאית.",
+      "ar": "مدينة مركزية في سهل شارون، تأسست عام 1903 كمستوطنة زراعية.",
+      "en": "Central city in the Sharon, established in 1903 as an agricultural moshava.",
+      "ru": "Центральный город в Шароне, основанный в 1903 году как сельскохозяйственное поселение."
+    }
+  },
+  {
+    "id": "1514",
+    "name": {
+      "he": "רעננה / רעננה",
+      "ar": "رعنانا",
+      "en": "Ra'anana",
+      "ru": "Раанана"
+    },
+    "coords": [
+      32.185,
+      34.871
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר בשרון, נוסדה בשנת 1922 על ידי חברת 'אחוזה' מאמריקה.",
+      "ar": "مدينة في سهل شارون، تأسست عام 1922 من قبل شركة 'أحوزا' الأمريكية.",
+      "en": "City in the Sharon, founded in 1922 by the 'Ahuza' company from America.",
+      "ru": "Город в Шароне, основанный в 1922 году американской компанией «Ахуза»."
+    }
+  },
+  {
+    "id": "1515",
+    "name": {
+      "he": "הרצליה / הרצליה",
+      "ar": "هرتسليا",
+      "en": "Herzliya",
+      "ru": "Герцлия"
+    },
+    "coords": [
+      32.165,
+      34.845
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר חוף במחוז תל אביב, הוקמה בשנת 1924 וקרויה על שם בנימין זאב הרצל.",
+      "ar": "مدينة ساحلية في منطقة تل أبيب، تأسست عام 1924 وسميت على اسم بنيامين زئيف هرتزل.",
+      "en": "Coastal city in the Tel Aviv District, established in 1924 and named after Theodor Herzl.",
+      "ru": "Прибрежный город в округе Тель-Авив, основанный в 1924 году и названный в честь Теодора Герцля."
+    }
+  },
+  {
+    "id": "1516",
+    "name": {
+      "he": "פתח תקווה / פתח תקווה",
+      "ar": "بيتح تكفا",
+      "en": "Petah Tikva",
+      "ru": "Петах-Тиква"
+    },
+    "coords": [
+      32.088,
+      34.885
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "אם המושבות, הוקמה בשנת 1878 והיא מהיישובים היהודיים הוותיקים בעת החדשה.",
+      "ar": "أم المستوطنات (أم الموشافات)، تأسست عام 1878 وهي من أقدم المستوطنات اليهودية في العصر الحديث.",
+      "en": "Mother of the Moshava, established in 1878 and one of the oldest modern Jewish settlements.",
+      "ru": "Мать поселений, основанная в 1878 году, одно из старейших еврейских поселений в новое время."
+    }
+  },
+  {
+    "id": "1517",
+    "name": {
+      "he": "ראשון לציון / ראשון לציון",
+      "ar": "ريشون لتسيون",
+      "en": "Rishon LeZion",
+      "ru": "Ришон-ле-Цион"
+    },
+    "coords": [
+      31.968,
+      34.805
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושבת עלייה ראשונה שהוקמה ב-1882, מזוהה עם ייצור יין ותעשייה.",
+      "ar": "مستوطنة في الهجرة الأولى تأسست عام 1882، مرتبطة بإنتاج النبيذ والصناعة.",
+      "en": "First Aliyah moshava established in 1882, identified with wine production and industry.",
+      "ru": "Поселение Первой алии, основанное в 1882 году, известное производством вина и промышленностью."
+    }
+  },
+  {
+    "id": "1518",
+    "name": {
+      "he": "רחובות / רחובות",
+      "ar": "رحوفوت",
+      "en": "Rehovot",
+      "ru": "Реховот"
+    },
+    "coords": [
+      31.895,
+      34.811
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר מדע והדרים, הוקמה בשנת 1890 כמושבה חקלאית.",
+      "ar": "مدينة العلم والحمضيات، تأسست عام 1890 كمستوطنة زراعية.",
+      "en": "City of science and citrus, established in 1890 as an agricultural moshava.",
+      "ru": "Город науки и цитрусовых, основанный в 1890 году как сельскохозяйственное поселение."
+    }
+  },
+  {
+    "id": "1519",
+    "name": {
+      "he": "נס ציונה / נס ציונה",
+      "ar": "نيس تسيونا",
+      "en": "Ness Ziona",
+      "ru": "Нес-Циона"
+    },
+    "coords": [
+      31.928,
+      34.798
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר בשפלת החוף, הוקמה ב-1883 כמושבת יחיד וגדלה בהדרגה.",
+      "ar": "مدينة في السهل الساحلي، تأسست عام 1883 كمستوطنة فردية ونمت تدريجياً.",
+      "en": "City in the coastal plain, established in 1883 as a single moshava and grew gradually.",
+      "ru": "Город на прибрежной равнине, основанный в 1883 году как отдельное поселение и постепенно разросшийся."
+    }
+  },
+  {
+    "id": "1520",
+    "name": {
+      "he": "גדרה / גדרה",
+      "ar": "غديرة",
+      "en": "Gedera",
+      "ru": "Гедера"
+    },
+    "coords": [
+      31.815,
+      34.781
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושבת הביל'ויים, הוקמה בשנת 1884 כחלק מחידוש ההתיישבות היהודית.",
+      "ar": "مستوطنة بيلو (Biluim)، تأسست عام 1884 كجزء من تجديد الاستيطان اليهودي.",
+      "en": "Moshava of the Biluim, established in 1884 as part of the Jewish settlement renewal.",
+      "ru": "Поселение движения Билу, основанное в 1884 году в рамках возобновления еврейского заселения."
+    }
+  },
+  {
+    "id": "1521",
+    "name": {
+      "he": "מזכרת בתיה / מזכרת בתיה",
+      "ar": "مزكيرت باتيا",
+      "en": "Mazkeret Batya",
+      "ru": "Мазкерет-Батья"
+    },
+    "coords": [
+      31.855,
+      34.845
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושבה שהוקמה ב-1883 ונקראה על שם אם הברון רוטשילד.",
+      "ar": "مستوطنة تأسست عام 1883 وسميت على اسم والدة البارون روتشيلد.",
+      "en": "Moshava established in 1883 and named after Baron Rothschild's mother.",
+      "ru": "Поселение, основанное в 1883 году и названное в честь матери барона Ротшильда."
+    }
+  },
+  {
+    "id": "1522",
+    "name": {
+      "he": "עקרון / עקרון",
+      "ar": "عكرون",
+      "en": "Ekron",
+      "ru": "Экрон"
+    },
+    "coords": [
+      31.865,
+      34.821
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "השם המקורי של המושבה מזכרת בתיה, כיום חלק מהמועצה המקומית קריית עקרון הסמוכה.",
+      "ar": "الاسم الأصلي لمستوطنة مزكيرت باتيا، واليوم هي جزء من مجلس كريات عكرون المحلي المجاور.",
+      "en": "The original name of the Mazkeret Batya moshava, now part of the nearby Kiryat Ekron local council.",
+      "ru": "Первоначальное название поселения Мазкерет-Батья, ныне часть соседнего местного совета Кирьят-Экрон."
+    }
+  },
+  {
+    "id": "1523",
+    "name": {
+      "he": "לוד / اللد",
+      "ar": "اللد",
+      "en": "Lod",
+      "ru": "Лод"
+    },
+    "coords": [
+      31.951,
+      34.895
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר עתיקה ומרכזית בישראל, בעלת חשיבות תחבורתית והיסטורית.",
+      "ar": "مدينة قديمة ومركزية في إسرائيل، ذات أهمية مرورية وتاريخية.",
+      "en": "Ancient and central city in Israel, with transportation and historical importance.",
+      "ru": "Древний и центральный город в Израиле, имеющий транспортное и историческое значение."
+    }
+  },
+  {
+    "id": "1524",
+    "name": {
+      "he": "רמלה / الرملة",
+      "ar": "الرملة",
+      "en": "Ramla",
+      "ru": "Рамла"
+    },
+    "coords": [
+      31.928,
+      34.871
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר שהוקמה במאה ה-8 כבירת המחוז מטעם הח'ליפות האומיית.",
+      "ar": "مدينة تأسست في القرن الثامن كعاصمة للمنطقة من قبل الخلافة الأموية.",
+      "en": "City established in the 8th century as the district capital by the Umayyad Caliphate.",
+      "ru": "Город, основанный в VIII веке как столица округа Омейядским халифатом."
+    }
+  },
+  {
+    "id": "1525",
+    "name": {
+      "he": "יפו / يافا",
+      "ar": "يافا",
+      "en": "Jaffa",
+      "ru": "Яффо"
+    },
+    "coords": [
+      32.051,
+      34.751
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר נמל עתיקה מהקדומות בעולם, כיום חלק מעיריית תל אביב-יפו.",
+      "ar": "مدينة ميناء قديمة من أقدم المدن في العالم، واليوم هي جزء من بلدية تل أبيب-يافا.",
+      "en": "Ancient port city, one of the oldest in the world, now part of the Tel Aviv-Yafo municipality.",
+      "ru": "Древний портовый город, один из старейших в мире, ныне часть муниципалитета Тель-Авив-Яффо."
+    }
+  },
+  {
+    "id": "1526",
+    "name": {
+      "he": "אזור / أزور",
+      "ar": "أزور",
+      "en": "Azor",
+      "ru": "Азор"
+    },
+    "coords": [
+      32.025,
+      34.808
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית סמוכה לחולון, קיימת מתקופות קדומות ויושבה מחדש בעת החדשה.",
+      "ar": "مجلس محلي بالقرب من حولون، موجود منذ العصور القديمة وأعيد سكنه في العصر الحديث.",
+      "en": "Local council near Holon, exists since ancient times and was resettled in modern times.",
+      "ru": "Местный совет рядом с Холоном, существующий с древних времен и вновь заселенный в новое время."
+    }
+  },
+  {
+    "id": "1527",
+    "name": {
+      "he": "רמת גן / רמת גן",
+      "ar": "رمات غان",
+      "en": "Ramat Gan",
+      "ru": "Рамат-Ган"
+    },
+    "coords": [
+      32.081,
+      34.815
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר בגוש דן, הוקמה בשנת 1921 כעיר גנים.",
+      "ar": "مدينة في غوش دان، تأسست عام 1921 كمدينة حدائق.",
+      "en": "City in Gush Dan, established in 1921 as a garden city.",
+      "ru": "Город в Гуш-Дане, основанный в 1921 году как город-сад."
+    }
+  },
+  {
+    "id": "1528",
+    "name": {
+      "he": "גבעתיים / גבעתיים",
+      "ar": "جفعاتايم",
+      "en": "Givatayim",
+      "ru": "Гиватаим"
+    },
+    "coords": [
+      32.071,
+      34.811
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר סמוכה לתל אביב, הוקמה בשנת 1922 על ידי קבוצות פועלים.",
+      "ar": "مدينة بالقرب من تل أبيب، تأسست عام 1922 من قبل مجموعات عمالية.",
+      "en": "City near Tel Aviv, established in 1922 by workers' groups.",
+      "ru": "Город рядом с Тель-Авивом, основанный в 1922 году рабочими группами."
+    }
+  },
+  {
+    "id": "1529",
+    "name": {
+      "he": "חולון / חולון",
+      "ar": "حولون",
+      "en": "Holon",
+      "ru": "Холон"
+    },
+    "coords": [
+      32.015,
+      34.775
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר גדולה מדרום לתל אביב, הוקמה כאיחוד של מספר שכונות בחולות.",
+      "ar": "مدينة كبيرة جنوب تل أبيب، تأسست كاتحاد لعدة أحياء في الرمال.",
+      "en": "Large city south of Tel Aviv, established as a union of several neighborhoods in the sands.",
+      "ru": "Крупный город к югу от Тель-Авива, основанный как объединение нескольких кварталов в песках."
+    }
+  },
+  {
+    "id": "1530",
+    "name": {
+      "he": "בת ים / בת ים",
+      "ar": "بات يام",
+      "en": "Bat Yam",
+      "ru": "Бат-Ям"
+    },
+    "coords": [
+      31.985,
+      34.748
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר חוף בגוש דן, הוקמה בשנת 1926 בשם 'בית וגן'.",
+      "ar": "مدينة ساحلية في غوش دان، تأسست عام 1926 باسم 'بايت فغان'.",
+      "en": "Coastal city in Gush Dan, established in 1926 under the name 'Bayit VaGan'.",
+      "ru": "Прибрежный город в Гуш-Дане, основанный в 1926 году под названием «Байт ва-Ган»."
+    }
+  },
+  {
+    "id": "1531",
+    "name": {
+      "he": "בני ברק / בני ברק",
+      "ar": "بني براك",
+      "en": "Bnei Brak",
+      "ru": "Бней-Брак"
+    },
+    "coords": [
+      32.085,
+      34.835
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר בעלת אופי דתי-חרדי, הוקמה בשנת 1924 כמושבה חקלאית.",
+      "ar": "مدينة ذات طابع ديني أرثوذكسي، تأسست عام 1924 كمستوطنة زراعية.",
+      "en": "City with a religious-Haredi character, established in 1924 as an agricultural moshava.",
+      "ru": "Город с религиозно-ультраортодоксальным характером, основанный в 1924 году как сельскохозяйственное поселение."
+    }
+  },
+  {
+    "id": "1532",
+    "name": {
+      "he": "גבעת שמואל / גבעת שמואל",
+      "ar": "غفعات شموئيل",
+      "en": "Givat Shmuel",
+      "ru": "Гиват-Шмуэль"
+    },
+    "coords": [
+      32.075,
+      34.848
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר במרכז הארץ, הוקמה בשנת 1944 על ידי עולים מרומניה.",
+      "ar": "مدينة في وسط البلاد، تأسست عام 1944 من قبل مهاجرين من رومانيا.",
+      "en": "City in central Israel, established in 1944 by immigrants from Romania.",
+      "ru": "Город в центре страны, основанный в 1944 году иммигрантами из Румынии."
+    }
+  },
+  {
+    "id": "1533",
+    "name": {
+      "he": "קרית אונו / קרית אונו",
+      "ar": "كريات أونو",
+      "en": "Kiryat Ono",
+      "ru": "Кирьят-Оно"
+    },
+    "coords": [
+      32.061,
+      34.858
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר בבקעת אונו, הוקמה בשנת 1939 בשם 'כפר אונו'.",
+      "ar": "مدينة في سهل أونو، تأسست عام 1939 باسم 'كفار أونو'.",
+      "en": "City in the Ono Valley, established in 1939 under the name 'Kfar Ono'.",
+      "ru": "Город в долине Оно, основанный в 1939 году под названием «Кфар-Оно»."
+    }
+  },
+  {
+    "id": "1534",
+    "name": {
+      "he": "גני תקווה / גני תקווה",
+      "ar": "غاني تكفا",
+      "en": "Ganei Tikva",
+      "ru": "Ганей-Тиква"
+    },
+    "coords": [
+      32.058,
+      34.871
+    ],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר סמוכה לפתח תקווה, הוקמה בשנת 1949 כמעברה.",
+      "ar": "مدينة بالقرب من بيتح تكفا، تأسست عام 1949 كمخيم للمهاجرين (معبره).",
+      "en": "City near Petah Tikva, established in 1949 as a transit camp (Ma'abara).",
+      "ru": "Город рядом с Петах-Тиквой, основанный в 1949 году как лагерь для репатриантов (маабара)."
+    }
+  },
+  {
+    "id": "1535",
+    "name": {
+      "he": "אור יהודה / אור יהודה",
+      "ar": "أور يهودا",
+      "en": "Or Yehuda",
+      "ru": "Ор-Иегуда"
+    },
+    "coords": [
+      32.028,
+      34.851
+    ],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר בבקעת אונו, הוקמה בשנת 1950 במקום בו שכנו המעברות סקיה ואור יהודה.",
+      "ar": "مدينة في سهل أونو، تأسست عام 1950 في موقع مخيمات المهاجرين (معبروت) ساقية وأور يهودا.",
+      "en": "City in the Ono Valley, established in 1950 on the site of the Sakia and Or Yehuda transit camps.",
+      "ru": "Город в долине Оно, основанный в 1950 году на месте лагерей репатриантов Сакия и Ор-Иегуда."
+    }
+  },
+  {
+    "id": "1536",
+    "name": {
+      "he": "יהוד-מונוסון / يهود مونوسون",
+      "ar": "يهود مونوسون",
+      "en": "Yehud-Monosson",
+      "ru": "Йехуд-Моноссон"
+    },
+    "coords": [
+      32.035,
+      34.885
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר המשלבת את היישוב הוותיק יהוד והשכונה נווה אפרים (מונוסון).",
+      "ar": "مدينة تجمع بين بلدة يهود القديمة وحي نافيه إفرايم (مونوسون).",
+      "en": "City combining the veteran settlement of Yehud and the Neve Ephraim (Monosson) neighborhood.",
+      "ru": "Город, объединяющий старое поселение Йехуд и квартал Неве-Эфраим (Моноссон)."
+    }
+  },
+  {
+    "id": "1537",
+    "name": {
+      "he": "בית דגן / بيت دجان",
+      "ar": "بيت دجن",
+      "en": "Beit Dagan",
+      "ru": "Бейт-Даган"
+    },
+    "coords": [
+      31.995,
+      34.828
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית סמוכה למחלף שפירים, הוקמה ב-1948.",
+      "ar": "مجلس محلي بالقرب من تقاطع شفيريم، تأسس عام 1948.",
+      "en": "Local council near the Shapirim Interchange, established in 1948.",
+      "ru": "Местный совет рядом с развязкой Шапирим, основанный в 1948 году."
+    }
+  },
+  {
+    "id": "1538",
+    "name": {
+      "he": "גן יבנה / غان يفני",
+      "ar": "غان يفني",
+      "en": "Gan Yavne",
+      "ru": "Ган-Явне"
+    },
+    "coords": [
+      31.785,
+      34.715
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית גדולה סמוכה לאשדוד, הוקמה בשנת 1931.",
+      "ar": "مجلس محلي كبير بالقرب من أسدود، تأسس عام 1931.",
+      "en": "Large local council near Ashdod, established in 1931.",
+      "ru": "Крупный местный совет рядом с Ашдодом, основанный в 1931 году."
+    }
+  },
+  {
+    "id": "1539",
+    "name": {
+      "he": "יבנה / يبنة",
+      "ar": "يبنة",
+      "en": "Yavne",
+      "ru": "Явне"
+    },
+    "coords": [
+      31.878,
+      34.741
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר בעלת היסטוריה יהודית מפוארת מימי חורבן בית שני.",
+      "ar": "مدينة ذات تاريخ يهودي مجيد منذ أيام خراب الهيكل الثاني.",
+      "en": "City with a glorious Jewish history from the days of the Second Temple destruction.",
+      "ru": "Город с великой еврейской историей со времен разрушения Второго Храма."
+    }
+  },
+  {
+    "id": "1540",
+    "name": {
+      "he": "מזכרת בתיה (התרחבות) / مزكيرت باتيا",
+      "ar": "مزكيرت باتيا",
+      "en": "Mazkeret Batya (Expansion)",
+      "ru": "Мазкерет-Батья"
+    },
+    "coords": [
+      31.851,
+      34.851
+    ],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "שכונות המגורים החדשות של המועצה המקומית מזכרת בתיה.",
+      "ar": "الأحياء السكنية الجديدة في مجلس مزكيرت باتيا المحلي.",
+      "en": "New residential neighborhoods of the Mazkeret Batya local council.",
+      "ru": "Новые жилые кварталы местного совета Мазкерет-Батья."
+    }
+  },
+  {
+    "id": "1541",
+    "name": {
+      "he": "קריית עקרון / كريات عكرون",
+      "ar": "كريات عكرون",
+      "en": "Kiryat Ekron",
+      "ru": "Кирьят-Экрон"
+    },
+    "coords": [
+      31.861,
+      34.825
+    ],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית שהוקמה בשנת 1948 כמעברה וכיום מהווה מרכז מסחרי.",
+      "ar": "مجلس محلي تأسس عام 1948 كمخيم للمهاجرين (معبره) واليوم يشكل مركزاً تجارياً.",
+      "en": "Local council established in 1948 as a transit camp and currently a commercial center.",
+      "ru": "Местный совет, основанный в 1948 году как лагерь для репатриантов, ныне является торговым центром."
+    }
+  },
+  {
+    "id": "1542",
+    "name": {
+      "he": "קדימה-צורן / كاديما صوران",
+      "ar": "كاديما صوران",
+      "en": "Kadima-Zoran",
+      "ru": "Кадима-Цоран"
+    },
+    "coords": [
+      32.278,
+      34.915
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מועצה מקומית בשרון המשלבת את המושבה הוותיקה קדימה והיישוב הצעיר צורן.",
+      "ar": "مجلس محلي في سهل شارون يجمع بين مستوطنة كاديما القديمة وبلدة صوران الحديثة.",
+      "en": "Local council in the Sharon combining the veteran Kadima moshava and the younger Zoran settlement.",
+      "ru": "Местный совет в Шароне, объединяющий старое поселение Кадима и молодое поселение Цоран."
+    }
+  },
+  {
+    "id": "1543",
+    "name": {
+      "he": "פרדס חנה-כרכור / برديس حنا كركور",
+      "ar": "برديس حنا كركور",
+      "en": "Pardes Hanna-Karkur",
+      "ru": "Пардес-Хана-Каркур"
+    },
+    "coords": [
+      32.471,
+      34.985
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "מושבה מאוחדת בשרון הצפוני, ידועה באווירה קהילתית ואמנותית.",
+      "ar": "مستوطنة موحدة في شمال شارون، تشتهر بجوها المجتمعي والفني.",
+      "en": "Unified moshava in the northern Sharon, known for its community and artistic atmosphere.",
+      "ru": "Объединенное поселение в северном Шароне, известное своей общинной и творческой атмосферой."
+    }
+  },
+  {
+    "id": "1544",
+    "name": {
+      "he": "צור יצחק / تسور يتسحاق",
+      "ar": "تسور يتسحاق",
+      "en": "Tzur Yitzhak",
+      "ru": "Цур-Ицхак"
+    },
+    "coords": [
+      32.228,
+      35.005
+    ],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "יישוב קהילתי חדש בשרון הדרומי, הוקם בשנת 2007.",
+      "ar": "بلدة مجتمعية جديدة في جنوب سهل شارون، تأسست عام 2007.",
+      "en": "New community settlement in the southern Sharon, established in 2007.",
+      "ru": "Новое общинное поселение в южном Шароне, основанное в 2007 году."
+    }
+  },
+  {
+    "id": "1545",
+    "name": {
+      "he": "אלפי מנשה / ألفي منشيه",
+      "ar": "ألفي منشيه",
+      "en": "Alfei Menashe",
+      "ru": "Алфей-Менаше"
+    },
+    "coords": [
+      32.168,
+      35.011
+    ],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "התנחלות ומועצה מקומית בשומרון, צופה אל גוש דן.",
+      "ar": "مستوطنة ومجلس محلي في السامرة، تطل على منطقة غوش دان.",
+      "en": "Settlement and local council in Samaria, overlooking the Gush Dan area.",
+      "ru": "Поселение и местный совет в Самарии, с видом на Гуш-Дан."
+    }
+  },
+  {
+    "id": "1546",
+    "name": {
+      "he": "קרני שומרון / قرني شومرون",
+      "ar": "قرني شومرون",
+      "en": "Karnei Shomron",
+      "ru": "Карней-Шомрон"
+    },
+    "coords": [
+      32.175,
+      35.091
+    ],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "התנחלות גדולה בשומרון, הוקמה בשנת 1977.",
+      "ar": "مستوطنة كبيرة في السامرة، تأسست عام 1977.",
+      "en": "Large settlement in Samaria, established in 1977.",
+      "ru": "Крупное поселение в Самарии, основанное в 1977 году."
+    }
+  },
+  {
+    "id": "1547",
+    "name": {
+      "he": "אריאל / أرئيل",
+      "ar": "أرئيل",
+      "en": "Ariel",
+      "ru": "Ариэль"
+    },
+    "coords": [
+      32.105,
+      35.181
+    ],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר בשומרון המהווה מרכז אזורי וכוללת אוניברסיטה.",
+      "ar": "مدينة في السامرة تشكل مركزاً إقليمياً وتضم جامعة.",
+      "en": "City in Samaria that serves as a regional center and includes a university.",
+      "ru": "Город в Самарии, являющийся региональным центром и имеющий университет."
+    }
+  },
+  {
+    "id": "1548",
+    "name": {
+      "he": "מעלה אדומים / معاليه أدوميم",
+      "ar": "معاليه أدوميم",
+      "en": "Ma'ale Adumim",
+      "ru": "Маале-Адумим"
+    },
+    "coords": [
+      31.778,
+      35.301
+    ],
+    "category": "אחרי 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zichron_Yaakov_Vineyards.jpg/800px-Zichron_Yaakov_Vineyards.jpg",
+    "description": {
+      "he": "עיר גדולה ממזרח לירושלים, הוקמה כהתנחלות ב-1975.",
+      "ar": "مدينة كبيرة شرق القدس، تأسست كمستوطنة عام 1975.",
+      "en": "Major city east of Jerusalem, established as a settlement in 1975.",
+      "ru": "Крупный город к востоку от Иерусалима, основанный как поселение в 1975 году."
+    }
   }
 ]
