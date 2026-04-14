@@ -303,9 +303,22 @@ function SmartImage({ item, className }: { item: any; className?: string }) {
 }
 
 
+
+async function fetchWikiSummary(name: string, lang: string): Promise<string> {
+  try {
+    const l = lang==='he'?'he':lang==='ar'?'ar':lang==='ru'?'ru':'en';
+    const r = await fetch(`https://${l}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(name)}`);
+    if (!r.ok) return '';
+    const d = await r.json();
+    return d.extract || '';
+  } catch { return ''; }
+}
+
 // === Compact expandable popup ===
 function CompactPopup({ item, pd, activeLang, labels, shareOnWhatsApp }: { item: any; pd: string|null; activeLang: string; labels: any; shareOnWhatsApp: (i:any)=>void }) {
   const [expanded, setExpanded] = React.useState(false);
+  const [wiki, setWiki] = React.useState('');
+  React.useEffect(() => { fetchWikiSummary(item.name[activeLang]||item.name.he, activeLang).then(setWiki); }, [item.id, activeLang]);
   return (
     <div className="text-right font-sans p-1 overflow-hidden">
       <UserPhotos item={item} />
@@ -315,6 +328,7 @@ function CompactPopup({ item, pd, activeLang, labels, shareOnWhatsApp }: { item:
       <p className="text-[12px] text-gray-600 leading-relaxed px-1 mb-2 line-clamp-2">
         {item.description[activeLang]||item.description.he}
       </p>
+      {wiki && <p className="text-[11px] text-gray-500 leading-relaxed px-1 mb-2 line-clamp-3">{wiki}</p>}
       {item.info && (
         <div className="flex flex-wrap gap-1 px-1 mb-2">
           {item.info.hours && item.info.hours !== 'N/A' && (
