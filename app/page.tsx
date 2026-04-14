@@ -407,7 +407,7 @@ export default function TiyulifyApp() {
       start:"בואו נתחיל",back:"חזרה",style:"מה הסגנון שלכם?",distText:'ק"מ ממך',distLabel:"מרחק:",
       home:"בית",here:"המיקום שלך",share:"שתף ב-WhatsApp",km:'ק"מ',loading:"טוען מפה...",noResults:"לא נמצאו תוצאות",
       mapLayers:"שכבות מפה",
-      undecided:"לא החלטתי, הראה הכל",
+      undecided:"לא החלטתי",
       regions:{all:"כל הארץ",north:"צפון",center:"מרכז",south:"דרום"},
       categories:{all:"הכל",water:"מעיינות ונחלים",nature:"פארקים וטבע",history:"היסטוריה ודת",sleep:"לינה",
         food:"אוכל",bike:"אופניים",hiking:"הליכה",promenade:"טיילות",beach:"חופים",viewpoint:"תצפיות ונופים",attractions:"אטרקציות"}
@@ -417,7 +417,7 @@ export default function TiyulifyApp() {
       start:"Let's Begin",back:"Go Back",style:"What's your style?",distText:"km away",distLabel:"Distance:",
       home:"Home",here:"You are here",share:"Share on WhatsApp",km:"km",loading:"Loading map...",noResults:"No results found",
       mapLayers:"Map Layers",
-      undecided:"Show me everything",
+      undecided:"Undecided",
       regions:{all:"All Israel",north:"North",center:"Center",south:"South"},
       categories:{all:"All",water:"Springs & Streams",nature:"Parks & Nature",history:"History & Religion",sleep:"Camping",
         food:"Food",bike:"Cycling",hiking:"Hiking",promenade:"Promenades",beach:"Beaches",viewpoint:"Viewpoints",attractions:"Attractions"}
@@ -427,7 +427,7 @@ export default function TiyulifyApp() {
       start:"لنبدأ",back:"رجوع",style:"ما هو أسلوبك؟",distText:"كم منك",distLabel:"المسافة:",
       home:"الرئيسية",here:"أنت هنا",share:"مشاركة واتساب",km:"كم",loading:"جارٍ التحميل...",noResults:"لا توجد نتائج",
       mapLayers:"طبقات الخريطة",
-      undecided:"لم أقرر، أرني الكل",
+      undecided:"لم أقرر",
       regions:{all:"كل البلاد",north:"الشمال",center:"الوسط",south:"الجنوب"},
       categories:{all:"الكل",water:"ينابيع وأنهار",nature:"منتزهات وطبيعة",history:"تاريخ ودين",sleep:"إقامة وتخييم",
         food:"طعام ومطاعم",bike:"مسارات الدراجات",hiking:"مسارات المشي",promenade:"ممشى سياحي",beach:"شواطئ البحر",viewpoint:"مناظر ومطلات",attractions:"معالم سياحية"}
@@ -437,7 +437,7 @@ export default function TiyulifyApp() {
       start:"Поехали",back:"Назад",style:"Какой стиль?",distText:"км от вас",distLabel:"Расстояние:",
       home:"Домой",here:"Вы здесь",share:"Поделиться WhatsApp",km:"км",loading:"Загрузка карты...",noResults:"Ничего не найдено",
       mapLayers:"Слои карты",
-      undecided:"Не решил, показать всё",
+      undecided:"Не решил",
       regions:{all:"Весь Израиль",north:"Север",center:"Центр",south:"Юг"},
       categories:{all:"Все",water:"Источники и реки",nature:"Парки и природа",history:"История и религия",sleep:"Жилье",
         food:"Еда",bike:"Велосипед",hiking:"Пешие тропы",promenade:"Променады",beach:"Пляжи",viewpoint:"Смотровые площадки",attractions:"Аттракционы"}
@@ -591,7 +591,7 @@ export default function TiyulifyApp() {
             ))}
           </div>
           <div className="mt-12 md:mt-20 flex flex-col items-center gap-4">
-            <button onClick={()=>{setCategoryFilter('all');setActiveView('map');}}
+            <button onClick={()=>{setCategoryFilter('none');setActiveView('map');}}
               className="bg-green-600 hover:bg-green-700 text-white px-10 py-4 md:px-16 md:py-5 rounded-2xl font-black text-lg md:text-2xl shadow-xl transition-all transform hover:scale-105 active:scale-95">
               🗺️ {labels[activeLang].undecided}
             </button>
