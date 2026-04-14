@@ -393,6 +393,7 @@ export default function TiyulifyApp() {
   const [geoLoading, setGeoLoading] = useState(false);
   const [searchMarker, setSearchMarker] = useState<[number,number]|null>(null);
   const [searchMarkerName, setSearchMarkerName] = useState('');
+  const [searchMarkerAddr, setSearchMarkerAddr] = useState('');
   const geoDebounce = useRef<any>(null);
   const [userCoords, setUserCoords] = useState<[number,number]|null>(null);
   const [LeafletMapLib, setLeafletMapLib] = useState<any>(null);
@@ -490,11 +491,12 @@ export default function TiyulifyApp() {
     const coords: [number,number] = [parseFloat(result.lat), parseFloat(result.lon)];
     setSearchMarker(coords);
     setSearchMarkerName(result.name || result.display_name.split(",")[0]);
+    setSearchMarkerAddr(result.display_name.split(',').slice(1,4).join(', '));
     setGeoQuery(result.name || result.display_name.split(",")[0]);
     setGeoResults([]);
     if (mapControl.current) mapControl.current.flyTo(coords, 15, {animate:true, duration:1.5});
   };
-  const clearSearch = () => { setGeoQuery(''); setGeoResults([]); setSearchMarker(null); setSearchMarkerName(''); };
+  const clearSearch = () => { setGeoQuery(''); setGeoResults([]); setSearchMarker(null); setSearchMarkerName(''); setSearchMarkerAddr(''); };
 
   // ===== פילטר חכם לפי קטגוריה =====
   const filteredItems = useMemo(() => {
@@ -783,7 +785,7 @@ export default function TiyulifyApp() {
                               <span style={{fontSize:'3rem'}}>📍</span>
                             </div>
                             <h4 className="font-bold text-green-900 text-sm m-0 leading-snug mb-1 px-1">{searchMarkerName}</h4>
-                            <p className="text-[11px] text-gray-500 px-1 mb-2">{searchMarker ? searchMarker[0].toFixed(4)+', '+searchMarker[1].toFixed(4) : ''}</p>
+                            <p className="text-[11px] text-gray-500 px-1 mb-2 line-clamp-2">{searchMarkerAddr || (searchMarker ? searchMarker[0].toFixed(4)+', '+searchMarker[1].toFixed(4) : '')}</p>
                             {userCoords && searchMarker && <div className="flex items-center gap-1.5 mb-2 bg-green-50 px-3 py-1.5 rounded-full border border-green-200 shadow-sm inline-flex"><span className="text-base">📍</span><span className="text-[12px] text-green-700 font-black">{calculateDistance(userCoords[0],userCoords[1],searchMarker[0],searchMarker[1])} {labels[activeLang].km}</span></div>}
                             <div className="flex flex-wrap gap-2 mt-2 pb-1">
                               <a href={`https://www.waze.com/ul?ll=${searchMarker[0]},${searchMarker[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-3 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95">WAZE</a>
