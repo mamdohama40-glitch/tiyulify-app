@@ -35349,5 +35349,166 @@
     "region": "north",
     "video": null,
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "id": "1644",
+    "name": {
+      "he": "אל-מנסי (ערב בנייה) / المنسي (عرب بنيها)",
+      "ar": "المنسي (عرب بنيها)",
+      "en": "Al-Mansi (Arab Baniha)",
+      "ru": "Аль-Манси (Араб-Баниха)"
+    },
+    "coords": [
+      32.6111,
+      35.1511
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום עין משעול באזור מושב מדרך עוז.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة عين مشعول بالقرب من موشاف مدراخ عوز.",
+      "en": "Former Palestinian village, currently Ein Mish'ol in the Midrakh Oz area.",
+      "ru": "Бывшая палестинская деревня, ныне Эйн-Мишоль в районе Мидрах-Оз."
+    }
+  },
+  {
+    "id": "1645",
+    "name": {
+      "he": "קירה וקאמון / قيرة وقامون",
+      "ar": "قيرة وقامون",
+      "en": "Qira wa Qamun",
+      "ru": "Кира и Камун"
+    },
+    "coords": [
+      32.6631,
+      35.1086
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באזור תל קירה ויקנעם עילית.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة تل قيرة ويوكنعام عيليت.",
+      "en": "Former Palestinian village, currently in the Tel Qira and Yokneam Illit area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе Тель-Кира и Йокнеам-Илит."
+    }
+  },
+  {
+    "id": "1646",
+    "name": {
+      "he": "אל-נע׳נע׳ייה / النغنغية",
+      "ar": "النغنغية",
+      "en": "Al-Naghnaghiyya",
+      "ru": "Аль-Нагнагия"
+    },
+    "coords": [
+      32.6025,
+      35.1461
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באדמות קיבוץ משמר העמק.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في أراضي كيبوتس مشمار هعيمك.",
+      "en": "Former Palestinian village, currently on the lands of Kibbutz Mishmar HaEmek.",
+      "ru": "Бывшая палестинская деревня, ныне на землях кибуца Мишмар-ха-Эмек."
+    }
+  },
+  {
+    "id": "1647",
+    "name": {
+      "he": "ח׳רבת לד (אל-עוואדין) / خربة لد (العوادين)",
+      "ar": "خربة لد (العوادين)",
+      "en": "Khirbat Lid (Al-Awadin)",
+      "ru": "Хирбат-Лид (Аль-Авадин)"
+    },
+    "coords": [
+      32.5919,
+      35.1869
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום חורבת לוד באזור צומת מגידו.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في خربة لود في منطقة مفرق مجيدو.",
+      "en": "Former Palestinian village, currently Khirbat Lid in the Megiddo Junction area.",
+      "ru": "Бывшая палестинская деревня, ныне руины Лид в районе перекрестка Мегиддо."
+    }
+  },
+  {
+    "id": "1648",
+    "name": {
+      "he": "ואדי עארה (אל-מחטה) / وادي عارة (المحطة)",
+      "ar": "وادي عارة (المحطة)",
+      "en": "Wadi Ara (Al-Mahatta)",
+      "ru": "Вади-Ара (Аль-Махатта)"
+    },
+    "coords": [
+      32.4839,
+      35.0489
+    ],
+    "category": "לפני 1948",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אתר פלסטיני לשעבר, כיום באזור צומת עירון ויער עירון.",
+      "ar": "موقع فلسطيني مهجر، يقع اليوم في منطقة مفرق عيرون وأحراش عيرون.",
+      "en": "Former Palestinian site, currently in the Iron Junction and Iron Forest area.",
+      "ru": "Бывшее палестинское поселение, ныне в районе перекрестка Ирон и леса Ирон."
+    }
+  },
+  {
+    "id": "1649",
+    "name": {
+      "he": "א-דמיירי / الضميري",
+      "ar": "الضميري",
+      "en": "Al-Dumayri",
+      "ru": "Ад-Думайри"
+    },
+    "coords": [
+      32.4764,
+      35.0119
+    ],
+    "category": "לפני 1948",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום חורבת דמירי ליד ברקאי.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في خربة دميري بالقرب من بركاي.",
+      "en": "Former Palestinian village, currently Khirbat Dumayri near Barkai.",
+      "ru": "Бывшая палестинская деревня, ныне руины Думайри возле Баркай."
+    }
+  },
+  {
+    "id": "1650",
+    "name": {
+      "he": "בוישאט / بويشات",
+      "ar": "بويشات",
+      "en": "Buyyshat",
+      "ru": "Буйшат"
+    },
+    "coords": [
+      32.5208,
+      35.0744
+    ],
+    "category": "לפני 1948",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום חורבת בוישאט ברמת מנשה.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في خربة بويشات في مرتفعات منشيه.",
+      "en": "Former Palestinian village, currently Khirbat Buyyshat in Ramot Menashe.",
+      "ru": "Бывшая палестинская деревня, ныне руины Буйшат в Рамот-Менаше."
+    }
   }
 ]
