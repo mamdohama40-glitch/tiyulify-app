@@ -34958,5 +34958,396 @@
       "en": "Former Palestinian village, currently in the Kisalon area.",
       "ru": "Бывшая палестинская деревня, ныне в районе Кисалон."
     }
+  },
+  {
+    "name": {
+      "he": "איבטין / إبطن",
+      "ar": "إبطن",
+      "en": "Ibtin",
+      "ru": "Ибтин"
+    },
+    "coords": [
+      32.7533,
+      35.1119
+    ],
+    "description": {
+      "he": "כפר פלסטיני לשעבר בגליל התחתון, כיום באזור קריית טבעון.",
+      "ar": "قرية فلسطينية مهجرة في الجليل الأسفل، تقع اليوم في منطقة كريات طبعون.",
+      "en": "Former Palestinian village in Lower Galilee, now in the Kiryat Tivon area.",
+      "ru": "Бывшая палестинская деревня в Нижней Галилее, ныне в районе Кирьят-Тивон."
+    },
+    "id": "1627",
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "אעבלין / إعبلين",
+      "ar": "إعبلين",
+      "en": "Iʻblin",
+      "ru": "Иблин"
+    },
+    "coords": [
+      32.8219,
+      35.1883
+    ],
+    "description": {
+      "he": "כפר ערבי קיים בגליל התחתון.",
+      "ar": "قرية عربية قائمة في الجليل الأسفل.",
+      "en": "Existing Arab village in Lower Galilee.",
+      "ru": "Существующая арабская деревня в Нижней Галилее."
+    },
+    "id": "1628",
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "אום אל-קוטוף / أم القطف",
+      "ar": "أم القطف",
+      "en": "Umm al-Quttaf",
+      "ru": "Умм-эль-Куттаф"
+    },
+    "coords": [
+      32.4842,
+      35.0347
+    ],
+    "description": {
+      "he": "כפר פלסטיני לשעבר בעמק יזרעאל.",
+      "ar": "قرية فلسطينية مهجرة في مرج ابن عامر.",
+      "en": "Former Palestinian village in the Jezreel Valley.",
+      "ru": "Бывшая палестинская деревня в долине Изреэль."
+    },
+    "id": "1629",
+    "category": "לפני 1948",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "ג׳סר א-זרקא / جسر الزرقاء",
+      "ar": "جسر الزرقاء",
+      "en": "Jisr az-Zarqa",
+      "ru": "Джиср-эз-Зарка"
+    },
+    "coords": [
+      32.5397,
+      34.9133
+    ],
+    "description": {
+      "he": "כפר ערבי קיים על חוף הים התיכון, דרומית לחדרה.",
+      "ar": "قرية عربية قائمة على ساحل البحر المتوسط، جنوب خضيرة.",
+      "en": "Existing Arab village on the Mediterranean coast, south of Hadera.",
+      "ru": "Существующая арабская деревня на Средиземноморском побережье."
+    },
+    "id": "1630",
+    "category": "לפני 1948",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "גן שמואל (חרבת א-סרכס) / خربة السركس",
+      "ar": "خربة السركس",
+      "en": "Khirbat al-Sarkis",
+      "ru": "Хирбат-эс-Саркис"
+    },
+    "coords": [
+      32.4558,
+      34.9547
+    ],
+    "description": {
+      "he": "אתר כפר לשעבר, כיום באזור גן שמואל.",
+      "ar": "موقع قرية مهجرة، يقع اليوم في منطقة جان شموئيل.",
+      "en": "Former village site, now in the Gan Shmuel area.",
+      "ru": "Место бывшей деревни, ныне в районе Ган-Шмуэль."
+    },
+    "id": "1631",
+    "category": "לפני 1948",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "חורבת מנצורה / خربة المنصورة",
+      "ar": "خربة المنصورة",
+      "en": "Khirbat al-Mansura",
+      "ru": "Хирбат-эль-Мансура"
+    },
+    "coords": [
+      32.6739,
+      35.0911
+    ],
+    "description": {
+      "he": "אתר כפר לשעבר, כיום באזור יוקנעם.",
+      "ar": "موقع قرية مهجرة، يقع اليوم في منطقة يوكنعام.",
+      "en": "Former village site, now in the Yokneam area.",
+      "ru": "Место бывшей деревни, ныне в районе Йокнеам."
+    },
+    "id": "1632",
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "חורבת סעסע / خربة سعسع",
+      "ar": "خربة سعسع",
+      "en": "Khirbat Saʻsaʻ",
+      "ru": "Хирбат-Саса"
+    },
+    "coords": [
+      32.7878,
+      35.1117
+    ],
+    "description": {
+      "he": "אתר כפר לשעבר, כיום באזור רמת יוחנן.",
+      "ar": "موقع قرية مهجرة، يقع اليوم في منطقة رامات يوخانان.",
+      "en": "Former village site, now in the Ramat Yohanan area.",
+      "ru": "Место бывшей деревни, ныне в районе Рамат-Йоханан."
+    },
+    "id": "1633",
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "חורבת קמבזה / خربة قمبازة",
+      "ar": "خربة قمبازة",
+      "en": "Khirbat Qambaza",
+      "ru": "Хирбат-Камбаза"
+    },
+    "coords": [
+      32.6289,
+      34.9961
+    ],
+    "description": {
+      "he": "אתר כפר לשעבר על הכרמל.",
+      "ar": "موقع قرية مهجرة على الكرمل.",
+      "en": "Former village site on Mount Carmel.",
+      "ru": "Место бывшей деревни на горе Кармель."
+    },
+    "id": "1634",
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "דאליית א-רוחה / دالية الروحة",
+      "ar": "دالية الروحة",
+      "en": "Daliyat al-Rawha",
+      "ru": "Далийят-эр-Рауха"
+    },
+    "coords": [
+      32.5897,
+      35.0778
+    ],
+    "description": {
+      "he": "כפר פלסטיני לשעבר בכרמל, כיום באזור רמות מנשה.",
+      "ar": "قرية فلسطينية مهجرة في الكرمل، تقع اليوم في منطقة رامات منشي.",
+      "en": "Former Palestinian village on Mount Carmel, now in the Ramat Menashe area.",
+      "ru": "Бывшая палестинская деревня на Кармеле, ныне в районе Рамат-Менаше."
+    },
+    "id": "1635",
+    "category": "לפני 1948",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "דאלית אל-כרמל / دالية الكرمل",
+      "ar": "دالية الكرمل",
+      "en": "Daliyat al-Karmel",
+      "ru": "Далийят-эль-Кармель"
+    },
+    "coords": [
+      32.6953,
+      35.0494
+    ],
+    "description": {
+      "he": "כפר דרוזי קיים על הכרמל.",
+      "ar": "قرية درزية قائمة على جبل الكرمل.",
+      "en": "Existing Druze village on Mount Carmel.",
+      "ru": "Существующая друзская деревня на горе Кармель."
+    },
+    "id": "1636",
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "עופר (א-סוואמיר) / السوامير",
+      "ar": "السوامير",
+      "en": "al-Suwamir",
+      "ru": "эс-Сувамир"
+    },
+    "coords": [
+      32.63,
+      34.9458
+    ],
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באזור עופר.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة عوفر.",
+      "en": "Former Palestinian village, now in the Ofer area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе Офер."
+    },
+    "id": "1637",
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "שפרעם / شفا عمرو",
+      "ar": "شفا عمرو",
+      "en": "Shefa-Amr",
+      "ru": "Шфарам"
+    },
+    "coords": [
+      32.8058,
+      35.1722
+    ],
+    "description": {
+      "he": "עיר ערבית קיימת בגליל התחתון.",
+      "ar": "مدينة عربية قائمة في الجليل الأسفل.",
+      "en": "Existing Arab city in Lower Galilee.",
+      "ru": "Существующий арабский город в Нижней Галилее."
+    },
+    "id": "1638",
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "דור (טנטורה) / الطنطورة",
+      "ar": "الطنطورة",
+      "en": "Tantura",
+      "ru": "Тантура"
+    },
+    "coords": [
+      32.6133,
+      34.9167
+    ],
+    "description": {
+      "he": "כפר פלסטיני לשעבר על חוף הכרמל, כיום דור.",
+      "ar": "قرية فلسطينية مهجرة على ساحل الكرمل، تقع اليوم في منطقة دور.",
+      "en": "Former Palestinian village on the Carmel coast, now Dor.",
+      "ru": "Бывшая палестинская деревня на побережье Кармеля, ныне Дор."
+    },
+    "id": "1639",
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "טירת כרמל / الطيرة",
+      "ar": "الطيرة",
+      "en": "al-Tira",
+      "ru": "Тира"
+    },
+    "coords": [
+      32.7631,
+      34.9753
+    ],
+    "description": {
+      "he": "כפר פלסטיני לשעבר ליד חיפה, כיום טירת כרמל.",
+      "ar": "قرية فلسطينية مهجرة بالقرب من حيفا، تقع اليوم في منطقة طيرة الكرمل.",
+      "en": "Former Palestinian village near Haifa, now Tirat Carmel.",
+      "ru": "Бывшая палестинская деревня вблизи Хайфы, ныне Тират-Кармель."
+    },
+    "id": "1640",
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "חורבת גבעה (א-ע'בייה) / الغبية (الفوقا/التحتا)",
+      "ar": "الغبية (الفوقا/التحتا)",
+      "en": "al-Ghubayya",
+      "ru": "Эль-Губейя"
+    },
+    "coords": [
+      32.5978,
+      35.1383
+    ],
+    "description": {
+      "he": "שני כפרים פלסטיניים לשעבר, כיום באזור משמר העמק.",
+      "ar": "قريتان فلسطينيتان مهجرتان، تقعان اليوم في منطقة مشمار هعيمك.",
+      "en": "Two former Palestinian villages, now in the Mishmar HaEmek area.",
+      "ru": "Две бывшие палестинские деревни, ныне в районе Мишмар-ха-Эмек."
+    },
+    "id": "1641",
+    "category": "לפני 1948",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "פוריידיס / فريديس",
+      "ar": "فريديس",
+      "en": "Fureidis",
+      "ru": "Фурейдис"
+    },
+    "coords": [
+      32.5969,
+      34.9542
+    ],
+    "description": {
+      "he": "כפר ערבי קיים בחוף הכרמל.",
+      "ar": "قرية عربية قائمة على ساحل الكرمل.",
+      "en": "Existing Arab village on the Carmel coast.",
+      "ru": "Существующая арабская деревня на побережье Кармеля."
+    },
+    "id": "1642",
+    "category": "לפני 1948",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
+  },
+  {
+    "name": {
+      "he": "כפר יהושע - תל א-שמאם / تل الشمام",
+      "ar": "تل الشمام",
+      "en": "Tell al-Shumam",
+      "ru": "Телль-эш-Шумам"
+    },
+    "coords": [
+      32.6711,
+      35.1517
+    ],
+    "description": {
+      "he": "אתר ארכיאולוגי וכפר לשעבר, כיום באזור כפר יהושע.",
+      "ar": "موقع أثري وقرية مهجرة، يقع اليوم في منطقة كفار يهوشوع.",
+      "en": "Archaeological site and former village, now in the Kfar Yehoshua area.",
+      "ru": "Археологический памятник и бывшая деревня, ныне в районе Кфар-Иехошуа."
+    },
+    "id": "1643",
+    "category": "לפני 1948",
+    "region": "north",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg"
   }
 ]
