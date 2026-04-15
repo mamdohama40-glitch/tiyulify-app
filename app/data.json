@@ -25134,7 +25134,7 @@
   {
     "id": "1159",
     "name": {
-      "he": "אירפאיה",
+      "he": "קרית ים",
       "ar": "إرفايا",
       "en": "Irfaya",
       "ru": "Ирфайя"
@@ -25147,7 +25147,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
     "description": {
       "he": "כפר פלסטיני לשעבר, כיום אדמות השייכות לקרית ים.",
-      "ar": "قرية فلسطينية مهجرة، تقع היום أراضيها تابعة لקרית ים.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم أراضيها تابعة لكريات يام.",
       "en": "Former Palestinian village, its lands belong to Kiryat Yam.",
       "ru": "Бывшая палестинская деревня, ныне земли Кирьят-Ям."
     }
@@ -34369,6 +34369,594 @@
       "ar": "كيبوتس في النقب، تأسست عام 1943 כואחד מן אל-מראסד אל-תלאתה פי אל-נגב.",
       "en": "Kibbutz in the Negev, established in 1943 as one of the three lookouts in the Negev.",
       "ru": "Кибуц в Негеве, основанный в 1943 году как один из трех наблюдательных пунктов в Негеве."
+    }
+  },
+  {
+    "id": "1599",
+    "name": {
+      "he": "אבו פלאח / أبو فلاح",
+      "ar": "أبو فلاح",
+      "en": "Abu Falah",
+      "ru": "Абу-Фалах"
+    },
+    "coords": [
+      32.261,
+      35.176
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אדמות כפר פלסטיני, כיום באזור שבי שומרון.",
+      "ar": "أراضٍ تابعة لقرية أبو فلاح، تقع اليوم في منطقة شفي شومرون.",
+      "en": "Lands of Abu Falah village, currently in the Shavei Shomron area.",
+      "ru": "Земли палестинской деревни Абу-Фалах, ныне в районе Шавей-Шомрон."
+    }
+  },
+  {
+    "id": "1600",
+    "name": {
+      "he": "איסלאסיל / إسلاسل",
+      "ar": "إسلاسل",
+      "en": "Islasil",
+      "ru": "Исласил"
+    },
+    "coords": [
+      31.328,
+      34.664
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באזור תפרח.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة تيفراح.",
+      "en": "Former Palestinian village, currently in the Tifrach area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе Тифрах."
+    }
+  },
+  {
+    "id": "1601",
+    "name": {
+      "he": "אינדור / إندور",
+      "ar": "إندور",
+      "en": "Indur",
+      "ru": "Индур"
+    },
+    "coords": [
+      32.642,
+      35.387
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אדמות מהכפר אינדור, כיום בשטחי המושב תמרה.",
+      "ar": "أراضٍ تابعة لقرية إندور، تقع اليوم في موشاف تمرا.",
+      "en": "Lands of Indur village, currently in the Tamra area.",
+      "ru": "Земли деревни Индур, ныне на территории мошава Тамра."
+    }
+  },
+  {
+    "id": "1602",
+    "name": {
+      "he": "בעלין / بعلين",
+      "ar": "بعلين",
+      "en": "Ba'lin",
+      "ru": "Баалин"
+    },
+    "coords": [
+      31.718,
+      34.793
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באזור קדמה.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة كيدما.",
+      "en": "Former Palestinian village, currently in the Kedma area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе Кедма."
+    }
+  },
+  {
+    "id": "1603",
+    "name": {
+      "he": "תבסר (עזון) / تبصر (عزون)",
+      "ar": "تبصر (عزون)",
+      "en": "Tabsur (Azzun)",
+      "ru": "Табсур (Аззун)"
+    },
+    "coords": [
+      32.189,
+      34.856
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באזור רעננה.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة رعنانا.",
+      "en": "Former Palestinian village, currently in the Ra'anana area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе Раананы."
+    }
+  },
+  {
+    "id": "1604",
+    "name": {
+      "he": "חואסה / حوّاسة",
+      "ar": "حوّاسة",
+      "en": "Hawassa",
+      "ru": "Хавасса"
+    },
+    "coords": [
+      32.768,
+      35.038
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום תל חנן (נשר).",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة تل حنان (نيشر).",
+      "en": "Former Palestinian village, currently Tel Hanan (Nesher).",
+      "ru": "Бывшая палестинская деревня, ныне Тель-Ханан (Нешер)."
+    }
+  },
+  {
+    "id": "1605",
+    "name": {
+      "he": "ח'רבת לוזה / خربة لوزا",
+      "ar": "خربة لوزا",
+      "en": "Khirbat Lawza",
+      "ru": "Хирбат-Лауза"
+    },
+    "coords": [
+      31.776,
+      35.122
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אתר כפר לשעבר, כיום באזור הר איתן.",
+      "ar": "موقع قرية مهجرة، يقع اليوم في منطقة هار إيتان.",
+      "en": "Former village site, currently in the Har Eitan area.",
+      "ru": "Место бывшей деревни, ныне в районе горы Эйтан."
+    }
+  },
+  {
+    "id": "1606",
+    "name": {
+      "he": "ח'רבת אל-וערה אל-ביידא / خربة الوعرة البيضاء",
+      "ar": "خربة الوعرة البيضاء",
+      "en": "Khirbat al-Wa'ra al-Bayda",
+      "ru": "Хирбат-эль-Ваара-эль-Байда"
+    },
+    "coords": [
+      32.774,
+      35.121
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אתר כפר לשעבר, כיום באזור מנשיית זבולון.",
+      "ar": "موقع قرية مهجرة، يقع اليوم في منطقة منشية زابولون.",
+      "en": "Former village site, currently in the Manshiyat Zabulon area.",
+      "ru": "Место бывшей деревни, ныне в районе Маншият-Забулон."
+    }
+  },
+  {
+    "id": "1607",
+    "name": {
+      "he": "דיר טריף / دير ترريف",
+      "ar": "دير ترريف",
+      "en": "Dayr Tarif",
+      "ru": "Дайр-Тариф"
+    },
+    "coords": [
+      31.961,
+      34.909
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באזור בית עריף.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة بيت عريف.",
+      "en": "Former Palestinian village, currently in the Beit Arif area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе Бейт-Ариф."
+    }
+  },
+  {
+    "id": "1608",
+    "name": {
+      "he": "דיר חנא / دير حنّا",
+      "ar": "دير حنّا",
+      "en": "Deir Hanna",
+      "ru": "Дейр-Ханна"
+    },
+    "coords": [
+      32.861,
+      35.372
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "יישוב שנותר בחלקו, עם אדמות שפונו ב-1948.",
+      "ar": "قرية باقية مع أراضٍ مهجرة منذ عام 1948.",
+      "en": "Remaining village with lands displaced in 1948.",
+      "ru": "Сохранившаяся деревня с землями, оставленными в 1948 году."
+    }
+  },
+  {
+    "id": "1609",
+    "name": {
+      "he": "עג'ור / عجّور",
+      "ar": "عجّور",
+      "en": "Ajjur",
+      "ru": "Аджур"
+    },
+    "coords": [
+      31.691,
+      34.908
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באזור עגור.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة أغور.",
+      "en": "Former Palestinian village, currently in the Agur area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе Агур."
+    }
+  },
+  {
+    "id": "1610",
+    "name": {
+      "he": "מסרה / مسرّة",
+      "ar": "مسرّة",
+      "en": "Masarra",
+      "ru": "Масарра"
+    },
+    "coords": [
+      32.711,
+      35.121
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באזור יער טבעון.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة أحراش طبعون.",
+      "en": "Former Palestinian village, currently in the Tivon forest area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе лесов Тивона."
+    }
+  },
+  {
+    "id": "1611",
+    "name": {
+      "he": "אסדוד / أسدود",
+      "ar": "أسدود",
+      "en": "Isdud",
+      "ru": "Исдуд"
+    },
+    "coords": [
+      31.749,
+      34.664
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "העיירה הפלסטינית ההיסטורית, כיום באזור תל אשדוד.",
+      "ar": "بلدة فلسطينية مهجرة، تقع اليوم في منطقة تل أشدود.",
+      "en": "Historical Palestinian town, currently in the Tel Ashdod area.",
+      "ru": "Исторический палестинский город, ныне в районе Тель-Ашдод."
+    }
+  },
+  {
+    "id": "1612",
+    "name": {
+      "he": "בית דראס / بيت دراس",
+      "ar": "بيت دراس",
+      "en": "Bayt Daras",
+      "ru": "Бейт-Дарас"
+    },
+    "coords": [
+      31.728,
+      34.686
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באזור מושב גבעתי.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة موشاف جفعاتي.",
+      "en": "Former Palestinian village, currently in the Givati area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе Гивати."
+    }
+  },
+  {
+    "id": "1613",
+    "name": {
+      "he": "ג'יא / جيّا",
+      "ar": "جيّا",
+      "en": "Jiyya",
+      "ru": "Джийя"
+    },
+    "coords": [
+      31.644,
+      34.595
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באזור המושב גיאה.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة موشاف جيئا.",
+      "en": "Former Palestinian village, currently in the Ge'a area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе Гиа."
+    }
+  },
+  {
+    "id": "1614",
+    "name": {
+      "he": "עבדס / عبدس",
+      "ar": "عبدس",
+      "en": "Abdis",
+      "ru": "Абдис"
+    },
+    "coords": [
+      31.644,
+      34.741
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום בשוליים הצפוניים של קריית גת.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في الأطراف الشمالية لكريات غات.",
+      "en": "Former Palestinian village, currently in the northern outskirts of Kiryat Gat.",
+      "ru": "Бывшая палестинская деревня, ныне на северной окраине Кирьят-Гата."
+    }
+  },
+  {
+    "id": "1615",
+    "name": {
+      "he": "עראק סווידאן / عراق سويدان",
+      "ar": "عراق سويدان",
+      "en": "Iraq Suwaydan",
+      "ru": "Ирак-Сувейдан"
+    },
+    "coords": [
+      31.648,
+      34.691
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום מצודת יואב.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة ميتسودات يواف.",
+      "en": "Former Palestinian village, currently Metsudat Yoav.",
+      "ru": "Бывшая палестинская деревня, ныне Мецудат-Йоав."
+    }
+  },
+  {
+    "id": "1616",
+    "name": {
+      "he": "אל-מנסורה (עזה) / المنصورة (غزة)",
+      "ar": "المنصورة (غزة)",
+      "en": "Al-Mansura (Gaza)",
+      "ru": "Аль-Мансура (Газа)"
+    },
+    "coords": [
+      31.491,
+      34.498
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אדמות חקלאיות לשעבר, כיום באזור נחל עוז.",
+      "ar": "أراضٍ زراعية مهجرة، تقع اليوم بالقرب من منطقة ناحال عوز.",
+      "en": "Former agricultural lands, currently in the Nahal Oz area.",
+      "ru": "Бывшие сельскохозяйственные угодья, ныне в районе Нахаль-Оз."
+    }
+  },
+  {
+    "id": "1617",
+    "name": {
+      "he": "אל-ג'מאסין א-שרקי / الجمّاسين الشرقي",
+      "ar": "الجمّاسين الشرقي",
+      "en": "Al-Jammasin al-Sharqi",
+      "ru": "Эль-Джаммасин-эш-Шарки"
+    },
+    "coords": [
+      32.091,
+      34.831
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום בשטחי בני ברק.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في الأجزاء الغربية لمدينة بني براك.",
+      "en": "Former Palestinian village, currently in the Bnei Brak area.",
+      "ru": "Бывшая палестинская деревня, ныне на территории Бней-Брака."
+    }
+  },
+  {
+    "id": "1618",
+    "name": {
+      "he": "אל-ג'מאסין אל-ע'רבי / الجمّاسين الغربي",
+      "ar": "الجمّاسين الغربي",
+      "en": "Al-Jammasin al-Gharbi",
+      "ru": "Эль-Джаммасин-эль-Гарби"
+    },
+    "coords": [
+      32.098,
+      34.805
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום בצפון תל אביב (פארק הירקון).",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في شمال تل أبيب (منطقة حديقة اليركون).",
+      "en": "Former Palestinian village, currently in northern Tel Aviv (Yarkon Park).",
+      "ru": "Бывшая палестинская деревня, ныне в северном Тель-Авиве (парк Яркон)."
+    }
+  },
+  {
+    "id": "1619",
+    "name": {
+      "he": "פג'ה / فجّة",
+      "ar": "فجّة",
+      "en": "Fajja",
+      "ru": "Фаджа"
+    },
+    "coords": [
+      32.089,
+      34.908
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום שכונת עמישב בפתח תקווה.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في حي عميشاف بفتح تكفا.",
+      "en": "Former Palestinian village, currently Amishav neighborhood in Petah Tikva.",
+      "ru": "Бывшая палестинская деревня, ныне район Амишав в Петах-Тикве."
+    }
+  },
+  {
+    "id": "1620",
+    "name": {
+      "he": "אל-דוואימה / الدوايمة",
+      "ar": "الدوايمة",
+      "en": "Al-Dawayima",
+      "ru": "Аль-Давайима"
+    },
+    "coords": [
+      31.531,
+      34.887
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באזור המושב אמציה.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة موشاف أماتسيا.",
+      "en": "Former Palestinian village, currently in the Amatzia area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе Амация."
+    }
+  },
+  {
+    "id": "1621",
+    "name": {
+      "he": "בית טימא / بيت طيما",
+      "ar": "بيت طيما",
+      "en": "Bayt Tima",
+      "ru": "Бейт-Тима"
+    },
+    "coords": [
+      31.606,
+      34.601
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באזור המושב אור הנר.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة موشاف أور هانر.",
+      "en": "Former Palestinian village, currently in the Or HaNer area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе Ор-ха-Нер."
+    }
+  },
+  {
+    "id": "1622",
+    "name": {
+      "he": "נחף / نحف",
+      "ar": "نحف",
+      "en": "Nahf",
+      "ru": "Нахф"
+    },
+    "coords": [
+      32.932,
+      35.317
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני קיים בגליל עם היסטוריה קדומה.",
+      "ar": "قرية فلسطينية باقية في الجليل ذات تاريخ عريق.",
+      "en": "Existing Palestinian village in the Galilee with ancient history.",
+      "ru": "Существующая палестинская деревня в Галилее с древней историей."
+    }
+  },
+  {
+    "id": "1623",
+    "name": {
+      "he": "אל-קסאייר / الكساير",
+      "ar": "الكساير",
+      "en": "Al-Kusayir",
+      "ru": "Эль-Кусайр"
+    },
+    "coords": [
+      32.802,
+      35.101
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אתר כפר לשעבר, כיום באזור רמת יוחנן.",
+      "ar": "موقع قرية مهجرة، يقع اليوم في منطقة رامات يوخانان.",
+      "en": "Former village site, currently in the Ramat Yohanan area.",
+      "ru": "Место бывшей деревни, ныне в районе Рамат-Йоханан."
+    }
+  },
+  {
+    "id": "1624",
+    "name": {
+      "he": "יאג'וג' / ياجوج",
+      "ar": "ياجوج",
+      "en": "Yajuj",
+      "ru": "Яджудж"
+    },
+    "coords": [
+      32.748,
+      35.074
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום בקיבוץ יגור.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في كيبوتس ياغور.",
+      "en": "Former Palestinian village, currently in Kibbutz Yagur.",
+      "ru": "Бывшая палестинская деревня, ныне в кибуце Ягур."
+    }
+  },
+  {
+    "id": "1625",
+    "name": {
+      "he": "אקרית / اقرث",
+      "ar": "اقرث",
+      "en": "Iqrit",
+      "ru": "Икрит"
+    },
+    "coords": [
+      33.076,
+      35.344
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני שתושביו פונו, כיום באזור שומרה.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة أحراش شوميرا.",
+      "en": "Former Palestinian village, currently in the Shomera area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе Шомера."
+    }
+  },
+  {
+    "id": "1626",
+    "name": {
+      "he": "כסלא / كسلا",
+      "ar": "كسلا",
+      "en": "Kasla",
+      "ru": "Касла"
+    },
+    "coords": [
+      31.781,
+      35.056
+    ],
+    "category": "לפני 1948",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום במושב כסלון.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة موشاف كيسلون.",
+      "en": "Former Palestinian village, currently in the Kisalon area.",
+      "ru": "Бывшая палестинская деревня, ныне в районе Кисалон."
     }
   }
 ]
