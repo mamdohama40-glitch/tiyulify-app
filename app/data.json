@@ -35901,5 +35901,373 @@
       "en": "Former Palestinian village, currently in the northern industrial zone of Ashkelon.",
       "ru": "Бывшая палестинская деревня, ныне в северной промзоне Ашкелона."
     }
+  },
+  {
+    "id": "1668",
+    "name": {
+      "he": "נחל שורק (אזור בית זית) / وادي الصرار",
+      "ar": "وادي الصرار (منطقة بيت زيت)",
+      "en": "Wadi al-Sarar (Beit Zayit)",
+      "ru": "Нахаль-Сорек (район Бейт-Зайт)"
+    },
+    "coords": [
+      31.7869,
+      35.1583
+    ],
+    "category": "מעיינות ונחלים",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מקטע של נחל שורק העובר באזור מושב בית זית.",
+      "ar": "مقطع من وادي الصرار يمر عبر منطقة موشاف بيت زيت.",
+      "en": "A section of Sorek Stream passing through the Beit Zayit area.",
+      "ru": "Участок ручья Сорек, проходящий через район мошава Бейт-Зайт."
+    }
+  },
+  {
+    "id": "1669",
+    "name": {
+      "he": "עין חנדק / عين حندق",
+      "ar": "عين حندق",
+      "en": "Ein Handak",
+      "ru": "Эйн-Хандак"
+    },
+    "coords": [
+      31.7658,
+      35.1397
+    ],
+    "category": "מעיינות ונחלים",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מעיין שכבה עם ניקבות מים מרשימות בהרי ירושלים.",
+      "ar": "نبع مياه طبيعي مع أنفاق مائية مثيرة في جبال القدس.",
+      "en": "A natural spring with impressive water tunnels in the Jerusalem Hills.",
+      "ru": "Природный источник с впечатляющими водными туннелями в Иерусалимских горах."
+    }
+  },
+  {
+    "id": "1670",
+    "name": {
+      "he": "פארק הצבאים / حديقة الغزلان",
+      "ar": "حديقة الغزلان",
+      "en": "Gazelle Valley Park",
+      "ru": "Парк Газелей"
+    },
+    "coords": [
+      31.7619,
+      35.2014
+    ],
+    "category": "פארקים וטבע",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק טבע עירוני המהווה בית לעדר צבאי הר בלב ירושלים.",
+      "ar": "منتزه طبيعي حضري يأوي قطيعاً من الغزلان الجبلية في قلب القدس.",
+      "en": "An urban nature park that is home to a herd of mountain gazelles in the heart of Jerusalem.",
+      "ru": "Городской природный парк, где в центре Иерусалима живет стадо горных газелей."
+    }
+  },
+  {
+    "id": "1671",
+    "name": {
+      "he": "עמק הארזים / وادي الأرز",
+      "ar": "وادي الأرز",
+      "en": "Arazim Valley",
+      "ru": "Долина Аразим"
+    },
+    "coords": [
+      31.8028,
+      35.1831
+    ],
+    "category": "פארקים וטבע",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "עמק רחב בצפון ירושלים המציע מסלולי טיול ושטחים פתוחים.",
+      "ar": "وادٍ واسع في شمال القدس يوفر مسارات للمشي ومساحات مفتوحة.",
+      "en": "A wide valley in northern Jerusalem offering hiking trails and open spaces.",
+      "ru": "Широкая долина на севере Иерусалима с пешеходными тропами и открытыми пространствами."
+    }
+  },
+  {
+    "id": "1672",
+    "name": {
+      "he": "הגן הבוטני גבעת רם / الحديقة النباتية جفعات رام",
+      "ar": "الحديقة النباتية جفعات رام",
+      "en": "Jerusalem Botanical Gardens",
+      "ru": "Ботанический сад в Гиват-Рам"
+    },
+    "coords": [
+      31.77,
+      35.2
+    ],
+    "category": "פארקים וטבע",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן בוטני המציג אוספי צמחים מכל העולם לפי אזורים גאוגרפיים.",
+      "ar": "حديقة نباتية تعرض مجموعات نباتية من جميع أنحاء العالم مقسمة حسب المناطق الجغرافية.",
+      "en": "A botanical garden displaying plant collections from around the world divided by geographical regions.",
+      "ru": "Ботанический сад, представляющий коллекции растений со всего мира, разделенные по географическим зонам."
+    }
+  },
+  {
+    "id": "1673",
+    "name": {
+      "he": "מצודת הקסטל / القسطل",
+      "ar": "القسطل",
+      "en": "Castel National Park",
+      "ru": "Национальный парк Кастель"
+    },
+    "coords": [
+      31.7944,
+      35.1447
+    ],
+    "category": "לפני 1948",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אתר היסטורי וכפר לשעבר ששימש נקודה אסטרטגית בדרך לירושלים.",
+      "ar": "موقع تاريخي وقرية مهجرة كانت بمثابة نقطة استراتيجية على الطريق إلى القدس.",
+      "en": "A historic site and former village that served as a strategic point on the road to Jerusalem.",
+      "ru": "Историческое место и бывшая деревня, служившая стратегическим пунктом на пути в Иерусалим."
+    }
+  },
+  {
+    "id": "1674",
+    "name": {
+      "he": "מצפה הר הצופים / مطلة جبل المشارف",
+      "ar": "مطلة جبل المشارف",
+      "en": "Mount Scopus Lookout",
+      "ru": "Обзорная площадка на горе Скопус"
+    },
+    "coords": [
+      31.7925,
+      35.2444
+    ],
+    "category": "תצפיות ונופים",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "נקודת תצפית פנורמית על העיר העתיקה ומדבר יהודה.",
+      "ar": "نقطة مراقبة بانورامية تطل على البلدة القديمة وصحراء يهودا.",
+      "en": "A panoramic viewpoint overlooking the Old City and the Judean Desert.",
+      "ru": "Панорамная точка с видом на Старый город и Иудейскую пустыню."
+    }
+  },
+  {
+    "id": "1675",
+    "name": {
+      "he": "יד קנדי / ياد كينيدي",
+      "ar": "ياد كينيدي",
+      "en": "Yad Kennedy",
+      "ru": "Яд-Кеннеди"
+    },
+    "coords": [
+      31.7489,
+      35.1344
+    ],
+    "category": "תצפיות ונופים",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אנדרטה לזכר ג'ון פ. קנדי המציעה תצפית רחבה על הרי ירושלים.",
+      "ar": "نصب تذكاري لجون إف كينيدي يوفر إطلالة واسعة على جبال القدس.",
+      "en": "A memorial to John F. Kennedy offering a wide view of the Jerusalem Hills.",
+      "ru": "Мемориал Джона Ф. Кеннеди с широким видом на Иерусалимские горы."
+    }
+  },
+  {
+    "id": "1676",
+    "name": {
+      "he": "פארק המסילה / منتزه المسيلة",
+      "ar": "منتزه المسيلة",
+      "en": "Train Track Park",
+      "ru": "Парк Ха-Месила"
+    },
+    "coords": [
+      31.7567,
+      35.2158
+    ],
+    "category": "אופניים והליכה",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "פארק ליניארי על תוואי מסילת הרכבת הישנה לירושלים.",
+      "ar": "منتزه خطي أقيم على مسار خط السكة الحديد القديم إلى القدس.",
+      "en": "A linear park built along the route of the old railway line to Jerusalem.",
+      "ru": "Линейный парк, построенный на пути старой железной дороги в Иерусалим."
+    }
+  },
+  {
+    "id": "1677",
+    "name": {
+      "he": "שביל ירושלים (מקטע הסטף) / طريق القدس",
+      "ar": "طريق القدس (مقطع الساطف)",
+      "en": "Jerusalem Trail (Sataf section)",
+      "ru": "Тропа Иерусалима (участок Сатаф)"
+    },
+    "coords": [
+      31.7706,
+      35.1325
+    ],
+    "category": "אופניים והליכה",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "חלק משביל ירושלים העובר דרך טרסות ומעיינות הסטף.",
+      "ar": "جزء من طريق القدس يمر عبر المدرجات والينابيع في منطقة الساطف.",
+      "en": "Part of the Jerusalem Trail passing through the terraces and springs of Sataf.",
+      "ru": "Часть Иерусалимской тропы, проходящая через террасы и источники Сатафа."
+    }
+  },
+  {
+    "id": "1678",
+    "name": {
+      "he": "מנהרת הגיחון / نفق جيحون",
+      "ar": "نفق جيحون",
+      "en": "Gihon Tunnel (Hezekiah's Tunnel)",
+      "ru": "Туннель Гихон"
+    },
+    "coords": [
+      31.7725,
+      35.2358
+    ],
+    "category": "היסטוריה",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "מנהרת מים קדומה בעיר דוד המתוארכת לימי בית ראשון.",
+      "ar": "نفق مائي قديم في مدينة داود يعود تاريخه إلى فترة الهيكل الأول.",
+      "en": "An ancient water tunnel in the City of David dating back to the First Temple period.",
+      "ru": "Древний водный туннель в Городе Давида, относящийся к периоду Первого Храма."
+    }
+  },
+  {
+    "id": "1679",
+    "name": {
+      "he": "גן החיות התנ\"כי / حديقة الحيوانات التوراتية",
+      "ar": "حديقة الحيوانات التوراتية",
+      "en": "Biblical Zoo",
+      "ru": "Библейский зоопарк"
+    },
+    "coords": [
+      31.7458,
+      35.1747
+    ],
+    "category": "אטרקציות",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "גן חיות המתמקד בבעלי חיים שהוזכרו בתנ\"ך ובשימור מינים.",
+      "ar": "حديقة حيوانات تركز على الحيوانات المذكورة في الكتاب المقدس وحفظ الأنواع.",
+      "en": "A zoo focusing on animals mentioned in the Bible and species conservation.",
+      "ru": "Зоопарк, специализирующийся на животных, упомянутых в Библии, и сохранении видов."
+    }
+  },
+  {
+    "id": "1680",
+    "name": {
+      "he": "אכסניית אנ\"א אגרון / نزل أنا أغرون",
+      "ar": "نزل أنا أغرون",
+      "en": "Agron Youth Hostel",
+      "ru": "Хостел Агрон (ANA)"
+    },
+    "coords": [
+      31.7778,
+      35.2192
+    ],
+    "category": "לינה",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "אכסניית נוער מרכזית בירושלים הממוקמת סמוך למרכז העיר.",
+      "ar": "نزل للشباب يقع في وسط مدينة القدس بالقرب من مركز المدينة.",
+      "en": "A central youth hostel in Jerusalem located near the city center.",
+      "ru": "Центральный хостел в Иерусалиме, расположенный недалеко от центра города."
+    }
+  },
+  {
+    "id": "1681",
+    "name": {
+      "he": "פארק נחל רפאים (הוולג'ה הישנה) / الولجة",
+      "ar": "الولجة (القديمة)",
+      "en": "Al-Walaja (Old)",
+      "ru": "Эль-Валаджа (старая)"
+    },
+    "coords": [
+      31.7428,
+      35.1639
+    ],
+    "category": "לפני 1948",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "שטח כפרי היסטורי וכפר לשעבר, כיום חלק מפארק נחל רפאים.",
+      "ar": "منطقة ريفية تاريخية وقرية مهجرة، اليوم جزء من منتزه وادي رفائيم.",
+      "en": "Historical rural area and former village, currently part of Refaim Valley Park.",
+      "ru": "Историческая сельская местность и бывшая деревня, ныне часть парка Нахаль-Рефаим."
+    }
+  },
+  {
+    "id": "1682",
+    "name": {
+      "he": "מלחה (מנחת) / المالحة",
+      "ar": "المالحة",
+      "en": "Al-Maliha",
+      "ru": "Мальха"
+    },
+    "coords": [
+      31.7525,
+      35.1878
+    ],
+    "category": "לפני 1948",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום שכונת מגורים ומרכז מסחרי בירושלים.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم فيها حي سكني ومركز تجاري في القدس.",
+      "en": "Former Palestinian village, currently a residential neighborhood and commercial center in Jerusalem.",
+      "ru": "Бывшая палестинская деревня, ныне жилой район и торговый центр в Иерусалиме."
+    }
+  },
+  {
+    "id": "1683",
+    "name": {
+      "he": "תל צובה / صوبا",
+      "ar": "صوبا",
+      "en": "Suba",
+      "ru": "Суба"
+    },
+    "coords": [
+      31.7819,
+      35.1264
+    ],
+    "category": "לפני 1948",
+    "region": "center",
+    "video": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
+    "description": {
+      "he": "כפר פלסטיני לשעבר, כיום באזור קיבוץ צובה הכולל ממצאים ארכאולוגיים.",
+      "ar": "قرية فلسطينية مهجرة، تقع اليوم في منطقة كيبوتس تسوفا وتضم مكتشفات أثرية.",
+      "en": "Former Palestinian village, currently in the Kibbutz Tzuba area containing archaeological remains.",
+      "ru": "Бывшая палестинская деревня, ныне в районе кибуца Цуба, включает археологические находки."
+    }
   }
 ]
