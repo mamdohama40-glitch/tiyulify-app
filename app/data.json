@@ -14087,14 +14087,14 @@
   {
     "id": "646",
     "name": {
-      "he": "מצפור המוביל",
-      "ar": "مطل هموביל",
+      "he": "מצפור צ'רה המוביל",
+      "ar": "مطل تشيرا",
       "en": "HaMovil Lookout",
       "ru": "Смотровая площадка Ха-Мовиль"
     },
     "coords": [
-      32.7612,
-      35.2345
+      32.8989, 
+      35.4957
     ],
     "category": "viewpoint",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Golan_Heights_Green.jpg/800px-Golan_Heights_Green.jpg",
