@@ -154,7 +154,7 @@ function UserPhotos({ item }: { item: any }) {
               if (!n) { n = prompt('מה שמך? (יישמר לפעמים הבאות)') || 'אורח'; if(n!=='אורח') localStorage.setItem('tiyulify_name', n); }
               return n;
             })(), taken_at: new Date().toISOString(), status: 'pending' });
-          setRefresh(r => r+1);
+          setRefresh(r => r+1); alert('✅ התמונה התקבלה ותפורסם בקרוב לאחר אישור!');
         }} />
       </label>
     </div>
@@ -194,7 +194,7 @@ function UserPhotos({ item }: { item: any }) {
               if (!n) { n = prompt('מה שמך? (יישמר לפעמים הבאות)') || 'אורח'; if(n!=='אורח') localStorage.setItem('tiyulify_name', n); }
               return n;
             })(), taken_at: new Date().toISOString(), status: 'pending' });
-          setRefresh(r => r+1);
+          setRefresh(r => r+1); alert('✅ התמונה התקבלה ותפורסם בקרוב לאחר אישור!');
         }} />
       </label>
     </div>
