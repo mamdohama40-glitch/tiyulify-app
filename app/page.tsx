@@ -763,7 +763,7 @@ export default function TiyulifyApp() {
                       L.popup()
                         .setLatLng([lat, lng])
                         .setContent(`<div dir="rtl" style="min-width:220px;font-family:Arial;padding:4px">
-                          <b style="font-size:15px;color:#166534;display:block;margin-bottom:4px">${name}</b>
+                          <a href="https://www.google.com/search?q=${encodeURIComponent(name)}" target="_blank" style="font-size:15px;color:#166534;display:block;margin-bottom:4px;font-weight:bold;text-decoration:none">🔍 ${name}</a>
                           ${type ? `<span style="font-size:11px;background:#dcfce7;color:#166534;padding:2px 8px;border-radius:12px;display:inline-block;margin-bottom:6px">${type}</span>` : ''}
                           <p style="font-size:11px;color:#6b7280;margin:0 0 4px;line-height:1.4">${addr}</p>
                           ${dist ? `<p style="font-size:12px;color:#374151;margin:0 0 8px">📍 מרחק: <b>${dist} ק"מ</b></p>` : ''}
