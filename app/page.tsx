@@ -72,9 +72,10 @@ function PhotoUploader({ item, onPhotoAdded }: { item: any; onPhotoAdded: () => 
         file_path: fileName,
         uploader_name: name || 'אורח',
         taken_at: new Date().toISOString(),
+        status: 'pending',
       });
       onPhotoAdded();
-      alert('✅ התמונה הועלתה בהצלחה!');
+      alert('✅ התמונה התקבלה ותפורסם בקרוב לאחר אישור!');
     } catch (err) {
       alert('שגיאה בהעלאה');
     } finally {
@@ -109,6 +110,7 @@ function UserPhotos({ item }: { item: any }) {
     supabase.from('place_photos')
       .select('*')
       .eq('place_id', item.id)
+      .eq('status', 'approved')
       .order('taken_at', { ascending: false })
       .then(({ data }) => { setPhotos(data || []); setIdx(0); });
   }, [item.id, refresh]);
@@ -151,7 +153,7 @@ function UserPhotos({ item }: { item: any }) {
               let n = localStorage.getItem('tiyulify_name');
               if (!n) { n = prompt('מה שמך? (יישמר לפעמים הבאות)') || 'אורח'; if(n!=='אורח') localStorage.setItem('tiyulify_name', n); }
               return n;
-            })(), taken_at: new Date().toISOString() });
+            })(), taken_at: new Date().toISOString(), status: 'pending' });
           setRefresh(r => r+1);
         }} />
       </label>
@@ -191,7 +193,7 @@ function UserPhotos({ item }: { item: any }) {
               let n = localStorage.getItem('tiyulify_name');
               if (!n) { n = prompt('מה שמך? (יישמר לפעמים הבאות)') || 'אורח'; if(n!=='אורח') localStorage.setItem('tiyulify_name', n); }
               return n;
-            })(), taken_at: new Date().toISOString() });
+            })(), taken_at: new Date().toISOString(), status: 'pending' });
           setRefresh(r => r+1);
         }} />
       </label>
@@ -220,6 +222,7 @@ function SidebarImage({ item, className }: { item: any; className?: string }) {
     supabase.from('place_photos')
       .select('file_path')
       .eq('place_id', item.id)
+      .eq('status', 'approved')
       .order('taken_at', { ascending: false })
       .then(({ data }) => {
         if (data && data.length > 0) {
