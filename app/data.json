@@ -38291,5 +38291,555 @@
       "ru": "Сухой маршрут. Живописная тропа с самым длинным подвесным мостом в Израиле."
     },
     "region": "south"
+  },
+  {
+    "id": "1770",
+    "name": {
+      "he": "נחל דוד (המסלול הקצר)",
+      "ar": "وادي داود (المسار القصير)",
+      "en": "Nahal David (Short Trail)",
+      "ru": "Нахаль Давид (короткий маршрут)"
+    },
+    "coords": [
+      31.465,
+      35.394
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1542301140-62947f63080e?w=600",
+    "description": {
+      "he": "מסלול משפחות נגיש למפל דוד ובריכות השכשוך.",
+      "ar": "مسار عائلي متاح لشلال داود وبرك السباحة.",
+      "en": "Accessible family trail to David Waterfall and wading pools.",
+      "ru": "Доступный семейный маршрут к водопаду Давид и заводям."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1771",
+    "name": {
+      "he": "נחל ערוגות (עד המפל)",
+      "ar": "وادي عروغوت (إلى الشلال)",
+      "en": "Nahal Arugot (To the Waterfall)",
+      "ru": "Нахаль Аругот (до водопада)"
+    },
+    "coords": [
+      31.455,
+      35.385
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "הליכה במים זורמים עד למפל הנסתר ובריכות המים.",
+      "ar": "المشي في المياه الجارية إلى الشلال الخفي وبرك المياه.",
+      "en": "Walking in flowing water to the Hidden Waterfall and pools.",
+      "ru": "Прогулка по проточной воде к Скрытому водопаду и бассейнам."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1772",
+    "name": {
+      "he": "מערת דודים",
+      "ar": "كهف دوديم",
+      "en": "Dodim Cave",
+      "ru": "Пещера Додим"
+    },
+    "coords": [
+      31.471,
+      35.388
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=600",
+    "description": {
+      "he": "טיפוס מנחל דוד למערה קסומה עם מפל ובריכה.",
+      "ar": "تسلق من وادي داود إلى كهف ساحر مع شلال وبركة.",
+      "en": "Climb from Nahal David to a magical cave with a waterfall and pool.",
+      "ru": "Подъем от Нахаль Давид к пещере с водопадом и бассейном."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1773",
+    "name": {
+      "he": "נחל ערוגות עליון",
+      "ar": "وادي عروغوت العلوي",
+      "en": "Upper Nahal Arugot",
+      "ru": "Верхний Нахаль Аругот"
+    },
+    "coords": [
+      31.448,
+      35.372
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "description": {
+      "he": "המשך המסלול לבריכות העליונות (למטיבי לכת).",
+      "ar": "استمرار المسار إلى البرك العلوية (للمشاة المتمرسين).",
+      "en": "Continuation of the trail to the upper pools (advanced hikers).",
+      "ru": "Продолжение маршрута к верхним бассейнам (для опытных)."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1774",
+    "name": {
+      "he": "מעיין עין גדי",
+      "ar": "نبع عين جدي",
+      "en": "Ein Gedi Spring",
+      "ru": "Источник Эйн-Геди"
+    },
+    "coords": [
+      31.462,
+      35.386
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=600",
+    "description": {
+      "he": "טיפוס למעיין הנובע מלב המצוק ותצפית לים המלח.",
+      "ar": "تسلق إلى النبع النابع من قلب المنحدر وإطلالة على البحر الميت.",
+      "en": "Climb to the spring flowing from the cliff and a Dead Sea view.",
+      "ru": "Подъем к источнику в скале и вид на Мертвое море."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1775",
+    "name": {
+      "he": "מעלה ישי",
+      "ar": "منحدر يشاي",
+      "en": "Ma ale Yishai",
+      "ru": "Маале Ишай"
+    },
+    "coords": [
+      31.467,
+      35.391
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "טיפוס תלול ומאתגר לתצפית פנורמית על השמורה.",
+      "ar": "تسلق حاد وصعب لإطلالة بانورامية على المحمية.",
+      "en": "Steep and challenging climb for a panoramic view of the reserve.",
+      "ru": "Крутой подъем к панорамному виду на заповедник."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1776",
+    "name": {
+      "he": "נחל בוקק (המסלול הרטוב)",
+      "ar": "وادي بوكيك (المسار الرطب)",
+      "en": "Nahal Bokek (Wet Trail)",
+      "ru": "Нахаль Бокек (водный маршрут)"
+    },
+    "coords": [
+      31.198,
+      35.362
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+    "description": {
+      "he": "מסלול קצר ומוצל בתוך מים זורמים ליד המלונות.",
+      "ar": "مسار قصير ومظلل داخل المياه الجارية بالقرب من الفنادق.",
+      "en": "Short and shaded trail within flowing water near the hotels.",
+      "ru": "Короткий тенистый маршрут в воде рядом с отелями."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1777",
+    "name": {
+      "he": "מצדה - שביל הנחש",
+      "ar": "مسعدة - مسار الثعبان",
+      "en": "Masada - Snake Path",
+      "ru": "Масада - Змеиная тропа"
+    },
+    "coords": [
+      31.312,
+      35.353
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
+    "description": {
+      "he": "טיפוס קלאסי בזריחה לארמונות הורדוס.",
+      "ar": "تسلق كلاسيكي عند شروق الشمس إلى قصور هيرودس.",
+      "en": "Classic sunrise climb to Herods palaces.",
+      "ru": "Классический подъем на рассвете к дворцам Ирода."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1778",
+    "name": {
+      "he": "מצדה - שביל הסוללה",
+      "ar": "مسعدة - مسار السد",
+      "en": "Masada - Roman Ramp",
+      "ru": "Масада - Римская насыпь"
+    },
+    "coords": [
+      31.314,
+      35.348
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+    "description": {
+      "he": "עלייה קצרה ונוחה יותר מהצד המערבי של ההר.",
+      "ar": "صعود قصير وأكثر راحة من الجانب الغربي للجبل.",
+      "en": "Short and more convenient climb from the western side of the mountain.",
+      "ru": "Короткий и удобный подъем с западной стороны горы."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1779",
+    "name": {
+      "he": "נחל דראגה (דרגות)",
+      "ar": "وادي دراجة",
+      "en": "Nahal Dragot (Darga)",
+      "ru": "Нахаль Драгот"
+    },
+    "coords": [
+      31.592,
+      35.405
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
+    "description": {
+      "he": "קניון עמוק ומאתגר הדורש שימוש בחבלים וגבים עמוקים.",
+      "ar": "وادي عميق وصعب يتطلب استخدام الحبال والبرك العميقة.",
+      "en": "Deep and challenging canyon requiring ropes and deep pools.",
+      "ru": "Глубокий каньон, требующий веревок и прохождения глубоких запруд."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1780",
+    "name": {
+      "he": "נחל אוג (תחתון)",
+      "ar": "وادي أوغ (السفلي)",
+      "en": "Nahal Og (Lower)",
+      "ru": "Нахаль Ог (нижний)"
+    },
+    "coords": [
+      31.782,
+      35.461
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f04b?w=600",
+    "description": {
+      "he": "מסלול אתגרי הכולל ירידה בסולמות בתוך קניון צר.",
+      "ar": "مسار صعب يتضمن النزول على السلالم داخل وادٍ ضيق.",
+      "en": "Challenging trail including ladder descent in a narrow canyon.",
+      "ru": "Экстремальный маршрут со спуском по лестницам в узком каньоне."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1781",
+    "name": {
+      "he": "עינות צוקים (עין פשחה)",
+      "ar": "عين الفشخة",
+      "en": "Einot Tzukim (Ein Feshkha)",
+      "ru": "Эйнот Цуким"
+    },
+    "coords": [
+      31.716,
+      35.452
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "description": {
+      "he": "שמורת טבע עם בריכות מים מתוקים על חוף הים.",
+      "ar": "محمية طبيعية مع برك مياه عذبة على شاطئ البحر.",
+      "en": "Nature reserve with freshwater pools on the seashore.",
+      "ru": "Заповедник с пресными бассейнами на берегу моря."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1782",
+    "name": {
+      "he": "נחל תמר",
+      "ar": "وادي تمر",
+      "en": "Nahal Tamar",
+      "ru": "Нахаль Тамар"
+    },
+    "coords": [
+      30.985,
+      35.302
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=600",
+    "description": {
+      "he": "טיפוס בסולמות בתוך נחל צר ומרשים.",
+      "ar": "تسلق السلالم داخل وادٍ ضيق ورائع.",
+      "en": "Climbing ladders inside a narrow and impressive stream.",
+      "ru": "Подъем по лестницам в узком и впечатляющем русле."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1783",
+    "name": {
+      "he": "נחל צפית",
+      "ar": "وادي صفيت",
+      "en": "Nahal Tzafit",
+      "ru": "Нахаль Цафит"
+    },
+    "coords": [
+      30.992,
+      35.311
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=600",
+    "description": {
+      "he": "מסלול קניוני הכולל סולמות וגבי מים.",
+      "ar": "مسار في الوادي يتضمن سلالم وبرك مياه.",
+      "en": "Canyon trail including ladders and water pools.",
+      "ru": "Каньонинговый маршрут с лестницами и заводями."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1784",
+    "name": {
+      "he": "נחל משמר",
+      "ar": "وادي مشمار",
+      "en": "Nahal Mishmar",
+      "ru": "Нахаль Мишмар"
+    },
+    "coords": [
+      31.378,
+      35.374
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "מסלול אתגרי בקניון צר עם גבי מים בעונה.",
+      "ar": "مسار صعب في وادٍ ضيق مع برك مياه في الموسم.",
+      "en": "Challenging trail in a narrow canyon with seasonal pools.",
+      "ru": "Экстремальный маршрут в узком каньоне с сезонными заводями."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1785",
+    "name": {
+      "he": "נחל צאלים (עד בריכת צפירה)",
+      "ar": "وادي سيال (إلى بركة صفيرة)",
+      "en": "Nahal Tzeelim (To Tzfira Pool)",
+      "ru": "Нахаль Цеэлим (до бассейна Цефира)"
+    },
+    "coords": [
+      31.345,
+      35.302
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "מסלול למטיבי לכת לאחד הגבים הגדולים במדבר.",
+      "ar": "مسار للمشاة المتمرسين إلى واحدة من أكبر البرك في الصحراء.",
+      "en": "Trail for advanced hikers to one of the deserts largest pools.",
+      "ru": "Маршрут для опытных к одному из крупнейших водоемов в пустыне."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1786",
+    "name": {
+      "he": "חורי מצדה",
+      "ar": "فتحات مسعدة",
+      "en": "Masada Holes",
+      "ru": "Хаварей Масада"
+    },
+    "coords": [
+      31.316,
+      35.372
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
+    "description": {
+      "he": "מסלול הליכה בתוך סלעי חוואר לבנים ומרשימים.",
+      "ar": "مسار مشي داخل صخور الحوار البيضاء الرائعة.",
+      "en": "Hiking trail within impressive white marl rocks.",
+      "ru": "Прогулочный маршрут среди впечатляющих белых мергелевых скал."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1787",
+    "name": {
+      "he": "נחל קומראן",
+      "ar": "وادي قمران",
+      "en": "Nahal Qumran",
+      "ru": "Нахаль Кумран"
+    },
+    "coords": [
+      31.741,
+      35.459
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "description": {
+      "he": "הליכה באתר ארכיאולוגי ומסלול סנפלינג בנחל.",
+      "ar": "المشي في موقع أثري ومسار هبوط بالحبال في الوادي.",
+      "en": "Walking in an archaeological site and rappelling in the stream.",
+      "ru": "Прогулка по археологическому памятнику и каньонинг."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1788",
+    "name": {
+      "he": "הר סדום ומערת הקמח",
+      "ar": "جبل سدوم وكهف الدقيق",
+      "en": "Mount Sodom and Flour Cave",
+      "ru": "Гора Содом и Мучная пещера"
+    },
+    "coords": [
+      31.068,
+      35.385
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+    "description": {
+      "he": "מסלול בין סלעי מלח ותצפיות על בריכות האידוי.",
+      "ar": "مسار بين صخور الملح وإطلالات على برك التبخير.",
+      "en": "Trail between salt rocks and views of the evaporation pools.",
+      "ru": "Маршрут среди соляных скал с видом на испарительные бассейны."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1789",
+    "name": {
+      "he": "נחל פרצים",
+      "ar": "وادي فرتيم",
+      "en": "Nahal Pratzim",
+      "ru": "Нахаль Працим"
+    },
+    "coords": [
+      31.071,
+      35.372
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f04b?w=600",
+    "description": {
+      "he": "הליכה בקניון של סלעי חוואר, מומלץ בלילות ירח מלא.",
+      "ar": "المشي في وادي صخور الحوار، يوصى به في ليالي البدر.",
+      "en": "Walking in a marl canyon, recommended on full moon nights.",
+      "ru": "Прогулка по мергелевому каньону, рекомендуется в полнолуние."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1790",
+    "name": {
+      "he": "צוק תמרור לעין בוקק",
+      "ar": "جرف تمرور إلى عين بوكيك",
+      "en": "Tzuk Tamrur to Ein Bokek",
+      "ru": "Цук Тамрур к Эйн-Бокек"
+    },
+    "coords": [
+      31.211,
+      35.341
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "description": {
+      "he": "מסלול עם תצפית מרהיבה וירידה לנחל הזורם.",
+      "ar": "مسار مع إطلالة رائعة ونزول إلى الوادي الجاري.",
+      "en": "Trail with a spectacular view and descent to the flowing stream.",
+      "ru": "Маршрут с захватывающим видом и спуском к ручью."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1791",
+    "name": {
+      "he": "מנזר סנט גורג (ואדי קלט)",
+      "ar": "دير سانت جورج",
+      "en": "St. Georges Monastery",
+      "ru": "Монастырь Сент-Джордж"
+    },
+    "coords": [
+      31.843,
+      35.412
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1542301140-62947f63080e?w=600",
+    "description": {
+      "he": "תצפית וירידה למנזר התלוי על המצוק בנחל פרת.",
+      "ar": "إطلالة ونزول إلى الدير المعلق على الجرف في وادي القلط.",
+      "en": "View and descent to the monastery hanging on the cliff.",
+      "ru": "Вид и спуск к монастырю, висящему на скале."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1792",
+    "name": {
+      "he": "נחל יזרח",
+      "ar": "وادي يزرح",
+      "en": "Nahal Izrah",
+      "ru": "Нахаль Израх"
+    },
+    "coords": [
+      31.189,
+      35.358
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+    "description": {
+      "he": "מסלול בינוני בדרום ים המלח עם נופי מדבר פראיים.",
+      "ar": "مسار متوسط في جنوب البحر الميت مع مناظر صحراوية برية.",
+      "en": "Moderate trail in southern Dead Sea with wild desert views.",
+      "ru": "Средний маршрут на юге Мертвого моря с дикими пейзажами."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1793",
+    "name": {
+      "he": "נחל רום",
+      "ar": "وادي روم",
+      "en": "Nahal Rom",
+      "ru": "Нахаль Ром"
+    },
+    "coords": [
+      31.182,
+      35.361
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=600",
+    "description": {
+      "he": "מסלול המחבר בין רמת המדבר לים המלח בנוף דולומיטי.",
+      "ar": "مسار يربط بين هضبة الصحراء والبحر الميت في منظر دولوميتي.",
+      "en": "Trail connecting the desert plateau to the Dead Sea.",
+      "ru": "Путь, соединяющий плато с Мертвым морем."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1794",
+    "name": {
+      "he": "נחל סלוודורה",
+      "ar": "وادي سلفادورا",
+      "en": "Nahal Salvadora",
+      "ru": "Нахаль Сальвадора"
+    },
+    "coords": [
+      31.532,
+      35.394
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=600",
+    "description": {
+      "he": "מסלול קצר המוביל לעץ סלוודורה ענק ומעיין קטן.",
+      "ar": "مسار قصير يؤدي إلى شجرة سلفادورا ضخمة ونبع صغير.",
+      "en": "Short trail to a giant Salvadora tree and a small spring.",
+      "ru": "Короткий путь к гигантскому дереву Сальвадора."
+    },
+    "region": "south"
   }
 ]
