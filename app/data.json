@@ -3232,7 +3232,8 @@
       "en": "Authentic desert hospitality, staying in tents or rooms at the foot of the crater.",
       "ru": "Аутентичное гостеприимство в пустыне, проживание в палатках или комнатах."
     },
-    "region": "south"
+    "region": "south",
+    "phone": "08-6535777"
   },
   {
     "id": "150",
@@ -4310,7 +4311,8 @@
       "en": "Rustic wooden cabins facing the Sea of Galilee view.",
       "ru": "Деревенские деревянные домики с видом на Кинерет."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "050-5221041"
   },
   {
     "id": "199",
@@ -4332,7 +4334,8 @@
       "en": "Luxury suites in a classic Galilean atmosphere.",
       "ru": "Роскошные люксы в классической галилейской атмосфере."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "052-3211511"
   },
   {
     "id": "200",
@@ -4354,7 +4357,8 @@
       "en": "Serene vegan accommodation in the heart of the forest.",
       "ru": "Спокойное веганское жилье в самом сердце леса."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "050-2443424"
   },
   {
     "id": "201",
@@ -4376,7 +4380,8 @@
       "en": "Vintage accommodation in the northernmost colony.",
       "ru": "Винтажное жилье в самой северной колонии."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "050-2525545"
   },
   {
     "id": "202",
@@ -4398,7 +4403,8 @@
       "en": "Modern suites with a private pool.",
       "ru": "Современные люксы с частным бассейном."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "054-4720978"
   },
   {
     "id": "203",
@@ -4420,7 +4426,8 @@
       "en": "Romantic cabins surrounded by orchards.",
       "ru": "Романтические домики в окружении садов."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "050-5309712"
   },
   {
     "id": "204",
@@ -4442,7 +4449,8 @@
       "en": "Luxury desert suites on the edge of the crater.",
       "ru": "Роскошные люксы в пустыне на краю кратера."
     },
-    "region": "south"
+    "region": "south",
+    "phone": "052-4467367"
   },
   {
     "id": "205",
@@ -4464,7 +4472,8 @@
       "en": "Isolated eco-lodging in a village without central electricity.",
       "ru": "Уединенное эко-жилье в поселке без централизованного электричества."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "052-3904550"
   },
   {
     "id": "206",
@@ -4486,7 +4495,8 @@
       "en": "First-line cliff accommodation with breathtaking views.",
       "ru": "Жилье на первой линии утеса с захватывающим видом."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "073-2717555"
   },
   {
     "id": "207",
@@ -4508,7 +4518,8 @@
       "en": "European-style wooden cabins at high altitude.",
       "ru": "Деревянные домики в европейском стиле на большой высоте."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "050-5321528"
   },
   {
     "id": "208",
@@ -4530,7 +4541,8 @@
       "en": "Rural guest rooms alongside flowing streams.",
       "ru": "Сельские гостевые комнаты рядом с текущими ручьями."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-6945011"
   },
   {
     "id": "209",
@@ -4552,7 +4564,8 @@
       "en": "Cozy rooms in the heart of the unique botanical garden.",
       "ru": "Уютные номера в самом сердце уникального ботанического сада."
     },
-    "region": "south"
+    "region": "south",
+    "phone": "08-6594222"
   },
   {
     "id": "210",
@@ -4574,7 +4587,8 @@
       "en": "Urban accommodation in the alleys of Old Jaffa.",
       "ru": "Городское жилье в переулках Старого Яффо."
     },
-    "region": "center"
+    "region": "center",
+    "phone": "03-6821737"
   },
   {
     "id": "211",
@@ -4596,7 +4610,8 @@
       "en": "Guest rooms on the banks of the beautiful Asi River.",
       "ru": "Гостевые комнаты на берегу прекрасной реки Аси."
     },
-    "region": "center"
+    "region": "center",
+    "phone": "04-6488522"
   },
   {
     "id": "212",
@@ -4618,7 +4633,8 @@
       "en": "Educational and desert accommodation near Ben-Gurion's grave.",
       "ru": "Образовательное и пустынное жилье рядом с могилой Бен-Гуриона."
     },
-    "region": "south"
+    "region": "south",
+    "phone": "08-6532820"
   },
   {
     "id": "213",
@@ -4640,7 +4656,8 @@
       "en": "Modern guest rooms in the heart of the historic city.",
       "ru": "Современные гостевые номера в самом сердце исторического города."
     },
-    "region": "center"
+    "region": "center",
+    "phone": "1-599-510-511"
   },
   {
     "id": "214",
@@ -4662,7 +4679,8 @@
       "en": "Mountain guest rooms in a unique atmosphere.",
       "ru": "Горные гостевые комнаты в уникальной атмосфере."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-6960267"
   },
   {
     "id": "215",
@@ -4684,7 +4702,8 @@
       "en": "Rural guest rooms facing the valley view.",
       "ru": "Сельские гостевые комнаты с видом на долину."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-6955220"
   },
   {
     "id": "216",
@@ -4706,7 +4725,8 @@
       "en": "Unique guest rooms on a farm in the Arava.",
       "ru": "Уникальные гостевые комнаты на ферме в Араве."
     },
-    "region": "south"
+    "region": "south",
+    "phone": "052-3666041"
   },
   {
     "id": "217",
@@ -4728,7 +4748,8 @@
       "en": "Guest rooms adjacent to one of Israel's most beautiful beaches.",
       "ru": "Гостевые комнаты рядом с одним из самых красивых пляжей Израиля."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-6395219"
   },
   {
     "id": "218",
@@ -4750,7 +4771,8 @@
       "en": "Luxurious and secluded accommodation in the heart of the Carmel Forest.",
       "ru": "Роскошное и уединенное жилье в самом сердце заповедника Кармель."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-8307888"
   },
   {
     "id": "219",
@@ -4772,7 +4794,8 @@
       "en": "Boutique accommodation within the picturesque artist village.",
       "ru": "Бутик-отели в живописной деревне художников."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "052-3253503"
   },
   {
     "id": "220",
@@ -4794,7 +4817,8 @@
       "en": "Simple, beachfront accommodation in a hut style.",
       "ru": "Простое жилье в стиле хижин на самом берегу моря."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-9842211"
   },
   {
     "id": "221",
@@ -4904,7 +4928,8 @@
       "en": "Guest units on the mountain top with panoramic views of the sea and Carmel.",
       "ru": "Апартаменты на вершине горы с панорамным видом на море и Кармель."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-8240400"
   },
   {
     "id": "226",
@@ -4970,7 +4995,8 @@
       "en": "Designed suites in the Northern Golan overlooking the valley view.",
       "ru": "Дизайнерские люксы на севере Голан с видом на долину."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "052-2581604"
   },
   {
     "id": "229",
@@ -4992,7 +5018,8 @@
       "en": "Country lodging in the Upper Galilee near the Banias reserve.",
       "ru": "Сельское жилье в Верхней Галилее рядом с заповедником Баниас."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "054-3250552"
   },
   {
     "id": "230",
@@ -5014,7 +5041,8 @@
       "en": "Historic and luxury hotel on the shores of the Sea of Galilee.",
       "ru": "Исторический люкс-отель на берегу Кинерета."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-6710710"
   },
   {
     "id": "231",
@@ -5036,7 +5064,8 @@
       "en": "Isolated cabins in the Southern Golan Heights.",
       "ru": "Уединенные домики на юге Голанских высот."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "050-6712030"
   },
   {
     "id": "232",
@@ -5146,7 +5175,8 @@
       "en": "Simple hut-style accommodation in the heart of Ramat Menashe nature.",
       "ru": "Простое жилье в стиле хижин в самом сердце природы Рамат-Менаше."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-9891171"
   },
   {
     "id": "237",
@@ -5212,7 +5242,8 @@
       "en": "Guest cabins in a moshav overlooking the Sea of Galilee and Mount Arbel.",
       "ru": "Гостевые домики в мошаве с видом на Кинерет и гору Арбель."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "050-3162231"
   },
   {
     "id": "240",
@@ -5278,7 +5309,8 @@
       "en": "Luxury accommodation in wooden cabins inside an oak forest in Northern Golan.",
       "ru": "Роскошное жилье в деревянных домиках в дубовом лесу на севере Голан."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-6960762"
   },
   {
     "id": "243",
@@ -5344,7 +5376,8 @@
       "en": "Accommodation by the Jordan River with access to kayaking.",
       "ru": "Жилье рядом с рекой Иордан с доступом к каякингу."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-6943666"
   },
   {
     "id": "246",
@@ -5388,7 +5421,8 @@
       "en": "Suites facing the Arbel cliff and the Sea of Galilee.",
       "ru": "Люксы с видом на скалу Арбель и Кинерет."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "050-5221041"
   },
   {
     "id": "248",
@@ -5454,7 +5488,8 @@
       "en": "Historic and country lodging in the Hula Valley.",
       "ru": "Историческое и сельское жилье в долине Хула."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "052-4751751"
   },
   {
     "id": "251",
@@ -5520,7 +5555,8 @@
       "en": "Luxury hotel facing the Golan mountains.",
       "ru": "Роскошный отель напротив гор Голан."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-6320000"
   },
   {
     "id": "254",
@@ -5586,7 +5622,8 @@
       "en": "Wooden cabins in the Kela Alon community.",
       "ru": "Деревянные домики в поселении Кела-Алон."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "052-2581604"
   },
   {
     "id": "257",
@@ -5652,7 +5689,8 @@
       "en": "Rural suites with private gardens in the valley.",
       "ru": "Сельские люксы с частными садами в долине."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "052-3510515"
   },
   {
     "id": "260",
@@ -5718,7 +5756,8 @@
       "en": "Accommodation in an artist village in Central Golan.",
       "ru": "Жилье в деревне художников в центре Голан."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "050-2212328"
   },
   {
     "id": "263",
@@ -5784,7 +5823,8 @@
       "en": "Wooden cabins in the heart of the Galilean woodland.",
       "ru": "Деревянные домики в самом сердце галилейского леса."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "052-8356950"
   },
   {
     "id": "266",
@@ -5850,7 +5890,8 @@
       "en": "Accommodation on the banks of the Snir River.",
       "ru": "Жилье на берегу реки Хацбани."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "050-7546644"
   },
   {
     "id": "269",
@@ -5916,7 +5957,8 @@
       "en": "Accommodation on the Ramim ridge with spectacular views.",
       "ru": "Жилье на хребте Рамим с потрясающим видом."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-6902588"
   },
   {
     "id": "272",
@@ -5982,7 +6024,8 @@
       "en": "Wide range of luxury cabins in Moshav Ramot.",
       "ru": "Широкий выбор люксовых домиков в мошаве Рамот."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "050-4819444"
   },
   {
     "id": "275",
@@ -6048,7 +6091,8 @@
       "en": "Pleasant kibbutz accommodation near the Jordan River.",
       "ru": "Приятное жилье в кибуце рядом с рекой Иордан."
     },
-    "region": "north"
+    "region": "north",
+    "phone": "04-6910290"
   },
   {
     "id": "278",
@@ -7808,7 +7852,8 @@
       "ar": "موقع ضيافة صحراوي يقدم إقامة في خيام بدوية وغرفاً خاصة وجولات جمال.",
       "en": "A desert hospitality site offering accommodation in Bedouin tents, private rooms, and camel tours.",
       "ru": "Пустынный кемпинг с бедуинскими шатрами и турами на верблюдах."
-    }
+    },
+    "phone": "08-6535777"
   },
   {
     "id": "358",
@@ -7830,7 +7875,8 @@
       "ar": "فندق فاخر يقع على حافة فوهة رامون، يشتهر بعمارته المندمجة مع الطبيعة.",
       "en": "A luxury hotel located on the edge of the Ramon Crater, known for its nature-integrated architecture.",
       "ru": "Роскошный отель на краю кратера Рамон, известный своей уникальной архитектурой."
-    }
+    },
+    "phone": "08-6387700"
   },
   {
     "id": "359",
@@ -7852,7 +7898,8 @@
       "ar": "إقامة في أجواء هادئة مقابل البحر الميت، مع خيارات متنوعة من التخييم إلى الغرف المكيفة.",
       "en": "Accommodation in a relaxed atmosphere facing the Dead Sea, from camping to AC rooms.",
       "ru": "Размещение напротив Мертвого моря, от кемпинга до номеров с кондиционером."
-    }
+    },
+    "phone": "052-4318042"
   },
   {
     "id": "360",
@@ -7918,7 +7965,8 @@
       "ar": "فندق مفهوم يقع في الشاطئ الجنوبي، كل طابق مخصص لنمط موسيقي مختلف.",
       "en": "A concept hotel on the South Beach, with each floor dedicated to a different musical genre.",
       "ru": "Концептуальный отель на Южном пляже, где каждый этаж посвящен музыкальному жанру."
-    }
+    },
+    "phone": "08-6367000"
   },
   {
     "id": "363",
@@ -7940,7 +7988,8 @@
       "ar": "ضيافة حديثة عند قدمي مسعدة، تشمل مسبحاً ووصولاً سهلاً لصعود الجبل عند الشروق.",
       "en": "Modern accommodation at the foot of Masada, including a pool and easy access for sunrise hikes.",
       "ru": "Современный хостел у подножия Масады, с бассейном и удобным доступом к горе."
-    }
+    },
+    "phone": "08-9953222"
   },
   {
     "id": "364",
@@ -8842,7 +8891,8 @@
       "ar": "مجمع للضيافة والتخييم في قلب منتزه الكرمل.",
       "en": "A hospitality and outdoor lodging complex in the heart of Carmel Park, including a khan and camping site.",
       "ru": "Комплекс для отдыха и кемпинга в сердце парка Кармель."
-    }
+    },
+    "phone": "04-8302001"
   },
   {
     "id": "406",
@@ -14093,7 +14143,7 @@
       "ru": "Смотровая площадка Ха-Мовиль"
     },
     "coords": [
-      32.8989, 
+      32.8989,
       35.4957
     ],
     "category": "viewpoint",
@@ -36199,7 +36249,8 @@
       "ar": "نزل للشباب يقع في وسط مدينة القدس بالقرب من مركز المدينة.",
       "en": "A central youth hostel in Jerusalem located near the city center.",
       "ru": "Центральный хостел в Иерусалиме, расположенный недалеко от центра города."
-    }
+    },
+    "phone": "02-5945522"
   },
   {
     "id": "1681",
