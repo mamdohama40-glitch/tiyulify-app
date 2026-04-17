@@ -38841,5 +38841,555 @@
       "ru": "Короткий путь к гигантскому дереву Сальвадора."
     },
     "region": "south"
+  },
+  {
+    "id": "1795",
+    "name": {
+      "he": "נחל רחף",
+      "ar": "وادي رهف",
+      "en": "Nahal Rahaf",
+      "ru": "Нахаль Рахаф"
+    },
+    "coords": [
+      31.248,
+      35.378
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "קניון אתגרי המוכר בעיקר למסלולי קניונינג (סנפלינג).",
+      "ar": "وادي صعب معروف بمسارات الهبوط بالحبال.",
+      "en": "Challenging canyon known for canyoneering and rappelling.",
+      "ru": "Экстремальный каньон, популярный для скалолазания."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1796",
+    "name": {
+      "he": "מעלה צרויה",
+      "ar": "منحدر صرويا",
+      "en": "Ma'ale Tzeruya",
+      "ru": "Маале Цруя"
+    },
+    "coords": [
+      31.448,
+      35.387
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "אחד המעלות הקשים במדבר עם תצפית מרהיבה על עין גדי.",
+      "ar": "واحد من أصعب المرتفعات في الصحراء مع إطلالة رائعة.",
+      "en": "One of the toughest desert climbs with a view of Ein Gedi.",
+      "ru": "Один из самых сложных подъемов с видом на Эйн-Геди."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1797",
+    "name": {
+      "he": "שביל המגילות (קומראן)",
+      "ar": "مسار المخطوطات",
+      "en": "Scrolls Trail (Qumran)",
+      "ru": "Тропа Свитков (Кумран)"
+    },
+    "coords": [
+      31.742,
+      35.46
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
+    "description": {
+      "he": "מסלול קליל ונוח מעל אתר קומראן.",
+      "ar": "مسار سهل ومريح فوق موقع قمران.",
+      "en": "Easy and comfortable trail overlooking the Qumran site.",
+      "ru": "Легкая прогулочная тропа над Кумраном."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1798",
+    "name": {
+      "he": "נחל תחמסון",
+      "ar": "وادي تحمسون",
+      "en": "Nahal Tahmason",
+      "ru": "Нахаль Тахмасон"
+    },
+    "coords": [
+      31.002,
+      35.321
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "description": {
+      "he": "מסלול אתגרי בקניון צר עם מפלים גבוהים (למטיבי לכת).",
+      "ar": "مسار صعب في وادٍ ضيق مع شلالات عالية.",
+      "en": "Challenging trail in a narrow canyon with high waterfalls.",
+      "ru": "Сложный маршрут в узком каньоне с водопадами."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1799",
+    "name": {
+      "he": "הר עמשא לערד",
+      "ar": "جبل عماسا إلى عراد",
+      "en": "Mt. Amasa to Arad",
+      "ru": "Гора Амаса - Арад"
+    },
+    "coords": [
+      31.332,
+      35.121
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+    "description": {
+      "he": "מקטע משביל ישראל המשלב נוף ים-תיכוני ומדברי.",
+      "ar": "مقطع من مسار إسرائيل يجمع بين المناظر المتوسطية والصحراوية.",
+      "en": "Section of the Israel National Trail blending Mediterranean and desert views.",
+      "ru": "Участок Тропы Израиля, сочетающий средиземноморские и пустынные виды."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1800",
+    "name": {
+      "he": "נחל חמרית",
+      "ar": "وادي حمريت",
+      "en": "Nahal Hamrit",
+      "ru": "Нахаль Хамрит"
+    },
+    "coords": [
+      31.255,
+      35.215
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "description": {
+      "he": "מסלול מעגלי קצר באזור ערד עם פריחה עונתית.",
+      "ar": "مسار دائري قصير في منطقة عراد עם פריחה עונתית.",
+      "en": "Short circular trail near Arad with seasonal blooms.",
+      "ru": "Короткий кольцевой маршрут в районе Арада."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1801",
+    "name": {
+      "he": "נחל כידוד",
+      "ar": "وادي كيدود",
+      "en": "Nahal Kidod",
+      "ru": "Нахаль Кидод"
+    },
+    "coords": [
+      31.272,
+      35.231
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+    "description": {
+      "he": "מסלול הליכה המקיף את העיר ערד עם תצפיות למדבר יהודה.",
+      "ar": "مسار مشي يحيط بمدينة عراد עם إطلالات على صحراء يهودا.",
+      "en": "Hiking trail surrounding Arad with views of the Judean Desert.",
+      "ru": "Маршруת вокруг Арада с видами на Иудейскую пустыню."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1802",
+    "name": {
+      "he": "נחל רחף עליון",
+      "ar": "وادي رهف العلوي",
+      "en": "Upper Nahal Rahaf",
+      "ru": "Верхний Нахаль Рахаф"
+    },
+    "coords": [
+      31.231,
+      35.325
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=600",
+    "description": {
+      "he": "הליכה בנחל רחב שהופך לקניוני עם גבי מים.",
+      "ar": "المشي في وادٍ واسع يتحول إلى وادٍ ضيق مع برك مياه.",
+      "en": "Walk in a wide stream that turns into a canyon with water pools.",
+      "ru": "Прогулка по широкому руслу, переходящему в каньон с заводями."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1803",
+    "name": {
+      "he": "נחל כנפן",
+      "ar": "وادي كنفان",
+      "en": "Nahal Kanfan",
+      "ru": "Нахаль Канфан"
+    },
+    "coords": [
+      31.215,
+      35.282
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=600",
+    "description": {
+      "he": "מסלול מדברי שקט באזור ערד עם גבי מים עמוקים.",
+      "ar": "مسار صحراوي هادئ في منطقة عراد مع برك مياه عميقة.",
+      "en": "Quiet desert trail near Arad with deep water pools.",
+      "ru": "Тихий пустынный маршрут возле Арада с глубокими заводями."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1804",
+    "name": {
+      "he": "נחל מורג",
+      "ar": "وادي مورغ",
+      "en": "Nahal Morag",
+      "ru": "Нахаль Мораг"
+    },
+    "coords": [
+      31.185,
+      35.312
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1542301140-62947f63080e?w=600",
+    "description": {
+      "he": "ירידה תלולה מערד לכיוון ים המלח בנוף פראי.",
+      "ar": "منحدر حاد من عراد باتجاه البحر الميت في منظر بري.",
+      "en": "Steep descent from Arad towards the Dead Sea in wild landscape.",
+      "ru": "Крутой спуск от Арада к Мертвому морю."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1805",
+    "name": {
+      "he": "נחל חבר",
+      "ar": "وادي حيفر",
+      "en": "Nahal Hever",
+      "ru": "Нахаль Хевер"
+    },
+    "coords": [
+      31.412,
+      35.365
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "נחל גדול עם היסטוריה עתיקה (מערות בר כוכבא).",
+      "ar": "وادٍ كبير ذو تاريخ قديم (كهوف بار كوخبا).",
+      "en": "Large stream with ancient history (Bar Kokhba caves).",
+      "ru": "Большое русло с древней историей (пещеры Бар-Кохбы)."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1806",
+    "name": {
+      "he": "מעלה האיסיים",
+      "ar": "منحדר الإسينيين",
+      "en": "Essenes Ascent",
+      "ru": "Подъем Эссеев"
+    },
+    "coords": [
+      31.458,
+      35.392
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
+    "description": {
+      "he": "שביל קדום המטפס מעין גדי לרמת המדבר.",
+      "ar": "مسار قديم يتسلق من عين جدي إلى هضبة الصحراء.",
+      "en": "Ancient trail climbing from Ein Gedi to the desert plateau.",
+      "ru": "Древняя тропа, ведущая от Эйн-Геди к пустынному плато."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1807",
+    "name": {
+      "he": "נחל תקוע",
+      "ar": "وادي تقوع",
+      "en": "Nahal Tekoa",
+      "ru": "Нахаль Текоа"
+    },
+    "coords": [
+      31.621,
+      35.245
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f04b?w=600",
+    "description": {
+      "he": "טיול במערת חריטון העצומה ובקניון הנחל.",
+      "ar": "جولة في كهف حريتون الضخم ووادي النبع.",
+      "en": "Trip to the massive Chariton Cave and the stream canyon.",
+      "ru": "Поход к огромной пещере Харитун и каньону."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1808",
+    "name": {
+      "he": "ביר א-שרקי",
+      "ar": "بير الشرقي",
+      "en": "Bir el-Sharqi",
+      "ru": "Бир-э-Шарки"
+    },
+    "coords": [
+      31.652,
+      35.281
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "description": {
+      "he": "בור מים עתיק ומרהיב בלב המדבר.",
+      "ar": "بئر ماء قديم ورائع في قلب الصحراء.",
+      "en": "Ancient and spectacular water cistern in the heart of the desert.",
+      "ru": "Древний эффектный водосборник в сердце пустыни."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1809",
+    "name": {
+      "he": "נחל קדרון (התחתון)",
+      "ar": "وادي قدرون",
+      "en": "Nahal Kidron (Lower)",
+      "ru": "Нахаль Кедрон"
+    },
+    "coords": [
+      31.685,
+      35.392
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "תצפית על המנזרים והקניון העמוק בדרך לים המלח.",
+      "ar": "إطلالة على الأديرة والوادي العميق في الطريق إلى البحر الميت.",
+      "en": "View of monasteries and the deep canyon on the way to the Dead Sea.",
+      "ru": "Вид на монастыри и глубокий каньон по пути к Мертвому морю."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1810",
+    "name": {
+      "he": "נחל דרגה עליון",
+      "ar": "وادي دراجة العلوي",
+      "en": "Upper Nahal Darga",
+      "ru": "Верхний Нахаль Драгот"
+    },
+    "coords": [
+      31.585,
+      35.352
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=600",
+    "description": {
+      "he": "הליכה בנוף גיר לבן לפני שהנחל הופך לקניוני.",
+      "ar": "المشي في منظر جيري أبيض قبل أن يتحول الوادي إلى وادٍ ضيق.",
+      "en": "Walk in white limestone landscape before the stream becomes a canyon.",
+      "ru": "Прогулка по белому известняковому плато."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1811",
+    "name": {
+      "he": "נחל חצצון",
+      "ar": "وادي حصصون",
+      "en": "Nahal Hazatzon",
+      "ru": "Нахаль Хацацон"
+    },
+    "coords": [
+      31.512,
+      35.382
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "description": {
+      "he": "אחד הנחלים המאתגרים ביותר לסנפלינג בישראל.",
+      "ar": "واحد من أصعب الوديان للهبوط بالحبال في إسرائيل.",
+      "en": "One of the most challenging rappelling streams in Israel.",
+      "ru": "Один из самых сложных маршрутов для каньוניнга в Израиле."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1812",
+    "name": {
+      "he": "נחל משאש",
+      "ar": "وادي مشاش",
+      "en": "Nahal Mashash",
+      "ru": "Нахаль Машаш"
+    },
+    "coords": [
+      31.605,
+      35.342
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=600",
+    "description": {
+      "he": "מסלול קניוני עם מעברים צרים וגבים.",
+      "ar": "مسار في الوادي مع ممرات ضيقة وبرك.",
+      "en": "Canyon trail with narrow passages and water pools.",
+      "ru": "Каньонный маршрут с узкими проходами."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1813",
+    "name": {
+      "he": "נחל תקוע תחתון",
+      "ar": "وادي تقوع السفلي",
+      "en": "Lower Nahal Tekoa",
+      "ru": "Нижний Нахаль Текоא"
+    },
+    "coords": [
+      31.615,
+      35.302
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "מסלול פראי ומבודד במרכז מדבר יהודה.",
+      "ar": "مسار بري ومنعزل في وسط صحراء يهودا.",
+      "en": "Wild and isolated trail in the central Judean Desert.",
+      "ru": "Дикий уединенный маршрут в центре Иудейской пустыни."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1814",
+    "name": {
+      "he": "נחל מכמש",
+      "ar": "وادي مخماس",
+      "en": "Nahal Michmash",
+      "ru": "Нахаль Михмаш"
+    },
+    "coords": [
+      31.852,
+      35.321
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+    "description": {
+      "he": "קניון עמוק עם פריחה מרהיבה בחורף.",
+      "ar": "وادي عميق مع أزهار رائعة في الشتاء.",
+      "en": "Deep canyon with spectacular winter blooming.",
+      "ru": "Глубокий каньон с эффектным зимним цветением."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1815",
+    "name": {
+      "he": "נחל פיראן",
+      "ar": "وادي بيران",
+      "en": "Nahal Piran",
+      "ru": "Нахаль Пиран"
+    },
+    "coords": [
+      32.185,
+      35.512
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=600",
+    "description": {
+      "he": "מסלול אתגרי בבקעת הירדן עם סולמות ומפלים.",
+      "ar": "مسار صعب في غور الأردن עם سلالم ושلالات.",
+      "en": "Challenging trail in the Jordan Valley with ladders and waterfalls.",
+      "ru": "Экстремальный маршрут в Иорданской долине с лестницами."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1816",
+    "name": {
+      "he": "נחל תלכיד",
+      "ar": "وادي تلكيد",
+      "en": "Nahal Talkid",
+      "ru": "Нахаль Талькид"
+    },
+    "coords": [
+      32.192,
+      35.515
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+    "description": {
+      "he": "שילוב של נחל תלכיד ופיראן למסלול מעגלי אתגרי.",
+      "ar": "دمج وادي تلكيد وبيران في مسار دائري صعب.",
+      "en": "Combination of Talkid and Piran streams for a circular challenge.",
+      "ru": "Кольцевой маршрут, объединяющий русла Талькид и Пиран."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1817",
+    "name": {
+      "he": "נחל ייטב (ואדי עוג'ה)",
+      "ar": "وادي العوجا",
+      "en": "Nahal Yitav (Wadi Auja)",
+      "ru": "Нахаль Йитав"
+    },
+    "coords": [
+      31.942,
+      35.412
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1542301140-62947f63080e?w=600",
+    "description": {
+      "he": "מסלול מים זורמים בבקעה, כולל מגלשת מים טבעית.",
+      "ar": "مسار مياه جارية في الغور، يشمل منزلقًا مائيًا طبيعيًا.",
+      "en": "Flowing water trail in the valley, including a natural water slide.",
+      "ru": "Водный маршрут в долине, включая природную горку."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1818",
+    "name": {
+      "he": "נחל פצאל",
+      "ar": "وادي فصايل",
+      "en": "Nahal Patzael",
+      "ru": "Нахаль Пацаэль"
+    },
+    "coords": [
+      32.052,
+      35.452
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "description": {
+      "he": "שמורת טבע עם מעיינות זורמים ואמת מים עתיקה.",
+      "ar": "محمية طبيعية مع ينابيع جارية وقناة مياه قديمة.",
+      "en": "Nature reserve with flowing springs and an ancient aqueduct.",
+      "ru": "Заповедник с источниками и древним акведуком."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1819",
+    "name": {
+      "he": "נחל שילה (עליון)",
+      "ar": "وادي شيلوه العلوي",
+      "en": "Upper Nahal Shiloh",
+      "ru": "Верхний Нахаль Шило"
+    },
+    "coords": [
+      32.045,
+      35.285
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "מסלול המשלב פריחה, ארכיאולוגיה ותצפיות נוף.",
+      "ar": "مسار يجمع بين الأزهار، علم الآثار وإطلالات طبيعية.",
+      "en": "Trail combining blooming, archaeology, and scenic views.",
+      "ru": "Маршрут, сочетающий цветение, археологию и виды."
+    },
+    "region": "south"
   }
 ]
