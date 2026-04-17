@@ -332,10 +332,15 @@ function CompactPopup({ item, pd, activeLang, labels, shareOnWhatsApp }: { item:
         {item.description[activeLang]||item.description.he}
       </p>
       {item.phone && (
-        <a href={"tel:" + item.phone} className="flex items-center gap-2 mx-1 mb-2 bg-green-50 border border-green-200 rounded-xl px-3 py-2 text-green-700 font-black text-sm no-underline">
-          <span>📞</span>
-          <span>{item.phone}</span>
-        </a>
+        <div className="flex gap-2 mx-1 mb-2">
+          <a href={"tel:" + item.phone} className="flex-1 flex items-center justify-center gap-2 bg-green-50 border border-green-200 rounded-xl px-3 py-2 text-green-700 font-black text-sm no-underline">
+            <span>📞</span>
+            <span>{item.phone}</span>
+          </a>
+          <a href={"https://wa.me/972" + item.phone.replace(/^0/, "").replace(/-/g, "")} target="_blank" className="flex items-center justify-center bg-green-500 text-white rounded-xl px-3 py-2 no-underline">
+            <span className="font-black text-sm">WhatsApp</span>
+          </a>
+        </div>
       )}
       {wiki && <p className="text-[11px] text-gray-500 leading-relaxed px-1 mb-2 ">{wiki}</p>}
       {item.info && (
