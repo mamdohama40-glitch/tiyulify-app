@@ -811,7 +811,7 @@ export default function TiyulifyApp() {
                             <div className="w-full h-28 mb-2 shadow-xl rounded-[1.5rem] overflow-hidden border-2 border-white flex items-center justify-center" style={{background:'linear-gradient(135deg,#3b82f622,#3b82f644)'}}>
                               <span style={{fontSize:'3rem'}}>📍</span>
                             </div>
-                            <h4 className="font-bold text-green-900 text-sm m-0 leading-snug mb-1 px-1">{searchMarkerName}</h4>
+                            <a href={"https://www.google.com/search?q=" + encodeURIComponent(searchMarkerName)} target="_blank" className="no-underline"><h4 className="font-bold text-green-900 text-sm m-0 leading-snug mb-1 px-1 hover:underline cursor-pointer">🔍 {searchMarkerName}</h4></a>
                             <p className="text-[11px] text-gray-500 px-1 mb-2 ">{searchMarkerAddr || (searchMarker ? searchMarker[0].toFixed(4)+', '+searchMarker[1].toFixed(4) : '')}</p>
                             {userCoords && searchMarker && <div className="flex items-center gap-1.5 mb-2 bg-green-50 px-3 py-1.5 rounded-full border border-green-200 shadow-sm inline-flex"><span className="text-base">📍</span><span className="text-[12px] text-green-700 font-black">{calculateDistance(userCoords[0],userCoords[1],searchMarker[0],searchMarker[1])} {labels[activeLang].km}</span></div>}
                             <div className="flex flex-wrap gap-2 mt-2 pb-1">
