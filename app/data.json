@@ -37191,5 +37191,1105 @@
       "ru": "Водный маршрут. Красивый водоем с базальтовыми пейзажами."
     },
     "region": "north"
+  },
+  {
+    "id": "1720",
+    "name": {
+      "he": "סטף (שביל המעיינות)",
+      "ar": "الساطف - مسار الينابيع",
+      "en": "Sataf (Springs Trail)",
+      "ru": "Сатаф (Тропа родников)"
+    },
+    "coords": [
+      31.7706,
+      35.1325
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1542301140-62947f63080e?w=600",
+    "description": {
+      "he": "מסלול רטוב (חלקי). שביל העובר בין חקלאות טרסות עתיקה ונקבות מים לשכשוך.",
+      "ar": "مسار رطب جزئياً. ممر يمر بين المدرجات الزراعية القديمة وأنفاق المياه.",
+      "en": "Wet trail (partial). A trail passing through ancient terrace farming and water tunnels.",
+      "ru": "Водный маршрут (частично). Тропа через древние террасы и водные туннели."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1721",
+    "name": {
+      "he": "עין חנדק",
+      "ar": "عين حندق",
+      "en": "Ein Handak",
+      "ru": "Эйн-Хандак"
+    },
+    "coords": [
+      31.7658,
+      35.1397
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f04b?w=600",
+    "description": {
+      "he": "מסלול רטוב. נקבת מים מרשימה וחצובה בסלע המובילה לבריכה קרירה.",
+      "ar": "مسار رطب. نفق مائي مثير محفور في الصخر يؤدي إلى بركة باردة.",
+      "en": "Wet trail. An impressive rock-cut water tunnel leading to a cool pool.",
+      "ru": "Водный маршрут. Вырубленный в скале водный туннель, ведущий к прохладному бассейну."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1722",
+    "name": {
+      "he": "נחל שורק (אזור מבני עטרות)",
+      "ar": "وادي الصرار",
+      "en": "Sorek Stream (Bnei Atarot area)",
+      "ru": "Нахаль-Сорек"
+    },
+    "coords": [
+      31.7869,
+      35.1583
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "מסלול יבש. מסלול הליכה נוח לאורך ערוץ הנחל המרכזי בהרי ירושלים.",
+      "ar": "مسار جاف. مسار مشي مريح على طول مجرى الوادي الرئيسي في جبال القدس.",
+      "en": "Dry trail. A comfortable hiking trail along the main stream channel in the Jerusalem Hills.",
+      "ru": "Сухой маршрут. Удобная тропа вдоль русла ручья в Иерусалимских горах."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1723",
+    "name": {
+      "he": "נחל הפירים",
+      "ar": "وادي الآبار",
+      "en": "Shafts Stream (Nahal HaPirim)",
+      "ru": "Нахаль-ха-Пирим"
+    },
+    "coords": [
+      31.6881,
+      35.1952
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=600",
+    "description": {
+      "he": "מסלול רטוב (נקבה). חלק מאמת המים הקדומה לירושלים, הכולל כניסה לפירים עמוקים.",
+      "ar": "مسار رطب (نفق). جزء من قناة المياه القديمة إلى القدس، يتضمن الدخول إلى آبار عميقة.",
+      "en": "Wet trail (tunnel). Part of the ancient aqueduct to Jerusalem, including deep shafts.",
+      "ru": "Водный маршрут (туннель). Часть древнего водовода в Иерусалим с глубокими шахтами."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1724",
+    "name": {
+      "he": "עין איתמר (עין אל-בלד)",
+      "ar": "عين البلد",
+      "en": "Ein Itamar (Ein al-Balad)",
+      "ru": "Эйн-Итамар"
+    },
+    "coords": [
+      31.7583,
+      35.1511
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+    "description": {
+      "he": "מסלול רטוב. מעיין יפהפה עם בריכת רחצה סמוך למושב אורה.",
+      "ar": "مسار رطب. نبع جميل مع بركة للسباحة بالقرب من قرية أورا.",
+      "en": "Wet trail. A beautiful spring with a swimming pool near Moshav Ora.",
+      "ru": "Водный маршрут. Красивый источник с бассейном недалеко от мошава Ора."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1725",
+    "name": {
+      "he": "נחל קטלב",
+      "ar": "وادي القطلب",
+      "en": "Katlav Stream",
+      "ru": "Нахаль-Катлав"
+    },
+    "coords": [
+      31.7511,
+      35.0933
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "מסלול יבש. שביל פסטורלי בתוך חורש ים תיכוני עשיר בעצי קטלב אדומי גזע.",
+      "ar": "مسار جاف. مسار ريفي داخل أحراش البحر المتوسط الغنية بأشجار القطلب.",
+      "en": "Dry trail. A pastoral trail within Mediterranean woodland rich in red-trunked Strawberry trees.",
+      "ru": "Сухой маршрут. Пасторальная тропа в средиземноморском лесу с земляничными деревьями."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1726",
+    "name": {
+      "he": "שמורת נחל חלילים",
+      "ar": "محمية وادي حليليم",
+      "en": "Halilim Stream Reserve",
+      "ru": "Заповедник Нахаль-Халилим"
+    },
+    "coords": [
+      31.8028,
+      35.1631
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
+    "description": {
+      "he": "מסלול יבש. מסלול קצר הכולל מערות המזכירות צורת חלילים.",
+      "ar": "مسار جاف. مسار قصير يتضمن كهوفاً تشبه شكل الناي.",
+      "en": "Dry trail. A short trail including caves that resemble the shape of flutes.",
+      "ru": "Сухой маршрут. Короткая тропа с пещерами, напоминающими флейты."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1727",
+    "name": {
+      "he": "נחל כפירה",
+      "ar": "وادي كفيرة",
+      "en": "Kefira Stream",
+      "ru": "Нахаль-Кфира"
+    },
+    "coords": [
+      31.8364,
+      35.0769
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
+    "description": {
+      "he": "מסלול רטוב (עונתי). נחל המציע בריכות רדודות לאחר הגשמים ונוף להרי ירושלים.",
+      "ar": "مسار رطب (موسمي). وادٍ يوفر بركاً ضحلة بعد الأمطار وإطلالات على جبال القدس.",
+      "en": "Wet trail (seasonal). A stream offering shallow pools after rains and views of the Jerusalem Hills.",
+      "ru": "Водный маршрут (сезонный). Ручей с заводями после дождей и видом на Иерусалимские горы."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1728",
+    "name": {
+      "he": "עין נקופה",
+      "ar": "عين نقوفة",
+      "en": "Ein Nekofa",
+      "ru": "Эйн-Некофа"
+    },
+    "coords": [
+      31.8039,
+      35.1436
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
+    "description": {
+      "he": "מסלול רטוב. מעיין קטן ופסטורלי סמוך למבשרת ציון.",
+      "ar": "مسار رطب. نبع صغير وهادئ بالقرب من مفسيرت تسيون.",
+      "en": "Wet trail. A small and pastoral spring near Mevaseret Zion.",
+      "ru": "Водный маршрут. Маленький источник недалеко от Мевасерет-Циона."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1729",
+    "name": {
+      "he": "נחל פרת (עין מבוע)",
+      "ar": "وادي القلط - عين مبروع",
+      "en": "Prat Stream (Ein Mabua)",
+      "ru": "Нахаль-Прат (Эйн-Мабуа)"
+    },
+    "coords": [
+      31.8353,
+      35.3528
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "description": {
+      "he": "מסלול רטוב. מעיין פועם הייחודי בשינויי מפלס המים שלו בתוך הקניון.",
+      "ar": "مسار رطب. نبع نابض فريد بتغير مستويات مياهه داخل الوادي.",
+      "en": "Wet trail. A pulsating spring unique for its changing water levels inside the canyon.",
+      "ru": "Водный маршрут. Пульсирующий источник с изменением уровня воды в каньоне."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1730",
+    "name": {
+      "he": "נחל פרת (עין קלט)",
+      "ar": "وادي القلط - عين قلط",
+      "en": "Prat Stream (Ein Kelt)",
+      "ru": "Нахаль-Прат (Эйн-Кельт)"
+    },
+    "coords": [
+      31.8394,
+      35.3911
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=600",
+    "description": {
+      "he": "מסלול רטוב. הליכה במורד הנחל המדברי עם בריכות ומפלים קטנים.",
+      "ar": "مسار رطب. المشي في أسفل الوادي الصحراوي مع برك وشلالات صغيرة.",
+      "en": "Wet trail. Walking down the desert stream with pools and small waterfalls.",
+      "ru": "Водный маршрут. Прогулка по пустынному ручью с заводями и водопадами."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1731",
+    "name": {
+      "he": "עין פרת",
+      "ar": "عين فارة",
+      "en": "Ein Prat",
+      "ru": "Эйн-Прат"
+    },
+    "coords": [
+      31.8267,
+      35.3014
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600",
+    "description": {
+      "he": "מסלול רטוב. שמורת טבע עם בריכות מים צלולות בלב מדבר יהודה.",
+      "ar": "مسار رطب. محمية طبيعية تضم برك مياه صافية في قلب صحراء يهودا.",
+      "en": "Wet trail. A nature reserve with crystal clear water pools in the heart of the Judean Desert.",
+      "ru": "Водный маршрут. Заповедник с бассейнами в сердце Иудейской пустыни."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1732",
+    "name": {
+      "he": "נחל אוג (תחתון)",
+      "ar": "وادي أوج (السفلي)",
+      "en": "Og Stream (Lower)",
+      "ru": "Нахаль-Ог (Нижний)"
+    },
+    "coords": [
+      31.7853,
+      35.4539
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
+    "description": {
+      "he": "מסלול יבש (אתגרי). טיול בקניון צר הכולל ירידה בסולמות ויתדות.",
+      "ar": "مسار جاف (تحدي). رحلة في وادٍ ضيق تتضمن النزول بالسلالم والأوتاد.",
+      "en": "Dry trail (challenging). A hike in a narrow canyon including descent with ladders and pegs.",
+      "ru": "Сухой маршрут (сложный). Поход по узкому каньону со спуском по лестницам."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1733",
+    "name": {
+      "he": "נחל דרגה (דרג׳ה)",
+      "ar": "وادي درجة",
+      "en": "Darageh Stream",
+      "ru": "Нахаль-Драга"
+    },
+    "coords": [
+      31.5908,
+      35.3942
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
+    "description": {
+      "he": "מסלול רטוב (גבים). אחד המסלולים האתגריים בישראל, המחייב שחייה בגבים עמוקים.",
+      "ar": "مسار رطب (برك صخرية). أحد أكثر المسارات تحدياً في إسرائيل، يتطلب السباحة في برك عميقة.",
+      "en": "Wet trail (cisterns). One of the most challenging trails in Israel, requiring swimming in deep rock pools.",
+      "ru": "Водный маршрут (заводи). Один из самых сложных маршрутов в Израиле."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1734",
+    "name": {
+      "he": "נחל ערוגות (עין גדי)",
+      "ar": "وادي عروغوت",
+      "en": "Arugot Stream (Ein Gedi)",
+      "ru": "Нахаль-Аругот"
+    },
+    "coords": [
+      31.4675,
+      35.3853
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "description": {
+      "he": "מסלול רטוב. הליכה בתוך המים הזורמים עד למפל הנסתר ולבריכות העליונות.",
+      "ar": "مسار رطب. المشي داخل المياه الجارية وصولاً إلى الشلال المخفي والبرك العلوية.",
+      "en": "Wet trail. Walking in flowing water to the hidden waterfall and upper pools.",
+      "ru": "Водный маршрут. Прогулка по воде к скрытому водопаду."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1735",
+    "name": {
+      "he": "נחל דוד",
+      "ar": "وادي داود",
+      "en": "David Stream",
+      "ru": "Нахаль-Давид"
+    },
+    "coords": [
+      31.4742,
+      35.3922
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=600",
+    "description": {
+      "he": "מסלול רטוב. נווה מדבר ירוק עם מפלים ובריכות בקרבת ים המלח.",
+      "ar": "مسار رطب. واحة صحراوية خضراء مع شلالات وبرك بالقرب من البحر الميت.",
+      "en": "Wet trail. A green desert oasis with waterfalls and pools near the Dead Sea.",
+      "ru": "Водный маршрут. Зеленый оазис с водопадами у Мертвого моря."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1736",
+    "name": {
+      "he": "עין בוקק",
+      "ar": "عين بويك",
+      "en": "Ein Bokek",
+      "ru": "Эйн-Бокек"
+    },
+    "coords": [
+      31.1983,
+      35.3606
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+    "description": {
+      "he": "מסלול רטוב. מסלול קצר ומהנה בתוך פלג מים זורם סמוך לאזור המלונות.",
+      "ar": "مسار رطب. مسار قصير وممتع داخل مجرى مائي جارٍ بالقرب من منطقة الفنادق.",
+      "en": "Wet trail. A short and enjoyable trail in a flowing stream near the hotel area.",
+      "ru": "Водный маршрут. Короткий маршрут по ручью рядом с отельной зоной."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1737",
+    "name": {
+      "he": "נחל צאלים (בריכת צפירה)",
+      "ar": "وادي سيال - بركة صفيرة",
+      "en": "Tzeelim Stream (Tzfira Pool)",
+      "ru": "Нахаль-Цеэлим"
+    },
+    "coords": [
+      31.3481,
+      35.3114
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600",
+    "description": {
+      "he": "מסלול רטוב (גבים). בריכה טבעית על שפת מצוק המציעה תצפית מרהיבה.",
+      "ar": "مسار رطب (برك صخرية). بركة طبيعية على حافة الجرف توفر إطلالة رائعة.",
+      "en": "Wet trail (cisterns). A natural pool on a cliff edge offering a spectacular view.",
+      "ru": "Водный маршрут (заводи). Природный бассейн на краю обрыва."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1738",
+    "name": {
+      "he": "נחל משמר",
+      "ar": "وادي مشمار",
+      "en": "Mishmar Stream",
+      "ru": "Нахаль-Мишמар"
+    },
+    "coords": [
+      31.3789,
+      35.3483
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1418063526784-5949e211a95a?w=600",
+    "description": {
+      "he": "מסלול יבש/רטוב. מסלול הכולל קניון צר עם גבים (בחורף) ומערה היסטורית.",
+      "ar": "مسار جاف/رطب. مسار يتضمن وادياً ضيقاً مع برك (في الشتاء) وكهفاً تاريخياً.",
+      "en": "Dry/Wet trail. A trail featuring a narrow canyon with cisterns (in winter) and a historic cave.",
+      "ru": "Сухой/Водный маршрут. Узкий каньон с заводями зимой и историческая пещера."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1739",
+    "name": {
+      "he": "תל צובה",
+      "ar": "تل صوبا",
+      "en": "Tel Tzuba",
+      "ru": "Тель-Цуба"
+    },
+    "coords": [
+      31.7819,
+      35.1264
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
+    "description": {
+      "he": "מסלול יבש. אתר ארכיאולוגי עם שרידי מצודה צלבנית ותצפית על הרי ירושלים.",
+      "ar": "مسار جاف. موقع أثري يضم بقايا قلعة صليبية وإطلالة على جبال القدس.",
+      "en": "Dry trail. An archaeological site with Crusader fortress remains and views of the Jerusalem Hills.",
+      "ru": "Сухой маршрут. Руины крепости крестоносцев с видом на Иерусалимские горы."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1740",
+    "name": {
+      "he": "נחל שורק (אזור הרטוב)",
+      "ar": "وادي الصرار - منطقة هرتوف",
+      "en": "Sorek Stream (Hartuv area)",
+      "ru": "Нахаль-Сорек (район Хартув)"
+    },
+    "coords": [
+      31.7564,
+      35.0347
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "מסלול יבש. הליכה לאורך עיקולי הנחל באזור שפלת יהודה.",
+      "ar": "مسار جاف. المشي على طول منعرجات الوادي في منطقة سفوح يهودا.",
+      "en": "Dry trail. Walking along the stream bends in the Judean Foothills area.",
+      "ru": "Сухой маршрут. Прогулка вдоль изгибов ручья в предгорьях Иудеи."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1741",
+    "name": {
+      "he": "פארק קנדה (עמק המעיינות)",
+      "ar": "منتزه كندا - وادي الينابيع",
+      "en": "Canada Park (Valley of Springs)",
+      "ru": "Парк Канада (Долина родников)"
+    },
+    "coords": [
+      31.8417,
+      34.9936
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
+    "description": {
+      "he": "מסלול רטוב (נקבות). מסלול פסטורלי המשלב נקבות מים עתיקות ובריכות אגירה.",
+      "ar": "مسار رطب (أنفاق). مسار ريفي يجمع بين أنفاق المياه القديمة وبرك التجميع.",
+      "en": "Wet trail (tunnels). A pastoral trail combining ancient water tunnels and storage pools.",
+      "ru": "Водный маршрут (туннели). Тропа с древними водными туннелями и накопительными бассейнами."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1742",
+    "name": {
+      "he": "נחל המערה (שפלה)",
+      "ar": "وادي المغارة",
+      "en": "Maara Stream (Foothills)",
+      "ru": "Нахаль-ха-Меара"
+    },
+    "coords": [
+      31.7314,
+      35.0136
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "description": {
+      "he": "מסלול יבש. מסלול מוצל בחורש המגיע למערת התאומים המרשימה.",
+      "ar": "مسار جاف. مسار مظلل في الأحراش يصل إلى مغارة التوائم الرائعة.",
+      "en": "Dry trail. A shaded woodland trail reaching the impressive Twins Cave.",
+      "ru": "Сухой маршрут. Тенистая тропа к пещере Близнецов."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1743",
+    "name": {
+      "he": "תל עזקה (פארק בריטניה)",
+      "ar": "تل عزيقة",
+      "en": "Tel Azekah (Britannia Park)",
+      "ru": "Тель-Азека"
+    },
+    "coords": [
+      31.6994,
+      34.9311
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
+    "description": {
+      "he": "מסלול יבש. תל ארכיאולוגי הצופה על עמק האלה, אתר קרב דוד וגוליית.",
+      "ar": "مسار جاف. تل أثري يطل على وادي السنط، موقع معركة داود وجالوت.",
+      "en": "Dry trail. An archaeological mound overlooking the Elah Valley, site of the David and Goliath battle.",
+      "ru": "Сухой маршрут. Холм с видом на долину Эла, место битвы Давида и Голиафа."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1744",
+    "name": {
+      "he": "חורבת מדרס",
+      "ar": "خربة مدروس",
+      "en": "Midras Ruins",
+      "ru": "Руины Мидрас"
+    },
+    "coords": [
+      31.6547,
+      34.9358
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
+    "description": {
+      "he": "מסלול יבש. אתר ארכיאולוגי הכולל מערת זחילה ומבנים עתיקים בשפלה.",
+      "ar": "مسار جاف. موقع أثري يضم مغارة للزحف ومباني قديمة في منطقة السفوح.",
+      "en": "Dry trail. An archaeological site featuring a crawling cave and ancient structures in the Foothills.",
+      "ru": "Сухой маршрут. Археологический памятник с пещерой для ползания."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1745",
+    "name": {
+      "he": "חורבת עתרי",
+      "ar": "خربة عتري",
+      "en": "Itri Ruins",
+      "ru": "Руины Итри"
+    },
+    "coords": [
+      31.6492,
+      34.9453
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
+    "description": {
+      "he": "מסלול יבש. שרידי כפר יהודי מתקופת בית שני המציע חוויה לימודית.",
+      "ar": "مسار جاف. بقايا قرية يهودية من فترة الهيكل الثاني توفر تجربة تعليمية.",
+      "en": "Dry trail. Remains of a Jewish village from the Second Temple period offering an educational experience.",
+      "ru": "Сухой маршрут. Остатки еврейской деревни периода Второго Храма."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1746",
+    "name": {
+      "he": "נחל לוז",
+      "ar": "وادي لوز",
+      "en": "Luz Stream",
+      "ru": "Нахаль-Луз"
+    },
+    "coords": [
+      31.8311,
+      35.1225
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
+    "description": {
+      "he": "מסלול יבש. מסלול הליכה פראי ופחות מוכר מצפון לירושלים.",
+      "ar": "مسار جاف. مسار مشي بري وأقل شهرة شمال القدس.",
+      "en": "Dry trail. A wild and less known hiking trail north of Jerusalem.",
+      "ru": "Сухой маршрут. Дикая тропа к северу от Иерусалима."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1747",
+    "name": {
+      "he": "הר איתן (מסלול היקפי)",
+      "ar": "جبل إيتان - المسار المحيطي",
+      "en": "Mount Eitan (Perimeter Trail)",
+      "ru": "Гора Эйтан (Кольцевой маршрут)"
+    },
+    "coords": [
+      31.7686,
+      35.1239
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "מסלול יבש. שביל רחב ונוח סביב ההר עם תצפיות יפות להרי ירושלים.",
+      "ar": "مسار جاف. طريق واسع ومريح حول الجبل مع إطلالات جميلة على جبال القدس.",
+      "en": "Dry trail. A wide and comfortable path around the mountain with beautiful views of the Jerusalem Hills.",
+      "ru": "Сухой маршрут. Широкая дорожка вокруг горы с видами на Иерусалимские горы."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1748",
+    "name": {
+      "he": "שביל המעיינות (עמינדב)",
+      "ar": "مسار الينابيع - عميندآف",
+      "en": "Springs Trail (Aminadav)",
+      "ru": "Тропа родников (Аминадав)"
+    },
+    "coords": [
+      31.7511,
+      35.1381
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "description": {
+      "he": "מסלול רטוב (מעיינות). מסלול פופולרי המחבר בין מספר מעיינות שכבה.",
+      "ar": "مسار رطب (ينابيع). مسار شعبي يربط بين عدة ينابيع طبقية.",
+      "en": "Wet trail (springs). A popular trail connecting several layer springs.",
+      "ru": "Водный маршрут (родники). Популярная тропа, соединяющая пластовые источники."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1749",
+    "name": {
+      "he": "עין לימור",
+      "ar": "عين ليمور",
+      "en": "Ein Limor",
+      "ru": "Эйн-Лимор"
+    },
+    "coords": [
+      31.7944,
+      35.1017
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+    "description": {
+      "he": "מסלול רטוב. מעיין פתוח בלב הרי ירושלים סמוך לכפר אבו גוש.",
+      "ar": "مسار رطب. نبع مفتوح في قلب جبال القدس بالقرب من قرية أبو غوش.",
+      "en": "Wet trail. An open spring in the heart of the Jerusalem Hills near Abu Ghosh village.",
+      "ru": "Водный маршрут. Открытый источник в Иерусалимских горах рядом с Абу-Гошем."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1750",
+    "name": {
+      "he": "נחל רפאים",
+      "ar": "وادي رفائيم",
+      "en": "Refaim Stream",
+      "ru": "Нахаль-Рефаим"
+    },
+    "coords": [
+      31.7428,
+      35.1639
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
+    "description": {
+      "he": "מסלול יבש. ערוץ נחל רחב העובר בדרום ירושלים ומציע נופים הרריים.",
+      "ar": "مسار جاف. مجرى وادٍ واسع يمر عبر جنوب القدس ويوفر مناظر جبلية.",
+      "en": "Dry trail. A wide stream channel passing through southern Jerusalem, offering mountain views.",
+      "ru": "Сухой маршрут. Широкое русло через южный Иерусалим с горными видами."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1751",
+    "name": {
+      "he": "נחל יתלה",
+      "ar": "وادي يتلة",
+      "en": "Yitla Stream",
+      "ru": "Нахаль-Итла"
+    },
+    "coords": [
+      31.8158,
+      35.0603
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "description": {
+      "he": "מסלול יבש. נחל יפהפה בהרי ירושלים עם פריחה עונתית מרשימה.",
+      "ar": "مسار جاف. وادٍ جميل في جبال القدس مع تزهير موسمي رائع.",
+      "en": "Dry trail. A beautiful stream in the Jerusalem Hills with impressive seasonal blossoms.",
+      "ru": "Сухой маршрут. Красивый ручей с сезонным цветением."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1752",
+    "name": {
+      "he": "הר הרוח",
+      "ar": "جبل الريح",
+      "en": "Mount Ruach",
+      "ru": "Хар-ха-Руах"
+    },
+    "coords": [
+      31.8239,
+      35.0889
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
+    "description": {
+      "he": "מסלול יבש. טיול מוצל ביער הר הרוח עם תצפיות לעבר נחל יתלה.",
+      "ar": "مسار جاف. رحلة مظللة في غابة جبل الريح مع إطلالات على وادي يتلة.",
+      "en": "Dry trail. A shaded hike in the Mount Ruach forest with views toward Yitla Stream.",
+      "ru": "Сухой маршрут. Тенистая прогулка по лесу с видами на ручей Итла."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1753",
+    "name": {
+      "he": "נחל כסלון",
+      "ar": "وادي كسلون",
+      "en": "Kesalon Stream",
+      "ru": "Нахаль-Кислон"
+    },
+    "coords": [
+      31.7792,
+      35.0442
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
+    "description": {
+      "he": "מסלול יבש. אחד הנחלים הגדולים והמרשימים ביותר בהרי ירושלים.",
+      "ar": "مسار جاف. أحد أكبر الوديان وأكثرها روعة في جبال القدس.",
+      "en": "Dry trail. One of the largest and most impressive streams in the Jerusalem Hills.",
+      "ru": "Сухой маршрут. Один из крупнейших ручьев Иерусалимских гор."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1754",
+    "name": {
+      "he": "דרך בורמה",
+      "ar": "طريق بورما",
+      "en": "Burma Road",
+      "ru": "Бирманская дорога"
+    },
+    "coords": [
+      31.8125,
+      34.9708
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
+    "description": {
+      "he": "מסלול יבש. שביל היסטורי מימי מלחמת העצמאות המיועד להליכה ורכיבה.",
+      "ar": "مسار جاف. طريق تاريخي من أيام حرب الاستقلال مخصص للمشي وركوب الدراجات.",
+      "en": "Dry trail. A historical path from the War of Independence period intended for hiking and riding.",
+      "ru": "Сухой маршрут. Историческая тропа времен Войны за независимость."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1755",
+    "name": {
+      "he": "נחל התימנים (עין כרם)",
+      "ar": "وادي اليمن (عين كارم)",
+      "en": "Teimani Stream (Ein Karem)",
+      "ru": "Нахаль-ха-Тейманим"
+    },
+    "coords": [
+      31.7703,
+      35.1611
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
+    "description": {
+      "he": "מסלול יבש/רטוב. מסלול מקסים המחבר בין שכונת עין כרם למעיינות הסביבה.",
+      "ar": "مسار جاف/رطب. مسار ساحر يربط بين حي عين كارم والينابيع المجاورة.",
+      "en": "Dry/Wet trail. A charming trail connecting the Ein Karem neighborhood to surrounding springs.",
+      "ru": "Сухой/Водный маршрут. Очаровательная тропа от Эйн-Карем к источникам."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1756",
+    "name": {
+      "he": "רכס השיירות",
+      "ar": "تلة القوافل",
+      "en": "Shayarot Ridge",
+      "ru": "Хребет Шаярот"
+    },
+    "coords": [
+      31.7958,
+      35.0336
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "מסלול יבש. תצפיות היסטוריות על כביש 1 ואתרים מקרבות מלחמת העצמאות.",
+      "ar": "مسار جاف. إطلالات تاريخية على الطريق رقم 1 ومواقع من معارك حرب الاستقلال.",
+      "en": "Dry trail. Historical lookouts over Highway 1 and sites from War of Independence battles.",
+      "ru": "Сухой маршрут. Исторические смотровые площадки над шоссе №1."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1757",
+    "name": {
+      "he": "רכס משלטים",
+      "ar": "تلة المواقع",
+      "en": "Meshalatim Ridge",
+      "ru": "Хребет Мешалатим"
+    },
+    "coords": [
+      31.8111,
+      35.0417
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "description": {
+      "he": "מסלול יבש. שביל לאורך עמדות צבאיות ישנות עם נוף פנורמי להרי ירושלים.",
+      "ar": "مسار جاف. طريق على طول مواقع عسكرية قديمة مع إطلالة بانورامية على جبال القدس.",
+      "en": "Dry trail. A path along old military positions with panoramic views of the Jerusalem Hills.",
+      "ru": "Сухой маршрут. Тропа вдоль старых военных позиций с панорамным видом."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1758",
+    "name": {
+      "he": "נחל שילה",
+      "ar": "وادي شيلو",
+      "en": "Shilo Stream",
+      "ru": "Нахаль-Шило"
+    },
+    "coords": [
+      32.0464,
+      34.9653
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+    "description": {
+      "he": "מסלול יבש. נחל העובר בנופים הרריים ופראיים באזור השומרון והשפלה.",
+      "ar": "مسار جاف. وادٍ يمر عبر مناظر جبلية وبرية في منطقة السامرة والسفوح.",
+      "en": "Dry trail. A stream passing through mountainous and wild scenery in the Samaria and Foothills area.",
+      "ru": "Сухой маршрут. Ручей в горных пейзажах Самарии."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1759",
+    "name": {
+      "he": "נחל נחשון",
+      "ar": "وادي نحشون",
+      "en": "Nachshon Stream",
+      "ru": "Нахаль-Нахשון"
+    },
+    "coords": [
+      31.8306,
+      34.9319
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
+    "description": {
+      "he": "מסלול יבש. מסלול הליכה נינוח בשפלה סמוך למנזר לטרון.",
+      "ar": "مسار جاف. مسار مشي مريح في منطقة السفوح بالقرب من دير اللطرون.",
+      "en": "Dry trail. A relaxed hiking trail in the Foothills near the Latrun Monastery.",
+      "ru": "Сухой маршрут. Неспешная тропа у монастыря Латрун."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1760",
+    "name": {
+      "he": "נחל אלכסנדר",
+      "ar": "وادي اسكندر",
+      "en": "Alexander Stream",
+      "ru": "Нахаль-Александр"
+    },
+    "coords": [
+      32.3969,
+      34.8694
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "description": {
+      "he": "מסלול רטוב (צפייה בלבד). הליכה לאורך הנחל המפורסם בצבים הרכים שבו.",
+      "ar": "مسار رطب (للمشاهدة فقط). المشي على طول الوادي الشهير بسلاحفه اللينة.",
+      "en": "Wet trail (viewing only). Walking along the stream famous for its softshell turtles.",
+      "ru": "Водный маршрут (только просмотр). Прогулка вдоль ручья с мягкотелыми черепахами."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1761",
+    "name": {
+      "he": "נחל פולג",
+      "ar": "وادي الفالق",
+      "en": "Poleg Stream",
+      "ru": "Нахаль-Полег"
+    },
+    "coords": [
+      32.2536,
+      34.8436
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
+    "description": {
+      "he": "מסלול יבש/רטוב. שמורת טבע המציעה פריחה אביבית וקטע נחל זורם לים.",
+      "ar": "مسار جاف/رطب. محمية طبيعية توفر تزهيراً ربيعياً وجزءاً من الوادي يصب في البحر.",
+      "en": "Dry/Wet trail. A nature reserve offering spring blossoms and a section of stream flowing to the sea.",
+      "ru": "Сухой/Водный маршрут. Заповедник с весенним цветением и ручьем к морю."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1762",
+    "name": {
+      "he": "נחל ירקון (מקורות הירקון)",
+      "ar": "نهر العوجا (ينابيع العوجا)",
+      "en": "Yarkon Stream (Sources)",
+      "ru": "Нахаль-Яркон (Истоки)"
+    },
+    "coords": [
+      32.1158,
+      34.9286
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
+    "description": {
+      "he": "מסלול רטוב. פינה ירוקה ושקטה עם מים זורמים בלב גוש דן.",
+      "ar": "مسار رطب. زاوية خضراء وهادئة مع مياه جارية في قلب منطقة غوش دان.",
+      "en": "Wet trail. A quiet green corner with flowing water in the heart of Gush Dan.",
+      "ru": "Водный маршрут. Тихий зеленый уголок с проточной водой в Гуш-Дане."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1763",
+    "name": {
+      "he": "נחל השופט",
+      "ar": "وادي الشوفيت",
+      "en": "Shofet Stream",
+      "ru": "Нахаль-ха-Шופет"
+    },
+    "coords": [
+      32.6106,
+      35.1008
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
+    "description": {
+      "he": "מסלול רטוב. מסלול נגיש ויפהפה עם מים זורמים לאורך כל השנה.",
+      "ar": "مسار رطب. مسار متاح وجميل مع مياه جارية على مدار العام.",
+      "en": "Wet trail. An accessible and beautiful trail with flowing water year-round.",
+      "ru": "Водный маршрут. Доступная тропа с проточной водой круглый год."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1764",
+    "name": {
+      "he": "נחל תבור (קניון הבזלת)",
+      "ar": "وادي الطور",
+      "en": "Tabor Stream (Basalt Canyon)",
+      "ru": "Нахаль-Тавор (Базальтовый каньон)"
+    },
+    "coords": [
+      32.645,
+      35.4883
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
+    "description": {
+      "he": "מסלול רטוב (חורף). מסלול מרהיב בתוך ערוץ בזלתי עם בריכות ומפלים עונתיים.",
+      "ar": "مسار رطب (شتاءً). مسار رائع داخل مجرى بازلتي يضم بركاً وشلالات موسمية.",
+      "en": "Wet trail (winter). A spectacular trail inside a basalt channel with seasonal pools and waterfalls.",
+      "ru": "Водный маршрут (зима). Маршрут в базальтовом русле с сезонными заводями."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1765",
+    "name": {
+      "he": "נחל המערה (מערת התאומים)",
+      "ar": "وادي المغارة - مغارة التوائم",
+      "en": "Maara Stream (Twins Cave)",
+      "ru": "Нахаль-ха-Меара"
+    },
+    "coords": [
+      31.7183,
+      34.9967
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "מסלול יבש. שביל מוצל המוביל למערה גדולה עם נטיפים ועטלפים.",
+      "ar": "مسار جاف. طريق مظلل يؤدي إلى مغارة كبيرة تضم صواعد ونوازل وخفافيش.",
+      "en": "Dry trail. A shaded path leading to a large cave with stalactites and bats.",
+      "ru": "Сухой маршрут. Тенистая тропа к большой пещере со сталактитами."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1766",
+    "name": {
+      "he": "נחל זנוח (עין מטע)",
+      "ar": "وادي زانوح - عين ماتا",
+      "en": "Zanoah Stream (Ein Mata)",
+      "ru": "Нахаль-Заноах (Эйн-Мата)"
+    },
+    "coords": [
+      31.7117,
+      35.0619
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "description": {
+      "he": "מסלול רטוב. הליכה בתוך חורשה עבותה אל מעיין קטן ופסטורלי.",
+      "ar": "مسار رطب. المشي داخل حرش كثيف باتجاه نبع صغير وهادئ.",
+      "en": "Wet trail. Walking inside thick woodland to a small and pastoral spring.",
+      "ru": "Водный маршрут. Прогулка по густому лесу к источнику."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1767",
+    "name": {
+      "he": "נחל אילון (פארק קנדה)",
+      "ar": "وادي أيلون (منتزه كندا)",
+      "en": "Ayalon Stream (Canada Park)",
+      "ru": "Нахаль-Аялон (Парк Канада)"
+    },
+    "coords": [
+      31.8489,
+      34.9856
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+    "description": {
+      "he": "מסלול יבש. מסלול רחב הצופה על עמק אילון עם שרידי יישוב עתיק.",
+      "ar": "مسار جاف. مسار واسع يطل على سهل أيلون مع بقايا مستوطنة قديمة.",
+      "en": "Dry trail. A wide trail overlooking the Ayalon Valley with ancient settlement remains.",
+      "ru": "Сухой маршрут. Широкая тропа с видом на долину Аялон."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1768",
+    "name": {
+      "he": "נחל גרר (פארק שרשרת)",
+      "ar": "وادي جرير",
+      "en": "Gerar Stream (Sharsheret Park)",
+      "ru": "Нахаль-Герар"
+    },
+    "coords": [
+      31.3783,
+      34.6186
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
+    "description": {
+      "he": "מסלול יבש. טיול בין גבעות לס ומחצבות עתיקות בנגב הצפוני.",
+      "ar": "مسار جاف. رحلة بين تلال الطمي والمحاجر القديمة في شمال النقب.",
+      "en": "Dry trail. A hike among loess hills and ancient quarries in the northern Negev.",
+      "ru": "Сухой маршрут. Поход среди лессовых холмов в северном Негеве."
+    },
+    "region": "south"
+  },
+  {
+    "id": "1769",
+    "name": {
+      "he": "נחל הבשור (דרך הנוף)",
+      "ar": "وادي الشلالة",
+      "en": "Besor Stream (Scenic Road)",
+      "ru": "Нахаль-ха-Бסור"
+    },
+    "coords": [
+      31.2858,
+      34.4811
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "description": {
+      "he": "מסלול יבש. שביל נופי הכולל את הגשר התלוי הארוך בישראל מעל ערוץ הנחל.",
+      "ar": "مسار جاف. طريق مناظر طبيعية يتضمن أطول جسر معلق في إسرائيل فوق مجرى الوادي.",
+      "en": "Dry trail. A scenic path featuring the longest suspension bridge in Israel over the stream channel.",
+      "ru": "Сухой маршрут. Живописная тропа с самым длинным подвесным мостом в Израиле."
+    },
+    "region": "south"
   }
 ]
