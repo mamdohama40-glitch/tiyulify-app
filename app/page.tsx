@@ -325,9 +325,11 @@ function CompactPopup({ item, pd, activeLang, labels, shareOnWhatsApp }: { item:
   return (
     <div className="text-right font-sans p-1 overflow-hidden">
       <UserPhotos item={item} />
-      <h4 className="font-bold text-green-900 text-sm m-0 leading-snug mb-1 px-1">
-        {item.name[activeLang]||item.name.he}
-      </h4>
+      <a href={'https://www.google.com/search?q=' + encodeURIComponent(item.name[activeLang]||item.name.he)} target="_blank" className="no-underline">
+        <h4 className="font-bold text-green-900 text-sm m-0 leading-snug mb-1 px-1 hover:text-green-600 hover:underline cursor-pointer">
+          🔍 {item.name[activeLang]||item.name.he}
+        </h4>
+      </a>
       <p className="text-[12px] text-gray-600 leading-relaxed px-1 mb-2 ">
         {item.description[activeLang]||item.description.he}
       </p>
