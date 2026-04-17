@@ -36399,5 +36399,797 @@
       "en": "Former Palestinian village, currently in the Kibbutz Tzuba area containing archaeological remains.",
       "ru": "Бывшая палестинская деревня, ныне в районе кибуца Цуба, включает археологические находки."
     }
+  },
+  {
+    "id": "1684",
+    "name": {
+      "he": "נחל קיבוצים",
+      "ar": "وادي الكيبوتس",
+      "en": "Nahal Kibbutzim",
+      "ru": "Нахаль Кибуцим"
+    },
+    "coords": [
+      32.5033,
+      35.4522
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1542301140-62947f63080e?w=600",
+    "description": {
+      "he": "מסלול רטוב. הליכה במים צלולים ונעימים בעמק המעיינות.",
+      "ar": "مسار رطب. المشي في مياه صافية ومنعشة في وادي الينابيع.",
+      "en": "Wet trail. Walking in crystal clear and pleasant water in the Springs Valley.",
+      "ru": "Водный маршрут. Прогулка в кристально чистой воде в долине источников."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1685",
+    "name": {
+      "he": "נחל עמוד (עליון)",
+      "ar": "وادي العامود (العلوي)",
+      "en": "Amud Stream (Upper)",
+      "ru": "Нахаль Амуд (Верхний)"
+    },
+    "coords": [
+      32.9367,
+      35.4503
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f04b?w=600",
+    "description": {
+      "he": "מסלול רטוב. מסלול יפהפה בתוך קניון סלעי עם בריכות מים וטחנות קמח עתיקות.",
+      "ar": "مسار رطب. مسار جميل داخل وادٍ صخري يضم برك مياه وطواحين دقيق قديمة.",
+      "en": "Wet trail. A beautiful route inside a rocky canyon with water pools and ancient flour mills.",
+      "ru": "Водный маршрут. Красивый маршрут в скалистом каньоне с водоемами и мельницами."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1686",
+    "name": {
+      "he": "נחל עמוד (תחתון)",
+      "ar": "وادي العامود (السفلي)",
+      "en": "Amud Stream (Lower)",
+      "ru": "Нахаль Амуд (Нижний)"
+    },
+    "coords": [
+      32.8622,
+      35.5008
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "מסלול יבש/רטוב. הליכה בתוך נוף הררי מרשים עד לכנרת.",
+      "ar": "مسار جاف/رطب. المشي وسط مناظر جبلية رائعة وصولاً إلى بحيرة طبريا.",
+      "en": "Dry/Wet trail. Walking through impressive mountain scenery down to the Sea of Galilee.",
+      "ru": "Сухой/Водный маршрут. Прогулка по горным пейзажам до Тивериадского озера."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1687",
+    "name": {
+      "he": "נחל זאכי",
+      "ar": "الزاكي",
+      "en": "Majrasa - Zaki Stream",
+      "ru": "Нахаль Заки"
+    },
+    "coords": [
+      32.9056,
+      35.6308
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=600",
+    "description": {
+      "he": "מסלול רטוב (אתגרי). הליכה ושחייה בתוך ערוץ נחל זורם.",
+      "ar": "مسار رطب (تحدي). المشي والسباحة داخل مجرى وادٍ جارٍ.",
+      "en": "Wet trail (challenging). Walking and swimming in a flowing stream channel.",
+      "ru": "Водный маршрут (сложный). Прогулка и плавание в русле проточного ручья."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1688",
+    "name": {
+      "he": "נחל המג׳רסה",
+      "ar": "المجرسة",
+      "en": "Majrasa (Betiha Nature Reserve)",
+      "ru": "Маджраса"
+    },
+    "coords": [
+      32.8989,
+      35.6311
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+    "description": {
+      "he": "מסלול רטוב. מסלול משפחתי קליל ומהנה בתוך מים רדודים.",
+      "ar": "مسار رطب. مسار عائلي سهل وممتع في مياه ضحلة.",
+      "en": "Wet trail. An easy and fun family trail in shallow water.",
+      "ru": "Водный маршрут. Легкий и увлекательный семейный маршрут по мелководью."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1689",
+    "name": {
+      "he": "בריכת המשושים",
+      "ar": "بركة السداسية",
+      "en": "Hexagon Pool",
+      "ru": "Бассейн Мешушим"
+    },
+    "coords": [
+      32.9364,
+      35.6569
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "מסלול רטוב. בריכה טבעית מוקפת בעמודי בזלת בצורת משושים.",
+      "ar": "مسار رطب. بركة طبيعية محاطة بأعمدة البازلت السداسية.",
+      "en": "Wet trail. A natural pool surrounded by hexagonal basalt columns.",
+      "ru": "Водный маршрут. Природный бассейн с шестиугольными базальтовыми колоннами."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1690",
+    "name": {
+      "he": "יהודיה (מסלול עליון)",
+      "ar": "اليهودية (المسار العلوي)",
+      "en": "Yehudiya (Upper)",
+      "ru": "Иегудия (Верхний)"
+    },
+    "coords": [
+      32.9511,
+      35.6881
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
+    "description": {
+      "he": "מסלול רטוב. קניון עמוק עם מפלים ובריכות מים עמוקות.",
+      "ar": "مسار رطب. وادٍ عميق مع شلالات وبرك مائية عميقة.",
+      "en": "Wet trail. A deep canyon with waterfalls and deep water pools.",
+      "ru": "Водный маршрут. Глубокий каньон с водопадами и глубокими заводями."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1691",
+    "name": {
+      "he": "זוויתן (עליון ותחתון)",
+      "ar": "وادي الزاويتان",
+      "en": "Zavitan Stream",
+      "ru": "Нахаль Завитан"
+    },
+    "coords": [
+      32.9642,
+      35.6764
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
+    "description": {
+      "he": "מסלול רטוב. מסלול ארוך ומרשים הכולל את מפל הזוויתן ובריכות מים.",
+      "ar": "مسار رطب. مسار طويل ورائع يضم شلال الزاويتان وبرك مياه.",
+      "en": "Wet trail. A long and impressive trail including the Zavitan waterfall and pools.",
+      "ru": "Водный маршрут. Длинная тропа с водопадом Завитан и бассейнами."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1692",
+    "name": {
+      "he": "נחל ג׳ילבון (מפל דבורה)",
+      "ar": "وادي الجلبون",
+      "en": "Gilbon Stream",
+      "ru": "Нахаль Джильбон"
+    },
+    "coords": [
+      33.0408,
+      35.6558
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
+    "description": {
+      "he": "מסלול רטוב. הליכה בין מפלים מרשימים בלב רמת הגולן.",
+      "ar": "مسار رطب. المشي بين شلالات رائعة في قلب مرتفعات الجولان.",
+      "en": "Wet trail. Walking between impressive waterfalls in the heart of the Golan Heights.",
+      "ru": "Водный маршрут. Прогулка среди водопадов на Голанских высотах."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1693",
+    "name": {
+      "he": "נחל חרמון (הבניאס)",
+      "ar": "بانياس",
+      "en": "Hermon Stream (Banias)",
+      "ru": "Баниас"
+    },
+    "coords": [
+      33.2483,
+      35.6939
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "description": {
+      "he": "מסלול רטוב. שביל תלוי מעל מים שוצפים ומפל עוצמתי.",
+      "ar": "مسار رطب. مسار معلق فوق المياه الهادرة وشلال قوي.",
+      "en": "Wet trail. A suspended trail above rushing water and a powerful waterfall.",
+      "ru": "Водный маршрут. Подвесная тропа над бурлящей водой и мощным водопадом."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1694",
+    "name": {
+      "he": "נחל דן (תל דן)",
+      "ar": "تل القاضي",
+      "en": "Tel Dan Nature Reserve",
+      "ru": "Тель-Дан"
+    },
+    "coords": [
+      33.2489,
+      35.6522
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=600",
+    "description": {
+      "he": "מסלול רטוב. הליכה בתוך ג׳ונגל של צמחייה ונחל שוצף.",
+      "ar": "مسار رطب. المشي وسط غابة من النباتات ووادي متدفق.",
+      "en": "Wet trail. Walking through a jungle of vegetation and a rushing stream.",
+      "ru": "Водный маршрут. Прогулка по джунглям и бурному ручью."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1695",
+    "name": {
+      "he": "נחל שניר (חצבאני)",
+      "ar": "الحاصباني",
+      "en": "Snir Stream (Hatzbani)",
+      "ru": "Нахаль Снир"
+    },
+    "coords": [
+      33.2383,
+      35.6189
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600",
+    "description": {
+      "he": "מסלול רטוב. שילוב של הליכה במים ובצד הנחל בתוך שמורה מרהיבה.",
+      "ar": "مسار رطب. مزيج من المشي في الماء وبجانب الوادي في محمية خلابة.",
+      "en": "Wet trail. A combination of walking in water and by the stream in a spectacular reserve.",
+      "ru": "Водный маршрут. Прогулки в воде и вдоль ручья в живописном заповеднике."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1696",
+    "name": {
+      "he": "נחל ראש פינה",
+      "ar": "وادي الجاعونة",
+      "en": "Rosh Pinna Stream",
+      "ru": "Нахаль Рош-Пина"
+    },
+    "coords": [
+      32.9683,
+      35.5322
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
+    "description": {
+      "he": "מסלול יבש (פריחה). מסלול פסטורלי עם בוסתנים ופריחת שקדיות בחורף.",
+      "ar": "مسار جاف (تزهير). مسار ريفي يضم بساتين وأزهار اللوز في الشتاء.",
+      "en": "Dry trail (blossom). A pastoral trail with orchards and almond blossoms in winter.",
+      "ru": "Сухой маршרут. Пасторальная тропа с садами и цветением миндаля."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1697",
+    "name": {
+      "he": "נחל צלמון",
+      "ar": "وادي سلامة",
+      "en": "Tzalmon Stream",
+      "ru": "Нахаль Цалмон"
+    },
+    "coords": [
+      32.8839,
+      35.3908
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
+    "description": {
+      "he": "מסלול רטוב. הליכה לאורך פלגי מים וטחנות קמח בגליל התחתון.",
+      "ar": "مسار رطب. المشي على طول مجاري المياه وطواحين الدقيق في الجليل الأسفل.",
+      "en": "Wet trail. Walking along water streams and flour mills in the Lower Galilee.",
+      "ru": "Водный маршрут. Прогулка вдоль ручьев и мельниц в Нижней Галилее."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1698",
+    "name": {
+      "he": "שמורת נחל עיון (התנור)",
+      "ar": "وادي عيون (شلال التنور)",
+      "en": "Ayoun Stream (Tanur)",
+      "ru": "Заповедник Нахаль-Аюн"
+    },
+    "coords": [
+      33.2642,
+      35.5806
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "description": {
+      "he": "מסלול רטוב. שמורה עם ארבעה מפלים גבוהים ומרשימים.",
+      "ar": "مسار رطب. محمية تضم أربعة شلالات عالية ورائعة.",
+      "en": "Wet trail. A reserve with four high and impressive waterfalls.",
+      "ru": "Водный маршрут. Заповедник с четырьмя высокими водопадами."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1699",
+    "name": {
+      "he": "נחל יהודיה",
+      "ar": "وادي اليهودية",
+      "en": "Yehudiya Stream",
+      "ru": "Нахаль Иегудия"
+    },
+    "coords": [
+      32.9114,
+      35.6592
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=600",
+    "description": {
+      "he": "מסלול רטוב. טיול אתגרי בקניון בזלת עמוק ומרשים.",
+      "ar": "مسار رطب. رحلة مليئة بالتحديات في وادٍ بازلتي عميق ورائع.",
+      "en": "Wet trail. A challenging hike in a deep and impressive basalt canyon.",
+      "ru": "Водный маршрут. Сложный поход по базальтовому каньону."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1700",
+    "name": {
+      "he": "עין תינה",
+      "ar": "عين التينة",
+      "en": "Ein Tina",
+      "ru": "Эйн-Тина"
+    },
+    "coords": [
+      33.0811,
+      35.6375
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+    "description": {
+      "he": "מסלול רטוב. טיפוס קצר בתוך מים זורמים לעבר מעיין הנובע מתוך המצוק.",
+      "ar": "مسار رطب. تسلق قصير في مياه جارية نحو نبع ينبع من الجرف.",
+      "en": "Wet trail. A short climb in flowing water towards a spring from the cliff.",
+      "ru": "Водный маршрут. Короткий подъем к источнику из скалы."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1701",
+    "name": {
+      "he": "עין דיבשה",
+      "ar": "عين الدبشة",
+      "en": "Ein Dibsha",
+      "ru": "Эйн-Дибша"
+    },
+    "coords": [
+      33.095,
+      35.6358
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600",
+    "description": {
+      "he": "מסלול רטוב. הליכה רגועה ומוצלת בתוך פלג מים רדוד עם טחנת קמח עתיקה.",
+      "ar": "مسار رطب. مشي هادئ ومظلل في مجرى مائي ضحل مع طاحونة دقيق قديمة.",
+      "en": "Wet trail. A calm and shaded walk in a shallow stream with an ancient flour mill.",
+      "ru": "Водный маршрут. Спокойная прогулка по мелководью со старинной мельницей."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1702",
+    "name": {
+      "he": "נחל חזורי וגובתה",
+      "ar": "وادي حزوري وجوبتا",
+      "en": "Hazuri and Govta Stream",
+      "ru": "Нахаль Хазури и Гувта"
+    },
+    "coords": [
+      33.2558,
+      35.7381
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1418063526784-5949e211a95a?w=600",
+    "description": {
+      "he": "מסלול יבש/רטוב. מסלול יפה ומוצל במורדות החרמון.",
+      "ar": "مسار جاف/رطب. مسار جميل ومظلل في منحدرات جبل الشيخ.",
+      "en": "Dry/Wet trail. A beautiful and shaded trail on the slopes of Mount Hermon.",
+      "ru": "Сухой/Водный маршрут. Красивая тенистая тропа на склонах Хермона."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1703",
+    "name": {
+      "he": "נחל כזיב (עין חרדלית)",
+      "ar": "وادي القرن",
+      "en": "Kziv Stream (Ein Hardalit)",
+      "ru": "Нахаль Кзив"
+    },
+    "coords": [
+      33.045,
+      35.1583
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
+    "description": {
+      "he": "מסלול רטוב. הליכה במים זורמים בתוך שמורה ירוקה ומבצר המונפורט.",
+      "ar": "مسار رطب. المشي في مياه جارية داخل محمية خضراء وقلعة مونفور.",
+      "en": "Wet trail. Walking in flowing water inside a green reserve and the Montfort Castle.",
+      "ru": "Водный маршрут. Прогулка в проточной воде у крепости Монфор."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1704",
+    "name": {
+      "he": "הר מירון (שביל הפסגה)",
+      "ar": "جبل الجرمق",
+      "en": "Mount Meron Summit Trail",
+      "ru": "Гора Мерон"
+    },
+    "coords": [
+      32.9967,
+      35.4131
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "מסלול יבש. שביל טבעתי סביב פסגת ההר עם תצפיות מרהיבות לכל עבר.",
+      "ar": "مسار جاف. مسار دائري حول قمة الجبل مع إطلالات رائعة في كل اتجاه.",
+      "en": "Dry trail. A circular path around the mountain summit with spectacular views.",
+      "ru": "Сухой маршрут. Кольцевая тропа вокруг вершины с видами во всех направлениях."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1705",
+    "name": {
+      "he": "הר ארבל",
+      "ar": "جبل الأربعين",
+      "en": "Mount Arbel",
+      "ru": "Гора Арбель"
+    },
+    "coords": [
+      32.8242,
+      35.5061
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
+    "description": {
+      "he": "מסלול יבש (אתגרי). מצוק תלול המשקיף על הכנרת עם ירידה ביתדות.",
+      "ar": "مسار جاف (تحدي). منحدر حاد يطل على بحيرة طبريا مع النزول باستخدام الأوتاد.",
+      "en": "Dry trail (challenging). A steep cliff overlooking the Sea of Galilee with a descent using pegs.",
+      "ru": "Сухой маршрут (сложный). Крутая скала с видом на Тивериадское озеро."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1706",
+    "name": {
+      "he": "קרני חיטין",
+      "ar": "قرون حطين",
+      "en": "Horns of Hattin",
+      "ru": "Карней Хиттин"
+    },
+    "coords": [
+      32.8028,
+      35.4594
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
+    "description": {
+      "he": "מסלול יבש. הר געש רדומי ואתר היסטורי של קרב חטין עם תצפית רחבה.",
+      "ar": "مسار جاف. بركان خامد وموقع تاريخي لمعركة حطين مع إطلالة واسعة.",
+      "en": "Dry trail. A dormant volcano and historical site of the Battle of Hattin with a broad view.",
+      "ru": "Сухой маршрут. Спящий вулкан и историческое место битвы при Хиттине."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1707",
+    "name": {
+      "he": "הר תבור",
+      "ar": "جبل الطور",
+      "en": "Mount Tabor",
+      "ru": "Гора Тавор"
+    },
+    "coords": [
+      32.6869,
+      35.3908
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
+    "description": {
+      "he": "מסלול יבש. הר בולט בעמק יזרעאל עם כנסיות יפהפיות ושביל היקפי.",
+      "ar": "مسار جاف. جبل بارز في مرج ابن عامر يضم كنائس جميلة ومساراً محيطياً.",
+      "en": "Dry trail. A prominent mountain in the Jezreel Valley with beautiful churches.",
+      "ru": "Сухой маршрут. Гора в долине Изреэль с церквями и кольцевой тропой."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1708",
+    "name": {
+      "he": "מצוקי און",
+      "ar": "منحدرات أون",
+      "en": "On Cliffs",
+      "ru": "Скалы Он"
+    },
+    "coords": [
+      32.6983,
+      35.6583
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+    "description": {
+      "he": "מסלול יבש. תצפיות פנורמיות עוצרות נשימה על דרום הכנרת והגולן.",
+      "ar": "مسار جاف. إطلالات بانورامية خلابة على جنوب بحيرة طبريا والجولان.",
+      "en": "Dry trail. Breathtaking panoramic views of the southern Sea of Galilee and the Golan.",
+      "ru": "Сухой маршрут. Панорамные виды на юг Тивериадского озера и Голаны."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1709",
+    "name": {
+      "he": "נחל יצפור (גלבוע)",
+      "ar": "وادي يتسفور (الجلبوع)",
+      "en": "Yitzpor Stream (Gilboa)",
+      "ru": "Нахаль Ицпор"
+    },
+    "coords": [
+      32.4839,
+      35.4108
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "מסלול יבש. ירידה תלולה ויפה מהגלבוע לעמק המעיינות.",
+      "ar": "مسار جاف. نزول حاد وجميل من الجلبوع إلى وادي الينابيع.",
+      "en": "Dry trail. A steep and beautiful descent from the Gilboa to the Springs Valley.",
+      "ru": "Сухой маршרут. Крутой спуск от Гилбоа к долине источников."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1710",
+    "name": {
+      "he": "עמק הנעלם (גלבוע)",
+      "ar": "الوادي المفقود (الجلبوع)",
+      "en": "Hidden Valley (Gilboa)",
+      "ru": "Скрытая долина (Гилбоа)"
+    },
+    "coords": [
+      32.4764,
+      35.4419
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "description": {
+      "he": "מסלול יבש. מסלול אתגרי ותלול בתוך ערוץ נסתר במצוקי הגלבוע.",
+      "ar": "مسار جاف. مسار صعب ومنحدر داخل قناة خفية في منحدرات الجلبوع.",
+      "en": "Dry trail. A challenging and steep trail inside a hidden canyon in the Gilboa cliffs.",
+      "ru": "Сухой маршрут. Сложная тропа в скрытом каньоне скал Гилбоа."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1711",
+    "name": {
+      "he": "נחל תבור",
+      "ar": "وادي الطور",
+      "en": "Tabor Stream",
+      "ru": "Нахаль Тавор"
+    },
+    "coords": [
+      32.645,
+      35.4883
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
+    "description": {
+      "he": "מסלול יבש (פריחה). פריחת תורמוסים מרהיבה באביב ונופי עמק ירוקים.",
+      "ar": "مسار جاف (تزهير). أزهار الترمس الرائعة في الربيع ومناظر الوادي الخضراء.",
+      "en": "Dry trail (blossom). Spectacular lupine blooms in spring and green valley views.",
+      "ru": "Сухой маршрут. Цветение люпинов весной и зеленые виды долины."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1712",
+    "name": {
+      "he": "נחל המערה (גליל)",
+      "ar": "وادي المغارة",
+      "en": "Ma'ara Stream",
+      "ru": "Нахаль Ха-Меара"
+    },
+    "coords": [
+      33.0019,
+      35.2581
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
+    "description": {
+      "he": "מסלול יבש. מערה גדולה ומרשימה בלב חורש גלילי עבות.",
+      "ar": "مسار جاف. مغارة كبيرة ورائعة في قلب أحراش الجليل الكثيفة.",
+      "en": "Dry trail. A large and impressive cave in the heart of thick Galilean woodland.",
+      "ru": "Сухой маршрут. Большая пещера в сердце галилейского леса."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1713",
+    "name": {
+      "he": "הר בנטל",
+      "ar": "جبل بنطل",
+      "en": "Mount Bental",
+      "ru": "Гора Бенталь"
+    },
+    "coords": [
+      33.1286,
+      35.8164
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "מסלול יבש. תצפית אסטרטגית על סוריה וסיפורי גבורה ממלחמות ישראל.",
+      "ar": "مسار جاف. إطلالة استراتيجية على سوريا وقصص بطولات من الحروب الإسرائيلية.",
+      "en": "Dry trail. A strategic lookout over Syria and stories of heroism from Israel's wars.",
+      "ru": "Сухой маршрут. Стратегический наблюдательный пункт с видом на Сирию."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1714",
+    "name": {
+      "he": "תל פאחר (מצפה גולני)",
+      "ar": "تل الفخار",
+      "en": "Tel Faher",
+      "ru": "Тель-Фахер"
+    },
+    "coords": [
+      33.2289,
+      35.6836
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
+    "description": {
+      "he": "מסלול יבש (היסטורי). אתר קרב ממלחמת ששת הימים עם בונקרים ותצפית.",
+      "ar": "مسار جاف (تاريخي). موقع معركة من حرب الأيام الستة يضم خنادق ومطلة.",
+      "en": "Dry trail (historical). A battle site from the Six-Day War with bunkers and a lookout.",
+      "ru": "Сухой маршрут (исторический). Место сражения Шестидневной войны с бункерами."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1715",
+    "name": {
+      "he": "עין פיק",
+      "ar": "عين فيق",
+      "en": "Ein Fiq",
+      "ru": "Эйн-Фик"
+    },
+    "coords": [
+      32.7758,
+      35.7003
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "description": {
+      "he": "מסלול רטוב. מעיין ובוסתן יפהפה בדרום הגולן.",
+      "ar": "مسار رطب. نبع وبستان جميل في جنوب الجولان.",
+      "en": "Wet trail. A beautiful spring and orchard in the southern Golan.",
+      "ru": "Водный маршрут. Красивый источник и фруктовый сад на юге Голан."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1716",
+    "name": {
+      "he": "שמורת גמלא",
+      "ar": "جملة",
+      "en": "Gamla Nature Reserve",
+      "ru": "Заповедник Гамла"
+    },
+    "coords": [
+      32.9042,
+      35.7417
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=600",
+    "description": {
+      "he": "מסלול יבש/רטוב. מפל גמלא הגבוה בישראל, אתר היסטורי ותצפית נשרים.",
+      "ar": "مسار جاف/رطب. شلال جملة الأعلى في إسرائيل، موقع تاريخي ومرصد للنسور.",
+      "en": "Dry/Wet trail. Gamla waterfall, the highest in Israel, a historical site, and eagle lookout.",
+      "ru": "Сухой/Водный маршрут. Водопад Гамла, самый высокий в Израиле."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1717",
+    "name": {
+      "he": "נחל חרמון (שביל תל אנפה)",
+      "ar": "وادي بانياس (تل أنفة)",
+      "en": "Hermon Stream (Tel Anafa)",
+      "ru": "Нахаль Хермон (Тель-Анафа)"
+    },
+    "coords": [
+      33.1764,
+      35.6294
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "description": {
+      "he": "מסלול יבש. פריחת נרקיסים בסתיו ותצפית לעבר עמק החולה.",
+      "ar": "مسار جاف. تزهير النرجس في الخريف وإطلالة على سهل الحولة.",
+      "en": "Dry trail. Narcissus bloom in autumn and a view over the Hula Valley.",
+      "ru": "Сухой маршрут. Цветение нарциссов осенью и вид на долину Хула."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1718",
+    "name": {
+      "he": "עין כנף (דיר עזיז)",
+      "ar": "عين كنف (دير عزيز)",
+      "en": "Ein Kanaf",
+      "ru": "Эйн-Канаф"
+    },
+    "coords": [
+      32.8803,
+      35.7119
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1508873696983-2dfd5898f04b?w=600",
+    "description": {
+      "he": "מסלול רטוב. בריכות מעיין משוקמות ונוף פתוח לכנרת.",
+      "ar": "مسار رطب. برك نبع مرممة وإطلالة مفتوحة على بحيرة طبريا.",
+      "en": "Wet trail. Restored spring pools and an open view of the Sea of Galilee.",
+      "ru": "Водный маршрут. Отреставрированные бассейны и вид на Тивериадское озеро."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1719",
+    "name": {
+      "he": "נחל משושים (בריכת הצבי)",
+      "ar": "وادي السداسية (بركة الغزال)",
+      "en": "Meshushim Stream (Deer Pool)",
+      "ru": "Нахаль Мешушим"
+    },
+    "coords": [
+      32.9619,
+      35.6567
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "מסלול רטוב. בריכת מים יפהפייה המוקפת בנופי בזלת.",
+      "ar": "مسار رطب. بركة مائية جميلة محاطة بمناظر البازلت.",
+      "en": "Wet trail. A beautiful water pool surrounded by basalt scenery.",
+      "ru": "Водный маршрут. Красивый водоем с базальтовыми пейзажами."
+    },
+    "region": "north"
   }
 ]
