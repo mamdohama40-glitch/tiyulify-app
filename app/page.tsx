@@ -428,6 +428,7 @@ export default function TiyulifyApp() {
   const [regionFilter, setRegionFilter] = useState('all');
   const [activeMapLayer, setActiveMapLayer] = useState('standard');
   const [showLayerPicker, setShowLayerPicker] = useState(false);
+  const [hideMarkers, setHideMarkers] = useState(false);
   const [showSidebar, setShowSidebar] = useState(false);
   const [showMobileHeader, setShowMobileHeader] = useState(false);
   const activeLangRef = React.useRef(activeLang);
@@ -704,7 +705,7 @@ export default function TiyulifyApp() {
                   {Object.entries(labels[activeLang].regions).map(([id,label]:any)=>(<option key={id} value={id}>{label}</option>))}
                 </select>
                 {Object.entries(labels[activeLang].categories).map(([id,label]:any)=>(
-                  <button key={id} onClick={()=>setCategoryFilter(id)}
+                  <button key={id} onClick={()=>{if(id==="all"&&categoryFilter==="all"){setHideMarkers(h=>!h);}else{setHideMarkers(false);setCategoryFilter(id);}}}
                     className={`px-4 py-2 md:px-8 md:py-4 rounded-xl md:rounded-[2rem] text-[10px] md:text-xs font-black whitespace-nowrap transition-all ${categoryFilter===id?'bg-green-600 text-white shadow-xl scale-105':'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}>{label}</button>
                 ))}
               </div>
@@ -741,7 +742,7 @@ export default function TiyulifyApp() {
                     {userCoords && <span className="text-green-600">📍 ממוין לפי קרבה</span>}
                   </div>
                   <div className="space-y-8">
-                    {filteredItems.map((item:any)=>{
+                    {!hideMarkers && filteredItems.map((item:any)=>{
                       const d = userCoords ? calculateDistance(userCoords[0],userCoords[1],item.coords[0],item.coords[1]) : null;
                       return (
                         <div key={item.id} onClick={()=>flyToCoords(item.coords)}
@@ -842,7 +843,7 @@ export default function TiyulifyApp() {
                         </Popup>
                       </Marker>
                     )}
-                    {filteredItems.map((item:any)=>{
+                    {!hideMarkers && filteredItems.map((item:any)=>{
                       const pd = userCoords ? calculateDistance(userCoords[0],userCoords[1],item.coords[0],item.coords[1]) : null;
                       const catEmoji: Record<string,string> = {
                         water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
