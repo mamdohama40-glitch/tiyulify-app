@@ -317,6 +317,25 @@ async function fetchWikiSummary(name: string, lang: string): Promise<string> {
   } catch { return ''; }
 }
 
+
+function TrailMarker({ category }: { category: string }) {
+  if (category === 'israel_trail') {
+    return <span style={{display:'inline-flex',verticalAlign:'middle',margin:'0 4px',border:'1px solid #999',borderRadius:'2px',overflow:'hidden',width:'24px',height:'12px'}}>
+      <span style={{flex:1,background:'white'}}/>
+      <span style={{flex:1,background:'#2563eb'}}/>
+      <span style={{flex:1,background:'#f97316'}}/>
+    </span>;
+  }
+  if (category === 'hiking') {
+    return <span style={{display:'inline-flex',verticalAlign:'middle',margin:'0 4px',border:'1px solid #999',borderRadius:'2px',overflow:'hidden',width:'24px',height:'12px'}}>
+      <span style={{flex:1,background:'white'}}/>
+      <span style={{flex:1,background:'#ef4444'}}/>
+      <span style={{flex:1,background:'white'}}/>
+    </span>;
+  }
+  return null;
+}
+
 // === Compact expandable popup ===
 function CompactPopup({ item, pd, activeLang, labels, shareOnWhatsApp }: { item: any; pd: string|null; activeLang: string; labels: any; shareOnWhatsApp: (i:any)=>void }) {
   const [expanded, setExpanded] = React.useState(false);
