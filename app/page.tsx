@@ -346,7 +346,7 @@ function CompactPopup({ item, pd, activeLang, labels, shareOnWhatsApp }: { item:
       <UserPhotos item={item} />
       <a href={'https://www.google.com/search?q=' + encodeURIComponent(item.name[activeLang]||item.name.he)} target="_blank" className="no-underline">
         <h4 className="font-bold text-green-900 text-sm m-0 leading-snug mb-1 px-1 hover:text-green-600 hover:underline cursor-pointer">
-          🔍 {item.name[activeLang]||item.name.he}
+          🔍 {item.name[activeLang]||item.name.he}<TrailMarker category={item.category}/>
         </h4>
       </a>
       <p className="text-[12px] text-gray-600 leading-relaxed px-1 mb-2 ">
