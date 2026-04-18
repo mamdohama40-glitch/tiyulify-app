@@ -39391,5 +39391,1083 @@
       "ru": "Маршрут, сочетающий цветение, археологию и виды."
     },
     "region": "south"
+  },
+  {
+    "id": "1820",
+    "name": {
+      "he": "נחל בצת",
+      "ar": "وادي البصة",
+      "en": "Bezet Stream",
+      "ru": "Ручей Бецет"
+    },
+    "coords": [
+      33.0765,
+      35.2152
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=600",
+    "description": {
+      "he": "מסלול הליכה מוצל בתוך חורש ים תיכוני לצד ערוץ הנחל.",
+      "ar": "مسار مشي مظلل داخل أحراش البحر الأبيض المتوسط بجانب الوادي.",
+      "en": "A shaded hiking trail in Mediterranean woodland along the stream bed.",
+      "ru": "Тенистая тропа в средиземноморском лесу вдоль русла ручья."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1821",
+    "name": {
+      "he": "מערת קשת",
+      "ar": "مغارة القوس",
+      "en": "Keshet Cave",
+      "ru": "Пещера Кешет"
+    },
+    "coords": [
+      33.0789,
+      35.1972
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "תצפית מרהיבה מקשת אבן טבעית התלויה מעל תהום.",
+      "ar": "إطلالة رائعة من قوس حجري طبيعي معلق فوق منحدر.",
+      "en": "A spectacular viewpoint from a natural stone arch hanging over a cliff.",
+      "ru": "Захватывающий вид с природной каменной арки, нависшей над пропастью."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1822",
+    "name": {
+      "he": "עין חרדלית (כזיב)",
+      "ar": "عين الحردلية (وادي القرن)",
+      "en": "Ein Hardalit (Kziv Stream)",
+      "ru": "Эйн Хардалит (Нахаль Кзив)"
+    },
+    "coords": [
+      33.0441,
+      35.1783
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
+    "description": {
+      "he": "מסלול מים קליל ומרענן המתאים למשפחות בנחל כזיב.",
+      "ar": "مسار مائي خفيف ومنعش مناسب للعائلات في وادي القرن.",
+      "en": "An easy and refreshing water trail suitable for families in Kziv Stream.",
+      "ru": "Легкий и освежающий водный маршрут для всей семьи в ручье Кзив."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1823",
+    "name": {
+      "he": "מבצר המונפור",
+      "ar": "قلعة القرين",
+      "en": "Montfort Castle",
+      "ru": "Крепость Монфор"
+    },
+    "coords": [
+      33.0445,
+      35.2267
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600",
+    "description": {
+      "he": "טיול אל שרידי מבצר צלבני מרשים הצופה על נחל כזיב.",
+      "ar": "رحلة إلى بقايا قلعة صليبية رائعة تطل على وادي القرن.",
+      "en": "A trip to the impressive remains of a Crusader fortress overlooking Kziv Stream.",
+      "ru": "Путешествие к впечатляющим руинам крепости крестоносцев над ручьем Кзив."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1824",
+    "name": {
+      "he": "נחל שרך ומערת שרך",
+      "ar": "وادي شرخ ومغارة شرخ",
+      "en": "Sherach Stream and Cave",
+      "ru": "Ручей Шерах и пещера Шерах"
+    },
+    "coords": [
+      33.0742,
+      35.2281
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1444464666168-49d633b867ad?w=600",
+    "description": {
+      "he": "מסלול מוצל הכולל ביקור במערת נטיפים חשוכה ומעניינת.",
+      "ar": "مسار مظلل يتضمن زيارة لمغارة صواعد وهوابط مظلمة ومثيرة.",
+      "en": "A shaded trail including a visit to a dark and interesting stalactite cave.",
+      "ru": "Тенистая тропа с посещением темной и интересной сталактитовой пещеры."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1825",
+    "name": {
+      "he": "חורבת געתון",
+      "ar": "خربة جعتون",
+      "en": "Ga'aton Ruins",
+      "ru": "Руины Гаатон"
+    },
+    "coords": [
+      32.9976,
+      35.1954
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=600",
+    "description": {
+      "he": "שרידי אחוזה עות'מאנית יפהפייה בלב עמק הגעתון.",
+      "ar": "بقايا قصر عثماني جميل في قلب وادي جعتون.",
+      "en": "Ruins of a beautiful Ottoman estate in the heart of the Ga'aton Valley.",
+      "ru": "Руины красивого османского поместья в сердце долины Гаатон."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1826",
+    "name": {
+      "he": "שביל המצוק (גורן)",
+      "ar": "مسار الجرف (جورن)",
+      "en": "The Cliff Trail (Goren)",
+      "ru": "Тропа утеса (Горен)"
+    },
+    "coords": [
+      33.0492,
+      35.2078
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "מסלול הליכה נוח עם תצפיות פנורמיות על המונפור והגליל.",
+      "ar": "مسار مشي مريح مع إطلالات بانورامية على قلعة القرين والجليل.",
+      "en": "An easy hiking trail with panoramic views of Montfort and the Galilee.",
+      "ru": "Удобная тропа с панорамным видом на Монфор и Галилею."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1827",
+    "name": {
+      "he": "עין טמיר",
+      "ar": "عين تمير",
+      "en": "Ein Tamir",
+      "ru": "Эйн Тамир"
+    },
+    "coords": [
+      33.0415,
+      35.2493
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1511497584788-876760111969?w=600",
+    "description": {
+      "he": "מעיין בתוך נקבת סלע מרשימה בלב נחל כזיב.",
+      "ar": "نبع داخل نفق صخري رائع في قلب وادي القرن.",
+      "en": "A spring inside an impressive rock tunnel in the heart of Kziv Stream.",
+      "ru": "Родник внутри впечатляющего скального туннеля в сердце ручья Кзив."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1828",
+    "name": {
+      "he": "עין אפק (נעמן)",
+      "ar": "عين افيك (النعامين)",
+      "en": "Ein Afek (Na'aman)",
+      "ru": "Эйн Афек (Нааман)"
+    },
+    "coords": [
+      32.8447,
+      35.1012
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "description": {
+      "he": "שמורת טבע עם גשרי עץ מעל ביצות ומקורות נחל הנעמן.",
+      "ar": "محمية طبيعية مع جسور خشبية فوق المستنقعات ومصادر نهر النعامين.",
+      "en": "A nature reserve with wooden bridges over marshes and Na'aman stream sources.",
+      "ru": "Заповедник с деревянными мостами над болотами и истоками ручья Нааман."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1829",
+    "name": {
+      "he": "פסגת הר מירון",
+      "ar": "قمة جبل الجرمق",
+      "en": "Mount Meron Peak",
+      "ru": "Вершина горы Мерон"
+    },
+    "coords": [
+      32.9972,
+      35.4125
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600",
+    "description": {
+      "he": "שביל הפסגה המציע תצפית של 360 מעלות על כל צפון הארץ.",
+      "ar": "مسار القمة الذي يقدم إطلالة 360 درجة على كل شمال البلاد.",
+      "en": "The summit trail offering 360-degree views of all of Northern Israel.",
+      "ru": "Тропа к вершине, предлагающая 360-градусный обзор на весь север Израиля."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1830",
+    "name": {
+      "he": "נחל עמוד עליון",
+      "ar": "وادي العامود العلوي",
+      "en": "Upper Amud Stream",
+      "ru": "Верхний Нахаль Амуд"
+    },
+    "coords": [
+      32.9354,
+      35.4891
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1547036967-23d1199d8d1f?w=600",
+    "description": {
+      "he": "מסלול בין בוסתנים, טחנות קמח ובריכות מים צלולות.",
+      "ar": "مسار بين البساتين وطواحين القمح وبرك المياه الصافية.",
+      "en": "A trail through orchards, flour mills, and crystal clear water pools.",
+      "ru": "Маршрут через сады, мельницы и бассейны с кристально чистой водой."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1831",
+    "name": {
+      "he": "נחל צלמון",
+      "ar": "وادي سلامة",
+      "en": "Tzalmon Stream",
+      "ru": "Ручей Цалмон"
+    },
+    "coords": [
+      32.8951,
+      35.4042
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464375117522-1311d6a5b81f?w=600",
+    "description": {
+      "he": "טיול משפחתי רגוע לצד זרימת מים וטחנות קמח עתיקות.",
+      "ar": "رحلة عائلية هادئة بجانب تدفق المياه وطواحين القمح القديمة.",
+      "en": "A relaxed family trip alongside flowing water and ancient flour mills.",
+      "ru": "Спокойная семейная прогулка вдоль ручья и древних мельниц."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1832",
+    "name": {
+      "he": "עין שביב ועין יקוע",
+      "ar": "عين شبيب وعين يقوع",
+      "en": "Ein Shaviv and Ein Yakua",
+      "ru": "Эйн Шавив и Эйн Якуа"
+    },
+    "coords": [
+      32.8832,
+      35.3447
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1421911525203-05f889218d6e?w=600",
+    "description": {
+      "he": "מעיינות פסטורליים בלב הטבע הגלילי.",
+      "ar": "ينابيع هادئة في قلب الطبيعة الجليلية.",
+      "en": "Pastoral springs in the heart of the Galilean nature.",
+      "ru": "Пасторальные источники в сердце галилейской природы."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1833",
+    "name": {
+      "he": "שביל נורמן",
+      "ar": "مسار نورمان",
+      "en": "Norman Trail",
+      "ru": "Тропа Нормана"
+    },
+    "coords": [
+      32.9865,
+      35.2341
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=600",
+    "description": {
+      "he": "מסלול קסום ביער ליד כפר ורדים עם 'בתי גמדים'.",
+      "ar": "مسار ساحر في الغابة بالقرب من كفر فرديم مع 'بيوت الأقزام'.",
+      "en": "A magical forest trail near Kfar Vradim with 'dwarf houses'.",
+      "ru": "Волшебная лесная тропа возле Кфар-Врадим с «домиками гномов»."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1834",
+    "name": {
+      "he": "נחל בית העמק",
+      "ar": "وادي بيت جن",
+      "en": "Beit HaEmek Stream",
+      "ru": "Нахаль Бейт-ха-Эмек"
+    },
+    "coords": [
+      32.9641,
+      35.2572
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=600",
+    "description": {
+      "he": "מסלול מאתגר יותר הכולל מצוקים וחורש טבעי עשיר.",
+      "ar": "مسار أكثر تحدياً يتضمن جروفاً وأحراشاً طبيعية غنية.",
+      "en": "A more challenging trail including cliffs and rich natural woodland.",
+      "ru": "Более сложный маршрут со скалами и богатым природным лесом."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1835",
+    "name": {
+      "he": "תל עכו",
+      "ar": "تل عكا",
+      "en": "Tel Akko",
+      "ru": "Тель-Акко"
+    },
+    "coords": [
+      32.9234,
+      35.0898
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1520106212299-d99c443e4568?w=600",
+    "description": {
+      "he": "גבעת נפוליאון המציעה תצפית היסטורית על העיר עכו והמפרץ.",
+      "ar": "تلة نابليون التي تقدم إطلالة تاريخية على مدينة عكا والخليج.",
+      "en": "Napoleon's Hill offering a historical view of Akko and the bay.",
+      "ru": "Холм Наполеона, с которого открывается исторический вид на Акко и залив."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1836",
+    "name": {
+      "he": "שביל הים (אכזיב)",
+      "ar": "مسار البحر (اخزيف)",
+      "en": "Sea Trail (Achziv)",
+      "ru": "Морская тропа (Ахзив)"
+    },
+    "coords": [
+      33.0652,
+      35.1074
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600",
+    "description": {
+      "he": "הליכה נעימה לאורך קו החוף בין ראש הנקרה לאכזיב.",
+      "ar": "مشي ممتع على طول الخط الساحلي بين رأس الناقورة واخزيف.",
+      "en": "A pleasant walk along the coastline between Rosh Hanikra and Achziv.",
+      "ru": "Приятная прогулка вдоль побережья между Рош-ха-Никра и Ахзивом."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1837",
+    "name": {
+      "he": "לגונות אכזיב",
+      "ar": "بحيرات اخزيف",
+      "en": "Achziv Lagoons",
+      "ru": "Лагуны Ахзив"
+    },
+    "coords": [
+      33.0487,
+      35.1012
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600",
+    "description": {
+      "he": "מסלול קל המשלב בריכות ים טבעיות ושרידים ארכיאולוגיים.",
+      "ar": "مسار سهل يجمع بين برك البحر الطبيعية وبقايا أثرية.",
+      "en": "An easy trail combining natural sea pools and archaeological remains.",
+      "ru": "Легкий маршрут, сочетающий природные морские бассейны и археологические руины."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1838",
+    "name": {
+      "he": "נחל יחיעם",
+      "ar": "وادي يحيى",
+      "en": "Yehi'am Stream",
+      "ru": "Нахаль Йехиам"
+    },
+    "coords": [
+      32.9951,
+      35.2194
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "טיול בחורש סבוך למרגלות מבצר יחיעם.",
+      "ar": "رحلة في أحراش كثيفة عند سفح قلعة يحيى.",
+      "en": "A trip through dense woodland at the foot of Yehi'am Fortress.",
+      "ru": "Прогулка в густом лесу у подножия крепости Йехиам."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1839",
+    "name": {
+      "he": "מערת פער",
+      "ar": "مغارة فعر",
+      "en": "Pa'ar Cave",
+      "ru": "Пещера Паар"
+    },
+    "coords": [
+      33.0234,
+      35.3917
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1502481851512-e9e2529bbbf9?w=600",
+    "description": {
+      "he": "בולען קרסטי מרשים אליו מתנקזים מי הגשמים בחורף.",
+      "ar": "فوهة كارستية رائعة تتجمع فيها مياه الأمطار في الشتاء.",
+      "en": "An impressive karstic sinkhole where rainwater drains in winter.",
+      "ru": "Впечатляющая карстовая воронка, в которую зимой стекают дождевые воды."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1840",
+    "name": {
+      "he": "נחל דישון מערב",
+      "ar": "وادي ديشون غرباً",
+      "en": "West Dishon Stream",
+      "ru": "Нахаль Дишон (запад)"
+    },
+    "coords": [
+      33.0471,
+      35.4518
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1476231682828-37e571bc172f?w=600",
+    "description": {
+      "he": "מסלול בתוך ערוץ נחל רחב המוקף במצוקים גבוהים.",
+      "ar": "مسار داخل مجرى وادي واسع محاط بجروف عالية.",
+      "en": "A trail inside a wide stream bed surrounded by high cliffs.",
+      "ru": "Маршрут в широком русле ручья, окруженном высокими скалами."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1841",
+    "name": {
+      "he": "סובב הר תבור",
+      "ar": "حول جبل الطور",
+      "en": "Mount Tabor Loop",
+      "ru": "Круговой маршрут горы Фавор"
+    },
+    "coords": [
+      32.6865,
+      35.3882
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "שביל היקפי המציע נופים מרהיבים של עמק יזרעאל והגליל.",
+      "ar": "مسار محيطي يقدم مناظر خلابة لمرج ابن عامر والجليل.",
+      "en": "A peripheral trail offering spectacular views of the Jezreel Valley and the Galilee.",
+      "ru": "Окружная тропа с великолепным видом на Изреельскую долину и Галилею."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1842",
+    "name": {
+      "he": "נחל השופט",
+      "ar": "وادي القاضي",
+      "en": "HaShofet Stream",
+      "ru": "Нахаль-ха-Шофет"
+    },
+    "coords": [
+      32.6182,
+      35.1027
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "מסלול נגיש ונוח לכל המשפחה עם זרימת מים כל השנה.",
+      "ar": "مسار ميسر ومريح لجميع أفراد الأسرة مع تدفق المياه طوال العام.",
+      "en": "An accessible and easy trail for the whole family with year-round water flow.",
+      "ru": "Доступный и легкий маршрут для всей семьи с круглогодичным течением воды."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1843",
+    "name": {
+      "he": "עין יזרעאל",
+      "ar": "عين جنين",
+      "en": "Ein Jezreel",
+      "ru": "Эйн-Изреэль"
+    },
+    "coords": [
+      32.5831,
+      35.3174
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1542224566-6e85f2e6772f?w=600",
+    "description": {
+      "he": "מעיין הנובע לתוך בריכה גדולה ומרשימה בלב העמק.",
+      "ar": "نبع يتدفق إلى بركة كبيرة ورائعة في قلب المرج.",
+      "en": "A spring flowing into a large and impressive pool in the heart of the valley.",
+      "ru": "Источник, впадающий в большой и впечатляющий бассейн в центре долины."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1844",
+    "name": {
+      "he": "נחל קיני",
+      "ar": "وادي قيني",
+      "en": "Kini Stream",
+      "ru": "Нахаль Кини"
+    },
+    "coords": [
+      32.5762,
+      35.1841
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?w=600",
+    "description": {
+      "he": "מסלול הליכה קצר ונעים לצד פלגי מים וצמחיית נחלים עשירה.",
+      "ar": "مسار مشي قصير وممتع بجانب جداول المياه والنباتات النهرية الغنية.",
+      "en": "A short and pleasant hiking trail alongside water streams and rich river vegetation.",
+      "ru": "Короткая и приятная прогулка вдоль ручьев и богатой речной растительности."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1845",
+    "name": {
+      "he": "נחל גחר",
+      "ar": "وادي جحر",
+      "en": "Gahar Stream",
+      "ru": "Нахаль Гахар"
+    },
+    "coords": [
+      32.6134,
+      35.1182
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "מסלול מעגלי מוצל ביער הזורע, מושלם לפיקניקים וטיול משפחתי.",
+      "ar": "مسار دائري مظلل في غابة هزوريع، مثالي للنزهات والرحلات العائلية.",
+      "en": "A shaded circular trail in HaZore'a Forest, perfect for picnics and family trips.",
+      "ru": "Тенистый круговой маршрут в лесу Ха-Зореа, идеально подходит для пикников."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1846",
+    "name": {
+      "he": "שוויצריה הקטנה",
+      "ar": "سويسرا الصغيرة",
+      "en": "Little Switzerland",
+      "ru": "Маленькая Швейцария"
+    },
+    "coords": [
+      32.7441,
+      35.0187
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "אחד האזורים היפים בכרמל, המזכיר נופים אירופאיים ירוקים.",
+      "ar": "واحدة من أجمل المناطق في الكرمل، تشبه المناظر الأوروبية الخضراء.",
+      "en": "One of the most beautiful areas in the Carmel, reminiscent of green European landscapes.",
+      "ru": "Один из красивейших районов Кармеля, напоминающий зеленые европейские пейзажи."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1847",
+    "name": {
+      "he": "נחל כלח וגלים",
+      "ar": "وادي كلخ وغاليم",
+      "en": "Kelach and Galim Stream",
+      "ru": "Нахаль Келах и Галим"
+    },
+    "coords": [
+      32.7425,
+      35.0104
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=600",
+    "description": {
+      "he": "מסלול יפהפה בלב הכרמל העובר בתוך חורש ים-תיכוני סבוך.",
+      "ar": "مسار جميل في قلب الكרמל يمر عبر أحراش البحر المتوسط الكثيفة.",
+      "en": "A beautiful trail in the heart of the Carmel passing through dense Mediterranean woodland.",
+      "ru": "Красивый маршрут в сердце Кармеля через густые средиземноморские леса."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1848",
+    "name": {
+      "he": "חורבת רקית",
+      "ar": "خربة رقيت",
+      "en": "Raqit Ruins",
+      "ru": "Руины Ракит"
+    },
+    "coords": [
+      32.7271,
+      35.0162
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=600",
+    "description": {
+      "he": "שרידי חווה חקלאית עתיקה עם תצפיות יפות ופריחה עונתית.",
+      "ar": "بقايا مزرعة زراعية قديمة مع إطلالات جميلة وأزهار موسمية.",
+      "en": "Remains of an ancient agricultural farm with beautiful views and seasonal blooms.",
+      "ru": "Остатки древней фермы с красивыми видами и сезонным цветением."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1849",
+    "name": {
+      "he": "נחל מערות (קצר)",
+      "ar": "وادي المغارات (قصير)",
+      "en": "Me'arot Stream (Short)",
+      "ru": "Нахаль Меарот (короткий)"
+    },
+    "coords": [
+      32.6714,
+      34.9662
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1502481851512-e9e2529bbbf9?w=600",
+    "description": {
+      "he": "ביקור במערות האדם הקדמון באתר מורשת עולמית של אונסק\"ו.",
+      "ar": "زيارة مغارات الإنسان القديم في موقع التراث العالمي لليونسكو.",
+      "en": "A visit to prehistoric man's caves at a UNESCO World Heritage site.",
+      "ru": "Посещение пещер первобытного человека на объекте всемирного наследия ЮНЕСКО."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1850",
+    "name": {
+      "he": "שביל גיאולוגי (מערות)",
+      "ar": "المسار الجيولوجي (مغارات)",
+      "en": "Geological Trail (Me'arot)",
+      "ru": "Геологическая тропа (Меарот)"
+    },
+    "coords": [
+      32.6708,
+      34.9657
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "מסלול המציג תופעות גיאולוגיות מרשימות ומאובנים בכרמל.",
+      "ar": "مسار يعرض ظواهر جيولوجية رائعة وأحافير في الكרמל.",
+      "en": "A trail showcasing impressive geological phenomena and fossils in the Carmel.",
+      "ru": "Тропа, демонстрирующая впечатляющие геологические явления и окаменелости."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1851",
+    "name": {
+      "he": "נחל השלום",
+      "ar": "وادي السلام",
+      "en": "HaShalom Stream",
+      "ru": "Нахаль-ха-Шалом"
+    },
+    "coords": [
+      32.7661,
+      35.0423
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "טיילת נעימה וקלה המתאימה למשפחות בלב העיר נשר.",
+      "ar": "منتزه مريح وسهل مناسب للعائلات في قلب مدينة نيشر.",
+      "en": "A pleasant and easy promenade suitable for families in the heart of Nesher.",
+      "ru": "Приятная и легкая прогулка для всей семьи в сердце города Нешер."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1852",
+    "name": {
+      "he": "גשר החבלים (נשר)",
+      "ar": "جسر الحبال (نيشر)",
+      "en": "Hanging Bridges (Nesher)",
+      "ru": "Подвесные мосты (Нешер)"
+    },
+    "coords": [
+      32.7624,
+      35.0441
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1445964047600-cdbdb873673d?w=600",
+    "description": {
+      "he": "חוויה אתגרית ומהנה של הליכה על גשרי חבלים תלויים.",
+      "ar": "تجربة مليئة بالتحدي والمرح في المشي على جسور الحبال المعلقة.",
+      "en": "A fun and adventurous experience walking on hanging rope bridges.",
+      "ru": "Увлекательное приключение — прогулка по подвесным канатным мостам."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1853",
+    "name": {
+      "he": "עין קדם (נחל נדר)",
+      "ar": "عين كيدم (وادي نذر)",
+      "en": "Ein Kedem (Neder Stream)",
+      "ru": "Эйн Кедем (Нахаль Недер)"
+    },
+    "coords": [
+      32.7687,
+      34.9812
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
+    "description": {
+      "he": "מעיין הנובע מתוך שתי נקבות סלע עמוקות ומרשימות.",
+      "ar": "نبع يتدفق من نفقين صخريين عميقين ورائعين.",
+      "en": "A spring flowing from two deep and impressive rock tunnels.",
+      "ru": "Источник, вытекающий из двух глубоких и впечатляющих скальных туннелей."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1854",
+    "name": {
+      "he": "חורבת סומקה",
+      "ar": "خربة سومكا",
+      "en": "Sumaka Ruins",
+      "ru": "Руины Сумака"
+    },
+    "coords": [
+      32.6781,
+      35.0417
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=600",
+    "description": {
+      "he": "שרידי יישוב יהודי עתיק עם בית כנסת ובתי מלאכה בכרמל.",
+      "ar": "بقايا مستوطنة يهودية قديمة مع كنيس وورش عمل في الكרמל.",
+      "en": "Remains of an ancient Jewish settlement with a synagogue and workshops in the Carmel.",
+      "ru": "Руины древнего еврейского поселения с синагогой и мастерскими."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1855",
+    "name": {
+      "he": "נחל רקפת",
+      "ar": "وادي رقفت",
+      "en": "Rakefet Stream",
+      "ru": "Нахаль Ракефет"
+    },
+    "coords": [
+      32.6882,
+      35.0844
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "מסלול מעגלי בחורש הכרמל עם פריחת רקפות מדהימה בחורף.",
+      "ar": "مسار دائري في أحراش הכרמל مع تفتح أزهار بخور مريم الرائع في الشتاء.",
+      "en": "A circular trail in the Carmel woods with amazing cyclamen blooms in winter.",
+      "ru": "Круговой маршрут в лесах Кармеля с потрясающим цветением цикламенов зимой."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1856",
+    "name": {
+      "he": "יער קרן כרמל",
+      "ar": "غابة قرن الكרמל",
+      "en": "Keren Carmel Forest",
+      "ru": "Лес Керен Кармель"
+    },
+    "coords": [
+      32.6745,
+      35.0901
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=600",
+    "description": {
+      "he": "מסלול המוביל למנזר המוחרקה עם תצפית פנורמית לעמק יזרעאל.",
+      "ar": "مسار يؤدي إلى دير المحرقة مع إطلالة بانورامية على مرج ابن عامر.",
+      "en": "A trail leading to the Muhraka Monastery with panoramic views of the Jezreel Valley.",
+      "ru": "Тропа к монастырю Мухрака с панорамным видом на Изреельскую долину."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1857",
+    "name": {
+      "he": "עין אמי",
+      "ar": "عين امي",
+      "en": "Ein Ami",
+      "ru": "Эйн Ами"
+    },
+    "coords": [
+      32.6167,
+      35.1072
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
+    "description": {
+      "he": "מעיין קטן ופסטורלי בתוך נחל השופט, מתאים למנוחה קלה.",
+      "ar": "نبع صغير وهادئ داخل وادي القاضي، مناسب للاستراحة الخفيفة.",
+      "en": "A small and pastoral spring within HaShofet Stream, perfect for a short rest.",
+      "ru": "Маленький пасторальный источник в ручьע Нахаль-ха-Шофет."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1858",
+    "name": {
+      "he": "שביל המצוק (נשר)",
+      "ar": "مسار الجرف (نيشر)",
+      "en": "The Cliff Trail (Nesher)",
+      "ru": "Тропа утеса (Нешер)"
+    },
+    "coords": [
+      32.7635,
+      35.0411
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "תצפיות מרהיבות על מפרץ חיפה והגליל מפארק נשר.",
+      "ar": "إطلالات رائعة على خليج حيفا والجليل من متنزه نيشر.",
+      "en": "Spectacular views of Haifa Bay and the Galilee from Nesher Park.",
+      "ru": "Захватывающие виды на Хайфский залив и Галилею из парка Нешер."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1859",
+    "name": {
+      "he": "נחל קטיה",
+      "ar": "وادي قتية",
+      "en": "Katya Stream",
+      "ru": "Нахаль Катья"
+    },
+    "coords": [
+      32.7452,
+      35.0157
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "מסלול מעגלי קצר ומוצל בתוך 'שוויצריה הקטנה' בכרמל.",
+      "ar": "مسار دائري قصير ومظلل داخل 'سويسرا الصغيرة' في الكרמל.",
+      "en": "A short and shaded circular trail within 'Little Switzerland' in the Carmel.",
+      "ru": "Короткий тенистый круговой маршрут в «Маленькой Швейцарии»."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1860",
+    "name": {
+      "he": "מערת אצבע",
+      "ar": "مغارة أصبع",
+      "en": "Etzba Cave",
+      "ru": "Пещера Эцба"
+    },
+    "coords": [
+      32.6957,
+      34.9741
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1502481851512-e9e2529bbbf9?w=600",
+    "description": {
+      "he": "טיפוס אל מערה קרסטית מרשימה עם תצפית למישור החוף.",
+      "ar": "تسلق إلى مغارة كارستية رائعة مع إطلالة على السهل الساحلي.",
+      "en": "A climb to an impressive karstic cave with views of the coastal plain.",
+      "ru": "Подъем к впечатляющей карстовой пещере с видом на прибрежную равнину."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1861",
+    "name": {
+      "he": "שביל הרקפות",
+      "ar": "مسار بخور مريم",
+      "en": "Cyclamen Trail",
+      "ru": "Тропа цикламенов"
+    },
+    "coords": [
+      32.6751,
+      35.2348
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600",
+    "description": {
+      "he": "שביל קליל במגדל העמק המתמלא במרבדי רקפות בעונה.",
+      "ar": "مسار سهل في مجدال هعيمك يمتلئ بسجاد من أزهار بخור مريم في الموسم.",
+      "en": "An easy trail in Migdal HaEmek that fills with carpets of cyclamens in season.",
+      "ru": "Легкая тропа в Мигдаль-ха-Эмек, покрывающаяся коврами цикламенов в сезон."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1862",
+    "name": {
+      "he": "נחל יצפור",
+      "ar": "وادي يصفור",
+      "en": "Yitzpor Stream",
+      "ru": "Нахаль Ицפור"
+    },
+    "coords": [
+      32.5024,
+      35.4172
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "מסלול אתגרי קל בגלבוע הכולל ירידה ביתדות בסלע.",
+      "ar": "مسار تحدي سهل في الجلبوع يتضمن النزול عبر أوتاد حديدية في الصخر.",
+      "en": "A light adventurous trail in the Gilboa including a descent with rock rungs.",
+      "ru": "Легкий приключенческий маршрут на Гильбоа со спуском по скобам."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1863",
+    "name": {
+      "he": "עין קיני (יד ליצחק)",
+      "ar": "عين قيني (يد ليتسحاق)",
+      "en": "Ein Kini (Yad LeYitzhak)",
+      "ru": "Эйн Кини"
+    },
+    "coords": [
+      32.5785,
+      35.1864
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1542224566-6e85f2e6772f?w=600",
+    "description": {
+      "he": "פינת חמד שקטה עם מים זורמים בקרבת צומת מגידו.",
+      "ar": "زاوية هادئة وجميلة مع مياه جارية بالقرب من مفرق مجيدו.",
+      "en": "A quiet and charming spot with flowing water near Megiddo Junction.",
+      "ru": "Тихий и очаровательный уголок с проточной водой рядом с перекрестком Мегиддо."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1864",
+    "name": {
+      "he": "חורבת בית עיתאב",
+      "ar": "خربة بيت عتاب",
+      "en": "Beit Itab Ruins",
+      "ru": "Руины Бейт-Итаб"
+    },
+    "coords": [
+      31.7342,
+      35.0347
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=600",
+    "description": {
+      "he": "מבצר עתיק על ראש גבעה בהרי יהודה עם תצפית מרהיבה.",
+      "ar": "قلعة قديمة على رأس تلة في جبال يهودا مع إطلالة رائعة.",
+      "en": "An ancient fortress on a hilltop in the Judean Hills with spectacular views.",
+      "ru": "Древняя крепость на вершине холма в Иудейских горах с захватывающим видом."
+    },
+    "region": "center"
+  },
+  {
+    "id": "1865",
+    "name": {
+      "he": "יער שגב",
+      "ar": "غابة سجف",
+      "en": "Segev Forest",
+      "ru": "Леס Сегев"
+    },
+    "coords": [
+      32.8837,
+      35.2281
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=600",
+    "description": {
+      "he": "מסלולי הליכה ורכיבה נוחים ביער אורנים וכרמי זיתים.",
+      "ar": "مسارات مشي وركوب مريحة في غابة صنوבר وכרوم زيتון.",
+      "en": "Comfortable hiking and biking trails in pine forests and olive groves.",
+      "ru": "Удобные пешие и велосипедные маршруты в сосновых и оливковых рощах."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1866",
+    "name": {
+      "he": "נחל גלבוע",
+      "ar": "وادي الجلبوع",
+      "en": "Gilboa Stream",
+      "ru": "Нахаль Гильбоа"
+    },
+    "coords": [
+      32.5182,
+      35.4371
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "description": {
+      "he": "הליכה נעימה למרגלות רכס הגלבוע עם נוף לעמק המעיינות.",
+      "ar": "مشي ممتע عند سفח سلسلة جبال الجلبוע مع إطلالة على وادي الينابيع.",
+      "en": "A pleasant walk at the foot of the Gilboa range with views of the Valley of Springs.",
+      "ru": "Приятная прогулка у подножия хребта Гильбоа с видом на Долину Родников."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1867",
+    "name": {
+      "he": "שמורת אלוני אבא",
+      "ar": "محمية ألوني أبا",
+      "en": "Alonei Abba Reserve",
+      "ru": "Заповедник Алоней-Абба"
+    },
+    "coords": [
+      32.7314,
+      35.1742
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "יער אלונים עתיק ומרשים עם פריחה עונתית מגוונת.",
+      "ar": "غابة بلوط قديمة ورائعة مع أزهار موسمية متنوعة.",
+      "en": "An ancient and impressive oak forest with diverse seasonal blooms.",
+      "ru": "Впечатляющий древний дубовый лес с разнообразным сезонным цветением."
+    },
+    "region": "north"
+  },
+  {
+    "id": "1868",
+    "name": {
+      "he": "שביל הקיסר",
+      "ar": "مسار الإمبراطور",
+      "en": "The Emperor's Trail",
+      "ru": "Тропа Императора"
+    },
+    "coords": [
+      31.7165,
+      35.0448
+    ],
+    "category": "hiking",
+    "image": "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=600",
+    "description": {
+      "he": "דרך רומית עתיקה בהרי ירושלים הכוללת מדרגות חצובות בסלע.",
+      "ar": "طريق روماني قديم في جبال القدس يتضمن درجات منحوتة في الصخر.",
+      "en": "An ancient Roman road in the Jerusalem Hills featuring rock-cut stairs.",
+      "ru": "Древняя римская дорога в Иерусалимских горах с высеченными в скале ступенями."
+    },
+    "region": "center"
   }
 ]
