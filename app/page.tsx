@@ -72,10 +72,9 @@ function PhotoUploader({ item, onPhotoAdded }: { item: any; onPhotoAdded: () => 
         file_path: fileName,
         uploader_name: name || 'אורח',
         taken_at: new Date().toISOString(),
-        status: 'pending',
       });
       onPhotoAdded();
-      alert('✅ התמונה התקבלה ותפורסם בקרוב לאחר אישור!');
+      alert('✅ התמונה הועלתה בהצלחה!');
     } catch (err) {
       alert('שגיאה בהעלאה');
     } finally {
@@ -110,7 +109,6 @@ function UserPhotos({ item }: { item: any }) {
     supabase.from('place_photos')
       .select('*')
       .eq('place_id', item.id)
-      .eq('status', 'approved')
       .order('taken_at', { ascending: false })
       .then(({ data }) => { setPhotos(data || []); setIdx(0); });
   }, [item.id, refresh]);
@@ -129,11 +127,11 @@ function UserPhotos({ item }: { item: any }) {
   const catColor: Record<string,string> = {
     water:'#3b82f6',nature:'#22c55e',history:'#a16207',sleep:'#8b5cf6',
     accommodation:'#8b5cf6',food:'#f97316',bike:'#ef4444',hiking:'#84cc16',attractions:'#f59e0b',
-    promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e',israel_trail:'👣',default:'#6b7280'
+    promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e',default:'#6b7280'
   };
   const catEmoji: Record<string,string> = {
     water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-    food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',israel_trail:'👣',israel_trail:'👣',israel_trail:'👣',israel_trail:'🚶‍♂️🦯',default:'📍'
+    food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',default:'📍'
   };
   const color = catColor[item.category] || catColor.default;
   const emoji = catEmoji[item.category] || catEmoji.default;
@@ -153,8 +151,8 @@ function UserPhotos({ item }: { item: any }) {
               let n = localStorage.getItem('tiyulify_name');
               if (!n) { n = prompt('מה שמך? (יישמר לפעמים הבאות)') || 'אורח'; if(n!=='אורח') localStorage.setItem('tiyulify_name', n); }
               return n;
-            })(), taken_at: new Date().toISOString(), status: 'pending' });
-          setRefresh(r => r+1); alert('✅ התמונה התקבלה ותפורסם בקרוב לאחר אישור!');
+            })(), taken_at: new Date().toISOString() });
+          setRefresh(r => r+1);
         }} />
       </label>
     </div>
@@ -193,8 +191,8 @@ function UserPhotos({ item }: { item: any }) {
               let n = localStorage.getItem('tiyulify_name');
               if (!n) { n = prompt('מה שמך? (יישמר לפעמים הבאות)') || 'אורח'; if(n!=='אורח') localStorage.setItem('tiyulify_name', n); }
               return n;
-            })(), taken_at: new Date().toISOString(), status: 'pending' });
-          setRefresh(r => r+1); alert('✅ התמונה התקבלה ותפורסם בקרוב לאחר אישור!');
+            })(), taken_at: new Date().toISOString() });
+          setRefresh(r => r+1);
         }} />
       </label>
     </div>
@@ -205,11 +203,11 @@ function UserPhotos({ item }: { item: any }) {
 const CAT_COLOR: Record<string,string> = {
   water:'#3b82f6',nature:'#22c55e',history:'#a16207',sleep:'#8b5cf6',
   accommodation:'#8b5cf6',food:'#f97316',bike:'#ef4444',hiking:'#84cc16',attractions:'#f59e0b',
-  promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e','לפני 1948':'#ca8a04',default:'#6b7280'
+  promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e',default:'#6b7280'
 };
 const CAT_EMOJI: Record<string,string> = {
   water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-  food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',israel_trail:'👣',israel_trail:'👣',israel_trail:'👣',israel_trail:'🚶‍♂️🦯',default:'📍'
+  food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',default:'📍'
 };
 
 function SidebarImage({ item, className }: { item: any; className?: string }) {
@@ -222,7 +220,6 @@ function SidebarImage({ item, className }: { item: any; className?: string }) {
     supabase.from('place_photos')
       .select('file_path')
       .eq('place_id', item.id)
-      .eq('status', 'approved')
       .order('taken_at', { ascending: false })
       .then(({ data }) => {
         if (data && data.length > 0) {
@@ -306,40 +303,18 @@ function SmartImage({ item, className }: { item: any; className?: string }) {
 }
 
 
-
-async function fetchWikiSummary(name: string, lang: string): Promise<string> {
-  try {
-    const l = lang==='he'?'he':lang==='ar'?'ar':lang==='ru'?'ru':'en';
-    const r = await fetch(`https://${l}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(name)}`);
-    if (r.ok) { const d = await r.json(); if (d.extract && d.extract.length > 80) return d.extract; }
-    if (l !== 'en') { const r2 = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(name)}`); if (r2.ok) { const d2 = await r2.json(); return d2.extract || ''; } }
-    return '';
-  } catch { return ''; }
-}
-
 // === Compact expandable popup ===
 function CompactPopup({ item, pd, activeLang, labels, shareOnWhatsApp }: { item: any; pd: string|null; activeLang: string; labels: any; shareOnWhatsApp: (i:any)=>void }) {
   const [expanded, setExpanded] = React.useState(false);
-  const [wiki, setWiki] = React.useState('');
-  React.useEffect(() => { fetchWikiSummary(item.name[activeLang]||item.name.he, activeLang).then(setWiki); }, [item.id, activeLang]);
   return (
     <div className="text-right font-sans p-1 overflow-hidden">
       <UserPhotos item={item} />
-      <a href={'https://www.google.com/search?q=' + encodeURIComponent(item.name[activeLang]||item.name.he)} target="_blank" className="no-underline">
-        <h4 className="font-bold text-green-900 text-sm m-0 leading-snug mb-1 px-1 hover:text-green-600 hover:underline cursor-pointer">
-          🔍 {item.name[activeLang]||item.name.he}
-        </h4>
-      </a>
-      <p className="text-[12px] text-gray-600 leading-relaxed px-1 mb-2 ">
+      <h4 className="font-bold text-green-900 text-sm m-0 leading-snug mb-1 px-1">
+        {item.name[activeLang]||item.name.he}
+      </h4>
+      <p className="text-[12px] text-gray-600 leading-relaxed px-1 mb-2 line-clamp-2">
         {item.description[activeLang]||item.description.he}
       </p>
-      {item.phone && (
-        <a href={"tel:" + item.phone} className="flex items-center gap-2 mx-1 mb-2 bg-green-50 border border-green-200 rounded-xl px-3 py-2 text-green-700 font-black text-sm no-underline">
-          <span>📞</span>
-          <span>{item.phone}</span>
-        </a>
-      )}
-      {wiki && <p className="text-[11px] text-gray-500 leading-relaxed px-1 mb-2 ">{wiki}</p>}
       {item.info && (
         <div className="flex flex-wrap gap-1 px-1 mb-2">
           {item.info.hours && item.info.hours !== 'N/A' && (
@@ -418,7 +393,6 @@ export default function TiyulifyApp() {
   const [geoLoading, setGeoLoading] = useState(false);
   const [searchMarker, setSearchMarker] = useState<[number,number]|null>(null);
   const [searchMarkerName, setSearchMarkerName] = useState('');
-  const [searchMarkerAddr, setSearchMarkerAddr] = useState('');
   const geoDebounce = useRef<any>(null);
   const [userCoords, setUserCoords] = useState<[number,number]|null>(null);
   const [LeafletMapLib, setLeafletMapLib] = useState<any>(null);
@@ -432,40 +406,40 @@ export default function TiyulifyApp() {
       start:"בואו נתחיל",back:"חזרה",style:"מה הסגנון שלכם?",distText:'ק"מ ממך',distLabel:"מרחק:",
       home:"בית",here:"המיקום שלך",share:"שתף ב-WhatsApp",km:'ק"מ',loading:"טוען מפה...",noResults:"לא נמצאו תוצאות",
       mapLayers:"שכבות מפה",
-      undecided:"לא החלטתי",
+      undecided:"לא החלטתי, הראה הכל",
       regions:{all:"כל הארץ",north:"צפון",center:"מרכז",south:"דרום"},
       categories:{all:"הכל",water:"מעיינות ונחלים",nature:"פארקים וטבע",history:"היסטוריה ודת",sleep:"לינה",
-        food:"אוכל",bike:"אופניים",hiking:"הליכה",promenade:"טיילות",beach:"חופים",viewpoint:"תצפיות ונופים",attractions:"אטרקציות",israel_trail:"שביל ישראל",'לפני 1948':"לפני 1948"}
+        food:"אוכל",bike:"אופניים",hiking:"הליכה",promenade:"טיילות",beach:"חופים",viewpoint:"תצפיות ונופים",attractions:"אטרקציות"}
     },
     en: {
       search:"Search any place in Israel...",results:"Results",surprise:"My Pick",welcome:"Where to today?",
       start:"Let's Begin",back:"Go Back",style:"What's your style?",distText:"km away",distLabel:"Distance:",
       home:"Home",here:"You are here",share:"Share on WhatsApp",km:"km",loading:"Loading map...",noResults:"No results found",
       mapLayers:"Map Layers",
-      undecided:"Undecided",
+      undecided:"Show me everything",
       regions:{all:"All Israel",north:"North",center:"Center",south:"South"},
       categories:{all:"All",water:"Springs & Streams",nature:"Parks & Nature",history:"History & Religion",sleep:"Camping",
-        food:"Food",bike:"Cycling",hiking:"Hiking",promenade:"Promenades",beach:"Beaches",viewpoint:"Viewpoints",attractions:"Attractions",israel_trail:"Israel Trail",'לפני 1948':"Pre-1948 Villages"}
+        food:"Food",bike:"Cycling",hiking:"Hiking",promenade:"Promenades",beach:"Beaches",viewpoint:"Viewpoints",attractions:"Attractions"}
     },
     ar: {
       search:"ابحث عن أي مكان في إسرائيل...",results:"نتائج",surprise:"اقتراحي",welcome:"أين نذهب اليوم؟",
       start:"لنبدأ",back:"رجوع",style:"ما هو أسلوبك؟",distText:"كم منك",distLabel:"المسافة:",
       home:"الرئيسية",here:"أنت هنا",share:"مشاركة واتساب",km:"كم",loading:"جارٍ التحميل...",noResults:"لا توجد نتائج",
       mapLayers:"طبقات الخريطة",
-      undecided:"لم أقرر",
+      undecided:"لم أقرر، أرني الكل",
       regions:{all:"كل البلاد",north:"الشمال",center:"الوسط",south:"الجنوب"},
       categories:{all:"الكل",water:"ينابيع وأنهار",nature:"منتزهات وطبيعة",history:"تاريخ ودين",sleep:"إقامة وتخييم",
-        food:"طعام ومطاعم",bike:"مسارات الدراجات",hiking:"مسارات المشي",promenade:"ممشى سياحي",beach:"شواطئ البحر",viewpoint:"مناظر ومطلات",attractions:"معالم سياحية",israel_trail:"مسار إسرائيل",'לפני 1948':"قرى ما قبل 1948"}
+        food:"طعام ومطاعم",bike:"مسارات الدراجات",hiking:"مسارات المشي",promenade:"ممشى سياحي",beach:"شواطئ البحر",viewpoint:"مناظر ومطلات",attractions:"معالم سياحية"}
     },
     ru: {
       search:"Поиск любого места в Израиле...",results:"Результаты",surprise:"Мой выбор",welcome:"Куда поедем?",
       start:"Поехали",back:"Назад",style:"Какой стиль?",distText:"км от вас",distLabel:"Расстояние:",
       home:"Домой",here:"Вы здесь",share:"Поделиться WhatsApp",km:"км",loading:"Загрузка карты...",noResults:"Ничего не найдено",
       mapLayers:"Слои карты",
-      undecided:"Не решил",
+      undecided:"Не решил, показать всё",
       regions:{all:"Весь Израиль",north:"Север",center:"Центр",south:"Юг"},
       categories:{all:"Все",water:"Источники и реки",nature:"Парки и природа",history:"История и религия",sleep:"Жилье",
-        food:"Еда",bike:"Велосипед",hiking:"Пешие тропы",promenade:"Променады",beach:"Пляжи",viewpoint:"Смотровые площадки",attractions:"Аттракционы",israel_trail:"Тропа Израиля",'לפני 1948':"Деревни до 1948"}
+        food:"Еда",bike:"Велосипед",hiking:"Пешие тропы",promenade:"Променады",beach:"Пляжи",viewpoint:"Смотровые площадки",attractions:"Аттракционы"}
     }
   };
 
@@ -516,12 +490,11 @@ export default function TiyulifyApp() {
     const coords: [number,number] = [parseFloat(result.lat), parseFloat(result.lon)];
     setSearchMarker(coords);
     setSearchMarkerName(result.name || result.display_name.split(",")[0]);
-    setSearchMarkerAddr(result.display_name.split(',').slice(1,4).join(', '));
     setGeoQuery(result.name || result.display_name.split(",")[0]);
     setGeoResults([]);
     if (mapControl.current) mapControl.current.flyTo(coords, 15, {animate:true, duration:1.5});
   };
-  const clearSearch = () => { setGeoQuery(''); setGeoResults([]); setSearchMarker(null); setSearchMarkerName(''); setSearchMarkerAddr(''); };
+  const clearSearch = () => { setGeoQuery(''); setGeoResults([]); setSearchMarker(null); setSearchMarkerName(''); };
 
   // ===== פילטר חכם לפי קטגוריה =====
   const filteredItems = useMemo(() => {
@@ -542,8 +515,6 @@ export default function TiyulifyApp() {
         matchesCat = cat === 'food' || cat === 'cafe';
       } else if (categoryFilter === 'nature') {
         matchesCat = cat === 'nature' || cat === 'park';
-      } else if (categoryFilter === 'לפני 1948') {
-        matchesCat = cat === 'לפני 1948';
       } else {
         matchesCat = cat === categoryFilter;
       }
@@ -611,14 +582,14 @@ export default function TiyulifyApp() {
               <button key={id} onClick={()=>{setCategoryFilter(id);setActiveView('map');}}
                 className="aspect-square flex flex-col items-center justify-center gap-3 md:gap-6 bg-white hover:bg-green-50 rounded-2xl md:rounded-[3rem] shadow-xl border-2 md:border-4 border-transparent hover:border-green-400 transition-all group p-4">
                 <span className="text-4xl md:text-7xl group-hover:scale-125 transition-transform duration-500">
-                  {id==='water'?'💦':id==='nature'?'🏞️':id==='history'?'🏰':id==='sleep'?'🏕️':id==='food'?'🍕':id==='bike'?'🚲':id==='hiking'?'🥾':id==='promenade'?'🚶‍♂️':id==='beach'?'🏖️':id==='attractions'?'🎡':id==='לפני 1948'?'🕌':'🌊'}
+                  {id==='water'?'💦':id==='nature'?'🏞️':id==='history'?'🏰':id==='sleep'?'🏕️':id==='food'?'🍕':id==='bike'?'🚲':id==='hiking'?'🥾':id==='promenade'?'🚶‍♂️':id==='beach'?'🏖️':id==='attractions'?'🎡':'🚶‍♂️🦯'}
                 </span>
                 <span className="font-black text-gray-700 text-center text-[10px] md:text-lg leading-tight uppercase tracking-tight">{label}</span>
               </button>
             ))}
           </div>
           <div className="mt-12 md:mt-20 flex flex-col items-center gap-4">
-            <button onClick={()=>{setCategoryFilter('none');setActiveView('map');}}
+            <button onClick={()=>{setCategoryFilter('all');setActiveView('map');}}
               className="bg-green-600 hover:bg-green-700 text-white px-10 py-4 md:px-16 md:py-5 rounded-2xl font-black text-lg md:text-2xl shadow-xl transition-all transform hover:scale-105 active:scale-95">
               🗺️ {labels[activeLang].undecided}
             </button>
@@ -651,10 +622,47 @@ export default function TiyulifyApp() {
               </button>
             </div>
 
-            <div className={`flex-col lg:flex-row gap-3 md:gap-6 w-full px-2 overflow-visible transition-all duration-700 ease-in-out md:flex md:max-h-96 md:opacity-100 ${showMobileHeader ? "flex max-h-96 opacity-100" : "hidden md:flex"}`}>
+            <div className={`flex-col lg:flex-row gap-3 md:gap-6 w-full px-2 overflow-hidden transition-all duration-700 ease-in-out md:flex md:max-h-96 md:opacity-100 ${showMobileHeader ? "flex max-h-96 opacity-100" : "max-h-0 opacity-0"}`}>
               {/* חיפוש */}
-              <div className="flex-1 relative">
-              <div className="relative">
+              <div className="flex-1 relative" onClick={async (e: React.MouseEvent<HTMLDivElement>) => {
+                const map = mapControl.current;
+                if (!map) return;
+                const rect = (e.currentTarget as HTMLDivElement).getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const point = map.containerPointToLatLng([x, y]);
+                const lat = point.lat;
+                const lng = point.lng;
+                try {
+                  const lang = activeLangRef.current; const res = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&addressdetails=1&accept-language=${lang},en`);
+                  const d = await res.json();
+                  const name = d?.name || d?.display_name?.split(',')[0] || `${lat.toFixed(4)}, ${lng.toFixed(4)}`;
+                  const addr = (d?.display_name||'').split(',').slice(0,4).join(', ');
+                  const type = d?.type || d?.category || '';
+                  const userLat = userCoords?.[0];
+                  const userLng = userCoords?.[1];
+                  const dist = userLat && userLng ? calculateDistance(userLat, userLng, lat, lng) : null;
+                  const L = (window as any).L || map;
+                  const popup = (await import('leaflet')).default.popup()
+                    .setLatLng([lat, lng])
+                    .setContent(`<div dir="rtl" style="min-width:220px;font-family:Arial;padding:4px">
+                      <b style="font-size:15px;color:#166534;display:block;margin-bottom:4px">${name}</b>
+                      ${type ? `<span style="font-size:11px;background:#dcfce7;color:#166534;padding:2px 8px;border-radius:12px;display:inline-block;margin-bottom:6px">${type}</span>` : ''}
+                      <p style="font-size:11px;color:#6b7280;margin:0 0 4px;line-height:1.4">${addr}</p>
+                      ${dist ? `<p style="font-size:12px;color:#374151;margin:0 0 8px">📍 מרחק: <b>${dist} ק"מ</b></p>` : ''}
+                      <div style="display:flex;gap:6px;margin-top:8px">
+                        <a href="https://www.waze.com/ul?ll=${lat},${lng}&navigate=yes" target="_blank"
+                          style="flex:1;background:#2563eb;color:white;text-align:center;padding:7px;border-radius:8px;text-decoration:none;font-size:12px;font-weight:bold">WAZE</a>
+                        <a href="https://api.whatsapp.com/send?text=https://maps.google.com/?q=${lat},${lng}" target="_blank"
+                          style="flex:1;background:#25d366;color:white;text-align:center;padding:7px;border-radius:8px;text-decoration:none;font-size:12px;font-weight:bold">WhatsApp</a>
+                        <a href="https://www.google.com/maps?q=${lat},${lng}" target="_blank"
+                          style="flex:1;background:#f3f4f6;color:#374151;text-align:center;padding:7px;border-radius:8px;text-decoration:none;font-size:12px;font-weight:bold">Google</a>
+                      </div>
+                    </div>`);
+                  popup.openOn(map);
+                } catch(err) { console.error(err); }
+              }}>
+                <div className="relative">
                   <input type="text" placeholder={labels[activeLang].search} value={geoQuery} onChange={(e)=>handleGeoSearch(e.target.value)}
                     className="w-full bg-gray-50 border-2 border-gray-200 rounded-xl md:rounded-[1.5rem] py-2 md:py-4 px-10 md:px-14 focus:border-green-400 focus:bg-white outline-none transition-all text-gray-800 shadow-sm font-bold text-sm md:text-lg"/>
                   <span className={`absolute top-2.5 md:top-4 opacity-40 text-lg md:text-2xl pointer-events-none ${isRtl?'right-4':'left-4'}`}>{geoLoading?'⏳':'🔍'}</span>
@@ -763,7 +771,7 @@ export default function TiyulifyApp() {
                       L.popup()
                         .setLatLng([lat, lng])
                         .setContent(`<div dir="rtl" style="min-width:220px;font-family:Arial;padding:4px">
-                          <a href="https://www.google.com/search?q=${encodeURIComponent(name)}" target="_blank" style="font-size:15px;color:#166534;display:block;margin-bottom:4px;font-weight:bold;text-decoration:none">🔍 ${name}</a>
+                          <b style="font-size:15px;color:#166534;display:block;margin-bottom:4px">${name}</b>
                           ${type ? `<span style="font-size:11px;background:#dcfce7;color:#166534;padding:2px 8px;border-radius:12px;display:inline-block;margin-bottom:6px">${type}</span>` : ''}
                           <p style="font-size:11px;color:#6b7280;margin:0 0 4px;line-height:1.4">${addr}</p>
                           ${dist ? `<p style="font-size:12px;color:#374151;margin:0 0 8px">📍 מרחק: <b>${dist} ק"מ</b></p>` : ''}
@@ -808,16 +816,18 @@ export default function TiyulifyApp() {
                       <Marker position={searchMarker} icon={searchPinIcon}>
                         <Popup minWidth={260} maxWidth={300} className="square-modern-popup-container">
                           <div className="text-right font-sans p-1 overflow-hidden">
-                            <div className="w-full h-28 mb-2 shadow-xl rounded-[1.5rem] overflow-hidden border-2 border-white flex items-center justify-center" style={{background:'linear-gradient(135deg,#3b82f622,#3b82f644)'}}>
-                              <span style={{fontSize:'3rem'}}>📍</span>
+                            <div className="w-full h-44 md:h-52 mb-4 shadow-xl rounded-[1.5rem] overflow-hidden bg-gray-100 relative border-2 border-white">
+                              <img src={`https://staticmap.openstreetmap.de/staticmap.php?center=${searchMarker[0]},${searchMarker[1]}&zoom=14&size=600x300&maptype=mapnik`}
+                                alt={searchMarkerName} className="w-full h-full object-cover"
+                                onError={(e:any)=>{ e.target.style.display='none'; e.target.parentElement.style.background='linear-gradient(135deg,#3b82f622,#3b82f644)'; }}/>
+                              <div className="absolute bottom-2 right-2 bg-blue-600 text-white text-[10px] font-black px-2 py-1 rounded-full shadow">🔍 חיפוש</div>
                             </div>
-                            <a href={"https://www.google.com/search?q=" + encodeURIComponent(searchMarkerName)} target="_blank" className="no-underline"><h4 className="font-bold text-green-900 text-sm m-0 leading-snug mb-1 px-1 hover:underline cursor-pointer">🔍 {searchMarkerName}</h4></a>
-                            <p className="text-[11px] text-gray-500 px-1 mb-2 ">{searchMarkerAddr || (searchMarker ? searchMarker[0].toFixed(4)+', '+searchMarker[1].toFixed(4) : '')}</p>
-                            {userCoords && searchMarker && <div className="flex items-center gap-1.5 mb-2 bg-green-50 px-3 py-1.5 rounded-full border border-green-200 shadow-sm inline-flex"><span className="text-base">📍</span><span className="text-[12px] text-green-700 font-black">{calculateDistance(userCoords[0],userCoords[1],searchMarker[0],searchMarker[1])} {labels[activeLang].km}</span></div>}
-                            <div className="flex flex-wrap gap-2 mt-2 pb-1">
-                              <a href={`https://www.waze.com/ul?ll=${searchMarker[0]},${searchMarker[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-3 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95">WAZE</a>
-                              <button onClick={()=>window.open(`https://wa.me/?text=${encodeURIComponent('Tiyulify: '+searchMarkerName+'\nhttps://www.google.com/maps/search/?api=1&query='+searchMarker[0]+','+searchMarker[1])}`,'_blank')} className="flex-1 bg-green-500 text-white text-center py-3 rounded-2xl text-[11px] font-black shadow-lg active:scale-95">WhatsApp</button>
-                              <a href={`https://www.google.com/maps/search/?api=1&query=${searchMarker[0]},${searchMarker[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-3 rounded-2xl text-[11px] font-black no-underline border border-gray-200 hover:bg-gray-200 active:scale-95">GOOGLE</a>
+                            <h4 className="font-black text-blue-900 text-2xl m-0 leading-none mb-3 px-1">📍 {searchMarkerName}</h4>
+                            {userCoords && searchMarker && (() => { const isIsrael = searchMarker[0]>29.5&&searchMarker[0]<33.3&&searchMarker[1]>34.2&&searchMarker[1]<35.9; return isIsrael ? <div className="flex items-center gap-2 mb-4 bg-blue-50 inline-flex px-4 py-1.5 rounded-full border-2 border-blue-100 shadow-sm"><span className="text-xl">🚀</span><p className="text-[14px] text-blue-700 font-black m-0">{labels[activeLang].distLabel} {calculateDistance(userCoords[0],userCoords[1],searchMarker[0],searchMarker[1])} {labels[activeLang].km}</p></div> : null; })()} 
+                            <div className="flex flex-wrap gap-3 mt-4 pb-2">
+                              <a href={`https://www.waze.com/ul?ll=${searchMarker[0]},${searchMarker[1]}&navigate=yes`} target="_blank" className="flex-1 bg-blue-600 text-white text-center py-4 rounded-2xl text-[11px] font-black no-underline shadow-lg active:scale-95">WAZE</a>
+                              <button onClick={()=>window.open(`https://wa.me/?text=${encodeURIComponent('Tiyulify: '+searchMarkerName+'\nhttps://www.google.com/maps/search/?api=1&query='+searchMarker[0]+','+searchMarker[1])}`,'_blank')} className="flex-1 bg-green-500 text-white text-center py-4 rounded-2xl text-[11px] font-black shadow-lg active:scale-95">WhatsApp</button>
+                              <a href={`https://www.google.com/maps/search/?api=1&query=${searchMarker[0]},${searchMarker[1]}`} target="_blank" className="flex-1 bg-gray-100 text-gray-700 text-center py-4 rounded-2xl text-[11px] font-black no-underline border-2 border-gray-200 hover:bg-gray-200 active:scale-95">GOOGLE</a>
                             </div>
                           </div>
                         </Popup>
@@ -827,7 +837,7 @@ export default function TiyulifyApp() {
                       const pd = userCoords ? calculateDistance(userCoords[0],userCoords[1],item.coords[0],item.coords[1]) : null;
                       const catEmoji: Record<string,string> = {
                         water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-                        food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',israel_trail:'👣',israel_trail:'👣',israel_trail:'👣'
+                        food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡'
                       };
                       const emoji = catEmoji[item.category] || '📍';
                       const emojiIcon = LeafletMapLib && new (require('leaflet').DivIcon)({
@@ -886,7 +896,7 @@ export default function TiyulifyApp() {
         .leaflet-popup-content-wrapper{border-radius:2.5rem!important;overflow:hidden!important;padding:0!important;box-shadow:0 45px 90px -15px rgba(0,0,0,.45)!important}
         .leaflet-popup-content{margin:0!important;padding:10px!important;width:260px!important}
         @media(max-width:768px){.leaflet-popup-content{width:260px!important;padding:10px!important}}
-        .{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+        .line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
         .leaflet-popup-tip-container{display:none}
         .square-modern-popup-container iframe{pointer-events:auto!important;border-radius:2rem!important}
         @keyframes fadeIn{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
