@@ -611,7 +611,7 @@ export default function TiyulifyApp() {
               <button key={id} onClick={()=>{setCategoryFilter(id);setActiveView('map');}}
                 className="aspect-square flex flex-col items-center justify-center gap-3 md:gap-6 bg-white hover:bg-green-50 rounded-2xl md:rounded-[3rem] shadow-xl border-2 md:border-4 border-transparent hover:border-green-400 transition-all group p-4">
                 <span className="text-4xl md:text-7xl group-hover:scale-125 transition-transform duration-500">
-                  {id==='water'?'💦':id==='nature'?'🏞️':id==='history'?'🏰':id==='sleep'?'🏕️':id==='food'?'🍕':id==='bike'?'🚲':id==='hiking'?'🥾':id==='promenade'?'🚶‍♂️':id==='beach'?'🏖️':id==='attractions'?'🎡':id==='לפני 1948'?'🕌':'🌊'}
+                  {id==='water'?'💦':id==='nature'?'🏞️':id==='history'?'🏰':id==='sleep'?'🏕️':id==='food'?'🍕':id==='bike'?'🚲':id==='hiking'?'🥾':id==='promenade'?'🚶‍♂️':id==='beach'?'🏖️':id==='attractions'?'🎡':id==='לפני 1948'?'🕌':id==='israel_trail'?'🚶‍♂️🦯':'🌊'}
                 </span>
                 <span className="font-black text-gray-700 text-center text-[10px] md:text-lg leading-tight uppercase tracking-tight">{label}</span>
               </button>
