@@ -129,11 +129,11 @@ function UserPhotos({ item }: { item: any }) {
   const catColor: Record<string,string> = {
     water:'#3b82f6',nature:'#22c55e',history:'#a16207',sleep:'#8b5cf6',
     accommodation:'#8b5cf6',food:'#f97316',bike:'#ef4444',hiking:'#84cc16',attractions:'#f59e0b',
-    promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e',default:'#6b7280'
+    promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e',israel_trail:'#f59e0b',default:'#6b7280'
   };
   const catEmoji: Record<string,string> = {
     water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-    food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',default:'📍'
+    food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',israel_trail:'🏃',israel_trail:'🥾🟠',israel_trail:'🥾🟠',default:'📍'
   };
   const color = catColor[item.category] || catColor.default;
   const emoji = catEmoji[item.category] || catEmoji.default;
@@ -209,7 +209,7 @@ const CAT_COLOR: Record<string,string> = {
 };
 const CAT_EMOJI: Record<string,string> = {
   water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-  food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',default:'📍'
+  food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',israel_trail:'🏃',israel_trail:'🥾🟠',israel_trail:'🥾🟠',default:'📍'
 };
 
 function SidebarImage({ item, className }: { item: any; className?: string }) {
@@ -827,7 +827,7 @@ export default function TiyulifyApp() {
                       const pd = userCoords ? calculateDistance(userCoords[0],userCoords[1],item.coords[0],item.coords[1]) : null;
                       const catEmoji: Record<string,string> = {
                         water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
-                        food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡'
+                        food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',israel_trail:'🏃',israel_trail:'🥾🟠'
                       };
                       const emoji = catEmoji[item.category] || '📍';
                       const emojiIcon = LeafletMapLib && new (require('leaflet').DivIcon)({
