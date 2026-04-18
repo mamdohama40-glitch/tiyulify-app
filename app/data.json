@@ -40473,1144 +40473,1232 @@
   {
     "id": "INT001",
     "name": {
-      "he": "שביל ישראל - מקטע 1: דן - שניר",
+      "he": "שביל ישראל - מקטע 1: קופות חרמון - מעיינות בניאס",
       "ar": "مسار إسرائيل - قسم 1",
-      "en": "Israel Trail - Segment 1: Dan - Snir",
+      "en": "Israel Trail - Segment 1: Hermon Pools - Banias",
       "ru": "Тропа Израиля - Участок 1"
     },
     "coords": [
-      33.249,
-      35.651
+      33.3005,
+      35.7705
     ],
     "category": "israel_trail",
     "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
     "description": {
-      "he": "מקטע 1. מתל דן לשמורת נחל שניר. 18 ק״מ, קל-בינוני.",
-      "ar": "قسم 1. من تل دان إلى محمية نهر شنير. 18 كم.",
-      "en": "Segment 1. From Tel Dan to Snir Stream Reserve. 18 km, easy-moderate.",
-      "ru": "Участок 1. От Тель-Дан до заповедника Снир. 18 км."
+      "he": "מקטע 1. מקופות חרמון למעיינות בניאס.",
+      "ar": "قسم 1.",
+      "en": "Segment 1. Hermon Pools to Banias Springs.",
+      "ru": "Участок 1."
     },
     "region": "north"
   },
   {
     "id": "INT002",
     "name": {
-      "he": "שביל ישראל - מקטע 2: שניר - כפר גלעדי",
+      "he": "שביל ישראל - מקטע 2: מעיינות בניאס - תל חי",
       "ar": "مسار إسرائيل - قسم 2",
-      "en": "Israel Trail - Segment 2: Snir - Kfar Giladi",
+      "en": "Israel Trail - Segment 2: Banias - Tel Hai",
       "ru": "Тропа Израиля - Участок 2"
     },
     "coords": [
-      33.234,
-      35.578
+      33.2483,
+      35.6942
     ],
     "category": "israel_trail",
     "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
     "description": {
-      "he": "מקטע 2. משמורת נחל שניר לכפר גלעדי. 16 ק״מ, בינוני.",
-      "ar": "قسم 2. من محمية شنير إلى كفار جلعادي. 16 كم.",
-      "en": "Segment 2. From Snir Reserve to Kfar Giladi. 16 km, moderate.",
-      "ru": "Участок 2. От Снир до Кфар-Гилади. 16 км."
+      "he": "מקטע 2. ממעיינות בניאס לתל חי.",
+      "ar": "قسم 2.",
+      "en": "Segment 2. Banias Springs to Tel Hai.",
+      "ru": "Участок 2."
     },
     "region": "north"
   },
   {
     "id": "INT003",
     "name": {
-      "he": "שביל ישראל - מקטע 3: כפר גלעדי - נחל עיון",
+      "he": "שביל ישראל - מקטע 3: תל חי - מצודת כ״ח",
       "ar": "مسار إسرائيل - قسم 3",
-      "en": "Israel Trail - Segment 3: Kfar Giladi - Nahal Ayun",
+      "en": "Israel Trail - Segment 3: Tel Hai - Metzudat Koach",
       "ru": "Тропа Израиля - Участок 3"
     },
     "coords": [
-      33.111,
-      35.551
+      33.2346,
+      35.5786
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
     "description": {
-      "he": "מקטע 3. מכפר גלעדי לשמורת נחל עיון. 14 ק״מ, בינוני.",
-      "ar": "قسم 3. من كفار جلعادي إلى محمية نهر عيون. 14 كم.",
-      "en": "Segment 3. From Kfar Giladi to Nahal Ayun Reserve. 14 km.",
-      "ru": "Участок 3. От Кфар-Гилади до Нахаль-Аюн. 14 км."
+      "he": "מקטע 3. מתל חי למצודת כח.",
+      "ar": "قسم 3.",
+      "en": "Segment 3. Tel Hai to Metzudat Koach.",
+      "ru": "Участок 3."
     },
     "region": "north"
   },
   {
     "id": "INT004",
     "name": {
-      "he": "שביל ישראל - מקטע 4: נחל עיון - הר מירון",
+      "he": "שביל ישראל - מקטע 4: מצודת כ״ח - דישון",
       "ar": "مسار إسرائيل - قسم 4",
-      "en": "Israel Trail - Segment 4: Nahal Ayun - Mount Meron",
+      "en": "Israel Trail - Segment 4: Metzudat Koach - Dishon",
       "ru": "Тропа Израиля - Участок 4"
     },
     "coords": [
-      33.08,
-      35.485
+      33.1114,
+      35.5511
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
     "description": {
-      "he": "מקטע 4. משמורת נחל עיון להר מירון. 22 ק״מ, קשה.",
-      "ar": "قسم 4. من محمية نهر عيون إلى جبل الجرمق. 22 كم.",
-      "en": "Segment 4. From Nahal Ayun to Mount Meron. 22 km, hard.",
-      "ru": "Участок 4. От Нахаль-Аюн до горы Мерон. 22 км."
+      "he": "מקטע 4. ממצודת כח לדישון.",
+      "ar": "قسم 4.",
+      "en": "Segment 4. Metzudat Koach to Dishon.",
+      "ru": "Участок 4."
     },
     "region": "north"
   },
   {
     "id": "INT005",
     "name": {
-      "he": "שביל ישראל - מקטע 5: הר מירון - צפת",
+      "he": "שביל ישראל - מקטע 5: דישון - ברעם",
       "ar": "مسار إسرائيل - قسم 5",
-      "en": "Israel Trail - Segment 5: Mount Meron - Safed",
+      "en": "Israel Trail - Segment 5: Dishon - Baram",
       "ru": "Тропа Израиля - Участок 5"
     },
     "coords": [
-      33.042,
-      35.416
+      33.0805,
+      35.4851
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
     "description": {
-      "he": "מקטע 5. מהר מירון לצפת. 18 ק״מ, בינוני.",
-      "ar": "قسم 5. من جبل الجرمق إلى صفد. 18 كم.",
-      "en": "Segment 5. From Mount Meron to Safed. 18 km, moderate.",
-      "ru": "Участок 5. От горы Мерон до Цфата. 18 км."
+      "he": "מקטע 5. מדישון לברעם.",
+      "ar": "قسم 5.",
+      "en": "Segment 5. Dishon to Baram.",
+      "ru": "Участок 5."
     },
     "region": "north"
   },
   {
     "id": "INT006",
     "name": {
-      "he": "שביל ישראל - מקטע 6: צפת - כינרת",
+      "he": "שביל ישראל - מקטע 6: ברעם - מירון",
       "ar": "مسار إسرائيل - قسم 6",
-      "en": "Israel Trail - Segment 6: Safed - Sea of Galilee",
+      "en": "Israel Trail - Segment 6: Baram - Meron",
       "ru": "Тропа Израиля - Участок 6"
     },
     "coords": [
-      32.998,
-      35.391
+      33.0423,
+      35.4164
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
     "description": {
-      "he": "מקטע 6. מצפת לחוף הכינרת. 20 ק״מ, בינוני-קשה.",
-      "ar": "قسم 6. من صفد إلى شاطئ بحيرة طبريا. 20 كم.",
-      "en": "Segment 6. From Safed to the Sea of Galilee shore. 20 km.",
-      "ru": "Участок 6. От Цфата до берега Кинерета. 20 км."
+      "he": "מקטע 6. מברעם למירון.",
+      "ar": "قسم 6.",
+      "en": "Segment 6. Baram to Meron.",
+      "ru": "Участок 6."
     },
     "region": "north"
   },
   {
     "id": "INT007",
     "name": {
-      "he": "שביל ישראל - מקטע 7: כינרת - ארבל",
+      "he": "שביל ישראל - מקטע 7: מירון - כביש 85",
       "ar": "مسار إسرائيل - قسم 7",
-      "en": "Israel Trail - Segment 7: Sea of Galilee - Arbel",
+      "en": "Israel Trail - Segment 7: Meron - Route 85",
       "ru": "Тропа Израиля - Участок 7"
     },
     "coords": [
-      32.935,
-      35.448
+      32.9984,
+      35.3917
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
     "description": {
-      "he": "מקטע 7. מחוף הכינרת להר ארבל. 16 ק״מ, קשה.",
-      "ar": "قسم 7. من شاطئ بحيرة طبريا إلى جبل الأربعين. 16 كم.",
-      "en": "Segment 7. From Sea of Galilee to Mount Arbel. 16 km, hard.",
-      "ru": "Участок 7. От Кинерета до горы Арбель. 16 км."
+      "he": "מקטע 7. ממירון לכביש 85.",
+      "ar": "قسم 7.",
+      "en": "Segment 7. Meron to Route 85.",
+      "ru": "Участок 7."
     },
     "region": "north"
   },
   {
     "id": "INT008",
     "name": {
-      "he": "שביל ישראל - מקטע 8: ארבל - גולני",
+      "he": "שביל ישראל - מקטע 8: כביש 85 - מגדל",
       "ar": "مسار إسرائيل - قسم 8",
-      "en": "Israel Trail - Segment 8: Arbel - Golani Junction",
+      "en": "Israel Trail - Segment 8: Route 85 - Migdal",
       "ru": "Тропа Израиля - Участок 8"
     },
     "coords": [
-      32.812,
-      35.511
+      32.9158,
+      35.4412
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
     "description": {
-      "he": "מקטע 8. מהר ארבל לצומת גולני. 18 ק״מ, בינוני.",
-      "ar": "قسم 8. من جبل الأربعين إلى تقاطع جولاني. 18 كم.",
-      "en": "Segment 8. From Mount Arbel to Golani Junction. 18 km.",
-      "ru": "Участок 8. От Арбель до развязки Голани. 18 км."
+      "he": "מקטע 8. מכביש 85 למגדל.",
+      "ar": "قسم 8.",
+      "en": "Segment 8. Route 85 to Migdal.",
+      "ru": "Участок 8."
     },
     "region": "north"
   },
   {
     "id": "INT009",
     "name": {
-      "he": "שביל ישראל - מקטע 9: גולני - תבור",
+      "he": "שביל ישראל - מקטע 9: מגדל - כנרת",
       "ar": "مسار إسرائيل - قسم 9",
-      "en": "Israel Trail - Segment 9: Golani - Mount Tabor",
+      "en": "Israel Trail - Segment 9: Migdal - Kinneret",
       "ru": "Тропа Израиля - Участок 9"
     },
     "coords": [
-      32.784,
-      35.503
+      32.8122,
+      35.5117
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
     "description": {
-      "he": "מקטע 9. מצומת גולני להר תבור. 16 ק״מ, בינוני.",
-      "ar": "قسم 9. من تقاطع جولاني إلى جبل الطور. 16 كم.",
-      "en": "Segment 9. From Golani Junction to Mount Tabor. 16 km.",
-      "ru": "Участок 9. От Голани до горы Тавор. 16 км."
+      "he": "מקטע 9. ממגדל לכנרת.",
+      "ar": "قسم 9.",
+      "en": "Segment 9. Migdal to Kinneret.",
+      "ru": "Участок 9."
     },
     "region": "north"
   },
   {
     "id": "INT010",
     "name": {
-      "he": "שביל ישראל - מקטע 10: תבור - כפר תבור",
+      "he": "שביל ישראל - מקטע 10: כנרת - כפר קיש",
       "ar": "مسار إسرائيل - قسم 10",
-      "en": "Israel Trail - Segment 10: Tabor - Kfar Tavor",
+      "en": "Israel Trail - Segment 10: Kinneret - Kfar Kish",
       "ru": "Тропа Израиля - Участок 10"
     },
     "coords": [
-      32.711,
-      35.571
+      32.7114,
+      35.5714
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
     "description": {
-      "he": "מקטע 10. מהר תבור לכפר תבור. 12 ק״מ, קל.",
-      "ar": "قسم 10. من جبل الطور إلى كفار تابور. 12 كم.",
-      "en": "Segment 10. From Mount Tabor to Kfar Tavor. 12 km, easy.",
-      "ru": "Участок 10. От Тавора до Кфар-Тавор. 12 км."
+      "he": "מקטע 10. מכנרת לכפר קיש.",
+      "ar": "قسم 10.",
+      "en": "Segment 10. Kinneret to Kfar Kish.",
+      "ru": "Участок 10."
     },
     "region": "north"
   },
   {
     "id": "INT011",
     "name": {
-      "he": "שביל ישראל - מקטע 11: כפר תבור - גלבוע",
+      "he": "שביל ישראל - מקטע 11: כפר קיש - נוף הגליל",
       "ar": "مسار إسرائيل - قسم 11",
-      "en": "Israel Trail - Segment 11: Kfar Tavor - Gilboa",
+      "en": "Israel Trail - Segment 11: Kfar Kish - Nof HaGalil",
       "ru": "Тропа Израиля - Участок 11"
     },
     "coords": [
-      32.651,
-      35.411
+      32.6514,
+      35.4117
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
     "description": {
-      "he": "מקטע 11. מכפר תבור להרי הגלבוע. 20 ק״מ, בינוני-קשה.",
-      "ar": "قسم 11. من كفار تابور إلى جبال الجلبوع. 20 كم.",
-      "en": "Segment 11. From Kfar Tavor to the Gilboa Mountains. 20 km.",
-      "ru": "Участок 11. От Кфар-Тавор до гор Гилбоа. 20 км."
+      "he": "מקטע 11. מכפר קיש לנוף הגליל.",
+      "ar": "قسم 11.",
+      "en": "Segment 11. Kfar Kish to Nof HaGalil.",
+      "ru": "Участок 11."
     },
     "region": "north"
   },
   {
     "id": "INT012",
     "name": {
-      "he": "שביל ישראל - מקטע 12: גלבוע - גן השלושה",
+      "he": "שביל ישראל - מקטע 12: נוף הגליל - אלון הגליל",
       "ar": "مسار إسرائيل - قسم 12",
-      "en": "Israel Trail - Segment 12: Gilboa - Gan HaShlosha",
+      "en": "Israel Trail - Segment 12: Nof HaGalil - Allon HaGalil",
       "ru": "Тропа Израиля - Участок 12"
     },
     "coords": [
-      32.698,
-      35.298
+      32.6981,
+      35.2984
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
     "description": {
-      "he": "מקטע 12. מהרי הגלבוע לגן השלושה. 18 ק״מ, בינוני.",
-      "ar": "قسم 12. من جبال الجلبوع إلى جنة الثلاثة. 18 كم.",
-      "en": "Segment 12. From Gilboa to Gan HaShlosha. 18 km, moderate.",
-      "ru": "Участок 12. От Гилбоа до Ган-ха-Шлоша. 18 км."
+      "he": "מקטע 12. מנוף הגליל לאלון הגליל.",
+      "ar": "قسم 12.",
+      "en": "Segment 12. Nof HaGalil to Allon HaGalil.",
+      "ru": "Участок 12."
     },
     "region": "north"
   },
   {
     "id": "INT013",
     "name": {
-      "he": "שביל ישראל - מקטע 13: גן השלושה - בית שאן",
+      "he": "שביל ישראל - מקטע 13: אלון הגליל - יגור",
       "ar": "مسار إسرائيل - قسم 13",
-      "en": "Israel Trail - Segment 13: Gan HaShlosha - Beit Shean",
+      "en": "Israel Trail - Segment 13: Allon HaGalil - Yagur",
       "ru": "Тропа Израиля - Участок 13"
     },
     "coords": [
-      32.613,
-      35.138
+      32.7542,
+      35.2181
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
     "description": {
-      "he": "מקטע 13. מגן השלושה לבית שאן. 10 ק״מ, קל.",
-      "ar": "قسم 13. من جنة الثلاثة إلى بيسان. 10 كم.",
-      "en": "Segment 13. From Gan HaShlosha to Beit Shean. 10 km, easy.",
-      "ru": "Участок 13. От Ган-ха-Шлоша до Бейт-Шеана. 10 км."
+      "he": "מקטע 13. מאלון הגליל ליגור.",
+      "ar": "قسم 13.",
+      "en": "Segment 13. Allon HaGalil to Yagur.",
+      "ru": "Участок 13."
     },
     "region": "north"
   },
   {
     "id": "INT014",
     "name": {
-      "he": "שביל ישראל - מקטע 14: בית שאן - נחל תרצה",
+      "he": "שביל ישראל - מקטע 14: יגור - נחל אורן",
       "ar": "مسار إسرائيل - قسم 14",
-      "en": "Israel Trail - Segment 14: Beit Shean - Nahal Tirtza",
+      "en": "Israel Trail - Segment 14: Yagur - Nahal Oren",
       "ru": "Тропа Израиля - Участок 14"
     },
     "coords": [
-      32.571,
-      35.181
+      32.7441,
+      35.0742
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
     "description": {
-      "he": "מקטע 14. מבית שאן לנחל תרצה. 22 ק״מ, בינוני.",
-      "ar": "قسم 14. من بيسان إلى نهر ترتسا. 22 كم.",
-      "en": "Segment 14. From Beit Shean to Nahal Tirtza. 22 km.",
-      "ru": "Участок 14. От Бейт-Шеана до Нахаль-Тирца. 22 км."
+      "he": "מקטע 14. מיגור לנחל אורן.",
+      "ar": "قسم 14.",
+      "en": "Segment 14. Yagur to Nahal Oren.",
+      "ru": "Участок 14."
     },
     "region": "center"
   },
   {
     "id": "INT015",
     "name": {
-      "he": "שביל ישראל - מקטע 15: נחל תרצה - שכם",
+      "he": "שביל ישראל - מקטע 15: נחל אורן - כרם מהר״ל",
       "ar": "مسار إسرائيل - قسم 15",
-      "en": "Israel Trail - Segment 15: Nahal Tirtza - Shechem",
+      "en": "Israel Trail - Segment 15: Nahal Oren - Kerem Maharal",
       "ru": "Тропа Израиля - Участок 15"
     },
     "coords": [
-      32.641,
-      35.061
+      32.7142,
+      34.9817
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
     "description": {
-      "he": "מקטע 15. מנחל תרצה לאזור שכם. 20 ק״מ, בינוני.",
-      "ar": "قسم 15. من نهر ترتسا إلى منطقة نابلس. 20 كم.",
-      "en": "Segment 15. From Nahal Tirtza to Shechem area. 20 km.",
-      "ru": "Участок 15. От Нахаль-Тирца до района Шхема. 20 км."
+      "he": "מקטע 15. מנחל אורן לכרם מהרל.",
+      "ar": "قسم 15.",
+      "en": "Segment 15. Nahal Oren to Kerem Maharal.",
+      "ru": "Участок 15."
     },
     "region": "center"
   },
   {
     "id": "INT016",
     "name": {
-      "he": "שביל ישראל - מקטע 16: שכם - שילה",
+      "he": "שביל ישראל - מקטע 16: כרם מהר״ל - בית חנניה",
       "ar": "مسار إسرائيل - قسم 16",
-      "en": "Israel Trail - Segment 16: Shechem - Shiloh",
+      "en": "Israel Trail - Segment 16: Kerem Maharal - Beit Hananya",
       "ru": "Тропа Израиля - Участок 16"
     },
     "coords": [
-      32.758,
-      35.021
+      32.6341,
+      34.9314
     ],
     "category": "israel_trail",
     "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
     "description": {
-      "he": "מקטע 16. מאזור שכם לשילה. 22 ק״מ, בינוני.",
-      "ar": "قسم 16. من منطقة نابلس إلى شيلو. 22 كم.",
-      "en": "Segment 16. From Shechem area to Shiloh. 22 km.",
-      "ru": "Участок 16. От Шхема до Шило. 22 км."
+      "he": "מקטע 16. מכרם מהרל לבית חנניה.",
+      "ar": "قسم 16.",
+      "en": "Segment 16. Kerem Maharal to Beit Hananya.",
+      "ru": "Участок 16."
     },
     "region": "center"
   },
   {
     "id": "INT017",
     "name": {
-      "he": "שביל ישראל - מקטע 17: שילה - בית אל",
+      "he": "שביל ישראל - מקטע 17: בית חנניה - בית ינאי",
       "ar": "مسار إسرائيل - قسم 17",
-      "en": "Israel Trail - Segment 17: Shiloh - Beit El",
+      "en": "Israel Trail - Segment 17: Beit Hananya - Beit Yanai",
       "ru": "Тропа Израиля - Участок 17"
     },
     "coords": [
-      32.714,
-      34.981
+      32.5381,
+      34.9114
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
     "description": {
-      "he": "מקטע 17. משילה לבית אל. 20 ק״מ, בינוני.",
-      "ar": "قسم 17. من شيلو إلى بيت إيل. 20 كم.",
-      "en": "Segment 17. From Shiloh to Beit El. 20 km, moderate.",
-      "ru": "Участок 17. От Шило до Бейт-Эля. 20 км."
+      "he": "מקטע 17. מבית חנניה לבית ינאי.",
+      "ar": "قسم 17.",
+      "en": "Segment 17. Beit Hananya to Beit Yanai.",
+      "ru": "Участок 17."
     },
     "region": "center"
   },
   {
     "id": "INT018",
     "name": {
-      "he": "שביל ישראל - מקטע 18: בית אל - ירושלים",
+      "he": "שביל ישראל - מקטע 18: בית ינאי - יקום",
       "ar": "مسار إسرائيل - قسم 18",
-      "en": "Israel Trail - Segment 18: Beit El - Jerusalem",
+      "en": "Israel Trail - Segment 18: Beit Yanai - Yakum",
       "ru": "Тропа Израиля - Участок 18"
     },
     "coords": [
-      32.634,
-      34.931
+      32.4002,
+      34.8654
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
     "description": {
-      "he": "מקטע 18. מבית אל לירושלים. 24 ק״מ, בינוני-קשה.",
-      "ar": "قسم 18. من بيت إيل إلى القدس. 24 كم.",
-      "en": "Segment 18. From Beit El to Jerusalem. 24 km, moderate-hard.",
-      "ru": "Участок 18. От Бейт-Эля до Иерусалима. 24 км."
+      "he": "מקטע 18. מבית ינאי ליקום.",
+      "ar": "قسم 18.",
+      "en": "Segment 18. Beit Yanai to Yakum.",
+      "ru": "Участок 18."
     },
     "region": "center"
   },
   {
     "id": "INT019",
     "name": {
-      "he": "שביל ישראל - מקטע 19: ירושלים - עין כרם",
+      "he": "שביל ישראל - מקטע 19: יקום - תל אביב",
       "ar": "مسار إسرائيل - قسم 19",
-      "en": "Israel Trail - Segment 19: Jerusalem - Ein Karem",
+      "en": "Israel Trail - Segment 19: Yakum - Tel Aviv",
       "ru": "Тропа Израиля - Участок 19"
     },
     "coords": [
-      32.548,
-      34.941
+      32.2514,
+      34.8211
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
     "description": {
-      "he": "מקטע 19. מירושלים לעין כרם. 12 ק״מ, קל-בינוני.",
-      "ar": "قسم 19. من القدس إلى عين كارم. 12 كم.",
-      "en": "Segment 19. From Jerusalem to Ein Karem. 12 km, easy-moderate.",
-      "ru": "Участок 19. От Иерусалима до Эйн-Карем. 12 км."
+      "he": "מקטע 19. מיקום לתל אביב.",
+      "ar": "قسم 19.",
+      "en": "Segment 19. Yakum to Tel Aviv.",
+      "ru": "Участок 19."
     },
     "region": "center"
   },
   {
     "id": "INT020",
     "name": {
-      "he": "שביל ישראל - מקטע 20: עין כרם - בית שמש",
+      "he": "שביל ישראל - מקטע 20: תל אביב - תל אפק",
       "ar": "مسار إسرائيل - قسم 20",
-      "en": "Israel Trail - Segment 20: Ein Karem - Beit Shemesh",
+      "en": "Israel Trail - Segment 20: Tel Aviv - Tel Afek",
       "ru": "Тропа Израиля - Участок 20"
     },
     "coords": [
-      32.538,
-      34.911
+      32.0917,
+      34.7714
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
     "description": {
-      "he": "מקטע 20. מעין כרם לבית שמש. 22 ק״מ, בינוני.",
-      "ar": "قسم 20. من عين كارم إلى بيت شيمش. 22 كم.",
-      "en": "Segment 20. From Ein Karem to Beit Shemesh. 22 km.",
-      "ru": "Участок 20. От Эйн-Карем до Бейт-Шемеша. 22 км."
+      "he": "מקטע 20. מתל אביב לתל אפק.",
+      "ar": "قسم 20.",
+      "en": "Segment 20. Tel Aviv to Tel Afek.",
+      "ru": "Участок 20."
     },
     "region": "center"
   },
   {
     "id": "INT021",
     "name": {
-      "he": "שביל ישראל - מקטע 21: בית שמש - בית גוברין",
+      "he": "שביל ישראל - מקטע 21: תל אפק - מצפה מודיעין",
       "ar": "مسار إسرائيل - قسم 21",
-      "en": "Israel Trail - Segment 21: Beit Shemesh - Beit Guvrin",
+      "en": "Israel Trail - Segment 21: Tel Afek - Mitzpe Modi in",
       "ru": "Тропа Израиля - Участок 21"
     },
     "coords": [
-      32.441,
-      34.881
+      32.1031,
+      34.9284
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
     "description": {
-      "he": "מקטע 21. מבית שמש לבית גוברין. 24 ק״מ, בינוני.",
-      "ar": "قسم 21. من بيت شيمش إلى بيت جوبرين. 24 كم.",
-      "en": "Segment 21. From Beit Shemesh to Beit Guvrin. 24 km.",
-      "ru": "Участок 21. От Бейт-Шемеша до Бейт-Гуврина. 24 км."
+      "he": "מקטע 21. מתל אפק למצפה מודיעין.",
+      "ar": "قسم 21.",
+      "en": "Segment 21. Tel Afek to Mitzpe Modi in.",
+      "ru": "Участок 21."
     },
     "region": "center"
   },
   {
     "id": "INT022",
     "name": {
-      "he": "שביל ישראל - מקטע 22: בית גוברין - לכיש",
+      "he": "שביל ישראל - מקטע 22: מצפה מודיעין - לטרון",
       "ar": "مسار إسرائيل - قسم 22",
-      "en": "Israel Trail - Segment 22: Beit Guvrin - Lachish",
+      "en": "Israel Trail - Segment 22: Mitzpe Modi in - Latrun",
       "ru": "Тропа Израиля - Участок 22"
     },
     "coords": [
-      32.311,
-      34.841
+      31.9384,
+      34.9581
     ],
     "category": "israel_trail",
     "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
     "description": {
-      "he": "מקטע 22. מבית גוברין ללכיש. 20 ק״מ, קל.",
-      "ar": "قسم 22. من بيت جوبرين إلى لخيش. 20 كم.",
-      "en": "Segment 22. From Beit Guvrin to Lachish. 20 km, easy.",
-      "ru": "Участок 22. От Бейт-Гуврина до Лахиша. 20 км."
+      "he": "מקטע 22. ממצפה מודיעין ללטרון.",
+      "ar": "قسم 22.",
+      "en": "Segment 22. Mitzpe Modi in to Latrun.",
+      "ru": "Участок 22."
     },
     "region": "center"
   },
   {
     "id": "INT023",
     "name": {
-      "he": "שביל ישראל - מקטע 23: לכיש - שוקדה",
+      "he": "שביל ישראל - מקטע 23: לטרון - צובה",
       "ar": "مسار إسرائيل - قسم 23",
-      "en": "Israel Trail - Segment 23: Lachish - Shokeda",
+      "en": "Israel Trail - Segment 23: Latrun - Tzuba",
       "ru": "Тропа Израиля - Участок 23"
     },
     "coords": [
-      32.161,
-      34.801
-    ],
-    "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
-    "description": {
-      "he": "מקטע 23. מלכיש לשוקדה. 22 ק״מ, קל.",
-      "ar": "قسم 23. من لخيش إلى شوكيدا. 22 كم.",
-      "en": "Segment 23. From Lachish to Shokeda. 22 km, easy.",
-      "ru": "Участок 23. От Лахиша до Шокеды. 22 км."
-    },
-    "region": "south"
-  },
-  {
-    "id": "INT024",
-    "name": {
-      "he": "שביל ישראל - מקטע 24: שוקדה - יתיר",
-      "ar": "مسار إسرائيل - قسم 24",
-      "en": "Israel Trail - Segment 24: Shokeda - Yatir",
-      "ru": "Тропа Израиля - Участок 24"
-    },
-    "coords": [
-      32.091,
-      34.771
-    ],
-    "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
-    "description": {
-      "he": "מקטע 24. משוקדה ליער יתיר. 24 ק״מ, קל-בינוני.",
-      "ar": "قسم 24. من شوكيدا إلى غابة يتير. 24 كم.",
-      "en": "Segment 24. From Shokeda to Yatir Forest. 24 km.",
-      "ru": "Участок 24. От Шокеды до леса Ятир. 24 км."
-    },
-    "region": "south"
-  },
-  {
-    "id": "INT025",
-    "name": {
-      "he": "שביל ישראל - מקטע 25: יתיר - ערד",
-      "ar": "مسار إسرائيل - قسم 25",
-      "en": "Israel Trail - Segment 25: Yatir - Arad",
-      "ru": "Тропа Израиля - Участок 25"
-    },
-    "coords": [
-      32.111,
-      34.918
+      31.8384,
+      34.9781
     ],
     "category": "israel_trail",
     "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
     "description": {
-      "he": "מקטע 25. מיער יתיר לערד. 22 ק״מ, בינוני.",
-      "ar": "قسم 25. من غابة يتير إلى عراد. 22 كم.",
-      "en": "Segment 25. From Yatir Forest to Arad. 22 km, moderate.",
-      "ru": "Участок 25. От леса Ятир до Арада. 22 км."
+      "he": "מקטע 23. מלטרון לצובה.",
+      "ar": "قسم 23.",
+      "en": "Segment 23. Latrun to Tzuba.",
+      "ru": "Участок 23."
     },
-    "region": "south"
+    "region": "center"
+  },
+  {
+    "id": "INT024",
+    "name": {
+      "he": "שביל ישראל - מקטע 24: צובה - בר גיורא",
+      "ar": "مسار إسرائيل - قسم 24",
+      "en": "Israel Trail - Segment 24: Tzuba - Bar Giora",
+      "ru": "Тропа Израиля - Участок 24"
+    },
+    "coords": [
+      31.7814,
+      35.1214
+    ],
+    "category": "israel_trail",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
+    "description": {
+      "he": "מקטע 24. מצובה לבר גיורא.",
+      "ar": "قسم 24.",
+      "en": "Segment 24. Tzuba to Bar Giora.",
+      "ru": "Участок 24."
+    },
+    "region": "center"
+  },
+  {
+    "id": "INT025",
+    "name": {
+      "he": "שביל ישראל - מקטע 25: בר גיורא - צומת האלה",
+      "ar": "مسار إسرائيل - قسم 25",
+      "en": "Israel Trail - Segment 25: Bar Giora - Ela Junction",
+      "ru": "Тропа Израиля - Участок 25"
+    },
+    "coords": [
+      31.7161,
+      35.0721
+    ],
+    "category": "israel_trail",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
+    "description": {
+      "he": "מקטע 25. מבר גיורא לצומת האלה.",
+      "ar": "قسم 25.",
+      "en": "Segment 25. Bar Giora to Ela Junction.",
+      "ru": "Участок 25."
+    },
+    "region": "center"
   },
   {
     "id": "INT026",
     "name": {
-      "he": "שביל ישראל - מקטע 26: ערד - מצדה",
+      "he": "שביל ישראל - מקטע 26: צומת האלה - בית גוברין",
       "ar": "مسار إسرائيل - قسم 26",
-      "en": "Israel Trail - Segment 26: Arad - Masada",
+      "en": "Israel Trail - Segment 26: Ela Junction - Beit Guvrin",
       "ru": "Тропа Израиля - Участок 26"
     },
     "coords": [
-      32.103,
-      34.928
+      31.6817,
+      34.9814
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
     "description": {
-      "he": "מקטע 26. מערד למצדה. 26 ק״מ, בינוני-קשה.",
-      "ar": "قسم 26. من عراد إلى مسعدة. 26 كم.",
-      "en": "Segment 26. From Arad to Masada. 26 km, moderate-hard.",
-      "ru": "Участок 26. От Арада до Масады. 26 км."
+      "he": "מקטע 26. מצומת האלה לבית גוברין.",
+      "ar": "قسم 26.",
+      "en": "Segment 26. Ela Junction to Beit Guvrin.",
+      "ru": "Участок 26."
     },
-    "region": "south"
+    "region": "center"
   },
   {
     "id": "INT027",
     "name": {
-      "he": "שביל ישראל - מקטע 27: מצדה - עין גדי",
+      "he": "שביל ישראל - מקטע 27: בית גוברין - תל קשת",
       "ar": "مسار إسرائيل - قسم 27",
-      "en": "Israel Trail - Segment 27: Masada - Ein Gedi",
+      "en": "Israel Trail - Segment 27: Beit Guvrin - Tel Keshet",
       "ru": "Тропа Израиля - Участок 27"
     },
     "coords": [
-      31.938,
-      34.958
+      31.6114,
+      34.8911
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=600",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
     "description": {
-      "he": "מקטע 27. ממצדה לעין גדי. 20 ק״מ, בינוני.",
-      "ar": "قسم 27. من مسعدة إلى عين جدي. 20 كم.",
-      "en": "Segment 27. From Masada to Ein Gedi. 20 km, moderate.",
-      "ru": "Участок 27. От Масады до Эйн-Геди. 20 км."
+      "he": "מקטע 27. מבית גוברין לתל קשת.",
+      "ar": "قسم 27.",
+      "en": "Segment 27. Beit Guvrin to Tel Keshet.",
+      "ru": "Участок 27."
     },
-    "region": "south"
+    "region": "center"
   },
   {
     "id": "INT028",
     "name": {
-      "he": "שביל ישראל - מקטע 28: עין גדי - עינות צוקים",
+      "he": "שביל ישראל - מקטע 28: תל קשת - דביר",
       "ar": "مسار إسرائيل - قسم 28",
-      "en": "Israel Trail - Segment 28: Ein Gedi - Einot Tzukim",
+      "en": "Israel Trail - Segment 28: Tel Keshet - Dvir",
       "ru": "Тропа Израиля - Участок 28"
     },
     "coords": [
-      31.838,
-      34.978
+      31.5412,
+      34.7814
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
     "description": {
-      "he": "מקטע 28. מעין גדי לעינות צוקים. 28 ק״מ, קשה.",
-      "ar": "قسم 28. من عين جدي إلى عينوت تسوقيم. 28 كم.",
-      "en": "Segment 28. From Ein Gedi to Einot Tzukim. 28 km, hard.",
-      "ru": "Участок 28. От Эйн-Геди до Эйнот-Цуким. 28 км."
+      "he": "מקטע 28. מתל קשת לדביר.",
+      "ar": "قسم 28.",
+      "en": "Segment 28. Tel Keshet to Dvir.",
+      "ru": "Участок 28."
     },
     "region": "south"
   },
   {
     "id": "INT029",
     "name": {
-      "he": "שביל ישראל - מקטע 29: עינות צוקים - יריחו",
+      "he": "שביל ישראל - מקטע 29: דביר - מיתר",
       "ar": "مسار إسرائيل - قسم 29",
-      "en": "Israel Trail - Segment 29: Einot Tzukim - Jericho",
+      "en": "Israel Trail - Segment 29: Dvir - Mitar",
       "ru": "Тропа Израиля - Участок 29"
     },
     "coords": [
-      31.781,
-      34.981
+      31.4114,
+      34.8314
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
     "description": {
-      "he": "מקטע 29. מעינות צוקים לאזור יריחו. 22 ק״מ, בינוני.",
-      "ar": "قسم 29. من عينوت تسوقيم إلى منطقة أريحا. 22 كم.",
-      "en": "Segment 29. From Einot Tzukim to Jericho area. 22 km.",
-      "ru": "Участок 29. От Эйнот-Цуким до района Иерихона. 22 км."
+      "he": "מקטע 29. מדביר למיתר.",
+      "ar": "قسم 29.",
+      "en": "Segment 29. Dvir to Mitar.",
+      "ru": "Участок 29."
     },
     "region": "south"
   },
   {
     "id": "INT030",
     "name": {
-      "he": "שביל ישראל - מקטע 30: יריחו - מעלה אדומים",
+      "he": "שביל ישראל - מקטע 30: מיתר - הר עמשא",
       "ar": "مسار إسرائيل - قسم 30",
-      "en": "Israel Trail - Segment 30: Jericho - Maale Adumim",
+      "en": "Israel Trail - Segment 30: Mitar - Mount Amasa",
       "ru": "Тропа Израиля - Участок 30"
     },
     "coords": [
-      31.771,
-      35.121
+      31.3214,
+      34.9411
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1541073033723-946766060596?w=600",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
     "description": {
-      "he": "מקטע 30. מאזור יריחו למעלה אדומים. 20 ק״מ, בינוני-קשה.",
-      "ar": "قسم 30. من منطقة أريحا إلى معاليه أدوميم. 20 كم.",
-      "en": "Segment 30. From Jericho area to Maale Adumim. 20 km.",
-      "ru": "Участок 30. От Иерихона до Маале-Адумим. 20 км."
+      "he": "מקטע 30. ממיתר להר עמשא.",
+      "ar": "قسم 30.",
+      "en": "Segment 30. Mitar to Mount Amasa.",
+      "ru": "Участок 30."
     },
     "region": "south"
   },
   {
     "id": "INT031",
     "name": {
-      "he": "שביל ישראל - מקטע 31: מעלה אדומים - עין פרת",
+      "he": "שביל ישראל - מקטע 31: הר עמשא - ערד",
       "ar": "مسار إسرائيل - قسم 31",
-      "en": "Israel Trail - Segment 31: Maale Adumim - Ein Prat",
+      "en": "Israel Trail - Segment 31: Mount Amasa - Arad",
       "ru": "Тропа Израиля - Участок 31"
     },
     "coords": [
-      31.748,
-      35.131
+      31.3342,
+      35.1184
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
     "description": {
-      "he": "מקטע 31. ממעלה אדומים לעין פרת. 18 ק״מ, בינוני.",
-      "ar": "قسم 31. من معاليه أدوميم إلى عين فارة. 18 كم.",
-      "en": "Segment 31. From Maale Adumim to Ein Prat. 18 km.",
-      "ru": "Участок 31. От Маале-Адумим до Эйн-Прат. 18 км."
+      "he": "מקטע 31. מהר עמשא לערד.",
+      "ar": "قسم 31.",
+      "en": "Segment 31. Mount Amasa to Arad.",
+      "ru": "Участок 31."
     },
     "region": "south"
   },
   {
     "id": "INT032",
     "name": {
-      "he": "שביל ישראל - מקטע 32: עין פרת - מכתש רמון",
+      "he": "שביל ישראל - מקטע 32: ערד - בריכת צפירה",
       "ar": "مسار إسرائيل - قسم 32",
-      "en": "Israel Trail - Segment 32: Ein Prat - Ramon Crater",
+      "en": "Israel Trail - Segment 32: Arad - Tzfira Pool",
       "ru": "Тропа Израиля - Участок 32"
     },
     "coords": [
-      31.711,
-      35.071
+      31.2614,
+      35.2117
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
+    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
     "description": {
-      "he": "מקטע 32. מעין פרת למכתש רמון. 30 ק״מ, קשה מאוד.",
-      "ar": "قسم 32. من عين فارة إلى مكتش رامون. 30 كم.",
-      "en": "Segment 32. From Ein Prat to Ramon Crater. 30 km, very hard.",
-      "ru": "Участок 32. От Эйн-Прат до кратера Рамон. 30 км."
+      "he": "מקטע 32. מערד לבריכת צפירה.",
+      "ar": "قسم 32.",
+      "en": "Segment 32. Arad to Tzfira Pool.",
+      "ru": "Участок 32."
     },
     "region": "south"
   },
   {
     "id": "INT033",
     "name": {
-      "he": "שביל ישראל - מקטע 33: מכתש רמון - מצפה רמון",
+      "he": "שביל ישראל - מקטע 33: בריכת צפירה - מצדה",
       "ar": "مسار إسرائيل - قسم 33",
-      "en": "Israel Trail - Segment 33: Ramon Crater - Mitzpe Ramon",
+      "en": "Israel Trail - Segment 33: Tzfira Pool - Masada",
       "ru": "Тропа Израиля - Участок 33"
     },
     "coords": [
-      31.681,
-      34.981
+      31.2914,
+      35.2714
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
     "description": {
-      "he": "מקטע 33. חציית מכתש רמון למצפה רמון. 24 ק״מ, קשה.",
-      "ar": "قسم 33. عبور مكتش رامون إلى متسبيه رامون. 24 كم.",
-      "en": "Segment 33. Crossing Ramon Crater to Mitzpe Ramon. 24 km, hard.",
-      "ru": "Участок 33. Пересечение кратера Рамон до Мицпе-Рамон. 24 км."
+      "he": "מקטע 33. מבריכת צפירה למצדה.",
+      "ar": "قسم 33.",
+      "en": "Segment 33. Tzfira Pool to Masada.",
+      "ru": "Участок 33."
     },
     "region": "south"
   },
   {
     "id": "INT034",
     "name": {
-      "he": "שביל ישראל - מקטע 34: מצפה רמון - נחל גוורים",
+      "he": "שביל ישראל - מקטע 34: מצדה - מלונות עין בוקק",
       "ar": "مسار إسرائيل - قسم 34",
-      "en": "Israel Trail - Segment 34: Mitzpe Ramon - Nahal Guvrim",
+      "en": "Israel Trail - Segment 34: Masada - Ein Bokek Hotels",
       "ru": "Тропа Израиля - Участок 34"
     },
     "coords": [
-      31.691,
-      34.921
+      31.3114,
+      35.3514
     ],
     "category": "israel_trail",
     "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
     "description": {
-      "he": "מקטע 34. ממצפה רמון לנחל גוורים. 22 ק״מ, בינוני-קשה.",
-      "ar": "قسم 34. من متسبيه رامون إلى نهر جوفريم. 22 كم.",
-      "en": "Segment 34. From Mitzpe Ramon to Nahal Guvrim. 22 km.",
-      "ru": "Участок 34. От Мицпе-Рамон до Нахаль-Гуврим. 22 км."
+      "he": "מקטע 34. ממצדה למלונות עין בוקק.",
+      "ar": "قسم 34.",
+      "en": "Segment 34. Masada to Ein Bokek Hotels.",
+      "ru": "Участок 34."
     },
     "region": "south"
   },
   {
     "id": "INT035",
     "name": {
-      "he": "שביל ישראל - מקטע 35: נחל גוורים - הר ארדון",
+      "he": "שביל ישראל - מקטע 35: מלונות עין בוקק - מישור עמיעז",
       "ar": "مسار إسرائيل - قسم 35",
-      "en": "Israel Trail - Segment 35: Nahal Guvrim - Mount Ardon",
+      "en": "Israel Trail - Segment 35: Ein Bokek - Amiaz Plain",
       "ru": "Тропа Израиля - Участок 35"
     },
     "coords": [
-      31.611,
-      34.891
+      31.1984,
+      35.3614
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
     "description": {
-      "he": "מקטע 35. מנחל גוורים להר ארדון. 20 ק״מ, קשה.",
-      "ar": "قسم 35. من نهر جوفريم إلى جبل أردون. 20 كم.",
-      "en": "Segment 35. From Nahal Guvrim to Mount Ardon. 20 km, hard.",
-      "ru": "Участок 35. От Нахаль-Гуврим до горы Ардон. 20 км."
+      "he": "מקטע 35. ממלונות עין בוקק למישור עמיעז.",
+      "ar": "قسم 35.",
+      "en": "Segment 35. Ein Bokek Hotels to Amiaz Plain.",
+      "ru": "Участок 35."
     },
     "region": "south"
   },
   {
     "id": "INT036",
     "name": {
-      "he": "שביל ישראל - מקטע 36: הר ארדון - עין עקב",
+      "he": "שביל ישראל - מקטע 36: מישור עמיעז - נחל תמר",
       "ar": "مسار إسرائيل - قسم 36",
-      "en": "Israel Trail - Segment 36: Mount Ardon - Ein Akev",
+      "en": "Israel Trail - Segment 36: Amiaz Plain - Nahal Tamar",
       "ru": "Тропа Израиля - Участок 36"
     },
     "coords": [
-      31.561,
-      34.841
+      31.1114,
+      35.3481
     ],
     "category": "israel_trail",
     "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
     "description": {
-      "he": "מקטע 36. מהר ארדון לעין עקב. 18 ק״מ, קשה מאוד.",
-      "ar": "قسم 36. من جبل أردون إلى عين عقب. 18 كم.",
-      "en": "Segment 36. From Mount Ardon to Ein Akev. 18 km, very hard.",
-      "ru": "Участок 36. От горы Ардон до Эйн-Акев. 18 км."
+      "he": "מקטע 36. ממישור עמיעז לנחל תמר.",
+      "ar": "قسم 36.",
+      "en": "Segment 36. Amiaz Plain to Nahal Tamar.",
+      "ru": "Участок 36."
     },
     "region": "south"
   },
   {
     "id": "INT037",
     "name": {
-      "he": "שביל ישראל - מקטע 37: עין עקב - נחל חרייבה",
+      "he": "שביל ישראל - מקטע 37: נחל תמר - נחל עקרבים",
       "ar": "مسار إسرائيل - قسم 37",
-      "en": "Israel Trail - Segment 37: Ein Akev - Nahal Hariybah",
+      "en": "Israel Trail - Segment 37: Nahal Tamar - Nahal Akrabim",
       "ru": "Тропа Израиля - Участок 37"
     },
     "coords": [
-      31.521,
-      34.878
+      31.0614,
+      35.2111
     ],
     "category": "israel_trail",
     "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
     "description": {
-      "he": "מקטע 37. מעין עקב לנחל חרייבה. 20 ק״מ, קשה.",
-      "ar": "قسم 37. من عين عقب إلى نهر الحريبة. 20 كم.",
-      "en": "Segment 37. From Ein Akev to Nahal Hariybah. 20 km, hard.",
-      "ru": "Участок 37. От Эйн-Акев до Нахаль-Харийба. 20 км."
+      "he": "מקטע 37. מנחל תמר לנחל עקרבים.",
+      "ar": "قسم 37.",
+      "en": "Segment 37. Nahal Tamar to Nahal Akrabim.",
+      "ru": "Участок 37."
     },
     "region": "south"
   },
   {
     "id": "INT038",
     "name": {
-      "he": "שביל ישראל - מקטע 38: נחל חרייבה - עין זיק",
+      "he": "שביל ישראל - מקטע 38: נחל עקרבים - אורון",
       "ar": "مسار إسرائيل - قسم 38",
-      "en": "Israel Trail - Segment 38: Nahal Hariybah - Ein Ziq",
+      "en": "Israel Trail - Segment 38: Nahal Akrabim - Oron",
       "ru": "Тропа Израиля - Участок 38"
     },
     "coords": [
-      31.411,
-      34.831
+      30.9384,
+      35.1311
     ],
     "category": "israel_trail",
     "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
     "description": {
-      "he": "מקטע 38. מנחל חרייבה לעין זיק. 22 ק״מ, קשה.",
-      "ar": "قسم 38. من نهر الحريبة إلى عين زيق. 22 كم.",
-      "en": "Segment 38. From Nahal Hariybah to Ein Ziq. 22 km, hard.",
-      "ru": "Участок 38. От Нахаль-Харийба до Эйн-Зик. 22 км."
+      "he": "מקטע 38. מנחל עקרבים לאורון.",
+      "ar": "قسم 38.",
+      "en": "Segment 38. Nahal Akrabim to Oron.",
+      "ru": "Участок 38."
     },
     "region": "south"
   },
   {
     "id": "INT039",
     "name": {
-      "he": "שביל ישראל - מקטע 39: עין זיק - שחרות",
+      "he": "שביל ישראל - מקטע 39: אורון - נחל עפרן",
       "ar": "مسار إسرائيل - قسم 39",
-      "en": "Israel Trail - Segment 39: Ein Ziq - Shahroot",
+      "en": "Israel Trail - Segment 39: Oron - Nahal Ofran",
       "ru": "Тропа Израиля - Участок 39"
     },
     "coords": [
-      31.381,
-      34.871
+      30.8414,
+      35.1117
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
     "description": {
-      "he": "מקטע 39. מעין זיק לשחרות. 20 ק״מ, קשה.",
-      "ar": "قسم 39. من عين زيق إلى شحروت. 20 كم.",
-      "en": "Segment 39. From Ein Ziq to Shahroot. 20 km, hard.",
-      "ru": "Участок 39. От Эйн-Зик до Шахрут. 20 км."
+      "he": "מקטע 39. מאורון לנחל עפרן.",
+      "ar": "قسم 39.",
+      "en": "Segment 39. Oron to Nahal Ofran.",
+      "ru": "Участок 39."
     },
     "region": "south"
   },
   {
     "id": "INT040",
     "name": {
-      "he": "שביל ישראל - מקטע 40: שחרות - נחל שחרון",
+      "he": "שביל ישראל - מקטע 40: נחל עפרן - חוד עקב",
       "ar": "مسار إسرائيل - قسم 40",
-      "en": "Israel Trail - Segment 40: Shahroot - Nahal Shahron",
+      "en": "Israel Trail - Segment 40: Nahal Ofran - Hod Akev",
       "ru": "Тропа Израиля - Участок 40"
     },
     "coords": [
-      31.321,
-      34.941
+      30.8214,
+      35.0514
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
     "description": {
-      "he": "מקטע 40. משחרות לנחל שחרון. 18 ק״מ, בינוני-קשה.",
-      "ar": "قسم 40. من شحروت إلى نهر شحرون. 18 كم.",
-      "en": "Segment 40. From Shahroot to Nahal Shahron. 18 km.",
-      "ru": "Участок 40. От Шахрут до Нахаль-Шахрон. 18 км."
+      "he": "מקטע 40. מנחל עפרן לחוד עקב.",
+      "ar": "قسم 40.",
+      "en": "Segment 40. Nahal Ofran to Hod Akev.",
+      "ru": "Участок 40."
     },
     "region": "south"
   },
   {
     "id": "INT041",
     "name": {
-      "he": "שביל ישראל - מקטע 41: נחל שחרון - נחל גרופית",
+      "he": "שביל ישראל - מקטע 41: חוד עקב - נחל חוה",
       "ar": "مسار إسرائيل - قسم 41",
-      "en": "Israel Trail - Segment 41: Nahal Shahron - Nahal Grofit",
+      "en": "Israel Trail - Segment 41: Hod Akev - Nahal Hava",
       "ru": "Тропа Израиля - Участок 41"
     },
     "coords": [
-      31.261,
-      35.211
+      30.8011,
+      35.0614
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
+    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
     "description": {
-      "he": "מקטע 41. מנחל שחרון לנחל גרופית. 22 ק״מ, בינוני.",
-      "ar": "قسم 41. من نهر شحرون إلى نهر غروفيت. 22 كم.",
-      "en": "Segment 41. From Nahal Shahron to Nahal Grofit. 22 km.",
-      "ru": "Участок 41. От Нахаль-Шахрон до Нахаль-Грофит. 22 км."
+      "he": "מקטע 41. מחוד עקב לנחל חוה.",
+      "ar": "قسم 41.",
+      "en": "Segment 41. Hod Akev to Nahal Hava.",
+      "ru": "Участок 41."
     },
     "region": "south"
   },
   {
     "id": "INT042",
     "name": {
-      "he": "שביל ישראל - מקטע 42: נחל גרופית - עין נטפים",
+      "he": "שביל ישראל - מקטע 42: נחל חוה - מצפה רמון",
       "ar": "مسار إسرائيل - قسم 42",
-      "en": "Israel Trail - Segment 42: Nahal Grofit - Ein Netafim",
+      "en": "Israel Trail - Segment 42: Nahal Hava - Mitzpe Ramon",
       "ru": "Тропа Израиля - Участок 42"
     },
     "coords": [
-      31.181,
-      35.251
+      30.6652,
+      34.9124
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
     "description": {
-      "he": "מקטע 42. מנחל גרופית לעין נטפים. 20 ק״מ, בינוני-קשה.",
-      "ar": "قسم 42. من نهر غروفيت إلى عين نطافيم. 20 كم.",
-      "en": "Segment 42. From Nahal Grofit to Ein Netafim. 20 km.",
-      "ru": "Участок 42. От Нахаль-Грофит до Эйн-Нетафим. 20 км."
+      "he": "מקטע 42. מנחל חוה למצפה רמון.",
+      "ar": "قسم 42.",
+      "en": "Segment 42. Nahal Hava to Mitzpe Ramon.",
+      "ru": "Участок 42."
     },
     "region": "south"
   },
   {
     "id": "INT043",
     "name": {
-      "he": "שביל ישראל - מקטע 43: עין נטפים - הר שחרון",
+      "he": "שביל ישראל - מקטע 43: מצפה רמון - נחל גוונים",
       "ar": "مسار إسرائيل - قسم 43",
-      "en": "Israel Trail - Segment 43: Ein Netafim - Mount Shahron",
+      "en": "Israel Trail - Segment 43: Mitzpe Ramon - Nahal Gvanim",
       "ru": "Тропа Израиля - Участок 43"
     },
     "coords": [
-      31.061,
-      35.211
+      30.6114,
+      34.8011
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
     "description": {
-      "he": "מקטע 43. מעין נטפים להר שחרון. 18 ק״מ, קשה.",
-      "ar": "قسم 43. من عين نطافيم إلى جبل شحرون. 18 كم.",
-      "en": "Segment 43. From Ein Netafim to Mount Shahron. 18 km, hard.",
-      "ru": "Участок 43. От Эйн-Нетафим до горы Шахрон. 18 км."
+      "he": "מקטע 43. ממצפה רמון לנחל גוונים.",
+      "ar": "قسم 43.",
+      "en": "Segment 43. Mitzpe Ramon to Nahal Gvanim.",
+      "ru": "Участок 43."
     },
     "region": "south"
   },
   {
     "id": "INT044",
     "name": {
-      "he": "שביל ישראל - מקטע 44: הר שחרון - תמנע",
+      "he": "שביל ישראל - מקטע 44: נחל גוונים - גב חולית",
       "ar": "مسار إسرائيل - قسم 44",
-      "en": "Israel Trail - Segment 44: Mount Shahron - Timna",
+      "en": "Israel Trail - Segment 44: Nahal Gvanim - Gav Cholit",
       "ru": "Тропа Израиля - Участок 44"
     },
     "coords": [
-      30.951,
-      35.181
+      30.5817,
+      34.9114
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
+    "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
     "description": {
-      "he": "מקטע 44. מהר שחרון לפארק תמנע. 22 ק״מ, בינוני.",
-      "ar": "قسم 44. من جبل شحرون إلى منتزه تمناع. 22 كم.",
-      "en": "Segment 44. From Mount Shahron to Timna Park. 22 km.",
-      "ru": "Участок 44. От горы Шахрон до парка Тимна. 22 км."
+      "he": "מקטע 44. מנחל גוונים לגב חולית.",
+      "ar": "قسم 44.",
+      "en": "Segment 44. Nahal Gvanim to Gav Cholit.",
+      "ru": "Участок 44."
     },
     "region": "south"
   },
   {
     "id": "INT045",
     "name": {
-      "he": "שביל ישראל - מקטע 45: תמנע - יטבתה",
+      "he": "שביל ישראל - מקטע 45: גב חולית - ספיר",
       "ar": "مسار إسرائيل - قسم 45",
-      "en": "Israel Trail - Segment 45: Timna - Yotvata",
+      "en": "Israel Trail - Segment 45: Gav Cholit - Sapir",
       "ru": "Тропа Израиля - Участок 45"
     },
     "coords": [
-      30.841,
-      35.111
+      30.4114,
+      35.0314
     ],
     "category": "israel_trail",
     "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
     "description": {
-      "he": "מקטע 45. מפארק תמנע ליטבתה. 16 ק״מ, קל-בינוני.",
-      "ar": "قسم 45. من منتزه تمناع إلى يوطفاتا. 16 كم.",
-      "en": "Segment 45. From Timna Park to Yotvata. 16 km, easy-moderate.",
-      "ru": "Участок 45. От парка Тимна до Йотваты. 16 км."
+      "he": "מקטע 45. מגב חולית לספיר.",
+      "ar": "قسم 45.",
+      "en": "Segment 45. Gav Cholit to Sapir.",
+      "ru": "Участок 45."
     },
     "region": "south"
   },
   {
     "id": "INT046",
     "name": {
-      "he": "שביל ישראל - מקטע 46: יטבתה - עין דפנה",
+      "he": "שביל ישראל - מקטע 46: ספיר - צוקים",
       "ar": "مسار إسرائيل - قسم 46",
-      "en": "Israel Trail - Segment 46: Yotvata - Ein Dafna",
+      "en": "Israel Trail - Segment 46: Sapir - Tzukim",
       "ru": "Тропа Израиля - Участок 46"
     },
     "coords": [
-      30.801,
-      35.061
+      30.3314,
+      35.1117
     ],
     "category": "israel_trail",
     "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
     "description": {
-      "he": "מקטע 46. מיטבתה לעין דפנה. 14 ק״מ, קל.",
-      "ar": "قسم 46. من يوطفاتا إلى عين دفنا. 14 كم.",
-      "en": "Segment 46. From Yotvata to Ein Dafna. 14 km, easy.",
-      "ru": "Участок 46. От Йотваты до Эйн-Дафна. 14 км."
+      "he": "מקטע 46. מספיר לצוקים.",
+      "ar": "قسم 46.",
+      "en": "Segment 46. Sapir to Tzukim.",
+      "ru": "Участок 46."
     },
     "region": "south"
   },
   {
     "id": "INT047",
     "name": {
-      "he": "שביל ישראל - מקטע 47: עין דפנה - שחרות",
+      "he": "שביל ישראל - מקטע 47: צוקים - נחל ברק",
       "ar": "مسار إسرائيل - قسم 47",
-      "en": "Israel Trail - Segment 47: Ein Dafna - Shahroot South",
+      "en": "Israel Trail - Segment 47: Tzukim - Nahal Barak",
       "ru": "Тропа Израиля - Участок 47"
     },
     "coords": [
-      30.611,
-      34.801
+      30.2214,
+      35.1311
     ],
     "category": "israel_trail",
     "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
     "description": {
-      "he": "מקטע 47. מעין דפנה לשחרות דרום. 16 ק״מ, קל-בינוני.",
-      "ar": "قسم 47. من عين دفنا إلى شحروت جنوب. 16 كم.",
-      "en": "Segment 47. From Ein Dafna to Shahroot South. 16 km.",
-      "ru": "Участок 47. От Эйн-Дафна до Шахрут-Юг. 16 км."
+      "he": "מקטע 47. מצוקים לנחל ברק.",
+      "ar": "قسم 47.",
+      "en": "Segment 47. Tzukim to Nahal Barak.",
+      "ru": "Участок 47."
     },
     "region": "south"
   },
   {
     "id": "INT048",
     "name": {
-      "he": "שביל ישראל - מקטע 48: שחרות - נחל שלמה",
+      "he": "שביל ישראל - מקטע 48: נחל ברק - נחל ציחור",
       "ar": "مسار إسرائيل - قسم 48",
-      "en": "Israel Trail - Segment 48: Shahroot - Nahal Shlomo",
+      "en": "Israel Trail - Segment 48: Nahal Barak - Nahal Tzichor",
       "ru": "Тропа Израиля - Участок 48"
     },
     "coords": [
-      30.581,
-      34.911
+      30.1514,
+      35.0514
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
     "description": {
-      "he": "מקטע 48. משחרות לנחל שלמה. 18 ק״מ, בינוני.",
-      "ar": "قسم 48. من شحروت إلى نهر شلومو. 18 كم.",
-      "en": "Segment 48. From Shahroot to Nahal Shlomo. 18 km, moderate.",
-      "ru": "Участок 48. От Шахрут до Нахаль-Шломо. 18 км."
+      "he": "מקטע 48. מנחל ברק לנחל ציחור.",
+      "ar": "قسم 48.",
+      "en": "Segment 48. Nahal Barak to Nahal Tzichor.",
+      "ru": "Участок 48."
     },
     "region": "south"
   },
   {
     "id": "INT049",
     "name": {
-      "he": "שביל ישראל - מקטע 49: נחל שלמה - הר שלמה",
+      "he": "שביל ישראל - מקטע 49: נחל ציחור - צומת שיזפון",
       "ar": "مسار إسرائيل - قسم 49",
-      "en": "Israel Trail - Segment 49: Nahal Shlomo - Mount Shlomo",
+      "en": "Israel Trail - Segment 49: Nahal Tzichor - Shizafon Junction",
       "ru": "Тропа Израиля - Участок 49"
     },
     "coords": [
-      30.411,
-      35.031
+      30.0514,
+      35.0117
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bdb?w=600",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600",
     "description": {
-      "he": "מקטע 49. מנחל שלמה להר שלמה. 16 ק״מ, קשה.",
-      "ar": "قسم 49. من نهر شلومو إلى جبل شلومو. 16 كم.",
-      "en": "Segment 49. From Nahal Shlomo to Mount Shlomo. 16 km, hard.",
-      "ru": "Участок 49. От Нахаль-Шломо до горы Шломо. 16 км."
+      "he": "מקטע 49. מנחל ציחור לצומת שיזפון.",
+      "ar": "قسم 49.",
+      "en": "Segment 49. Nahal Tzichor to Shizafon Junction.",
+      "ru": "Участок 49."
     },
     "region": "south"
   },
   {
     "id": "INT050",
     "name": {
-      "he": "שביל ישראל - מקטע 50: הר שלמה - נחל גשרון",
+      "he": "שביל ישראל - מקטע 50: צומת שיזפון - שחרות",
       "ar": "مسار إسرائيل - قسم 50",
-      "en": "Israel Trail - Segment 50: Mount Shlomo - Nahal Gishron",
+      "en": "Israel Trail - Segment 50: Shizafon Junction - Shahroot",
       "ru": "Тропа Израиля - Участок 50"
     },
     "coords": [
-      30.331,
-      35.111
+      29.9314,
+      35.0314
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
+    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
     "description": {
-      "he": "מקטע 50. מהר שלמה לנחל גשרון. 18 ק״מ, קשה.",
-      "ar": "قسم 50. من جبل شلومو إلى نهر جيشرون. 18 كم.",
-      "en": "Segment 50. From Mount Shlomo to Nahal Gishron. 18 km, hard.",
-      "ru": "Участок 50. От горы Шломо до Нахаль-Гишрон. 18 км."
+      "he": "מקטע 50. מצומת שיזפון לשחרות.",
+      "ar": "قسم 50.",
+      "en": "Segment 50. Shizafon Junction to Shahroot.",
+      "ru": "Участок 50."
     },
     "region": "south"
   },
   {
     "id": "INT051",
     "name": {
-      "he": "שביל ישראל - מקטע 51: נחל גשרון - שמורת ספיר",
+      "he": "שביל ישראל - מקטע 51: שחרות - באר מילחן",
       "ar": "مسار إسرائيل - قسم 51",
-      "en": "Israel Trail - Segment 51: Nahal Gishron - Sapir Reserve",
+      "en": "Israel Trail - Segment 51: Shahroot - Beer Milhan",
       "ru": "Тропа Израиля - Участок 51"
     },
     "coords": [
-      30.221,
-      35.131
+      29.9214,
+      34.9814
     ],
     "category": "israel_trail",
-    "image": "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=600",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fee74a62?w=600",
     "description": {
-      "he": "מקטע 51. מנחל גשרון לשמורת ספיר. 16 ק״מ, בינוני-קשה.",
-      "ar": "قسم 51. من نهر جيشرون إلى محمية سفير. 16 كم.",
-      "en": "Segment 51. From Nahal Gishron to Sapir Reserve. 16 km.",
-      "ru": "Участок 51. От Нахаль-Гишрон до заповедника Сапир. 16 км."
+      "he": "מקטע 51. משחרות לבאר מילחן.",
+      "ar": "قسم 51.",
+      "en": "Segment 51. Shahroot to Beer Milhan.",
+      "ru": "Участок 51."
     },
     "region": "south"
   },
   {
     "id": "INT052",
     "name": {
-      "he": "שביל ישראל - מקטע 52: שמורת ספיר - אילת",
+      "he": "שביל ישראל - מקטע 52: באר מילחן - תמנע",
       "ar": "مسار إسرائيل - قسم 52",
-      "en": "Israel Trail - Segment 52: Sapir Reserve - Eilat",
+      "en": "Israel Trail - Segment 52: Beer Milhan - Timna",
       "ru": "Тропа Израиля - Участок 52"
     },
     "coords": [
-      30.151,
-      35.051
+      29.8514,
+      34.9412
+    ],
+    "category": "israel_trail",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600",
+    "description": {
+      "he": "מקטע 52. מבאר מילחן לתמנע.",
+      "ar": "قسم 52.",
+      "en": "Segment 52. Beer Milhan to Timna.",
+      "ru": "Участок 52."
+    },
+    "region": "south"
+  },
+  {
+    "id": "INT053",
+    "name": {
+      "he": "שביל ישראל - מקטע 53: תמנע - באר אורה",
+      "ar": "مسار إسرائيل - قسم 53",
+      "en": "Israel Trail - Segment 53: Timna - Beer Ora",
+      "ru": "Тропа Израиля - Участок 53"
+    },
+    "coords": [
+      29.7811,
+      34.9411
     ],
     "category": "israel_trail",
     "image": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600",
     "description": {
-      "he": "מקטע 52 - האחרון! משמורת ספיר לאילת. 14 ק״מ, בינוני.",
-      "ar": "القسم 52 - الأخير! من محمية سفير إلى إيلات. 14 كم.",
-      "en": "Segment 52 - The last! From Sapir Reserve to Eilat. 14 km.",
-      "ru": "Участок 52 - Последний! От Сапир до Эйлата. 14 км."
+      "he": "מקטע 53. מתמנע לבאר אורה.",
+      "ar": "قسم 53.",
+      "en": "Segment 53. Timna to Beer Ora.",
+      "ru": "Участок 53."
+    },
+    "region": "south"
+  },
+  {
+    "id": "INT054",
+    "name": {
+      "he": "שביל ישראל - מקטע 54: באר אורה - קניון שחורת",
+      "ar": "مسار إسرائيل - قسم 54",
+      "en": "Israel Trail - Segment 54: Beer Ora - Shahroot Canyon",
+      "ru": "Тропа Израиля - Участок 54"
+    },
+    "coords": [
+      29.7014,
+      34.9614
+    ],
+    "category": "israel_trail",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+    "description": {
+      "he": "מקטע 54. מבאר אורה לקניון שחורת.",
+      "ar": "قسم 54.",
+      "en": "Segment 54. Beer Ora to Shahroot Canyon.",
+      "ru": "Участок 54."
+    },
+    "region": "south"
+  },
+  {
+    "id": "INT055",
+    "name": {
+      "he": "שביל ישראל - מקטע 55: קניון שחורת - הר יהורם",
+      "ar": "مسار إسرائيل - قسم 55",
+      "en": "Israel Trail - Segment 55: Shahroot Canyon - Mount Yohoram",
+      "ru": "Тропа Израиля - Участок 55"
+    },
+    "coords": [
+      29.6114,
+      34.9114
+    ],
+    "category": "israel_trail",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    "description": {
+      "he": "מקטע 55. מקניון שחורת להר יהורם.",
+      "ar": "قسم 55.",
+      "en": "Segment 55. Shahroot Canyon to Mount Yohoram.",
+      "ru": "Участок 55."
+    },
+    "region": "south"
+  },
+  {
+    "id": "INT056",
+    "name": {
+      "he": "שביל ישראל - מקטע 56: הר יהורם - אילת",
+      "ar": "مسار إسرائيل - قسم 56",
+      "en": "Israel Trail - Segment 56: Mount Yohoram - Eilat",
+      "ru": "Тропа Израиля - Участок 56"
+    },
+    "coords": [
+      29.5852,
+      34.9221
+    ],
+    "category": "israel_trail",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600",
+    "description": {
+      "he": "מקטע 56 - האחרון! מהר יהורם לאילת.",
+      "ar": "قسم 56 - الأخير!",
+      "en": "Segment 56 - The last! Mount Yohoram to Eilat.",
+      "ru": "Участок 56 - Последний!"
     },
     "region": "south"
   }
