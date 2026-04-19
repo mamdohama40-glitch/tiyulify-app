@@ -859,7 +859,14 @@ export default function TiyulifyApp() {
                       };
                       const isAfter1948 = item.category === 'אחרי 1948';
                       const emoji = catEmoji[item.category] || '📍';
-                      const emojiIcon = isAfter1948 && after1948Icon ? after1948Icon : LeafletMapLib && new (require('leaflet').DivIcon)({
+                      const bluePin = isAfter1948 ? new (require('leaflet').DivIcon)({
+                        html: '<div style="font-size:26px;line-height:1;filter:drop-shadow(0 2px 3px rgba(0,0,0,0.4))">📍</div>',
+                        className: '',
+                        iconSize: [28, 28],
+                        iconAnchor: [14, 28],
+                        popupAnchor: [0, -30],
+                      }) : null;
+                      const emojiIcon = bluePin || LeafletMapLib && new (require('leaflet').DivIcon)({
                         html: `<div style="font-size:22px;line-height:1;filter:drop-shadow(0 2px 3px rgba(0,0,0,0.4))">${emoji}</div>`,
                         className: '',
                         iconSize: [28, 28],
