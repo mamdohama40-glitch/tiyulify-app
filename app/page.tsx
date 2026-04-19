@@ -563,7 +563,7 @@ export default function TiyulifyApp() {
         // נחלים = water items עם נחל בשם
         matchesCat = cat === 'water';
       } else if (categoryFilter === 'sleep') {
-        matchesCat = cat === 'sleep' || cat === 'accommodation';
+        matchesCat = cat === 'sleep' || cat === 'accommodation' || cat === 'לינה';
       } else if (categoryFilter === 'food') {
         matchesCat = cat === 'food' || cat === 'cafe';
       } else if (categoryFilter === 'nature') {
