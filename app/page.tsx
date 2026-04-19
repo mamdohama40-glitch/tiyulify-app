@@ -205,7 +205,7 @@ function UserPhotos({ item }: { item: any }) {
 const CAT_COLOR: Record<string,string> = {
   water:'#3b82f6',nature:'#22c55e',history:'#a16207',sleep:'#8b5cf6',
   accommodation:'#8b5cf6',food:'#f97316',bike:'#ef4444',hiking:'#84cc16',attractions:'#f59e0b',
-  promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e','לפני 1948':'#ca8a04',default:'#6b7280'
+  promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e','לפני 1948':'#ca8a04','אחרי 1948':'#2563eb',default:'#6b7280'
 };
 const CAT_EMOJI: Record<string,string> = {
   water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
@@ -444,6 +444,7 @@ export default function TiyulifyApp() {
   const [LeafletMapLib, setLeafletMapLib] = useState<any>(null);
   const [userRedMarker, setUserRedMarker] = useState<any>(null);
   const [searchPinIcon, setSearchPinIcon] = useState<any>(null);
+  const [after1948Icon, setAfter1948Icon] = useState<any>(null);
   const mapControl = useRef<any>(null);
 
   const labels: any = {
@@ -455,7 +456,7 @@ export default function TiyulifyApp() {
       undecided:"לא החלטתי",
       regions:{all:"כל הארץ",north:"צפון",center:"מרכז",south:"דרום"},
       categories:{all:"הכל",water:"מעיינות ונחלים",nature:"פארקים וטבע",history:"היסטוריה ודת",sleep:"לינה",
-        food:"אוכל",bike:"אופניים",hiking:"הליכה",promenade:"טיילות",beach:"חופים",viewpoint:"תצפיות ונופים",attractions:"אטרקציות",israel_trail:"שביל ישראל",'לפני 1948':"לפני 1948"}
+        food:"אוכל",bike:"אופניים",hiking:"הליכה",promenade:"טיילות",beach:"חופים",viewpoint:"תצפיות ונופים",attractions:"אטרקציות",israel_trail:"שביל ישראל",'לפני 1948':"לפני 1948",'אחרי 1948':"אחרי 1948"}
     },
     en: {
       search:"Search any place in Israel...",results:"Results",surprise:"My Pick",welcome:"Where to today?",
@@ -465,7 +466,7 @@ export default function TiyulifyApp() {
       undecided:"Undecided",
       regions:{all:"All Israel",north:"North",center:"Center",south:"South"},
       categories:{all:"All",water:"Springs & Streams",nature:"Parks & Nature",history:"History & Religion",sleep:"Camping",
-        food:"Food",bike:"Cycling",hiking:"Hiking",promenade:"Promenades",beach:"Beaches",viewpoint:"Viewpoints",attractions:"Attractions",israel_trail:"Israel Trail",'לפני 1948':"Pre-1948 Villages"}
+        food:"Food",bike:"Cycling",hiking:"Hiking",promenade:"Promenades",beach:"Beaches",viewpoint:"Viewpoints",attractions:"Attractions",israel_trail:"Israel Trail",'לפני 1948':"Pre-1948 Villages",'אחרי 1948':"Post-1948 Towns"}
     },
     ar: {
       search:"ابحث عن أي مكان في إسرائيل...",results:"نتائج",surprise:"اقتراحي",welcome:"أين نذهب اليوم؟",
@@ -475,7 +476,7 @@ export default function TiyulifyApp() {
       undecided:"لم أقرر",
       regions:{all:"كل البلاد",north:"الشمال",center:"الوسط",south:"الجنوب"},
       categories:{all:"الكل",water:"ينابيع وأنهار",nature:"منتزهات وطبيعة",history:"تاريخ ودين",sleep:"إقامة وتخييم",
-        food:"طعام ومطاعم",bike:"مسارات الدراجات",hiking:"مسارات المشي",promenade:"ممشى سياحي",beach:"شواطئ البحر",viewpoint:"مناظر ومطلات",attractions:"معالم سياحية",israel_trail:"مسار إسرائيل",'לפני 1948':"قرى ما قبل 1948"}
+        food:"طعام ومطاعم",bike:"مسارات الدراجات",hiking:"مسارات المشي",promenade:"ممشى سياحي",beach:"شواطئ البحر",viewpoint:"مناظر ومطلات",attractions:"معالم سياحية",israel_trail:"مسار إسرائيل",'לפני 1948':"قرى ما قبل 1948",'אחרי 1948':"بلدات ما بعد 1948"}
     },
     ru: {
       search:"Поиск любого места в Израиле...",results:"Результаты",surprise:"Мой выбор",welcome:"Куда поедем?",
@@ -485,7 +486,7 @@ export default function TiyulifyApp() {
       undecided:"Не решил",
       regions:{all:"Весь Израиль",north:"Север",center:"Центр",south:"Юг"},
       categories:{all:"Все",water:"Источники и реки",nature:"Парки и природа",history:"История и религия",sleep:"Жилье",
-        food:"Еда",bike:"Велосипед",hiking:"Пешие тропы",promenade:"Променады",beach:"Пляжи",viewpoint:"Смотровые площадки",attractions:"Аттракционы",israel_trail:"Тропа Израиля",'לפני 1948':"Деревни до 1948"}
+        food:"Еда",bike:"Велосипед",hiking:"Пешие тропы",promenade:"Променады",beach:"Пляжи",viewpoint:"Смотровые площадки",attractions:"Аттракционы",israel_trail:"Тропа Израиля",'לפני 1948':"Деревни до 1948",'אחרי 1948':"Города после 1948"}
     }
   };
 
@@ -506,6 +507,11 @@ export default function TiyulifyApp() {
       });
       setUserRedMarker(new L.Icon({
         iconUrl:'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+        shadowUrl:'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
+        iconSize:[25,41],iconAnchor:[12,41],popupAnchor:[1,-34],shadowSize:[41,41]
+      }));
+      setAfter1948Icon(new L.Icon({
+        iconUrl:'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
         shadowUrl:'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
         iconSize:[25,41],iconAnchor:[12,41],popupAnchor:[1,-34],shadowSize:[41,41]
       }));
@@ -564,6 +570,8 @@ export default function TiyulifyApp() {
         matchesCat = cat === 'nature' || cat === 'park';
       } else if (categoryFilter === 'לפני 1948') {
         matchesCat = cat === 'לפני 1948';
+      } else if (categoryFilter === 'אחרי 1948') {
+        matchesCat = cat === 'אחרי 1948';
       } else {
         matchesCat = cat === categoryFilter;
       }
@@ -849,8 +857,9 @@ export default function TiyulifyApp() {
                         water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
                         food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',israel_trail:'👣',israel_trail:'👣',israel_trail:'👣'
                       };
+                      const isAfter1948 = item.category === 'אחרי 1948';
                       const emoji = catEmoji[item.category] || '📍';
-                      const emojiIcon = LeafletMapLib && new (require('leaflet').DivIcon)({
+                      const emojiIcon = isAfter1948 && after1948Icon ? after1948Icon : LeafletMapLib && new (require('leaflet').DivIcon)({
                         html: `<div style="font-size:22px;line-height:1;filter:drop-shadow(0 2px 3px rgba(0,0,0,0.4))">${emoji}</div>`,
                         className: '',
                         iconSize: [28, 28],
