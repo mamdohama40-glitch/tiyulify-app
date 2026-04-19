@@ -132,7 +132,7 @@ function UserPhotos({ item }: { item: any }) {
     promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e',israel_trail:'👣',default:'#6b7280'
   };
   const catEmoji: Record<string,string> = {
-    water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
+    water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖','לינה':'🏕️',
     food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',israel_trail:'👣',israel_trail:'👣',israel_trail:'👣',israel_trail:'🚶‍♂️🦯',default:'📍'
   };
   const color = catColor[item.category] || catColor.default;
@@ -208,7 +208,7 @@ const CAT_COLOR: Record<string,string> = {
   promenade:'#06b6d4',beach:'#0ea5e9',viewpoint:'#6366f1',park:'#10b981',cafe:'#92400e','לפני 1948':'#ca8a04','אחרי 1948':'#2563eb',default:'#6b7280'
 };
 const CAT_EMOJI: Record<string,string> = {
-  water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
+  water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖','לינה':'🏕️',
   food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',israel_trail:'👣',israel_trail:'👣',israel_trail:'👣',israel_trail:'🚶‍♂️🦯',default:'📍'
 };
 
@@ -854,7 +854,7 @@ export default function TiyulifyApp() {
                     {!hideMarkers && filteredItems.map((item:any)=>{
                       const pd = userCoords ? calculateDistance(userCoords[0],userCoords[1],item.coords[0],item.coords[1]) : null;
                       const catEmoji: Record<string,string> = {
-                        water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖',
+                        water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖','לינה':'🏕️',
                         food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',israel_trail:'👣',israel_trail:'👣',israel_trail:'👣'
                       };
                       const isAfter1948 = item.category === 'אחרי 1948';
