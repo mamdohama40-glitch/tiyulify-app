@@ -44813,5 +44813,545 @@
       "hours": "24/7"
     },
     "phone": "08-6356935"
+  },
+  {
+    "id": "2009",
+    "name": {
+      "he": "מלון ישרוטל רויאל ביץ - אילת",
+      "ar": "فندق ايزروتيل رويال بيتش - ايلات",
+      "en": "Isrotel Royal Beach Eilat",
+      "ru": "Отель Исротель Ройал Бич Эйлат"
+    },
+    "coords": [
+      29.5534,
+      34.9523
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "מלון יוקרה על חוף ים סוף.",
+      "ar": "فندق فاخر على شاطئ البحر الاحمر.",
+      "en": "Luxury hotel on the Red Sea shore.",
+      "ru": "Люкс-отель на берегу Красного моря."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6361111"
+  },
+  {
+    "id": "2010",
+    "name": {
+      "he": "קמפינג חוף אמנון - אילת",
+      "ar": "تخييم شاطئ امنون - ايلات",
+      "en": "Amnon Beach Camping Eilat",
+      "ru": "Кемпинг пляж Амнон Эйлат"
+    },
+    "coords": [
+      29.5234,
+      34.9134
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "קמפינג פופולרי על חוף אמנון באילת.",
+      "ar": "تخييم شعبي على شاطئ امنون في ايلات.",
+      "en": "Popular camping on Amnon Beach in Eilat.",
+      "ru": "Популярный кемпинг на пляже Амнон в Эйлате."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6374100"
+  },
+  {
+    "id": "2011",
+    "name": {
+      "he": "אכסניית ים סוף - אילת",
+      "ar": "نزل البحر الاحمر - ايلات",
+      "en": "Red Sea Youth Hostel Eilat",
+      "ru": "Хостел Красного моря Эйлат"
+    },
+    "coords": [
+      29.5589,
+      34.9478
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "אכסניה תקציבית במרכז אילת.",
+      "ar": "نزل اقتصادي في وسط ايلات.",
+      "en": "Budget hostel in central Eilat.",
+      "ru": "Бюджетный хостел в центре Эйлата."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6370088"
+  },
+  {
+    "id": "2012",
+    "name": {
+      "he": "צימר שקיעה אדומה - אילת",
+      "ar": "شاليه الغروب الاحمر - ايلات",
+      "en": "Red Sunset Zimmer Eilat",
+      "ru": "Циммер Красный закат Эйлат"
+    },
+    "coords": [
+      29.5612,
+      34.9534
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "צימר בוטיק עם נוף לים סוף.",
+      "ar": "شاليه بوتيك مطل على البحر الاحمر.",
+      "en": "Boutique zimmer with Red Sea view.",
+      "ru": "Бутик-циммер с видом на Красное море."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "054-7771234"
+  },
+  {
+    "id": "2013",
+    "name": {
+      "he": "מלון פרימה מוזיק - אילת",
+      "ar": "فندق بريما موزيك - ايلات",
+      "en": "Prima Music Hotel Eilat",
+      "ru": "Отель Прима Мьюзик Эйлат"
+    },
+    "coords": [
+      29.5567,
+      34.9489
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "מלון בוטיק תוסס במרכז אילת.",
+      "ar": "فندق بوتيك نابض بالحياة في وسط ايلات.",
+      "en": "Vibrant boutique hotel in central Eilat.",
+      "ru": "Яркий бутик-отель в центре Эйлата."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6388888"
+  },
+  {
+    "id": "2014",
+    "name": {
+      "he": "גלמפינג מפרץ שלמה",
+      "ar": "غلامبينغ خليج شلومو",
+      "en": "Shlomo Bay Glamping",
+      "ru": "Глэмпинг залив Шломо"
+    },
+    "coords": [
+      29.5089,
+      34.9078
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "גלמפינג יוקרתי במפרץ שלמה.",
+      "ar": "غلامبينغ فاخر في خليج شلومو.",
+      "en": "Luxury glamping in scenic Shlomo Bay.",
+      "ru": "Люкс-глэмпинг в живописном заливе Шломо."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "052-3331234"
+  },
+  {
+    "id": "2015",
+    "name": {
+      "he": "קמפינג ליד טבה",
+      "ar": "تخييم قرب طابا",
+      "en": "Near Taba Camping",
+      "ru": "Кемпинг у Табы"
+    },
+    "coords": [
+      29.5023,
+      34.8978
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "קמפינג ייחודי ליד מעבר הגבול טבה.",
+      "ar": "تخييم فريد بالقرب من معبر طابا.",
+      "en": "Unique camping near the Taba border crossing.",
+      "ru": "Уникальный кемпинг у перехода Таба."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6376777"
+  },
+  {
+    "id": "2016",
+    "name": {
+      "he": "מלון הרודס פאלאס - אילת",
+      "ar": "فندق هيرودس بالاس - ايلات",
+      "en": "Herods Palace Hotel Eilat",
+      "ru": "Отель Херодс Палас Эйлат"
+    },
+    "coords": [
+      29.5545,
+      34.9501
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "מלון חמישה כוכבים על קו המים.",
+      "ar": "فندق خمس نجوم على خط المياه.",
+      "en": "Five-star hotel on the Eilat waterfront.",
+      "ru": "Пятизвёздочный отель на набережной Эйлата."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6380000"
+  },
+  {
+    "id": "2017",
+    "name": {
+      "he": "צימר דיונות - אילת",
+      "ar": "شاليه الكثبان - ايلات",
+      "en": "Dunes Zimmer Eilat",
+      "ru": "Циммер Дюны Эйлат"
+    },
+    "coords": [
+      29.5678,
+      34.9612
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "צימר שקט בשכונה שקטה של אילת.",
+      "ar": "شاليه هادئ في حي هادئ من ايلات.",
+      "en": "Quiet zimmer in a peaceful Eilat neighborhood.",
+      "ru": "Тихий циммер в спокойном районе Эйлата."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "054-8881234"
+  },
+  {
+    "id": "2018",
+    "name": {
+      "he": "הוסטל בקתות אילת",
+      "ar": "هوستل اكواخ ايلات",
+      "en": "Eilat Huts Hostel",
+      "ru": "Хостел Хижины Эйлата"
+    },
+    "coords": [
+      29.5601,
+      34.9467
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "הוסטל עם בקתות עץ קטנות.",
+      "ar": "هوستل مع اكواخ خشبية صغيرة.",
+      "en": "Hostel with small wooden huts.",
+      "ru": "Хостел с маленькими деревянными домиками."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6373456"
+  },
+  {
+    "id": "2019",
+    "name": {
+      "he": "ספא ריזורט מדבר אדום",
+      "ar": "سبا ريزورت الصحراء الحمراء",
+      "en": "Red Desert Spa Resort",
+      "ru": "Спа-резорт Красная пустыня"
+    },
+    "coords": [
+      29.5723,
+      34.9678
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "ריזורט ספא מפנק בפאתי אילת.",
+      "ar": "ريزورت سبا مدلل في اطراف ايلات.",
+      "en": "Pampering spa resort on the outskirts of Eilat.",
+      "ru": "Роскошный спа-резорт на окраине Эйлата."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6381234"
+  },
+  {
+    "id": "2020",
+    "name": {
+      "he": "קמפינג עין נטפים",
+      "ar": "تخييم عين نطافيم",
+      "en": "Ein Netafim Camping",
+      "ru": "Кемпинг Эйн-Нетафим"
+    },
+    "coords": [
+      29.7234,
+      34.9823
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "קמפינג ליד מעיין עין נטפים.",
+      "ar": "تخييم بالقرب من نبع عين نطافيم.",
+      "en": "Camping near Ein Netafim spring.",
+      "ru": "Кемпинг у источника Эйн-Нетафим."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "2021",
+    "name": {
+      "he": "לינה קיבוץ אילות",
+      "ar": "مبيت كيبوتس ايلوت",
+      "en": "Kibbutz Eilot Guesthouse",
+      "ru": "Гостевой дом кибуца Эйлот"
+    },
+    "coords": [
+      29.5934,
+      35.0012
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "לינה שקטה בקיבוץ אילות סמוך לאילת.",
+      "ar": "مبيت هادئ في كيبوتس ايلوت بالقرب من ايلات.",
+      "en": "Quiet lodging at Kibbutz Eilot near Eilat.",
+      "ru": "Тихий ночлег в кибуце Эйлот рядом с Эйлатом."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6303444"
+  },
+  {
+    "id": "2022",
+    "name": {
+      "he": "צימר ים אדום",
+      "ar": "شاليه البحر الاحمر",
+      "en": "Red Sea Zimmer",
+      "ru": "Циммер Красное море"
+    },
+    "coords": [
+      29.5489,
+      34.9389
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "צימר עם גישה ישירה לחוף ים סוף.",
+      "ar": "شاليه مع وصول مباشر لشاطئ البحر الاحمر.",
+      "en": "Zimmer with direct access to Red Sea beach.",
+      "ru": "Циммер с прямым выходом на пляж Красного моря."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "054-9991234"
+  },
+  {
+    "id": "2023",
+    "name": {
+      "he": "מלון ספורט - אילת",
+      "ar": "فندق رياضي - ايلات",
+      "en": "Sport Hotel Eilat",
+      "ru": "Спортивный отель Эйлат"
+    },
+    "coords": [
+      29.5623,
+      34.9545
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "מלון עם מתקני ספורט ובריכה.",
+      "ar": "فندق مع مرافق رياضية ومسبح.",
+      "en": "Hotel with sports facilities and pool in Eilat.",
+      "ru": "Отель со спортивными объектами и бассейном."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6362222"
+  },
+  {
+    "id": "2024",
+    "name": {
+      "he": "גלמפינג חוף הצוקים",
+      "ar": "غلامبينغ شاطئ الصخور",
+      "en": "Cliff Beach Glamping",
+      "ru": "Глэмпинг пляж скал"
+    },
+    "coords": [
+      29.5156,
+      34.9156
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "גלמפינג על חוף הצוקים עם צלילה.",
+      "ar": "غلامبينغ على شاطئ الصخور مع الغوص.",
+      "en": "Glamping on Cliff Beach with diving access.",
+      "ru": "Глэмпинг на пляже скал с дайвингом."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "054-6661234"
+  },
+  {
+    "id": "2025",
+    "name": {
+      "he": "בית הארחה מצפה שלמה",
+      "ar": "بيت ضيافة متسبيه شلومو",
+      "en": "Mitzpe Shlomo Guesthouse",
+      "ru": "Гостевой дом Мицпе-Шломо"
+    },
+    "coords": [
+      29.5812,
+      34.9823
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "בית הארחה עם נוף פנורמי לאילת ולים.",
+      "ar": "بيت ضيافة مع اطلالة بانورامية على ايلات والبحر.",
+      "en": "Guesthouse with panoramic view of Eilat and the sea.",
+      "ru": "Гостевой дом с панорамным видом на Эйлат и море."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6375555"
+  },
+  {
+    "id": "2026",
+    "name": {
+      "he": "קמפינג ואדי שלמה",
+      "ar": "تخييم وادي شلومو",
+      "en": "Wadi Shlomo Camping",
+      "ru": "Кемпинг Вади Шломо"
+    },
+    "coords": [
+      29.6123,
+      34.9934
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "קמפינג בואדי שלמה בין ההרים האדומים.",
+      "ar": "تخييم في وادي شلومو بين الجبال الحمراء.",
+      "en": "Camping in Wadi Shlomo among the red mountains.",
+      "ru": "Кемпинг в Вади Шломо среди красных гор."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "2027",
+    "name": {
+      "he": "צימר שונית - אילת",
+      "ar": "شاليه الشعاب المرجانية - ايلات",
+      "en": "Coral Reef Zimmer Eilat",
+      "ru": "Циммер Коралловый риф Эйлат"
+    },
+    "coords": [
+      29.5312,
+      34.9267
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "צימר קרוב לשמורת השונית באילת.",
+      "ar": "شاليه قريب من محمية الشعاب المرجانية.",
+      "en": "Zimmer close to the coral reef reserve in Eilat.",
+      "ru": "Циммер рядом с заповедником коралловых рифов."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "054-5551234"
+  },
+  {
+    "id": "2028",
+    "name": {
+      "he": "מלון לאונרדו - אילת",
+      "ar": "فندق ليوناردو - ايلات",
+      "en": "Leonardo Hotel Eilat",
+      "ru": "Отель Леонардо Эйлат"
+    },
+    "coords": [
+      29.5556,
+      34.9512
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "מלון פופולרי עם בריכה ופעילויות לכל המשפחה.",
+      "ar": "فندق شعبي مع مسبح وانشطة لجميع العائلة.",
+      "en": "Popular hotel with pool and family activities.",
+      "ru": "Популярный отель с бассейном и семейными активностями."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6360000"
   }
 ]
