@@ -43733,5 +43733,545 @@
       "hours": "08:00-18:00"
     },
     "phone": "04-8361403"
+  },
+  {
+    "id": "1969",
+    "name": {
+      "he": "חניון לילה באר מילכה",
+      "ar": "مخيم بئر ميلخا",
+      "en": "Beer Milka Night Camp",
+      "ru": "Ночная стоянка Беэр-Милха"
+    },
+    "coords": [
+      30.9323,
+      34.4019
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "חניון לילה מוסדר בחולות עגור.",
+      "ar": "موقف ليلي منظم في كثبان عجور.",
+      "en": "Regulated night camp in the Agur dunes.",
+      "ru": "Ночная стоянка в дюнах Агур."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "1970",
+    "name": {
+      "he": "חאן שיירות",
+      "ar": "خان الشيارات",
+      "en": "Shayarot Khan",
+      "ru": "Хан Шайарот"
+    },
+    "coords": [
+      30.8436,
+      34.8021
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "אירוח בדואי וחניון לילה ליד שדה בוקר.",
+      "ar": "ضيافة بدوية وموقف ليلي بالقرب من سدي بوكير.",
+      "en": "Bedouin hospitality and night camp near Sde Boker.",
+      "ru": "Бедуинский ночлег у Сде-Бокер."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6535777"
+  },
+  {
+    "id": "1971",
+    "name": {
+      "he": "חניון לילה נחל חווארים",
+      "ar": "مخيم نحل حواريم",
+      "en": "Nahal Havarim Night Camp",
+      "ru": "Стоянка Нахаль-Хаварим"
+    },
+    "coords": [
+      30.8505,
+      34.7821
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "חניון לילה פתוח למטיילים בנחל חווארים.",
+      "ar": "موقف ليلي مفتوح للمشاة في نحل حواريم.",
+      "en": "Open night camp for hikers in Nahal Havarim.",
+      "ru": "Открытая стоянка в Нахаль-Хаварим."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "1972",
+    "name": {
+      "he": "בית ספר שדה שדה בוקר",
+      "ar": "مدرسة سدي بوكير الميدانية",
+      "en": "Sde Boker Field School",
+      "ru": "Полевая школа Сде-Бокер"
+    },
+    "coords": [
+      30.8491,
+      34.7812
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "לינה מסודרת מעל מצוק הצינים.",
+      "ar": "إقامة منظمة فوق منحدر الصين.",
+      "en": "Organized lodging above the Zin Cliff.",
+      "ru": "Организованный ночлег над скалой Цин."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6532016"
+  },
+  {
+    "id": "1973",
+    "name": {
+      "he": "חניון לילה נחל מדור",
+      "ar": "مخيم نحل مدور",
+      "en": "Nahal Mador Night Camp",
+      "ru": "Стоянка Нахаль-Мадор"
+    },
+    "coords": [
+      30.8841,
+      34.9078
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "חניון בלב המכתש הגדול.",
+      "ar": "موقف في قلب الفوهة الكبيرة.",
+      "en": "Camp in the heart of the Large Crater.",
+      "ru": "Стоянка в центре Большого кратера."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "1974",
+    "name": {
+      "he": "חאן עין יהב",
+      "ar": "خان عين يهاف",
+      "en": "Ein Yahav Khan",
+      "ru": "Хан Эйн-Яхав"
+    },
+    "coords": [
+      30.6582,
+      35.2031
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "אירוח בערבה למטיילי שביל ישראל.",
+      "ar": "ضيافة في عربة لمشاة مسار إسرائيل.",
+      "en": "Arava lodging for Israel Trail hikers.",
+      "ru": "Ночлег в Aраве для туристов Тропы Израиля."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "052-3666471"
+  },
+  {
+    "id": "1975",
+    "name": {
+      "he": "חניון לילה גב חולית",
+      "ar": "مخيم جاف حوليت",
+      "en": "Gev Holit Night Camp",
+      "ru": "Стоянка Гев-Холит"
+    },
+    "coords": [
+      30.5612,
+      35.0345
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "חניון מבודד בנחל נקרות.",
+      "ar": "موقف معزول في نحل نكروت.",
+      "en": "Isolated camp in Nahal Nekrot.",
+      "ru": "Уединённая стоянка в Нахаль-Некрот."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "1976",
+    "name": {
+      "he": "חאן מורגן - פארן",
+      "ar": "خان مورغان - فاران",
+      "en": "Morgan Khan - Paran",
+      "ru": "Хан Морган - Паран"
+    },
+    "coords": [
+      30.3645,
+      35.1234
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "מלאכי שביל ואירוח במושב פארן.",
+      "ar": "ضيافة في موشاف فاران.",
+      "en": "Trail angels and lodging in Moshav Paran.",
+      "ru": "Ночлег в мошаве Паран."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "052-3666034"
+  },
+  {
+    "id": "1977",
+    "name": {
+      "he": "חניון לילה הר יהב",
+      "ar": "مخيم جبل يهاف",
+      "en": "Mt. Yahav Night Camp",
+      "ru": "Стоянка гора Яхав"
+    },
+    "coords": [
+      30.6312,
+      35.0841
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "נקודת לינה בשטח בערבה התיכונה.",
+      "ar": "نقطة مبيت في عربة الوسطى.",
+      "en": "Overnight point in the central Arava.",
+      "ru": "Ночная точка в центральной Аrave."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "1978",
+    "name": {
+      "he": "חניון לילה נחל ברק",
+      "ar": "مخيم نحل براك",
+      "en": "Nahal Barak Night Camp",
+      "ru": "Стоянка Нахаль-Барак"
+    },
+    "coords": [
+      30.4321,
+      35.1456
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "לינה בפתח קניון נחל ברק.",
+      "ar": "مبيت عند مدخل وادي براك.",
+      "en": "Camp at the entrance to Nahal Barak canyon.",
+      "ru": "Стоянка у входа в каньон Нахаль-Барак."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "1979",
+    "name": {
+      "he": "חניון לילה צופר",
+      "ar": "مخيم تسوفر",
+      "en": "Tzufer Night Camp",
+      "ru": "Стоянка Цофер"
+    },
+    "coords": [
+      30.5521,
+      35.1843
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "חניון לילה ליד מושב צופר.",
+      "ar": "موقف ليلي بالقرب من موشاف تسوفر.",
+      "en": "Night camp near Moshav Tzufer.",
+      "ru": "Ночная стоянка у мошава Цофер."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "1980",
+    "name": {
+      "he": "חאן בארות - מכתש רמון",
+      "ar": "خان بئروت - مكتيش رامون",
+      "en": "Beerot Khan",
+      "ru": "Хан Беэрот - кратер Рамон"
+    },
+    "coords": [
+      30.6034,
+      34.8876
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "חניון הלילה היחיד בתוך מכתש רמון.",
+      "ar": "الموقف الليلي الوحيد داخل فوهة رامون.",
+      "en": "The only night camp inside Makhtesh Ramon.",
+      "ru": "Единственная стоянка внутри кратера Рамон."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6280404"
+  },
+  {
+    "id": "1981",
+    "name": {
+      "he": "חניון לילה הר ארדון",
+      "ar": "مخيم جبل أردون",
+      "en": "Mt. Ardon Night Camp",
+      "ru": "Стоянка гора Ардон"
+    },
+    "coords": [
+      30.6321,
+      34.9543
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "נקודת לינה למרגלות הר ארדון.",
+      "ar": "نقطة مبيت عند سفح جبل أردون.",
+      "en": "Overnight point at the foot of Mt. Ardon.",
+      "ru": "Стоянка у подножия горы Ардон."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "1982",
+    "name": {
+      "he": "צל מדבר - מצפה רמון",
+      "ar": "ظل الصحراء - متسبيه رامون",
+      "en": "Desert Shade",
+      "ru": "Тень пустыни - Мицпе-Рамон"
+    },
+    "coords": [
+      30.6123,
+      34.7945
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "אירוח אקולוגי על שפת מכתש רמון.",
+      "ar": "ضيافة بيئية على حافة فوهة رامون.",
+      "en": "Eco lodging on the edge of Makhtesh Ramon.",
+      "ru": "Эко-ночлег на краю кратера Рамон."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6586229"
+  },
+  {
+    "id": "1983",
+    "name": {
+      "he": "חניון לילה בורות לוץ",
+      "ar": "مخيم بوروت لوتس",
+      "en": "Borot Lotz Night Camp",
+      "ru": "Стоянка Борот-Лоц"
+    },
+    "coords": [
+      30.5123,
+      34.6123
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "חניון גבוה וקריר בהר הנגב.",
+      "ar": "موقف مرتفع وبارد في جبل النقب.",
+      "en": "High and cool camp in the Negev Highlands.",
+      "ru": "Высокогорная прохладная стоянка в Негеве."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "1984",
+    "name": {
+      "he": "חניון לילה נחל ציחור",
+      "ar": "مخيم نحل تسيحور",
+      "en": "Nahal Tzihor Night Camp",
+      "ru": "Стоянка Нахаль-Цихор"
+    },
+    "coords": [
+      30.3123,
+      35.0123
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "נקודת עצירה מרכזית בדרום הערבה.",
+      "ar": "نقطة توقف رئيسية في جنوب عربة.",
+      "en": "Central stop in the southern Arava.",
+      "ru": "Центральная остановка на юге Аравы."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "1985",
+    "name": {
+      "he": "מבואות ערד",
+      "ar": "مداخل عراد",
+      "en": "Arad West Night Camp",
+      "ru": "Въезд в Арад"
+    },
+    "coords": [
+      31.2543,
+      35.2123
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "חניון לילה בכניסה לעיר ערד.",
+      "ar": "موقف ليلي عند مدخل مدينة عراد.",
+      "en": "Night camp at the entrance to Arad.",
+      "ru": "Ночная стоянка у въезда в Арад."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "1986",
+    "name": {
+      "he": "חניון לילה הר עמשא",
+      "ar": "مخيم جبل عمشا",
+      "en": "Mt. Amasa Night Camp",
+      "ru": "Стоянка гора Амаса"
+    },
+    "coords": [
+      31.3212,
+      35.1234
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "לינה בגבול מדבר יהודה ודרום הר חברון.",
+      "ar": "مبيت على حدود صحراء يهودا وجنوب جبل الخليل.",
+      "en": "Camp on the border of the Judean Desert and southern Hebron Hills.",
+      "ru": "Стоянка на границе Иудейской пустыни и Хевронских гор."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "1987",
+    "name": {
+      "he": "חניון לילה באר אפעה",
+      "ar": "مخيم بئر أفعى",
+      "en": "Beer Efeh Night Camp",
+      "ru": "Стоянка Беэр-Эфэ"
+    },
+    "coords": [
+      31.1543,
+      35.1678
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "חניון לילה למטיילים במזרח הנגב.",
+      "ar": "موقف ليلي للمشاة في شرق النقب.",
+      "en": "Night camp for hikers in eastern Negev.",
+      "ru": "Ночная стоянка для туристов в восточном Негеве."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "1988",
+    "name": {
+      "he": "חניון לילה נחל צאלים",
+      "ar": "مخيم نحل تسئيليم",
+      "en": "Nahal Tzeelim Night Camp",
+      "ru": "Стоянка Нахаль-Цеэлим"
+    },
+    "coords": [
+      31.3321,
+      35.3456
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "חניון לילה פופולרי מעל נחל צאלים.",
+      "ar": "موقف ليلي شعبي فوق نحل تسئيليم.",
+      "en": "Popular night camp above Nahal Tzeelim.",
+      "ru": "Популярная стоянка над Нахаль-Цеэлим."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
   }
 ]
