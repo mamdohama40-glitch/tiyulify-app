@@ -43573,7 +43573,8 @@
       "target": "all",
       "season": "all",
       "hours": "06:00-23:00"
-    }
+    },
+    "phone": "*8787"
   },
   {
     "id": "1963",
@@ -43598,7 +43599,8 @@
       "target": "family",
       "season": "all",
       "hours": "09:00-16:00"
-    }
+    },
+    "phone": "073-2710100"
   },
   {
     "id": "1964",
@@ -43623,7 +43625,8 @@
       "target": "family",
       "season": "all",
       "hours": "08:00-16:00"
-    }
+    },
+    "phone": "08-6584207"
   },
   {
     "id": "1965",
@@ -43648,7 +43651,8 @@
       "target": "family",
       "season": "all",
       "hours": "10:00-18:00"
-    }
+    },
+    "phone": "04-8333577"
   },
   {
     "id": "1966",
@@ -43673,7 +43677,8 @@
       "target": "all",
       "season": "all",
       "hours": "08:00-16:00"
-    }
+    },
+    "phone": "1-599-550-551"
   },
   {
     "id": "1967",
@@ -43698,6 +43703,7 @@
       "target": "family",
       "season": "all",
       "hours": "Check Security"
-    }
+    },
+    "phone": "04-6902610"
   }
 ]
