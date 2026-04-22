@@ -510,10 +510,12 @@ export default function TiyulifyApp() {
         shadowUrl:'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
         iconSize:[25,41],iconAnchor:[12,41],popupAnchor:[1,-34],shadowSize:[41,41]
       }));
-      setAfter1948Icon(new L.Icon({
-        iconUrl:'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
-        shadowUrl:'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
-        iconSize:[25,41],iconAnchor:[12,41],popupAnchor:[1,-34],shadowSize:[41,41]
+      setAfter1948Icon(new L.DivIcon({
+        html: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 90" width="38" height="60"><ellipse cx="25" cy="25" rx="25" ry="25" fill="#5BC8F5" stroke="#2a8ab0" stroke-width="2"/><ellipse cx="16" cy="14" rx="9" ry="6" fill="white" opacity="0.35" transform="rotate(-20,16,14)"/><line x1="25" y1="50" x2="25" y2="85" stroke="#3a3a3a" stroke-width="3" stroke-linecap="round"/></svg>',
+        className: '',
+        iconSize: [38, 60],
+        iconAnchor: [19, 60],
+        popupAnchor: [0, -62],
       }));
       setSearchPinIcon(new L.Icon({
         iconUrl:'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
