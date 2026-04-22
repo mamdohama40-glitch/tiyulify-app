@@ -30403,7 +30403,8 @@
       "ar": "قرية مسيحية تم إخلاؤها، تقع اليوم في أحراش شوميرا.",
       "en": "Christian village evacuated after the war, now in the Shomera forest area.",
       "ru": "Христианская деревня, выселенная после войны, ныне леса Шомера."
-    }
+    },
+    "region": "north"
   },
   {
     "id": "1404",
