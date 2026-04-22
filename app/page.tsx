@@ -894,11 +894,11 @@ export default function TiyulifyApp() {
                       const isAfter1948 = item.category === 'אחרי 1948';
                       const emoji = getItemEmoji(item);
                       const bluePin = isAfter1948 ? new (require('leaflet').DivIcon)({
-                        html: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 90" width="20" height="34"><ellipse cx="25" cy="25" rx="25" ry="25" fill="#5BC8F5" stroke="#2a8ab0" stroke-width="2"/><ellipse cx="16" cy="14" rx="9" ry="6" fill="white" opacity="0.35" transform="rotate(-20,16,14)"/><line x1="25" y1="50" x2="25" y2="85" stroke="#3a3a3a" stroke-width="3" stroke-linecap="round"/></svg>',
+                        html: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 90" width="13" height="22"><ellipse cx="25" cy="25" rx="25" ry="25" fill="#5BC8F5" stroke="#2a8ab0" stroke-width="2"/><ellipse cx="16" cy="14" rx="9" ry="6" fill="white" opacity="0.35" transform="rotate(-20,16,14)"/><line x1="25" y1="50" x2="25" y2="85" stroke="#3a3a3a" stroke-width="3" stroke-linecap="round"/></svg>',
                         className: '',
-                        iconSize: [20, 34],
-                        iconAnchor: [10, 34],
-                        popupAnchor: [0, -36],
+                        iconSize: [13, 22],
+                        iconAnchor: [6, 22],
+                        popupAnchor: [0, -24],
                       }) : null;
                       const emojiIcon = bluePin || LeafletMapLib && new (require('leaflet').DivIcon)({
                         html: `<div style="font-size:22px;line-height:1;filter:drop-shadow(0 2px 3px rgba(0,0,0,0.4))">${emoji}</div>`,
