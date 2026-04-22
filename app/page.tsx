@@ -853,12 +853,44 @@ export default function TiyulifyApp() {
                     )}
                     {!hideMarkers && filteredItems.map((item:any)=>{
                       const pd = userCoords ? calculateDistance(userCoords[0],userCoords[1],item.coords[0],item.coords[1]) : null;
-                      const catEmoji: Record<string,string> = {
-                        water:'💧',nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖','לינה':'🏕️',
-                        food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',viewpoint:'🔭',park:'🌳',cafe:'☕',attractions:'🎡',israel_trail:'👣',israel_trail:'👣',israel_trail:'👣'
+                      const getItemEmoji = (item: any): string => {
+                        const name = (item.name?.he || item.name?.en || '').toLowerCase();
+                        const cat = item.category || '';
+                        if (cat === 'attractions') {
+                          if (name.includes('מוזיאון') || name.includes('museum')) return '🏛️';
+                          if (name.includes('רכבל') || name.includes('cable')) return '🚡';
+                          if (name.includes('פארק מים') || name.includes('water park') || name.includes('ספלאש')) return '🌊';
+                          if (name.includes('גן חיות') || name.includes('zoo') || name.includes('ספארי')) return '🦁';
+                          if (name.includes('קניון') || name.includes('mall') || name.includes('שוק')) return '🛍️';
+                          if (name.includes('מצודה') || name.includes('מבצר') || name.includes('fortress')) return '🏰';
+                          if (name.includes('כנסייה') || name.includes('church') || name.includes('מסגד')) return '⛪';
+                          if (name.includes('מנזר') || name.includes('monastery')) return '🕍';
+                          if (name.includes('גשר') || name.includes('bridge')) return '🌉';
+                          if (name.includes('מערה') || name.includes('cave')) return '🕳️';
+                          if (name.includes('פסל') || name.includes('אנדרטה')) return '🗿';
+                          if (name.includes('גן') || name.includes('garden')) return '🌳';
+                          if (name.includes('חווה') || name.includes('farm')) return '🐄';
+                          if (name.includes('לונה פארק') || name.includes('amusement')) return '🎠';
+                          if (name.includes('אקווריום') || name.includes('aquarium')) return '🐠';
+                          if (name.includes('תיאטרון') || name.includes('theatre')) return '🎭';
+                          return '🎡';
+                        }
+                        if (cat === 'water') {
+                          if (name.includes('נחל') || name.includes('wadi') || name.includes('river')) return '🏞️';
+                          if (name.includes('מעיין') || name.includes('spring') || name.includes('עין')) return '💧';
+                          if (name.includes('אגם') || name.includes('lake') || name.includes('בריכה')) return '🌊';
+                          if (name.includes('מפל') || name.includes('waterfall')) return '💦';
+                          return '💧';
+                        }
+                        const catEmoji: Record<string,string> = {
+                          nature:'🌿',history:'🏛️',sleep:'🏕️',accommodation:'🛖','לינה':'🏕️',
+                          food:'🍽️',bike:'🚲',hiking:'🥾',promenade:'🚶',beach:'🏖️',
+                          viewpoint:'🔭',park:'🌳',cafe:'☕',israel_trail:'👣',default:'📍'
+                        };
+                        return catEmoji[cat] || catEmoji.default;
                       };
                       const isAfter1948 = item.category === 'אחרי 1948';
-                      const emoji = catEmoji[item.category] || '📍';
+                      const emoji = getItemEmoji(item);
                       const bluePin = isAfter1948 ? new (require('leaflet').DivIcon)({
                         html: '<div style="font-size:26px;line-height:1;filter:drop-shadow(0 2px 3px rgba(0,0,0,0.4))">📍</div>',
                         className: '',
