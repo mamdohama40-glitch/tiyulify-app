@@ -877,7 +877,21 @@ export default function TiyulifyApp() {
                           if (name.includes('תיאטרון') || name.includes('theatre')) return '🎭';
                           return '🎡';
                         }
-                        if (cat === 'water') {
+                        if (cat === 'history') {
+          if (name.includes('מסגד') || name.includes('mosque') || name.includes('جامع') || name.includes('مسجد')) return '🕌';
+          if (name.includes('כנסייה') || name.includes('church') || name.includes('כנסיה')) return '⛪';
+          if (name.includes('בית כנסת') || name.includes('synagogue') || name.includes('כנס')) return '🕍';
+          if (name.includes('מבצר') || name.includes('מצודה') || name.includes('fortress') || name.includes('castle')) return '🏰';
+          if (name.includes('מנזר') || name.includes('monastery')) return '✝️';
+          if (name.includes('מערה') || name.includes('cave')) return '🕳️';
+          if (name.includes('קבר') || name.includes('tomb') || name.includes('מקבר')) return '🪦';
+          if (name.includes('רומי') || name.includes('roman') || name.includes('byzantine') || name.includes('ביזנטי')) return '🏛️';
+          if (name.includes('חאן') || name.includes('khan')) return '🏯';
+          if (name.includes('גשר') || name.includes('bridge')) return '🌉';
+          if (name.includes('שוק') || name.includes('market') || name.includes('בזאר')) return '🛍️';
+          return '🏛️';
+        }
+        if (cat === 'water') {
                           if (name.includes('נחל') || name.includes('wadi') || name.includes('river')) return '🏞️';
                           if (name.includes('מעיין') || name.includes('spring') || name.includes('עין')) return '💧';
                           if (name.includes('אגם') || name.includes('lake') || name.includes('בריכה')) return '🌊';
