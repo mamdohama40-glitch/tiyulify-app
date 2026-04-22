@@ -44273,5 +44273,545 @@
       "hours": "24/7"
     },
     "phone": ""
+  },
+  {
+    "id": "1989",
+    "name": {
+      "he": "צימר מדבר האדום",
+      "ar": "شاليه الصحراء الحمراء",
+      "en": "Red Desert Zimmer",
+      "ru": "Циммер Красная пустыня"
+    },
+    "coords": [
+      30.6234,
+      34.7612
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "צימר בוטיק עם נוף למכתש רמון.",
+      "ar": "شاليه بوتيك مطل على فوهة رامون.",
+      "en": "Boutique zimmer overlooking Makhtesh Ramon.",
+      "ru": "Бутик-циммер с видом на кратер Рамон."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "052-3451234"
+  },
+  {
+    "id": "1990",
+    "name": {
+      "he": "לילה בכוכבים - מצפה רמון",
+      "ar": "ليلة تحت النجوم - متسبيه رامون",
+      "en": "Starnight Zimmer Ramon",
+      "ru": "Ночь под звёздами - Мицпе-Рамон"
+    },
+    "coords": [
+      30.6198,
+      34.8021
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "לינה באוהל גלמפינג עם תצפית לשמי הנגב.",
+      "ar": "مبيت في خيمة غلامبينغ مع اطلالة على سماء النقب.",
+      "en": "Glamping tent with stargazing over the Negev.",
+      "ru": "Глэмпинг-палатка со звёздным небом Негева."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "054-7891234"
+  },
+  {
+    "id": "1991",
+    "name": {
+      "he": "אכסניית ערד",
+      "ar": "نزل عراد",
+      "en": "Arad Youth Hostel",
+      "ru": "Молодёжный хостел Арад"
+    },
+    "coords": [
+      31.2612,
+      35.2134
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "אכסניה נוחה במרכז ערד.",
+      "ar": "نزل مريح في وسط عراد.",
+      "en": "Comfortable hostel in central Arad.",
+      "ru": "Удобный хостел в центре Арада."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-9957150"
+  },
+  {
+    "id": "1992",
+    "name": {
+      "he": "צימר ביקתות הנגב",
+      "ar": "شاليه اكواخ النقب",
+      "en": "Negev Huts Zimmer",
+      "ru": "Хижины Негева"
+    },
+    "coords": [
+      30.8312,
+      34.7634
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "בקתות עץ אינטימיות בלב הנגב.",
+      "ar": "اكواخ خشبية حميمة في قلب النقب.",
+      "en": "Intimate wooden huts in the heart of the Negev.",
+      "ru": "Уютные деревянные домики в центре Негева."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "052-8891234"
+  },
+  {
+    "id": "1993",
+    "name": {
+      "he": "מלון ישרוטל ריינסנס ערד",
+      "ar": "فندق ايزروتيل رينيسانس عراد",
+      "en": "Isrotel Renaissance Arad",
+      "ru": "Отель Исротель Ренессанс Арад"
+    },
+    "coords": [
+      31.2589,
+      35.2198
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "מלון יוקרה עם ספא ונוף למדבר יהודה.",
+      "ar": "فندق فاخر مع سبا ومطل على صحراء يهودا.",
+      "en": "Luxury hotel with spa overlooking the Judean Desert.",
+      "ru": "Люкс-отель со спа и видом на Иудейскую пустыню."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-9957055"
+  },
+  {
+    "id": "1994",
+    "name": {
+      "he": "צימר שקט במדבר - ניצנה",
+      "ar": "شاليه هادئ في الصحراء - نيتسانا",
+      "en": "Desert Quiet Zimmer Nitzana",
+      "ru": "Тихий циммер в пустыне - Ницана"
+    },
+    "coords": [
+      30.8934,
+      34.4312
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "צימר שקט ומרוחק ליד גבול מצרים.",
+      "ar": "شاليه هادئ ونائي قرب الحدود المصرية.",
+      "en": "Quiet and remote zimmer near the Egyptian border.",
+      "ru": "Тихий циммер у египетской границы."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "054-3341234"
+  },
+  {
+    "id": "1995",
+    "name": {
+      "he": "אוהלי הערבה - עין חצבה",
+      "ar": "خيام العربة - عين حتسيبا",
+      "en": "Arava Tents Ein Hatzeva",
+      "ru": "Шатры Аравы - Эйн-Хацева"
+    },
+    "coords": [
+      30.7712,
+      35.2389
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "לינה באוהלים נוחים באמצע הערבה.",
+      "ar": "مبيت في خيام مريحة في وسط عربة.",
+      "en": "Comfortable tent lodging in the middle of the Arava.",
+      "ru": "Ночлег в удобных шатрах посреди Аравы."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6581234"
+  },
+  {
+    "id": "1996",
+    "name": {
+      "he": "פארם סטיי ירוחם",
+      "ar": "فارم ستاي يروحام",
+      "en": "Yeruham Farm Stay",
+      "ru": "Фарм-стэй Ерухам"
+    },
+    "coords": [
+      30.9889,
+      34.9234
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "לינה חוות עם חיות בסביבת ירוחם.",
+      "ar": "مبيت في مزرعة مع حيوانات في محيط يروحام.",
+      "en": "Farm stay with animals near Yeruham.",
+      "ru": "Фермерский ночлег с животными у Ерухама."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "052-4451234"
+  },
+  {
+    "id": "1997",
+    "name": {
+      "he": "בית הארחה שדה בוקר",
+      "ar": "بيت ضيافة سدي بوكير",
+      "en": "Sde Boker Guesthouse",
+      "ru": "Гостевой дом Сде-Бокер"
+    },
+    "coords": [
+      30.8523,
+      34.7845
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "בית הארחה נעים ליד בית בן גוריון.",
+      "ar": "بيت ضيافة ممتع بالقرب من بيت بن غوريون.",
+      "en": "Pleasant guesthouse near Ben Gurion House.",
+      "ru": "Приятный гостевой дом рядом с домом Бен-Гуриона."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6532014"
+  },
+  {
+    "id": "1998",
+    "name": {
+      "he": "צימר הר הנגב - אבדת",
+      "ar": "شاليه جبل النقب - عبدة",
+      "en": "Avdat Highland Zimmer",
+      "ru": "Циммер Хар-Ханегев - Авдат"
+    },
+    "coords": [
+      30.7923,
+      34.7734
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "צימר עם נוף לעיר הנבטית אבדת.",
+      "ar": "شاليه مطل على المدينة النبطية عبدة.",
+      "en": "Zimmer overlooking the Nabataean city of Avdat.",
+      "ru": "Циммер с видом на набатейский город Авдат."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "054-6671234"
+  },
+  {
+    "id": "1999",
+    "name": {
+      "he": "קמפינג כוכב הנגב",
+      "ar": "تخييم نجمة النقب",
+      "en": "Negev Star Camping",
+      "ru": "Кемпинг Звезда Негева"
+    },
+    "coords": [
+      30.7234,
+      34.6512
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "קמפינג מאורגן עם שירותים ומקלחות בנגב הגבוה.",
+      "ar": "تخييم منظم مع مرافق ودشات في النقب العالي.",
+      "en": "Organized camping with facilities in the Negev Highlands.",
+      "ru": "Организованный кемпинг с удобствами в Нагорном Негеве."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "052-1231234"
+  },
+  {
+    "id": "2000",
+    "name": {
+      "he": "אורחן מדבר - מצפה רמון",
+      "ar": "اورخان صحراء - متسبيه رامون",
+      "en": "Desert Orhan Ramon",
+      "ru": "Дезерт Орхан Рамон"
+    },
+    "coords": [
+      30.6156,
+      34.8012
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "הוסטל בוטיק עם גג טרס ונוף למכתש.",
+      "ar": "هوستل بوتيك مع سطح تراس ومطل على الفوهة.",
+      "en": "Boutique hostel with rooftop terrace overlooking the crater.",
+      "ru": "Бутик-хостел с террасой и видом на кратер."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6588134"
+  },
+  {
+    "id": "2001",
+    "name": {
+      "he": "צימר האקציה - דימונה",
+      "ar": "شاليه الاقاسيا - ديمونا",
+      "en": "Acacia Zimmer Dimona",
+      "ru": "Циммер Акация - Димона"
+    },
+    "coords": [
+      31.0612,
+      35.0334
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "צימר שקט בסמוך לדימונה.",
+      "ar": "شاليه هادئ بالقرب من ديمونا.",
+      "en": "Quiet zimmer near Dimona.",
+      "ru": "Тихий циммер рядом с Димоной."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "052-9991234"
+  },
+  {
+    "id": "2002",
+    "name": {
+      "he": "לינת שדה עין עקב",
+      "ar": "مبيت ميداني عين عقب",
+      "en": "Ein Akev Field Lodging",
+      "ru": "Полевой ночлег Эйн-Акев"
+    },
+    "coords": [
+      30.7456,
+      34.8923
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "לינת שדה ליד מעיין עין עקב.",
+      "ar": "مبيت ميداني بالقرب من نبع عين عقب.",
+      "en": "Field lodging near Ein Akev spring.",
+      "ru": "Полевой ночлег у источника Эйн-Акев."
+    },
+    "info": {
+      "target": "hikers",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": ""
+  },
+  {
+    "id": "2003",
+    "name": {
+      "he": "ביתנים קמפינג פארק ערבה",
+      "ar": "بيتانيم كامبينغ بارك عربة",
+      "en": "Arava Camping Park",
+      "ru": "Кемпинг-парк Арава"
+    },
+    "coords": [
+      30.5834,
+      35.1712
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "פארק קמפינג עם צריפים וחניוני לילה בערבה.",
+      "ar": "بارك تخييم مع كبائن ومواقف ليلية في عربة.",
+      "en": "Camping park with cabins and night sites in the Arava.",
+      "ru": "Кемпинг-парк с кабинками в Araвe."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6581890"
+  },
+  {
+    "id": "2004",
+    "name": {
+      "he": "צימר שלוות המדבר - קטורה",
+      "ar": "شاليه سكينة الصحراء - قطورا",
+      "en": "Desert Serenity Zimmer Ketura",
+      "ru": "Циммер Покой пустыни - Кетура"
+    },
+    "coords": [
+      29.9712,
+      35.0634
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "צימר בוטיק ירוק ליד קיבוץ קטורה.",
+      "ar": "شاليه بوتيك اخضر بالقرب من كيبوتس قطورا.",
+      "en": "Eco boutique zimmer near Kibbutz Ketura.",
+      "ru": "Эко-циммер у кибуца Кетура."
+    },
+    "info": {
+      "target": "couples",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6356512"
+  },
+  {
+    "id": "2005",
+    "name": {
+      "he": "אילת הוסטל HI",
+      "ar": "هوستل ايلات HI",
+      "en": "HI Eilat Youth Hostel",
+      "ru": "Молодёжный хостел HI Эйлат"
+    },
+    "coords": [
+      29.5581,
+      34.9512
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "אכסניית נוער מרכזית באילת.",
+      "ar": "نزل شباب مركزي في ايلات.",
+      "en": "Central youth hostel in Eilat.",
+      "ru": "Центральный молодёжный хостел в Эйлате."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6370088"
+  },
+  {
+    "id": "2006",
+    "name": {
+      "he": "קמפינג חוף הקורלים - אילת",
+      "ar": "تخييم شاطئ المرجان - ايلات",
+      "en": "Coral Beach Camping Eilat",
+      "ru": "Кемпинг Коралловый пляж - Эйлат"
+    },
+    "coords": [
+      29.5123,
+      34.9234
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "קמפינג ישירות על חוף הקורלים באילת.",
+      "ar": "تخييم مباشرة على شاطئ المرجان في ايلات.",
+      "en": "Camping directly on Coral Beach in Eilat.",
+      "ru": "Кемпинг прямо на Коралловом пляже Эйлата."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6371160"
+  },
+  {
+    "id": "2007",
+    "name": {
+      "he": "צימר ספארי - שמורת חי בר",
+      "ar": "شاليه سفاري - محمية حاي بار",
+      "en": "Safari Zimmer Hai Bar",
+      "ru": "Циммер Сафари - Хай-Бар"
+    },
+    "coords": [
+      29.8934,
+      35.0123
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "לינה ייחודית ליד שמורת חי בר יטבתה.",
+      "ar": "مبيت فريد بالقرب من محمية حاي بار يوتفاتا.",
+      "en": "Unique lodging near Hai Bar Yotvata reserve.",
+      "ru": "Уникальный ночлег у заповедника Хай-Бар Йотвата."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6374013"
+  },
+  {
+    "id": "2008",
+    "name": {
+      "he": "בית הארחה קיבוץ לוטן",
+      "ar": "بيت ضيافة كيبوتس لوتان",
+      "en": "Kibbutz Lotan Guesthouse",
+      "ru": "Гостевой дом кибуца Лотан"
+    },
+    "coords": [
+      29.8612,
+      35.0334
+    ],
+    "category": "sleep",
+    "region": "south",
+    "description": {
+      "he": "לינה אקולוגית בקיבוץ הירוק לוטן.",
+      "ar": "مبيت بيئي في كيبوتس الاخضر لوتان.",
+      "en": "Eco lodging in the green Kibbutz Lotan.",
+      "ru": "Эко-ночлег в зелёном кибуце Лотан."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "24/7"
+    },
+    "phone": "08-6356935"
   }
 ]
