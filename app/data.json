@@ -43705,5 +43705,33 @@
       "hours": "Check Security"
     },
     "phone": "04-6902610"
+  },
+  {
+    "id": "1968",
+    "name": {
+      "he": "שביל סטלה מאריס למערת אליהו",
+      "ar": "مسار ستيلا ماريس إلى مغارة الخضر",
+      "en": "Stella Maris to Elijah's Cave Trail",
+      "ru": "Тропа от Стелла Марис до пещеры Илии"
+    },
+    "coords": [
+      32.8272,
+      34.9701
+    ],
+    "category": "hiking",
+    "region": "north",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Stella_Maris_Stairway_Haifa.jpg/800px-Stella_Maris_Stairway_Haifa.jpg",
+    "description": {
+      "he": "מסלול הליכה קצר ומרהיב היורד ממנזר סטלה מאריס אל מערת אליהו. השביל כולל תצפיות פנורמיות לים התיכון, מדרגות חצובות עתיקות וביקור במערה המקודשת.",
+      "ar": "مسار مشي قصير ورائع ينحدر من دير ستيلا ماريس إلى مغارة الخضر. يتضمن المسار إطلالات بانورامية على البحر الأبيض المتوسط.",
+      "en": "A short and scenic hiking trail descending from Stella Maris Monastery to Elijah's Cave.",
+      "ru": "Короткий живописный пешеходный маршрут от монастыря Стелла Марис к пещере пророка Илии."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:00-18:00"
+    },
+    "phone": "04-8361403"
   }
 ]
