@@ -43549,5 +43549,155 @@
       "en": "Famous roadside inn and lodging complex in the Arava, located on Route 90.",
       "ru": "Знаменитая придорожная гостиница и комплекс для отдыха в Араве, расположенный на шоссе 90."
     }
+  },
+  {
+    "id": "1962",
+    "name": {
+      "he": "רכבלית חיפה 🚠",
+      "ar": "تلفريك حيفا",
+      "en": "Haifa Rakavlit",
+      "ru": "Ракавлит Хайфа"
+    },
+    "coords": [
+      32.7937,
+      35.0345
+    ],
+    "category": "attractions",
+    "description": {
+      "he": "רכבל תחבורה ציבורית המקשר בין מרכזית המפרץ, הטכניון ואוניברסיטת חיפה.",
+      "ar": "تلفريك للمواصلات العامة يربط بين مركزيت همفراتس والتكنيون وجامعة حيفا.",
+      "en": "Public transport cable car connecting HaMifratz, Technion, and Haifa University.",
+      "ru": "Канатная дорога общественного транспорта, соединяющая Технион и Хайфский университет."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "06:00-23:00"
+    }
+  },
+  {
+    "id": "1963",
+    "name": {
+      "he": "רכבל ראש הנקרה (הקרוניות הצבעוניות) 🚠",
+      "ar": "تلفريك رأس الناقورة",
+      "en": "Rosh HaNikra Cable Car",
+      "ru": "Канатная дорога Рош-ха-Никра"
+    },
+    "coords": [
+      33.0934,
+      35.1051
+    ],
+    "category": "attractions",
+    "description": {
+      "he": "הרכבל התלול ביותר בעולם, המזוהה עם שתי קרוניות - אחת כחולה ואחת צהובה-אדומה, היורד אל הנקיקים הימיים.",
+      "ar": "أشد تلفريك انحداراً في العالم، يتميز بعربتين واحدة زرقاء والأخرى صفراء وحمراء تنزل إلى الأخاديد البحرية.",
+      "en": "The world’s steepest cable car, featuring two iconic cabins—one blue and one yellow-red.",
+      "ru": "Самая крутая канатная дорога в мире с узнаваемыми синими и желто-красными кабинками."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "09:00-16:00"
+    }
+  },
+  {
+    "id": "1964",
+    "name": {
+      "he": "רכבל מצדה 🚠",
+      "ar": "تلفريك مسعدة",
+      "en": "Masada Cable Car",
+      "ru": "Канатная дорога Масада"
+    },
+    "coords": [
+      31.3113,
+      35.3659
+    ],
+    "category": "attractions",
+    "description": {
+      "he": "רכבל המעלה את המבקרים אל אתר המורשת העולמית מצדה מצדו המזרחי (ים המלח).",
+      "ar": "تلفريك ينقل الزوار إلى موقع مسعدة التراثي العالمي من الجانب الشرقي.",
+      "en": "Cable car taking visitors to the Masada World Heritage site from the eastern side.",
+      "ru": "Канатная дорога, поднимающая посетителей к крепости Масада."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "08:00-16:00"
+    }
+  },
+  {
+    "id": "1965",
+    "name": {
+      "he": "רכבל סטלה מאריס (חיפה) 🚠",
+      "ar": "تلفريك ستيلا ماريس",
+      "en": "Stella Maris Cable Car",
+      "ru": "Канатная дорога Стелла Марис"
+    },
+    "coords": [
+      32.8306,
+      34.9744
+    ],
+    "category": "attractions",
+    "description": {
+      "he": "רכבל תיירותי המורכב מקרוניות עגולות ושקופות, המקשר בין טיילת בת גלים למנזר סטלה מאריס.",
+      "ar": "تلفريك سياحي يتكون من عربات دائرية شفافة، يربط بين ممشى بات غاليم ودير ستيلا ماريس.",
+      "en": "Tourist cable car featuring transparent circular cabins, connecting the promenade to the monastery.",
+      "ru": "Туристическая канатная дорога с прозрачными кабинками на горе Кармель."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "10:00-18:00"
+    }
+  },
+  {
+    "id": "1966",
+    "name": {
+      "he": "רכבל החרמון 🚠",
+      "ar": "تلفريك جبل الشيخ",
+      "en": "Hermon Cable Car",
+      "ru": "Канатная дорога Хермон"
+    },
+    "coords": [
+      33.3001,
+      35.7711
+    ],
+    "category": "attractions",
+    "description": {
+      "he": "רכבל קרוניות סגורות המעלה מבקרים אל המפלס העליון של אתר החרמון.",
+      "ar": "تلفريك بعربات مغلقة ينقل الزوار إلى المستوى العلوي لموقع جبل الشيخ.",
+      "en": "Closed-cabin cable car taking visitors to the upper level of the Hermon site.",
+      "ru": "Современная канатная дорога на горнолыжном курорте Хермон."
+    },
+    "info": {
+      "target": "all",
+      "season": "all",
+      "hours": "08:00-16:00"
+    }
+  },
+  {
+    "id": "1967",
+    "name": {
+      "he": "רכבל צוק מנרה 🚠",
+      "ar": "تلفريك منحدر منارة",
+      "en": "Manara Cliff Cable Car",
+      "ru": "Канатная дорога Цук Манара"
+    },
+    "coords": [
+      33.1977,
+      35.575
+    ],
+    "category": "attractions",
+    "description": {
+      "he": "רכבל המקשר בין קריית שמונה לרכס רמים, מציע תצפית מרהיבה על עמק החולה (פועל בכפוף למצב הביטחוני).",
+      "ar": "تلفريك يربط بين كريات شمونة وجبل راميم، ويطل على سهل الحولة.",
+      "en": "Cable car connecting Kiryat Shmona to the Ramim Ridge.",
+      "ru": "Канатная дорога, соединяющая Кирьят-Шмона с хребтом Рамим."
+    },
+    "info": {
+      "target": "family",
+      "season": "all",
+      "hours": "Check Security"
+    }
   }
 ]
