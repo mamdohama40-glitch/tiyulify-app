@@ -877,7 +877,8 @@ export default function TiyulifyApp() {
                           if (name.includes('תיאטרון') || name.includes('theatre')) return '🎭';
                           return '🎡';
                         }
-                        if (cat === 'history') {
+                        if (name.includes('שכונ') || name.includes('ואדי') || name.includes('حي ') || name.includes('وادي') || name.includes('neighborhood') || name.includes('quarter')) return '🚩';
+        if (cat === 'history') {
           if (name.includes('מסגד') || name.includes('mosque') || name.includes('جامع') || name.includes('مسجد')) return '🕌';
           if (name.includes('כנסייה') || name.includes('church') || name.includes('כנסיה')) return '⛪';
           if (name.includes('בית כנסת') || name.includes('synagogue') || name.includes('כנס')) return '🕍';
