@@ -48726,5 +48726,299 @@
       "en": "Arab village in the Lower Galilee.",
       "ru": "Арабская деревня в Нижней Галилее."
     }
+  },
+  {
+    "id": "2142",
+    "name": {
+      "he": "וואדי ניסנאס",
+      "ar": "وادي النسناس",
+      "en": "Wadi Nisnas",
+      "ru": "Вади-Нисnas"
+    },
+    "coords": [
+      32.8167,
+      34.9833
+    ],
+    "category": "אחרי 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה ערבית היסטורית במרכז חיפה.",
+      "ar": "حي عربي تاريخي في وسط حيفا.",
+      "en": "Historic Arab neighborhood in central Haifa.",
+      "ru": "Исторический арабский район в центре Хайфы."
+    }
+  },
+  {
+    "id": "2143",
+    "name": {
+      "he": "עין הים",
+      "ar": "عين حود",
+      "en": "Ein Hawd",
+      "ru": "Эйн-Хауд"
+    },
+    "coords": [
+      32.7,
+      34.9833
+    ],
+    "category": "אחרי 1948",
+    "region": "north",
+    "description": {
+      "he": "כפר ערבי אמנים ליד חיפה.",
+      "ar": "قرية عربية للفنانين بالقرب من حيفا.",
+      "en": "Arab artists village near Haifa.",
+      "ru": "Арабская деревня художников рядом с Хайфой."
+    }
+  },
+  {
+    "id": "2144",
+    "name": {
+      "he": "הלסה",
+      "ar": "الهالصة",
+      "en": "Halisa",
+      "ru": "Халиса"
+    },
+    "coords": [
+      32.8333,
+      34.9833
+    ],
+    "category": "אחרי 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה ערבית בחיפה.",
+      "ar": "حي عربي في حيفا.",
+      "en": "Arab neighborhood in Haifa.",
+      "ru": "Арабский район в Хайфе."
+    }
+  },
+  {
+    "id": "2145",
+    "name": {
+      "he": "כבאביר",
+      "ar": "كبابير",
+      "en": "Kababir",
+      "ru": "Кабабир"
+    },
+    "coords": [
+      32.7833,
+      34.9667
+    ],
+    "category": "אחרי 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה אחמדית על הכרמל בחיפה.",
+      "ar": "حي أحمدي على جبل الكرمل في حيفا.",
+      "en": "Ahmadiyya neighborhood on Mount Carmel in Haifa.",
+      "ru": "Ахмадийский район на горе Кармель в Хайфе."
+    }
+  },
+  {
+    "id": "2146",
+    "name": {
+      "he": "כרמל מזרחי",
+      "ar": "الكرمل الشرقي",
+      "en": "East Carmel",
+      "ru": "Восточный Кармель"
+    },
+    "coords": [
+      32.8,
+      35.0
+    ],
+    "category": "אחרי 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה ערבית על הכרמל בחיפה.",
+      "ar": "حي عربي على جبل الكرمل في حيفا.",
+      "en": "Arab neighborhood on Mount Carmel in Haifa.",
+      "ru": "Арабский район на горе Кармель в Хайфе."
+    }
+  },
+  {
+    "id": "2147",
+    "name": {
+      "he": "ראס אל-עמוד",
+      "ar": "رأس العمود",
+      "en": "Ras al-Amud",
+      "ru": "Рас-эль-Амуд"
+    },
+    "coords": [
+      31.7667,
+      35.2333
+    ],
+    "category": "אחרי 1948",
+    "region": "center",
+    "description": {
+      "he": "שכונה ערבית במזרח ירושלים.",
+      "ar": "حي عربي في شرق القدس.",
+      "en": "Arab neighborhood in East Jerusalem.",
+      "ru": "Арабский район в Восточном Иерусалиме."
+    }
+  },
+  {
+    "id": "2148",
+    "name": {
+      "he": "אבו תור",
+      "ar": "أبو طور",
+      "en": "Abu Tor",
+      "ru": "Абу-Тор"
+    },
+    "coords": [
+      31.7667,
+      35.2167
+    ],
+    "category": "אחרי 1948",
+    "region": "center",
+    "description": {
+      "he": "שכונה מעורבת בדרום ירושלים.",
+      "ar": "حي مختلط في جنوب القدس.",
+      "en": "Mixed neighborhood in southern Jerusalem.",
+      "ru": "Смешанный район на юге Иерусалима."
+    }
+  },
+  {
+    "id": "2149",
+    "name": {
+      "he": "עג'מי",
+      "ar": "العجمي",
+      "en": "Ajami",
+      "ru": "Аджами"
+    },
+    "coords": [
+      32.0333,
+      34.75
+    ],
+    "category": "אחרי 1948",
+    "region": "center",
+    "description": {
+      "he": "שכונה ערבית ביפו.",
+      "ar": "حي عربي في يافا.",
+      "en": "Arab neighborhood in Jaffa.",
+      "ru": "Арабский район в Яффо."
+    }
+  },
+  {
+    "id": "2150",
+    "name": {
+      "he": "נווה שאנן",
+      "ar": "نوي شاانان",
+      "en": "Neve Shaanan",
+      "ru": "Неве-Шаанан"
+    },
+    "coords": [
+      32.8,
+      34.9833
+    ],
+    "category": "אחרי 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה בדרום חיפה עם אוכלוסייה מעורבת.",
+      "ar": "حي في جنوب حيفا بسكان مختلطين.",
+      "en": "Neighborhood in southern Haifa with mixed population.",
+      "ru": "Район на юге Хайфы со смешанным населением."
+    }
+  },
+  {
+    "id": "2151",
+    "name": {
+      "he": "ג'מאסין",
+      "ar": "الجماسين",
+      "en": "Jamassin",
+      "ru": "Джамасин"
+    },
+    "coords": [
+      32.0833,
+      34.7833
+    ],
+    "category": "אחרי 1948",
+    "region": "center",
+    "description": {
+      "he": "שכונה ערבית לשעבר בתל אביב-יפו.",
+      "ar": "حي عربي سابق في تل أبيب-يافا.",
+      "en": "Former Arab neighborhood in Tel Aviv-Jaffa.",
+      "ru": "Бывший арабский район в Тель-Авиве-Яффо."
+    }
+  },
+  {
+    "id": "2152",
+    "name": {
+      "he": "מנשייה",
+      "ar": "المنشية",
+      "en": "Manshiyya",
+      "ru": "Маншия"
+    },
+    "coords": [
+      32.0833,
+      34.7667
+    ],
+    "category": "אחרי 1948",
+    "region": "center",
+    "description": {
+      "he": "שכונה ערבית לשעבר בגבול תל אביב-יפו.",
+      "ar": "حي عربي سابق على حدود تل أبيب-يافا.",
+      "en": "Former Arab neighborhood on the Tel Aviv-Jaffa border.",
+      "ru": "Бывший арабский район на границе Тель-Авива и Яффо."
+    }
+  },
+  {
+    "id": "2153",
+    "name": {
+      "he": "שייח' ברק",
+      "ar": "شيخ بريك",
+      "en": "Sheikh Breik",
+      "ru": "Шейх-Брейк"
+    },
+    "coords": [
+      32.8167,
+      34.9667
+    ],
+    "category": "אחרי 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה ערבית בחיפה.",
+      "ar": "حي عربي في حيفا.",
+      "en": "Arab neighborhood in Haifa.",
+      "ru": "Арабский район в Хайфе."
+    }
+  },
+  {
+    "id": "2154",
+    "name": {
+      "he": "ספורייה",
+      "ar": "صفورية",
+      "en": "Saffuriyya",
+      "ru": "Саффурия"
+    },
+    "coords": [
+      32.7667,
+      35.2833
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "כפר ערבי שנהרס ב-1948, כיום אתר היסטורי.",
+      "ar": "قرية عربية دمرت عام 1948، اليوم موقع تاريخي.",
+      "en": "Arab village destroyed in 1948, now a historical site.",
+      "ru": "Арабская деревня, разрушенная в 1948 году."
+    }
+  },
+  {
+    "id": "2155",
+    "name": {
+      "he": "מעלול",
+      "ar": "معلول",
+      "en": "Maaloul",
+      "ru": "Маалул"
+    },
+    "coords": [
+      32.7333,
+      35.25
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "כפר ערבי שנהרס ב-1948, תושביו עקורים.",
+      "ar": "قرية عربية دمرت عام 1948، سكانها مهجرون.",
+      "en": "Arab village destroyed in 1948, residents displaced.",
+      "ru": "Арабская деревня, разрушенная в 1948 году."
+    }
   }
 ]
