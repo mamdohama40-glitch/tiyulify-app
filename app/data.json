@@ -49020,5 +49020,173 @@
       "en": "Arab village destroyed in 1948, residents displaced.",
       "ru": "Арабская деревня, разрушенная в 1948 году."
     }
+  },
+  {
+    "id": "2156",
+    "name": {
+      "he": "ואדי סאליב",
+      "ar": "وادي الصليب",
+      "en": "Wadi Salib",
+      "ru": "Вади-Салиб"
+    },
+    "coords": [
+      32.8125,
+      35.0011
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה ערבית היסטורית בחיפה.",
+      "ar": "حي عربي تاريخي في حيفا.",
+      "en": "Historic Arab neighborhood in Haifa.",
+      "ru": "Исторический арабский район в Хайфе."
+    }
+  },
+  {
+    "id": "2157",
+    "name": {
+      "he": "שכונת התחנה",
+      "ar": "حي المحطة",
+      "en": "Al-Mahatta Neighborhood",
+      "ru": "Квартал Аль-Махатта"
+    },
+    "coords": [
+      32.8247,
+      34.9961
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה ערבית עתיקה ליד תחנת הרכבת בחיפה.",
+      "ar": "حي عربي عتيق بالقرب من محطة القطار في حيفا.",
+      "en": "Ancient Arab neighborhood near Haifa train station.",
+      "ru": "Старый арабский район рядом с железнодорожной станцией Хайфы."
+    }
+  },
+  {
+    "id": "2158",
+    "name": {
+      "he": "ואדי ניסנאס",
+      "ar": "وادي النسناس",
+      "en": "Wadi Nisnas",
+      "ru": "Вади Нисснас"
+    },
+    "coords": [
+      32.8175,
+      34.9936
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה ערבית היסטורית במרכז חיפה.",
+      "ar": "حي عربي تاريخي في وسط حيفا.",
+      "en": "Historic Arab neighborhood in central Haifa.",
+      "ru": "Исторический арабский район в центре Хайфы."
+    }
+  },
+  {
+    "id": "2159",
+    "name": {
+      "he": "חליסה",
+      "ar": "حي الحليصة",
+      "en": "Halissa",
+      "ru": "Халиса"
+    },
+    "coords": [
+      32.8014,
+      35.0119
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה ערבית בחיפה.",
+      "ar": "حي عربي في حيفا.",
+      "en": "Arab neighborhood in Haifa.",
+      "ru": "Арабский район в Хайфе."
+    }
+  },
+  {
+    "id": "2160",
+    "name": {
+      "he": "שכונת עבאס",
+      "ar": "حي عباس",
+      "en": "Abbas Neighborhood",
+      "ru": "Квартал Аббас"
+    },
+    "coords": [
+      32.8164,
+      34.985
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה ערבית בחיפה.",
+      "ar": "حي عربي في حيفا.",
+      "en": "Arab neighborhood in Haifa.",
+      "ru": "Арабский район в Хайфе."
+    }
+  },
+  {
+    "id": "2161",
+    "name": {
+      "he": "ואדי אל-ג'מאל",
+      "ar": "وادي الجمال",
+      "en": "Wadi al-Jamal",
+      "ru": "Вади аль-Джамаль"
+    },
+    "coords": [
+      32.8233,
+      34.9664
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה ערבית בחיפה.",
+      "ar": "حي عربي في حيفا.",
+      "en": "Arab neighborhood in Haifa.",
+      "ru": "Арабский район в Хайфе."
+    }
+  },
+  {
+    "id": "2162",
+    "name": {
+      "he": "המושבה הגרמנית",
+      "ar": "حي الكولونية الألمانية",
+      "en": "German Colony",
+      "ru": "Немецкая колония"
+    },
+    "coords": [
+      32.8228,
+      34.9897
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה היסטורית בחיפה שהוקמה על ידי הטמפלרים.",
+      "ar": "حي تاريخي في حيفا أسسه الإسبيريين الألمان.",
+      "en": "Historic neighborhood in Haifa founded by German Templars.",
+      "ru": "Исторический район Хайфы, основанный немецкими тамплиерами."
+    }
+  },
+  {
+    "id": "2163",
+    "name": {
+      "he": "שכונת אל-כרמה",
+      "ar": "حي الكرمة",
+      "en": "Al-Karma Neighborhood",
+      "ru": "Квартал Аль-Карма"
+    },
+    "coords": [
+      32.8122,
+      34.9783
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "שכונה ערבית בחיפה.",
+      "ar": "حي عربي في حيفا.",
+      "en": "Arab neighborhood in Haifa.",
+      "ru": "Арабский район в Хайфе."
+    }
   }
 ]
