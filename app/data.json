@@ -49240,8 +49240,8 @@
       "ru": "Тель ас-Самак"
     },
     "coords": [
-      32.8258,
-      34.9525
+      32.8250125536923,
+      34.955670211181115
     ],
     "category": "לפני 1948",
     "region": "north",
@@ -49335,6 +49335,94 @@
       "ar": "سُميت نسبة إلى عائلة الخمرة العريقة. كانت الامتداد التجاري العصري للمدينة، وضمت فنادق فخمة ومكاتب شركات الشحن ومقاهي ثقافية للمثقفين والسياسيين.",
       "en": "Named after the Al-Khamra family. Was the modern commercial extension of the city, featuring luxury hotels, shipping offices, and cultural cafes frequented by intellectuals.",
       "ru": "Названа в честь семьи Аль-Хамра. Современный торговый центр города с роскошными отелями и культурными кафе."
+    },
+    "subcategory": "neighborhood"
+  },
+  {
+    "id": "2171",
+    "name": {
+      "he": "כפר ג'דרו",
+      "ar": "قرية جدرو",
+      "en": "Jadru Village",
+      "ru": "Деревня Джадру"
+    },
+    "coords": [
+      32.8465,
+      35.0662
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "כפר חקלאי היסטורי שעל אדמותיו הוקמו קריית ים ומזרח קריית מוצקין. תושביו גורשו בנכבה.",
+      "ar": "كانت قرية زراعية وتاريخية، أُقيمت على أراضيها مدينة كريات يام وشرق كريات موتسكين، وأُخرج سكانها بالكامل في النكبة.",
+      "en": "Historic agricultural village on whose lands Kiryat Yam and east Kiryat Motzkin were built. Residents expelled during the Nakba.",
+      "ru": "Историческая сельскохозяйственная деревня, на землях которой построены Кирьят-Ям и восток Кирьят-Моцкина."
+    },
+    "subcategory": "neighborhood"
+  },
+  {
+    "id": "2172",
+    "name": {
+      "he": "שבט אל-ע'וורנה",
+      "ar": "عشيرة الغوارنة",
+      "en": "Al-Ghawarna Tribe",
+      "ru": "Племя аль-Гаварна"
+    },
+    "coords": [
+      32.83,
+      35.08
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "שבט ערבי שמחנותיו השתרעו על הקרקעות שעליהן הוקמו קריית ביאליק וחלקים מקריית אתא. גורש עם ייבוש הביצות.",
+      "ar": "انتشرت مضاربهم في الأراضي التي تقوم عليها اليوم كريات بياليك وأجزاء من كريات عطا. تم تهجيرهم لتجفيف المستنقعات والتوسع الاستيطاني.",
+      "en": "Tribe whose encampments spread across lands now occupied by Kiryat Bialik and parts of Kiryat Ata. Displaced during swamp drainage.",
+      "ru": "Племя, чьи лагеря располагались на землях нынешних Кирьят-Биалика и части Кирьят-Аты."
+    },
+    "subcategory": "neighborhood"
+  },
+  {
+    "id": "2173",
+    "name": {
+      "he": "שבט א-סוואעד",
+      "ar": "قرية وعشيرة السواعد",
+      "en": "Al-Sawaed Tribe",
+      "ru": "Племя ас-Саваид"
+    },
+    "coords": [
+      32.815,
+      35.12
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "שבט וכפר שאדמותיו השתרעו בין קריית אתא לשפרעם. תושביו פוזרו, וחלקם נשאר בשפרעם ורס עין.",
+      "ar": "تعرضوا للتهجير وتشتت سكانها، وبقيت أجزاء من العشيرة في مناطق مجاورة مثل شفاعمرو وراس العين.",
+      "en": "Tribe whose lands stretched between Kiryat Ata and Shfaram. Displaced, with some remaining in neighboring areas.",
+      "ru": "Племя, чьи земли простирались между Кирьят-Атой и Шфарамом. Частично осталось в соседних районах."
+    },
+    "subcategory": "neighborhood"
+  },
+  {
+    "id": "2174",
+    "name": {
+      "he": "כפרתא",
+      "ar": "كفرتا",
+      "en": "Kafarta",
+      "ru": "Кафарта"
+    },
+    "coords": [
+      32.8055,
+      35.1054
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "חורבה מיושבת שהייתה המקור ההיסטורי של קריית אתא. אדמותיה נרכשו ותושביה הערבים גורשו לפני 1948 ובמהלכה.",
+      "ar": "كانت خربة مأهولة، هي الأصل التاريخي لمدينة كريات عطا. تم شراء أراضيها وتشريد سكانها العرب تدريجياً قبل عام 1948 وأثناءه.",
+      "en": "Inhabited ruin that was the historical origin of Kiryat Ata. Lands purchased and Arab residents gradually displaced before and during 1948.",
+      "ru": "Населённые руины, исторический предшественник Кирьят-Аты. Арабские жители постепенно вытеснены до и во время 1948 года."
     },
     "subcategory": "neighborhood"
   }
