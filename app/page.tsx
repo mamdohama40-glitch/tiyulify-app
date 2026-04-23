@@ -933,9 +933,22 @@ export default function TiyulifyApp() {
                   </MapContainer>
 
                   {/* ===== כפתורי שליטה ===== */}
-                  <div className="hidden">
-                    <button onClick={handleSurpriseMe} className="hidden"></button>
-                    <button onClick={()=>setActiveView('home')} className="hidden"></button>
+                  <div className="absolute bottom-6 left-6 z-[2000] flex flex-col gap-4">
+                    <button onClick={handleSurpriseMe} className="hidden md:flex bg-green-600 text-white w-28 h-28 rounded-full shadow-2xl flex-col items-center justify-center text-xs font-black border-4 border-white hover:bg-green-700 transition-all transform hover:scale-110 active:scale-90">
+                      <span className="text-6xl mb-1">🎲</span>{labels[activeLang].surprise}
+                    </button>
+                    <button onClick={()=>setActiveView('home')} className="hidden md:flex bg-white text-green-600 w-20 h-20 rounded-full shadow-2xl items-center justify-center text-5xl border-4 border-green-600 hover:bg-green-50 transition-all transform hover:scale-110 active:scale-90">🏠</button>
+                    <button onClick={()=>{
+                      if(userCoords){setUserCoords(null);}
+                      else{if(navigator.geolocation){navigator.geolocation.getCurrentPosition((p)=>setUserCoords([p.coords.latitude,p.coords.longitude]),()=>{},{enableHighAccuracy:true});}}
+                    }} className="hidden md:flex bg-white w-14 h-14 rounded-full shadow-2xl items-center justify-center border-2 hover:bg-gray-50 transition-all transform hover:scale-110 active:scale-90"
+                    style={{borderColor: userCoords ? '#16a34a' : '#9ca3af'}}>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill={userCoords ? '#16a34a' : '#9ca3af'}>
+                        <circle cx="12" cy="12" r="4"/>
+                        <path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke={userCoords ? '#16a34a' : '#9ca3af'} strokeWidth="2" strokeLinecap="round"/>
+                        <circle cx="12" cy="12" r="9" fill="none" stroke={userCoords ? '#16a34a' : '#9ca3af'} strokeWidth="2"/>
+                      </svg>
+                    </button>
                   </div>
 
                   {/* ===== בורר שכבות מפה ===== */}
