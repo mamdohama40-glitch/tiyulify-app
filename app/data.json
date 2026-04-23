@@ -49293,5 +49293,49 @@
       "en": "Small Arab communities located on the mountain heights near Wadi Nisnas and Carmel.",
       "ru": "Небольшие арабские общины на вершинах горы рядом с Вади Нисснас и Кармелем."
     }
+  },
+  {
+    "id": "2169",
+    "name": {
+      "he": "כיכר פריס",
+      "ar": "ساحة الحناطير",
+      "en": "Paris Square",
+      "ru": "Площадь Париж"
+    },
+    "coords": [
+      32.8181,
+      35.0001
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "כיכר הנטירים, הייתה המרכז המנהלי והמסחרי החשוב ביותר בחיפה הערבית. כללה את מסגד אל-איסתקלאל, הסראייה העות'מאנית ומגדל השעון.",
+      "ar": "كانت تُعرف بساحة الحناطير، وكانت المركز الإداري والتجاري الأهم في حيفا العربية. ضمت مسجد الاستقلال والسرايا القديمة وبرج الساعة العثماني.",
+      "en": "Known as Hannатир Square, it was the most important administrative and commercial center of Arab Haifa, featuring the Istiqlal Mosque, Ottoman Seraya, and clock tower.",
+      "ru": "Известна как площадь Аль-Ханатир, главный административный и торговый центр арабской Хайфы."
+    },
+    "subcategory": "neighborhood"
+  },
+  {
+    "id": "2170",
+    "name": {
+      "he": "כיכר ח'ייאט",
+      "ar": "ساحة الخمرة",
+      "en": "Khayat Square",
+      "ru": "Площадь Хайят"
+    },
+    "coords": [
+      32.8197,
+      34.9972
+    ],
+    "category": "לפני 1948",
+    "region": "north",
+    "description": {
+      "he": "נקראה על שם משפחת אל-ח'מרה הערבית. הייתה המרחב המסחרי המודרני שחיבר בין הרובע הישן לשכונות החדשות. כללה מלונות יוקרה, משרדי ספנות וקפה תרבותיים.",
+      "ar": "سُميت نسبة إلى عائلة الخمرة العريقة. كانت الامتداد التجاري العصري للمدينة، وضمت فنادق فخمة ومكاتب شركات الشحن ومقاهي ثقافية للمثقفين والسياسيين.",
+      "en": "Named after the Al-Khamra family. Was the modern commercial extension of the city, featuring luxury hotels, shipping offices, and cultural cafes frequented by intellectuals.",
+      "ru": "Названа в честь семьи Аль-Хамра. Современный торговый центр города с роскошными отелями и культурными кафе."
+    },
+    "subcategory": "neighborhood"
   }
 ]
