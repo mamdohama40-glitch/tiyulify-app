@@ -941,7 +941,7 @@ export default function TiyulifyApp() {
                     <button onClick={()=>{
                       if(userCoords){setUserCoords(null);}
                       else{if(navigator.geolocation){navigator.geolocation.getCurrentPosition((p)=>setUserCoords([p.coords.latitude,p.coords.longitude]),()=>{},{enableHighAccuracy:true});}}
-                    }} className="hidden md:flex bg-white w-14 h-14 rounded-full shadow-2xl items-center justify-center border-2 hover:bg-gray-50 transition-all transform hover:scale-110 active:scale-90"
+                    }} className="flex bg-white w-14 h-14 rounded-full shadow-2xl items-center justify-center border-2 hover:bg-gray-50 transition-all transform hover:scale-110 active:scale-90"
                     style={{borderColor: userCoords ? '#16a34a' : '#9ca3af'}}>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill={userCoords ? '#16a34a' : '#9ca3af'}>
                         <circle cx="12" cy="12" r="4"/>
