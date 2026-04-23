@@ -933,7 +933,7 @@ export default function TiyulifyApp() {
                   </MapContainer>
 
                   {/* ===== כפתורי שליטה ===== */}
-                  <div className="absolute bottom-6 left-6 z-[2000] flex flex-col gap-4">
+                  <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-[2000] flex flex-row gap-6">
                     <button onClick={handleSurpriseMe} className="hidden md:flex bg-green-600 text-white w-28 h-28 rounded-full shadow-2xl flex-col items-center justify-center text-xs font-black border-4 border-white hover:bg-green-700 transition-all transform hover:scale-110 active:scale-90">
                       <span className="text-6xl mb-1">🎲</span>{labels[activeLang].surprise}
                     </button>
